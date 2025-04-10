@@ -23,7 +23,7 @@ Utilisez la fonctionnalité de journaux d’audit de Real-Time CDP Collaboration
 
 ![Écran de présentation de haut niveau de la fonctionnalité des journaux d’audit](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-Pour obtenir des informations plus complètes sur les journaux d’audit, consultez la documentation sur les journaux d’audit Adobe Experience Platform [](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview).
+Pour obtenir des informations plus complètes sur les journaux d’audit, consultez la documentation sur les journaux d’audit Adobe Experience Platform [](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Accéder aux journaux d’audit
 

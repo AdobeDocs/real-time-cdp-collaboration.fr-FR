@@ -1,6 +1,6 @@
 ---
 title: Mesure de campagne
-description: Mesurer les performances de vos campagnes sur différents canaux
+description: Mesurez les performances de vos campagnes sur différents canaux
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
@@ -14,6 +14,6 @@ ht-degree: 25%
 
 # Mesure de campagne
 
-**Travaux en cours**
+**Travail en cours**
 
 Contenu à suivre

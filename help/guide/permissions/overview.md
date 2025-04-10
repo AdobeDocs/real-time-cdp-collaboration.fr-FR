@@ -23,14 +23,14 @@ Le contrôle d’accès pour Real-Time Customer Data Platform (CDP) Collaboratio
 
 ## Hiérarchie du contrôle d’accès {#hierarchy}
 
-Pour configurer le contrôle d’accès sur Real-Time CDP Collaboration, vous **devez** disposer de droits d’administrateur système ou produit. Un administrateur système n’a aucune restriction et est configuré pendant le processus d’intégration. En attendant, un administrateur produit peut fournir des fonctions administratives pour tous les produits auxquels il a été affecté. Un administrateur de produit doit disposer d’un accès produit et administratif par un administrateur système.
+Pour configurer le contrôle d’accès sur Real-Time CDP Collaboration, vous **devez** disposer de droits d’administrateur système ou produit. Un administrateur système n’a aucune restriction et est configuré pendant le processus d’intégration. En attendant, un administrateur produit peut fournir des fonctions administratives pour tous les produits auxquels il a été affecté. Un administrateur de produit doit disposer d’un accès de produit et d’administration de la part d’un administrateur système.
 
-Ces guides décrivent la configuration de l’accès pour les administrateurs système, les administrateurs de produit et les utilisateurs finaux. Reportez-vous au tableau ci-dessous pour comprendre la principale différence entre les rôles.
+Ces guides décrivent la configuration de l’accès pour les administrateurs système, les administrateurs de produit et les utilisateurs finaux. Reportez-vous au tableau ci-dessous pour comprendre la différence clé entre les rôles.
 
 | Rôle | Description |
 | --- | --- | 
 | Administrateur système | Super utilisateur ou super utilisatrice de l’organisation. Ils sont en mesure d’effectuer toutes les tâches administratives dans Admin Console et disposent des autorisations pour déléguer des fonctions administratives à d’autres utilisateurs. |
-| Administrateur de produit | Administration des produits qui leur sont affectés et de toutes les fonctions administratives associées, telles que l’ajout d’utilisateurs à des organisations, l’ajout ou la suppression d’utilisateurs de profils de produit et l’ajout ou la suppression d’autres administrateurs de produit d’un produit. |
+| Administrateur de produit | Administre les produits qui leur sont affectés et toutes les fonctions administratives associées, telles que l’ajout d’utilisateurs à des organisations, l’ajout ou la suppression d’utilisateurs à des profils de produit, ainsi que l’ajout ou la suppression d’autres administrateurs de produit d’un produit. |
 | Utilisateur final | Utilisateurs de votre entreprise qui utilisent les produits. |
 
 {style="table-layout:auto"}
@@ -58,19 +58,19 @@ Maintenant que vous avez une meilleure compréhension des rôles d’utilisateur
 - si vous affectez un accès administrateur ou utilisateur final
 - si les utilisateurs ont déjà accès au produit Experience Platform
 
-Reportez-vous au tableau ci-dessous pour déterminer qui est nécessaire pour configurer les privilèges et par où commencer en fonction de votre cas d’utilisation du contrôle d’accès. **Assurez-vous de suivre le tutoriel jusqu’à la fin du guide à partir de votre point de départ.**
+Reportez-vous au graphique ci-dessous pour déterminer qui est nécessaire pour configurer les privilèges et où commencer en fonction de votre cas d’utilisation du contrôle d’accès. **Veillez à suivre le tutoriel jusqu’à la fin du guide, depuis votre point de départ.**
 
 >[!TIP]
 >
-> Un super utilisateur fait référence au niveau d’accès le plus élevé obtenu par l’administrateur système. Un super utilisateur peut effectuer toutes les tâches administratives et toutes les fonctionnalités utilisateur. Un administrateur système ne dispose pas des fonctionnalités du produit prêtes à l’emploi et doit se donner l’accès approprié, comme indiqué dans le tableau ci-dessous.
+> Un super utilisateur fait référence au niveau d’accès le plus élevé que peut obtenir l’administrateur ou l’administratrice système. Un super utilisateur peut effectuer toutes les tâches administratives et exécuter toutes les fonctionnalités utilisateur. Un administrateur ou une administratrice système ne dispose pas de fonctionnalités de produit prêtes à l’emploi et doit se donner l’accès approprié, comme illustré dans le graphique ci-dessous.
 
 | Cas d’utilisation | Rôle requis | Par où commencer |
 | --- | --- | --- | 
 | Super utilisateur sans accès existant au produit Experience Platform. | Un administrateur système. | [Configuration de l’accès administrateur de produit](./manage-user-access.md#admin-access) |
-| Super utilisateur pour un administrateur système Experience Platform existant **avec accès à**’interface utilisateur d’Experience Platform). | administrateur système. | [Configuration de l’accès à la plateforme CDP en temps réel pour la collaboration](./manage-user-access.md#RTCDP-collab-access) |
+| Super utilisateur pour un administrateur système Experience Platform existant **avec accès à**’interface utilisateur d’Experience Platform). | Un administrateur système. | [Configurer l’accès à Real-Time CDP Collaboration](./manage-user-access.md#RTCDP-collab-access) |
 | Super utilisateur pour un administrateur système Experience Platform existant **sans accès** à l’interface utilisateur d’Experience Platform. | Un administrateur système. | [Configuration de l’accès administrateur de produit](./manage-user-access.md#admin-access) |
-| Privilèges d’administrateur de produit et accès à Real-Time CDP Collaboration pour un nouvel administrateur de produit. | administrateur système. | [Configuration de l’accès administrateur du produit](./manage-user-access.md#admin-access) |
-| Accès à la collaboration CDP en temps réel pour un administrateur **produit Experience Platform existant disposant** d’un accès Experience Platform à l’interface utilisateur. | Un administrateur système ou de produit. | [Configuration de l’accès à la plateforme CDP en temps réel pour la collaboration](./manage-user-access.md#RTCDP-collab-access) |
+| Privilèges d’administrateur de produit et accès à Real-Time CDP Collaboration pour un nouvel administrateur de produit. | Un administrateur système. | [Configuration de l’accès administrateur de produit](./manage-user-access.md#admin-access) |
+| Accès à Real-Time CDP Collaboration pour un administrateur de produit Experience Platform existant **avec** accès à l’interface utilisateur d’Experience Platform. | Un administrateur système ou produit. | [Configurer l’accès à Real-Time CDP Collaboration](./manage-user-access.md#RTCDP-collab-access) |
 | Accès à Real-Time CDP Collaboration pour un administrateur de produit Experience Platform existant **sans accès** à l’interface utilisateur d’Experience Platform. | Un administrateur système ou produit. | [Configurer l’accès utilisateur](./manage-user-access.md#user-access) |
 | Accès à Real-Time CDP Collaboration pour un nouvel utilisateur final. | Un administrateur système ou produit. | [Configurer l’accès utilisateur](./manage-user-access.md#user-access) |
 | Accès à Real-Time CDP Collaboration pour un utilisateur existant disposant d’un accès à Experience Platform. | Un administrateur système ou produit. | [Configurer l’accès à Real-Time CDP Collaboration](./manage-user-access.md#RTCDP-collab-access) |
@@ -81,16 +81,16 @@ Reportez-vous au tableau ci-dessous pour déterminer qui est nécessaire pour co
 
 Une fois que vous avez obtenu l’accès à Real-Time CDP Collaboration, vous pouvez avoir besoin de certaines autorisations Experience Platform supplémentaires pour une fonctionnalité spécifique.
 
-### Importation d’audiences {#audience-importation}
+### Importation d’audience {#audience-importation}
 
 Avant de pouvoir commencer à partager des audiences avec des collaborateurs, vous devez importer des audiences dans Real-Time CDP Collaboration. Actuellement, la seule connexion aux données prise en charge pour l’importation d’audiences est Experience Platform. Pour commencer, la ou les personnes qui gèrent l’intégration de l’audience devront se voir attribuer un rôle contenant les autorisations de ressources **Gestion des profils** suivantes :
 
 | Autorisation | Description |
 | ---- | ---- |
-| Afficher les segments | Permet à l’utilisateur de voir la liste des audiences disponibles dans un environnement de test. |
+| Afficher les segments | Permet à l’utilisateur d’afficher la liste des audiences disponibles dans un sandbox. |
 | Affichage des profils | Permet à l’utilisateur de voir les champs disponibles pour le mappage aux champs de collaboration. |
 
-Ci-dessous, vous pouvez voir un exemple de rôle avec les autorisations ci-dessus ajoutées. Pour plus d’informations sur la création ou l’attribution [de rôles, reportez-vous au guide de gestion des rôles](./manage-roles.md) .
+Vous trouverez ci-dessous un exemple de rôle avec les autorisations ajoutées ci-dessus. Pour plus d&#39;informations sur la création ou l&#39;affectation de rôles, consultez le guide [gérer les rôles](./manage-roles.md).
 
 ![Espace de travail des ressources dans Autorisations avec les autorisations Afficher les segments et Afficher les profils ajoutées à la ressource Gestion des profils.](../../assets/permissions/sample-audience-role.png)
 

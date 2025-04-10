@@ -6,7 +6,7 @@ badgelimitedavailability: label="Disponibilité limitée" type="Informative" url
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
 workflow-type: tm+mt
-source-wordcount: '2653'
+source-wordcount: '2642'
 ht-degree: 3%
 
 ---
@@ -91,15 +91,15 @@ Ensuite, vous devez vous assurer que les actions marketing correctes sont défin
 
 Utilisez des actions marketing pour contrôler les données d’audience à importer dans Real-Time CDP Collaboration à partir d’Experience Platform. L’action marketing **Collaboration de données** prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing **Science des données** prend en charge le libellé d’utilisation des données C9.
 
-En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}{target=« _blank »}.
+En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Lorsque la case à cocher *activée*, toutes les données marquées avec les libellés mentionnés ci-dessus dans Experience Platform sont exclues et ne sont *pas* importées dans Real-Time CDP Collaboration.
 * Lorsque la case à cocher *désactivée*, il n’existe aucune restriction sur les données d’Experience Platform qui peuvent être importées dans Real-Time CDP Collaboration.
 
 Consultez la documentation d’Experience Platform pour en savoir plus sur les libellés d’utilisation des données :
 
-* [Présentation des libellés d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}{target=« _blank »}
-* [Glossaire des libellés d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}{target=« _blank »}
+* [Présentation des libellés d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Glossaire des libellés d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![Actions marketing requises pour la collaboration sur les données.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -337,7 +337,7 @@ Choisissez si l’audience doit être privée pour vous ou utilisable et détect
 
 >[!IMPORTANT]
 >
->Quel que soit le statut d’accès (public, privé ou personnalisé), la population de toute audience contribue à la population **[!UICONTROL Toutes les audiences]** dans la vue d’analyse de chevauchement Découverte d’audience. <br> ![L’audience **Toutes les audiences** générée par le système dans l’analyse de chevauchement de la découverte d’audiences inclut les audiences avec tous les statuts d’accès aux connexions (publique, privée, personnalisée).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "L’audience générée par le système **Toutes les audiences** dans l’analyse de chevauchement **Découverte d’audiences** inclut les audiences avec tous les statuts d’accès aux connexions (publique, privée, personnalisée)."){width="100" zoomable="yes"}{width=« 100 » zoomable=« yes »}
+>Quel que soit le statut d’accès (public, privé ou personnalisé), la population de toute audience contribue à la population **[!UICONTROL Toutes les audiences]** dans la vue d’analyse de chevauchement Découverte d’audience. <br> ![L’audience **Toutes les audiences** générée par le système dans l’analyse de chevauchement de la découverte d’audiences inclut les audiences avec tous les statuts d’accès aux connexions (publique, privée, personnalisée).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "L’audience générée par le système **Toutes les audiences** dans l’analyse de chevauchement **Découverte d’audiences** inclut les audiences avec tous les statuts d’accès aux connexions (publique, privée, personnalisée)."){width="100" zoomable="yes"}
 
 La disponibilité de l’audience à utiliser dans les projets avec des collaborateurs diffère selon le paramètre d’accès à la connexion. Vous pouvez toujours modifier l’accès à la connexion de privé à public, mais vous ne pouvez pas revenir en arrière une fois qu’une audience est partagée avec des collaborateurs.
 

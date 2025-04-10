@@ -6,8 +6,8 @@ badgelimitedavailability: label="Disponibilité limitée" type="Informative" url
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 2%
+source-wordcount: '882'
+ht-degree: 1%
 
 ---
 
@@ -85,7 +85,7 @@ Les informations affichées concernent :
 | **[!UICONTROL Pourcentage de chevauchement]** | Pourcentage de profils qui se chevauchent entre votre audience et l’audience sélectionnée de votre collaborateur. |
 | **[!UICONTROL Répartition des identités par clé de correspondance]** | En fonction des clés de correspondance convenues entre vous et votre collaborateur pour le projet, afficher la composition des identités dans les calculs de chevauchement par clés de correspondance individuelles. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!TIP]
 >

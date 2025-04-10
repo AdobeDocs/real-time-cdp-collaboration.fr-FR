@@ -15,6 +15,6 @@ ht-degree: 26%
 
 # Suppression
 
-**Travaux en cours**
+**Travail en cours**
 
 Contenu à suivre

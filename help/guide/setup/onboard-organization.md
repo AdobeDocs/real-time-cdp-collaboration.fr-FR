@@ -6,8 +6,8 @@ badgelimitedavailability: label="Disponibilité limitée" type="Informative" url
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 2%
+source-wordcount: '841'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Découvrez comment intégrer votre organisation dans Real-Time CDP Collaboration et gérer divers aspects de votre entreprise. Cette page décrit les étapes d’intégration d’une organisation à Adobe Real-Time CDP Collaboration, y compris la définition de vos clés de correspondance, de vos identités préférées et d’autres options.
 
-![Page de configuration](/help/assets/setup/manage-organization/my-organization.png){zoomable="yes"}{zoomable=« yes »}
+![Page de configuration](/help/assets/setup/manage-organization/my-organization.png){zoomable="yes"}
 
 ## Configuration initiale de l’organisation
 
@@ -27,7 +27,7 @@ Vous devez d’abord configurer les détails de votre organisation et de votre o
 >
 >Après avoir configuré un compte initial, vous pouvez utiliser le même workflow pour configurer des comptes supplémentaires au sein de la même organisation.
 
-![Sélectionnez Compte pour ajouter une nouvelle organisation à Real-Time CDP Collaboration](/help/assets/setup/manage-organization/add-new-account.png){zoomable="yes"}{zoomable=« yes »}
+![Sélectionnez Compte pour ajouter une nouvelle organisation à Real-Time CDP Collaboration](/help/assets/setup/manage-organization/add-new-account.png){zoomable="yes"}
 
 Le workflow de configuration de votre organisation comprend les deux pages ci-dessous :
 
@@ -40,7 +40,7 @@ Le workflow de configuration de votre organisation comprend les deux pages ci-de
 
 ### Configurer les détails {#set-up-details}
 
-![Étapes de détails et de cas d’utilisation pour configurer une organisation](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}{zoomable=« yes »}
+![Étapes de détails et de cas d’utilisation pour configurer une organisation](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
 
 1. Ajoutez un **[!UICONTROL nom de l’organisation]** pour votre société.
 2. Ajoutez une **[!UICONTROL Description]** à propos de votre entreprise.
@@ -48,7 +48,7 @@ Le workflow de configuration de votre organisation comprend les deux pages ci-de
 4. Sélectionnez le **[!UICONTROL secteur]** de votre organisation. Par exemple, **[!UICONTROL Vente au détail]**, **[!UICONTROL Télécommunications]** ou **[!UICONTROL Services financiers]**.
 5. Sélectionnez la **[!UICONTROL Région]** de votre organisation. Dans la version actuelle du produit, **[!UICONTROL Amérique du Nord]** est la sélection par défaut prédéfinie.
 6. <span class="preview"> Publisher-only </span> : lors de la configuration d&#39;une organisation d&#39;éditeur, vous devez lire et reconnaître que vous serez détectable par les annonceurs dans le catalogue de l&#39;éditeur.
-   ![Message d’accord préalable spécifique à l’éditeur.](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+   ![Message d’accord préalable spécifique à l’éditeur.](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}
 7. Chargez un **[!UICONTROL Logo]** pour votre entreprise. Actuellement, les images de type SVG sont prises en charge.
 8. Sélectionnez une image pour l’image d’en-tête de votre société.
 
@@ -82,7 +82,7 @@ Les clés de correspondance, telles que les adresses e-mail, les identifiants d�
 
 Sélectionnez les clés de correspondance à utiliser pour réconcilier les membres des audiences de l’éditeur et de l’annonceur. Incluez toutes les clés de correspondance que votre entreprise peut utiliser. Planifiez pour l’avenir et sélectionnez les clés de correspondance que vous prévoyez d’utiliser dans les futures campagnes éditeur-annonceur. Si vous devez sélectionner des clés de correspondance supplémentaires pour votre organisation, vous pouvez également le faire ultérieurement, dans le workflow [modifier l’organisation](#edit-organization).
 
-![Étape de sélection des clés de correspondance.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![Étape de sélection des clés de correspondance.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
 Sélectionnez jusqu’à cinq clés de correspondance que vous prévoyez d’utiliser. Ultérieurement, lors de la configuration des connexions, vous pouvez supprimer les clés de correspondance indésirables, mais vous ne pouvez pas en ajouter de nouvelles. Définissez le seuil du nombre d’identités (nombre minimum) pour chaque clé de correspondance sélectionnée. Les clés de correspondance dont le nombre est inférieur au nombre minimum n’apparaîtront pas dans les répartitions d’identité de certains cas d’utilisation.
 
@@ -111,15 +111,15 @@ Une fois prêt, sélectionnez **[!UICONTROL Terminé]** pour terminer le workflo
 
 Après avoir configuré votre organisation, vous pouvez à tout moment modifier certains aspects et détails de l’organisation. Pour modifier votre organisation, sélectionnez **[!UICONTROL Modifier]** dans la vue **[!UICONTROL Mon organisation]**.
 
-![Modifier le contrôle de l’organisation mis en surbrillance.](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![Modifier le contrôle d’organisation mis en surbrillance.](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}
 
 À ce stade, vous pouvez mettre à jour le nom, la description, le logo et la photo de profil de l’organisation.
 
-![Options modifiables pour les organisations.](/help/assets/setup/manage-organization/editable-options.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![Options modifiables pour les organisations.](/help/assets/setup/manage-organization/editable-options.png){zoomable="yes"}
 
 Vous pouvez également mettre à jour les clés de correspondance que vous avez sélectionnées initialement lors de l’intégration de votre organisation, ainsi que le seuil minimal pour que les identités correspondant aux clés de correspondance soient visibles et utilisables dans les chevauchements d’audience et d’autres zones de produits. Sélectionnez **[!UICONTROL Modifier]** dans l’onglet **[!UICONTROL Clés de correspondance]** pour ajouter d’autres clés de correspondance souhaitées ou mettre à jour les seuils d’identité.
 
-![Modifier les clés de correspondance](/help/assets/setup/manage-organization/edit-match-keys.png){zoomable="yes"}{zoomable=« yes »}
+![Modifier les clés de correspondance](/help/assets/setup/manage-organization/edit-match-keys.png){zoomable="yes"}
 
 ## Étapes suivantes
 

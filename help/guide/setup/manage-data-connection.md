@@ -6,8 +6,8 @@ badgelimitedavailability: label="Disponibilité limitée" type="Informative" url
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 6%
+source-wordcount: '415'
+ht-degree: 4%
 
 ---
 
@@ -25,15 +25,15 @@ Avant de gérer vos connexions de données ici, vous devez d’abord les configu
 
 >[!IMPORTANT]
 >
->La suppression d’une connexion de données n’est actuellement pas prise en charge dans l’interface utilisateur de Real-Time CDP Collaboration. Pour supprimer une connexion de données, contactez votre représentant Adobe ou [créez un ticket de service clientèle](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}{target=« _blank »}.
+>La suppression d’une connexion de données n’est actuellement pas prise en charge dans l’interface utilisateur de Real-Time CDP Collaboration. Pour supprimer une connexion de données, contactez votre représentant Adobe ou [créez un ticket de service clientèle](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}.
 
 Pour afficher les connexions de données existantes, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Mes audiences]**, puis sélectionnez **[!UICONTROL Gérer les connexions de données]**.
 
-![Configurer l’espace de travail avec l’option Gérer les connexions de données mise en surbrillance.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![Configuration de l’espace de travail avec l’option Gérer les connexions de données mise en surbrillance.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png){zoomable="yes"}
 
 Toutes les connexions de données actuellement configurées sont ainsi affichées, avec des informations sur le nombre d’audiences dans chacune d’elles, la source de la connexion de données, etc. Sélectionnez **[!UICONTROL Afficher la connexion de données]** pour afficher des informations sur les clés de correspondance, la planification et les audiences qui font partie de cette connexion de données.
 
-![Espace de travail Gérer les connexions de données avec une connexion Afficher les connexions de données en surbrillance. ](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![Espace de travail Gérer les connexions de données avec une connexion Afficher les connexions de données en surbrillance. ](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png){zoomable="yes"}
 
 ### Clés de correspondance {#match-keys}
 
@@ -48,7 +48,7 @@ Les clés de correspondance sont des identifiants utilisés pour réconcilier de
 
 Vous ne pouvez pas modifier les clés de correspondance utilisées dans cette connexion de données.
 
-![Un espace de travail des connexions de données avec la section Clés de correspondance mise en surbrillance.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![Un espace de travail des connexions de données avec la section Clés de correspondance mise en surbrillance.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
 ### Planification {#scheduling}
 
@@ -59,13 +59,13 @@ Vous ne pouvez pas modifier les clés de correspondance utilisées dans cette co
 
 Vous ne pouvez pas modifier les options de planification que vous avez sélectionnées initialement pour votre connexion aux données. Pour plus d’informations sur les options de planification, consultez la [section de planification](/help/guide/setup/onboard-audiences.md#schedule) dans le document du workflow d’importation d’audience.
 
-![Espace de travail des connexions de données avec la section Planification mise en surbrillance.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![Espace de travail des connexions de données avec la section Planification mise en surbrillance.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
 ## Gérer des audiences {#manage-audiences}
 
 Lors de l’affichage de la liste des audiences de votre connexion de données, vous pouvez choisir d’afficher les audiences, de modifier leurs catégories ou de les supprimer de la connexion de données.
 
-![Espace de travail des connexions de données avec les audiences en surbrillance.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![Espace de travail des connexions de données avec les audiences en surbrillance.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 
 ## Étapes suivantes
 

@@ -5,7 +5,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration permet un partage de d
 source-git-commit: 56872a2cd91ae040aba51ed5784c86b055f88756
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 23%
+ht-degree: 20%
 
 ---
 
@@ -13,10 +13,10 @@ ht-degree: 23%
 # Real-Time Customer Data Platform Collaboration {#using}
 
 * [Page de départ Real-Time CDP Collaboration](./home.md)
-* Vue d’ensemble {#overview}
+* Présentation {#overview}
    * [Cas d’utilisation et avantages](./use-cases-benefits.md)
    * [Workflow de bout en bout](./end-to-end-workflow.md)
-* Configuration {#setup}
+* Configurer les {#setup}
    * [Présentation de la section de configuration](./setup/setup-overview.md)
    * [Intégrer et gérer votre organisation](./setup/onboard-organization.md)
    * [Importer et gérer des audiences](./setup/onboard-audiences.md)

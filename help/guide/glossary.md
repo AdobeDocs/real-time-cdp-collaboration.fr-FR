@@ -31,7 +31,7 @@ Le stockage dans le cloud est une solution de cloud computing qui permet de stoc
 
 ### Demande de connexion
 
-Une demande de connexion est une demande formelle envoyée d’une organisation à une autre pour établir une connexion de partage de données. Une fois accepté, il permet aux deux parties de collaborer et de partager les données de l’audience en toute sécurité.
+Une demande de connexion est une demande formelle envoyée d’une organisation à une autre pour établir une connexion de partage de données. Une fois acceptée, elle permet aux deux parties de collaborer et de partager des données d’audience en toute sécurité.
 
 ### Paramètres de connexion
 
@@ -71,7 +71,7 @@ Un identifiant d’appareil est un numéro unique associé à un appareil, tel q
 
 ### Inviter
 
-Une invitation dans Adobe Real-Time CDP Collaboration fait référence à une demande envoyée à un autre utilisateur ou à une autre organisation pour rejoindre un projet ou un effort de collaboration sur les données. Les invitations aident à faciliter l’accès sécurisé et contrôlé aux données et ressources partagées.
+Une invitation dans Adobe Real-Time CDP Collaboration fait référence à une demande envoyée à un autre utilisateur ou à une autre organisation pour rejoindre un projet ou un effort de collaboration sur les données. Le service invite à faciliter un accès sécurisé et contrôlé aux données et ressources partagées.
 
 <!--
 

@@ -1,6 +1,6 @@
 ---
-title: Gérer l’accès des utilisateurs via les autorisations
-description: Gérez les autorisations et l’accès des utilisateurs aux différents composants de l’interface utilisateur de collaboration CDP en temps réel.
+title: Gérer l’accès des utilisateurs et utilisatrices via les autorisations
+description: Gérez les autorisations et l’accès des utilisateurs aux différents composants de l’interface utilisateur de Real-Time CDP Collaboration.
 audience: admin
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0155f6a6-5e67-4415-af96-1848345842e4
@@ -49,11 +49,11 @@ La boîte de dialogue **[!UICONTROL Ajouter des administrateurs de produit]** s�
 
 ![La boîte de dialogue Ajouter des administrateurs de produit avec les informations d’utilisateur renseignées et l’option Enregistrer sélectionnée.](../../assets/permissions/add-product-administrators.png){zoomable="yes"}
 
-L’utilisateur dispose désormais des privilèges d’administrateur de produit et peut effectuer des fonctions administratives, comme ajouter des utilisateurs ou d’autres administrateurs au produit dans Admin Console. Ensuite, ils auront besoin d’un accès utilisateur au produit Experience Platform pour accéder et exécuter des fonctions dans les autorisations.
+L’utilisateur dispose désormais des privilèges d’administrateur de produit et peut effectuer des fonctions administratives, comme ajouter des utilisateurs ou d’autres administrateurs au produit dans Admin Console. Ils auront ensuite besoin d’un accès utilisateur au produit Experience Platform pour accéder et exécuter des fonctions dans le cadre des autorisations.
 
-### Administrateurs : configuration de l’accès des utilisateurs aux Experience Platform {#user-access}
+### Administrateurs : configuration de l’accès des utilisateurs à Experience Platform {#user-access}
 
-Maintenant que vous avez accordé l’accès à l’administrateur de produit utilisateur, vous devez lui fournir un accès utilisateur au produit Experience Platform. Dans le cadre des configurations d’accès, vous attribuerez à l’utilisateur des profils](https://helpx.adobe.com/fr/enterprise/using/manage-product-profiles.html) de produit spécifiques[.
+Maintenant que vous avez accordé à l’utilisateur ou à l’utilisatrice un accès d’administrateur de produit, vous devez lui fournir un accès d’utilisateur au produit Experience Platform. Dans le cadre des configurations d’accès, vous affecterez des [profils de produit](https://helpx.adobe.com/fr/enterprise/using/manage-product-profiles.html) spécifiques à l’utilisateur.
 
 >[!TIP]
 >
@@ -67,13 +67,13 @@ Sélectionnez l’onglet **[!UICONTROL Utilisateurs]** puis sélectionnez **[!UI
 
 Tableau de bord du produit ![Adobe Experience Platform avec l’onglet Utilisateurs sélectionné et Ajouter des utilisateurs en surbrillance.](../../assets/permissions/add-users.png){zoomable="yes"}
 
-La boîte de dialogue **[!UICONTROL Ajouter des utilisateurs à ce produit]** s’affiche. Entrez le nom ou l’adresse e-mail de l’utilisateur dans le **[!UICONTROL champ de texte Nom, groupe d’utilisateurs ou adresse]** e-mail, puis sélectionnez le compte approprié dans la liste déroulante. Sélectionnez ensuite l’option d’ajout de **[!UICONTROL produits]** .
+La boîte de dialogue **[!UICONTROL Ajouter des utilisateurs à ce produit]** s’affiche. Saisissez le nom ou l’adresse e-mail de l’utilisateur dans le champ de texte **[!UICONTROL Nom, groupe d’utilisateurs ou adresse e-mail]**, puis sélectionnez le compte approprié dans la liste déroulante. Sélectionnez ensuite l’option d’ajout **[!UICONTROL Produits]**.
 
-![La boîte de dialogue Ajouter des utilisateurs à ce produit avec des informations utilisateur renseignées et l’option d’ajout de produits sélectionnée.](../../assets/permissions/add-users-to-product.png){zoomable="yes"}
+![La boîte de dialogue Ajouter des utilisateurs à ce produit avec des informations d’utilisateur renseignées et l’option Ajouter des produits sélectionnée.](../../assets/permissions/add-users-to-product.png){zoomable="yes"}
 
-La **[!UICONTROL boîte de dialogue Select product profiles (Sélectionner les profils]** de produit) s’affiche. Sélectionnez **[!UICONTROL AEP-Default-All-Users]** and **[!UICONTROL Default Production All Access]** , puis sélectionnez **[!UICONTROL Apply]**.
+La boîte de dialogue **[!UICONTROL Sélectionner des profils de produit]** s’affiche. Sélectionnez **[!UICONTROL AEP-Default-All-Users]** et **[!UICONTROL Default Production All Access]** puis sélectionnez **[!UICONTROL Appliquer]**.
 
-![La boîte de dialogue Sélectionner les profils de produit avec les options AEP-Default-All-Users et Default Production All Access sélectionnées et Application mise en surbrillance.](../../assets/permissions/select-product-profiles.png){zoomable="yes"}
+![La boîte de dialogue Sélectionner des profils de produit avec les options AEP-Default-All-Users et Tous les accès de production par défaut sélectionnées et Appliquer en surbrillance.](../../assets/permissions/select-product-profiles.png){zoomable="yes"}
 
 Vérifiez que les informations sont correctes, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
@@ -93,23 +93,23 @@ Pour commencer, accédez à [Adobe Experience Cloud](https://experience.adobe.co
 >
 > L’accès aux produits peut prendre plusieurs minutes et vous recevrez un e-mail vous informant que vous y avez accès. Si vous ne voyez pas Experience Platform ou Autorisations dans Adobe Experience Cloud après avoir reçu l’e-mail, déconnectez-vous, puis reconnectez-vous à votre compte.
 
-À ce stade, vous pouvez désormais accéder à **[!UICONTROL Autorisations]**. Si vous tentez d’accéder à **[!UICONTROL Experience Platform]**, un avertissement s’affiche indiquant qu’aucun sandbox n’est activé, comme illustré ci-dessous. Pour résoudre ce problème, vous devez attribuer les rôles par défaut à votre utilisateur. Tout d’abord, sélectionnez **[!UICONTROL Permissions]**.
+À ce stade, vous pouvez désormais accéder à **[!UICONTROL Autorisations]**. Si vous tentez d’accéder à **[!UICONTROL Experience Platform]**, un avertissement s’affiche indiquant qu’aucun sandbox n’est activé, comme illustré ci-dessous. Pour résoudre ce problème, vous devez affecter les rôles par défaut à votre utilisateur. Pour commencer, sélectionnez **[!UICONTROL Autorisations]**.
 
-![Vue d’accueil de Experience Cloud avec un avertissement affiché et Autorisations mises en surbrillance.](../../assets/permissions/experience-cloud-warning.png){zoomable="yes"}
+![Affichage de l’accueil d’Experience Cloud avec un avertissement affiché et les autorisations mises en surbrillance.](../../assets/permissions/experience-cloud-warning.png){zoomable="yes"}
 
-Le **[!UICONTROL tableau de bord Permissions]** s’affiche. Sélectionnez **Utilisateurs** dans le volet de gauche, puis sélectionnez le nom de l’utilisateur.
+Le tableau de bord **[!UICONTROL Autorisations]** s’affiche. Sélectionnez **Utilisateurs** dans le panneau de gauche, puis sélectionnez le nom de l’utilisateur.
 
-![Tableau de bord des autorisations avec l’espace de travail Utilisateurs affiché et un utilisateur mis en surbrillance.](../../assets/permissions/permissions-user.png){zoomable="yes"}
+![Tableau de bord des autorisations avec l’espace de travail Utilisateurs affiché et un utilisateur en surbrillance.](../../assets/permissions/permissions-user.png){zoomable="yes"}
 
 Sélectionnez l’onglet **[!UICONTROL Rôles]** puis sélectionnez **[!UICONTROL Ajouter des rôles]**.
 
-![Espace de travail utilisateur avec l’onglet Rôles affiché et Ajouter des rôles mis en surbrillance.](../../assets/permissions/user-roles.png){zoomable="yes"}
+![Espace de travail de l’utilisateur avec l’onglet Rôles affiché et Ajouter des rôles en surbrillance.](../../assets/permissions/user-roles.png){zoomable="yes"}
 
-La **[!UICONTROL boîte de dialogue Ajouter des rôles]** s’affiche. Sélectionnez **[!UICONTROL Administrateurs de production, Accès complet]** et **[!UICONTROL Sandbox par]** défaut, puis sélectionnez **[!UICONTROL Enregistrer]**.
+La boîte de dialogue **[!UICONTROL Ajouter des rôles]** s’affiche. Sélectionnez **[!UICONTROL Tous les accès de production par défaut]** et **[!UICONTROL Administrateurs Sandbox]**, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-![La boîte de dialogue Ajouter des rôles avec Administrateurs Default Production All Access et Sandbox sélectionnés, et Save est mise en surbrillance.](../../assets/permissions/add-roles.png){zoomable="yes"}
+![La boîte de dialogue Ajouter des rôles avec les Administrateurs d’accès Tous les environnements de production et Sandbox par défaut sélectionnés et Enregistrer en surbrillance.](../../assets/permissions/add-roles.png){zoomable="yes"}
 
-Vous avez maintenant accès aux Experience Platform et autorisations. Dans la dernière étape, vous accorderez l’accès à Real-Time CDP Collaboration.
+Vous avez désormais accès à Experience Platform et aux autorisations. Lors de la dernière étape, vous allez accorder l’accès à Real-Time CDP Collaboration.
 
 ### Administrateurs : configuration de l’accès à Real-Time CDP Collaboration {#RTCDP-collaboration-access}
 
@@ -149,4 +149,4 @@ L’utilisateur doit maintenant voir **[!UICONTROL RTCDP Collaboration]** réper
 
 ## Étapes suivantes
 
-Maintenant que les utilisateurs ont accès à Real-Time CDP Collaboration, ils peuvent commencer à utiliser le produit. Pour en savoir plus sur le produit dans son ensemble, lisez le guide](../home.md) de [présentation.
+Maintenant que les utilisateurs ont accès à Real-Time CDP Collaboration, ils peuvent commencer à utiliser le produit. Pour en savoir plus sur le produit dans son ensemble, consultez le [guide de présentation](../home.md).

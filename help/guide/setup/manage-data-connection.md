@@ -13,7 +13,7 @@ ht-degree: 6%
 
 # Gérer les connexions de données
 
-{{limited-available-release-note}}
+{{limited-availability-release-note}}
 
 ## Vue d’ensemble
 

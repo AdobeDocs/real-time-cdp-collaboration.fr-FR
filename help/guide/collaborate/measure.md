@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # Mesurer les performances
 
-{{limited-available-release-note}}
+{{limited-availability-release-note}}
 
 >[!IMPORTANT]
 >

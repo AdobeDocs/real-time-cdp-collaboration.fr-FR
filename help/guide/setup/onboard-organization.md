@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Intégration et gestion de l’organisation
 
-{{limited-available-release-note}}
+{{limited-availability-release-note}}
 
 Découvrez comment intégrer votre organisation dans Real-Time CDP Collaboration et gérer divers aspects de votre entreprise. Cette page décrit les étapes d’intégration d’une organisation à Adobe Real-Time CDP Collaboration, y compris la définition de vos clés de correspondance, de vos identités préférées et d’autres options.
 

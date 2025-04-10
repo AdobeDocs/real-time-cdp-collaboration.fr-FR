@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Partager les audiences
 
-{{limited-available-release-note}}
+{{limited-availability-release-note}}
 
 >[!IMPORTANT]
 >

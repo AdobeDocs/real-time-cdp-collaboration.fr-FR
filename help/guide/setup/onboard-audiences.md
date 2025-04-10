@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # Importer et gérer des audiences
 
-{{limited-available-release-note}}
+{{limited-availability-release-note}}
 
 Les audiences sont des groupes spécifiques d’utilisateurs ou de clients segmentés en fonction de divers attributs. Ils permettent aux annonceurs et aux éditeurs de collaborer sur des expériences marketing ciblées et personnalisées pour des campagnes publicitaires plus efficaces.
 

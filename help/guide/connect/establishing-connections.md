@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Se connecter avec des annonceurs ou des éditeurs
 
-{{limited-available-release-note}}
+{{limited-availability-release-note}}
 
 L’établissement d’une connexion entre deux parties d’une collaboration (le plus souvent un annonceur et un éditeur) est la condition préalable dans Real-Time CDP Collaboration pour que les sociétés travaillent ensemble sur des campagnes. Les éditeurs comme les annonceurs peuvent configurer des connexions. La partie qui initie la connexion sera ensuite le *propriétaire de la connexion*.
 

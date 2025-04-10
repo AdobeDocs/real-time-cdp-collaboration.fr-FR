@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Découvrir les chevauchements et comparer les audiences
 
-{{limited-available-release-note}}
+{{limited-availability-release-note}}
 
 >[!IMPORTANT]
 >

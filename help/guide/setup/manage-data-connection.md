@@ -29,7 +29,7 @@ Avant de gérer vos connexions de données ici, vous devez d’abord les configu
 
 Pour afficher les connexions de données existantes, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Mes audiences]**, puis sélectionnez **[!UICONTROL Gérer les connexions de données]**.
 
-![Configurer l’espace de travail en mettant en surbrillance Gestion des connexions de données.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![Configurer l’espace de travail avec l’option Gérer les connexions de données mise en surbrillance.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 Toutes les connexions de données actuellement configurées sont ainsi affichées, avec des informations sur le nombre d’audiences dans chacune d’elles, la source de la connexion de données, etc. Sélectionnez **[!UICONTROL Afficher la connexion de données]** pour afficher des informations sur les clés de correspondance, la planification et les audiences qui font partie de cette connexion de données.
 
@@ -44,7 +44,7 @@ Toutes les connexions de données actuellement configurées sont ainsi affichée
 
 Les clés de correspondance sont des identifiants utilisés pour réconcilier des membres d’audiences provenant de différentes sources de données. Les clés de correspondance disponibles sont les suivantes :
 
-- **Courrier électronique haché**
+- **E-mail haché**
 
 Vous ne pouvez pas modifier les clés de correspondance utilisées dans cette connexion de données.
 
@@ -65,7 +65,7 @@ Vous ne pouvez pas modifier les options de planification que vous avez sélectio
 
 Lors de l’affichage de la liste des audiences de votre connexion de données, vous pouvez choisir d’afficher les audiences, de modifier leurs catégories ou de les supprimer de la connexion de données.
 
-![Un espace de travail de connexions de données avec les audiences mises en évidence.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![Espace de travail des connexions de données avec les audiences en surbrillance.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 ## Étapes suivantes
 

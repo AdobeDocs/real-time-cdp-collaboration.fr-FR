@@ -43,14 +43,14 @@ Avant de pouvoir partager des audiences avec des collaborateurs et exécuter des
 
 ![Mes audiences s’affichent avant que des audiences aient été ajoutées à l’organisation.](/help/assets/setup/add-manage-audiences/org-without-audiences-added.png)
 
-Dans l’onglet Mes audiences, sélectionnez le symbole Plus **+**, puis Audience ****.****
+Dans l’onglet **[!UICONTROL Mes audiences]**, sélectionnez le symbole Plus **+**, puis sélectionnez **Audience**.
 
 ### Sélectionner une connexion de données {#select-data-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Actions marketing"
->abstract="<p>Utilisez des actions marketing pour contrôler les données d’audience à importer dans Real-Time CDP Collaboration à partir d’Experience Platform. L’action marketing <strong>Collaboration de données</strong> prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing <strong>Science des données</strong> prend en charge le libellé d’utilisation des données C9.</p> <p> <ul><li> Lorsque la case <em>est cochée</em>, toutes les données marquées avec les étiquettes indiquées ci-dessus dans Experience Platform sont exclues et ne sont <strong>pas</strong> introduites dans Real-Time CDP Collaboration.</li><li> Lorsque la case <em>est désactivée</em>, il n’existe aucune restriction sur les données provenant de Experience Platform pouvant être importées dans Real-Time CDP Collaboration.</li></ul></p>"
+>abstract="<p>Utilisez des actions marketing pour contrôler les données d’audience à importer dans Real-Time CDP Collaboration à partir d’Experience Platform. L’action marketing <strong>Collaboration de données</strong> prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing <strong>Science des données</strong> prend en charge le libellé d’utilisation des données C9.</p> <p> <ul><li> Lorsque la case à cocher <em>activée</em>, toutes les données marquées avec les libellés mentionnés ci-dessus dans Experience Platform sont exclues et ne sont <strong> pas</strong> importées dans Real-Time CDP Collaboration.</li><li> Lorsque la case à cocher <em>désactivée</em>, il n’existe aucune restriction sur les données d’Experience Platform qui peuvent être importées dans Real-Time CDP Collaboration.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=fr" text="Présentation des libellés d’utilisation des données"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=fr" text="Glossaire des étiquettes dʼutilisation des données"
 
@@ -91,15 +91,15 @@ Ensuite, vous devez vous assurer que les actions marketing correctes sont défin
 
 Utilisez des actions marketing pour contrôler les données d’audience à importer dans Real-Time CDP Collaboration à partir d’Experience Platform. L’action marketing **Collaboration de données** prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing **Science des données** prend en charge le libellé d’utilisation des données C9.
 
-En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target=« _blank »}.
+En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}{target=« _blank »}.
 
 * Lorsque la case à cocher *activée*, toutes les données marquées avec les libellés mentionnés ci-dessus dans Experience Platform sont exclues et ne sont *pas* importées dans Real-Time CDP Collaboration.
 * Lorsque la case à cocher *désactivée*, il n’existe aucune restriction sur les données d’Experience Platform qui peuvent être importées dans Real-Time CDP Collaboration.
 
 Consultez la documentation d’Experience Platform pour en savoir plus sur les libellés d’utilisation des données :
 
-* [Présentation des libellés d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target=« _blank »}
-* [Glossaire des libellés d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target=« _blank »}
+* [Présentation des libellés d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}{target=« _blank »}
+* [Glossaire des libellés d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}{target=« _blank »}
 
 ![Actions marketing requises pour la collaboration sur les données.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -150,11 +150,11 @@ Dans l’étape Mapper les champs , vous pouvez sélectionner le mappage des cha
 
 >[!TIP]
 >
->Vous pouvez mapper plusieurs champs source au même champ cible. Par exemple, si vous avez des adresses e-mail dans deux champs distincts dans Experience Platform, vous pouvez mapper les deux au champ cible de l’e-mail **** haché comme deux lignes distinctes.
+>Vous pouvez mapper plusieurs champs sources au même champ cible. Par exemple, si des adresses e-mail se trouvent dans deux champs distincts d’Experience Platform, vous pouvez les mapper tous les deux au champ cible **[!UICONTROL E-mail haché]** sous la forme de deux lignes distinctes.
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Les champs]** sources indiquent comment les identités sont référencées dans la source à partir de laquelle vous importez des données.
+Les champs **[!UICONTROL Source]** indiquent la manière dont les identités sont référencées dans la source à partir de laquelle vous importez des données.
 
 **[!UICONTROL Champs cibles]** indiquez comment les identités sont référencées dans Real-Time CDP Collaboration. Les valeurs que vous pouvez sélectionner ici correspondent aux clés de correspondance que vous configurez dans le workflow d’intégration de l’entreprise.
 
@@ -162,7 +162,7 @@ Utilisez l’option **[!UICONTROL Appliquer la transformation]** lorsque vous im
 
 >[!ENDSHADEBOX]
 
-Ajoutez autant de paires de mappages que nécessaire et sélectionnez **[!UICONTROL Suivant]** pour passer à l’étape suivante.
+Ajoutez autant de paires de mappage que nécessaire et sélectionnez **[!UICONTROL Suivant]** pour passer à l’étape suivante.
 
 <!--
 
@@ -215,11 +215,11 @@ After selecting the desired use cases for each identity, proceed to the next ste
 
 ### Planning {#schedule}
 
-Planifiez le début et la fin du remplissage et de l’actualisation des audiences. L’appartenance à l’audience sera actualisée en fonction de cette planification.
+Planifiez les dates de début et de fin du remplissage et de l’actualisation des audiences. L’appartenance à l’audience sera actualisée conformément à ce planning.
 
-![Ecran de planification affichant les dates de début et de fin pour renseigner les audiences.](/help/assets/setup/add-manage-audiences/Step-Schedule.png)
+![Écran de planification affichant les dates de début et de fin pour renseigner les audiences.](/help/assets/setup/add-manage-audiences/Step-Schedule.png)
 
-Sélectionnez le taux de rafraîchissement pour les audiences. Les options disponibles sont des taux d’actualisation de un à six jours.
+Sélectionnez le taux d’actualisation des audiences. Les options disponibles sont des taux d’actualisation de un à six jours.
 
 >[!IMPORTANT]
 >
@@ -233,9 +233,9 @@ Sélectionnez le taux de rafraîchissement pour les audiences. Les options dispo
 
 ### Sélectionner des audiences {#select-audience}
 
-Après avoir sélectionné la source de l’audience, vous choisirez des audiences spécifiques à inclure. Utilisez les options de recherche et de filtre de la page pour rechercher les audiences pertinentes à partir de la source de données sélectionnée.
+Après avoir sélectionné la source de l’audience, vous choisirez des audiences spécifiques à inclure. Utilisez les options de recherche et de filtrage de la page pour trouver les audiences appropriées à partir de la source de données sélectionnée.
 
-![Écran Sélection de l’audience affichant la liste des audiences disponibles avec des cases à cocher pour les sélectionner.](/help/assets/setup/add-manage-audiences/Step-Select-Audience.png)
+![Écran Sélection de l’audience présentant une liste des audiences disponibles avec des cases à cocher pour les sélectionner.](/help/assets/setup/add-manage-audiences/Step-Select-Audience.png)
 
 ### Réviser
 
@@ -246,11 +246,11 @@ Passez en revue toutes les configurations et tous les paramètres avant de final
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
 >title="Identités manquantes"
->abstract="Le nombre d’identités affiche un `-` afficha pendant environ les premières 24 heures suivant l’importation d’une audience dans Real-Time CDP Collaboration. Après cette période, le nombre d’identités sera mis à jour en fonction du nombre de profils présents dans l’audience."
+>abstract="Le nombre d’identités affiche un `-` pendant environ les premières 24 heures suivant l’importation d’une audience dans Real-Time CDP Collaboration. Au-delà de cette période, le nombre d’identités est mis à jour avec le nombre de profils présents dans l’audience."
 
-Après avoir importé des audiences dans Real-Time CDP Collaboration, vous pouvez obtenir des informations les concernant dans une vue de tableau de bord. La vue par défaut de la **[!UICONTROL page Mes audiences]** affiche toutes les audiences actuellement importées par votre organisation dans Real-Time CDP Collaboration.
+Après avoir importé des audiences dans Real-Time CDP Collaboration, vous pouvez obtenir des informations à leur sujet dans une vue de tableau de bord. La vue par défaut de la page **[!UICONTROL Mes audiences]** affiche toutes les audiences actuellement importées par votre organisation dans Real-Time CDP Collaboration.
 
-![Audiences page d’aperçu présentant toutes les audiences importées par un annonceur](/help/assets/setup/add-manage-audiences/audiences-overview.png)
+![Page d’aperçu des audiences présentant toutes les audiences importées par un annonceur](/help/assets/setup/add-manage-audiences/audiences-overview.png)
 
 Vous pouvez afficher les informations pertinentes suivantes sur chaque audience :
 
@@ -283,7 +283,7 @@ Les mesures que vous pouvez afficher dans cet écran sont décrites ci-dessous :
 | **[!UICONTROL Source]** | Indique la source à partir de laquelle cette audience a été importée. Dans la version actuelle de Real-Time CDP Collaboration, Adobe Experience Platform est la seule source prise en charge. |
 | **[!UICONTROL Connexion aux données]** | D’autres informations d’exploration vers le bas sur l’emplacement d’importation de cette audience. Par exemple, lors de l’importation d’audiences à partir de la source Experience Platform, les sandbox individuels auxquels votre organisation a accès sont considérés comme des connexions de données. |
 | **[!UICONTROL Dernière mise à jour]** | Indique la date et l’heure de la dernière mise à jour d’un aspect de cette audience. |
-| **[!UICONTROL Dernière mise à jour par]** | Indique l’utilisateur qui a mis à jour cette audience en dernier. |
+| **[!UICONTROL Dernière mise à jour par]** | Indique le dernier utilisateur à avoir mis à jour cette audience. |
 | **[!UICONTROL Créé]** | Indique la date à laquelle cette audience a été importée dans Real-Time CDP Collaboration. |
 | **[!UICONTROL Créé par]** | Indique l’utilisateur qui a importé l’audience dans Real-Time CDP Collaboration. |
 
@@ -309,9 +309,9 @@ Des informations supplémentaires sur l’audience sont disponibles et partielle
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identités"
->abstract="Obtenez une vue de répartition des identités qui composent cette audience, ainsi qu’un nombre total de profils avec les identités respectives."
+>abstract="Obtenez une vue répartie des identités qui composent cette audience, ainsi qu’un nombre total de profils avec les identités respectives."
 
-Cette section indique le nombre de profils présents dans l’audience avec l’une des identités que vous avez spécifiées lors de l’importation des audiences. La section contient également une ventilation de l’identité afin que vous puissiez savoir quelles identités constituent la plupart de la population du public.
+Cette section indique le nombre de profils présents dans l’audience avec l’une des identités que vous avez spécifiées lors de l’importation des audiences. La section contient également une répartition des identités afin que vous puissiez identifier les identités qui constituent le plus de la population de l’audience.
 
 ### Catégories {#categories}
 
@@ -337,7 +337,7 @@ Choisissez si l’audience doit être privée pour vous ou utilisable et détect
 
 >[!IMPORTANT]
 >
->Quel que soit le statut d’accès (public, privé ou personnalisé), la population de toute audience contribue à la population **[!UICONTROL Toutes les audiences]** dans la vue d’analyse de chevauchement Découverte d’audience. <br> ![L’audience **Toutes les audiences** générée par le système dans l’analyse de chevauchement de la découverte d’audiences inclut les audiences avec tous les statuts d’accès aux connexions (publique, privée, personnalisée).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "L’audience générée par le système **Toutes les audiences** dans l’analyse de chevauchement **Découverte d’audiences** inclut les audiences avec tous les statuts d’accès aux connexions (publique, privée, personnalisée)."){width=« 100 » zoomable=« yes »}
+>Quel que soit le statut d’accès (public, privé ou personnalisé), la population de toute audience contribue à la population **[!UICONTROL Toutes les audiences]** dans la vue d’analyse de chevauchement Découverte d’audience. <br> ![L’audience **Toutes les audiences** générée par le système dans l’analyse de chevauchement de la découverte d’audiences inclut les audiences avec tous les statuts d’accès aux connexions (publique, privée, personnalisée).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "L’audience générée par le système **Toutes les audiences** dans l’analyse de chevauchement **Découverte d’audiences** inclut les audiences avec tous les statuts d’accès aux connexions (publique, privée, personnalisée)."){width="100" zoomable="yes"}{width=« 100 » zoomable=« yes »}
 
 La disponibilité de l’audience à utiliser dans les projets avec des collaborateurs diffère selon le paramètre d’accès à la connexion. Vous pouvez toujours modifier l’accès à la connexion de privé à public, mais vous ne pouvez pas revenir en arrière une fois qu’une audience est partagée avec des collaborateurs.
 

@@ -27,7 +27,7 @@ L’établissement d’une connexion entre deux parties d’une collaboration (l
 4. L’annonceur envoie les paramètres de connexion, y compris les clés de correspondance et autres. Ces paramètres de connexion représentent les conditions internes au produit de la collaboration.
 5. L’éditeur accepte les paramètres de connexion. Si vous le souhaitez, l’éditeur peut rejeter les paramètres de connexion initiaux et demander à l’annonceur d’envoyer les paramètres de connexion révisés.
 
-![Diagramme de haut niveau du processus de connexion annonceur-éditeur.](/help/assets/connect/establish-connection/advertiser-publisher-connection-process.png){zoomable=&quot;yes&quot;}
+![Diagramme de haut niveau du processus de connexion annonceur-éditeur.](/help/assets/connect/establish-connection/advertiser-publisher-connection-process.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 Une fois les éléments ci-dessus terminés, les collaborateurs peuvent passer à [créer un projet](/help/guide/collaborate/manage-projects.md#create-project) pour [exécuter des rapports de chevauchement](/help/guide/collaborate/discover.md) et lancer des campagnes publicitaires.
 
@@ -39,11 +39,11 @@ Une fois les éléments ci-dessus terminés, les collaborateurs peuvent passer �
 
 Pour configurer une connexion, sélectionnez **[!UICONTROL Connexion]** lors de la navigation dans l’inventaire des éditeurs dans l’écran Découvrir les éditeurs.
 
-![Connecter le sélecteur](/help/assets/connect/establish-connection/connect-selection.png){zoomable=« yes »}
+![Connecter le sélecteur](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}{zoomable=« yes »}
 
 À ce stade, l’invitation est fermée et vous pouvez prévisualiser les paramètres de connexion, mais vous ne pouvez pas les modifier. Vous pouvez afficher l’invitation en attente dans l’onglet **[!UICONTROL Mes connexions]**. Le statut de la connexion est **[!UICONTROL Invitation envoyée]**.
 
-![Invitation en attente envoyée à l&#39;éditeur affichée dans la vue Mes connexions.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable=&quot;yes&quot;}
+![Invitation en attente envoyée à l&#39;éditeur affichée dans la vue Mes connexions.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 Une fois que le collaborateur accepte l’invitation, vous pouvez configurer les paramètres de connexion et les envoyer au collaborateur pour révision et acceptation.
 
@@ -76,23 +76,23 @@ Une fois que le collaborateur accepte l’invitation, vous pouvez configurer les
 
 Une fois l’invitation envoyée, vous pouvez prévisualiser les paramètres de connexion. L’invitation doit être acceptée avant que vous puissiez terminer la configuration de la connexion.
 
-![Vue des paramètres de connexion à l’état d’aperçu.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable=&quot;yes&quot;}
+![Vue des paramètres de connexion à l’état d’aperçu.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 Une fois la connexion acceptée par votre collaborateur, vous pouvez commencer à configurer les paramètres de connexion pour la connexion. Les paramètres de connexion définissent les termes de votre collaboration, tels que les cas d’utilisation que vous accomplirez ensemble, les clés de correspondance que vous utiliserez dans les projets, etc.
 
 Pour configurer et partager les paramètres de connexion avec votre collaborateur, accédez à **[!UICONTROL Mes connexions]**. Pour toutes les connexions dont le statut est **[!UICONTROL En attente]**, vous pouvez sélectionner **[!UICONTROL Configurer la connexion]** pour configurer les paramètres de connexion.
 
-![La vue Mes connexions avec une connexion en attente et son option Configurer la connexion sont mises en surbrillance.](/help/assets/connect/establish-connection/pending-connection.png){zoomable=&quot;yes&quot;}
+![La vue Mes connexions avec une connexion en attente et son option Configurer la connexion sont mises en surbrillance.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 Vous pouvez modifier et définir les champs ci-dessous :
 
-![Configurer la vue de connexion](/help/assets/connect/establish-connection/connection-view.png){zoomable=« yes »}
+![Configurer la vue de connexion](/help/assets/connect/establish-connection/connection-view.png){zoomable="yes"}{zoomable=« yes »}
 
 +++Cas d’utilisation
 
 Les cas d’utilisation sont préremplis avec tous les cas d’utilisation disponibles. Vous pouvez choisir les cas d’utilisation que votre connexion utilisera en sélectionnant **[!UICONTROL Modifier]** et en désactivant les cas d’utilisation que vous ne souhaitez pas. Les cas d’utilisation sélectionnés affecteront les vues et options [disponibles dans vos projets](../collaborate/manage-projects.md#project-use-cases).
 
-![Cas d’utilisation](/help/assets/connect/establish-connection/view-use-cases.png){zoomable=« yes »}
+![Cas d’utilisation](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}{zoomable=« yes »}
 
 +++
 
@@ -131,9 +131,9 @@ Vous pouvez supprimer toutes les connexions avec des collaborateurs avec lesquel
 1. Accédez à **[!UICONTROL Connexion]** > **[!UICONTROL Mes connexions]**.
 2. Sélectionnez **[!UICONTROL Afficher la connexion]** sur la carte de connexion pour accéder à la connexion à supprimer.
 3. Sélectionnez l’icône de suppression ![icône de suppression](/help/assets/common/delete.svg) pour afficher la boîte de dialogue de confirmation de suppression de la connexion.
-   ![Icône Supprimer la connexion mise en surbrillance.](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable=&quot;yes&quot;}
+   ![Icône Supprimer la connexion mise en surbrillance.](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 4. Confirmez la suppression en sélectionnant **[!UICONTROL Supprimer]**.
-   ![Boîte de dialogue pour confirmer la suppression d’une connexion. ](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable=&quot;yes&quot;}
+   ![Boîte de dialogue pour confirmer la suppression d’une connexion. ](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 >[!WARNING]
 >

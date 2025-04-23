@@ -4,9 +4,9 @@ description: Découvrez comment intégrer et gérer divers aspects de votre orga
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: a93ba1bc2aa043fcc1519ec2e1cc79435175d71c
+source-git-commit: f146a39ab69a9a41bb12aeb59b0d23ae567cf4c2
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '810'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ Sélectionnez les clés de correspondance à utiliser pour réconcilier les memb
 
 ![Étape de sélection des clés de correspondance.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
-Sélectionnez jusqu’à cinq clés de correspondance que vous prévoyez d’utiliser. Ultérieurement, lors de la configuration des connexions, vous pouvez supprimer les clés de correspondance indésirables, mais vous ne pouvez pas en ajouter de nouvelles. Définissez le seuil du nombre d’identités (nombre minimum) pour chaque clé de correspondance sélectionnée. Les clés de correspondance dont le nombre est inférieur au nombre minimum n’apparaîtront pas dans les répartitions d’identité de certains cas d’utilisation.
+Sélectionnez jusqu’à cinq clés de correspondance que vous prévoyez d’utiliser. Ultérieurement, lors de la configuration des connexions, vous pouvez supprimer les clés de correspondance indésirables, mais vous ne pouvez pas en ajouter de nouvelles.
 
 Les clés de correspondance disponibles dans Real-Time CDP Collaboration peuvent être de trois types :
 

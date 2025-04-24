@@ -4,10 +4,10 @@ description: Découvrez comment effectuer le suivi de l’activité de consommat
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: 1e8c2fdb3294111562f206ac141cfa39d5193c6c
+source-git-commit: a69d4405c47824c8afabc84782dc9f8a9d70763a
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 1%
+source-wordcount: '644'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Pour accéder à votre activité de consommation de crédit estimée, accédez �
 >
 >La vue **[!UICONTROL Mon activité]** n’inclut pas d’informations sur les actions des utilisateurs dans différentes parties de l’interface utilisateur de Real-Time Collaboration CDP. Utilisez la fonctionnalité [journaux d’audit](/help/guide/setup/audit-logs.md) pour obtenir ces informations.
 
-## Présentation du tableau de bord d’activité
+## Présentation du tableau de bord d’activité {#understand-dashboard}
 
 Le tableau de bord des activités affiche une liste complète de toutes les opérations consommatrices de crédit au sein de votre organisation. Chaque ligne représente une activité distincte et fournit des informations clés sur l’utilisation du crédit :
 
@@ -38,11 +38,12 @@ Le tableau de bord des activités affiche une liste complète de toutes les opé
 >Les activités **[!UICONTROL Gestion de l’audience]** ne sont pas associées à un autre collaborateur. Par conséquent, les colonnes **[!UICONTROL ID de connexion]** et **[!UICONTROL Nom de connexion]** pour ces types d’activités indiquent une valeur **[!UICONTROL N/A]**.
 
 | Colonne | Description |
-|--------|-------------|
+|------------|--------------|
 | **[!UICONTROL Date]** | Date à laquelle l’activité s’est produite, affichée au format MM/JJ/AAAA. |
 | **[!UICONTROL Identifiant de connexion]** | Identifiant unique pour chaque connexion associée à une activité consommatrice de crédit, représenté sous la forme d’une chaîne alphanumérique. |
 | **[!UICONTROL Nom de la connexion]** | Nom du collaborateur associé à la connexion et à l’activité consommatrice de crédit. |
 | **[!UICONTROL Activité]** | Le type d’activité effectuée, tel que **Activation - Partage**, **Activation - Sortie** ou **Gestion de l’audience**. |
+| **[!UICONTROL Entrées traitées]** | Nombre total d’entrées (par exemple, identifiants ou lignes) traitées pour l’activité, mesuré en millions. Cela vous permet de connaître le coût de l’activité en le corrélant à votre CPM (coût par millier) pour calculer le coût approximatif. |
 | **[!UICONTROL Total des crédits utilisés]** | Nombre total de crédits consommés par l’activité. |
 | **[!UICONTROL Mon avoir]** | Portion des crédits de votre entreprise utilisés pour l’activité. |
 
@@ -55,6 +56,8 @@ La colonne **[!UICONTROL Activité]** affiche différents types d’opérations 
 * **[!UICONTROL Gestion de l’audience]** : les crédits sont consommés lorsque les audiences sont importées dans Real-Time CDP Collaboration. Les crédits sont consommés en fonction du nombre d’identifiants (en millions) indexés dans Real-Time CDP Collaboration sur toutes les audiences, et de la fréquence de cette indexation (quotidienne, tous les trois jours ou hebdomadaire) tout au long de la période de facturation. En savoir plus sur [l’importation et la gestion des audiences](/help/guide/setup/onboard-audiences.md).
 * **[!UICONTROL Activation - Partage]** - Les crédits sont consommés en fonction du nombre d’identifiants activés depuis Real-Time CDP Collaboration tout au long de la période de facturation. En savoir plus sur le [partage](/help/guide/collaborate/share.md) et l’[activation d’audiences](/help/guide/collaborate/activate.md) dans Real-Time CDP Collaboration.
 * **[!UICONTROL Activation - Sortie]** - Les crédits sont consommés en fonction du nombre d’identifiants activés depuis Real-Time CDP Collaboration tout au long de la période de facturation. En savoir plus sur le [partage](/help/guide/collaborate/share.md) et l’[activation d’audiences](/help/guide/collaborate/activate.md) dans Real-Time CDP Collaboration.
+* **[!UICONTROL Chevauchements d’audience]** - Les crédits sont consommés lors de l’analyse des chevauchements d’audience à l’aide d’esquisses de données. Les esquisses de données sont des résumés simplifiés des données d’audience qui permettent de déterminer à quel point deux audiences sont similaires tout en préservant la confidentialité des données. Pour en savoir plus sur les [chevauchements d’audiences), consultez l’onglet découvrir ](/help/guide/collaborate/discover.md).
+* **[!UICONTROL Mesure d’audience]** - Exécutez des activités dans Real-Time CDP Collaboration pour générer des rapports et des informations sur les performances des campagnes. Les crédits sont consommés en fonction du nombre de lignes dans les rapports de campagne sur toutes les campagnes et de la fréquence de création des rapports (quotidien, tous les trois jours ou hebdomadaire).
 
 
 <!--

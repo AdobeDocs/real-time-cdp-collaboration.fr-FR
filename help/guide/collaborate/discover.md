@@ -31,7 +31,7 @@ Les clés de correspondance utilisées pour découvrir et comparer des audiences
 
 ![Écran Modifier les clés de correspondance](/help/assets/collaborate/discover-overlaps/edit-match-keys.png)
 
-## Conditions préalables {#prerequisites}
+## Prérequis {#prerequisites}
 
 Pour utiliser pleinement la fonctionnalité de l’onglet **[!UICONTROL Découvrir]** du workflow **[!UICONTROL Collaborer]**, vous avez déjà :
 

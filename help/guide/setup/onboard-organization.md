@@ -4,9 +4,9 @@ description: Découvrez comment intégrer et gérer divers aspects de votre orga
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: f146a39ab69a9a41bb12aeb59b0d23ae567cf4c2
+source-git-commit: b9aa8851799ddb492daeb13842a2cad39e84899e
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '830'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,11 @@ Le workflow de configuration de votre organisation comprend les deux pages ci-de
 >Toutes les *clés de correspondance* que vous sélectionnez au niveau de l’organisation se propagent ensuite au niveau du [projet](/help/guide/collaborate/manage-projects.md) dans la collaboration entre les annonceurs et les éditeurs. Au niveau du projet, vous pouvez ensuite supprimer toutes les clés de correspondance, mais vous ne pouvez *pas* ajouter d’autres clés qui n’ont pas été sélectionnées au niveau de l’organisation dans cet écran.
 
 ### Configurer les détails {#set-up-details}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_setup_contact_email"
+>title="E-mail du contact"
+>abstract="Indiquez un e-mail basé sur une équipe ou un rôle, tel que `collaboration@yourcompany.com`. Les adresses électroniques personnelles ou individuelles ne doivent pas être utilisées."
 
 ![Étapes de détails et de cas d’utilisation pour configurer une organisation](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
 

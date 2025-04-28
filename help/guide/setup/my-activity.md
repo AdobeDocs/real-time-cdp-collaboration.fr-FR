@@ -4,9 +4,9 @@ description: Découvrez comment effectuer le suivi de l’activité de consommat
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: a69d4405c47824c8afabc84782dc9f8a9d70763a
+source-git-commit: 3aec9806d2ea920d656bb0981f22ba31fd8ae3ee
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Le tableau de bord des activités affiche une liste complète de toutes les opé
 | **[!UICONTROL Identifiant de connexion]** | Identifiant unique pour chaque connexion associée à une activité consommatrice de crédit, représenté sous la forme d’une chaîne alphanumérique. |
 | **[!UICONTROL Nom de la connexion]** | Nom du collaborateur associé à la connexion et à l’activité consommatrice de crédit. |
 | **[!UICONTROL Activité]** | Le type d’activité effectuée, tel que **Activation - Partage**, **Activation - Sortie** ou **Gestion de l’audience**. |
-| **[!UICONTROL Entrées traitées]** | Nombre total d’entrées (par exemple, identifiants ou lignes) traitées pour l’activité, mesuré en millions. Cela vous permet de connaître le coût de l’activité en le corrélant à votre CPM (coût par millier) pour calculer le coût approximatif. |
+| **[!UICONTROL Entrées traitées]** | Nombre total d’entrées (par exemple, identifiants ou lignes) traitées pour l’activité. |
 | **[!UICONTROL Total des crédits utilisés]** | Nombre total de crédits consommés par l’activité. |
 | **[!UICONTROL Mon avoir]** | Portion des crédits de votre entreprise utilisés pour l’activité. |
 

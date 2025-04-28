@@ -4,9 +4,9 @@ description: Découvrez comment créer et gérer des projets dans Adobe Real-Tim
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: 55835f1e37975793f3a96c79e7c3a5bfeabfc88e
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '398'
 ht-degree: 3%
 
 ---
@@ -28,6 +28,11 @@ Vous pouvez utiliser les filtres pour afficher uniquement les projets que vous a
 ![Vue filtrée des projets avec un seul collaborateur.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## Créer un projet {#create-project}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_manage_projects_advertiser_name"
+>title="Nom de l’annonceur"
+>abstract="Sélectionnez le nom de l’annonceur dans le menu déroulant. Les options sont préconfigurées par l’éditeur dans les paramètres de connexion afin d’assurer la compatibilité avec ses systèmes."
 
 Pour créer un projet, sélectionnez le symbole Plus **+** dans le coin supérieur droit. S’il s’agit de votre premier projet, accédez à **[!UICONTROL Collaborer]** > **[!UICONTROL Mes projets]**, puis sélectionnez **[!UICONTROL Créer un projet]**.
 

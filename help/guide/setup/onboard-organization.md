@@ -4,7 +4,7 @@ description: Découvrez comment intégrer et gérer divers aspects de votre orga
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: b9aa8851799ddb492daeb13842a2cad39e84899e
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 1%
@@ -81,7 +81,7 @@ Lorsque vous êtes satisfait(e) de votre sélection, utilisez **[!UICONTROL Suiv
 >title="ID de partenaire pris en charge"
 >abstract="Les identifiants de partenaire associés aux profils étendent la portée d’un profil spécifique."
 
-Les clés de correspondance, telles que les adresses e-mail, les identifiants d’appareil ou de client, aident les annonceurs et les éditeurs à travailler ensemble en permettant une synchronisation des données précise et conforme à la confidentialité, ce qui permet un ciblage et une mesure d’audience plus précis.
+Les clés de correspondance, telles que les adresses e-mail, les identifiants d’appareil ou de client, aident les annonceurs et les éditeurs à travailler ensemble en permettant une synchronisation des données précise et axée sur la confidentialité, ce qui permet un ciblage et une mesure d’audience plus précis.
 
 ![Diapositive présentant les identifiants disponibles pour la première version de Real-Time CDP Collaboration.](/help/assets/setup/manage-organization/available-identifiers.png)
 

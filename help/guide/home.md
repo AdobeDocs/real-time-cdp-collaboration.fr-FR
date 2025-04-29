@@ -4,9 +4,9 @@ description: Découvrez comment utiliser Adobe Real-Time Customer Data Platform 
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
+source-git-commit: 6b4409bede04e9f4c94060ce98bc7680cdcdfc58
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '391'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## Commencer {#get-started}
 
-Pour commencer à utiliser Real-Time CDP Collaboration, les administrateurs système doivent se donner un accès, ainsi qu’aux administrateurs de produit et aux utilisateurs finaux. Plusieurs étapes sont nécessaires, selon l’utilisateur et le niveau d’accès requis. Consultez le guide [présentation du contrôle d’accès](/help/guide/permissions/overview.md){target=_« blank »} pour commencer.
+Pour commencer à utiliser Real-Time CDP Collaboration, les administrateurs système doivent se donner un accès, ainsi qu’aux administrateurs de produit et aux utilisateurs finaux. Plusieurs étapes sont nécessaires, selon l’utilisateur et le niveau d’accès requis. Reportez-vous au guide [présentation du contrôle d’accès](/help/guide/permissions/overview.md){target="_blank"} pour commencer.
 
 Une fois que vous y avez accès, vous êtes prêt à configurer votre organisation et à connecter vos sources de données à Adobe Real-Time CDP Collaboration pour importer des audiences. Lisez le [workflow de bout en bout de l’annonceur et de l’éditeur](/help/guide/end-to-end-workflow.md) pour commencer.
 

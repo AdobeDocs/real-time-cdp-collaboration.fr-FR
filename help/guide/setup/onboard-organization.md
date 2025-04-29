@@ -4,10 +4,10 @@ description: Découvrez comment intégrer et gérer divers aspects de votre orga
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
+source-git-commit: 0de6ab9af8152975f8e0b0f75b1ee0116ed73584
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 1%
+source-wordcount: '853'
+ht-degree: 2%
 
 ---
 
@@ -42,7 +42,7 @@ Le workflow de configuration de votre organisation comprend les deux pages ci-de
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
->title="E-mail du contact"
+>title="E-mail de contact"
 >abstract="Indiquez un e-mail basé sur une équipe ou un rôle, tel que `collaboration@yourcompany.com`. Les adresses électroniques personnelles ou individuelles ne doivent pas être utilisées."
 
 ![Étapes de détails et de cas d’utilisation pour configurer une organisation](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
@@ -52,10 +52,11 @@ Le workflow de configuration de votre organisation comprend les deux pages ci-de
 3. Sélectionnez votre **[!UICONTROL rôle d’entreprise]**. Vous pouvez choisir entre **[!UICONTROL Annonceur]** et **[!UICONTROL Éditeur]**. Lisez le [document sur les workflows de bout en bout](/help/guide/end-to-end-workflow.md) pour voir les similitudes et les légères différences de workflow entre les deux types de rôles organisationnels.
 4. Sélectionnez le **[!UICONTROL secteur]** de votre organisation. Par exemple, **[!UICONTROL Vente au détail]**, **[!UICONTROL Télécommunications]** ou **[!UICONTROL Services financiers]**.
 5. Sélectionnez la **[!UICONTROL Région]** de votre organisation. Dans la version actuelle du produit, **[!UICONTROL Amérique du Nord]** est la sélection par défaut prédéfinie.
-6. <span class="preview"> Publisher-only </span> : lors de la configuration d&#39;une organisation d&#39;éditeur, vous devez lire et reconnaître que vous serez détectable par les annonceurs dans le catalogue de l&#39;éditeur.
+6. Ajoutez un **[!UICONTROL e-mail de contact]** pour votre organisation. Il doit s’agir d’une adresse e-mail d’équipe ou basée sur les rôles. Les adresses e-mail personnelles ne doivent pas être fournies.
+7. <span class="preview"> Publisher-only </span> : lors de la configuration d&#39;une organisation d&#39;éditeur, vous devez lire et reconnaître que vous serez détectable par les annonceurs dans le catalogue de l&#39;éditeur.
    ![Message d’accord préalable spécifique à l’éditeur.](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}
-7. Chargez un **[!UICONTROL Logo]** pour votre entreprise. Actuellement, les images de type SVG sont prises en charge.
-8. Sélectionnez une image pour l’image d’en-tête de votre société.
+8. Chargez un **[!UICONTROL Logo]** pour votre entreprise. Actuellement, les images de type SVG sont prises en charge.
+9. Sélectionnez une image pour l’image d’en-tête de votre société.
 
 Lorsque vous êtes satisfait(e) de votre sélection, utilisez **[!UICONTROL Suivant]** pour passer à la page suivante et sélectionner les clés de correspondance que votre entreprise doit utiliser.
 

@@ -4,7 +4,7 @@ description: Suivez les dernières versions de Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: c71e63df166a061b1585cff4b5eac4605f741eb4
+source-git-commit: 5b331e2de1c91dd566f1139e57d44a47dd01dba5
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 5%
@@ -17,9 +17,19 @@ ht-degree: 5%
 
 **Dernière mise à jour** : mars 2025.
 
+<!--**Last update**: April, 2025. uncomment when ready to release and delete line above-->
+
 Ces notes de mise à jour présentent les fonctionnalités publiées dans Real-Time Customer Data Platform Collaboration. Les versions de Real-Time CDP Collaboration fonctionnent sur un modèle de diffusion continu, ce qui permet une cadence de publication mensuelle approximative. Ces notes de mise à jour sont souvent mises à jour. Veillez donc à les consulter régulièrement.
 
-## Mars 2025
+<!--
+
+## April 2025 {#april-2025}
+
+* A new **Inputs Processed** column has been added to the credit consumption activity table. This column displays the total number of inputs (for example, IDs or rows) processed for each activity. [Read more](/help/guide/setup/my-activity.md#inputs-processed). <br> ![Inputs processed column highighted in My activity view.](/help/assets/release-notes/2025/inputs-processed-column.png "Inputs processed column highighted in My activity view."){width="250" align="center" zoomable="yes"}
+
+-->
+
+## Mars 2025 {#march-2025}
 
 * Lors de l’[import d’audiences](/help/guide/setup/onboard-audiences.md) dans Real-Time CDP Collaboration, vous pouvez désormais définir une fréquence d’actualisation de l’audience comprise entre **tous les 1 à 6 jours** afin de mieux gérer l’activité de crédit [Audience Management](/help/guide/setup/my-activity.md#types-of-activities). [En savoir plus](/help/guide/setup/onboard-audiences.md#schedule). <br> ![Écran de planification affichant différents intervalles de fréquence pour la mise à jour de l’appartenance à l’audience.](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png "Écran de planification affichant différents intervalles de fréquence pour la mise à jour de l’appartenance à l’audience."){width="250" align="center" zoomable="yes"}
 * Lors de l’établissement d’une connexion avec un collaborateur, vous pouvez désormais effectuer une sélection parmi des **cas d’utilisation** prédéfinis. Le cas d’utilisation sélectionné détermine les sections de projet et les fonctionnalités de produit qui deviennent disponibles. [En savoir plus](/help/guide/collaborate/manage-projects.md#project-use-cases).
@@ -29,7 +39,7 @@ Ces notes de mise à jour présentent les fonctionnalités publiées dans Real-T
 * Vous pouvez désormais supprimer des connexions avec des collaborateurs avec lesquels vous ne souhaitez plus travailler. [En savoir plus](/help/guide/connect/establishing-connections.md#delete-connections).
 
 
-## Février 2025 - Disponibilité générale pour les clients américains
+## Février 2025 - Disponibilité générale pour les clients américains {#february-2025-ga}
 
 Real-Time CDP Collaboration, conçu pour permettre aux annonceurs et aux éditeurs de découvrir, d’activer et de mesurer des audiences à forte valeur ajoutée sans cookies tiers, est désormais disponible en général aux États-Unis.
 

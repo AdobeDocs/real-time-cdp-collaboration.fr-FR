@@ -7,7 +7,7 @@ exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
 workflow-type: tm+mt
 source-wordcount: '2642'
-ht-degree: 3%
+ht-degree: 24%
 
 ---
 
@@ -45,12 +45,12 @@ Avant de pouvoir partager des audiences avec des collaborateurs et exécuter des
 
 Dans l’onglet **[!UICONTROL Mes audiences]**, sélectionnez le symbole Plus **+**, puis sélectionnez **Audience**.
 
-### Sélectionner une connexion de données {#select-data-connection}
+### Sélectionner la connexion de données {#select-data-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Actions marketing"
->abstract="<p>Utilisez des actions marketing pour contrôler les données d’audience à importer dans Real-Time CDP Collaboration à partir d’Experience Platform. L’action marketing <strong>Collaboration de données</strong> prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing <strong>Science des données</strong> prend en charge le libellé d’utilisation des données C9.</p> <p> <ul><li> Lorsque la case à cocher <em>activée</em>, toutes les données marquées avec les libellés mentionnés ci-dessus dans Experience Platform sont exclues et ne sont <strong> pas</strong> importées dans Real-Time CDP Collaboration.</li><li> Lorsque la case à cocher <em>désactivée</em>, il n’existe aucune restriction sur les données d’Experience Platform qui peuvent être importées dans Real-Time CDP Collaboration.</li></ul></p>"
+>abstract="<p>Utilisez des actions marketing pour contrôler les données d’audience à importer dans Real-Time CDP Collaboration à partir d’Experience Platform. L’action marketing <strong>Collaboration de données</strong> prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing <strong>Science des données</strong> prend en charge le libellé d’utilisation des données C9.</p> <p> <ul><li> Lorsque la case à cocher est <em>activée</em>, toutes les données marquées avec les libellés mentionnés ci-dessus dans Experience Platform sont exclues et ne sont <strong> pas</strong> importées dans Real-Time CDP Collaboration.</li><li> Lorsque la case à cocher est <em>désactivée</em>, il n’existe aucune restriction sur les données d’Experience Platform qui peuvent être importées dans Real-Time CDP Collaboration.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=fr" text="Présentation des libellés d’utilisation des données"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=fr" text="Glossaire des étiquettes dʼutilisation des données"
 
@@ -89,12 +89,12 @@ Sélectionnez **[!UICONTROL Suivant]** après avoir sélectionné la sandbox de 
 
 Ensuite, vous devez vous assurer que les actions marketing correctes sont définies sur les données importées. Vous devez également donner votre consentement pour que les données importées depuis Real-Time CDP soient utilisées pour la collaboration sur les données.
 
-Utilisez des actions marketing pour contrôler les données d’audience à importer dans Real-Time CDP Collaboration à partir d’Experience Platform. L’action marketing **Collaboration de données** prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing **Science des données** prend en charge le libellé d’utilisation des données C9.
+Utilisez des actions marketing pour contrôler les données d’audience à importer dans Real-Time CDP Collaboration à partir d’Experience Platform. L’action marketing **Collaboration de données** prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing **Science des données** prend en charge le libellé d’utilisation des données C9.
 
 En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
-* Lorsque la case à cocher *activée*, toutes les données marquées avec les libellés mentionnés ci-dessus dans Experience Platform sont exclues et ne sont *pas* importées dans Real-Time CDP Collaboration.
-* Lorsque la case à cocher *désactivée*, il n’existe aucune restriction sur les données d’Experience Platform qui peuvent être importées dans Real-Time CDP Collaboration.
+* Lorsque la case à cocher est *activée*, toutes les données marquées avec les libellés mentionnés ci-dessus dans Experience Platform sont exclues et ne sont *pas* importées dans Real-Time CDP Collaboration.
+* Lorsque la case à cocher est *désactivée*, il n’existe aucune restriction sur les données d’Experience Platform qui peuvent être importées dans Real-Time CDP Collaboration.
 
 Consultez la documentation d’Experience Platform pour en savoir plus sur les libellés d’utilisation des données :
 
@@ -115,34 +115,34 @@ Ensuite, fournissez un nom et une description pour que vous puissiez reconnaîtr
 
 -->
 
-### Mapper des champs {#map-fields}
+### Champs de mappage {#map-fields}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_source_fields"
 >title="Champs sources"
->abstract="Les champs Source sont des espaces de noms d’identité et des attributs de votre implémentation existante de Real-Time CDP. Vous pouvez les mapper à des champs cibles définis dans Real-Time CDP Collaboration."
+>abstract="Les champs Source sont des espaces de noms d’identité et des attributs de votre implémentation existante de Real-Time CDP. Vous pouvez les mapper à des champs cibles définis dans Real-Time CDP Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Champs cibles"
->abstract="Les champs cibles correspondent aux clés de correspondance que vous avez sélectionnées lors de l’intégration de votre entreprise. Actuellement, les e-mails hachés sont les seules clés de correspondance prises en charge."
+>abstract="Les champs cibles sont liés aux clés correspondantes que vous avez sélectionnées lors de l’intégration de votre entreprise. Actuellement, les e-mails hachés sont les seules clés correspondantes prises en charge."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
 >title="Appliquer la transformation"
->abstract="Lors de l’importation de champs *non hachés* à partir de votre source, utilisez cette option pour que Real-Time CDP Collaboration applique le hachage et transforme les champs simples en champs hachés."
+>abstract="Lors de l’import de champs *non hachés* à partir de votre source, utilisez cette option pour que Real-Time CDP Collaboration applique le hachage et transforme les champs simples en champs hachés."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="Espaces de noms d’identité"
->abstract="Sélectionnez un espace de noms d’identité dans les espaces de noms d’identité standard et personnalisés disponibles dans votre organisation Experience Platform."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Espaces de noms standard et d’identité dans Experience Platform"
+>abstract="Sélectionnez un espace de noms d’identité dans les espaces de noms d’identité standard et personnalisés disponibles dans votre organisation Experience Platform."
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard?lang=fr" text="Espaces de noms standard et d’identité dans Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="Attributs de profil"
->abstract="Sélectionnez des attributs dans le Schéma d’union pour la classe Profil dans Experience Platform. Cette vue affiche les attributs présents dans le schéma d’union et appartenant à la classe XDM Individual Profile."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Schéma d’union dans Experience Platform"
+>abstract="Sélectionnez des attributs dans le schéma d’union pour la classe Profil dans Experience Platform. Cette vue affiche les attributs présents dans le schéma d’union et appartenant à la classe XDM Profil individuel."
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=fr" text="Schéma d’union dans Experience Platform"
 
 ![Écran Mapper les champs affichant les champs source mappés aux champs cibles.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
@@ -246,7 +246,7 @@ Passez en revue toutes les configurations et tous les paramètres avant de final
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
 >title="Identités manquantes"
->abstract="Le nombre d’identités affiche un `-` pendant environ les premières 24 heures suivant l’importation d’une audience dans Real-Time CDP Collaboration. Au-delà de cette période, le nombre d’identités est mis à jour avec le nombre de profils présents dans l’audience."
+>abstract="Le nombre d’identités affiche `-` pendant environ les premières 24 heures suivant l’import d’une audience dans Real-Time CDP Collaboration. Au-delà de ce délai, le nombre d’identités est mis à jour avec le nombre de profils présents dans l’audience."
 
 Après avoir importé des audiences dans Real-Time CDP Collaboration, vous pouvez obtenir des informations à leur sujet dans une vue de tableau de bord. La vue par défaut de la page **[!UICONTROL Mes audiences]** affiche toutes les audiences actuellement importées par votre organisation dans Real-Time CDP Collaboration.
 
@@ -309,7 +309,7 @@ Des informations supplémentaires sur l’audience sont disponibles et partielle
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identités"
->abstract="Obtenez une vue répartie des identités qui composent cette audience, ainsi qu’un nombre total de profils avec les identités respectives."
+>abstract="Obtenez une vue répartie des identités qui composent cette audience, ainsi que le nombre total de profils avec les identités respectives."
 
 Cette section indique le nombre de profils présents dans l’audience avec l’une des identités que vous avez spécifiées lors de l’importation des audiences. La section contient également une répartition des identités afin que vous puissiez identifier les identités qui constituent le plus de la population de l’audience.
 
@@ -327,7 +327,7 @@ Pour une organisation, un filtrage et une récupération faciles des audiences, 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Accès à la connexion"
->abstract="<p>Les audiences peuvent être de trois types : publiques, privées et personnalisées.</p><p> Leur disponibilité pour une utilisation dans des projets avec des collaborateurs diffère en fonction du paramètre d’accès à la connexion. Vous pouvez toujours modifier l’accès à la connexion de privé à public, mais vous ne pouvez pas revenir en arrière une fois qu’une audience est partagée avec des collaborateurs.</p>"
+>abstract="<p>Les audiences peuvent être de trois types : publiques, privées et personnalisées.</p><p> Leur disponibilité pour une utilisation dans des projets avec des collaborateurs et collaboratrices diffère en fonction du paramètre d’accès à la connexion. Vous pouvez toujours modifier l’accès à la connexion de privé à public, mais vous ne pouvez pas revenir en arrière une fois qu’une audience est partagée avec des collaborateurs et collaboratrices.</p>"
 
 Choisissez si l’audience doit être privée pour vous ou utilisable et détectable dans les connexions. Les trois options disponibles sont les suivantes :
 
@@ -339,14 +339,14 @@ Choisissez si l’audience doit être privée pour vous ou utilisable et détect
 >
 >Quel que soit le statut d’accès (public, privé ou personnalisé), la population de toute audience contribue à la population **[!UICONTROL Toutes les audiences]** dans la vue d’analyse de chevauchement Découverte d’audience. <br> ![L’audience **Toutes les audiences** générée par le système dans l’analyse de chevauchement de la découverte d’audiences inclut les audiences avec tous les statuts d’accès aux connexions (publique, privée, personnalisée).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "L’audience générée par le système **Toutes les audiences** dans l’analyse de chevauchement **Découverte d’audiences** inclut les audiences avec tous les statuts d’accès aux connexions (publique, privée, personnalisée)."){width="100" zoomable="yes"}
 
-La disponibilité de l’audience à utiliser dans les projets avec des collaborateurs diffère selon le paramètre d’accès à la connexion. Vous pouvez toujours modifier l’accès à la connexion de privé à public, mais vous ne pouvez pas revenir en arrière une fois qu’une audience est partagée avec des collaborateurs.
+La disponibilité de l’audience à utiliser dans les projets avec des collaborateurs diffère selon le paramètre d’accès à la connexion. Vous pouvez toujours modifier l’accès à la connexion de privé à public, mais vous ne pouvez pas revenir en arrière une fois qu’une audience est partagée avec des collaborateurs et collaboratrices.
 
 ### Visibilité des métadonnées {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilité des métadonnées"
->abstract="<p>Indique laquelle des informations de métadonnées d’audience est visible par d’autres organisations avant qu’elles ne se connectent à votre organisation. </p> <p> **Nombre d’identités** contrôle si votre partenaire peut afficher les nombres d’identités de vos audiences lors de l’affichage des rapports de chevauchement dans l’onglet découverte. **Le % de chevauchement des audiences** contrôle si les collaborateurs sont en mesure de découvrir des pourcentages de chevauchement entre leurs audiences et les vôtres."
+>abstract="<p>Précise les informations de métadonnées d’audience qui sont visibles pour d’autres organisations avant qu’elles ne se connectent à votre organisation. </p> <p> Le **Nombre d’identités** vérifie si votre partenaire peut afficher les chiffres des identités de vos audiences lors de l’affichage des rapports de chevauchement dans l’onglet de découverte. Le **Pourcentage de chevauchement des audiences** contrôle si les collaborateurs et collaboratrices sont en mesure de découvrir des pourcentages de chevauchement entre leurs audiences et les vôtres."
 
 >[!NOTE]
 >

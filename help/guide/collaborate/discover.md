@@ -7,7 +7,7 @@ exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 1%
+ht-degree: 24%
 
 ---
 
@@ -46,27 +46,27 @@ Une fois les conditions préalables mentionnées ci-dessus remplies, vous pouvez
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_compare_audiences"
 >title="Comparer des audiences"
->abstract="Découvrez les chevauchements entre vos audiences et celles de vos collaborateurs. Vous pouvez ajuster les paramètres du sélecteur de liste déroulante pour détecter les chevauchements entre une ou plusieurs de vos audiences et une ou plusieurs audiences de vos collaborateurs."
+>abstract="Découvrez les chevauchements entre vos audiences et celles de vos collaborateurs et collaboratrices. Vous pouvez ajuster les paramètres du sélecteur de liste déroulante pour détecter les chevauchements entre une ou plusieurs de vos audiences et une ou plusieurs audiences de vos collaborateurs et collaboratrices."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
->title="Votre nombre d’identités"
+>title="Le nombre de vos identités"
 >abstract="Nombre de profils avec cette identité sélectionnée qui font partie de votre audience sélectionnée"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
->title="Nombre d’identités du collaborateur"
->abstract="Nombre de profils avec cette identité sélectionnée qui font partie de l’audience sélectionnée par votre collaborateur ou votre collaboratrice"
+>title="Nombre d’identités du collaborateur ou de la collaboratrice"
+>abstract="Nombre de profils avec cette identité sélectionnée qui font partie de l’audience sélectionnée de votre collaborateur ou collaboratrice"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
 >title="Nombre d’identités qui se chevauchent"
->abstract="Nombre de profils avec cette identité sélectionnée qui sont présents dans votre audience et dans celle de votre collaborateur"
+>abstract="Nombre de profils avec cette identité sélectionnée qui sont présents dans votre audience et dans celle de votre collaborateur ou collaboratrice"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
 >title="Pourcentage d’identités qui se chevauchent"
->abstract="Pourcentage de profils qui se chevauchent entre votre audience et l’audience sélectionnée de votre collaborateur."
+>abstract="Pourcentage de profils qui se chevauchent entre votre audience et l’audience sélectionnée de votre collaborateur ou collaboratrice."
 
 Utilisez la carte Comparer les audiences pour obtenir de riches informations sur le chevauchement entre vos audiences et celles de votre collaborateur. Vous pouvez choisir de comparer l’une des combinaisons d’audience suivantes :
 
@@ -82,7 +82,7 @@ Les informations affichées concernent :
 | **[!UICONTROL Nombre d’identités]** (vôtre) | Nombre de profils avec une identité sélectionnée qui font partie de votre audience sélectionnée. |
 | **[!UICONTROL Nombre d’identités]** (votre collaborateur) | Nombre de profils avec une identité sélectionnée qui font partie de l’audience sélectionnée par votre collaborateur. |
 | **[!UICONTROL Identités qui se chevauchent]** | Nombre de profils avec une identité sélectionnée qui sont présents à la fois dans votre audience et dans celle de votre collaborateur. |
-| **[!UICONTROL Pourcentage de chevauchement]** | Pourcentage de profils qui se chevauchent entre votre audience et l’audience sélectionnée de votre collaborateur. |
+| **[!UICONTROL Pourcentage de chevauchement]** | Pourcentage de profils qui se chevauchent entre votre audience et l’audience sélectionnée de votre collaborateur ou collaboratrice. |
 | **[!UICONTROL Répartition des identités par clé de correspondance]** | En fonction des clés de correspondance convenues entre vous et votre collaborateur pour le projet, afficher la composition des identités dans les calculs de chevauchement par clés de correspondance individuelles. |
 
 {style="table-layout:auto"}
@@ -91,12 +91,12 @@ Les informations affichées concernent :
 >
 >Le pourcentage de chevauchement peut ne pas toujours être disponible pour toutes les audiences. La visibilité de l’indicateur de pourcentage de chevauchement dépend du paramètre que votre collaborateur a choisi pour une audience dans la [section de visibilité des métadonnées](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
-## Audiences concernées {#relevant-audiences}
+## Audiences pertinentes {#relevant-audiences}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
->title="Audiences concernées"
->abstract="En fonction des pourcentages de chevauchement, ces audiences d’éditeur peuvent être adaptées à votre campagne. <br><br> Le <b> nombre d’identités </b> correspond à la taille de l’audience de l’éditeur. <br><br> <b>Identités qui se chevauchent</b> représente le chevauchement entre l’audience recommandée de l’éditeur et toutes les audiences de l’annonceur. <br><br> Le <b>chevauchement %</b> représente le nombre d’identités qui se chevauchent divisé par la taille de <i>toutes</i> les audiences de l’annonceur."
+>title="Audiences pertinentes"
+>abstract="En fonction des pourcentages de chevauchement, ces audiences d’éditeurs pourraient être adaptées à votre campagne. <br><br> Le <b> nombre d’identités</b> correspond à la taille de l’audience de l’éditeur. <br><br> Les <b>Identités qui se chevauchent</b> représentent le chevauchement entre l’audience recommandée de l’éditeur et toutes les audiences de l’annonceur. <br><br> Le <b>Pourcentage de chevauchement</b> représente le nombre d’identités qui se chevauchent, divisé par la taille de <i>toutes</i> les audiences de l’annonceur."
 
 La vue **[!UICONTROL Audiences pertinentes]** du module **[!UICONTROL Découvrir]** fournit une liste sélectionnée des cinq premières audiences en fonction du pourcentage de chevauchement. Cette fonctionnalité vous permet d’identifier rapidement les audiences qui chevauchent le plus vos données actuelles, ce qui vous permet de cibler vos campagnes plus efficacement.
 
@@ -106,12 +106,12 @@ La vue **[!UICONTROL Audiences pertinentes]** du module **[!UICONTROL Découvrir
 
 ![Vue des audiences pertinentes](/help/assets/collaborate/discover-overlaps/relevant-audiences-highlighted.png)
 
-## Découvrir les chevauchements {#discover-overlaps}
+## Chevauchements de découvertes {#discover-overlaps}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
->title="Découvrir les chevauchements avec des audiences individuelles"
->abstract="Obtenez des informations sur la population de ce public et ses recoupements avec l&#39;univers des identités du collaborateur."
+>title="Chevauchements de découvertes avec des audiences individuelles"
+>abstract="Obtenez des informations sur la population de cette audience et ses chevauchements avec l&#39;univers des identités du collaborateur ou de la collaboratrice."
 
 ![Découvrir les chevauchements avec différentes vues d’audiences](/help/assets/collaborate/discover-overlaps/discover-overlaps-cards-view.png)
 

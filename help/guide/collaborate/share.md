@@ -7,7 +7,7 @@ exl-id: 0fdf0598-89c9-452d-a2e3-ce868df0b9d2
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -98,12 +98,12 @@ Au sein de chaque activité de partage d’audience, vous pouvez obtenir des inf
 
 La page fournit également des commandes vous permettant de **[!UICONTROL Suspendre le partage]** et **[!UICONTROL Modifier les audiences]**.
 
-## Modifier des audiences {#edit-audiences}
+## Modifier les audiences {#edit-audiences}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_share_edit_audiences_usecases"
 >title="Cibler ou supprimer un cas d’utilisation"
->abstract="<p>Sélectionnez **Cible** si vous souhaitez que les profils de l’audience soient affichés dans les publicités de la campagne.</p> <p>Sélectionnez **Supprimer** si vous souhaitez exclure les profils de l’audience des messages de la campagne.</p>"
+>abstract="<p>Sélectionnez **Cible** si vous souhaitez que les profils de l’audience soient affichés pour les publicités de la campagne.</p> <p>Sélectionnez **Supprimer** si vous souhaitez exclure les profils de l’audience des messages de la campagne.</p>"
 
 Sélectionnez **[!UICONTROL Modifier les audiences]** pour modifier les audiences partagées dans un module de partage d’audiences, ainsi que pour modifier plusieurs configurations liées à la manière dont les audiences sont partagées.
 

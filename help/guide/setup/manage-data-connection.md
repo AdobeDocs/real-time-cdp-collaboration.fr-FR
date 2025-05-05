@@ -7,7 +7,7 @@ exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 4%
+ht-degree: 17%
 
 ---
 
@@ -35,14 +35,14 @@ Toutes les connexions de données actuellement configurées sont ainsi affichée
 
 ![Espace de travail Gérer les connexions de données avec une connexion Afficher les connexions de données en surbrillance. ](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png){zoomable="yes"}
 
-### Clés de correspondance {#match-keys}
+### Clés correspondantes {#match-keys}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
->title="Clés de correspondance"
->abstract="Les clés de correspondance déterminent la manière dont les données provenant de différentes sources seront mises en correspondance. Sélectionnez les clés de correspondance les plus pertinentes pour vos cas d’utilisation et vos directives de confidentialité."
+>title="Clés correspondantes"
+>abstract="Les clés de correspondance déterminent la manière dont les données provenant de différentes sources seront mises en correspondance. Sélectionnez les clés correspondantes les plus pertinentes pour vos cas d’utilisation et vos directives de confidentialité."
 
-Les clés de correspondance sont des identifiants utilisés pour réconcilier des membres d’audiences provenant de différentes sources de données. Les clés de correspondance disponibles sont les suivantes :
+Les clés correspondantes sont des identifiants utilisés pour réconcilier des membres d’audiences provenant de différentes sources de données. Les clés de correspondance disponibles sont les suivantes :
 
 - **E-mail haché**
 
@@ -55,7 +55,7 @@ Vous ne pouvez pas modifier les clés de correspondance utilisées dans cette co
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Planification"
->abstract="Cette vue affiche les options de planification que vous avez sélectionnées initialement pour votre connexion aux données."
+>abstract="Cette vue affiche les options de planification que vous avez sélectionnées au départ pour votre connexion aux données."
 
 Vous ne pouvez pas modifier les options de planification que vous avez sélectionnées initialement pour votre connexion aux données. Pour plus d’informations sur les options de planification, consultez la [section de planification](/help/guide/setup/onboard-audiences.md#schedule) dans le document du workflow d’importation d’audience.
 

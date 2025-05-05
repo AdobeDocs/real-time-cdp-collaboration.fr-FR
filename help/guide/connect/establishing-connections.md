@@ -7,7 +7,7 @@ exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 81cedb2a06d930734b1f97304de82d450c06bf79
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -56,22 +56,22 @@ Une fois que le collaborateur accepte l’invitation, vous pouvez configurer les
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
->title="Clés de correspondance"
->abstract="Les clés de correspondance sont préremplies avec celles que vous avez sélectionnées au niveau de votre organisation. Vous pouvez désactiver toutes les clés de correspondance que vous ne souhaitez pas utiliser dans cette connexion."
+>title="Clés correspondantes"
+>abstract="Les clés correspondantes sont préremplies avec celles que vous avez sélectionnées au niveau de votre organisation. Vous pouvez désactiver toutes les clés correspondantes que vous ne souhaitez pas utiliser dans cette connexion."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
->title="Partage du crédit"
->abstract="Cette section détermine qui paie pour les activités correspondantes dans Real-Time CDP Collaboration. Actuellement, seul le cas d’utilisation du partage d’audience est configurable."
+>title="Partage des crédits"
+>abstract="Cette section détermine l’identité de la personne qui paie les activités correspondantes dans Real-Time CDP Collaboration. Actuellement, seul le cas d’utilisation du partage d’audience est configurable."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
->title="Partage d&#39;audiences"
+>title="Partage d’audiences"
 >abstract="Le partage d’audience est l’activité qu’une partie entreprend lorsqu’elle demande que ses données correspondantes soient activées par son partenaire de collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
->title="Contrat légal"
+>title="Accord juridique"
 >abstract="Vérifiez qu’il existe un accord de partage de données entre les deux parties."
 
 Une fois l’invitation envoyée, vous pouvez prévisualiser les paramètres de connexion. L’invitation doit être acceptée avant que vous puissiez terminer la configuration de la connexion.

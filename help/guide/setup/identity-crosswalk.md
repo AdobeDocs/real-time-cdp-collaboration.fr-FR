@@ -9,7 +9,7 @@ exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
 source-git-commit: 23dc33af83366806f7d99161b4b713a33daeec76
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 4%
+ht-degree: 22%
 
 ---
 
@@ -63,11 +63,11 @@ Attribuez un nom et une description au passage d&#39;identité que vous importez
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_crosswalk_join_key"
 >title="Clé de jointure"
->abstract="Une clé de jointure est un identifiant unique utilisé pour faire correspondre et lier des enregistrements dans différents jeux de données. Cela permet de s’assurer que les données provenant de diverses sources peuvent être associées avec précision à la même personne ou entité. L&#39;un des en-têtes de colonne du passage piéton sélectionné peut servir de clé de jointure."
+>abstract="Une clé de jointure est un identifiant unique utilisé pour faire correspondre et relier des enregistrements de différents jeux de données. Cela permet de s’assurer que les données provenant de diverses sources puissent être associées avec précision à la même personne ou entité. L’un des en-têtes de colonne du croisement sélectionné peut servir de clé de jointure."
 
-Une clé de jointure est un identifiant unique utilisé pour faire correspondre et lier des enregistrements dans différents jeux de données. Cela permet de s’assurer que les données provenant de diverses sources peuvent être associées avec précision à la même personne ou entité. En sélectionnant la clé de jointure appropriée, vous pouvez fusionner et réconcilier efficacement les données, ce qui améliore la précision et l’exhaustivité de vos campagnes.
+Une clé de jointure est un identifiant unique utilisé pour faire correspondre et relier des enregistrements de différents jeux de données. Cela permet de s’assurer que les données provenant de diverses sources puissent être associées avec précision à la même personne ou entité. En sélectionnant la clé de jointure appropriée, vous pouvez fusionner et réconcilier efficacement les données, ce qui améliore la précision et l’exhaustivité de vos campagnes.
 
-L&#39;un des en-têtes de colonne du passage piéton sélectionné peut servir de clé de jointure.
+L’un des en-têtes de colonne du croisement sélectionné peut servir de clé de jointure.
 
 Sélectionnez la clé de jointure souhaitée pour la table de passage pour piétons et sélectionnez **[!UICONTROL Suivant]** pour passer à l&#39;étape suivante.
 

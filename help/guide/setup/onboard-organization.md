@@ -7,7 +7,7 @@ exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 0de6ab9af8152975f8e0b0f75b1ee0116ed73584
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
@@ -60,22 +60,22 @@ Le workflow de configuration de votre organisation comprend les deux pages ci-de
 
 Lorsque vous êtes satisfait(e) de votre sélection, utilisez **[!UICONTROL Suivant]** pour passer à la page suivante et sélectionner les clés de correspondance que votre entreprise doit utiliser.
 
-### Configurer les clés de correspondance {#set-up-match-keys}
+### Configurer des clés correspondantes {#set-up-match-keys}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
->title="Clés de correspondance"
->abstract="Les clés de correspondance sont des identifiants utilisés pour réconcilier des membres d’audiences provenant de différentes sources de données. Incluez toutes les clés de correspondance que votre entreprise peut utiliser."
+>title="Clés correspondantes"
+>abstract="Les clés correspondantes sont des identifiants utilisés pour réconcilier des membres d’audiences provenant de différentes sources de données. Incluez toutes les clés correspondantes que votre entreprise peut utiliser."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="Identifiants de personnes propriétaires"
->abstract="Les identifiants de personnes propriétaires, tels que des adresses e-mail ou des numéros de téléphone hachés, sont directement liés à un profil individuel. Les identifiants actuellement pris en charge sont des e-mails et des numéros de téléphone hachés."
+>title="Identifiants propriétaires de personnes"
+>abstract="Les identifiants propriétaires de personnes, tels que des adresses e-mail ou des numéros de téléphone hachés, sont directement liés à un profil individuel. Les identifiants actuellement pris en charge sont des e-mails et des numéros de téléphone hachés."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="Identifiants d’appareils propriétaires"
->abstract="Les identifiants d’appareils propriétaires, tels que les adresses IP ou ECID, sont directement connectés aux appareils, qui peuvent être partagés entre plusieurs personnes. IPv4 est le seul identifiant d’appareil propriétaire actuellement pris en charge."
+>abstract="Les identifiants d’appareils propriétaires, tels que les adresses IP ou les ECID, sont directement connectés aux appareils, lesquels peuvent être partagés entre plusieurs personnes. IPv4 est le seul identifiant d’appareil propriétaire actuellement pris en charge."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
@@ -94,7 +94,7 @@ Sélectionnez jusqu’à cinq clés de correspondance que vous prévoyez d’uti
 
 Les clés de correspondance disponibles dans Real-Time CDP Collaboration peuvent être de trois types :
 
-* Identifiants de personnes propriétaires
+* Identifiants propriétaires de personnes
 * Identifiants d’appareils propriétaires
 * ID partenaires
 

@@ -2,12 +2,12 @@
 title: Importer et gérer des audiences
 description: Découvrez comment importer et gérer des audiences dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
+source-git-commit: 2c835ce72f09c450aa3467dc72980c9c627a0ab8
 workflow-type: tm+mt
-source-wordcount: '2642'
-ht-degree: 24%
+source-wordcount: '2666'
+ht-degree: 22%
 
 ---
 
@@ -91,15 +91,15 @@ Ensuite, vous devez vous assurer que les actions marketing correctes sont défin
 
 Utilisez des actions marketing pour contrôler les données d’audience à importer dans Real-Time CDP Collaboration à partir d’Experience Platform. L’action marketing **Collaboration de données** prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing **Science des données** prend en charge le libellé d’utilisation des données C9.
 
-En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Lorsque la case à cocher est *activée*, toutes les données marquées avec les libellés mentionnés ci-dessus dans Experience Platform sont exclues et ne sont *pas* importées dans Real-Time CDP Collaboration.
 * Lorsque la case à cocher est *désactivée*, il n’existe aucune restriction sur les données d’Experience Platform qui peuvent être importées dans Real-Time CDP Collaboration.
 
 Consultez la documentation d’Experience Platform pour en savoir plus sur les libellés d’utilisation des données :
 
-* [Présentation des libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Glossaire des libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Présentation des libellés d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Glossaire des libellés d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![Actions marketing requises pour la collaboration sur les données.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -211,7 +211,7 @@ Note that this control is disabled in the initial release of Real-Time CDP Colla
 
 After selecting the desired use cases for each identity, proceed to the next step. 
 
--->
+-->›
 
 ### Planning {#schedule}
 
@@ -246,7 +246,7 @@ Passez en revue toutes les configurations et tous les paramètres avant de final
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
 >title="Identités manquantes"
->abstract="Le nombre d’identités affiche `-` pendant environ les premières 24 heures suivant l’import d’une audience dans Real-Time CDP Collaboration. Au-delà de ce délai, le nombre d’identités est mis à jour avec le nombre de profils présents dans l’audience."
+>abstract="Le nombre d’identités sera disponible après la prochaine actualisation de la connexion de données suivant le planning configuré. L’actualisation initiale se produit généralement dans les 24 heures suivant la configuration de la connexion aux données. Les actualisations en cours suivront le planning configuré. "
 
 Après avoir importé des audiences dans Real-Time CDP Collaboration, vous pouvez obtenir des informations à leur sujet dans une vue de tableau de bord. La vue par défaut de la page **[!UICONTROL Mes audiences]** affiche toutes les audiences actuellement importées par votre organisation dans Real-Time CDP Collaboration.
 
@@ -257,7 +257,7 @@ Vous pouvez afficher les informations pertinentes suivantes sur chaque audience 
 | Élément | Description |
 |----------|---------|
 | **[!UICONTROL Identités]** | Indique le nombre d’identités présentes dans cette audience. Notez que si le même profil possède plusieurs identités et que ces identités sont utilisées comme clés de correspondance dans le projet, le profil s’affichera deux fois dans le décompte. |
-| **[!UICONTROL Statut]** | Indique si l’audience est active et peut être utilisée dans des projets. Un statut En attente indique que l’audience vient d’être importée et que les membres de l’audience doivent encore être renseignés. Les audiences importées contiennent généralement des profils dans les 24 heures. |
+| **[!UICONTROL Statut]** | Indique si l’audience est active et peut être utilisée dans des projets. Un statut En attente indique que l’audience vient d’être importée et que les membres de l’audience doivent encore être renseignés. Les audiences importées seront renseignées avec des profils après la prochaine actualisation de la connexion aux données suivant le planning configuré. L’actualisation initiale se produit généralement dans les 24 heures suivant la configuration de la connexion aux données                                         . |
 | **[!UICONTROL Source]** | Indique la source à partir de laquelle cette audience a été importée. Dans la version actuelle de Real-Time CDP Collaboration, Adobe Experience Platform est la seule source prise en charge. |
 | **[!UICONTROL Connexion aux données]** | D’autres informations d’exploration vers le bas sur l’emplacement d’importation de cette audience. Par exemple, lors de l’importation d’audiences à partir de la source Experience Platform, les sandbox individuels auxquels votre organisation a accès sont considérés comme des connexions de données. |
 | **[!UICONTROL Accès à la connexion]** | Définit si cette audience est privée ou publique. Les audiences publiques sont détectables dans les rapports de chevauchement et peuvent être partagées avec les collaborateurs. |

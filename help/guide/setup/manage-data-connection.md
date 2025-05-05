@@ -2,7 +2,7 @@
 title: Gérer les connexions de données
 description: Découvrez comment gérer les connexions de données, notamment les clés de correspondance, la planification, les cas d’utilisation et le filtrage d’audience dans Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
@@ -25,7 +25,7 @@ Avant de gérer vos connexions de données ici, vous devez d’abord les configu
 
 >[!IMPORTANT]
 >
->La suppression d’une connexion de données n’est actuellement pas prise en charge dans l’interface utilisateur de Real-Time CDP Collaboration. Pour supprimer une connexion de données, contactez votre représentant Adobe ou [créez un ticket de service clientèle](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}.
+>La suppression d’une connexion de données n’est actuellement pas prise en charge dans l’interface utilisateur de Real-Time CDP Collaboration. Pour supprimer une connexion de données, contactez votre représentant Adobe ou [créez un ticket de service clientèle](https://experienceleague.adobe.com/home?lang=fr&amp;support-tab=open-ticket#support){target="_blank"}.
 
 Pour afficher les connexions de données existantes, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Mes audiences]**, puis sélectionnez **[!UICONTROL Gérer les connexions de données]**.
 

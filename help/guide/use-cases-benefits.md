@@ -2,7 +2,7 @@
 title: Principaux avantages et cas d’utilisation d’Adobe Real-Time CDP Collaboration
 description: Découvrez les principaux avantages et cas d’utilisation d’Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
 source-git-commit: 89a966d6487c309fd29f3183513fc48518b85089
 workflow-type: tm+mt

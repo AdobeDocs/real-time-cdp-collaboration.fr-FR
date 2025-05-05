@@ -2,7 +2,7 @@
 title: Activer les audiences
 description: En tant qu’éditeur, apprenez à activer dans les campagnes les audiences partagées avec vous par votre collaborateur.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt

@@ -4,9 +4,9 @@ description: Après avoir découvert des collaborateurs potentiels, apprenez à 
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 81cedb2a06d930734b1f97304de82d450c06bf79
+source-git-commit: ee434f1bb8119e2a378580a02ffa0b9efb93cf28
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '938'
 ht-degree: 13%
 
 ---
@@ -68,6 +68,11 @@ Une fois que le collaborateur accepte l’invitation, vous pouvez configurer les
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="Partage d’audiences"
 >abstract="Le partage d’audience est l’activité qu’une partie entreprend lorsqu’elle demande que ses données correspondantes soient activées par son partenaire de collaboration."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
+>title="Mesure"
+>abstract="Ce cas pratique vous permet d’exécuter des activités dans Real-Time CDP Collaboration afin de générer des rapports et des informations sur les performances des campagnes."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"

@@ -2,11 +2,11 @@
 title: Intégration et gestion de l’organisation
 description: Découvrez comment intégrer et gérer divers aspects de votre organisation dans Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 0de6ab9af8152975f8e0b0f75b1ee0116ed73584
+source-git-commit: 27faef284a07be114ea0a9a7beeae75ec6265d53
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '827'
 ht-degree: 14%
 
 ---
@@ -53,10 +53,8 @@ Le workflow de configuration de votre organisation comprend les deux pages ci-de
 4. Sélectionnez le **[!UICONTROL secteur]** de votre organisation. Par exemple, **[!UICONTROL Vente au détail]**, **[!UICONTROL Télécommunications]** ou **[!UICONTROL Services financiers]**.
 5. Sélectionnez la **[!UICONTROL Région]** de votre organisation. Dans la version actuelle du produit, **[!UICONTROL Amérique du Nord]** est la sélection par défaut prédéfinie.
 6. Ajoutez un **[!UICONTROL e-mail de contact]** pour votre organisation. Il doit s’agir d’une adresse e-mail d’équipe ou basée sur les rôles. Les adresses e-mail personnelles ne doivent pas être fournies.
-7. <span class="preview"> Publisher-only </span> : lors de la configuration d&#39;une organisation d&#39;éditeur, vous devez lire et reconnaître que vous serez détectable par les annonceurs dans le catalogue de l&#39;éditeur.
-   ![Message d’accord préalable spécifique à l’éditeur.](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}
-8. Chargez un **[!UICONTROL Logo]** pour votre entreprise. Actuellement, les images de type SVG sont prises en charge.
-9. Sélectionnez une image pour l’image d’en-tête de votre société.
+7. Chargez un **[!UICONTROL Logo]** pour votre entreprise. Actuellement, les images de type SVG sont prises en charge.
+8. Sélectionnez une image pour l’image d’en-tête de votre société.
 
 Lorsque vous êtes satisfait(e) de votre sélection, utilisez **[!UICONTROL Suivant]** pour passer à la page suivante et sélectionner les clés de correspondance que votre entreprise doit utiliser.
 

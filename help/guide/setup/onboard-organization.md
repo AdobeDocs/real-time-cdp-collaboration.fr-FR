@@ -2,12 +2,12 @@
 title: Intégration et gestion de l’organisation
 description: Découvrez comment intégrer et gérer divers aspects de votre organisation dans Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 12e73a9bf64f5746748d1a8c81827c50000a6428
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 14%
+ht-degree: 17%
 
 ---
 
@@ -31,19 +31,19 @@ Vous devez d’abord configurer les détails de votre organisation et de votre o
 
 Le workflow de configuration de votre organisation comprend les deux pages ci-dessous :
 
-* [Configurer les détails](#set-up-details)
+* [Configurer des détails](#set-up-details)
 * [Configurer les clés de correspondance](#set-up-match-keys)
 
 >[!IMPORTANT]
 >
 >Toutes les *clés de correspondance* que vous sélectionnez au niveau de l’organisation se propagent ensuite au niveau du [projet](/help/guide/collaborate/manage-projects.md) dans la collaboration entre les annonceurs et les éditeurs. Au niveau du projet, vous pouvez ensuite supprimer toutes les clés de correspondance, mais vous ne pouvez *pas* ajouter d’autres clés qui n’ont pas été sélectionnées au niveau de l’organisation dans cet écran.
 
-### Configurer les détails {#set-up-details}
+### Configurer des détails {#set-up-details}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
 >title="E-mail de contact"
->abstract="Indiquez un e-mail basé sur une équipe ou un rôle, tel que `collaboration@yourcompany.com`. Les adresses électroniques personnelles ou individuelles ne doivent pas être utilisées."
+>abstract="Fournissez une adresse e-mail basée sur une équipe ou un rôle, comme `collaboration@yourcompany.com`. Des adresses e-mail personnelles ou individuelles ne doivent pas être utilisées."
 
 ![Étapes de détails et de cas d’utilisation pour configurer une organisation](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
 

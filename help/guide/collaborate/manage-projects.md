@@ -2,12 +2,12 @@
 title: Créer et gérer des projets
 description: Découvrez comment créer et gérer des projets dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez utiliser les filtres pour afficher uniquement les projets que vous a
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
->title="Nom de l’annonceur"
+>title="Nom de d’annonceur"
 >abstract="Sélectionnez le nom de l’annonceur dans le menu déroulant. Les options sont préconfigurées par l’annonceur dans les paramètres de connexion afin d’assurer la compatibilité avec les systèmes de l’annonceur."
 
 Pour créer un projet, sélectionnez le symbole Plus **+** dans le coin supérieur droit. S’il s’agit de votre premier projet, accédez à **[!UICONTROL Collaborer]** > **[!UICONTROL Mes projets]**, puis sélectionnez **[!UICONTROL Créer un projet]**.

@@ -2,7 +2,7 @@
 title: Intégration et gestion de l’organisation
 description: Découvrez comment intégrer et gérer divers aspects de votre organisation dans Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 12e73a9bf64f5746748d1a8c81827c50000a6428
 workflow-type: tm+mt

@@ -2,10 +2,10 @@
 user-guide-title: Real-Time Customer Data Platform Collaboration
 breadcrumb-title: Real-Time Customer Data Platform Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration permet un partage de données et une collaboration transparents et sécurisés entre les annonceurs et les éditeurs, ce qui facilite les informations sur les audiences en temps réel et les stratégies marketing personnalisées.
-source-git-commit: 56872a2cd91ae040aba51ed5784c86b055f88756
+source-git-commit: c2a20aad386314f654d5451126390da4228f5572
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 20%
+source-wordcount: '122'
+ht-degree: 21%
 
 ---
 
@@ -13,10 +13,10 @@ ht-degree: 20%
 # Real-Time Customer Data Platform Collaboration {#using}
 
 * [Page de départ Real-Time CDP Collaboration](./home.md)
-* Présentation {#overview}
+* Vue d’ensemble {#overview}
    * [Cas d’utilisation et avantages](./use-cases-benefits.md)
    * [Workflow de bout en bout](./end-to-end-workflow.md)
-* Configurer les {#setup}
+* Configuration {#setup}
    * [Présentation de la section de configuration](./setup/setup-overview.md)
    * [Intégrer et gérer votre organisation](./setup/onboard-organization.md)
    * [Importer et gérer des audiences](./setup/onboard-audiences.md)
@@ -39,12 +39,7 @@ ht-degree: 20%
    * [Vue d’ensemble](/help/guide/permissions/overview.md)
    * [Gérer l’accès utilisateur](/help/guide/permissions/manage-user-access.md)
    * [Gérer les rôles](/help/guide/permissions/manage-roles.md)
-* Exemples de cas d’utilisation {#use-cases}
-   * [Mesure de campagne](./use-cases/campaign-measurement.md)
-   * [Prospection](./use-cases/prospecting.md)
-   * [Reciblage](./use-cases/retargeting.md)
-   * [Suppression](./use-cases/suppression.md)
 * Référence {#reference}
    * [Questions courantes et conseils de dépannage](./faqs/common-questions.md)
    * [Glossaire](./glossary.md)
-* [Dernières notes de mise à jour de](/help/guide/release-notes/latest.md)
+* [Dernières notes de mise à jour](/help/guide/release-notes/latest.md)

@@ -2,12 +2,12 @@
 title: Se connecter avec des annonceurs ou des éditeurs
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -72,7 +72,7 @@ Une fois que le collaborateur accepte l’invitation, vous pouvez configurer les
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="Mesure"
->abstract="Ce cas pratique vous permet d’exécuter des activités dans Real-Time CDP Collaboration afin de générer des rapports et des informations sur les performances des campagnes."
+>abstract="Ce cas pratique vous permet d’exécuter des activités dans Real-Time CDP Collaboration afin de générer des rapports et des informations sur les performances de la campagne."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
@@ -81,7 +81,7 @@ Une fois que le collaborateur accepte l’invitation, vous pouvez configurer les
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
->title="Noms des annonceurs"
+>title="Noms de l’annonceur"
 >abstract="Indique les alias par lesquels l’annonceur est connu de l’éditeur. "
 
 Une fois l’invitation envoyée, vous pouvez prévisualiser les paramètres de connexion. L’invitation doit être acceptée avant que vous puissiez terminer la configuration de la connexion.

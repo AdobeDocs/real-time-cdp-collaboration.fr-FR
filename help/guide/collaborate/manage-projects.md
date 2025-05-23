@@ -2,12 +2,12 @@
 title: Créer et gérer des projets
 description: Découvrez comment créer et gérer des projets dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
+source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 10%
+source-wordcount: '452'
+ht-degree: 9%
 
 ---
 
@@ -32,13 +32,18 @@ Vous pouvez utiliser les filtres pour afficher uniquement les projets que vous a
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
 >title="Nom de d’annonceur"
->abstract="Sélectionnez le nom de l’annonceur dans le menu déroulant. Les options sont préconfigurées par l’annonceur dans les paramètres de connexion afin d’assurer la compatibilité avec ses systèmes."
+>abstract="Sélectionnez le nom de l’annonceur dans le menu déroulant. Les options sont préconfigurées par l’éditeur dans les paramètres de connexion afin d’assurer la compatibilité avec ses systèmes."
 
 Pour créer un projet, sélectionnez le symbole Plus **+** dans le coin supérieur droit. S’il s’agit de votre premier projet, accédez à **[!UICONTROL Collaborer]** > **[!UICONTROL Mes projets]**, puis sélectionnez **[!UICONTROL Créer un projet]**.
 
 ![Sélectionnez le symbole plus ou Créez un projet pour configurer un nouveau projet.](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
-Sélectionnez ensuite le collaborateur avec lequel vous créez le projet. Indiquez un **[!UICONTROL nom du projet]** et une **[!UICONTROL description]** pour votre projet, sélectionnez un en-tête d’image pour distinguer facilement le projet et confirmez votre sélection.
+Sélectionnez ensuite les paramètres suivants :
+
+* Collaborateur avec lequel vous créez le projet
+* Sélectionnez un nom d’annonceur si l’éditeur a configuré plusieurs noms d’annonceurs dans les paramètres de connexion. Dans le cas contraire, le nom de l’annonceur est présélectionné comme nom de l’annonceur. Ou, si l’éditeur a configuré un nom d’annonceur unique dans les paramètres de connexion, ce nom est prérempli dans cette sélection. [En savoir plus](/help/guide/connect/establishing-connections.md#connection-settings) sur les noms des annonceurs.
+* Fournissez un **[!UICONTROL nom du projet]** et **[!UICONTROL description]** pour votre projet
+* Sélectionnez un en-tête d’image pour distinguer facilement le projet et confirmer votre sélection.
 
 ![Options requises pour configurer un nouveau projet](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 

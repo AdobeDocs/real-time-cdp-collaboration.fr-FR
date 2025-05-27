@@ -2,12 +2,12 @@
 title: Se connecter avec des annonceurs ou des éditeurs
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
+source-git-commit: e4826c777d9d1df1dac7cd894536b7fd51be8a39
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 12%
+source-wordcount: '1272'
+ht-degree: 11%
 
 ---
 
@@ -83,7 +83,7 @@ Une fois que le collaborateur accepte l’invitation, vous pouvez configurer les
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Noms de l’annonceur"
 >abstract="<p>Paramètre facultatif. Indique le nom et l’ID par lesquels l’annonceur est connu de l’éditeur.</p><p>Le nom de l’annonceur que vous ajoutez ici sera prérempli à l’étape Créer un projet .</p><ul><li>Si l’éditeur a configuré plusieurs noms, sélectionnez-en un dans la liste.</li><li>Si un seul nom est configuré, il est présélectionné automatiquement.</li><li>Si aucun nom n’est configuré, le champ est prérempli avec le nom du compte de l’annonceur de Real-Time CDP Collaboration.</li></ul>"
->additional-url="https://experienceleague.adobe.com/fr/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Créer un projet"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Créer un projet"
 
 Une fois l’invitation envoyée, vous pouvez prévisualiser les paramètres de connexion. L’invitation doit être acceptée avant que vous puissiez terminer la configuration de la connexion.
 
@@ -111,23 +111,26 @@ Les cas d’utilisation sont préremplis avec tous les cas d’utilisation dispo
 
 Les clés de correspondance sont préremplies avec celles que vous [avez sélectionnées au niveau de votre organisation](/help/guide/setup/onboard-organization.md#set-up-match-keys). Vous pouvez désactiver toutes les clés de correspondance que vous ne souhaitez pas utiliser dans cette connexion, mais vous ne pouvez pas ajouter de clés de correspondance qui n’ont pas été sélectionnées lors de la configuration de l’organisation.
 
-![Clés de correspondance](/help/assets/connect/establish-connection/match-keys.png)
+![Clés de correspondance](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
 +++
 
 +++Répartition des crédits
 
-Utilisez la section fractionnement du crédit pour déterminer laquelle des deux parties collaboratrices couvrira les coûts des activités.
+Utilisez la section fractionnement du crédit pour déterminer laquelle des deux parties collaboratrices couvrira les coûts des activités. Les options de partage du crédit sont déterminées par les cas d’utilisation sélectionnés pour la connexion. Alors que le cas d’utilisation **[!UICONTROL Mesure]** nécessite qu’une partie prenne en charge les coûts, le cas d’utilisation **[!UICONTROL Activation de l’audience]** offre une option supplémentaire pour que chaque partie prenne en charge ses propres coûts. Pour plus d’informations sur la répartition des coûts, consultez le guide [types d’activités de crédit](/help/guide/setup/my-activity.md#types-of-activities).
 
-![Répartition des crédits](/help/assets/connect/establish-connection/edit-billing-ownership.png)
+>[!NOTE]
+>
+>Audience : la sortie est toujours couverte par le collaborateur qui reçoit l’audience. Aucune sélection n’est donc requise.
 
+![Boîte de dialogue Partage du crédit avec des options dans l’espace de travail de connexion.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 +++
 
 +++Accords
 
 Avant de pouvoir procéder à cette connexion, vous devez reconnaître qu’il existe un accord de partage de données entre les deux parties.
 
-![Accords juridiques.](/help/assets/connect/establish-connection/legal-agreement.png)
+![Accords juridiques.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
 
 +++
 

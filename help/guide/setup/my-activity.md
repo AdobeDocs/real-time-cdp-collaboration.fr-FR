@@ -2,11 +2,11 @@
 title: Suivre votre activité de consommation de crédit
 description: Découvrez comment effectuer le suivi de l’activité de consommation du crédit de votre organisation dans Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: 7e9e6ae51d9741891e916c0dfd5ec0047a995c21
+source-git-commit: b253588d8960757ed2023031bc95a7e3e0a0f65b
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '569'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,11 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-Utilisez l’onglet **[!UICONTROL Mon activité]** pour surveiller et suivre la consommation de crédit estimée de votre organisation pour toutes les activités de collaboration. Cette fonctionnalité fournit des informations détaillées sur l’utilisation des crédits dans les différentes connexions et activités, ce qui vous aide à gérer efficacement vos ressources.
+>[!BEGINSHADEBOX]
+
+**Période sans dépassement de 90 jours** : les clients des régions éligibles bénéficient d’une période sans dépassement de 90 jours à compter de la date de disponibilité dans leur région. Pendant cette période, les clients n’encourent pas de frais supplémentaires pour avoir dépassé leur droit de crédit.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -62,7 +66,7 @@ La colonne **[!UICONTROL Activité]** affiche différents types d’opérations 
 
 Pour gérer efficacement votre consommation de crédit :
 
-1. **comprendre** la consommation du crédit associée à chaque activité ; Consultez la description du produit [Real-Time CDP Collaboration](https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} pour obtenir un tableau des crédits de collaboration utilisés par activité.
+1. **comprendre** la consommation du crédit associée à chaque activité ; Consultez la description du produit [Real-Time CDP Collaboration](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} pour obtenir un tableau des crédits de collaboration utilisés par activité.
 2. **Surveiller régulièrement** : consultez fréquemment votre tableau de bord d’activité pour comprendre les schémas d’utilisation.
 3. **Suivi par connexion** : utilisez le nom de la connexion pour identifier les partenariats qui consomment le plus de crédits.
 

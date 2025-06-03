@@ -2,9 +2,9 @@
 title: Glossaire
 description: Comprendre la terminologie clé de Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: b929cf9d75b4fc844ba03799f07a5e372b8f9052
+source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 3%
@@ -85,7 +85,7 @@ In the context of identity crosswalks, a join key is a unique identifier used to
 
 ## M
 
-### Clés de correspondance
+### Clés correspondantes
 
 Les clés de correspondance sont des identifiants uniques utilisés pour lier des enregistrements dans différents jeux de données. Elles permettent de s’assurer que les données provenant de différentes sources peuvent être correctement appariées et intégrées, ce qui facilite une meilleure analyse des données et une segmentation de l’audience.
 

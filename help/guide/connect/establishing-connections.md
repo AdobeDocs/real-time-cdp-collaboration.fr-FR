@@ -2,9 +2,9 @@
 title: Se connecter avec des annonceurs ou des éditeurs
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: e4826c777d9d1df1dac7cd894536b7fd51be8a39
+source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 17%

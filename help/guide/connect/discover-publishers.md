@@ -2,9 +2,9 @@
 title: Découvrir les éditeurs et éditrices
 description: En tant qu’annonceur, découvrez comment trouver des éditeurs potentiels avec lesquels collaborer à l’aide d’Adobe Real-Time CDP Collaboration
 audience: admin, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 2%

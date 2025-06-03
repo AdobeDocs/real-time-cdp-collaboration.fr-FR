@@ -2,9 +2,9 @@
 title: Découvrir les chevauchements et comparer les audiences
 description: Découvrez les chevauchements entre vos audiences et celles de vos collaborateurs. Découvrez les meilleures audiences à utiliser dans vos campagnes.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 24%
@@ -31,7 +31,7 @@ Les clés de correspondance utilisées pour découvrir et comparer des audiences
 
 ![Écran Modifier les clés de correspondance](/help/assets/collaborate/discover-overlaps/edit-match-keys.png)
 
-## Prérequis {#prerequisites}
+## Conditions préalables {#prerequisites}
 
 Pour utiliser pleinement la fonctionnalité de l’onglet **[!UICONTROL Découvrir]** du workflow **[!UICONTROL Collaborer]**, vous avez déjà :
 

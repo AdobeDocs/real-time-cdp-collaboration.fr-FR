@@ -2,9 +2,9 @@
 title: Importer et gérer des audiences
 description: Découvrez comment importer et gérer des audiences dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 8fca38c8125cefae9fe52ecd168e3d0ff20f2936
+source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
 source-wordcount: '2685'
 ht-degree: 24%
@@ -91,15 +91,15 @@ Ensuite, vous devez vous assurer que les actions marketing correctes sont défin
 
 Utilisez des actions marketing pour contrôler les données d’audience à importer dans Real-Time CDP Collaboration à partir d’Experience Platform. L’action marketing **Collaboration de données** prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing **Science des données** prend en charge le libellé d’utilisation des données C9.
 
-En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Lorsque la case à cocher est *activée*, toutes les données marquées avec les libellés mentionnés ci-dessus dans Experience Platform sont exclues et ne sont *pas* importées dans Real-Time CDP Collaboration.
 * Lorsque la case à cocher est *désactivée*, il n’existe aucune restriction sur les données d’Experience Platform qui peuvent être importées dans Real-Time CDP Collaboration.
 
 Consultez la documentation d’Experience Platform pour en savoir plus sur les libellés d’utilisation des données :
 
-* [Présentation des libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Glossaire des libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Présentation des libellés d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Glossaire des libellés d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![Actions marketing requises pour la collaboration sur les données.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 

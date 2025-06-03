@@ -2,7 +2,7 @@
 title: Croisements d’identités
 description: Découvrez les passerelles d’identité dans Real-Time CDP Collaboration, notamment comment les importer de différentes sources et comment les gérer.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
@@ -46,7 +46,7 @@ Sélectionnez une source à partir de laquelle vous allez importer le tableau de
 >
 >Les passages piétons que vous importez depuis Experience Platform sont appelés *jeux de données* dans Platform.
 
-Après avoir sélectionné Experience Platform comme source de vos passages pour croisés, sélectionnez le [sandbox Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home) à partir duquel vous importez le passage pour croisé d’identité.
+Après avoir sélectionné Experience Platform comme source de vos passages pour croisés, sélectionnez le [sandbox Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/home) à partir duquel vous importez le passage pour croisé d’identité.
 
 ![Enregistrement de la façon de sélectionner une source de passage piétons](/help/assets/setup/identity-crosswalks/select-crosswalk-source.gif)
 

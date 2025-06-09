@@ -2,12 +2,12 @@
 title: Se connecter avec des annonceurs ou des éditeurs
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 17%
+source-wordcount: '1387'
+ht-degree: 11%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 17%
 
 {{limited-availability-release-note}}
 
-L’établissement d’une connexion entre deux parties d’une collaboration (le plus souvent un annonceur et un éditeur) est la condition préalable dans Real-Time CDP Collaboration pour que les sociétés travaillent ensemble sur des campagnes. Les éditeurs comme les annonceurs peuvent configurer des connexions. La partie qui initie la connexion sera ensuite le *propriétaire de la connexion*.
+Pour que des collaborateurs (généralement un annonceur et un éditeur) puissent travailler ensemble sur des campagnes, ils doivent établir une connexion. Cette connexion leur permet d’activer des audiences, de créer des projets et d’exécuter des rapports sur les performances des campagnes.
 
 ## Workflow de haut niveau
 
-À un niveau élevé, pour établir une connexion entre un annonceur et un éditeur, le workflow ressemble à ce qui suit :
+Pour établir une connexion entre un annonceur et un éditeur, les étapes suivantes sont requises :
 
-1. L’annonceur [parcourt les éditeurs et découvre](/help/guide/connect/discover-publishers.md) l’un d’eux avec lequel il souhaite travailler
+1. L’annonceur [parcourt les éditeurs et découvre](/help/guide/connect/discover-publishers.md) un éditeur avec lequel il aimerait travailler.
 2. L’annonceur envoie une invitation à la connexion.
 3. L’éditeur accepte l’invitation.
 4. L’annonceur envoie les paramètres de connexion, y compris les clés de correspondance et autres. Ces paramètres de connexion représentent les conditions internes au produit de la collaboration.
@@ -39,9 +39,9 @@ Une fois les éléments ci-dessus terminés, les collaborateurs peuvent passer �
 
 Pour configurer une connexion, sélectionnez **[!UICONTROL Connexion]** lors de la navigation dans l’inventaire des éditeurs dans l’écran Découvrir les éditeurs.
 
-![Sélecteur Connect](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
+![Le tableau de bord de connexion avec l’option Se connecter mise en surbrillance sur un éditeur spécifique.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
-À ce stade, l’invitation est fermée et vous pouvez prévisualiser les paramètres de connexion, mais vous ne pouvez pas les modifier. Vous pouvez afficher l’invitation en attente dans l’onglet **[!UICONTROL Mes connexions]**. Le statut de la connexion est **[!UICONTROL Invitation envoyée]**.
+Une fois l’invitation envoyée, vous pouvez prévisualiser (mais pas modifier) les paramètres de connexion. Affichez les invitations en attente dans l’onglet **[!UICONTROL Mes connexions]**. Le statut de la connexion apparaît comme **[!UICONTROL Invitation envoyée]**.
 
 ![Invitation en attente envoyée à l&#39;éditeur affichée dans la vue Mes connexions.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
@@ -62,17 +62,17 @@ Une fois que le collaborateur accepte l’invitation, vous pouvez configurer les
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Partage des crédits"
->abstract="Cette section détermine l’identité de la personne qui paie les activités correspondantes dans Real-Time CDP Collaboration. Actuellement, seul le cas d’utilisation du partage d’audience est configurable."
+>abstract="Cette section détermine qui paie pour les activités correspondantes dans Real-Time CDP Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="Partage d’audiences"
->abstract="Le partage d’audience est l’activité qu’une partie entreprend lorsqu’elle demande que ses données correspondantes soient activées par son partenaire de collaboration."
+>abstract="Les crédits d’activation d’audience sont consommés en fonction du nombre d’identifiants correspondants préparés pour l’activation."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="Mesure"
->abstract="Ce cas pratique vous permet d’exécuter des activités dans Real-Time CDP Collaboration afin de générer des rapports et des informations sur les performances de la campagne."
+>abstract="Exécutez des activités pour générer des rapports et des informations sur les performances de la campagne. Les crédits sont consommés en fonction du nombre de lignes dans les rapports de campagne sur toutes les campagnes et de la fréquence de création des rapports (quotidien, tous les trois jours ou hebdomadaire)."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
@@ -89,29 +89,31 @@ Une fois l’invitation envoyée, vous pouvez prévisualiser les paramètres de 
 
 ![La vue des paramètres de connexion dans l’état d’aperçu.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
 
-Une fois la connexion acceptée par votre collaborateur, vous pouvez commencer à configurer les paramètres de connexion pour la connexion. Les paramètres de connexion définissent les termes de votre collaboration, tels que les cas d’utilisation que vous accomplirez ensemble, les clés de correspondance que vous utiliserez dans les projets, etc.
+### Paramètres de connexion de l’annonceur {#advertiser-connection-settings}
 
-Pour configurer et partager les paramètres de connexion avec votre collaborateur, accédez à **[!UICONTROL Mes connexions]**. Pour toutes les connexions dont le statut est **[!UICONTROL En attente]**, vous pouvez sélectionner **[!UICONTROL Configurer la connexion]** pour configurer les paramètres de connexion.
+Une fois que votre collaborateur a accepté la connexion, configurez les paramètres de connexion. Ces paramètres définissent vos termes de collaboration, y compris les cas d’utilisation sur lesquels vous travaillerez, les clés de correspondance pour les projets et d’autres configurations.
 
-![La vue Mes connexions avec une connexion en attente et son option Configurer la connexion sont mises en surbrillance.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
+Pour commencer, accédez à **[!UICONTROL Mes connexions]**. Pour toutes les connexions dont le statut est **[!UICONTROL En attente]**, vous pouvez sélectionner **[!UICONTROL Configurer la connexion]** pour configurer les paramètres de connexion.
+
+![L’espace de travail Mes connexions avec une connexion en attente et son option Configurer la connexion sont mis en surbrillance.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
 
 Vous pouvez modifier et définir les champs ci-dessous :
 
-![Configurer la vue de connexion](/help/assets/connect/establish-connection/connection-view.png){zoomable="yes"}
+![Espace de travail des paramètres de connexion avant qu’il ne soit rempli.](/help/assets/connect/establish-connection/connection-view.png){zoomable="yes"}
 
 +++Cas d’utilisation
 
-Les cas d’utilisation sont préremplis avec tous les cas d’utilisation disponibles. Vous pouvez choisir les cas d’utilisation que votre connexion utilisera en sélectionnant **[!UICONTROL Modifier]** et en désactivant les cas d’utilisation que vous ne souhaitez pas. Les cas d’utilisation sélectionnés affecteront les vues et options [disponibles dans vos projets](../collaborate/manage-projects.md#project-use-cases).
+Les cas d’utilisation sont préremplis avec toutes les options disponibles. Pour les personnaliser, sélectionnez **[!UICONTROL Modifier]** dans la section **[!UICONTROL Cas d’utilisation]** et désactivez ceux que vous ne souhaitez pas. Les cas d’utilisation sélectionnés déterminent les vues et options [disponibles dans vos projets](../collaborate/manage-projects.md#project-use-cases).
 
-![Cas d&#39;utilisation](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
+![Paramètres des cas d’utilisation dans l’espace de travail des paramètres de connexion.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 +++
 
 +++Clés de correspondance
 
-Les clés de correspondance sont préremplies avec celles que vous [avez sélectionnées au niveau de votre organisation](/help/guide/setup/onboard-organization.md#set-up-match-keys). Vous pouvez désactiver toutes les clés de correspondance que vous ne souhaitez pas utiliser dans cette connexion, mais vous ne pouvez pas ajouter de clés de correspondance qui n’ont pas été sélectionnées lors de la configuration de l’organisation.
+Les clés de correspondance sont préremplies avec celles que vous avez sélectionnées lors de la [configuration de votre organisation](/help/guide/setup/onboard-organization.md#set-up-match-keys). Vous pouvez désactiver toutes les clés de correspondance que vous ne souhaitez pas utiliser, mais vous ne pouvez pas ajouter de clés de correspondance qui n’ont pas été sélectionnées lors de la configuration de l’organisation.
 
-![Clés de correspondance](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
+![Paramètres de clé de correspondance dans l’espace de travail des paramètres de connexion.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
 +++
 
@@ -130,15 +132,27 @@ Utilisez la section fractionnement du crédit pour déterminer laquelle des deux
 
 Avant de pouvoir procéder à cette connexion, vous devez reconnaître qu’il existe un accord de partage de données entre les deux parties.
 
-![Accords juridiques.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
+![La section Accord juridique met en surbrillance et est confirmée dans l’espace de travail de connexion.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
 
 +++
+
+Une fois vos sélections effectuées, sélectionnez **[!UICONTROL Envoyer]** pour envoyer les paramètres suggérés à votre collaborateur pour révision.
+
+### Paramètres de connexion de l’éditeur {#publisher-connection-settings}
+
+L’éditeur doit ensuite vérifier les paramètres de connexion et les accepter ou les refuser. Pour vérifier les paramètres de connexion, accédez à **[!UICONTROL Mes connexions]** et sélectionnez **[!UICONTROL Vérifier les paramètres de connexion]** dans la carte de connexion.
+
+![l’option Vérifier les paramètres de connexion mise en surbrillance dans la vue Mes connexions](/help/assets/connect/establish-connection/review-connection-settings.png){zoomable="yes"}.
+
+Examinez les paramètres proposés par le collaborateur. Avant d’accepter les paramètres de connexion, vous devez reconnaître qu’un accord juridique a été conclu entre vous et le collaborateur. En outre, vous pouvez ajouter les noms d’annonceurs par lesquels l’annonceur vous est connu dans vos systèmes.
+
+![Espace de travail des paramètres de connexion avec les paramètres proposés par le collaborateur et les sections Noms et contrats de l’annonceur mises en surbrillance.](/help/assets/connect/establish-connection/publisher-connection-settings.png){zoomable="yes"}
 
 +++Noms d’annonceurs
 
 En tant qu’éditeur travaillant sur les paramètres de connexion, vous pouvez choisir d’ajouter les noms d’annonceurs par lesquels l’annonceur vous est connu dans vos systèmes. En tant qu’éditeur, vous pouvez ajouter plusieurs noms d’annonceurs à une connexion, par exemple dans les cas où l’annonceur avec lequel vous travaillez est présent dans plusieurs zones géographiques. Plus tard dans le processus, lors de la [création d’un projet](/help/guide/collaborate/manage-projects.md#create-project) pour collaborer, vous ou votre collaborateur pourrez sélectionner le nom de l’annonceur à associer au projet.
 
-![Ajout de noms d’annonceurs modal.](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
+![Boîte de dialogue Noms d’annonceurs dans l’espace de travail Paramètres de connexion.](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
 
 Voici comment fonctionne la sélection du nom de l’annonceur lors de la création d’un projet :
 
@@ -146,24 +160,29 @@ Voici comment fonctionne la sélection du nom de l’annonceur lors de la créat
 2. **Un nom d’annonceur défini** : si un seul nom d’annonceur est ajouté, Real-Time CDP Collaboration utilise automatiquement ce nom comme nom d’annonceur pour le projet.
 3. **Plusieurs noms d’annonceur définis** : si plusieurs noms d’annonceur sont ajoutés, vous ou votre collaborateur pouvez sélectionner l’un des noms fournis lors de la création du projet.
 
-![Noms d’annonceurs.](/help/assets/connect/establish-connection/advertiser-names.png)
+![Espace de travail des paramètres de connexion avec la section Noms d’annonceurs renseignée.](/help/assets/connect/establish-connection/advertiser-names.png)
 
 +++
 
-Une fois votre sélection effectuée, sélectionnez **[!UICONTROL Envoyer]** pour envoyer les paramètres suggérés à votre collaborateur pour révision.
+>[!NOTE]
+>
+> Une fois que vous avez accepté les paramètres de connexion, vous ne pouvez plus ajouter ni modifier les noms des annonceurs.
 
-Si vous recevez les paramètres de connexion proposés par votre collaborateur, vous pouvez choisir entre **[!UICONTROL Accepter]** ou **[!UICONTROL Rejeter]** ces paramètres. Avant d&#39;accepter les paramètres de connexion, vous devez reconnaître et confirmer qu&#39;un accord juridique a été conclu entre vous et le collaborateur. Si vous rejetez les paramètres de connexion, contactez votre collaborateur en dehors du produit et discutez de la manière dont il doit réviser les paramètres de connexion pour que vous les acceptiez.
+Si les paramètres de connexion proposés vous conviennent, sélectionnez **[!UICONTROL Accepter]** pour établir la connexion. Si vous souhaitez demander des modifications des paramètres de connexion, sélectionnez **[!UICONTROL Rejeter]**. Le collaborateur peut ensuite réviser les paramètres de connexion et les renvoyer pour révision.
 
 ## Suppression des connexions {#delete-connections}
 
-Vous pouvez supprimer toutes les connexions avec des collaborateurs avec lesquelles vous ne souhaitez plus travailler. Pour supprimer des connexions existantes :
+Vous pouvez supprimer toutes les connexions avec des collaborateurs avec lesquelles vous ne souhaitez plus travailler. Pour supprimer des connexions existantes, accédez à **[!UICONTROL Connexion]**. Les annonceurs doivent ensuite accéder à **[!UICONTROL Mes connexions]**. Sélectionnez **[!UICONTROL Afficher la connexion]** sur la carte de connexion pour ouvrir la connexion à supprimer.
 
-1. Accédez à **[!UICONTROL Connexion]** > **[!UICONTROL Mes connexions]**.
-2. Sélectionnez **[!UICONTROL Afficher la connexion]** sur la carte de connexion pour accéder à la connexion à supprimer.
-3. Sélectionnez l’icône de suppression ![icône de suppression](/help/assets/common/delete.svg) pour afficher la boîte de dialogue de confirmation de suppression de la connexion.
-   ![Icône Supprimer la connexion mise en surbrillance.](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
-4. Confirmez la suppression en sélectionnant **[!UICONTROL Supprimer]**.
-   ![Boîte de dialogue pour confirmer la suppression d’une connexion. ](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
+![L’option Afficher la connexion est mise en surbrillance dans la vue Mes connexions.](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
+
+Sélectionnez l’icône de suppression ![icône de suppression](/help/assets/common/delete.svg) dans l’espace de travail de connexion pour supprimer la connexion.
+
+![Icône de suppression mise en surbrillance dans l’espace de travail de connexion.](/help/assets/connect/establish-connection/delete-option.png){zoomable="yes"}
+
+Une boîte de dialogue de confirmation s’affiche, vous demandant de confirmer la suppression de la connexion. Sélectionnez **[!UICONTROL Supprimer]** pour confirmer la suppression.
+
+![Boîte de dialogue de confirmation permettant de supprimer une connexion.](/help/assets/connect/establish-connection/delete-confirmation-dialog.png){zoomable="yes"}
 
 >[!WARNING]
 >

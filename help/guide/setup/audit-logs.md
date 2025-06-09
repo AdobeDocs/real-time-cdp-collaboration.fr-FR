@@ -2,9 +2,9 @@
 title: Journaux d’audit
 description: Découvrez comment utiliser la fonctionnalité Journaux d’audit dans Real-Time CDP Collaboration pour effectuer le suivi des activités et des modifications des utilisateurs et utilisatrices.
 audience: admin
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Utilisez la fonctionnalité de journaux d’audit de Real-Time CDP Collaboration
 
 ![Écran de présentation de haut niveau de la fonctionnalité des journaux d’audit](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-Pour obtenir des informations plus complètes sur les journaux d’audit, consultez la documentation sur les journaux d’audit Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
+Pour obtenir des informations plus complètes sur les journaux d’audit, consultez la documentation sur les journaux d’audit Adobe Experience Platform [](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Accéder aux journaux d’audit
 
@@ -61,7 +61,7 @@ Les journaux d’audit capturent des informations détaillées sur les activité
 * **Ressource** : ressource qui a été modifiée ou créée.
 * **Horodatage** : l’heure à laquelle l’action a été effectuée.
 
-Ces journaux créent un journal complet de toutes les activités au sein de votre instance Real-Time CDP Collaboration, ce qui est utile pour la gouvernance des données et la conformité à la réglementation. En savoir plus sur la [gestion des journaux d’audit dans l’interface utilisateur](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
+Ces journaux créent un journal complet de toutes les activités au sein de votre instance Real-Time CDP Collaboration, ce qui est utile pour la gouvernance des données et la conformité à la réglementation. En savoir plus sur la [gestion des journaux d’audit dans l’interface utilisateur](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
 
 ### Filtrer les journaux d’audit
 
@@ -74,7 +74,7 @@ L’interface utilisateur des journaux d’audit fournit plusieurs filtres pour 
 * **Statut** : statut de l’action (par exemple : autorisée, refusée).
 * **Période** : période pour laquelle vous souhaitez afficher les journaux.
 
-En savoir plus sur le [ filtrage des journaux d’audit ](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
+En savoir plus sur le [ filtrage des journaux d’audit ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
 
 ### Exemple d’utilisation
 
@@ -104,7 +104,7 @@ Le tableau ci-dessous fournit une référence de toutes les catégories et actio
 | **[!UICONTROL Connexion aux données Collaboration]** | créer, mettre à jour, supprimer | Gérez les connexions de données pour la collaboration afin d’importer et de gérer les audiences, y compris la création, la mise à jour et la suppression de connexions de données. En savoir plus sur la [gestion des connexions de données](/help/guide/setup/manage-data-connection.md). |
 | **[!UICONTROL Entité De Données Collaboration]** | créer, mettre à jour, supprimer | Gérez les entités de données pour la collaboration, notamment la création, la mise à jour et la suppression des entités de données. Dans ce contexte, les entités de données font référence aux audiences. En savoir plus sur [l’importation et la gestion des audiences](/help/guide/setup/onboard-audiences.md). |
 | **[!UICONTROL Projet Collaboration]** | créer, mettre à jour, supprimer | Gérez les projets en collaboration, notamment la création, la mise à jour et la suppression de projets. En savoir plus sur la [gestion de projets](/help/guide/collaborate/manage-projects.md). |
-| **[!UICONTROL Module Collaboration]** | créer, mettre à jour, supprimer | Gérez différents modules dans les projets de collaboration, notamment la création, la mise à jour et la suppression de divers modules dans l’interface utilisateur. Par exemple, la possibilité de [partager des audiences](/help/guide/collaborate/share.md). |
+| **[!UICONTROL Module Collaboration]** | créer, mettre à jour, supprimer | Gérez différents modules dans les projets de collaboration, notamment la création, la mise à jour et la suppression de divers modules dans l’interface utilisateur. Par exemple, la possibilité d’[activer des audiences](/help/guide/collaborate/activate.md). |
 
 {style="table-layout:auto"}
 

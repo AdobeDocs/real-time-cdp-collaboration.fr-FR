@@ -2,11 +2,11 @@
 title: Vue d’ensemble
 description: Découvrez comment utiliser Adobe Real-Time Customer Data Platform (CDP) Collaboration pour découvrir, activer et mesurer des audiences à forte valeur ajoutée sans faire appel à des cookies tiers.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '397'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Avec Adobe Real-Time Customer Data Platform (CDP) Collaboration, vous pouvez découvrir, activer et mesurer des audiences à forte valeur ajoutée sans avoir recours à des cookies tiers. Cette solution permet une collaboration de données avancée entre les annonceurs et les éditeurs, ce qui vous permet de créer des expériences client personnalisées et percutantes dans un environnement centralisé et axé sur la confidentialité.
 
-![Page d’accueil de Real-Time CDP Collaboration](/help/assets/overview/homepage.png){zoomable="yes"}
+![Page de configuration de Real-Time CDP Collaboration, affichant une organisation.](/help/assets/overview/set-up.png){zoomable="yes"}
 
 ## Identification des audiences par l’intermédiaire de partenaires de confiance
 
@@ -37,20 +37,6 @@ Utilisez des outils de mesure collaboratifs pour suivre l’impact de vos campag
 
 Les contrôles intégrés garantissent le respect des exigences en matière de gouvernance et de confidentialité et guident l’utilisation responsable des données d’audience à chaque étape de vos workflows.
 
-<!--
-
-## Additional benefits
-
-### Agnostic and interoperable
-
-Bring in audiences from various sources such as Real-Time CDP, data warehouses (available in an upcoming release), and other partners, efficiently connecting your data collaboration application to other Adobe Experience Platform tools.
-
-### Built-in reputation
-
-Trusted by leading global brands, Adobe brings a strong foundation in identity, audience collaboration, and activation, offering closed-loop and marketer-friendly workflows for data collaboration.
-
--->
-
 ## Commencer {#get-started}
 
 Pour commencer à utiliser Real-Time CDP Collaboration, les administrateurs système doivent se donner un accès, ainsi qu’aux administrateurs de produit et aux utilisateurs finaux. Plusieurs étapes sont nécessaires, selon l’utilisateur et le niveau d’accès requis. Reportez-vous au guide [présentation du contrôle d’accès](/help/guide/permissions/overview.md){target="_blank"} pour commencer.
@@ -61,7 +47,7 @@ Une fois que vous y avez accès, vous êtes prêt à configurer votre organisati
 
 ## Ressources
 
-Consultez le [glossaire](/help/guide/glossary.md) pour obtenir des informations détaillées sur les termes utilisés dans le produit. Pour obtenir de l’aide, accédez à la page Adobe [Service clientèle](https://experienceleague.adobe.com/home?lang=fr&amp;support-tab=open-ticket#support){target="_blank"}.
+Consultez le [glossaire](/help/guide/glossary.md) pour obtenir des informations détaillées sur les termes utilisés dans le produit. Pour obtenir de l’aide, accédez à la page Adobe [Service clientèle](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}.
 
 ## Nous contacter
 

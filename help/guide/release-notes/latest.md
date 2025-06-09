@@ -2,11 +2,11 @@
 title: Dernières notes de mise à jour de Real-Time CDP Collaboration
 description: Suivez les dernières versions de Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '392'
 ht-degree: 5%
 
 ---
@@ -26,11 +26,11 @@ Ces notes de mise à jour présentent les fonctionnalités publiées dans Real-T
 
 ## Mars 2025 {#march-2025}
 
-* Lors de l’[import d’audiences](/help/guide/setup/onboard-audiences.md) dans Real-Time CDP Collaboration, vous pouvez désormais définir une fréquence d’actualisation de l’audience comprise entre **tous les 1 à 6 jours** afin de mieux gérer l’activité de crédit [Audience Management](/help/guide/setup/my-activity.md#types-of-activities). [En savoir plus](/help/guide/setup/onboard-audiences.md#schedule). <br> ![Écran de planification affichant différents intervalles de fréquence pour la mise à jour de l’appartenance à l’audience.](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png "Écran de planification affichant différents intervalles de fréquence pour la mise à jour de l’appartenance à l’audience."){width="250" align="center" zoomable="yes"}
+* Lors de l’[import d’audiences](/help/guide/setup/onboard-audiences.md) dans Real-Time CDP Collaboration, vous pouvez désormais définir une fréquence d’actualisation de l’audience comprise entre **tous les un et six jours** afin de mieux gérer l’activité de crédit [Gestion de l’audience](/help/guide/setup/my-activity.md#types-of-activities). [En savoir plus](/help/guide/setup/onboard-audiences.md#schedule). <br> ![Écran de planification affichant différents intervalles de fréquence pour la mise à jour de l’appartenance à l’audience.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "Écran de planification affichant différents intervalles de fréquence pour la mise à jour de l’appartenance à l’audience."){width="250" align="center" zoomable="yes"}
 * Lors de l’établissement d’une connexion avec un collaborateur, vous pouvez désormais effectuer une sélection parmi des **cas d’utilisation** prédéfinis. Le cas d’utilisation sélectionné détermine les sections de projet et les fonctionnalités de produit qui deviennent disponibles. [En savoir plus](/help/guide/collaborate/manage-projects.md#project-use-cases).
    * *Mesure de la campagne* active la section du projet **Mesure**.
    * *Découverte d’audiences* active la section de projet **Découverte**.
-   * Le paramètre *Partage et activation d’audiences* active les sections de projet **Partager** et **Activer** *(éditeur uniquement)*. <br> ![Cas d’utilisation mis en surbrillance dans la vue de connexion.](/help/assets/release-notes/2025/use-cases.png "Cas d’utilisation mis en surbrillance dans la vue de connexion."){width="250" align="center" zoomable="yes"}
+   * *Activation de l’audience* active les sections de projet **Activer** <br>
 * Vous pouvez désormais supprimer des connexions avec des collaborateurs avec lesquels vous ne souhaitez plus travailler. [En savoir plus](/help/guide/connect/establishing-connections.md#delete-connections).
 
 

@@ -2,11 +2,11 @@
 title: Découvrir les éditeurs et éditrices
 description: En tant qu’annonceur, découvrez comment trouver des éditeurs potentiels avec lesquels collaborer à l’aide d’Adobe Real-Time CDP Collaboration
 audience: admin, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Pour découvrir des éditeurs, accédez à l’onglet **[!UICONTROL Se connecter
 
 ![Découvrir la page des éditeurs](/help/assets/connect/discover-publishers/discover-publishers-overview.png){zoomable="yes"}
 
-Sélectionnez **[!UICONTROL Afficher l’éditeur]** pour en savoir plus sur l’éditeur. Vous pouvez également afficher et examiner toutes les audiences publiques que l’éditeur a décidé de partager.
+Sélectionnez **[!UICONTROL Afficher l’éditeur]** pour en savoir plus sur l’éditeur. Vous pouvez également afficher et examiner toutes les audiences que l’éditeur [définies comme publiques](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
 ![Afficher le profil de l&#39;éditeur](/help/assets/connect/discover-publishers/view-publisher-profile.png){zoomable="yes"}
 

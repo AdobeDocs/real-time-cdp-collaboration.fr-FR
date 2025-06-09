@@ -2,11 +2,11 @@
 title: Workflow de bout en bout
 description: Comprendre le workflow de bout en bout de l’utilisation de Real-Time CDP Collaboration en tant qu’annonceur ou éditeur
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,19 @@ Adobe Real-Time Customer Data Platform (CDP) Collaboration permet aux annonceurs
 
 En tant qu’annonceur, commencez par [intégrer votre entreprise](/help/guide/setup/onboard-organization.md) dans Real-Time CDP Collaboration. Utilisez la [page de configuration](/help/guide/setup/setup-overview.md) pour envoyer, puis modifier les paramètres de votre entreprise, ajouter vos clés de correspondance préférées que vous utiliserez et décider quelles données importer. Dans la première version, le produit vous permet d’[importer des audiences](/help/guide/setup/onboard-audiences.md) à partir de Adobe Experience Platform uniquement.
 
-![Découvrir, partager, mesurer pour les annonceurs.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
+![Découvrir, activer, mesurer pour les annonceurs.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
 
 Utilisez l’onglet [découvrir](/help/guide/connect/discover-publishers.md) pour trouver les éditeurs avec lesquels vous souhaitez travailler pour les campagnes. Contactez l’éditeur et discutez des conditions de collaboration en dehors du produit. Une fois un ensemble de conditions convenu, vous pouvez [envoyer une invitation à la connexion](/help/guide/connect/establishing-connections.md) et proposer des paramètres de collaboration pour vous connecter à l’éditeur.
 
 Une fois que l’éditeur a accepté votre demande de connexion, il est temps d’explorer les audiences qui se chevauchent entre votre organisation et la leur. Configurez un projet pour une campagne et [exécutez des rapports de chevauchement](/help/guide/collaborate/discover.md) pour découvrir les meilleures audiences pour votre prochaine campagne publicitaire, en fonction du cas d’utilisation de collaboration (ciblage, suppression, etc.).
 
-Une fois que vous avez trouvé les audiences idéales, il est temps de les [partager avec l’éditeur](/help/guide/collaborate/share.md) pour qu’il active les audiences et lance ainsi la campagne.
+Une fois que vous avez découvert les audiences idéales, il est temps de [les activer](/help/guide/collaborate/activate.md).
 
 La dernière étape de la boucle de collaboration est la [mesure](/help/guide/collaborate/measure.md). Pour mesurer ou connaître les résultats de votre entreprise, chargez les données de mesure comme les journaux de publicités, puis exécutez les rapports fournis dans le programme pour comprendre les performances de vos audiences.
 
 ## Workflow de bout en bout Publisher {#publisher}
 
-En tant qu’éditeur, commencez par [intégrer votre entreprise](/help/guide/setup/onboard-organization.md) dans Real-Time CDP Collaboration. Utilisez la [page de configuration](/help/guide/setup/setup-overview.md) pour modifier divers paramètres d’entreprise. Par exemple, veillez à inclure les identités avec lesquelles votre entreprise travaille.
+En tant qu’éditeur, commencez par [intégrer votre entreprise](/help/guide/setup/onboard-organization.md) dans Real-Time CDP Collaboration. Utilisez la [page de configuration](/help/guide/setup/setup-overview.md) pour modifier divers paramètres d’entreprise.
 
 Choisissez les données d’audience à importer et les audiences à rendre détectables et visibles par les annonceurs qui cherchent à se connecter avec vous dans la zone **[!UICONTROL Connect]** du produit.
 
@@ -43,7 +43,7 @@ Choisissez les annonceurs avec lesquels vous souhaitez travailler et contactez l
 
 Après avoir accepté leur demande de connexion, il est temps d’explorer les audiences qui se chevauchent entre vous et votre collaborateur. L’annonceur va configurer un projet pour une campagne et exécuter des rapports de chevauchement entre ses audiences et les vôtres, en fonction de ses objectifs souhaités (prospection, suppression, etc.).
 
-Une fois que l’annonceur a trouvé les audiences idéales à cibler pour une campagne et les a partagées avec vous, vous pouvez les activer et lancer la campagne.
+Une fois que l’annonceur identifie les audiences idéales à cibler pour une campagne et vous les envoie, vous pouvez les activer et lancer la campagne.
 
 La dernière étape de la boucle de collaboration est la mesure. Pour déterminer comment s’en sont tirées vos campagnes, la dernière étape consiste à charger les données de mesure comme les journaux d’annonces, puis à exécuter les rapports fournis dans le programme pour comprendre les performances des audiences.
 

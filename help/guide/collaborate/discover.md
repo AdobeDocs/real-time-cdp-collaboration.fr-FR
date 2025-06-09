@@ -55,7 +55,7 @@ Une fois ces conditions préalables remplies, vous pouvez commencer à explorer 
 >title="Le nombre de vos identités"
 >abstract="Nombre d’identifiants uniques dans l’audience sélectionnée, en fonction des clés de correspondance convenues entre vous et votre collaborateur pour le projet."
 >
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="Nombre d’identités du collaborateur ou de la collaboratrice"
 >abstract="Nombre d’ID uniques dans l’audience de votre collaborateur, en fonction des clés de correspondance convenues entre vous et votre collaborateur pour le projet."

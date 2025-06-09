@@ -2,7 +2,7 @@
 title: Dernières notes de mise à jour de Real-Time CDP Collaboration
 description: Suivez les dernières versions de Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt

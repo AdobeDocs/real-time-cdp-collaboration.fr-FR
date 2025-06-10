@@ -2,9 +2,9 @@
 title: Se connecter avec des annonceurs ou des éditeurs
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: c9b96753a9a78bd85002ede3369c5f20eb430548
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 11%
@@ -119,7 +119,7 @@ Les clés de correspondance sont préremplies avec celles que vous avez sélecti
 
 +++Répartition des crédits
 
-Utilisez la section fractionnement du crédit pour déterminer laquelle des deux parties collaboratrices couvrira les coûts des activités. Les options de partage du crédit sont déterminées par les cas d’utilisation sélectionnés pour la connexion. Alors que le cas d’utilisation **[!UICONTROL Mesure]** nécessite qu’une partie prenne en charge les coûts, le cas d’utilisation **[!UICONTROL Activation de l’audience]** offre une option supplémentaire pour que chaque partie prenne en charge ses propres coûts. Pour plus d’informations sur la répartition des coûts, consultez le guide [types d’activités de crédit](/help/guide/setup/my-activity.md#types-of-activities).
+Utilisez la section fractionnement du crédit pour déterminer laquelle des deux parties collaboratrices couvrira les coûts des activités. Les options de partage du crédit sont déterminées par les cas d’utilisation sélectionnés pour la connexion. Alors que le cas d’utilisation **[!UICONTROL Mesure]** nécessite qu’une partie prenne en charge les coûts, le cas d’utilisation **[!UICONTROL Activation - Correspondance]** offre une option supplémentaire pour que chaque partie prenne en charge ses propres coûts. Pour plus d’informations sur la répartition des coûts, consultez le guide [types d’activités de crédit](/help/guide/setup/my-activity.md#types-of-activities).
 
 >[!NOTE]
 >

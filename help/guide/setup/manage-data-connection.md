@@ -2,12 +2,12 @@
 title: Gérer les connexions de données
 description: Découvrez comment gérer les connexions de données, notamment les clés de correspondance, la planification, les cas d’utilisation et le filtrage d’audience dans Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 18%
+source-wordcount: '598'
+ht-degree: 11%
 
 ---
 
@@ -34,6 +34,10 @@ Pour afficher les connexions de données existantes, accédez à **[!UICONTROL C
 
 Les clés correspondantes sont des identifiants utilisés pour réconcilier des membres d’audiences provenant de différentes sources de données. Vous ne pouvez pas modifier les clés de correspondance que vous avez initialement sélectionnées pour votre connexion aux données.
 
+>[!IMPORTANT]
+> 
+>Les clés de correspondance ne peuvent pas être modifiées une fois la connexion de données créée. Pour mettre à jour les clés de correspondance, vous devez créer une connexion aux données.
+
 Les clés de correspondance disponibles sont les suivantes :
 
 - **E-mail haché**
@@ -45,11 +49,27 @@ Les clés de correspondance disponibles sont les suivantes :
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Planification"
->abstract="Cette vue affiche les options de planification que vous avez sélectionnées au départ pour votre connexion aux données."
+>abstract="Affichez les détails de la planification de votre connexion de données et modifiez la fréquence d’actualisation si nécessaire."
 
-Vous ne pouvez pas modifier les options de planification que vous avez sélectionnées initialement pour votre connexion aux données. Pour plus d’informations sur les options de planification, consultez la [section de planification](/help/guide/setup/onboard-audiences.md#schedule) dans le document du workflow d’importation d’audience.
+Afficher et gérer les paramètres de planification de vos connexions de données. La planification détermine la fréquence d’actualisation de l’audience.
 
-![Espace de travail des connexions de données avec la section Planification mise en surbrillance.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+Une fois une connexion de données créée, vous pouvez mettre à jour sa fréquence d’actualisation directement à partir de la section **[!UICONTROL Planification]** de l’espace de travail de connexion de données.
+
+>[!NOTE]
+>
+>Lorsque vous sourcez des audiences à partir de Adobe Experience Platform, les audiences sont disponibles dans les 24 heures suivant l’établissement de la connexion aux données. Après l’importation initiale, les données d’audience sont actualisées selon la fréquence définie.
+
+Pour plus d’informations sur la planification, consultez la [section de planification](/help/guide/setup/onboard-audiences.md#schedule) dans le guide d’intégration des audiences.
+
+![Espace de travail d’une connexion de données avec la section Planification mise en surbrillance.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+
+#### Modifier la planification {#edit-scheduling}
+
+Vous pouvez modifier la fréquence d’une connexion de données existante pour mieux contrôler la fréquence d’actualisation des audiences. Pour modifier le planning, sélectionnez **[!UICONTROL Modifier]** depuis la connexion de données dans la carte de planification.
+
+Dans la boîte de dialogue **[!UICONTROL Planification]**, sélectionnez le menu déroulant pour mettre à jour la **[!UICONTROL Fréquence]**. Définissez la fréquence d’actualisation pour qu’elle s’exécute tous les jours ou tous les deux à six jours. Lorsque vous avez terminé, sélectionnez **[!UICONTROL Enregistrer]** pour appliquer vos modifications.
+
+![Boîte de dialogue Planification affichant les options permettant de définir la fréquence et la période.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
 
 ## Supprimer la connexion de données
 

@@ -2,13 +2,13 @@
 title: Glossaire
 description: Comprendre la terminologie clé de Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 3%
 
 ---
@@ -128,4 +128,4 @@ Si les esquisses ne sont pas actualisées régulièrement, les rapports de cheva
 
 ### Cas d’utilisation
 
-Un cas d’utilisation définit un scénario ou un problème d’entreprise spécifique qui peut être résolu à l’aide d’Adobe Real-Time CDP Collaboration. Dans Real-Time CDP Collaboration, des exemples de cas d’utilisation, tels que la découverte d’audience ou la mesure de campagne, sont disponibles pour vous aider à atteindre un objectif particulier.
+Un cas d’utilisation définit un scénario ou un problème d’entreprise spécifique qui peut être résolu à l’aide d’Adobe Real-Time CDP Collaboration. Dans Real-Time CDP Collaboration, des exemples de cas d’utilisation, tels que la découverte ou la mesure d’audience, sont disponibles pour aider à atteindre un objectif particulier.

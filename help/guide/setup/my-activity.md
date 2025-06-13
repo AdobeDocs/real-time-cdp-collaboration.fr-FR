@@ -2,11 +2,11 @@
 title: Suivre votre activité de consommation de crédit
 description: Découvrez comment effectuer le suivi de l’activité de consommation du crédit de votre organisation dans Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -60,13 +60,13 @@ La colonne **[!UICONTROL Activité]** affiche différents types d’opérations 
 * **[!UICONTROL Gestion de l’audience]** : les crédits sont consommés lorsque les audiences sont sourcées dans Real-Time CDP Collaboration. Les crédits sont consommés en fonction du nombre d’identifiants (en millions) indexés dans Real-Time CDP Collaboration sur toutes les audiences, et de la fréquence de cette indexation (quotidienne, tous les trois jours ou hebdomadaire). Pour en savoir plus, consultez le guide [importation et gestion des audiences](/help/guide/setup/onboard-audiences.md).
 * **[!UICONTROL Activation - Correspondance]** - Les crédits sont consommés en fonction du nombre d’identifiants correspondants et préparés pour l’activation. Pour en savoir plus, consultez le guide [Activation des audiences](/help/guide/collaborate/activate.md).
 * **[!UICONTROL Activation - Sortie]** - Les crédits sont consommés en fonction du nombre d’identifiants envoyés à une destination. Cela est toujours facturé au collaborateur qui reçoit l’audience. Pour en savoir plus, consultez le guide [Activation des audiences](/help/guide/collaborate/activate.md).
-* **[!UICONTROL Mesure d’audience]** - Exécutez des activités dans Real-Time CDP Collaboration pour générer des rapports et des informations sur les performances des campagnes. Les crédits sont consommés en fonction du nombre de lignes dans les rapports de campagne sur toutes les campagnes et de la fréquence de création des rapports (quotidien, tous les trois jours ou hebdomadaire).
+* **[!UICONTROL Mesure]** - Exécutez des activités dans Real-Time CDP Collaboration pour générer des rapports et des informations sur les performances des campagnes. Les crédits sont consommés en fonction du nombre de lignes dans les rapports de campagne sur toutes les campagnes et de la fréquence de création des rapports (quotidien, tous les trois jours ou hebdomadaire).
 
 ## Gérer votre consommation de crédit {#manage-credit-consumption}
 
 Pour gérer efficacement votre consommation de crédit :
 
-1. **comprendre** la consommation du crédit associée à chaque activité ; Consultez la description du produit [Real-Time CDP Collaboration](https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} pour obtenir un tableau des crédits de collaboration utilisés par activité.
+1. **comprendre** la consommation du crédit associée à chaque activité ; Consultez la description du produit [Real-Time CDP Collaboration](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} pour obtenir un tableau des crédits de collaboration utilisés par activité.
 2. **Surveiller régulièrement** : consultez fréquemment votre tableau de bord d’activité pour comprendre les schémas d’utilisation.
 3. **Suivi par connexion** : utilisez le nom de la connexion pour identifier les partenariats qui consomment le plus de crédits.
 

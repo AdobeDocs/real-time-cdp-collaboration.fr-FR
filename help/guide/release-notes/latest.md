@@ -2,7 +2,7 @@
 title: Dernières notes de mise à jour de Real-Time CDP Collaboration
 description: Suivez les dernières versions de Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
@@ -24,7 +24,7 @@ Ces notes de mise à jour présentent les fonctionnalités publiées dans Real-T
 * Real-Time CDP Collaboration est désormais disponible pour les clients en **Australie** et **Nouvelle-Zélande**. Il est automatiquement disponible pour les clients Real-Time CDP Prime et Ultimate dans ces régions.
 * Real-Time CDP Collaboration propose désormais des [destinations en libre-service](../setup/manage-destinations.md) par le biais de l’onglet **[!UICONTROL Mes destinations]** dans la section **[!UICONTROL Configuration]**. Les destinations vous permettent d’activer des audiences dans des plateformes tierces, telles que des réseaux publicitaires ou des plateformes de gestion de données, afin d’atteindre vos clients sur divers canaux. Actuellement, seules les destinations Adobe Experience Platform sont prises en charge. Si vous souhaitez configurer une autre destination, contactez votre représentant ou représentante Adobe. Pour en savoir plus sur les destinations, consultez le guide [présentation des destinations](../destinations/overview.md).
 
-   * Les destinations prennent également en charge l’affichage des audiences Real-Time CDP Collaboration dans le portail d’audiences [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences.).
+   * Les destinations prennent également en charge l’affichage des audiences Real-Time CDP Collaboration dans le portail d’audiences [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences.).
 
 * Vous pouvez désormais modifier la fréquence d’actualisation de l’audience pour les connexions de données existantes dans Real-Time CDP Collaboration. Actuellement, vous pouvez choisir d’actualiser vos audiences tous les jours ou tous les deux à six jours. Pour en savoir plus sur la modification de la fréquence d’actualisation de l’audience, consultez le guide [gérer les connexions de données](../setup/manage-data-connection.md#scheduling).
 * Les répartitions de crédit entre collaborateurs sont désormais définies pour chaque cas d’utilisation sélectionné dans la connexion. Vous pouvez définir différentes règles de consommation de crédit pour chaque cas d’utilisation afin de mieux contrôler l’utilisation de vos crédits. Pour en savoir plus sur la fonctionnalité de partage du crédit, consultez le guide [Paramètres de connexion](../connect/establishing-connections.md#connection-settings). Pour en savoir plus sur la manière dont les crédits sont consommés, lisez le guide [types d’activité de crédit](../setup/my-activity.md#types-of-activities). <br> ![Écran des paramètres de connexion affichant la fonctionnalité de répartition du crédit.](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}

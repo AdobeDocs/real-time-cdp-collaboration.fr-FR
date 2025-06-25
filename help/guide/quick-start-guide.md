@@ -134,7 +134,7 @@ Pour découvrir une présentation complète de la manière de référencer des a
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Vous pouvez également consulter le document sur la [mise à disposition des audiences dans Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Vous pouvez également consulter le document sur la [mise à disposition des audiences dans Real-Time CDP Collaboration](https://experienceleague.adobe.com/fr/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
 ## Étape 4 : activer les audiences (vers Experience Platform ou une destination cloud) {#activate-audiences}
 
@@ -146,7 +146,7 @@ Utilisez l’interface utilisateur de Collaboration pour activer des audiences v
 
 ### Option A : activer dans Experience Platform
 
-Suivez les étapes décrites dans le guide [Configurer Adobe Experience Platform en tant que destination](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
+Suivez les étapes décrites dans le guide [Configurer Adobe Experience Platform en tant que destination](https://experienceleague.adobe.com/fr/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
 
 - **Créer une destination** - Utilisez l’interface utilisateur pour configurer une destination Experience Platform (au niveau du sandbox).
 - **Mapper les clés de correspondance** - Sélectionnez l’identifiant (par exemple, `hashedEmail`).

@@ -2,12 +2,12 @@
 title: Se connecter avec des annonceurs ou des éditeurs
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -62,17 +62,17 @@ Une fois que le collaborateur accepte l’invitation, vous pouvez configurer les
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Partage des crédits"
->abstract="Cette section détermine qui paie pour les activités correspondantes dans Real-Time CDP Collaboration."
+>abstract="Cette section détermine l’identité de la personne qui paie les activités correspondantes dans Real-Time CDP Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="Partage d’audiences"
->abstract="Les crédits d’activation d’audience sont consommés en fonction du nombre d’identifiants correspondants préparés pour l’activation."
+>abstract="Les crédits d’activation de l’audience sont consommés en fonction du nombre d’identifiants correspondants préparés pour l’activation."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="Mesure"
->abstract="Exécutez des activités pour générer des rapports et des informations sur les performances de la campagne. Les crédits sont consommés en fonction du nombre de lignes dans les rapports de campagne sur toutes les campagnes et de la fréquence de création des rapports (quotidien, tous les trois jours ou hebdomadaire)."
+>abstract="Exécutez des activités pour générer des rapports et des informations sur les performances de la campagne. Les crédits sont consommés en fonction du nombre de lignes dans les rapports de campagne sur toutes les campagnes et de la fréquence de création des rapports (quotidienne, tous les trois jours ou hebdomadaire)."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
@@ -87,8 +87,8 @@ Une fois que le collaborateur accepte l’invitation, vous pouvez configurer les
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_activation"
->title="Audience Activation"
->abstract="L’activation de l’audience vous permet de sélectionner le collaborateur qui peut lancer l’activation de l’audience."
+>title="Activation de l’audience"
+>abstract="L’activation de l’audience vous permet de sélectionner le collaborateur ou la collaboratrice qui peut lancer l’activation de l’audience."
 
 <!-- Move and update the above popover when bidirectional is active. -->
 

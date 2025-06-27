@@ -2,12 +2,12 @@
 title: Importer et gérer des audiences
 description: Découvrez comment importer et gérer des audiences dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '2961'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -95,7 +95,7 @@ Ensuite, vous devez vous assurer que les actions marketing correctes sont défin
 
 Utilisez des actions marketing pour contrôler les données d’audience à importer dans Real-Time CDP Collaboration à partir d’Experience Platform. L’action marketing **Collaboration de données** prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing **Science des données** prend en charge le libellé d’utilisation des données C9.
 
-En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Lorsque la case à cocher est *activée*, toutes les données marquées avec les libellés mentionnés ci-dessus dans Experience Platform sont exclues et ne sont *pas* importées dans Real-Time CDP Collaboration.
 * Lorsque la case à cocher est *désactivée*, il n’existe aucune restriction sur les données d’Experience Platform qui peuvent être importées dans Real-Time CDP Collaboration.
@@ -103,7 +103,7 @@ En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](htt
 Consultez la documentation d’Experience Platform pour en savoir plus sur les libellés d’utilisation des données :
 
 * [Présentation des libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Glossaire des libellés d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Glossaire des libellés d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 En outre, vous souhaiterez sélectionner vos règles de consentement à appliquer aux données importées dans Real-Time CDP Collaboration.
 
@@ -280,7 +280,7 @@ Vous pouvez ensuite mettre à jour les sections suivantes dans l’espace de tra
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identités"
->abstract="Une vue de répartition des identités qui composent cette audience, ainsi qu’un nombre total de profils avec les identités respectives."
+>abstract="Vue ventilée des identités qui composent cette audience, ainsi que le nombre total de profils avec les identités respectives."
 
 La section **[!UICONTROL Identités]** indique le nombre de profils présents dans l’audience avec l’une des identités que vous avez sélectionnées lors de l’importation de l’audience. La section contient également une répartition des identités afin que vous puissiez identifier les identités qui constituent le plus de la population de l’audience.
 
@@ -308,7 +308,7 @@ La boîte de dialogue **[!UICONTROL Catégories]** s’affiche, vous permettant 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Accès à la connexion"
->abstract="<p>Les audiences peuvent être de trois types : publiques, privées et personnalisées.</p><p> Leur disponibilité pour une utilisation dans des projets avec des collaborateurs et collaboratrices diffère en fonction du paramètre d’accès à la connexion. Vous pouvez toujours modifier l’accès à la connexion de privé à public, mais vous ne pouvez pas revenir en arrière une fois qu’une audience est activée avec des collaborateurs.</p>"
+>abstract="<p>Les audiences peuvent être de trois types : publiques, privées et personnalisées.</p><p> Leur disponibilité pour une utilisation dans des projets avec des collaborateurs et collaboratrices diffère en fonction du paramètre d’accès à la connexion. Vous pouvez toujours modifier l’accès à la connexion de privé à public, mais vous ne pouvez pas revenir en arrière une fois qu’une audience est activée avec des collaborateurs et collaboratrices.</p>"
 
 La disponibilité d’une audience à utiliser dans des projets avec des collaborateurs diffère en fonction du paramètre d’accès à la connexion. Dans la section **[!UICONTROL Accès à la connexion]**, vous pouvez choisir si l’audience doit être privée ou utilisable et détectable dans les connexions.
 
@@ -337,7 +337,7 @@ La disponibilité de l’audience à utiliser dans les projets avec des collabor
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilité des métadonnées"
->abstract="<p>Indique laquelle des métadonnées de l’audience est visible par d’autres organisations avant qu’elles ne se connectent à votre organisation. </p> <p> Le **Nombre d’identités** vérifie si votre partenaire peut afficher les chiffres des identités de vos audiences lors de l’affichage des rapports de chevauchement dans l’onglet de découverte. Le **Pourcentage de chevauchement des audiences** contrôle si les collaborateurs et collaboratrices sont en mesure de découvrir des pourcentages de chevauchement entre leurs audiences et les vôtres."
+>abstract="<p>Précise les métadonnées d’audience qui sont visibles pour d’autres organisations avant qu’elles ne se connectent à votre organisation. </p> <p> Le **Nombre d’identités** vérifie si votre partenaire peut afficher les chiffres des identités de vos audiences lors de l’affichage des rapports de chevauchement dans l’onglet de découverte. Le **Pourcentage de chevauchement des audiences** contrôle si les collaborateurs et collaboratrices sont en mesure de découvrir des pourcentages de chevauchement entre leurs audiences et les vôtres."
 
 >[!NOTE]
 >

@@ -2,12 +2,12 @@
 title: Découvrir les chevauchements et comparer les audiences
 description: Découvrez les chevauchements entre vos audiences et celles de vos collaborateurs. Découvrez les meilleures audiences à utiliser dans vos campagnes.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 92702e8dd596dc6249a7240f0e3b57b661905c30
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 11%
+ht-degree: 19%
 
 ---
 
@@ -53,22 +53,22 @@ Une fois ces conditions préalables remplies, vous pouvez commencer à explorer 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
 >title="Le nombre de vos identités"
->abstract="Nombre d’identifiants uniques dans l’audience sélectionnée, en fonction des clés de correspondance convenues entre vous et votre collaborateur pour le projet."
+>abstract="Nombre d’identifiants uniques dans l’audience sélectionnée, en fonction des clés de correspondance convenues entre vous et votre collaborateur ou collaboratrice pour le projet."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="Nombre d’identités du collaborateur ou de la collaboratrice"
->abstract="Nombre d’ID uniques dans l’audience de votre collaborateur, en fonction des clés de correspondance convenues entre vous et votre collaborateur pour le projet."
+>abstract="Nombre d’identifiants uniques dans l’audience de votre collaborateur ou collaboratrice, en fonction des clés de correspondance convenues entre vous et votre collaborateur ou collaboratrice pour le projet."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
->title="Nombre d’identités qui se chevauchent"
->abstract="Nombre d’identifiants uniques présents dans vos audiences et dans celles de votre collaborateur, en fonction des clés de correspondance convenues entre vous et votre collaborateur pour le projet."
+>title="Nombre d’identités qui se chevauchent."
+>abstract="Nombre d’identifiants uniques présents dans vos audiences et dans celles de votre collaborateur ou collaboratrice, en fonction des clés de correspondance convenues entre vous et votre collaborateur ou collaboratrice pour le projet."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
->title="Pourcentage d’identités qui se chevauchent"
->abstract="Pourcentage d’identités qui se chevauchent entre vous et l’audience sélectionnée de votre collaborateur ou collaboratrice."
+>title="Pourcentage d’identités qui se chevauchent."
+>abstract="Pourcentage des identités qui se chevauchent entre votre audience et l’audience sélectionnée de votre collaborateur ou collaboratrice."
 
 Utilisez la section Comparer les audiences pour obtenir de riches informations sur le chevauchement entre vos audiences et celles de votre collaborateur. Pour modifier la sélection de l’audience, utilisez le sélecteur de liste déroulante en haut de la section **[!UICONTROL Comparer les audiences]**. Vous pouvez sélectionner une ou toutes vos audiences et une ou toutes les audiences de votre collaborateur pour les comparer.
 
@@ -126,7 +126,7 @@ La section **[!UICONTROL Audiences pertinentes]** affiche les informations suiva
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
 >title="Chevauchements de découvertes avec des audiences individuelles"
->abstract="Obtenez des informations sur les chevauchements entre vos audiences et les audiences de votre collaborateur."
+>abstract="Obtenez des informations sur les chevauchements entre vos audiences et les audiences de votre collaborateur ou collaboratrice."
 
 Découvrez les chevauchements pour obtenir des informations sur la manière dont vos audiences se comparent aux audiences de vos collaborateurs. Par défaut, cette section compare toutes vos audiences à celles de chacun des collaborateurs. Utilisez le contrôle de pagination au bas de la section pour parcourir les audiences disponibles.
 

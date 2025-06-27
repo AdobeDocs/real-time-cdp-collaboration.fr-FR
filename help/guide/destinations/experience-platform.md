@@ -2,11 +2,12 @@
 title: Configuration de Adobe Experience Platform en tant que destination
 description: Découvrez comment configurer et gérer Adobe Experience Platform en tant que destination dans Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: c36814b8dc975b5ea243688981481de49a8219fd
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
+source-git-commit: b79fad9257cfe2aafd27b81346ca45a00fcfdf76
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-Configurez cette destination pour activer les audiences de votre projet vers Adobe Experience Platform. L’activation des audiences dans Adobe Experience Platform vous permet d’exploiter les fonctionnalités de la plateforme en matière de segmentation, d’analyse et d’activation des audiences sur divers canaux marketing. Pour en savoir plus sur Adobe Experience Platform, consultez la présentation d’[Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/home){target="_blank"}.
+Configurez cette destination pour activer les audiences de votre projet vers Adobe Experience Platform. L’activation des audiences dans Adobe Experience Platform vous permet d’exploiter les fonctionnalités de la plateforme en matière de segmentation, d’analyse et d’activation des audiences sur divers canaux marketing. Pour en savoir plus sur Adobe Experience Platform, consultez la présentation d’[Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
 
 >[!NOTE]
 >
@@ -35,7 +36,7 @@ Le workflow **[!UICONTROL Créer une destination]** s’affiche.
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_audience_expiration"
 >title="Expiration de l’audience"
->abstract="La période au bout de laquelle l’audience ne sera plus disponible dans Adobe Experience Platform. L’expiration par défaut est de 30 jours, mais vous pouvez la définir sur n’importe quelle valeur comprise entre 1 et 30 jours."
+>abstract="Période au bout de laquelle l’audience ne sera plus disponible dans Adobe Experience Platform. L’expiration par défaut est de 30 jours, mais vous pouvez la définir sur une valeur comprise entre 1 et 30 jours."
 
 Tout d’abord, vous devez sélectionner le sandbox dans lequel vos données d’audience seront envoyées.
 
@@ -53,7 +54,7 @@ Configurez ensuite l’**[!UICONTROL Expiration de l’audience]**. Par défaut,
 
 ![Section Expiration de l’audience mise en surbrillance dans le workflow Créer une destination.](/help/assets/destinations/adobe-experience-platform/audience-expiration.png)
 
-### Créer le mappage d’activation {#create-activation-mapping}
+### Créer un mappage d’activation {#create-activation-mapping}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_activation_matchkeys"
@@ -63,7 +64,7 @@ Configurez ensuite l’**[!UICONTROL Expiration de l’audience]**. Par défaut,
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_target_namespaces"
 >title="Espaces de noms cibles"
->abstract="Les espaces de noms cibles spécifient l’espace de noms d’identité auquel la clé de correspondance sera mappée dans Adobe Experience Platform. Les clés de correspondance hachées doivent être mappées à un espace de noms cible qui prend en charge les valeurs hachées."
+>abstract="Les espaces de noms cibles spécifient l’espace de noms d’identité auquel la clé de correspondance sera mappée dans Adobe Experience Platform. Les clés de correspondance hachées doivent être mappées à un espace de noms cible qui prend en charge les valeurs hachées."
 
 Vous devez ensuite créer un mappage d’activation pour définir comment les données d’audience seront envoyées à Adobe Experience Platform. Vous pouvez mapper chaque clé [correspondance](../setup/onboard-organization.md#set-up-match-keys) sélectionnée lors de la création de votre organisation à un espace de noms cible. Les espaces de noms cibles spécifient l’[espace de noms d’identité](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} auquel la clé de correspondance sera mappée dans Adobe Experience Platform.
 
@@ -97,4 +98,4 @@ Maintenant que vous avez configuré Adobe Experience Platform en tant que destin
 
 ![Audience Portal avec Real-Time CDP Collaboration comme origine dans les options de filtrage.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Pour en savoir plus sur Audience Portal, consultez le guide [Présentation d’Audience Portal](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.
+Pour en savoir plus sur Audience Portal, consultez le guide [Présentation d’Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.

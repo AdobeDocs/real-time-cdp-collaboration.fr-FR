@@ -2,16 +2,17 @@
 title: Démarrage rapide de l’intégration à Real-Time CDP Collaboration
 description: Découvrez comment intégrer votre organisation dans Real-Time CDP Collaboration, notamment la configuration des rôles et des organisations, l’approvisionnement des audiences, l’activation et la mesure. Ce guide aide les annonceurs et les éditeurs à configurer les paramètres de collaboration et à commencer à utiliser les audiences partagées de manière sécurisée et efficace.
 audience: admin, publisher, advertiser
-source-git-commit: 4435788917dd82cb127525e054f7f09803e1dcdf
+exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
+source-git-commit: 5b17bcfbab02e8d24009a875ddea15cbd49c1506
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
 
 # démarrage rapide de l’intégration à Real-Time CDP Collaboration
 
-Commencez avec Real-Time Customer Data Platform (CDP) Collaboration en configurant votre organisation, en attribuant des privilèges d’accès aux audiences et en activant l’activation et la mesure axées sur la confidentialité.
+Commencez avec Real-Time CDP Collaboration en configurant votre organisation, en approvisionnant les audiences et en activant l’activation et la mesure axées sur la confidentialité.
 
 ## Conditions préalables
 
@@ -41,7 +42,7 @@ Les rôles d’accès de votre organisation déterminent ce que les utilisateurs
 
 Regardez cette vidéo pour savoir comment attribuer des accès et des autorisations de produit pour Collaboration à l’aide d’Admin Console et de l’interface utilisateur d’Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452232/?learn=on&enablevpops&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Étape 2 : configurer votre organisation Real-Time CDP Collaboration {#set-up-your-organization}
 
@@ -83,7 +84,7 @@ Regardez une présentation détaillée de la configuration de l’annonceur, y c
 
 ## Étape 3 : Audiences Source (à partir d’Experience Platform ou d’une source cloud) {#source-audiences}
 
-Sélectionnez l’un des magasins de données suivants, ou les deux, pour approvisionner les audiences. Utilisez l’interface utilisateur de Collaboration ou une coordination avec Adobe pour configurer les audiences dans un format qui préserve la confidentialité.
+Sélectionnez l’un des magasins de données suivants, ou les deux, pour approvisionner les audiences. Utilisez l’interface utilisateur de Collaboration ou coordonner avec Adobe pour approvisionner les audiences dans un format qui protège la confidentialité.
 
 ### Option A : Source à partir d’Experience Platform
 
@@ -99,7 +100,7 @@ Pour configurer une source cloud (par exemple, [!DNL AWS S3] ou [!DNL Snowflake]
 >
 >Toutes les audiences du fichier chargé sont entièrement sourcées à ce stade. L’accès à des organisations partenaires spécifiques est configuré séparément via l’interface utilisateur de Collaboration.
 
-### Configurer les audiences
+### Configuration des audiences
 
 Configurez la manière dont les audiences sont préparées, appariées et gouvernées pour une utilisation dans les connexions.
 
@@ -117,8 +118,8 @@ Configurez la manière dont les audiences sont préparées, appariées et gouver
 >
 >**Nombre maximal d’audiences par rôle de collaborateur :**
 >
->- **Annonceurs** peut configurer jusqu’à 25 audiences.
->- **Les éditeurs** peuvent configurer jusqu’à 250 audiences (chacune avec un minimum de 5 000 identifiants).
+>- **Annonceurs** peut sélectionner jusqu’à 25 audiences.
+>- **Les éditeurs** peuvent approvisionner jusqu’à 250 audiences (chacune avec un minimum de 5 000 identifiants).
 
 >[!IMPORTANT]
 >
@@ -134,7 +135,7 @@ Pour découvrir une présentation complète de la manière de référencer des a
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Vous pouvez également consulter le document sur la [mise à disposition des audiences dans Real-Time CDP Collaboration](https://experienceleague.adobe.com/fr/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Vous pouvez également consulter le document sur la [mise à disposition des audiences dans Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
 ## Étape 4 : activer les audiences (vers Experience Platform ou une destination cloud) {#activate-audiences}
 
@@ -146,7 +147,7 @@ Utilisez l’interface utilisateur de Collaboration pour activer des audiences v
 
 ### Option A : activer dans Experience Platform
 
-Suivez les étapes décrites dans le guide [Configurer Adobe Experience Platform en tant que destination](https://experienceleague.adobe.com/fr/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
+Suivez les étapes décrites dans le guide [Configurer Adobe Experience Platform en tant que destination](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
 
 - **Créer une destination** - Utilisez l’interface utilisateur pour configurer une destination Experience Platform (au niveau du sandbox).
 - **Mapper les clés de correspondance** - Sélectionnez l’identifiant (par exemple, `hashedEmail`).
@@ -237,11 +238,17 @@ Après l’activation, vérifiez que les audiences ont été correctement diffus
 
 Une fois la configuration et l’approvisionnement des données terminés, votre organisation est prête à se connecter à ses collaborateurs en envoyant ou en acceptant des invitations et en envoyant les paramètres du projet pour approbation. Ce processus de connexion implique l’envoi ou la réception d’invitations, la révision et l’envoi des paramètres de connexion (tels que les cas d’utilisation et la consommation de crédit) et la confirmation de la relation.
 
-Utilisez l’espace de travail **[!UICONTROL Connect]** à partir du menu de navigation de gauche de l’interface utilisateur de Collaboration pour parcourir les éditeurs disponibles (les annonceurs ne peuvent actuellement pas être parcourus). Pour obtenir un aperçu de ce flux, consultez le guide [Se connecter aux annonceurs ou aux éditeurs](./connect/establishing-connections.md){target="_blank"}. Pour une présentation visuelle du processus de connexion, y compris la navigation des collaborateurs et la gestion des paramètres de connexion, regardez la vidéo [configuration du compte d’annonceur](https://experienceleague.adobe.com/fr/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+En tant qu’annonceur, utilisez l’espace de travail **[!UICONTROL Connect]** dans le menu de navigation de gauche de l’interface utilisateur de Collaboration pour parcourir les éditeurs disponibles.
+
+>[!NOTE]
+>
+>Actuellement, seuls les annonceurs peuvent parcourir les éditeurs. Les éditeurs ne peuvent pas parcourir ni établir de connexions avec les annonceurs.
+
+Pour obtenir un aperçu de ce flux, consultez le guide [Se connecter aux annonceurs ou aux éditeurs](./connect/establishing-connections.md){target="_blank"}. Pour une présentation visuelle du processus de connexion, y compris la navigation des collaborateurs et la gestion des paramètres de connexion, regardez la vidéo [configuration du compte d’annonceur](https://experienceleague.adobe.com/fr/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Étapes suivantes
 
-Vous avez maintenant terminé l’intégration et configuré votre organisation pour une collaboration sécurisée. Explorez ensuite les ressources suivantes pour mieux comprendre l’activation, la mesure et la gouvernance des données :
+Vous avez maintenant terminé la configuration initiale et configuré votre organisation pour une collaboration sécurisée. Explorez ensuite les ressources suivantes pour mieux comprendre l’activation, la mesure et la gouvernance des données :
 
 - [Documentation sur le workflow d’activation de l’audience](./collaborate/activate.md)
 - [Cas d’utilisation de Measurement](./collaborate/measure.md)

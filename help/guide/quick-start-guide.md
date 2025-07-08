@@ -3,9 +3,9 @@ title: Démarrage rapide de l’intégration à Real-Time CDP Collaboration
 description: Découvrez comment intégrer votre organisation dans Real-Time CDP Collaboration, notamment la configuration des rôles et des organisations, l’approvisionnement des audiences, l’activation et la mesure. Ce guide aide les annonceurs et les éditeurs à configurer les paramètres de collaboration et à commencer à utiliser les audiences partagées de manière sécurisée et efficace.
 audience: admin, publisher, advertiser
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 5b17bcfbab02e8d24009a875ddea15cbd49c1506
+source-git-commit: b5f76b1001f97304332f731490613a8597a182c1
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Avant de commencer, vérifiez que vous disposez des éléments suivants :
 - [Rôles créés pour votre organisation et affectés aux utilisateurs](./permissions/manage-roles.md).
 - Accès aux ressources de marque, telles que le nom, le logo et la bannière de votre organisation.
 - Une [ stratégie de clé de correspondance définie ](./setup/onboard-organization.md#set-up-match-keys) (actuellement, l’e-mail haché est la seule clé de correspondance prise en charge).
-- (Facultatif) Accès à une source cloud prise en charge (Amazon S3 ou Snowflake) si vous n’utilisez pas Experience Platform comme destination.
+- (Facultatif) Accès à une source cloud prise en charge (Amazon S3 ou Snowflake) si vous n’utilisez pas Experience Platform pour la gestion de l’audience.
 
 ## Étape 1 : terminer la configuration basée sur les rôles {#complete-role-based-setup}
 
@@ -42,7 +42,7 @@ Les rôles d’accès de votre organisation déterminent ce que les utilisateurs
 
 Regardez cette vidéo pour savoir comment attribuer des accès et des autorisations de produit pour Collaboration à l’aide d’Admin Console et de l’interface utilisateur d’Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452232/?learn=on&enablevpops&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Étape 2 : configurer votre organisation Real-Time CDP Collaboration {#set-up-your-organization}
 
@@ -52,29 +52,26 @@ Regardez cette vidéo pour savoir comment attribuer des accès et des autorisati
 
 Avant de pouvoir ajouter des audiences, vous devez configurer votre organisation dans Collaboration. Cela régit la manière dont votre organisation apparaît et se comporte dans l’interface.
 
-Si vous ne disposez pas d’un accès administrateur à Experience Platform, contactez l’administrateur de votre organisation pour obtenir de l’aide sur la réalisation de cette configuration.
+Si vous ne disposez pas de l’accès nécessaire, reportez-vous à l’étape 1 ou contactez l’administrateur de votre organisation pour obtenir de l’aide sur la réalisation de cette configuration.
 
-Définissez le rôle de votre organisation dans Collaboration, fournissez des ressources de marque et configurez des clés de correspondance pour aligner les audiences sur les connexions. Suivez ensuite les étapes ci-dessous pour finaliser la configuration et préparer votre organisation à interagir avec vos connexions.
+Définissez le rôle de votre organisation dans Collaboration, fournissez des ressources de marque et configurez des clés de correspondance pour aligner les audiences sur les connexions.
 
 >[!NOTE]
 >
->Vous pouvez créer un ou plusieurs collaborateurs (tels que des profils d’annonceurs ou d’éditeurs) lors de la configuration. Certains champs, tels que les ressources de marque et l’e-mail du contact, peuvent être mis à jour ultérieurement dans l’espace de travail **[!UICONTROL Paramètres]**. Les clés de correspondance peuvent être supprimées au niveau du projet, mais pas ajoutées, alors planifiez-les avec soin.
+>Vous pouvez créer un ou plusieurs collaborateurs (tels que des profils d’annonceurs ou d’éditeurs) lors de la configuration. Certains champs, tels que les ressources de marque et l’e-mail du contact, peuvent être mis à jour ultérieurement dans l’espace de travail **[!UICONTROL Paramètres]**.
 
 - **Attribuer un rôle** - Détermine si votre organisation agit en tant qu’annonceur, éditeur ou les deux. Votre rôle définit les fonctionnalités de collaboration dont vous disposez, par exemple le lancement du partage d’audience (annonceur) ou la mise à disposition d’audiences (éditeur). Pour en savoir plus sur l’impact des rôles sur le workflow de collaboration, consultez le [guide de workflow de bout en bout](./end-to-end-workflow.md).
 - **Valorisation de marque des ressources** - Ajoutez les éléments suivants à votre compte :
    - Nom de la marque (100 caractères max.)
    - Description de la marque (1 000 caractères max.)
    - Logo de la marque (SVG &lt;20KB, idéalement carré)
-   - Bannière de marque (JPG 2688x1536 ou similaire)
-- **E-mail de contact** - Fournissez un e-mail professionnel que les collaborateurs peuvent utiliser une fois la connexion établie.
 
   >[!NOTE]
   >
   >Si vous créez un compte d’éditeur et souhaitez qu’il soit visible publiquement dans le catalogue des connexions de Collaboration, contactez le représentant de votre compte Adobe. Les comptes d’éditeur nécessitent une bannière de marque personnalisée (JPG 2 688 x 1 536). Ce fichier peut être partagé directement avec votre représentant.
 
+- **E-mail de contact** - Fournissez un e-mail professionnel que les collaborateurs peuvent utiliser une fois la connexion établie.
 - **Configurer les clés de correspondance** - Sélectionnez les identifiants utilisés pour la correspondance d’audience (actuellement, l’e-mail haché est la seule clé de correspondance prise en charge).
-
-Une fois votre organisation créée et vos clés de branding et de correspondance configurées, votre organisation est prête à commencer à approvisionner les audiences et à activer les données.
 
 Pour en savoir plus sur la configuration initiale de l’organisation, notamment sur la définition des rôles, le chargement de ressources de marque et la configuration des clés de correspondance, consultez le document [configuration initiale de l’organisation](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}.
 
@@ -84,23 +81,13 @@ Regardez une présentation détaillée de la configuration de l’annonceur, y c
 
 ## Étape 3 : Audiences Source (à partir d’Experience Platform ou d’une source cloud) {#source-audiences}
 
-Sélectionnez l’un des magasins de données suivants, ou les deux, pour approvisionner les audiences. Utilisez l’interface utilisateur de Collaboration ou coordonner avec Adobe pour approvisionner les audiences dans un format qui protège la confidentialité.
+Une fois votre organisation créée et vos clés de branding et de correspondance configurées, vous êtes prêt à commencer à approvisionner les audiences. Choisissez l’une des méthodes de sourcing suivantes en fonction de votre magasin de données et des besoins de votre entreprise.
 
 ### Option A : Source à partir d’Experience Platform
 
-[Utilisez l’interface utilisateur des destinations Collaboration pour lier un sandbox qui contient des audiences](./setup/onboard-audiences.md). Utilisez cette méthode en libre-service pour référencer des segments d’audience existants à partir de votre instance Experience Platform.
+[Utilisez l’interface utilisateur de Collaboration pour lier un sandbox contenant des audiences](./setup/onboard-audiences.md). Utilisez cette méthode en libre-service pour référencer des segments d’audience existants à partir de votre instance Experience Platform.
 
-### Option B : Source de Snowflake ou Amazon S3
-
-Pour configurer une source cloud (par exemple, [!DNL AWS S3] ou [!DNL Snowflake]), préparez les données de votre audience à l’aide de la [PDF de spécification d’audience](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf) suivante. Une fois l’opération terminée ou si vous avez des questions, contactez votre représentant de compte Adobe pour finaliser la configuration. Cette méthode n’est pas en libre-service et nécessite l’assistance d’Adobe.
-
->[!IMPORTANT]
->
->Les fichiers d’audience basés sur le cloud doivent suivre le schéma requis décrit dans le PDF de spécification d’audience. Les fichiers doivent inclure des identifiants hachés (SHA256 en minuscules), les champs de métadonnées requis tels que `segment_name` et `activation_id`, et utiliser des formats pris en charge tels que CSV ou Parquet. Adobe ne normalise pas les données avant l’activation. La durée de vie est appliquée en fonction de la durée de vie de l’audience.
->
->Toutes les audiences du fichier chargé sont entièrement sourcées à ce stade. L’accès à des organisations partenaires spécifiques est configuré séparément via l’interface utilisateur de Collaboration.
-
-### Configuration des audiences
+#### Configuration des audiences
 
 Configurez la manière dont les audiences sont préparées, appariées et gouvernées pour une utilisation dans les connexions.
 
@@ -135,7 +122,17 @@ Pour découvrir une présentation complète de la manière de référencer des a
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Vous pouvez également consulter le document sur la [mise à disposition des audiences dans Real-Time CDP Collaboration](https://experienceleague.adobe.com/fr/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Vous pouvez également consulter le document sur la [mise à disposition des audiences dans Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+
+### Option B : Source de Snowflake ou Amazon S3
+
+Pour configurer une source cloud (par exemple, [!DNL AWS S3] ou [!DNL Snowflake]), préparez les données de votre audience à l’aide de la [PDF de spécification d’audience](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf) suivante. Une fois l’opération terminée ou si vous avez des questions, contactez votre représentant de compte Adobe pour finaliser la configuration. Cette méthode n’est pas en libre-service et nécessite l’assistance d’Adobe.
+
+>[!IMPORTANT]
+>
+>Les fichiers d’audience basés sur le cloud doivent suivre le schéma requis décrit dans le PDF de spécification d’audience. Les fichiers doivent inclure des identifiants hachés (SHA256 en minuscules), les champs de métadonnées requis tels que `segment_name` et `activation_id`, et utiliser des formats pris en charge tels que CSV ou Parquet. Adobe ne normalise pas les données avant l’activation. La durée de vie est appliquée en fonction de la durée de vie de l’audience.
+>
+>Toutes les audiences du fichier chargé sont entièrement sourcées à ce stade. L’accès à des organisations partenaires spécifiques est configuré séparément via l’interface utilisateur de Collaboration.
 
 ## Étape 4 : activer les audiences (vers Experience Platform ou une destination cloud) {#activate-audiences}
 
@@ -147,7 +144,7 @@ Utilisez l’interface utilisateur de Collaboration pour activer des audiences v
 
 ### Option A : activer dans Experience Platform
 
-Suivez les étapes décrites dans le guide [Configurer Adobe Experience Platform en tant que destination](https://experienceleague.adobe.com/fr/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
+Suivez les étapes décrites dans le guide [Configurer Adobe Experience Platform en tant que destination](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
 
 - **Créer une destination** - Utilisez l’interface utilisateur pour configurer une destination Experience Platform (au niveau du sandbox).
 - **Mapper les clés de correspondance** - Sélectionnez l’identifiant (par exemple, `hashedEmail`).
@@ -156,16 +153,9 @@ Suivez les étapes décrites dans le guide [Configurer Adobe Experience Platform
 
 ### Option B : Activer vers le cloud
 
-Pour activer des audiences vers une destination cloud (telle que [!DNL AWS S3] ou [!DNL Snowflake]), contactez votre représentant de compte Adobe pour lancer le processus de configuration. Vous devez fournir les détails de destination tels que le chemin d’accès au fichier, les informations d’identification et le format de fichier attendu. Lors de la configuration, vous devez également spécifier une clé de correspondance (par exemple, `hashedEmail`) et définir la durée de vie et la fréquence d’actualisation souhaitées. Une fois la configuration terminée, Adobe approvisionne la destination et garantit la diffusion correcte des données.
+Pour configurer une destination cloud (par exemple, [!DNL AWS S3] ou [!DNL Snowflake]), contactez votre représentant de compte Adobe pour lancer le processus de configuration. Selon la destination cloud, vous devrez fournir des détails de destination cloud tels que le chemin d’accès au fichier, les informations d’identification, les localisateurs de compte, etc. Une fois les informations requises fournies, Adobe configure la configuration de destination dans le cloud.
 
 Les données d’audience envoyées à une destination cloud suivent un schéma prédéfini. Pour une description détaillée des champs et du format requis, téléchargez le [Guide Collaboration Audience Activation](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf).
-
-### Principales différences
-
-La liste suivante met en évidence les différences entre les options d’activation d’Experience Platform et du cloud :
-
-- Les activations vers Experience Platform sont entièrement en libre-service et visibles dans le portail Audience.
-- Les destinations cloud nécessitent une coordination Adobe et ne sont pas visibles dans l’interface utilisateur.
 
 ## Étape 5 : configurer la mesure (facultatif) {#set-up-measurement}
 
@@ -226,13 +216,6 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
    - Input the report name, date range, and report run date.
    - Select **[!UICONTROL Campaign summary]** as the report type.
    - Submit the report. It will run on the selected date and populate within 24 hours. -->
-
-## Vérification
-
-Après l’activation, vérifiez que les audiences ont été correctement diffusées ou mises à disposition dans la destination appropriée.
-
-- Vérifiez que vos audiences s’affichent dans le Portail d’audiences (pour l’activation d’Experience Platform).
-- Confirmez la réussite de la diffusion dans le cloud via des logs de destination externes ou confirmez.
 
 ## Étape 6 : Se connecter avec les collaborateurs {#connect-with-collaborators}
 

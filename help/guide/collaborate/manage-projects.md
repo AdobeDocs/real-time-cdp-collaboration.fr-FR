@@ -2,11 +2,11 @@
 title: Créer et gérer des projets
 description: Découvrez comment créer et gérer des projets dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '428'
 ht-degree: 9%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 {{limited-availability-release-note}}
 
-Les projets sont l’élément central de votre workflow dans Real-Time CDP Collaboration. Après vous être connecté avec des collaborateurs, créez un projet pour exécuter les calculs de chevauchement des audiences et découvrir les audiences pertinentes pour les campagnes.
+Les projets sont l’élément central de votre workflow dans Adobe Real-Time CDP Collaboration. Après vous être connecté avec des collaborateurs, créez un projet pour exécuter les calculs de chevauchement des audiences et découvrir les audiences pertinentes pour les campagnes.
 
 >[!TIP]
 >
@@ -28,6 +28,8 @@ Vous pouvez utiliser les filtres pour afficher uniquement les projets que vous a
 ![Vue filtrée des projets avec un seul collaborateur.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## Créer un projet {#create-project}
+
+Pour créer un projet, vous devez d’abord [établir une connexion](/help/guide/connect/establishing-connections.md) avec un collaborateur ou une collaboratrice. Une fois la connexion établie, vous pouvez créer un projet avec ce collaborateur.
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
@@ -62,4 +64,4 @@ La présentation du projet affiche les cas d’utilisation sélectionnés lors d
 | --- | --- |
 | Mesure de campagne | Ce cas pratique donne accès à la section [Mesure](/help/guide/collaborate/measure.md) et à toutes les fonctionnalités disponibles. |
 | Découverte de l’audience | Ce cas pratique permet d’accéder à la section [Découvrir](/help/guide/collaborate/discover.md) et à toutes les fonctionnalités disponibles. |
-| Audience Activation | Ce cas pratique permet d’accéder à la section [ Activer ](/help/guide/collaborate/activate.md) et à toutes les fonctionnalités disponibles. |
+| Activation de l’audience | Ce cas pratique permet d’accéder à la section [ Activer ](/help/guide/collaborate/activate.md) et à toutes les fonctionnalités disponibles. |

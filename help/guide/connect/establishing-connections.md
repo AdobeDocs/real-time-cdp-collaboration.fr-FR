@@ -2,12 +2,12 @@
 title: Se connecter avec des annonceurs ou des éditeurs
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 16%
+source-wordcount: '1400'
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 
 {{limited-availability-release-note}}
 
-Pour que des collaborateurs (généralement un annonceur et un éditeur) puissent travailler ensemble sur des campagnes, ils doivent établir une connexion. Cette connexion leur permet d’activer des audiences, de créer des projets et d’exécuter des rapports sur les performances des campagnes.
+Avant de pouvoir travailler ensemble sur des campagnes, les collaborateurs doivent établir une connexion. Cette connexion leur permet d’activer des audiences, de créer des projets et d’exécuter des rapports sur les performances des campagnes.
 
 ## Workflow de haut niveau
 
@@ -37,11 +37,11 @@ Une fois les éléments ci-dessus terminés, les collaborateurs peuvent passer �
 
 ## Envoyer une invitation {#send-invite}
 
-Pour configurer une connexion, sélectionnez **[!UICONTROL Connexion]** lors de la navigation dans l’inventaire des éditeurs dans l’écran Découvrir les éditeurs.
+Pour configurer une connexion, sélectionnez **[!UICONTROL Connexion]** lors de la navigation dans l’inventaire des éditeurs dans l’espace de travail **[!UICONTROL Découvrir les éditeurs]**.
 
 ![Le tableau de bord de connexion avec l’option Se connecter mise en surbrillance sur un éditeur spécifique.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
-Une fois l’invitation envoyée, vous pouvez prévisualiser (mais pas modifier) les paramètres de connexion. Affichez les invitations en attente dans l’onglet **[!UICONTROL Mes connexions]**. Le statut de la connexion apparaît comme **[!UICONTROL Invitation envoyée]**.
+Une fois l’invitation envoyée, vous pouvez prévisualiser (mais pas modifier) les paramètres de connexion. L’affichage de l’invitation en attente s’affiche dans l’onglet **[!UICONTROL Mes connexions]**. Le statut de la connexion apparaît comme **[!UICONTROL Invitation envoyée]**.
 
 ![Invitation en attente envoyée à l&#39;éditeur affichée dans la vue Mes connexions.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
@@ -62,7 +62,7 @@ Une fois que le collaborateur accepte l’invitation, vous pouvez configurer les
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Partage des crédits"
->abstract="Cette section détermine l’identité de la personne qui paie les activités correspondantes dans Real-Time CDP Collaboration."
+>abstract="Cette section détermine qui paie pour les activités correspondantes dans Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
@@ -82,7 +82,7 @@ Une fois que le collaborateur accepte l’invitation, vous pouvez configurer les
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Noms de l’annonceur"
->abstract="<p>Paramètre facultatif. Indique le nom et l’ID par lesquels l’annonceur est connu de l’éditeur.</p><p>Le nom de l’annonceur que vous ajoutez ici sera prérempli à l’étape Créer un projet.</p><ul><li>Si l’éditeur a configuré plusieurs noms, sélectionnez-en un dans la liste.</li><li>Si un seul nom est configuré, il est automatiquement présélectionné.</li><li>Si aucun nom n’est configuré, le champ est prérempli avec le nom du compte de l’annonceur de Real-Time CDP Collaboration.</li></ul>"
+>abstract="<p>Paramètre facultatif. Indique le nom et l’ID par lesquels l’annonceur est connu de l’éditeur.</p><p>Le nom de l’annonceur que vous ajoutez ici sera prérempli à l’étape Créer un projet.</p><ul><li>Si l’éditeur a configuré plusieurs noms, sélectionnez-en un dans la liste.</li><li>Si un seul nom est configuré, il est automatiquement présélectionné.</li><li>Si aucun nom n’est configuré, le champ est prérempli avec le nom du compte de l’annonceur de Collaboration.</li></ul>"
 >additional-url="https://experienceleague.adobe.com/fr/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Créer un projet"
 
 >[!CONTEXTUALHELP]
@@ -95,6 +95,8 @@ Une fois que le collaborateur accepte l’invitation, vous pouvez configurer les
 Une fois l’invitation envoyée, vous pouvez prévisualiser les paramètres de connexion. L’invitation doit être acceptée avant que vous puissiez terminer la configuration de la connexion.
 
 ![La vue des paramètres de connexion dans l’état d’aperçu.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
+
+<!-- The sections below will be updated in B2B and have not been addressed yet. -->
 
 ### Paramètres de connexion de l’annonceur {#advertiser-connection-settings}
 
@@ -118,7 +120,7 @@ Les cas d’utilisation sont préremplis avec toutes les options disponibles. Po
 
 +++Clés de correspondance
 
-Les clés de correspondance sont préremplies avec celles que vous avez sélectionnées lors de la [configuration de votre organisation](/help/guide/setup/onboard-organization.md#set-up-match-keys). Vous pouvez désactiver toutes les clés de correspondance que vous ne souhaitez pas utiliser, mais vous ne pouvez pas ajouter de clés de correspondance qui n’ont pas été sélectionnées lors de la configuration de l’organisation.
+Les clés de correspondance sont préremplies avec celles que vous avez sélectionnées lors de la [configuration de votre organisation](/help/guide/setup/onboard-account.md#set-up-match-keys). Vous pouvez désactiver toutes les clés de correspondance que vous ne souhaitez pas utiliser, mais vous ne pouvez pas ajouter de clés de correspondance qui n’ont pas été sélectionnées lors de la configuration de l’organisation.
 
 ![Paramètres de clé de correspondance dans l’espace de travail des paramètres de connexion.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
@@ -177,9 +179,13 @@ Voici comment fonctionne la sélection du nom de l’annonceur lors de la créat
 
 Si les paramètres de connexion proposés vous conviennent, sélectionnez **[!UICONTROL Accepter]** pour établir la connexion. Si vous souhaitez demander des modifications des paramètres de connexion, sélectionnez **[!UICONTROL Rejeter]**. Le collaborateur peut ensuite réviser les paramètres de connexion et les renvoyer pour révision.
 
+<!-- The end of the sections needing updates still. -->
+
 ## Suppression des connexions {#delete-connections}
 
-Vous pouvez supprimer toutes les connexions avec des collaborateurs avec lesquelles vous ne souhaitez plus travailler. Pour supprimer des connexions existantes, accédez à **[!UICONTROL Connexion]**. Les annonceurs doivent ensuite accéder à **[!UICONTROL Mes connexions]**. Sélectionnez **[!UICONTROL Afficher la connexion]** sur la carte de connexion pour ouvrir la connexion à supprimer.
+Vous pouvez supprimer toutes les connexions avec des collaborateurs avec lesquelles vous ne souhaitez plus travailler. Pour supprimer des connexions existantes, accédez à **[!UICONTROL Connexion]**. En tant qu’éditeur, votre connexion existante s’affiche. En tant qu’annonceur, vous devez ensuite accéder à **[!UICONTROL Mes connexions]**.
+
+Sélectionnez **[!UICONTROL Afficher la connexion]** sur la carte de connexion à supprimer.
 
 ![L’option Afficher la connexion est mise en surbrillance dans la vue Mes connexions.](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
 

@@ -2,12 +2,12 @@
 title: Découvrir les chevauchements et comparer les audiences
 description: Découvrez les chevauchements entre vos audiences et celles de vos collaborateurs. Découvrez les meilleures audiences à utiliser dans vos campagnes.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 92702e8dd596dc6249a7240f0e3b57b661905c30
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 19%
+source-wordcount: '1167'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,7 @@ Après avoir [créé un projet](/help/guide/collaborate/manage-projects.md), vou
 >
 >Tous les [esquisses de données](/help/guide/glossary.md#sketches) qui ne sont pas mis à jour ou actualisés seront supprimés après 7 jours. Dans ce cas, les chiffres affichés dans les différents rapports de chevauchement sur cette page sont nuls et le partage d’audience n’est plus disponible pour ces audiences expirées. Les esquisses de données sont automatiquement actualisées pour les audiences avec un [planning d’actualisation actif](/help/guide/setup/onboard-audiences.md#schedule).
 
-Les clés de correspondance utilisées pour découvrir et comparer des audiences sont configurées [pendant le processus de connexion](/help/guide/connect/establishing-connections.md#connection-settings). Les clés de correspondance sont utilisées pour calculer le chevauchement entre vos audiences et peuvent être activées et désactivées. Pour modifier les clés de correspondance, sélectionnez l’option **[!UICONTROL Modifier les clés de correspondance]**. Ce(tte)
+Les clés de correspondance utilisées pour découvrir et comparer des audiences sont configurées [pendant le processus de connexion](/help/guide/connect/establishing-connections.md#connection-settings). Les clés de correspondance sont utilisées pour calculer le chevauchement entre vos audiences. Elles peuvent être activées et désactivées. Pour modifier les clés de correspondance, sélectionnez l’option **[!UICONTROL Modifier les clés de correspondance]**.
 
 ![Espace de travail de l’onglet Découverte , présentant les informations sur l’audience.](/help/assets/collaborate/discover/discover-overview.png)
 
@@ -37,11 +37,11 @@ La boîte de dialogue **[!UICONTROL Modifier les clés de correspondance]** s’
 
 Pour commencer à utiliser l’onglet **[!UICONTROL Découvrir]** dans votre projet, vous devez disposer des éléments suivants :
 
-* [Audiences importées](/help/guide/setup/onboard-audiences.md) dans votre organisation
+* [Audiences sources](/help/guide/setup/onboard-audiences.md) dans votre compte
 * [Connecté](/help/guide/connect/establishing-connections.md) avec un collaborateur avec le cas d’utilisation **découverte d’audience** activé
 * [Création d’un projet](/help/guide/collaborate/manage-projects.md) entre vous et un collaborateur
 
-Une fois ces conditions préalables remplies, vous pouvez commencer à explorer et à comparer le chevauchement entre vos audiences et celles de votre collaborateur.
+Une fois ces conditions préalables remplies, vous pouvez commencer à explorer et à comparer les chevauchements entre vous et les audiences de votre collaborateur.
 
 ## Comparer des audiences {#compare-audiences}
 
@@ -86,7 +86,7 @@ Dans la section Comparer les audiences , vous pouvez voir les mesures suivantes,
 
 {style="table-layout:auto"}
 
->[!TIP]
+>[!NOTE]
 >
 >Le pourcentage de chevauchement peut ne pas toujours être disponible pour toutes les audiences. La visibilité de l’indicateur de pourcentage de chevauchement dépend du paramètre que votre collaborateur a choisi pour une audience dans la [section de visibilité des métadonnées](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
@@ -95,7 +95,7 @@ Dans la section Comparer les audiences , vous pouvez voir les mesures suivantes,
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="Audiences pertinentes"
->abstract="En fonction des pourcentages de chevauchement, ces audiences d’éditeurs pourraient être adaptées à votre campagne. <br><br> Le <b> nombre d’identités</b> correspond à la taille de l’audience de l’éditeur. <br><br> Les <b>Identités qui se chevauchent</b> représentent le chevauchement entre l’audience recommandée de l’éditeur et toutes les audiences de l’annonceur. <br><br> Le <b>Pourcentage de chevauchement</b> représente le nombre d’identités qui se chevauchent, divisé par la taille de <i>toutes</i> les audiences de l’annonceur."
+>abstract="En fonction des pourcentages de chevauchement, ces audiences peuvent être adaptées à votre campagne. <br><br> Le <b>nombre d’identités</b> correspond à la taille de l’audience du collaborateur. <br><br> <b>Identités qui se chevauchent</b> représente le chevauchement entre l’audience recommandée et toutes vos audiences. <br><br> Le <b>chevauchement %</b> représente le nombre d’identités qui se chevauchent divisé par la taille de <i>toutes</i> vos audiences."
 
 La section **[!UICONTROL Audiences pertinentes]** de l’onglet **[!UICONTROL Découvrir]** fournit une liste sélectionnée des cinq premières audiences en fonction du pourcentage de chevauchement entre l’audience de votre collaborateur et toutes vos audiences. Cette fonctionnalité vous permet d’identifier rapidement les audiences qui se chevauchent le plus, ce qui vous permet de cibler vos campagnes plus efficacement. Basculez entre les audiences pertinentes à l’aide des sélecteurs de page en haut à droite de la section.
 
@@ -117,10 +117,6 @@ La section **[!UICONTROL Audiences pertinentes]** affiche les informations suiva
 
 {style="table-layout:auto"}
 
->[!NOTE]
->
->La visibilité des audiences de votre collaborateur dépend du paramètre que celui-ci a choisi pour une audience dans la [section visibilité des métadonnées](/help/guide/setup/onboard-audiences.md#metadata-visibility). Si votre collaborateur a défini toutes les audiences sur privées, cette section n’affichera aucune audience.
-
 ## Chevauchements de découvertes {#discover-overlaps}
 
 >[!CONTEXTUALHELP]
@@ -140,7 +136,7 @@ Pour modifier votre sélection d’audience, sélectionnez **[!UICONTROL Modifie
 
 ![Découvrir l’espace de travail avec l’option Modifier l’audience mise en surbrillance.](/help/assets/collaborate/discover/change-audience.png)
 
-La boîte de dialogue **[!UICONTROL Modifier l’audience]** s’ouvre et vous pouvez comparer une audience spécifique aux audiences de votre collaborateur ou de votre collaboratrice. Sélectionnez les audiences souhaitées ou effacez vos sélections pour sélectionner toutes les audiences, puis sélectionnez **[!UICONTROL Enregistrer]**.
+La boîte de dialogue **[!UICONTROL Modifier l’audience]** s’ouvre. Vous pouvez y sélectionner une audience spécifique à comparer aux audiences de votre collaborateur ou de votre collaboratrice. Sélectionnez les audiences souhaitées ou effacez vos sélections pour sélectionner toutes les audiences, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
 ![Boîte de dialogue Modifier l’audience dans l’espace de travail Découvrir](/help/assets/collaborate/discover/change-audience-selection.png).
 
@@ -148,7 +144,7 @@ Une fois les audiences sélectionnées, la section **[!UICONTROL Découvrir les 
 
 | Mesure | Description |
 |---------|----------|
-| **[!UICONTROL Nombre d’identités]** | Le nom des ID uniques dans l’audience. |
+| **[!UICONTROL Nombre d’identités]** | Nombre d’identifiants uniques dans l’audience. |
 | **[!UICONTROL Identités qui se chevauchent]** | Nombre d’identifiants uniques qui se chevauchent entre l’audience recommandée et toutes vos audiences. |
 | **[!UICONTROL Chevaucher %]** | Pourcentage d’identités qui se chevauchent entre l’audience recommandée et toutes vos audiences. |
 | **[!UICONTROL Catégories d’audience]** | Les catégories que votre collaborateur a affectées à l’audience. |

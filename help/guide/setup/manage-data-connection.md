@@ -2,12 +2,12 @@
 title: Gérer les connexions de données
 description: Découvrez comment gérer les connexions de données, notamment les clés de correspondance, la planification, les cas d’utilisation et le filtrage d’audience dans Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 11%
+source-wordcount: '597'
+ht-degree: 13%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 11%
 
 ## Vue d’ensemble
 
-Utilisez les connexions de données dans Real-Time CDP Collaboration pour importer des audiences provenant de diverses sources. Découvrez comment gérer les clés de correspondance et planifier des importations de données pour vos connexions de données existantes. De plus, vous pourrez filtrer les audiences en fonction de différents attributs pour obtenir des informations plus granulaires.
+Utilisez les connexions de données dans Real-Time CDP Collaboration pour approvisionner les audiences à partir de différentes plateformes. Découvrez comment gérer les clés de correspondance et planifier l’actualisation des données pour vos connexions de données existantes. De plus, vous pourrez filtrer les audiences en fonction de différents attributs pour obtenir des informations plus granulaires.
 
 ## Afficher les connexions de données
 
@@ -59,7 +59,7 @@ Une fois une connexion de données créée, vous pouvez mettre à jour sa fréqu
 >
 >Lorsque vous sourcez des audiences à partir de Adobe Experience Platform, les audiences sont disponibles dans les 24 heures suivant l’établissement de la connexion aux données. Après l’importation initiale, les données d’audience sont actualisées selon la fréquence définie.
 
-Pour plus d’informations sur la planification, consultez la [section de planification](/help/guide/setup/onboard-audiences.md#schedule) dans le guide d’intégration des audiences.
+Pour plus d’informations sur la planification, consultez la [section de planification](/help/guide/setup/onboard-audiences.md#schedule) dans le guide de configuration des audiences.
 
 ![Espace de travail d’une connexion de données avec la section Planification mise en surbrillance.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
@@ -69,11 +69,11 @@ Vous pouvez modifier la fréquence d’une connexion de données existante pour 
 
 Dans la boîte de dialogue **[!UICONTROL Planification]**, sélectionnez le menu déroulant pour mettre à jour la **[!UICONTROL Fréquence]**. Définissez la fréquence d’actualisation pour qu’elle s’exécute tous les jours ou tous les deux à six jours. Lorsque vous avez terminé, sélectionnez **[!UICONTROL Enregistrer]** pour appliquer vos modifications.
 
-![Boîte de dialogue Planification affichant les options permettant de définir la fréquence et la période.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
+![Boîte de dialogue Planification affichant les options permettant de définir la fréquence et la période.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
 ## Supprimer la connexion de données
 
-La suppression d’une connexion de données supprimera toutes les audiences sous-jacentes, les paramètres associés et l’utilisation sur la plateforme. Cette action ne peut pas être annulée.
+La suppression d’une connexion aux données supprimera toutes les audiences sous-jacentes, les paramètres associés et l’utilisation dans Collaboration. Cette action ne peut pas être annulée.
 
 Pour supprimer une connexion de données existante, sélectionnez l’icône de suppression (![icône Supprimer](/help/assets/common/delete.svg)) dans l’espace de travail d’une connexion de données individuelle.
 

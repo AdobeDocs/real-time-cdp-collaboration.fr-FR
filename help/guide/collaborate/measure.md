@@ -2,11 +2,11 @@
 title: Mesurer les performances
 description: Mesurez les performances de vos campagnes sur différents canaux. Découvrez comment utiliser et interpréter divers rapports.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '631'
 ht-degree: 18%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 18%
 >
 >L’espace de travail **[!UICONTROL Mesure]** n’est disponible que si le cas d’utilisation **Mesure** a été activé [pendant le processus de connexion](../connect/establishing-connections.md#connection-settings). Pour plus d’informations sur les cas d’utilisation, consultez le guide [gestion des projets](./manage-projects.md#project-use-cases).
 
-Découvrez les rapports disponibles dans Real-Time CDP Collaboration et apprenez à mesurer et à analyser les performances de vos campagnes marketing sur différents canaux.
+Découvrez les rapports disponibles dans Adobe Real-Time CDP Collaboration et comment mesurer et analyser les performances de vos campagnes marketing sur différents canaux.
 
 ## Conditions préalables
 
-Avant de pouvoir accéder aux rapports de mesure dans Real-Time CDP Collaboration, vous avez déjà :
+Avant de pouvoir accéder aux rapports de mesure dans Collaboration, vous avez déjà :
 
 * [Connecté](/help/guide/connect/establishing-connections.md) avec un annonceur ou un éditeur souhaité, avec le cas d’utilisation **Measurement** activé et a commencé à collaborer sur [projets](/help/guide/collaborate/manage-projects.md)
-* Exécutez une campagne et [téléchargez les données de mesure](/help/guide/setup/onboard-measurement-data.md) dans Real-Time CDP Collaboration.
+* Exécutez une campagne et [téléchargez les données de mesure](/help/guide/setup/onboard-measurement-data.md) dans Collaboration.
 
 <!--
 

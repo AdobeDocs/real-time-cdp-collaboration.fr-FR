@@ -2,9 +2,9 @@
 title: Découvrir les chevauchements et comparer les audiences
 description: Découvrez les chevauchements entre vos audiences et celles de vos collaborateurs. Découvrez les meilleures audiences à utiliser dans vos campagnes.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 20%
@@ -19,7 +19,7 @@ ht-degree: 20%
 >
 >L’espace de travail **[!UICONTROL Discover]** n’est disponible que si le cas d’utilisation **Audience discovery** a été activé [pendant le processus de connexion](../connect/establishing-connections.md#connection-settings). Pour plus d’informations sur les cas d’utilisation, consultez le guide [gestion des projets](./manage-projects.md#project-use-cases).
 
-Après avoir [créé un projet](/help/guide/collaborate/manage-projects.md), vous pouvez comparer vos audiences à vos collaborateurs. Vous pouvez ainsi identifier les audiences pertinentes pour les campagnes et décider lesquelles envoyer aux éditeurs pour activation.
+Après avoir [créé un projet](/help/guide/collaborate/manage-projects.md), vous pouvez comparer vos audiences à vos collaborateurs. Vous pouvez ainsi identifier les audiences pertinentes pour les campagnes et décider lesquelles envoyer aux collaborateurs pour activation.
 
 >[!IMPORTANT]
 >

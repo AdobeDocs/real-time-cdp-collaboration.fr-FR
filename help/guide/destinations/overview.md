@@ -2,12 +2,12 @@
 title: Présentation des destinations
 description: En savoir plus sur les destinations dans Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: 4ef7f8c7c27935f0e5b3620da63e7129f2714b37
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 6%
+source-wordcount: '328'
+ht-degree: 7%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 6%
 
 Les destinations sont des intégrations utilisées pour envoyer des audiences ciblées à des plateformes externes. Ces intégrations vous permettent d’activer des audiences sur divers canaux et plateformes marketing à utiliser dans les campagnes et l’engagement des clients.
 
-Actuellement, les destinations ne sont disponibles que pour les éditeurs dans Adobe Real-Time CDP Collaboration. Les éditeurs peuvent configurer des destinations pour envoyer des audiences à des plateformes externes, telles que Adobe Experience Platform, en vue de les utiliser dans des campagnes. Les annonceurs peuvent ensuite [activer des audiences dans un projet](../collaborate/activate.md), qui sont envoyées à la destination configurée de l’éditeur.
+Les collaborateurs peuvent configurer des destinations pour envoyer des audiences à des plateformes externes, telles que Adobe Experience Platform, en vue de les utiliser dans des campagnes. Les collaborateurs peuvent ensuite [activer des audiences dans un projet](../collaborate/activate.md), qui sont envoyées à la destination configurée de leur connexion. L’activation peut être effectuée par l’un des collaborateurs en fonction des paramètres d’activation de l’audience [configurés dans la connexion](/help/guide/connect/establishing-connections.md#configure-connection-settings).
 
 >[!IMPORTANT]
 >
->Actuellement, lorsque les annonceurs activent des audiences dans votre projet, elles sont automatiquement envoyées à la destination configurée par l’éditeur. En tant qu’éditeur, vous **devez** configurer une destination *avant* que votre collaborateur active une audience. Si aucune destination n’est configurée, l’audience vous sera envoyée et visible dans l’onglet **[!UICONTROL Activer]** au sein d’un projet, mais elle ne sera pas activée.
+>Actuellement, lorsque les collaborateurs activent des audiences dans un projet, elles sont automatiquement envoyées à la destination configurée de leur connexion. Vous **devez** configurer une destination avant que votre collaborateur puisse activer des audiences dans un projet.
 
 ## Configuration des destinations {#configure-destinations}
 

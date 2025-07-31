@@ -1,19 +1,19 @@
 ---
 title: Guide de démarrage rapide de Real-Time CDP Collaboration
-description: Découvrez comment intégrer votre organisation dans Real-Time CDP Collaboration, notamment la configuration des rôles et des organisations, l’approvisionnement des audiences, l’activation et la mesure. Ce guide aide les annonceurs et les éditeurs à configurer les paramètres de collaboration et à commencer à utiliser les audiences partagées de manière sécurisée et efficace.
+description: Découvrez comment intégrer votre organisation dans Real-Time CDP Collaboration, notamment la configuration des rôles et des organisations, l’approvisionnement des audiences, l’activation et la mesure. Ce guide aide les collaborateurs à configurer les paramètres de connexion pour commencer à utiliser leurs audiences de manière sécurisée et efficace.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1408'
 ht-degree: 0%
 
 ---
 
 # Guide de démarrage rapide de Real-Time CDP Collaboration
 
-
+{{limited-availability-release-note}}
 
 Commencez avec Real-Time CDP Collaboration en configurant votre organisation, en approvisionnant les audiences et en activant l’activation et la mesure axées sur la confidentialité.
 
@@ -31,10 +31,6 @@ Avant de commencer, vérifiez que vous disposez des éléments suivants :
 
 ## Étape 1 : terminer la configuration basée sur les rôles {#complete-role-based-setup}
 
->[!NOTE]
->
->Cette étape s’applique à la fois aux annonceurs et aux éditeurs.
-
 Les rôles d’accès de votre organisation déterminent ce que les utilisateurs peuvent voir et faire dans Collaboration. Avant de poursuivre, assurez-vous que les autorisations basées sur les rôles sont correctement configurées pour garantir un accès et une visibilité appropriés dans la plateforme.
 
 **Ressources:**
@@ -45,13 +41,9 @@ Les rôles d’accès de votre organisation déterminent ce que les utilisateurs
 
 Regardez cette vidéo pour savoir comment attribuer des accès et des autorisations de produit pour Collaboration à l’aide d’Admin Console et d’Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452232/?learn=on&enablevpops&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Étape 2 : configurer votre compte Collaboration {#set-up-your-account}
-
->[!NOTE]
->
->Cette étape s’applique à la fois aux annonceurs et aux éditeurs.
 
 Avant de pouvoir approvisionner des audiences, vous devez configurer votre compte dans Collaboration. Cela régit votre apparence et ce à quoi vous avez accès dans l’interface.
 
@@ -63,7 +55,7 @@ Définissez le rôle de votre compte dans Collaboration, fournissez des ressourc
 >
 >Vous pouvez créer un ou plusieurs comptes (tels qu’un annonceur et un éditeur) lors de la configuration. Certains champs, tels que les ressources de marque et l’e-mail du contact, peuvent être mis à jour ultérieurement dans l’espace de travail **[!UICONTROL Paramètres]**.
 
-- **Attribuer un rôle** - Détermine si votre compte est en tant qu’annonceur ou éditeur. Votre rôle définit les fonctionnalités dont vous disposez dans Collaboration. Pour en savoir plus sur l’impact des rôles sur le workflow de collaboration, consultez le [guide de workflow de bout en bout](./end-to-end-workflow.md).
+- **Attribuer un rôle** - Détermine si votre compte est un annonceur ou un éditeur. Votre rôle définit les fonctionnalités dont vous disposez dans Collaboration. Pour en savoir plus sur l’impact des rôles sur le workflow de collaboration, consultez le guide [rôles](./overview/roles.md).
 - **Valorisation de marque des ressources** - Ajoutez les éléments suivants à votre compte :
    - Nom du compte (100 caractères max.)
    - Description (1 000 caractères max.)
@@ -125,7 +117,7 @@ Pour découvrir une présentation complète de la source des audiences à l’ai
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Vous pouvez également consulter le document sur le [sourcing d’audiences dans Collaboration](https://experienceleague.adobe.com/fr/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Vous pouvez également consulter le document sur le [sourcing d’audiences dans Collaboration](./setup/onboard-audiences.md#source-and-manage-audiences).
 
 ### Option B : Source de Snowflake ou Amazon S3
 
@@ -138,10 +130,6 @@ Pour configurer une source cloud (par exemple, [!DNL AWS S3] ou [!DNL Snowflake]
 >Toutes les audiences du fichier chargé sont entièrement sourcées à ce stade. Le [ paramètre de visibilité de l’audience ](/help/guide/setup/onboard-audiences.md#metadata-visibility) détermine si vos collaborateurs peuvent afficher votre audience. Il est géré via l’interface utilisateur de Collaboration.
 
 ## Étape 4 : activer les audiences (vers Experience Platform ou une destination cloud) {#activate-audiences}
-
->[!NOTE]
->
->Cette étape s’applique à la fois aux annonceurs et aux éditeurs.
 
 Ensuite, activez les audiences vers votre instance Experience Platform ou une destination cloud.
 
@@ -224,13 +212,13 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 Une fois la configuration terminée, votre organisation est prête à se connecter à ses collaborateurs en envoyant ou en acceptant des invitations et en envoyant les paramètres du projet pour approbation. Ce processus de connexion implique l’envoi ou la réception d’invitations, la révision et l’envoi des paramètres de connexion (tels que les cas d’utilisation et la consommation de crédit), ainsi que la confirmation de la connexion.
 
-En tant qu’annonceur, utilisez l’espace de travail **[!UICONTROL Connect]** dans le menu de navigation de gauche pour parcourir les éditeurs disponibles.
+En tant qu’annonceur, utilisez l’espace de travail **[!UICONTROL Connect]** dans le menu de navigation de gauche pour parcourir les éditeurs disponibles. Les collaborateurs peuvent également communiquer directement entre eux par le biais d’[invitations à des connexions privées](./connect/establishing-connections.md#private-connection-invite){target="_blank"}.
 
 >[!NOTE]
 >
 >Actuellement, seuls les annonceurs peuvent parcourir les éditeurs. Les éditeurs ne peuvent pas parcourir ni établir de connexions avec les annonceurs.
 
-Pour obtenir un aperçu de ce flux, consultez le guide [Se connecter aux annonceurs ou aux éditeurs](./connect/establishing-connections.md){target="_blank"}. Pour une présentation visuelle du processus de connexion, y compris la navigation des collaborateurs et la gestion des paramètres de connexion, regardez la vidéo [configuration du compte d’annonceur](https://experienceleague.adobe.com/fr/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+Pour une présentation de ce flux, consultez le [guide d’établissement de connexions](./connect/establishing-connections.md){target="_blank"}. Pour une présentation visuelle du processus de connexion, y compris la navigation des collaborateurs et la gestion des paramètres de connexion, regardez la vidéo [configuration du compte d’annonceur](https://experienceleague.adobe.com/fr/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Étapes suivantes
 

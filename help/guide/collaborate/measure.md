@@ -2,12 +2,12 @@
 title: Mesurer les performances
 description: Mesurez les performances de vos campagnes sur différents canaux. Découvrez comment utiliser et interpréter divers rapports.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 18%
+source-wordcount: '575'
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,7 @@ Découvrez les rapports disponibles dans Adobe Real-Time CDP Collaboration et co
 
 Avant de pouvoir accéder aux rapports de mesure dans Collaboration, vous avez déjà :
 
-* [Connecté](/help/guide/connect/establishing-connections.md) avec un annonceur ou un éditeur souhaité, avec le cas d’utilisation **Measurement** activé et a commencé à collaborer sur [projets](/help/guide/collaborate/manage-projects.md)
+* [Connecté](/help/guide/connect/establishing-connections.md) avec un collaborateur avec le cas d’utilisation **Measurement** activé et a commencé à collaborer sur [projets](/help/guide/collaborate/manage-projects.md)
 * Exécutez une campagne et [téléchargez les données de mesure](/help/guide/setup/onboard-measurement-data.md) dans Collaboration.
 
 <!--
@@ -104,9 +104,3 @@ Au fur et à mesure que la campagne avançait et que le nombre d’impressions a
 Identifiez le support qui génère des impressions pour votre contenu créatif. Cela peut vous aider à décider où investir vos dépenses publicitaires dans les campagnes futures.
 
 ![Impressions par emplacement.](/help/assets/collaborate/measure/impressions-by-placement.png)
-
-## Étapes suivantes
-
-![Découvrir, activer, mesurer pour les annonceurs.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
-
-Dans l’esprit de cyclicité de l’image ci-dessus, utilisez les informations que vous avez obtenues en affichant les rapports lors de la planification de votre prochaine campagne. En tant qu’annonceur, si nécessaire, revenez en arrière pour découvrir différents éditeurs et exécutez des chevauchements pour découvrir différentes audiences pour vos prochaines campagnes.

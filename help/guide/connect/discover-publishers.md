@@ -2,11 +2,11 @@
 title: Découvrir les éditeurs et éditrices
 description: En tant qu’annonceur, découvrez comment trouver des éditeurs potentiels avec lesquels collaborer à l’aide d’Adobe Real-Time CDP Collaboration
 audience: admin, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '335'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 2%
 {{limited-availability-release-note}}
 
 Découvrez et contactez des éditeurs et éditrices potentiels dans Adobe Real-Time CDP Collaboration. Ce guide fournit des informations sur la manière d’identifier les collaborateurs idéaux et d’utiliser leurs audiences pour améliorer vos campagnes marketing.
+
+>[!NOTE]
+>
+>Actuellement, l’espace de travail **[!UICONTROL Découvrir les éditeurs]** n’est disponible que pour les annonceurs.
 
 Pour découvrir des éditeurs, accédez à l’onglet **[!UICONTROL Se connecter]** > **[!UICONTROL Découvrir des éditeurs]**.
 

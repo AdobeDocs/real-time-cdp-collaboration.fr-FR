@@ -2,11 +2,11 @@
 title: Configuration et gestion de votre compte
 description: Découvrez comment configurer et gérer divers aspects de votre compte dans Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '936'
 ht-degree: 18%
 
 ---
@@ -39,13 +39,11 @@ Pour ajouter d’autres organisations, accédez à **[!UICONTROL Configuration]*
 >title="Code de connexion"
 >abstract="Le code de connexion est un identifiant unique de votre compte. Il est utilisé pour établir des connexions avec d’autres collaborateurs et collaboratrice dans Real-Time CDP Collaboration."
 
-<!-- Move the above popover to new section for invite on this page when its created -->
-
 Pour commencer à configurer votre compte , vous devez d’abord configurer les détails du compte. Pour ce faire, vous devez ajouter les informations suivantes :
 
 * Ajoutez un **[!UICONTROL Nom du compte]** qui représente clairement votre marque.
 * Ajoutez une **[!UICONTROL Description]** votre marque. Cette option est facultative, mais elle aide les autres collaborateurs à mieux comprendre votre marque.
-* Sélectionnez votre **[!UICONTROL rôle]**. Vous pouvez choisir entre **[!UICONTROL Annonceur]** et **[!UICONTROL Éditeur]**. Lisez le [document sur les workflows de bout en bout](/help/guide/end-to-end-workflow.md) pour voir les similitudes et les légères différences de workflow entre les deux types de rôles organisationnels.
+* Sélectionnez votre **[!UICONTROL rôle]**. Vous pouvez choisir entre **[!UICONTROL Annonceur]** et **[!UICONTROL Éditeur]**. Lisez le guide [roles](/help/guide/overview/roles.md) pour voir les similitudes et les légères différences de workflow entre les deux types de rôles de compte.
 <!-- The above will need to be updated when I update things for B2B -->
 * Sélectionnez le **[!UICONTROL Secteur]** pour votre compte. Par exemple, **[!UICONTROL Vente au détail]**, **[!UICONTROL Télécommunications]** ou **[!UICONTROL Services financiers]**.
 * La **[!UICONTROL Région]** est automatiquement définie en fonction de votre compte Adobe Experience Cloud. Cette valeur ne peut pas être modifiée à tout moment.

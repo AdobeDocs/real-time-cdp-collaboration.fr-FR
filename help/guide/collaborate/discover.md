@@ -2,12 +2,12 @@
 title: Découvrir les chevauchements et comparer les audiences
 description: Découvrez les chevauchements entre vos audiences et celles de vos collaborateurs. Découvrez les meilleures audiences à utiliser dans vos campagnes.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -95,7 +95,7 @@ Dans la section Comparer les audiences , vous pouvez voir les mesures suivantes,
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="Audiences pertinentes"
->abstract="En fonction des pourcentages de chevauchement, ces audiences peuvent être adaptées à votre campagne. <br><br> Le <b>nombre d’identités</b> correspond à la taille de l’audience du collaborateur. <br><br> <b>Identités qui se chevauchent</b> représente le chevauchement entre l’audience recommandée et toutes vos audiences. <br><br> Le <b>chevauchement %</b> représente le nombre d’identités qui se chevauchent divisé par la taille de <i>toutes</i> vos audiences."
+>abstract="En fonction des pourcentages de chevauchement, ces audiences pourraient être adaptées à votre campagne. <br><br> Le <b>nombre d’identités</b> correspond à la taille de l’audience du collaborateur ou de la collaboratrice. <br><br> Les <b>Identités qui se chevauchent</b> représentent le chevauchement entre l’audience recommandée et toutes vos audiences. <br><br> Le <b>% de chevauchement</b> représente le nombre d’identités qui se chevauchent, divisé par la taille de <i>toutes</i> vos audiences."
 
 La section **[!UICONTROL Audiences pertinentes]** de l’onglet **[!UICONTROL Découvrir]** fournit une liste sélectionnée des cinq premières audiences en fonction du pourcentage de chevauchement entre l’audience de votre collaborateur et toutes vos audiences. Cette fonctionnalité vous permet d’identifier rapidement les audiences qui se chevauchent le plus, ce qui vous permet de cibler vos campagnes plus efficacement. Basculez entre les audiences pertinentes à l’aide des sélecteurs de page en haut à droite de la section.
 

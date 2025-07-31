@@ -2,12 +2,12 @@
 title: Source et gestion des audiences
 description: Découvrez comment sourcer et gérer des audiences dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
 workflow-type: tm+mt
 source-wordcount: '2897'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -90,7 +90,7 @@ Ensuite, vous devez vous assurer que les actions marketing correctes sont défin
 
 Utilisez des actions marketing pour contrôler les données d’audience à importer dans Collaboration à partir d’Experience Platform. L’action marketing **[!UICONTROL Collaboration de données]** prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing **[!UICONTROL Science des données]** prend en charge le libellé d’utilisation des données C9.
 
-En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Lorsque la case à cocher est ***activée***, toutes les données libellées dans Experience Platform comme décrit ci-dessus sont exclues et **pas** importées dans Collaboration.
 * Lorsque la case à cocher ***désactivée***, il n’existe aucune restriction sur les données provenant d’Experience Platform.
@@ -119,7 +119,7 @@ Indiquez ensuite un nom et une description pour votre connexion de données. Ces
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_source_fields"
 >title="Champs sources"
->abstract="Les champs Source sont des espaces de noms d’identité et des attributs provenant de votre implémentation d’Experience Platform. Vous pouvez les mapper à des champs cibles définis dans Collaboration."
+>abstract="Les champs sources sont des espaces de noms d’identité et des attributs de votre implémentation d’Experience Platform. Vous pouvez les mapper à des champs cibles définis dans Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
@@ -129,7 +129,7 @@ Indiquez ensuite un nom et une description pour votre connexion de données. Ces
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
 >title="Appliquer la transformation"
->abstract="Lors de l’approvisionnement de champs *non hachés*, utilisez cette option pour que Collaboration applique le hachage et transforme les champs simples en champs hachés."
+>abstract="Lors de la récupération de champs *non hachés* à partir de votre source, utilisez cette option pour que Collaboration applique le hachage et transforme les champs simples en champs hachés."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
@@ -331,7 +331,7 @@ La disponibilité de l’audience à utiliser dans les projets avec des collabor
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilité des métadonnées"
->abstract="<p>Indique laquelle des métadonnées de l’audience est visible par les autres collaborateurs avant qu’ils ne se connectent avec vous ou dans les vues du projet.</p> <p> **Nombre d’identités** contrôle si votre collaborateur peut afficher le nombre d’identités de vos audiences lors de l’affichage de rapports de chevauchement dans l’onglet découverte. Le **Pourcentage de chevauchement des audiences** contrôle si les collaborateurs et collaboratrices sont en mesure de découvrir des pourcentages de chevauchement entre leurs audiences et les vôtres."
+>abstract="<p>Précise les métadonnées d’audience qui sont visibles pour d’autres collaborateurs et collaboratrices avant qu’ils ne se connectent à vous ou dans les vues du projet.</p> <p> Le **Nombre d’identités** vérifie si votre collaborateur ou collaboratrice peut afficher le nombre d’identités de vos audiences lors de l’affichage des rapports de chevauchement dans l’onglet de découverte. Le **% de chevauchement des audiences** vérifie si les collaborateurs et collaboratrices sont en mesure de découvrir des pourcentages de chevauchement entre leurs audiences et les vôtres."
 
 >[!NOTE]
 >

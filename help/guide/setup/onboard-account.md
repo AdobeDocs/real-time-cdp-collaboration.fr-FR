@@ -2,12 +2,12 @@
 title: Configuration et gestion de votre compte
 description: Découvrez comment configurer et gérer divers aspects de votre compte dans Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -32,12 +32,12 @@ Pour ajouter d’autres organisations, accédez à **[!UICONTROL Configuration]*
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
 >title="E-mail de contact"
->abstract="Veuillez indiquer un e-mail basé sur l&#39;équipe ou le rôle, tel que **collaboration@yourcompany.com**. Des adresses e-mail personnelles ou individuelles ne doivent pas être utilisées."
+>abstract="Fournissez une adresse e-mail basée sur une équipe ou un rôle, comme **collaboration@votresociete.com**. Des adresses e-mail personnelles ou individuelles ne doivent pas être utilisées."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_connect_code"
 >title="Code de connexion"
->abstract="Le code de connexion est un identifiant unique pour votre compte. Il est utilisé pour établir des connexions avec d’autres collaborateurs dans Real-Time CDP Collaboration."
+>abstract="Le code de connexion est un identifiant unique de votre compte. Il est utilisé pour établir des connexions avec d’autres collaborateurs et collaboratrice dans Real-Time CDP Collaboration."
 
 <!-- Move the above popover to new section for invite on this page when its created -->
 
@@ -64,7 +64,7 @@ Pour commencer à configurer votre compte , vous devez d’abord configurer les 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="Clés correspondantes"
->abstract="Les clés correspondantes sont des identifiants utilisés pour réconcilier des membres d’audiences provenant de différentes sources de données. Incluez toutes les clés de correspondance avec lesquelles votre marque peut travailler."
+>abstract="Les clés correspondantes sont des identifiants utilisés pour réconcilier des membres d’audiences provenant de différentes sources de données. Incluez toutes les clés correspondantes que votre marque peut utiliser."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"

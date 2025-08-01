@@ -2,9 +2,9 @@
 title: Établissement de connexions
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c159bbcdc5f84abc4c591c5256192d117ec51102
+source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
 workflow-type: tm+mt
 source-wordcount: '3213'
 ht-degree: 7%
@@ -37,10 +37,10 @@ Dans le modèle d’annonceur à éditeur, un annonceur découvre un éditeur av
 Pour établir une connexion entre un annonceur et un éditeur, les étapes suivantes sont impliquées :
 
 1. [Découvrir les éditeurs](#discover-publishers) : l’annonceur identifie les éditeurs potentiels avec lesquels collaborer.
-2. [Envoyer une invitation](#send-invite) : l’annonceur envoie une invitation à la connexion à l’éditeur sélectionné.
-3. [Accepter l’invitation](#accept-invite) : l’éditeur examine et accepte l’invitation.
-4. [Configurer les paramètres de connexion](#configure-connection-settings) : l’annonceur configure les paramètres de connexion et les envoie à l’éditeur pour révision.
-5. [Confirmer les paramètres de connexion](#establish-connection) : l’éditeur vérifie les paramètres de connexion et les accepte ou les rejette. Si elle est acceptée, la connexion est établie. En cas de rejet, l’éditeur peut fournir des commentaires pour les révisions en dehors du produit. L’annonceur peut alors réviser les paramètres et les renvoyer pour révision.
+1. [Envoyer une invitation](#send-invite) : l’annonceur envoie une invitation à la connexion à l’éditeur sélectionné.
+1. [Accepter l’invitation](#accept-invite) : l’éditeur examine et accepte l’invitation.
+1. [Configurer les paramètres de connexion](#configure-connection-settings) : l’annonceur configure les paramètres de connexion et les envoie à l’éditeur pour révision.
+1. [Confirmer les paramètres de connexion](#establish-connection) : l’éditeur vérifie les paramètres de connexion et les accepte ou les rejette. Si elle est acceptée, la connexion est établie. En cas de rejet, l’éditeur peut fournir des commentaires pour les révisions en dehors du produit. L’annonceur peut alors réviser les paramètres et les renvoyer pour révision.
 
 Une fois les paramètres de connexion acceptés, la connexion est établie et les collaborateurs sont prêts à [créer un projet](/help/guide/collaborate/manage-projects.md#create-project) pour commencer à collaborer sur des campagnes.
 
@@ -65,14 +65,14 @@ Pour commencer, un collaborateur envoie une invitation à une connexion privée 
 Le processus de connexion entre deux marques implique plusieurs étapes. Avant que le processus de connexion ne commence, certaines conditions préalables doivent être remplies :
 
 1. Deux marques communiquent en dehors du produit pour discuter de la connexion potentielle.
-2. Les marques [créer des comptes](/help/guide/setup/onboard-account.md) dans Collaboration si ce n’est pas déjà fait, en veillant à sélectionner le type de rôle approprié (annonceur ou éditeur).
+1. Les marques [créer des comptes](/help/guide/setup/onboard-account.md) dans Collaboration si ce n’est pas déjà fait, en veillant à sélectionner le type de rôle approprié (annonceur ou éditeur).
 
-Une fois les conditions préalables remplies, le processus de connexion peut commencer. Les étapes suivantes décrivent le processus :
+   Une fois les conditions préalables remplies, le processus de connexion peut commencer. Les étapes suivantes décrivent le processus :
 
 1. [Envoyer une invitation à une connexion privée](#send-private-connection-invite) : un collaborateur envoie une invitation à une connexion privée à un autre collaborateur.
-2. [Accepter l’invitation à une connexion privée](#accept-private-connection-invite) : le destinataire vérifie et accepte l’invitation à la connexion privée.
-3. [Configurer les paramètres de connexion](#configure-connection-settings) : le propriétaire configure les paramètres de connexion et les envoie au destinataire pour révision et acceptation.
-4. [Confirmer les paramètres de connexion](#establish-connection) : le destinataire vérifie les paramètres de connexion et les accepte ou les rejette.
+1. [Accepter l’invitation à une connexion privée](#accept-private-connection-invite) : le destinataire vérifie et accepte l’invitation à la connexion privée.
+1. [Configurer les paramètres de connexion](#configure-connection-settings) : le propriétaire configure les paramètres de connexion et les envoie au destinataire pour révision et acceptation.
+1. [Confirmer les paramètres de connexion](#establish-connection) : le destinataire vérifie les paramètres de connexion et les accepte ou les rejette.
 
 Une fois les paramètres de connexion acceptés, la connexion est établie et les collaborateurs sont prêts à [créer un projet](/help/guide/collaborate/manage-projects.md#create-project) pour commencer à collaborer sur des campagnes.
 
@@ -310,8 +310,8 @@ Lorsque vous avez terminé, sélectionnez **[!UICONTROL Enregistrer]** pour enre
 Lors de la création d’un projet, le nom de l’annonceur est prérempli en fonction des paramètres suivants établis lors de la connexion    :
 
 1. **Aucun nom d’annonceur défini** : si aucun nom d’annonceur n’est ajouté, Collaboration utilise par défaut le nom de l’annonceur comme nom d’annonceur.
-2. **Un nom d’annonceur défini** : si un seul nom d’annonceur est ajouté, Collaboration utilise automatiquement ce nom comme nom d’annonceur pour le projet.
-3. **Plusieurs noms d’annonceur définis** : si plusieurs noms d’annonceur sont ajoutés, vous ou votre collaborateur pouvez sélectionner l’un des noms fournis lors de la création du projet.
+1. **Un nom d’annonceur défini** : si un seul nom d’annonceur est ajouté, Collaboration utilise automatiquement ce nom comme nom d’annonceur pour le projet.
+1. **Plusieurs noms d’annonceur définis** : si plusieurs noms d’annonceur sont ajoutés, vous ou votre collaborateur pouvez sélectionner l’un des noms fournis lors de la création du projet.
 
 >[!NOTE]
 >

@@ -2,9 +2,9 @@
 title: Découvrir les chevauchements et comparer les audiences
 description: Découvrez les chevauchements entre vos audiences et celles de vos collaborateurs. Découvrez les meilleures audiences à utiliser dans vos campagnes.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 76ad3357aa4cd02dbc0616e5d8bd03b03683b7fd
+source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 12%
@@ -188,6 +188,8 @@ Les calculs de score d’index sont effectués et peuvent être utilisés pour d
 | Hommes 25-34 ans | ((700 000 / 1,3 M) / (12 M / 50 M)) * 100 | 224 | En ciblant cette audience, vous êtes 124 % plus susceptible d’atteindre les propriétaires de SUV par rapport à la base. |
 | Amateurs de technologie | ((500 000 / 1,3 M) / (8 M / 50 M)) * 100 | 240 | En ciblant cette audience, vous êtes 140 % plus susceptible d’atteindre les propriétaires de SUV par rapport à la base. |
 
+{style="table-layout:auto"}
+
 Pour mieux comprendre l’impact des scores d’index sur votre campagne, des bandes de pertinence sont fournies avec les scores.
 
 ### Bandes de pertinence {#audience-index-relevance-bands}
@@ -201,6 +203,8 @@ Pour faciliter la comparaison entre les différentes audiences et campagnes, Col
 | 80 &lt; i &lt; 120 | Méthode | Le chevauchement est à peu près aussi courant dans l’audience cible que dans votre audience, ce qui indique une relation type. Les clients qui utilisent cette audience ont une probabilité moyenne d’atteindre leur audience cible. |
 | 120 &lt; i &lt; 140 | Élevé | Le chevauchement est plus courant dans l’audience cible que dans votre audience, ce qui montre une relation forte. Les clients qui utilisent cette audience sont plus susceptibles d’atteindre leur audience cible. |
 | i > 140 | Très élevé | Le chevauchement est beaucoup plus courant dans l’audience cible par rapport à votre audience, ce qui reflète une relation très forte. Les clients qui utilisent cette audience sont beaucoup plus susceptibles d’atteindre leur audience cible. |
+
+{style="table-layout:auto"}
 
 Dans la section découvrir les chevauchements , le score de l’index d’audience affiche la bande de pertinence à côté du score. Le score sera codé par couleur pour indiquer la bande de pertinence, ce qui facilite l&#39;identification de la force de la relation en un coup d&#39;œil. Les bandes de très faible et de faible pertinence sont affichées en orange, les bandes de pertinence moyenne en noir et les bandes de pertinence élevée et très élevée en vert.
 

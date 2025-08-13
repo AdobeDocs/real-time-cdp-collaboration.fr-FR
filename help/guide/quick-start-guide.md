@@ -2,9 +2,9 @@
 title: Guide de démarrage rapide de Real-Time CDP Collaboration
 description: Découvrez comment intégrer votre organisation dans Real-Time CDP Collaboration, notamment la configuration des rôles et des organisations, l’approvisionnement des audiences, l’activation et la mesure. Ce guide aide les collaborateurs à configurer les paramètres de connexion pour commencer à utiliser leurs audiences de manière sécurisée et efficace.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
+source-git-commit: ac8db9f5a3879d548d8dc3818ad20fc602b31e7c
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Les rôles d’accès de votre organisation déterminent ce que les utilisateurs
 
 Regardez cette vidéo pour savoir comment attribuer des accès et des autorisations de produit pour Collaboration à l’aide d’Admin Console et d’Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452232/?learn=on&enablevpops&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Étape 2 : configurer votre compte Collaboration {#set-up-your-account}
 
@@ -101,7 +101,7 @@ Configurez la manière dont les audiences sont préparées, appariées et gouver
 >**Nombre maximal d’audiences par rôle de collaborateur :**
 >
 >- **Annonceurs** peut sélectionner jusqu’à 25 audiences.
->- **Les éditeurs** peuvent approvisionner jusqu’à 250 audiences (chacune avec un minimum de 5 000 identifiants).
+>- **Les éditeurs** peuvent approvisionner jusqu’à 250 audiences (chacune avec un minimum de 1 000 identifiants).
 
 >[!IMPORTANT]
 >

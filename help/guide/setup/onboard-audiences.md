@@ -2,12 +2,12 @@
 title: Source et gestion des audiences
 description: Découvrez comment sourcer et gérer des audiences dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 2f2a128f1591ac864d2ebef09c58ecc93bed8d98
 workflow-type: tm+mt
 source-wordcount: '2985'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
@@ -90,7 +90,7 @@ Ensuite, vous devez vous assurer que les actions marketing correctes sont défin
 
 Utilisez des actions marketing pour contrôler les données d’audience à importer dans Collaboration à partir d’Experience Platform. L’action marketing **[!UICONTROL Collaboration de données]** prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing **[!UICONTROL Science des données]** prend en charge le libellé d’utilisation des données C9.
 
-En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Lorsque la case à cocher est ***activée***, toutes les données libellées dans Experience Platform comme décrit ci-dessus sont exclues et **pas** importées dans Collaboration.
 * Lorsque la case à cocher ***désactivée***, il n’existe aucune restriction sur les données provenant d’Experience Platform.
@@ -331,7 +331,7 @@ La disponibilité de l’audience à utiliser dans les projets avec des collabor
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilité des métadonnées"
->abstract="<p>Précise les métadonnées d’audience qui sont visibles pour d’autres collaborateurs et collaboratrices avant qu’ils ne se connectent à vous ou dans les vues du projet.</p> <p> **Nombre d’identités** contrôle si votre collaborateur peut afficher le nombre d’identités de vos audiences lors de l’affichage de rapports de chevauchement dans l’onglet découverte.</p><p> Le **% de chevauchement des audiences** vérifie si les collaborateurs et collaboratrices sont en mesure de découvrir des pourcentages de chevauchement entre leurs audiences et les vôtres.</p><p> **[!UICONTROL Index d’audience]** contrôle si les collaborateurs peuvent afficher l’index d’audience dans un projet. Cette fonctionnalité n’est disponible que lorsque vous avez trois audiences actives ou plus.</p> <br> Pour que les paramètres de visibilité des métadonnées prennent effet, l’audience doit être définie sur publique ou personnalisée."
+>abstract="<p>Précise les métadonnées d’audience qui sont visibles pour d’autres collaborateurs et collaboratrices avant qu’ils ne se connectent à vous ou dans les vues du projet.</p> <p> Le **Nombre d’identités** vérifie si vos collaborateurs ou collaboratrices peuvent afficher le nombre d’identités de vos audiences lors de l’affichage des rapports de chevauchement dans l’onglet de découverte.</p><p> Le **% de chevauchement d’audiences** vérifie si les collaborateurs et collaboratrices sont en mesure de découvrir des pourcentages de chevauchement entre leurs audiences et les vôtres.</p><p> L’**[!UICONTROL Index d’audience]** contrôle si les collaborateurs et les collaboratrices peuvent afficher l’index d’audience dans un projet. Cette fonctionnalité n’est disponible que lorsque vous avez trois audiences actives ou plus.</p> <br> Pour que les paramètres de visibilité des métadonnées prennent effet, l’audience doit être définie sur publique ou personnalisée."
 
 >[!NOTE]
 >

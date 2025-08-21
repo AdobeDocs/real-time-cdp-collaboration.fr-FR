@@ -2,12 +2,12 @@
 title: Découvrir les chevauchements et comparer les audiences
 description: Découvrez les chevauchements entre vos audiences et celles de vos collaborateurs. Découvrez les meilleures audiences à utiliser dans vos campagnes.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
@@ -166,7 +166,7 @@ Une fois les audiences sélectionnées, la section **[!UICONTROL Découvrir les 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_audience_index_score"
 >title="Score de l’index d’audience"
->abstract="Les scores de l’index d’audience sont une mesure nuancée qui montre dans quelle mesure une audience est liée à une autre en fonction du nombre d’audiences sous-jacentes et des chevauchements. La note de l’index brut est traduite en bandes de pertinence, qui catégorisent les notes de l’index d’audience de très faible à très élevé. Cela vous permet d’évaluer rapidement la force de la relation entre votre audience et l’audience de votre collaborateur."
+>abstract="Les scores de l’index d’audience sont une mesure nuancée qui montre dans quelle mesure une audience est liée à une autre en fonction du nombre d’audiences sous-jacentes et des chevauchements. Le score de l’index brut est traduit en bandes de pertinence, qui catégorisent les scores de l’index d’audience de très faible à très élevé. Cela vous permet d’évaluer rapidement la force de la relation entre votre audience et l’audience de votre collaborateur ou collaboratrice."
 
 Les scores de l’index d’audience sont une mesure nuancée qui montre dans quelle mesure une audience est liée à une autre en fonction du nombre d’audiences sous-jacentes et des chevauchements. Vous pouvez ainsi contextualiser les informations sur les audiences et identifier les audiences à fort potentiel pour la prospection et le ciblage des campagnes.
 
@@ -194,7 +194,7 @@ Pour mieux comprendre l’impact des scores d’index sur votre campagne, des ba
 
 ### Bandes de pertinence {#audience-index-relevance-bands}
 
-Pour faciliter la comparaison entre les différentes audiences et campagnes, Collaboration convertit les scores d’index en bandes de pertinence (très faible à très élevé). Cela vous permet d’évaluer rapidement la force de la relation entre votre audience et l’audience de votre collaborateur.
+Pour faciliter la comparaison entre les différentes audiences et campagnes, Collaboration convertit les scores d’index en bandes de pertinence (très faible à très élevé). Cela vous permet d’évaluer rapidement la force de la relation entre votre audience et l’audience de votre collaborateur ou collaboratrice.
 
 | Score de l’index (i) | Bande de pertinence | Description |
 |---------|----------|-----------|

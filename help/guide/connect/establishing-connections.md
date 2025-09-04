@@ -2,11 +2,11 @@
 title: Établissement de connexions
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
+source-git-commit: ed8bd9a9e0843e2974e5a7093b2b39b03ca7f5b7
 workflow-type: tm+mt
-source-wordcount: '3213'
+source-wordcount: '3112'
 ht-degree: 7%
 
 ---
@@ -184,8 +184,6 @@ L’espace de travail Paramètres de connexion s’affiche, vous permettant de c
 
 ![Espace de travail des paramètres de connexion.](/help/assets/connect/establish-connection/connection-set-up.png){zoomable="yes"}
 
-<!-- FIX THE ABOVE SCREENSHOT TO INCLUDE ADV NAMES, AS WELL AS THE ONES BELOW -->
-
 #### Paramètres de connexion {#connection-settings}
 
 >[!CONTEXTUALHELP]
@@ -212,11 +210,6 @@ L’espace de travail Paramètres de connexion s’affiche, vous permettant de c
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="Mesure"
 >abstract="Exécutez des activités pour générer des rapports et des informations sur les performances de la campagne. Les crédits sont consommés en fonction du nombre de lignes dans les rapports de campagne sur toutes les campagnes et de la fréquence de création des rapports (quotidienne, tous les trois jours ou hebdomadaire)."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_connection_settings_legalagreement"
->title="Accord juridique"
->abstract="Vérifiez qu’il existe un accord de partage de données entre les deux parties."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
@@ -259,7 +252,7 @@ Pour personnaliser vos cas d’utilisation, sélectionnez **[!UICONTROL Modifier
 
 +++
 
-+++Clés de correspondance
++++Clés correspondantes
 
 Les clés de correspondance sont automatiquement renseignées avec celles que vous avez sélectionnées lors de la [configuration de votre compte](/help/guide/setup/onboard-account.md#set-up-match-keys). Vous pouvez désactiver toutes les clés de correspondance que vous ne souhaitez pas utiliser, mais vous ne pouvez pas ajouter de clés de correspondance qui n’ont pas été sélectionnées lors de la configuration du compte.
 
@@ -269,7 +262,7 @@ Pour personnaliser vos clés de correspondance, sélectionnez **[!UICONTROL Modi
 
 +++
 
-+++Répartition des crédits
++++Partage des crédits
 
 Utilisez la section fractionnement du crédit pour déterminer laquelle des deux parties collaboratrices couvrira les coûts des activités. Les options de partage du crédit sont déterminées par les cas d’utilisation sélectionnés pour la connexion. Alors que le cas d’utilisation **[!UICONTROL Mesure]** nécessite qu’une partie prenne en charge les coûts, le cas d’utilisation **[!UICONTROL Activation - Correspondance]** offre une option supplémentaire pour que chaque partie prenne en charge ses propres coûts. Pour plus d’informations sur la répartition des coûts, consultez le guide [types d’activités de crédit](/help/guide/setup/my-activity.md#types-of-activities).
 
@@ -283,15 +276,7 @@ Pour configurer le partage des crédits, sélectionnez **[!UICONTROL Modifier]**
 
 +++
 
-+++Accords
-
-Vous devez reconnaître qu&#39;un accord juridique a été conclu entre vous et votre collaborateur. Cet accord décrit les conditions du partage des données et de la collaboration. Vous pouvez cocher la case **[!UICONTROL Accepter et confirmer]** pour confirmer qu’un tel accord existe.
-
-![La section Accord juridique met en surbrillance et est confirmée dans l’espace de travail de connexion.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
-
-+++
-
-+++Noms d’annonceurs
++++Noms de l’annonceur
 
 >[!NOTE]
 >
@@ -310,8 +295,8 @@ Lorsque vous avez terminé, sélectionnez **[!UICONTROL Enregistrer]** pour enre
 Lors de la création d’un projet, le nom de l’annonceur est prérempli en fonction des paramètres suivants établis lors de la connexion    :
 
 1. **Aucun nom d’annonceur défini** : si aucun nom d’annonceur n’est ajouté, Collaboration utilise par défaut le nom de l’annonceur comme nom d’annonceur.
-1. **Un nom d’annonceur défini** : si un seul nom d’annonceur est ajouté, Collaboration utilise automatiquement ce nom comme nom d’annonceur pour le projet.
-1. **Plusieurs noms d’annonceur définis** : si plusieurs noms d’annonceur sont ajoutés, vous ou votre collaborateur pouvez sélectionner l’un des noms fournis lors de la création du projet.
+2. **Un nom d’annonceur défini** : si un seul nom d’annonceur est ajouté, Collaboration utilise automatiquement ce nom comme nom d’annonceur pour le projet.
+3. **Plusieurs noms d’annonceur définis** : si plusieurs noms d’annonceur sont ajoutés, vous ou votre collaborateur pouvez sélectionner l’un des noms fournis lors de la création du projet.
 
 >[!NOTE]
 >
@@ -331,9 +316,7 @@ Ensuite, le destinataire doit vérifier les paramètres de connexion proposés p
 
 Examinez les paramètres proposés par le collaborateur. Vous pouvez accepter ou refuser les paramètres de connexion. Si vous rejetez les paramètres de connexion, vous devrez communiquer avec le collaborateur au sujet des modifications que vous souhaitez apporter en dehors du produit. Les coordonnées du collaborateur sont affichées dans la section **[!UICONTROL Contact]** de l&#39;espace de travail des paramètres de connexion. Le propriétaire peut ensuite réviser les paramètres de connexion et les renvoyer pour révision.
 
-Si vous êtes satisfait des paramètres de connexion proposés, vous devez reconnaître qu&#39;un accord juridique a été conclu entre vous et le collaborateur. Cochez la case **[!UICONTROL Accepter et confirmer]** pour confirmer qu’un tel accord existe.
-
-![Section Accord légal mise en surbrillance dans l’espace de travail des paramètres de connexion.](/help/assets/connect/establish-connection/legal-agreement-review.png){zoomable="yes"}
+![Espace de travail des paramètres de connexion avec les options Accepter et Rejeter mises en surbrillance.](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
 
 De plus, si vous êtes un éditeur qui se connecte à un annonceur, vous pouvez désormais ajouter les noms des annonceurs dans les paramètres de connexion. Pour en savoir plus sur ce processus, consultez la section [Paramètres de connexion](#connection-settings).
 

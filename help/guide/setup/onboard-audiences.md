@@ -2,12 +2,12 @@
 title: Source et gestion des audiences
 description: Découvrez comment sourcer et gérer des audiences dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 2f2a128f1591ac864d2ebef09c58ecc93bed8d98
+source-git-commit: 4f1582b489d99e9e8257c3808ec5863dbc74ef7a
 workflow-type: tm+mt
-source-wordcount: '2985'
-ht-degree: 20%
+source-wordcount: '3277'
+ht-degree: 16%
 
 ---
 
@@ -16,16 +16,6 @@ ht-degree: 20%
 {{limited-availability-release-note}}
 
 Les audiences sont des groupes spécifiques d’utilisateurs ou de clients segmentés en fonction de divers attributs. Ils permettent aux collaborateurs de travailler ensemble sur des expériences marketing ciblées et personnalisées pour des campagnes publicitaires plus efficaces. Ce guide explique comment sourcer des audiences dans Real-Time CDP Collaboration, afficher le tableau de bord des audiences et gérer des audiences individuelles.
-
->[!BEGINSHADEBOX]
-
-Cette page de documentation contient les éléments suivants :
-
-* [Audiences Source dans Collaboration](#source-audiences)
-* [Afficher le tableau de bord des audiences](#view-audiences-dashboard)
-* [Affichage d’audiences individuelles](#view-individual-audiences)
-
->[!ENDSHADEBOX]
 
 ## Audiences Source dans Collaboration {#source-audiences}
 
@@ -90,7 +80,7 @@ Ensuite, vous devez vous assurer que les actions marketing correctes sont défin
 
 Utilisez des actions marketing pour contrôler les données d’audience à importer dans Collaboration à partir d’Experience Platform. L’action marketing **[!UICONTROL Collaboration de données]** prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing **[!UICONTROL Science des données]** prend en charge le libellé d’utilisation des données C9.
 
-En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Lorsque la case à cocher est ***activée***, toutes les données libellées dans Experience Platform comme décrit ci-dessus sont exclues et **pas** importées dans Collaboration.
 * Lorsque la case à cocher ***désactivée***, il n’existe aucune restriction sur les données provenant d’Experience Platform.
@@ -214,10 +204,13 @@ Passez en revue toutes les configurations et tous les paramètres avant de final
 
 Après le sourcing des audiences, l’espace de travail **[!UICONTROL Mes audiences]** affiche toutes les audiences actuellement sourcées dans Collaboration.
 
+![Espace de travail Mes audiences affichant toutes les audiences sourcées.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
+
 Chaque audience contient un aperçu des informations suivantes :
 
 | Élément | Description |
 |----------|---------|
+| **[!UICONTROL Nom]** | Nom de l’audience. |
 | **[!UICONTROL Identités]** | Indique le nombre d’identités présentes dans cette audience. Notez que si le même profil possède plusieurs identités et que ces identités sont utilisées comme clés de correspondance dans le projet, le profil s’affichera deux fois dans le décompte. |
 | **[!UICONTROL Statut]** | Indique si l’audience est active et peut être utilisée dans des projets. Un statut **[!UICONTROL En attente]** indique que l’audience vient d’être sourcée et que les identités doivent encore être renseignées. Les audiences sources sont renseignées avec des profils après l’actualisation initiale, qui se produit généralement dans les 24 heures suivant la configuration de la connexion aux données. |
 | **[!UICONTROL Source]** | Indique l’origine de l’audience. Dans la version actuelle de Collaboration, Experience Platform est la seule source prise en charge. |
@@ -225,8 +218,6 @@ Chaque audience contient un aperçu des informations suivantes :
 | **[!UICONTROL Accès à la connexion]** | Définit si l’audience est privée ou publique. Les audiences publiques sont détectables dans les rapports de chevauchement et peuvent être activées dans un projet. |
 | **[!UICONTROL Créé]** | Indique la date à laquelle l’audience a été initialement sourcée dans Collaboration. |
 | **[!UICONTROL Dernière mise à jour]** | Indique la date et l’heure de la dernière mise à jour de l’audience dans Collaboration. Il ne s’agit pas de la date de la dernière actualisation de l’audience, mais plutôt de la date de la dernière modification de la configuration ou des métadonnées de l’audience. |
-
-![Espace de travail Mon audience affichant toutes les audiences sourcées.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
 
 Pour effectuer des actions rapides sur une audience, sélectionnez les points de suspension **...** en regard du nom de l’audience. Les options disponibles sont les suivantes :
 
@@ -237,7 +228,7 @@ Pour effectuer des actions rapides sur une audience, sélectionnez les points de
 
 ## Affichage d’audiences individuelles {#view-individual-audiences}
 
-Pour afficher plus d’informations et modifier des configurations pour une audience individuelle, sélectionnez l’audience dans l’espace de travail **[!UICONTROL Mes audiences]**. L’espace de travail des audiences affiche des informations détaillées sur l’audience sélectionnée, notamment ses détails, identités, catégories, accès à la connexion et paramètres de visibilité des métadonnées.
+Pour afficher et mettre à jour les informations d’une audience individuelle, sélectionnez l’audience dans l’espace de travail **[!UICONTROL Mes audiences]**. L’espace de travail des audiences affiche des informations détaillées sur l’audience sélectionnée, notamment ses détails, ses identités, ses catégories, son accès à la connexion et ses paramètres de visibilité des métadonnées.
 
 ### Détails de l’audience
 
@@ -255,32 +246,22 @@ Les informations suivantes s’affichent pour chaque audience :
 
 ![Espace de travail d’une audience individuelle.](/help/assets/setup/add-manage-audiences/audience-details.png)
 
-De plus, les commandes suivantes sont disponibles dans l’espace de travail des audiences :
-
-* **[!UICONTROL Supprimer]** : supprimez l’audience de votre connexion aux données.
-* **[!UICONTROL Modifier]** : modifiez le nom ou la description de l’audience.
-
-![Espace de travail d’une audience individuelle avec l’option Modifier et supprimer mise en surbrillance.](/help/assets/setup/add-manage-audiences/audience-details-edit-delete.png)
-
-Vous pouvez ensuite mettre à jour les sections suivantes dans l’espace de travail de l’audience :
-
-* [Identités](#identities)
-* [Catégories](#categories)
-* [Accès à la connexion](#connection-access)
-* [Visibilité des métadonnées](#metadata-visibility)
-
-### Identités {#identities}
+#### Identités {#identities}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identités"
->abstract="Répartition des identités qui composent cette audience, ainsi que le nombre total de profils avec les identités respectives."
+>abstract="Une vue de répartition des identités qui constituent cette audience, séparées par une clé de correspondance."
 
-La section **[!UICONTROL Identités]** indique le nombre de profils présents dans l’audience avec l’une des identités que vous avez sélectionnées lors de l’approvisionnement de l’audience. La section contient également une répartition des identités afin que vous puissiez identifier les identités qui constituent le plus de la population de l’audience.
+La section **[!UICONTROL Identités]** indique le nombre d’identités présentes dans l’audience. La section contient également une répartition des identités par clé de correspondance pour vous aider à comprendre la composition de l’audience.
 
 ![Section Identités de l’espace de travail d’une audience individuelle.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
 
-### Catégories {#categories}
+Placer le pointeur de la souris sur les sections individuelles de la répartition de la clé de correspondance fournit un nombre d’identités précis pour la clé correspondante.
+
+![Section Identités de l’espace de travail d’une audience individuelle avec une répartition de clé de correspondance affichée.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
+
+#### Catégories {#categories}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
@@ -297,14 +278,14 @@ La boîte de dialogue **[!UICONTROL Catégories]** s’affiche, vous permettant 
 
 ![La boîte de dialogue Catégories avec les catégories disponibles affichées.](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png)
 
-### Accès à la connexion {#connection-access}
+#### Accès à la connexion {#connection-access}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Accès à la connexion"
->abstract="<p>Les audiences peuvent être de trois types : publiques, privées et personnalisées.</p><p> Leur disponibilité pour une utilisation dans des projets avec des collaborateurs et collaboratrices diffère en fonction du paramètre d’accès à la connexion. Vous pouvez toujours modifier l’accès à la connexion de privé à public, mais vous ne pouvez pas revenir en arrière une fois qu’une audience est activée avec des collaborateurs et collaboratrices.</p>"
+>abstract="<p>Les audiences peuvent être de trois types : publiques, privées et personnalisées.</p><p> Leur disponibilité pour une utilisation dans des projets avec des collaborateurs diffère en fonction du paramètre d’accès à la connexion.</p>"
 
-La disponibilité d’une audience à utiliser dans des projets avec des collaborateurs diffère en fonction du paramètre d’accès à la connexion. Dans la section **[!UICONTROL Accès à la connexion]** , vous pouvez choisir si l’audience doit être privée ou publique. Les audiences publiques sont utilisables et détectables dans les connexions.
+La disponibilité d’une audience à utiliser dans des projets avec des collaborateurs diffère en fonction du paramètre d’accès à la connexion. Dans la section **[!UICONTROL Accès à la connexion]** , vous pouvez choisir si l’audience doit être privée, publique ou disponible uniquement pour des connexions spécifiques. Les audiences publiques sont utilisables et détectables dans les connexions.
 
 Pour mettre à jour l’accès à la connexion de l’audience, sélectionnez l’option **[!UICONTROL Modifier]** dans la section **[!UICONTROL Accès à la connexion]**.
 
@@ -324,9 +305,9 @@ Sélectionnez l’option d’accès à la connexion souhaitée, puis sélectionn
 >
 >Quel que soit le statut d’accès (public, privé ou personnalisé), la population de toute audience contribue à la population **[!UICONTROL Toutes les audiences]** dans la section **[!UICONTROL Comparer les audiences]** d’un projet.
 
-La disponibilité de l’audience à utiliser dans les projets avec des collaborateurs diffère selon le paramètre d’accès à la connexion. Vous pouvez toujours modifier l’accès à la connexion de privé à public, mais vous ne pouvez pas revenir en arrière une fois qu’une audience est activée.
+La disponibilité de l’audience à utiliser dans les projets avec des collaborateurs diffère selon le paramètre d’accès à la connexion.
 
-### Visibilité des métadonnées {#metadata-visibility}
+#### Visibilité des métadonnées {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
@@ -339,7 +320,7 @@ La disponibilité de l’audience à utiliser dans les projets avec des collabor
 
 La visibilité des métadonnées indique la visibilité des métadonnées d’une audience sur d’autres collaborateurs avant qu’ils ne se connectent avec vous ou dans différentes vues de projet. Pour mettre à jour la visibilité des métadonnées de l’audience, sélectionnez l’option **[!UICONTROL Modifier]** dans la section **[!UICONTROL Visibilité des métadonnées]**.
 
-![Section Visibilité des métadonnées de l’espace de travail d’une audience individuelle.](/help/assets/setup/add-manage-audiences/audience-details-metadata.png)
+![Section Visibilité des métadonnées de l’espace de travail d’une audience individuelle.](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png)
 
 La boîte de dialogue **[!UICONTROL Visibilité des métadonnées]** s’affiche, vous permettant de configurer les paramètres de visibilité de l’audience. Vous pouvez configurer deux paramètres de visibilité des métadonnées pour chaque audience :
 
@@ -354,6 +335,52 @@ La boîte de dialogue **[!UICONTROL Visibilité des métadonnées]** s’affiche
 >Pour que les paramètres de visibilité des métadonnées prennent effet, l’audience doit être définie sur publique ou personnalisée.
 
 ![La boîte de dialogue Visibilité des métadonnées avec les options disponibles s’affiche.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+## Modification de plusieurs audiences {#edit-audiences}
+
+Dans le tableau de bord des audiences, vous pouvez modifier plusieurs audiences à la fois. Pour ce faire, sélectionnez les audiences que vous souhaitez modifier en cochant les cases en regard de leur nom. Une fois les audiences sélectionnées, vous pouvez effectuer des actions à l’aide des options disponibles dans le menu d’édition.
+
+![Espace de travail Mes audiences avec deux audiences sélectionnées et le menu Modifier mis en surbrillance.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit.png)
+
+### Modification en masse de la visibilité des métadonnées {#bulk-edit-metadata-visibility}
+
+Une fois vos audiences sélectionnées dans le tableau de bord d’audience, sélectionnez **[!UICONTROL Modifier la visibilité des métadonnées]** dans le menu de modification.
+
+![Espace de travail Mes audiences avec l’option Modifier la visibilité des métadonnées mise en surbrillance.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
+
+La boîte de dialogue **[!UICONTROL Visibilité des métadonnées]** s’affiche, vous permettant de configurer les paramètres de visibilité des audiences sélectionnées. Par défaut, aucune option n’est sélectionnée. Choisissez les options à appliquer à toutes les audiences sélectionnées, puis sélectionnez **[!UICONTROL Enregistrer]**.
+
+![La boîte de dialogue Visibilité des métadonnées avec les options disponibles s’affiche.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+### Modifier en bloc l’accès à la connexion {#bulk-edit-connection-access}
+
+Une fois vos audiences sélectionnées dans le tableau de bord des audiences, sélectionnez **[!UICONTROL Modifier l’accès à la connexion]** dans le menu de modification.
+
+![Espace de travail Mes audiences avec l’option Modifier l’accès à la connexion mise en surbrillance.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
+
+La boîte de dialogue **[!UICONTROL Accès à la connexion]** s’affiche, vous permettant de configurer les paramètres d’accès pour les audiences sélectionnées. Par défaut, l’option **[!UICONTROL Audience privée]** est sélectionnée. Choisissez les options à appliquer à toutes les audiences sélectionnées, puis sélectionnez **[!UICONTROL Enregistrer]**.
+
+![La boîte de dialogue Accès à la connexion avec les options disponibles s’affiche.](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
+
+### Modifier en masse les noms et les descriptions des audiences {#bulk-edit-audience-names-descriptions}
+
+Une fois vos audiences sélectionnées dans le tableau de bord d’audience, sélectionnez **[!UICONTROL Modifier le nom et la description]** dans le menu de modification.
+
+![Espace de travail Mes audiences avec l’option Modifier le nom et la description mise en surbrillance.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
+
+La boîte de dialogue **[!UICONTROL Nom et description]** s’affiche, vous permettant de configurer le nom et la description de chaque audience sélectionnée. Par défaut, les noms et descriptions actuels s’affichent pour chaque audience. Apportez vos modifications, puis sélectionnez **[!UICONTROL Enregistrer]**.
+
+![La boîte de dialogue Nom et description avec les options disponibles affichées.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
+
+### Modification en masse de catégories {#bulk-edit-categories}
+
+Une fois vos audiences sélectionnées dans le tableau de bord d’audience, sélectionnez **[!UICONTROL Modifier les catégories]** dans le menu de modification.
+
+![Espace de travail Mes audiences avec l’option Modifier les catégories mise en surbrillance.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
+
+La boîte de dialogue **[!UICONTROL Catégories]** s’affiche, vous permettant de configurer les catégories pour chaque audience sélectionnée. Par défaut, aucune catégorie ne sera sélectionnée. Pour sélectionner une catégorie, sélectionnez d’abord la catégorie principale, puis sélectionnez les sous-catégories à inclure. Apportez vos modifications, puis sélectionnez **[!UICONTROL Enregistrer]**.
+
+![La boîte de dialogue Catégories avec les options disponibles s’affiche.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 
 ## Étapes suivantes
 

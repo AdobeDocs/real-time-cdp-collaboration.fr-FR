@@ -108,7 +108,7 @@ Configurez la manière dont les audiences sont préparées, appariées et gouver
 >**Respectez les principales exigences :**
 >
 >Toutes les clés de correspondance doivent être **tronquées**, **en minuscules**
->>Les clés de correspondance hachées doivent être **SHA256-hachées**.\
+>&#x200B;>Les clés de correspondance hachées doivent être **SHA256-hachées**.\
 >Si vous fournissez des valeurs hachées qui utilisent des caractères majuscules, Collaboration les convertit automatiquement en minuscules.\
 >Si votre source contient des **identifiants en texte brut**, utilisez l’option **[!UICONTROL Appliquer la transformation]** pour appliquer le hachage. Cette option est disponible uniquement lors de l’approvisionnement d’audiences à partir d’Experience Platform et n’est pas prise en charge pour les sources cloud.
 >

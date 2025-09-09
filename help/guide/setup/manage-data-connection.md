@@ -2,12 +2,12 @@
 title: Gérer les connexions de données
 description: Découvrez comment gérer les connexions de données, notamment les clés de correspondance, la planification, les cas d’utilisation et le filtrage d’audience dans Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 13%
+source-wordcount: '602'
+ht-degree: 8%
 
 ---
 
@@ -30,17 +30,9 @@ Pour afficher les connexions de données existantes, accédez à **[!UICONTROL C
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="Clés correspondantes"
->abstract="Les clés de correspondance déterminent la manière dont les données provenant de différentes sources seront mises en correspondance. Sélectionnez les clés correspondantes les plus pertinentes pour vos cas d’utilisation et vos directives de confidentialité."
+>abstract="Les clés de correspondance déterminent la manière dont les données provenant de différentes sources seront mises en correspondance. Les clés de correspondance affichées ci-dessous sont les champs cibles auxquels vous avez mappé vos champs sources."
 
-Les clés correspondantes sont des identifiants utilisés pour réconcilier des membres d’audiences provenant de différentes sources de données. Vous ne pouvez pas modifier les clés de correspondance que vous avez initialement sélectionnées pour votre connexion aux données.
-
->[!IMPORTANT]
-> 
->Les clés de correspondance ne peuvent pas être modifiées une fois la connexion de données créée. Pour mettre à jour les clés de correspondance, vous devez créer une connexion aux données.
-
-Les clés de correspondance disponibles sont les suivantes :
-
-- **E-mail haché**
+Les clés de correspondance sont les champs cibles auxquels vous [avez mappé vos champs sources](./onboard-audiences.md#map-fields). Vous ne pouvez pas modifier les clés de correspondance que vous avez initialement sélectionnées pour votre connexion aux données. Pour mettre à jour les clés de correspondance, vous devez créer une connexion aux données. Pour en savoir plus sur le fonctionnement des clés de correspondance, consultez le guide [match keys](./onboard-account.md#set-up-match-keys).
 
 ![Un espace de travail des connexions de données avec la section Clés de correspondance mise en surbrillance.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -57,7 +49,7 @@ Une fois une connexion de données créée, vous pouvez mettre à jour sa fréqu
 
 >[!NOTE]
 >
->Lorsque vous sourcez des audiences à partir de Adobe Experience Platform, les audiences sont disponibles dans les 24 heures suivant l’établissement de la connexion aux données. Après l’importation initiale, les données d’audience sont actualisées selon la fréquence définie.
+>Lorsque vous sourcez des audiences à partir de Adobe Experience Platform, les audiences sont disponibles dans les 24 heures suivant l’établissement de la connexion aux données. Après le sourcing initial, les données d’audience sont actualisées selon la fréquence définie.
 
 Pour plus d’informations sur la planification, consultez la [section de planification](/help/guide/setup/onboard-audiences.md#schedule) dans le guide de configuration des audiences.
 
@@ -66,6 +58,8 @@ Pour plus d’informations sur la planification, consultez la [section de planif
 #### Modifier la planification {#edit-scheduling}
 
 Vous pouvez modifier la fréquence d’une connexion de données existante pour mieux contrôler la fréquence d’actualisation des audiences. Pour modifier le planning, sélectionnez **[!UICONTROL Modifier]** depuis la connexion de données dans la carte de planification.
+
+La planification affectera toutes les audiences provenant de la connexion aux données.
 
 Dans la boîte de dialogue **[!UICONTROL Planification]**, sélectionnez le menu déroulant pour mettre à jour la **[!UICONTROL Fréquence]**. Définissez la fréquence d’actualisation pour qu’elle s’exécute tous les jours ou tous les deux à six jours. Lorsque vous avez terminé, sélectionnez **[!UICONTROL Enregistrer]** pour appliquer vos modifications.
 

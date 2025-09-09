@@ -2,9 +2,9 @@
 title: Découvrir les chevauchements et comparer les audiences
 description: Découvrez les chevauchements entre vos audiences et celles de vos collaborateurs. Découvrez les meilleures audiences à utiliser dans vos campagnes.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
+source-git-commit: 75e76a43de75a7b1c84bdd79cb4a072855ba02df
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 17%
@@ -197,7 +197,7 @@ Pour mieux comprendre l’impact des scores d’index sur votre campagne, des ba
 Pour faciliter la comparaison entre les différentes audiences et campagnes, Collaboration convertit les scores d’index en bandes de pertinence (très faible à très élevé). Cela vous permet d’évaluer rapidement la force de la relation entre votre audience et l’audience de votre collaborateur ou collaboratrice.
 
 | Score de l’index (i) | Bande de pertinence | Description |
-|---------|----------|-----------|
+|---------------|----------|-----------|
 | i &lt; 60 | Très faible | Le chevauchement est beaucoup moins fréquent dans l’audience cible par rapport à votre audience, ce qui indique une relation très faible. Les clients qui utilisent cette audience sont beaucoup moins susceptibles d’atteindre leur audience cible. |
 | 60 &lt; i &lt; 80 | Faible | Le chevauchement est un peu moins fréquent dans l’audience cible par rapport à votre audience, ce qui suggère une relation faible. Les clients qui utilisent cette audience sont moins susceptibles d’atteindre leur audience cible. |
 | 80 &lt; i &lt; 120 | Méthode | Le chevauchement est à peu près aussi courant dans l’audience cible que dans votre audience, ce qui indique une relation type. Les clients qui utilisent cette audience ont une probabilité moyenne d’atteindre leur audience cible. |

@@ -2,12 +2,12 @@
 title: Établissement de connexions
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: ed8bd9a9e0843e2974e5a7093b2b39b03ca7f5b7
+source-git-commit: fcf755d5108f1f957808ead6b7022e3b9f6398b1
 workflow-type: tm+mt
-source-wordcount: '3112'
-ht-degree: 7%
+source-wordcount: '3230'
+ht-degree: 6%
 
 ---
 
@@ -194,7 +194,8 @@ L’espace de travail Paramètres de connexion s’affiche, vous permettant de c
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Clés correspondantes"
->abstract="Les clés correspondantes sont préremplies avec celles que vous avez sélectionnées au niveau de votre organisation. Vous pouvez désactiver toutes les clés correspondantes que vous ne souhaitez pas utiliser dans cette connexion."
+>abstract="Les clés de correspondance sont préremplies avec les clés de correspondance communes que vous et votre collaborateur avez sélectionnées au niveau du compte. Vous pouvez désactiver toutes les clés correspondantes que vous ne souhaitez pas utiliser dans cette connexion."
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Clés de correspondance de compte"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -224,7 +225,7 @@ L’espace de travail Paramètres de connexion s’affiche, vous permettant de c
 
 Vous pouvez configurer les paramètres de connexion suivants :
 
-+++Activation de l’audience
+##### Activation de l’audience {#audience-activation}
 
 >[!IMPORTANT]
 >
@@ -240,9 +241,7 @@ Lorsque vous avez terminé, sélectionnez **[!UICONTROL Enregistrer]** pour enre
 
 ![Boîte de dialogue d’activation de l’audience avec l’option Enregistrer dans l’espace de travail des paramètres de connexion.](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
 
-+++
-
-+++Cas d’utilisation
+##### Cas d’utilisation {#use-cases}
 
 Les cas d’utilisation sont automatiquement renseignés avec toutes les options disponibles. Les cas d’utilisation sélectionnés déterminent les vues et options disponibles dans vos projets. Pour en savoir plus, consultez le guide [cas d’utilisation de projet](/help/guide/collaborate/manage-projects.md#project-use-cases).
 
@@ -250,19 +249,23 @@ Pour personnaliser vos cas d’utilisation, sélectionnez **[!UICONTROL Modifier
 
 ![Paramètres des cas d’utilisation dans l’espace de travail des paramètres de connexion.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
-+++
+##### Clés correspondantes {#match-keys}
 
-+++Clés correspondantes
+Les clés de correspondance sont automatiquement renseignées avec les clés de correspondance communes que vous et votre collaborateur avez sélectionnées lors de la [configuration de vos comptes](/help/guide/setup/onboard-account.md#set-up-match-keys). Seules les clés de correspondance que vous et votre collaborateur avez sélectionnées **et** ont en commun s’affichent.
 
-Les clés de correspondance sont automatiquement renseignées avec celles que vous avez sélectionnées lors de la [configuration de votre compte](/help/guide/setup/onboard-account.md#set-up-match-keys). Vous pouvez désactiver toutes les clés de correspondance que vous ne souhaitez pas utiliser, mais vous ne pouvez pas ajouter de clés de correspondance qui n’ont pas été sélectionnées lors de la configuration du compte.
+![Espace de travail des paramètres de connexion avec la section Clés de correspondance mise en surbrillance, affichant les clés de correspondance communes.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
+
+Lorsque le propriétaire de la connexion configure les paramètres de connexion, il peut [modifier les clés de correspondance de compte](../setup/onboard-account.md#edit-match-keys) pour inclure des clés de correspondance supplémentaires. Après avoir activé d’autres clés de correspondance dans les paramètres de votre compte, ces clés de correspondance seront disponibles pour activer les paramètres de connexion si votre collaborateur les a également sélectionnées. Les clés de correspondance ajoutées une fois le processus de connexion démarré ne sont pas automatiquement renseignées et doivent être activées manuellement.
 
 Pour personnaliser vos clés de correspondance, sélectionnez **[!UICONTROL Modifier]** dans la section **[!UICONTROL Clés de correspondance]** et désactivez toutes les clés de correspondance que vous ne souhaitez pas utiliser dans cette connexion. Lorsque vous avez terminé, sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer vos modifications.
 
-![Paramètres de clé de correspondance dans l’espace de travail des paramètres de connexion.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
+![L’espace de travail des paramètres de connexion avec la boîte de dialogue Section Clés de correspondance s’ouvre, affichant une clé de correspondance désactivée.](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
 
-+++
+>[!IMPORTANT]
+>
+>Une fois que votre collaborateur a accepté les paramètres de connexion, les clés de correspondance sont verrouillées et ne peuvent plus être modifiées.
 
-+++Partage des crédits
+##### Partage des crédits {#credit-split}
 
 Utilisez la section fractionnement du crédit pour déterminer laquelle des deux parties collaboratrices couvrira les coûts des activités. Les options de partage du crédit sont déterminées par les cas d’utilisation sélectionnés pour la connexion. Alors que le cas d’utilisation **[!UICONTROL Mesure]** nécessite qu’une partie prenne en charge les coûts, le cas d’utilisation **[!UICONTROL Activation - Correspondance]** offre une option supplémentaire pour que chaque partie prenne en charge ses propres coûts. Pour plus d’informations sur la répartition des coûts, consultez le guide [types d’activités de crédit](/help/guide/setup/my-activity.md#types-of-activities).
 
@@ -274,9 +277,7 @@ Pour configurer le partage des crédits, sélectionnez **[!UICONTROL Modifier]**
 
 ![Boîte de dialogue Partage du crédit avec des options dans l’espace de travail Paramètres de connexion.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 
-+++
-
-+++Noms de l’annonceur
+##### Noms de l’annonceur {#advertiser-names}
 
 >[!NOTE]
 >
@@ -303,8 +304,6 @@ Lors de la création d’un projet, le nom de l’annonceur est prérempli en fo
 > Une fois les paramètres de connexion envoyés, vous ne pouvez plus ajouter ni modifier les noms des annonceurs.
 
 ![Espace de travail des paramètres de connexion avec la section Noms d’annonceurs renseignée.](/help/assets/connect/establish-connection/add-advertiser-names.png)
-
-+++
 
 Une fois vos sélections effectuées, sélectionnez **[!UICONTROL Envoyer]** pour envoyer les paramètres suggérés au destinataire pour révision.
 

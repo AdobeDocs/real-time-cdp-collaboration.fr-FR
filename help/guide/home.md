@@ -2,9 +2,9 @@
 title: Vue d’ensemble
 description: Découvrez comment utiliser Adobe Real-Time Customer Data Platform (CDP) Collaboration pour découvrir, activer et mesurer des audiences à forte valeur ajoutée sans faire appel à des cookies tiers.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: fa58c5396011e6d3e7cbc5bd65844f69a9cc3f97
+source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Avec Adobe Real-Time CDP Collaboration, vous pouvez découvrir, activer et mesurer des audiences à forte valeur ajoutée sans avoir recours à des cookies tiers. Cette solution permet des collaborations avancées en matière de données, ce qui vous permet de créer des expériences client personnalisées et percutantes dans un environnement centralisé et axé sur la confidentialité.
 
-![Page de configuration de Real-Time CDP Collaboration, affichant une organisation.](/help/assets/overview/set-up.png){zoomable="yes"}
+![Page de configuration de Real-Time CDP Collaboration, affichant une organisation.](/help/assets/overview/home.png){zoomable="yes"}
 
 ## Identification des audiences par l’intermédiaire de partenaires de confiance
 
@@ -45,7 +45,7 @@ Une fois que vous y avez accès, vous êtes prêt à configurer votre compte et 
 
 ## Ressources
 
-Consultez le [glossaire](/help/guide/glossary.md) pour obtenir des informations détaillées sur les termes utilisés dans le produit. Pour obtenir de l’aide, accédez à la page Adobe [Service clientèle](https://experienceleague.adobe.com/home?lang=fr&support-tab=open-ticket#support){target="_blank"}.
+Consultez le [glossaire](/help/guide/glossary.md) pour obtenir des informations détaillées sur les termes utilisés dans le produit. Pour obtenir de l’aide, accédez à la page Adobe [Service clientèle](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"}.
 
 ## Nous contacter
 

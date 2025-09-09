@@ -2,11 +2,11 @@
 title: Guide de démarrage rapide de Real-Time CDP Collaboration
 description: Découvrez comment intégrer votre organisation dans Real-Time CDP Collaboration, notamment la configuration des rôles et des organisations, l’approvisionnement des audiences, l’activation et la mesure. Ce guide aide les collaborateurs à configurer les paramètres de connexion pour commencer à utiliser leurs audiences de manière sécurisée et efficace.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: ac8db9f5a3879d548d8dc3818ad20fc602b31e7c
+source-git-commit: 849bae30b4e617a6c49f68b2baedc0ab8a822854
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Avant de commencer, vérifiez que vous disposez des éléments suivants :
 - [Accès configuré pour les utilisateurs finaux](./permissions/manage-user-access.md).
 - [Rôles créés pour votre organisation et affectés aux utilisateurs](./permissions/manage-roles.md).
 - Accès aux ressources de marque, telles que le nom, le logo et la bannière de votre organisation.
-- Une [ stratégie de clé de correspondance définie ](./setup/onboard-account.md#set-up-match-keys) (actuellement, l’e-mail haché est la seule clé de correspondance prise en charge).
+- Une stratégie de clé de correspondance [ définie](./setup/onboard-account.md#set-up-match-keys)
 - (Facultatif) Accès à une source cloud prise en charge (Amazon S3 ou Snowflake) si vous n’utilisez pas Experience Platform pour la gestion de l’audience.
 
 ## Étape 1 : terminer la configuration basée sur les rôles {#complete-role-based-setup}
@@ -41,7 +41,7 @@ Les rôles d’accès de votre organisation déterminent ce que les utilisateurs
 
 Regardez cette vidéo pour savoir comment attribuer des accès et des autorisations de produit pour Collaboration à l’aide d’Admin Console et d’Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452232/?learn=on&enablevpops&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Étape 2 : configurer votre compte Collaboration {#set-up-your-account}
 
@@ -66,7 +66,7 @@ Définissez le rôle de votre compte dans Collaboration, fournissez des ressourc
 >Si vous créez un compte d’éditeur et souhaitez être visible publiquement dans le catalogue des connexions de Collaboration, contactez votre représentant de compte Adobe. Les comptes d’éditeur nécessitent une bannière de marque personnalisée (JPG 2 688 x 1 536). Ce fichier peut être partagé directement avec votre représentant.
 
 - **E-mail de contact** - Fournissez un e-mail professionnel que les collaborateurs peuvent utiliser une fois la connexion établie.
-- **Configurer les clés de correspondance** - Sélectionnez les identifiants utilisés pour la correspondance d’audience (actuellement, l’e-mail haché est la seule clé de correspondance prise en charge).
+- **Configurer les clés de correspondance** - Sélectionnez les identifiants utilisés pour la correspondance d’audience.
 
 Pour en savoir plus sur la configuration initiale du compte, notamment sur la définition des rôles, le chargement de ressources de marque et la configuration des clés de correspondance, consultez le guide [configuration initiale du compte](./setup/onboard-account.md#initial-account-setup){target="_blank"}.
 
@@ -107,7 +107,8 @@ Configurez la manière dont les audiences sont préparées, appariées et gouver
 >
 >**Respectez les principales exigences :**
 >
->Toutes les clés de correspondance doivent être **tronquées**, **en minuscules** et **SHA256-hachées**.\
+>Toutes les clés de correspondance doivent être **tronquées**, **en minuscules**
+>>Les clés de correspondance hachées doivent être **SHA256-hachées**.\
 >Si vous fournissez des valeurs hachées qui utilisent des caractères majuscules, Collaboration les convertit automatiquement en minuscules.\
 >Si votre source contient des **identifiants en texte brut**, utilisez l’option **[!UICONTROL Appliquer la transformation]** pour appliquer le hachage. Cette option est disponible uniquement lors de l’approvisionnement d’audiences à partir d’Experience Platform et n’est pas prise en charge pour les sources cloud.
 >

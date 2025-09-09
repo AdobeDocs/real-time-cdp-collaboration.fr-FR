@@ -2,11 +2,11 @@
 title: Activer les audiences
 description: Découvrez comment activer des audiences dans Adobe Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '1003'
 ht-degree: 2%
 
 ---
@@ -42,6 +42,10 @@ Le workflow d’activation des audiences s’ouvre et vous pouvez sélectionner 
 Dans le **[!UICONTROL Parcourir les audiences]**, vous pouvez voir le **[!UICONTROL Nombre d’identités]**, le **[!UICONTROL Chevauchement des identités]** et le **[!UICONTROL Chevauchement %]** pour chaque audience.
 
 ![Boîte de dialogue Parcourir les audiences affichant les audiences disponibles.](/help/assets/collaborate/activate/browse-audiences.png)
+
+>[!IMPORTANT]
+>
+>Lors de l’activation d’audiences où plusieurs clés de correspondance sont utilisées, si une ou plusieurs clés de correspondance ne se chevauchent pas, ne comptabilisent pas d’audiences ou sont inférieures au seuil, l’activation entière échoue. Assurez-vous que vos audiences disposent d’un chevauchement suffisant et respectent le seuil minimum de 1 000 identifiants sur toutes les clés de correspondance avant d’activer.
 
 Sélectionnez l’audience à activer dans les campagnes, puis sélectionnez **[!UICONTROL Enregistrer]**. L’audience est maintenant affichée et vous pouvez voir le **[!UICONTROL nombre d’identités]**, le **[!UICONTROL chevauchement d’identités]** et le **[!UICONTROL chevauchement %]** pour l’audience sélectionnée.
 

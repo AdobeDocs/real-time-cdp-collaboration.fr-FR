@@ -2,11 +2,11 @@
 title: Établissement de connexions
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: fcf755d5108f1f957808ead6b7022e3b9f6398b1
+source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
 workflow-type: tm+mt
-source-wordcount: '3230'
+source-wordcount: '3280'
 ht-degree: 6%
 
 ---
@@ -195,7 +195,7 @@ L’espace de travail Paramètres de connexion s’affiche, vous permettant de c
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Clés correspondantes"
 >abstract="Les clés de correspondance sont préremplies avec les clés de correspondance communes que vous et votre collaborateur avez sélectionnées au niveau du compte. Vous pouvez désactiver toutes les clés correspondantes que vous ne souhaitez pas utiliser dans cette connexion."
->additional-url="https://experienceleague.adobe.com/fr/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Clés de correspondance de compte"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Clés de correspondance de compte"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -250,6 +250,10 @@ Pour personnaliser vos cas d’utilisation, sélectionnez **[!UICONTROL Modifier
 ![Paramètres des cas d’utilisation dans l’espace de travail des paramètres de connexion.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 ##### Clés correspondantes {#match-keys}
+
+>[!IMPORTANT]
+>
+>Lors de l’activation d’audiences où plusieurs clés de correspondance sont utilisées, si une ou plusieurs clés de correspondance ne se chevauchent pas, ne comptabilisent pas d’audiences ou sont inférieures au seuil, l’activation entière échoue. Assurez-vous que vos audiences disposent d’un chevauchement suffisant et respectent le seuil minimum de 1 000 identifiants sur toutes les clés de correspondance avant d’activer.
 
 Les clés de correspondance sont automatiquement renseignées avec les clés de correspondance communes que vous et votre collaborateur avez sélectionnées lors de la [configuration de vos comptes](/help/guide/setup/onboard-account.md#set-up-match-keys). Seules les clés de correspondance que vous et votre collaborateur avez sélectionnées **et** ont en commun s’affichent.
 

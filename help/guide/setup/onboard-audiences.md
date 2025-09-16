@@ -2,12 +2,12 @@
 title: Source et gestion des audiences
 description: Découvrez comment sourcer et gérer des audiences dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 425bcb6b8069dfca17838d05b6a91250293c8308
 workflow-type: tm+mt
 source-wordcount: '3508'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -80,7 +80,7 @@ Ensuite, vous devez vous assurer que les actions marketing correctes sont défin
 
 Utilisez des actions marketing pour contrôler les données d’audience à importer dans Collaboration à partir d’Experience Platform. L’action marketing **[!UICONTROL Collaboration de données]** prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing **[!UICONTROL Science des données]** prend en charge le libellé d’utilisation des données C9.
 
-En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Lorsque la case à cocher est ***activée***, toutes les données libellées dans Experience Platform comme décrit ci-dessus sont exclues et **pas** importées dans Collaboration.
 * Lorsque la case à cocher ***désactivée***, il n’existe aucune restriction sur les données provenant d’Experience Platform.
@@ -147,7 +147,7 @@ Vous allez ensuite sélectionner les champs sources à mapper aux champs cibles 
 
 >[!BEGINSHADEBOX]
 
-Les **[!UICONTROL champs Source]** sont des espaces de noms d’identité et des attributs d’Experience Platform. Il s’agit des espaces de noms d’identité [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard?lang=fr){target="_blank"} et [personnalisés](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=fr#create-namespaces){target="_blank"}. Ils incluent également les attributs de profil présents dans le [schéma d’union](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=fr){target="_blank"} et appartenant à la classe XDM Individual Profile.
+Les **[!UICONTROL champs Source]** sont des espaces de noms d’identité et des attributs d’Experience Platform. Il s’agit des espaces de noms d’identité [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard?lang=fr){target="_blank"} et [personnalisés](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. Ils incluent également les attributs de profil présents dans le [schéma d’union](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=fr){target="_blank"} et appartenant à la classe XDM Individual Profile.
 
 Les champs Source sont mappés sur les champs cibles définis dans Collaboration.
 
@@ -265,7 +265,7 @@ Les informations suivantes s’affichent pour chaque audience :
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identités"
->abstract="Une vue de répartition des identités qui constituent cette audience, séparées par une clé de correspondance."
+>abstract="Une vue de répartition des identités qui constituent cette audience, classées par clé de correspondance."
 
 La section **[!UICONTROL Identités]** indique le nombre d’identités présentes dans l’audience. La section contient également une répartition des identités par clé de correspondance pour vous aider à comprendre la composition de l’audience.
 
@@ -297,7 +297,7 @@ La boîte de dialogue **[!UICONTROL Catégories]** s’affiche, vous permettant 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Accès à la connexion"
->abstract="<p>Les audiences peuvent être de trois types : publiques, privées et personnalisées.</p><p> Leur disponibilité pour une utilisation dans des projets avec des collaborateurs diffère en fonction du paramètre d’accès à la connexion.</p>"
+>abstract="<p>Les audiences peuvent être de trois types : publiques, privées et personnalisées.</p><p> La possibilité de les utiliser dans des projets avec des collaborateurs et collaboratrices dépend du paramètre d’accès à la connexion.</p>"
 
 La disponibilité d’une audience à utiliser dans des projets avec des collaborateurs diffère en fonction du paramètre d’accès à la connexion. Dans la section **[!UICONTROL Accès à la connexion]** , vous pouvez choisir si l’audience doit être privée, publique ou disponible uniquement pour des connexions spécifiques. Les audiences publiques sont utilisables et détectables dans les connexions.
 

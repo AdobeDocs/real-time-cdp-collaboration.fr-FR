@@ -2,24 +2,52 @@
 title: Établissement de connexions
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
+source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
 workflow-type: tm+mt
-source-wordcount: '3280'
+source-wordcount: '3400'
 ht-degree: 6%
 
 ---
 
-# Établissement de connexions
+# Établissement de connexions {#establishing-connections}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_compare_audiences"
+>title="Comparer des audiences"
+>abstract="Comparez votre audience à tous les consommateurs contactés par vos publicités Amazon."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_relevant_audiences"
+>title="Audiences pertinentes"
+>abstract="Les segments de ciblage Amazon pour lesquels votre audience présente les chevauchements les plus importants, en ne prenant en compte que les impressions DSP (ces segments ne peuvent être ciblés que dans DSP)."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_resolved_ids"
+>title="ID résolus"
+>abstract="Le nombre d’identifiants que la résolution d’identité d’Amazon a pu résoudre à l’aide des données de votre audience."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
+>title="Chevauchement des ID exposés"
+>abstract="Cela représente le nombre d’« identifiants résolus » de l’audience chargée qui ont également été exposés à une publicité via Amazon Ads."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_overlap_percentage"
+>title="% de chevauchement"
+>abstract="La proportion d’« ID résolus » qui ont été exposés à une publicité via Amazon Ads."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_amazon_breakdown"
+>title="Répartition par produit publicitaire Amazon"
+>abstract="Répartition des « ID exposés à des publicités avec chevauchement » atteints par le produit sponsorisé par Amazon Ads et/ou Amazon Ads DSP."
 
 {{limited-availability-release-note}}
 
 Avant de pouvoir travailler ensemble sur des campagnes, les collaborateurs doivent établir une connexion. Cette connexion leur permet d’activer des audiences, de créer des projets et d’exécuter des rapports sur les performances des campagnes.
 
 Les connexions sont établies en fonction du modèle de collaboration de votre choix. Collaboration prend en charge deux schémas de collaboration principaux : publicitaire-éditeur et marque-à-marque. Pour en savoir plus sur ces modèles, consultez le guide [cas d’utilisation](/help/guide/overview/use-cases.md).
-
-<!-- REPLACE THE LINK ABOVE WITH THE CORRECT LINK AFTER PAGE IS ESTABLISHED -->
 
 Pour savoir comment établir une connexion, lisez la section ci-dessous qui correspond à votre modèle de collaboration :
 
@@ -195,7 +223,7 @@ L’espace de travail Paramètres de connexion s’affiche, vous permettant de c
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Clés correspondantes"
 >abstract="Les clés de correspondance sont préremplies avec les clés de correspondance communes que vous et votre collaborateur avez sélectionnées au niveau du compte. Vous pouvez désactiver toutes les clés correspondantes que vous ne souhaitez pas utiliser dans cette connexion."
->additional-url="https://experienceleague.adobe.com/fr/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Clés de correspondance de compte"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Clés de correspondance de compte"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"

@@ -2,7 +2,7 @@
 title: Établissement de connexions
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
 workflow-type: tm+mt
@@ -223,7 +223,7 @@ L’espace de travail Paramètres de connexion s’affiche, vous permettant de c
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Clés correspondantes"
 >abstract="Les clés de correspondance sont préremplies avec les clés de correspondance communes que vous et votre collaborateur avez sélectionnées au niveau du compte. Vous pouvez désactiver toutes les clés correspondantes que vous ne souhaitez pas utiliser dans cette connexion."
->additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Clés de correspondance de compte"
+>additional-url="https://experienceleague.adobe.com/fr/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Clés de correspondance de compte"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"

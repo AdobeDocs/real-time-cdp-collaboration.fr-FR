@@ -2,12 +2,12 @@
 title: Configuration de Adobe Experience Platform en tant que destination
 description: Découvrez comment configurer et gérer Adobe Experience Platform en tant que destination dans Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 source-git-commit: 6acf936f50b412147578a70e2369b06c53260f06
 workflow-type: tm+mt
 source-wordcount: '1487'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 {{limited-availability-release-note}}
 
-Configurez cette destination pour activer les audiences de votre projet vers Adobe Experience Platform. L’activation des audiences dans Adobe Experience Platform vous permet d’exploiter les fonctionnalités de la plateforme en matière de segmentation, d’analyse et d’activation des audiences sur divers canaux marketing. Pour en savoir plus sur Adobe Experience Platform, consultez la présentation d’[Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/home){target="_blank"}.
+Configurez cette destination pour activer les audiences de votre projet vers Adobe Experience Platform. L’activation des audiences dans Adobe Experience Platform vous permet d’exploiter les fonctionnalités de la plateforme en matière de segmentation, d’analyse et d’activation des audiences sur divers canaux marketing. Pour en savoir plus sur Adobe Experience Platform, consultez la présentation d’[Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
 
 >[!WARNING]
 >
@@ -85,9 +85,9 @@ Répétez ce processus pour chaque clé de correspondance que vous souhaitez inc
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_linked_key"
 >title="Clé liée"
->abstract="Les clés liées vous permettent de spécifier qu’une clé de correspondance différente doit être utilisée à la place de la clé de correspondance d’origine lors de l’activation. Pour qu’un profil soit activé, il doit avoir des valeurs pour la clé de correspondance d’origine et la clé de correspondance liée."
+>abstract="Les clés liées vous permettent de préciser qu’une autre clé correspondante doit être utilisée à la place de la clé correspondante d’origine lors de l’activation. Pour qu’un profil soit activé, il doit disposer de valeurs pour la clé correspondante d’origine et la clé correspondante liée."
 
-Les clés liées vous permettent de spécifier qu’une clé de correspondance différente doit être utilisée à la place de la clé de correspondance d’origine lors de l’activation. Pour mieux comprendre le fonctionnement des clés liées, prenons l’exemple suivant :
+Les clés liées vous permettent de préciser qu’une autre clé correspondante doit être utilisée à la place de la clé correspondante d’origine lors de l’activation. Pour mieux comprendre le fonctionnement des clés liées, prenons l’exemple suivant :
 
 Un retailer souhaite envoyer les données en cours d’activation à Experience Platform vers son système CRM. Le retailer a activé l’adresse IP hachée comme clé de correspondance pour le compte afin d’augmenter le taux de correspondance lors de l’activation des audiences. Cependant, le système CRM de retailer ne prend pas en charge l’adresse IP hachée comme espace de noms d’identité. Ils souhaitent donc utiliser la clé de correspondance d’identifiant CRM à la place lors de l’activation des audiences dans Experience Platform. Le retailer peut utiliser l’option de clé liée pour activer des audiences vers Experience Platform à l’aide de l’identifiant CRM au lieu de l’adresse IP hachée.
 
@@ -145,4 +145,4 @@ Maintenant que vous avez configuré Adobe Experience Platform en tant que destin
 
 ![Audience Portal avec Real-Time CDP Collaboration comme origine dans les options de filtrage.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Pour en savoir plus sur Audience Portal, consultez le guide [Présentation d’Audience Portal](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.
+Pour en savoir plus sur Audience Portal, consultez le guide [Présentation d’Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.

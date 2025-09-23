@@ -2,12 +2,12 @@
 title: Configuration et gestion de votre compte
 description: Découvrez comment configurer et gérer divers aspects de votre compte dans Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: f6ba5bb484f296fe5610901bd7b2e542fb9287b0
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
@@ -61,22 +61,22 @@ Pour commencer à configurer votre compte , vous devez d’abord configurer les 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="Clés correspondantes"
->abstract="Les clés de correspondance sont des identifiants utilisés pour réconcilier les profils d’audience provenant de différentes sources de données. Incluez toutes les clés correspondantes que votre marque peut utiliser."
+>abstract="Les clés correspondantes sont des identifiants utilisés pour réconcilier les profils des audiences provenant de différentes sources de données. Incluez toutes les clés correspondantes que votre marque peut utiliser."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="Idenfiants de personnes propriétaires"
->abstract="Les identifiants de personnes propriétaires, tels que les adresses e-mail, les numéros de téléphone ou les identifiants CRM hachés, sont directement connectés à un profil individuel."
+>title="Identifiants propriétaires de personnes"
+>abstract="Les identifiants propriétaires de personnes, tels que les adresses e-mail, les numéros de téléphone hachés ou les ID de CRM, sont directement liés à un profil individuel."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="Identifiants d’appareils propriétaires"
->abstract="Les identifiants d’appareils propriétaires, tels que les adresses IP ou ECID, sont directement connectés aux appareils, qui peuvent être partagés entre plusieurs personnes. IPv4 est le seul identifiant d’appareil propriétaire actuellement pris en charge."
+>abstract="Les identifiants propriétaires d’appareil, tels que les adresses IP ou les ECID, sont directement liés aux appareils, lesquels peuvent être partagés entre plusieurs personnes. IPv4 est le seul identifiant d’appareil propriétaire actuellement pris en charge."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="ID de partenaire pris en charge"
->abstract="Les identifiants de partenaire sont des identifiants fournis par des partenaires externes pour la réconciliation d’audience. Les identifiants de partenaire ne sont pas directement connectés à un profil individuel."
+>abstract="Les identifiants de partenaire sont des identifiants fournis par des partenaires externes pour la réconciliation des audiences. Les identifiants de partenaire ne sont pas directement liés à un profil individuel."
 
 ![Clés de correspondance prises en charge.](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
 
@@ -97,7 +97,7 @@ Collaboration prend en charge trois types de clés de correspondance : les ident
 * Si vous fournissez des valeurs hachées qui utilisent des caractères majuscules, Collaboration les convertit automatiquement en minuscules.
 * Si votre source contient des **identifiants en texte brut**, utilisez l’option **[!UICONTROL Appliquer la transformation]** lors de la [configuration de la connexion aux données](./manage-data-connection.md#match-keys) pour appliquer le hachage. Cette option est disponible uniquement lors de l’approvisionnement d’audiences à partir d’Experience Platform et n’est pas prise en charge pour les sources cloud.
 
-##### Idenfiants de personnes propriétaires
+##### Identifiants propriétaires de personnes
 
 Les identifiants de personnes propriétaires sont directement connectés à un profil individuel. Les identifiants actuellement pris en charge sont les suivants :
 
@@ -115,7 +115,7 @@ Les identifiants d’appareils propriétaires sont des identifiants connectés �
 
 ##### ID partenaires
 
-Les identifiants de partenaire sont des identifiants fournis par des partenaires externes pour la réconciliation d’audience. Les identifiants actuellement pris en charge sont les suivants :
+Les identifiants de partenaire sont des identifiants fournis par des partenaires externes pour la réconciliation des audiences. Les identifiants actuellement pris en charge sont les suivants :
 
 * **[!UICONTROL Adfixus ID]**
 

@@ -2,9 +2,9 @@
 title: Établissement de connexions
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
+source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
 workflow-type: tm+mt
 source-wordcount: '3400'
 ht-degree: 7%
@@ -58,13 +58,13 @@ Pour savoir comment établir une connexion, lisez la section ci-dessous qui corr
 
 ![Diagramme de haut niveau du processus de connexion publicitaire-éditeur.](/help/assets/connect/establish-connection/advertiser-publisher-flow.png){zoomable="yes"}
 
-Dans le modèle d’annonceur à éditeur, un annonceur découvre un éditeur avec lequel il souhaite travailler via l’espace de travail **[!UICONTROL Découvrir les éditeurs]** et envoie une invitation à la connexion. L’éditeur examine ensuite l’invitation et l’accepte, ce qui lui permet de proposer des paramètres de connexion. Une fois que l’éditeur accepte les paramètres de connexion, la connexion est établie et les deux collaborateurs peuvent commencer à travailler ensemble sur des projets.
+Dans le modèle d’annonceur à éditeur, un annonceur découvre un éditeur avec lequel il souhaite travailler via l’espace de travail **[!UICONTROL Découvrir les collaborateurs]** et envoie une invitation à la connexion. L’éditeur examine ensuite l’invitation et l’accepte, ce qui lui permet de proposer des paramètres de connexion. Une fois que l’éditeur accepte les paramètres de connexion, la connexion est établie et les deux collaborateurs peuvent commencer à travailler ensemble sur des projets.
 
 ### Présentation générale
 
 Pour établir une connexion entre un annonceur et un éditeur, les étapes suivantes sont impliquées :
 
-1. [Découvrir les éditeurs](#discover-publishers) : l’annonceur identifie les éditeurs potentiels avec lesquels collaborer.
+1. [Découvrir les éditeurs](#discover-collaborators) : l’annonceur identifie les collaborateurs potentiels avec lesquels travailler.
 1. [Envoyer une invitation](#send-invite) : l’annonceur envoie une invitation à la connexion à l’éditeur sélectionné.
 1. [Accepter l’invitation](#accept-invite) : l’éditeur examine et accepte l’invitation.
 1. [Configurer les paramètres de connexion](#configure-connection-settings) : l’annonceur configure les paramètres de connexion et les envoie à l’éditeur pour révision.
@@ -108,25 +108,25 @@ Une fois les paramètres de connexion acceptés, la connexion est établie et le
 
 L’espace de travail **[!UICONTROL Connect]** vous permet de gérer vos connexions avec des collaborateurs, d’envoyer des invitations à des connexions et les annonceurs peuvent parcourir le répertoire de l’éditeur. L’espace de travail est divisé en deux onglets principaux :
 
-### Découvrir les éditeurs et éditrices {#discover-publishers}
+### Découvrir les collaborateurs et collaboratrices {#discover-collaborators}
 
 >[!IMPORTANT]
 >
->Seuls les annonceurs peuvent découvrir des éditeurs à l’aide de l’espace de travail **[!UICONTROL Découvrir des éditeurs]**. Pour en savoir plus sur la connexion avec les collaborateurs, quel que soit leur rôle, lisez la section [connexion de marque à marque](#brand-to-brand-connection).
+>Seuls les annonceurs peuvent découvrir des éditeurs à l’aide de l’espace de travail **[!UICONTROL Découvrir les collaborateurs]**. Pour en savoir plus sur la connexion avec les collaborateurs, quel que soit leur rôle, lisez la section [connexion de marque à marque](#brand-to-brand-connection).
 
-Pour découvrir des éditeurs, accédez à l’espace de travail **[!UICONTROL Découvrir des éditeurs]** dans l’onglet **[!UICONTROL Se connecter]**. Vous pouvez parcourir la liste des éditeurs disponibles à l’aide des commandes de pagination situées au bas de l’espace de travail. Pour en savoir plus sur l’espace de travail **[!UICONTROL Découvrir les éditeurs]**, consultez le guide [Découvrir les éditeurs](/help/guide/connect/discover-publishers.md).
+Pour découvrir des éditeurs, accédez à l’espace de travail **[!UICONTROL Découvrir les collaborateurs]** dans l’onglet **[!UICONTROL Se connecter]**. Vous pouvez parcourir la liste des éditeurs disponibles à l’aide des commandes de pagination situées au bas de l’espace de travail. Pour en savoir plus sur l’espace de travail **[!UICONTROL Découvrir les collaborateurs]**, consultez le guide [Découvrir les collaborateurs](/help/guide/connect/discover-collaborators.md) .
 
-![L’espace de travail Découvrir les éditeurs affiche une liste des éditeurs disponibles.](/help/assets/connect/establish-connection/discover-publishers.png){zoomable="yes"}
+![L’espace de travail Découvrir les collaborateurs affiche une liste des éditeurs disponibles.](/help/assets/connect/establish-connection/discover-collaborators.png){zoomable="yes"}
 
 ### Envoyer une invitation {#send-invite}
 
 >[!IMPORTANT]
 >
->Cette section décrit le processus par lequel les annonceurs envoient des invitations de connexion aux éditeurs par le biais de l’espace de travail **[!UICONTROL Découvrir les éditeurs]**. Pour en savoir plus sur la création de connexions entre les marques quel que soit leur rôle, lisez la section [connexion de marque à marque](#brand-to-brand-connection) ou consultez la section [invitation à une connexion privée](#private-connection-invite).
+>Cette section décrit le processus par lequel les annonceurs envoient des invitations de connexion aux éditeurs par le biais de l’espace de travail **[!UICONTROL Découvrir les collaborateurs]**. Pour en savoir plus sur la création de connexions entre les marques quel que soit leur rôle, lisez la section [connexion de marque à marque](#brand-to-brand-connection) ou consultez la section [invitation à une connexion privée](#private-connection-invite).
 
 Une fois que vous avez identifié un éditeur avec lequel vous souhaitez collaborer, sélectionnez l’option **[!UICONTROL Se connecter]** sur la vignette de l’éditeur. Cette action lance le processus de connexion.
 
-![L’option Connexion est mise en surbrillance sur un éditeur spécifique dans l’espace de travail Découvrir les éditeurs.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
+![L’option Connexion est mise en surbrillance sur un éditeur spécifique dans l’espace de travail Découvrir les collaborateurs.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
 Une boîte de dialogue s’affiche, vous invitant à envoyer une invitation à la connexion à l’éditeur. Sélectionnez **[!UICONTROL Envoyer une invitation]** pour continuer.
 

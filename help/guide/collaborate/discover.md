@@ -2,11 +2,11 @@
 title: Découvrir les chevauchements et comparer les audiences
 description: Découvrez les chevauchements entre vos audiences et celles de vos collaborateurs. Découvrez les meilleures audiences à utiliser dans vos campagnes.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 75e76a43de75a7b1c84bdd79cb4a072855ba02df
+source-git-commit: 3dd37dff0be104894cdfe42503b60056b25018e3
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2069'
 ht-degree: 17%
 
 ---
@@ -83,7 +83,7 @@ Dans la section Comparer les audiences , vous pouvez voir les mesures suivantes,
 | **[!UICONTROL Identités qui se chevauchent]** | Nombre d’identifiants uniques présents dans votre audience et dans celle de votre collaborateur ou collaboratrice. |
 | **[!UICONTROL Chevaucher %]** | Pourcentage de profils qui se chevauchent entre votre audience et l’audience sélectionnée de votre collaborateur ou collaboratrice. |
 | **[!UICONTROL Index d’audience]** | Un score qui indique l’importance de la relation d’une audience avec une autre en fonction du nombre d’audiences sous-jacentes et des chevauchements. Pour en savoir plus sur la signification des scores, lisez la section [score de l’index d’audience](#audience-index-score). Les scores de l’index d’audience ne sont pas disponibles lors de la comparaison avec la ligne de base de votre collaborateur (toutes les audiences). |
-| **[!UICONTROL Répartition des identités par clé de correspondance]** | Répartition des identités pour chaque clé de correspondance choisie dans le projet, en fonction des audiences sélectionnées pour chaque collaborateur. |
+| **[!UICONTROL Répartition des identités par clé de correspondance]** | Répartition des identités correspondantes pour chaque clé de correspondance choisie dans le projet, en fonction des audiences sélectionnées pour chaque collaborateur. |
 
 {style="table-layout:auto"}
 

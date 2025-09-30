@@ -2,7 +2,7 @@
 title: Workflow de bout en bout
 description: Découvrez le workflow de bout en bout de l’utilisation de Real-Time CDP Collaboration en fonction de votre modèle de collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
 source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
 workflow-type: tm+mt

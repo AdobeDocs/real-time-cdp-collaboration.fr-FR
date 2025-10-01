@@ -1,27 +1,27 @@
 ---
-title: Établissement de connexions
+title: Établissement des connexions
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
 workflow-type: tm+mt
 source-wordcount: '3400'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
-# Établissement de connexions {#establishing-connections}
+# Établissement des connexions {#establishing-connections}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_compare_audiences"
 >title="Comparer des audiences"
->abstract="Comparez votre audience à tous les consommateurs contactés par vos publicités Amazon."
+>abstract="Comparez votre audience à toute la clientèle atteinte par vos publicités Amazon Ads."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_relevant_audiences"
 >title="Audiences pertinentes"
->abstract="Les segments de ciblage Amazon pour lesquels votre audience présente les chevauchements les plus importants, en ne prenant en compte que les impressions DSP (ces segments ne peuvent être ciblés que dans DSP)."
+>abstract="Segments de ciblage Amazon pour lesquels votre audience présente les chevauchements les plus importants, en ne prenant en compte que les impressions DSP (ces segments ne peuvent être ciblés que dans DSP)."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_resolved_ids"
@@ -30,18 +30,18 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
->title="ID exposés des publicités en chevauchement"
->abstract="Cela représente le nombre d’« identifiants résolus » de l’audience chargée qui ont également été exposés à une publicité via Amazon Ads."
+>title="Chevauchement des ID exposés aux publicités"
+>abstract="Cela représente le nombre d’« identifiants résolus » de l’audience chargée qui ont également été exposés à une publicité via Amazon Ads."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlap_percentage"
 >title="% de chevauchement"
->abstract="La proportion d’« ID résolus » qui ont été exposés à une publicité via Amazon Ads."
+>abstract="Proportion d’« ID résolus » qui ont été exposés à une publicité via Amazon Ads."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
 >title="Répartition par produit publicitaire Amazon"
->abstract="Répartition des « ID exposés à des publicités avec chevauchement » atteints par le produit sponsorisé par Amazon Ads et/ou Amazon Ads DSP."
+>abstract="Répartition des « ID exposés à des publicités avec chevauchement » atteints par le produit sponsorisé par Amazon Ads et/ou Amazon Ads DSP."
 
 {{limited-availability-release-note}}
 

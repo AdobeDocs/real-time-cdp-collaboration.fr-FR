@@ -1,47 +1,17 @@
 ---
-title: Établissement des connexions
+title: Etablissement de connexions avec des collaborateurs
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
+source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '3400'
-ht-degree: 10%
+source-wordcount: '2812'
+ht-degree: 8%
 
 ---
 
-# Établissement des connexions {#establishing-connections}
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_compare_audiences"
->title="Comparer des audiences"
->abstract="Comparez votre audience à toute la clientèle atteinte par vos publicités Amazon Ads."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_relevant_audiences"
->title="Audiences pertinentes"
->abstract="Segments de ciblage Amazon pour lesquels votre audience présente les chevauchements les plus importants, en ne prenant en compte que les impressions DSP (ces segments ne peuvent être ciblés que dans DSP)."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_resolved_ids"
->title="ID résolus"
->abstract="Le nombre d’identifiants que la résolution d’identité d’Amazon a pu résoudre à l’aide des données de votre audience."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
->title="Chevauchement des ID exposés aux publicités"
->abstract="Cela représente le nombre d’« identifiants résolus » de l’audience chargée qui ont également été exposés à une publicité via Amazon Ads."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_overlap_percentage"
->title="% de chevauchement"
->abstract="Proportion d’« ID résolus » qui ont été exposés à une publicité via Amazon Ads."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_amazon_breakdown"
->title="Répartition par produit publicitaire Amazon"
->abstract="Répartition des « ID exposés à des publicités avec chevauchement » atteints par le produit sponsorisé par Amazon Ads et/ou Amazon Ads DSP."
+# Etablissement de connexions avec des collaborateurs {#establishing-connections}
 
 {{limited-availability-release-note}}
 
@@ -78,31 +48,7 @@ Une fois les paramètres de connexion acceptés, la connexion est établie et le
 
 >[!TIP]
 >
->Le terme **marque** est utilisé pour désigner une société ou une marque en dehors de Collaboration. Le terme **collaborateur** fait référence à tout compte pouvant former une connexion dans Collaboration, qu’il s’agisse d’un annonceur ou d’un éditeur.
-
-Dans le modèle de marque à marque, deux marques qui ont communiqué en dehors du produit peuvent se connecter directement dans Collaboration à l’aide d’une [&#x200B; invitation à une connexion privée &#x200B;](#private-connection-invite). Une marque peut être soit un annonceur, soit un éditeur. Ce modèle est particulièrement utile pour les marques qui peuvent ne pas correspondre au modèle publicitaire-éditeur traditionnel, telles que deux annonceurs ou deux éditeurs.
-
-Pour commencer, un collaborateur envoie une invitation à une connexion privée à un autre collaborateur. Le destinataire examine l’invitation et l’accepte, ce qui permet au propriétaire de proposer des paramètres de connexion. Une fois que le destinataire accepte les paramètres de connexion, la connexion est établie et les deux collaborateurs peuvent commencer à travailler ensemble sur des projets.
-
-### Présentation générale
-
->[!TIP]
->
->Lors de la discussion du processus de connexion, il y aura une distinction entre le **propriétaire** et le **destinataire**. Le propriétaire est le collaborateur qui lance la connexion en envoyant l’invitation, tandis que le destinataire est le collaborateur qui reçoit et révise l’invitation.
-
-Le processus de connexion entre deux marques implique plusieurs étapes. Avant que le processus de connexion ne commence, certaines conditions préalables doivent être remplies :
-
-1. Deux marques communiquent en dehors du produit pour discuter de la connexion potentielle.
-1. Les marques [créer des comptes](/help/guide/setup/onboard-account.md) dans Collaboration si ce n’est pas déjà fait, en veillant à sélectionner le type de rôle approprié (annonceur ou éditeur).
-
-   Une fois les conditions préalables remplies, le processus de connexion peut commencer. Les étapes suivantes décrivent le processus :
-
-1. [Envoyer une invitation à une connexion privée](#send-private-connection-invite) : un collaborateur envoie une invitation à une connexion privée à un autre collaborateur.
-1. [Accepter l’invitation à une connexion privée](#accept-private-connection-invite) : le destinataire vérifie et accepte l’invitation à la connexion privée.
-1. [Configurer les paramètres de connexion](#configure-connection-settings) : le propriétaire configure les paramètres de connexion et les envoie au destinataire pour révision et acceptation.
-1. [Confirmer les paramètres de connexion](#establish-connection) : le destinataire vérifie les paramètres de connexion et les accepte ou les rejette.
-
-Une fois les paramètres de connexion acceptés, la connexion est établie et les collaborateurs sont prêts à [créer un projet](/help/guide/collaborate/manage-projects.md#create-project) pour commencer à collaborer sur des campagnes.
+>Ce guide couvre le processus de connexion pour les modèles de collaboration entre annonceurs et éditeurs et entre marques. Pour en savoir plus sur la connexion aux plateformes publicitaires, consultez la section [connexion d’annonceur à plateforme publicitaire](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection) du guide [présentation des connexions](/help/guide/connect/overview.md).
 
 ## Connexion {#connect}
 
@@ -138,7 +84,7 @@ Une boîte de dialogue s’affiche, vous invitant à envoyer une invitation à l
 
 L’invitation en attente s’affiche dans l’onglet **[!UICONTROL Mes connexions]** de la section **[!UICONTROL Action requise]**. Le statut de la connexion apparaît comme **[!UICONTROL Invitation envoyée]**. Vous pouvez prévisualiser les paramètres de connexion en sélectionnant **[!UICONTROL Prévisualiser la connexion]**, mais vous ne pouvez pas les modifier tant que l’éditeur n’a pas accepté l’invitation.
 
-![&#x200B; La connexion en attente s’affiche dans l’espace de travail Mes connexions de la section Action requise &#x200B;](/help/assets/connect/establish-connection/preview-connection.png){zoomable="yes"}.
+![ La connexion en attente s’affiche dans l’espace de travail Mes connexions de la section Action requise ](/help/assets/connect/establish-connection/preview-connection.png){zoomable="yes"}.
 
 ### Invitation à une connexion privée {#private-connection-invite}
 
@@ -206,7 +152,7 @@ Les paramètres de connexion définissent les termes entre deux collaborateurs. 
 
 Une fois que le destinataire a accepté l’invitation, le propriétaire peut configurer les paramètres de connexion. Pour ce faire, accédez à **[!UICONTROL Mes connexions]** et recherchez la connexion en attente dans la section **[!UICONTROL Action requise]**. Sélectionnez **[!UICONTROL Configurer la connexion]** pour configurer les paramètres de connexion.
 
-![Connecter l’espace de travail avec l’option Configurer la connexion mise en surbrillance dans la section Action requise &#x200B;](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}.
+![Connecter l’espace de travail avec l’option Configurer la connexion mise en surbrillance dans la section Action requise ](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}.
 
 L’espace de travail Paramètres de connexion s’affiche, vous permettant de configurer les différents paramètres de la connexion.
 
@@ -356,26 +302,6 @@ De plus, si vous êtes un éditeur qui se connecte à un annonceur, vous pouvez 
 > Une fois que vous avez accepté les paramètres de connexion, vous ne pouvez plus ajouter ni modifier les noms des annonceurs.
 
 Sélectionnez ensuite **[!UICONTROL Accepter]** pour poursuivre la connexion. Le statut de la connexion va passer à **[!UICONTROL Actif]** et vous pouvez maintenant commencer à collaborer sur des projets.
-
-## Suppression des connexions {#delete-connections}
-
-Vous pouvez supprimer toutes les connexions avec des collaborateurs avec lesquelles vous ne souhaitez plus travailler. Pour supprimer des connexions existantes, accédez à **[!UICONTROL Connexion]**. En tant qu’éditeur, votre connexion existante s’affiche. En tant qu’annonceur, vous devez ensuite accéder à **[!UICONTROL Mes connexions]**.
-
-Sélectionnez **[!UICONTROL Afficher la connexion]** sur la carte de connexion à supprimer.
-
-![L’option Afficher la connexion est mise en surbrillance dans la vue Mes connexions.](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
-
-Sélectionnez l’icône de suppression ![icône de suppression](/help/assets/common/delete.svg) dans l’espace de travail de connexion pour supprimer la connexion.
-
-![Icône de suppression mise en surbrillance dans l’espace de travail de connexion.](/help/assets/connect/establish-connection/delete-option.png){zoomable="yes"}
-
-Une boîte de dialogue de confirmation s’affiche, vous demandant de confirmer la suppression de la connexion. Sélectionnez **[!UICONTROL Supprimer]** pour confirmer la suppression.
-
-![Boîte de dialogue de confirmation permettant de supprimer une connexion.](/help/assets/connect/establish-connection/delete-confirmation-dialog.png){zoomable="yes"}
-
->[!WARNING]
->
->Une fois la connexion supprimée, tous les projets existants dans la collaboration seront définitivement supprimés et irrécupérables. La demande de connexion reste en attente, mais la connexion et ses configurations ne sont plus actives. Vous devrez rétablir la connexion si vous souhaitez vous reconnecter au collaborateur.
 
 ## Étapes suivantes
 

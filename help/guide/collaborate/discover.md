@@ -2,11 +2,11 @@
 title: Découvrir les chevauchements et comparer les audiences
 description: Découvrez les chevauchements entre vos audiences et celles de vos collaborateurs. Découvrez les meilleures audiences à utiliser dans vos campagnes.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 3dd37dff0be104894cdfe42503b60056b25018e3
+source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '2107'
 ht-degree: 17%
 
 ---
@@ -42,6 +42,10 @@ Pour commencer à utiliser l’onglet **[!UICONTROL Découvrir]** dans votre pro
 * [Création d’un projet](/help/guide/collaborate/manage-projects.md) entre vous et un collaborateur
 
 Une fois ces conditions préalables remplies, vous pouvez commencer à explorer et à comparer les chevauchements entre vous et les audiences de votre collaborateur.
+
+>[!NOTE]
+>
+>Cet espace de travail **[!UICONTROL Discover]** n’est pas pertinent pour les collaborations avec des plateformes publicitaires. Actuellement, Amazon Marketing Cloud est la seule plateforme publicitaire disponible dans Real-Time CDP Collaboration. Pour plus d’informations sur l’espace de travail [!DNL AMC] **[!UICONTROL Discover]**, consultez le guide [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md).
 
 ## Comparer des audiences {#compare-audiences}
 

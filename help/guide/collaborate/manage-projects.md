@@ -2,12 +2,12 @@
 title: Créer et gérer des projets
 description: Découvrez comment créer et gérer des projets dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: f12333adbe9d1fd18650d32c1b8b4e08c1410e5e
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 9%
+source-wordcount: '350'
+ht-degree: 8%
 
 ---
 
@@ -55,13 +55,3 @@ Ajoutez ensuite un **[!UICONTROL Nom du projet]** et un **[!UICONTROL Descriptio
 Vous pouvez maintenant afficher votre nouveau projet, ses détails et les sections disponibles en fonction des cas d’utilisation sélectionnés lors de la configuration de la connexion.
 
 ![Espace de travail de présentation du projet.](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
-
-## Cas d’utilisation de projet {#project-use-cases}
-
-La présentation du projet affiche les cas d’utilisation sélectionnés lors de la configuration de la connexion. Ces cas d’utilisation définissent les fonctionnalités disponibles dans le projet. Les cas d’utilisation sont les suivants :
-
-| Cas d’utilisation | Section du projet |
-| --- | --- |
-| Mesure de campagne | Ce cas pratique donne accès à la section [Mesure](/help/guide/collaborate/measure.md) et à toutes les fonctionnalités disponibles. |
-| Découverte de l’audience | Ce cas pratique permet d’accéder à la section [Découvrir](/help/guide/collaborate/discover.md) et à toutes les fonctionnalités disponibles. |
-| Activation de l’audience | Ce cas pratique permet d’accéder à la section [ Activer ](/help/guide/collaborate/activate.md) et à toutes les fonctionnalités disponibles. |

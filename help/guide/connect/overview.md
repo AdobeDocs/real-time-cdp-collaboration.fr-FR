@@ -50,7 +50,7 @@ Une fois les paramètres de connexion acceptés, la connexion est établie et le
 >
 >Le terme **marque** est utilisé pour désigner une société ou une marque en dehors de Collaboration. Le terme **collaborateur** fait référence à tout compte pouvant former une connexion dans Collaboration, qu’il s’agisse d’un annonceur ou d’un éditeur.
 
-Dans le modèle de marque à marque, deux marques qui ont communiqué en dehors du produit peuvent se connecter directement dans Collaboration à l’aide d’une [ invitation à une connexion privée ](#private-connection-invite). Une marque peut être soit un annonceur, soit un éditeur. Ce modèle est particulièrement utile pour les marques qui peuvent ne pas correspondre au modèle publicitaire-éditeur traditionnel, telles que deux annonceurs ou deux éditeurs.
+Dans le modèle de marque à marque, deux marques qui ont communiqué en dehors du produit peuvent se connecter directement dans Collaboration à l’aide d’une [&#x200B; invitation à une connexion privée &#x200B;](#private-connection-invite). Une marque peut être soit un annonceur, soit un éditeur. Ce modèle est particulièrement utile pour les marques qui peuvent ne pas correspondre au modèle publicitaire-éditeur traditionnel, telles que deux annonceurs ou deux éditeurs.
 
 Pour commencer, un collaborateur envoie une invitation à une connexion privée à un autre collaborateur. Le destinataire examine l’invitation et l’accepte, ce qui permet au propriétaire de proposer des paramètres de connexion. Une fois que le destinataire accepte les paramètres de connexion, la connexion est établie et les deux collaborateurs peuvent commencer à travailler ensemble sur des projets.
 

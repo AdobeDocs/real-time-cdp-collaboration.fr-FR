@@ -84,7 +84,7 @@ Une boîte de dialogue s’affiche, vous invitant à envoyer une invitation à l
 
 L’invitation en attente s’affiche dans l’onglet **[!UICONTROL Mes connexions]** de la section **[!UICONTROL Action requise]**. Le statut de la connexion apparaît comme **[!UICONTROL Invitation envoyée]**. Vous pouvez prévisualiser les paramètres de connexion en sélectionnant **[!UICONTROL Prévisualiser la connexion]**, mais vous ne pouvez pas les modifier tant que l’éditeur n’a pas accepté l’invitation.
 
-![ La connexion en attente s’affiche dans l’espace de travail Mes connexions de la section Action requise ](/help/assets/connect/establish-connection/preview-connection.png){zoomable="yes"}.
+![&#x200B; La connexion en attente s’affiche dans l’espace de travail Mes connexions de la section Action requise &#x200B;](/help/assets/connect/establish-connection/preview-connection.png){zoomable="yes"}.
 
 ### Invitation à une connexion privée {#private-connection-invite}
 
@@ -152,7 +152,7 @@ Les paramètres de connexion définissent les termes entre deux collaborateurs. 
 
 Une fois que le destinataire a accepté l’invitation, le propriétaire peut configurer les paramètres de connexion. Pour ce faire, accédez à **[!UICONTROL Mes connexions]** et recherchez la connexion en attente dans la section **[!UICONTROL Action requise]**. Sélectionnez **[!UICONTROL Configurer la connexion]** pour configurer les paramètres de connexion.
 
-![Connecter l’espace de travail avec l’option Configurer la connexion mise en surbrillance dans la section Action requise ](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}.
+![Connecter l’espace de travail avec l’option Configurer la connexion mise en surbrillance dans la section Action requise &#x200B;](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}.
 
 L’espace de travail Paramètres de connexion s’affiche, vous permettant de configurer les différents paramètres de la connexion.
 

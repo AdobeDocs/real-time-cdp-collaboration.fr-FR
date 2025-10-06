@@ -24,7 +24,7 @@ La présentation du projet affiche les cas d’utilisation sélectionnés lors d
 | --- | --- |
 | Mesure de campagne | Ce cas d’utilisation donne accès à la section [Mesure](/help/guide/collaborate/measure.md) et à toutes les fonctionnalités disponibles. |
 | Découverte de l’audience | Ce cas pratique permet d’accéder à la section [Découvrir](/help/guide/collaborate/discover.md) et à toutes les fonctionnalités disponibles. |
-| Activation de l’audience | Ce cas pratique permet d’accéder à la section [ Activer ](/help/guide/collaborate/activate.md) et à toutes les fonctionnalités disponibles. |
+| Activation de l’audience | Ce cas pratique permet d’accéder à la section [&#x200B; Activer &#x200B;](/help/guide/collaborate/activate.md) et à toutes les fonctionnalités disponibles. |
 
 ## Collaboration avec les plateformes publicitaires {#collaborating-with-advertising-platforms}
 

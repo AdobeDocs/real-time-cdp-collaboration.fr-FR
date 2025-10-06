@@ -37,7 +37,7 @@ Ce guide utilise trois collaborateurs simulés pour illustrer le workflow de bou
 
 Pour commencer, [!UICONTROL Luma] doit [créer un compte](../setup/onboard-account.md) avec le rôle d’annonceur, tandis que [!UICONTROL TV Tube] crée un compte avec le rôle d’éditeur.
 
-Après avoir établi leurs comptes, [!UICONTROL Luma] et [!UICONTROL TV Tube] doivent [ créer une connexion de données et des audiences sources](../setup/onboard-audiences.md). Seule [!UICONTROL TV Tube] active les audiences pour les campagnes marketing. Elles doivent donc [configurer une destination](../setup/manage-destinations.md).
+Après avoir établi leurs comptes, [!UICONTROL Luma] et [!UICONTROL TV Tube] doivent [&#x200B; créer une connexion de données et des audiences sources](../setup/onboard-audiences.md). Seule [!UICONTROL TV Tube] active les audiences pour les campagnes marketing. Elles doivent donc [configurer une destination](../setup/manage-destinations.md).
 
 Une fois que les comptes des deux collaborateurs sont configurés, ils sont prêts à [former une connexion](../connect/establishing-connections.md) au sein de la plateforme. [!UICONTROL Luma] utilise la fonctionnalité [découvrir les collaborateurs](../connect/discover-collaborators.md) pour rechercher [!UICONTROL TV Tube] et lancer une demande de connexion. Une fois que [!UICONTROL TV Tube] a accepté la demande de connexion, [!UICONTROL Luma] configure les paramètres de connexion pour définir la manière dont la collaboration s’effectuera. [!UICONTROL TV Tube] accepte la demande de connexion pour établir un lien sécurisé entre les deux marques.
 

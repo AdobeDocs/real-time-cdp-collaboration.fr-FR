@@ -31,7 +31,7 @@ Pour commencer à activer les audiences, accédez à l’onglet **[!UICONTROL Ac
 >
 >![Activer l’espace de travail lorsque aucune destination n’est configurée pour le collaborateur.](/help/assets/collaborate/activate/no-destination-configured.png)
 
-Sélectionnez l’icône d’ajout (![ Icône Ajouter .](/help/assets/icons/plus.png)) ou l’option **[!UICONTROL Activer l’audience]** si aucune audience précédente n’a été envoyée pour activation.
+Sélectionnez l’icône d’ajout (![&#x200B; Icône Ajouter .](/help/assets/icons/plus.png)) ou l’option **[!UICONTROL Activer l’audience]** si aucune audience précédente n’a été envoyée pour activation.
 
 ![Activer l’espace de travail dans un projet sans audience ajoutée.](/help/assets/collaborate/activate/activate-new-audiences.png)
 
@@ -117,7 +117,7 @@ Vous pouvez supprimer les audiences envoyées que vous ne souhaitez plus activer
 
 Pour supprimer une audience envoyée, sélectionnez l’icône **[!UICONTROL Supprimer]** (![Icône Supprimer).](/help/assets/icons/delete.png)) à côté de l’audience dans la section **[!UICONTROL A envoyé des audiences à]**.
 
-![Option Supprimer dans la section Audiences envoyées à ](/help/assets/collaborate/activate/delete-sent-audiences.png).
+![Option Supprimer dans la section Audiences envoyées à &#x200B;](/help/assets/collaborate/activate/delete-sent-audiences.png).
 
 Une boîte de dialogue de confirmation s’ouvre, vous demandant de confirmer la suppression. Sélectionnez **[!UICONTROL Supprimer]** pour confirmer.
 

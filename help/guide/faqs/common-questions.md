@@ -27,6 +27,6 @@ Cet écran s’affiche lorsque j’essaie d’accéder à Real-Time CDP Collabor
 
 Si vous êtes un utilisateur final, vous devez contacter l’administrateur système ou produit de votre entreprise.
 
-Si vous êtes un administrateur système ou produit, lisez le guide des autorisations pour savoir comment vous accorder, à vous et à vos collègues, les autorisations appropriées pour utiliser Collaboration. Pour en savoir plus, consultez la présentation [ contrôle d’accès](/help/guide/permissions/overview.md).
+Si vous êtes un administrateur système ou produit, lisez le guide des autorisations pour savoir comment vous accorder, à vous et à vos collègues, les autorisations appropriées pour utiliser Collaboration. Pour en savoir plus, consultez la présentation [&#x200B; contrôle d’accès](/help/guide/permissions/overview.md).
 
 +++

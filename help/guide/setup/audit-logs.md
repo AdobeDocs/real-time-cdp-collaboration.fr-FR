@@ -75,7 +75,7 @@ L’interface utilisateur des journaux d’audit fournit plusieurs filtres pour 
 * **Statut** : le statut de l’action, tel qu’autoriser ou refuser.
 * **Période** : période pour laquelle vous souhaitez afficher les journaux.
 
-En savoir plus sur le [ filtrage des journaux d’audit ](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
+En savoir plus sur le [&#x200B; filtrage des journaux d’audit &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
 
 ## Avantages
 

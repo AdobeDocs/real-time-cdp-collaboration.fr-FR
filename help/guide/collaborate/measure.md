@@ -58,7 +58,7 @@ Pour visualiser les rapports disponibles dans l&#39;onglet Mesure :
 
 Sélectionnez **[!UICONTROL Afficher le rapport complet]** pour accéder aux différents rapports disponibles, détaillés ci-dessous.
 
-![Comment accéder à l’onglet Mesure dans un projet ](/help/assets/collaborate/measure/measurement.gif).
+![Comment accéder à l’onglet Mesure dans un projet &#x200B;](/help/assets/collaborate/measure/measurement.gif).
 
 ### Vue récapitulative
 

@@ -26,7 +26,7 @@ Avant de commencer, vérifiez que vous disposez des éléments suivants :
 - [Accès configuré pour les utilisateurs finaux](./permissions/manage-user-access.md).
 - [Rôles créés pour votre organisation et affectés aux utilisateurs](./permissions/manage-roles.md).
 - Accès aux ressources de marque, telles que le nom, le logo et la bannière de votre organisation.
-- Une stratégie de clé de correspondance [ définie](./setup/onboard-account.md#set-up-match-keys)
+- Une stratégie de clé de correspondance [&#x200B; définie](./setup/onboard-account.md#set-up-match-keys)
 - (Facultatif) Accès à une source cloud prise en charge (Amazon S3 ou Snowflake) si vous n’utilisez pas Experience Platform pour la gestion de l’audience.
 
 ## Étape 1 : terminer la configuration basée sur les rôles {#complete-role-based-setup}
@@ -108,7 +108,7 @@ Configurez la manière dont les audiences sont préparées, appariées et gouver
 >**Respectez les principales exigences :**
 >
 >Toutes les clés de correspondance doivent être **tronquées**, **en minuscules**
->>Les clés de correspondance hachées doivent être **SHA256-hachées**.\
+>&#x200B;>Les clés de correspondance hachées doivent être **SHA256-hachées**.\
 >Si vous fournissez des valeurs hachées qui utilisent des caractères majuscules, Collaboration les convertit automatiquement en minuscules.\
 >Si votre source contient des **identifiants en texte brut**, utilisez l’option **[!UICONTROL Appliquer la transformation]** pour appliquer le hachage. Cette option est disponible uniquement lors de l’approvisionnement d’audiences à partir d’Experience Platform et n’est pas prise en charge pour les sources cloud.
 >
@@ -136,7 +136,7 @@ If you are using [!DNL Snowflake], or other cloud service provider, contact your
 >
 >Les fichiers d’audience basés sur le cloud doivent suivre le schéma requis décrit dans le PDF de spécification d’audience. Les fichiers doivent inclure des identifiants hachés (SHA256 en minuscules), les champs de métadonnées requis tels que `segment_name` et `activation_id`, et utiliser des formats pris en charge tels que CSV ou Parquet. Adobe ne normalise pas les données avant l’activation. La durée de vie est appliquée en fonction de la durée de vie de l’audience.
 >
->Toutes les audiences du fichier chargé sont entièrement sourcées à ce stade. Le [ paramètre de visibilité de l’audience ](/help/guide/setup/onboard-audiences.md#metadata-visibility) détermine si vos collaborateurs peuvent afficher votre audience. Il est géré via l’interface utilisateur de Collaboration.
+>Toutes les audiences du fichier chargé sont entièrement sourcées à ce stade. Le [&#x200B; paramètre de visibilité de l’audience &#x200B;](/help/guide/setup/onboard-audiences.md#metadata-visibility) détermine si vos collaborateurs peuvent afficher votre audience. Il est géré via l’interface utilisateur de Collaboration.
 
 ## Étape 4 : activer les audiences (vers Experience Platform ou une destination cloud) {#activate-audiences}
 

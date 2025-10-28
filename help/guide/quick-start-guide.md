@@ -2,9 +2,9 @@
 title: Guide de démarrage rapide de Real-Time CDP Collaboration
 description: Découvrez comment intégrer votre organisation dans Real-Time CDP Collaboration, notamment la configuration des rôles et des organisations, l’approvisionnement des audiences, l’activation et la mesure. Ce guide aide les collaborateurs à configurer les paramètres de connexion pour commencer à utiliser leurs audiences de manière sécurisée et efficace.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 849bae30b4e617a6c49f68b2baedc0ab8a822854
+source-git-commit: 9355535e067afeedff33f5c6468bc6fcb1f58e08
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Avant de commencer, vérifiez que vous disposez des éléments suivants :
 - [Accès configuré pour les utilisateurs finaux](./permissions/manage-user-access.md).
 - [Rôles créés pour votre organisation et affectés aux utilisateurs](./permissions/manage-roles.md).
 - Accès aux ressources de marque, telles que le nom, le logo et la bannière de votre organisation.
-- Une stratégie de clé de correspondance [&#x200B; définie](./setup/onboard-account.md#set-up-match-keys)
+- Une stratégie de clé de correspondance [ définie](./setup/onboard-account.md#set-up-match-keys)
 - (Facultatif) Accès à une source cloud prise en charge (Amazon S3 ou Snowflake) si vous n’utilisez pas Experience Platform pour la gestion de l’audience.
 
 ## Étape 1 : terminer la configuration basée sur les rôles {#complete-role-based-setup}
@@ -41,7 +41,7 @@ Les rôles d’accès de votre organisation déterminent ce que les utilisateurs
 
 Regardez cette vidéo pour savoir comment attribuer des accès et des autorisations de produit pour Collaboration à l’aide d’Admin Console et d’Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452232/?learn=on&enablevpops&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Étape 2 : configurer votre compte Collaboration {#set-up-your-account}
 
@@ -108,7 +108,7 @@ Configurez la manière dont les audiences sont préparées, appariées et gouver
 >**Respectez les principales exigences :**
 >
 >Toutes les clés de correspondance doivent être **tronquées**, **en minuscules**
->&#x200B;>Les clés de correspondance hachées doivent être **SHA256-hachées**.\
+>>Les clés de correspondance hachées doivent être **SHA256-hachées**.\
 >Si vous fournissez des valeurs hachées qui utilisent des caractères majuscules, Collaboration les convertit automatiquement en minuscules.\
 >Si votre source contient des **identifiants en texte brut**, utilisez l’option **[!UICONTROL Appliquer la transformation]** pour appliquer le hachage. Cette option est disponible uniquement lors de l’approvisionnement d’audiences à partir d’Experience Platform et n’est pas prise en charge pour les sources cloud.
 >
@@ -122,13 +122,21 @@ Vous pouvez également consulter le document sur le [sourcing d’audiences dans
 
 ### Option B : Source de Snowflake ou Amazon S3
 
-Pour configurer une source cloud (par exemple, [!DNL AWS S3] ou [!DNL Snowflake]), préparez les données de votre audience à l’aide de la [PDF de spécification d’audience](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf) suivante. Une fois l’opération terminée ou si vous avez des questions, contactez votre représentant de compte Adobe pour finaliser la configuration. Cette méthode n’est pas en libre-service et nécessite l’assistance d’Adobe.
+Pour configurer une source cloud (par exemple, [!DNL AWS S3] ou [!DNL Snowflake]), préparez les données de votre audience à l’aide de la [PDF de spécification d’audience](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.1.pdf) suivante. Une fois l’opération terminée ou si vous avez des questions, contactez votre représentant de compte Adobe pour finaliser la configuration. Cette méthode n’est pas en libre-service et nécessite l’assistance d’Adobe.
+
+<!-- Add in the below in final draft: 
+
+To configure a cloud source, such as [!DNL Snowflake] or [!DNL AWS S3], prepare your audience data using the [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.1)
+
+[!DNL AWS S3] can now be configured as a self-service source. For setup instructions, see the [AWS S3 sourcing guide](./setup/configure-aws-s3-audience-sourcing.md)
+
+If you are using [!DNL Snowflake], or other cloud service provider, contact your Adobe account representative to finalize the setup. -->
 
 >[!IMPORTANT]
 >
 >Les fichiers d’audience basés sur le cloud doivent suivre le schéma requis décrit dans le PDF de spécification d’audience. Les fichiers doivent inclure des identifiants hachés (SHA256 en minuscules), les champs de métadonnées requis tels que `segment_name` et `activation_id`, et utiliser des formats pris en charge tels que CSV ou Parquet. Adobe ne normalise pas les données avant l’activation. La durée de vie est appliquée en fonction de la durée de vie de l’audience.
 >
->Toutes les audiences du fichier chargé sont entièrement sourcées à ce stade. Le [&#x200B; paramètre de visibilité de l’audience &#x200B;](/help/guide/setup/onboard-audiences.md#metadata-visibility) détermine si vos collaborateurs peuvent afficher votre audience. Il est géré via l’interface utilisateur de Collaboration.
+>Toutes les audiences du fichier chargé sont entièrement sourcées à ce stade. Le [ paramètre de visibilité de l’audience ](/help/guide/setup/onboard-audiences.md#metadata-visibility) détermine si vos collaborateurs peuvent afficher votre audience. Il est géré via l’interface utilisateur de Collaboration.
 
 ## Étape 4 : activer les audiences (vers Experience Platform ou une destination cloud) {#activate-audiences}
 

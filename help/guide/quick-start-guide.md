@@ -2,7 +2,7 @@
 title: Guide de démarrage rapide de Real-Time CDP Collaboration
 description: Découvrez comment intégrer votre organisation dans Real-Time CDP Collaboration, notamment la configuration des rôles et des organisations, l’approvisionnement des audiences, l’activation et la mesure. Ce guide aide les collaborateurs à configurer les paramètres de connexion pour commencer à utiliser leurs audiences de manière sécurisée et efficace.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 source-git-commit: 3d003563e7eb6489e2a97b394f0ab185a63e35f2
 workflow-type: tm+mt

@@ -188,7 +188,7 @@ En mode Grille ou Tableau, sélectionnez un élément de ligne ou **[!UICONTROL 
 
 Utilisez cette vue pour confirmer les paramètres de configuration et de visibilité de l’audience avant d’utiliser l’audience dans des projets de collaboration.
 
-Consultez la [documentation du tableau de bord Afficher les audiences](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) pour en savoir plus.
+Consultez la [documentation du tableau de bord Afficher les audiences](https://experienceleague.adobe.com/fr/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) pour en savoir plus.
 
 ## Affichage de la connexion aux données S3 {#view-s3-connection}
 

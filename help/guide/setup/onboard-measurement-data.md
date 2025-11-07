@@ -2,14 +2,14 @@
 title: Ajouter et gérer des données de mesure
 description: Découvrez comment ajouter des données de mesure à Adobe Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
-source-git-commit: 65468fdc8787acc6a92f4c2368758437df47d526
+source-git-commit: 26a2f8975efcadd43431823e0f2dd90847aa83ba
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 31%
+source-wordcount: '108'
+ht-degree: 25%
 
 ---
 
@@ -29,6 +29,16 @@ ht-degree: 31%
 >id="rtcdp_collaboration_measurement_data_source_fields"
 >title="Champs sources"
 >abstract="Espace réservé pour les champs sources de mesure."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_measurement_mapping_source_fields"
+>title="Mapper les champs sources"
+>abstract="Espace réservé pour le mappage des mesures des champs sources."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_measurement_mapping_target_fields"
+>title="Mappage des champs cibles"
+>abstract="Espace réservé pour le mapping de mesure des champs cibles."
 
 {{limited-availability-release-note}}
 

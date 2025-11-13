@@ -41,7 +41,7 @@ Pour créer un projet, vous devez d’abord [établir une connexion](/help/guide
 >title="Nom de d’annonceur"
 >abstract="Sélectionnez le nom de l’annonceur dans le menu déroulant. Les options sont préconfigurées par l’éditeur dans les paramètres de connexion afin d’assurer la compatibilité avec ses systèmes."
 
-Accédez à **[!UICONTROL Collaborer]** puis à **[!UICONTROL Mes projets]**. S’il s’agit de votre premier projet, vous pouvez sélectionner **[!UICONTROL Créer un projet]**. Sinon, vous pouvez sélectionner l’icône d’ajout (![ Icône Ajouter .](/help/assets/icons/plus.png)) pour créer un projet à tout moment.
+Accédez à **[!UICONTROL Collaborer]** puis à **[!UICONTROL Mes projets]**. S’il s’agit de votre premier projet, vous pouvez sélectionner **[!UICONTROL Créer un projet]**. Sinon, vous pouvez sélectionner l’icône d’ajout (![&#x200B; Icône Ajouter .](/help/assets/icons/plus.png)) pour créer un projet à tout moment.
 
 ![Sélectionnez le symbole plus ou Créez un projet pour configurer un nouveau projet.](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 

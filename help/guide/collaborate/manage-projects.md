@@ -2,12 +2,12 @@
 title: Créer et gérer des projets
 description: Découvrez comment créer et gérer des projets dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: f12333adbe9d1fd18650d32c1b8b4e08c1410e5e
+source-git-commit: 99443e1270a8a52a44dc7d0258c5bee7e4017db6
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 8%
+source-wordcount: '396'
+ht-degree: 7%
 
 ---
 
@@ -29,6 +29,11 @@ Vous pouvez utiliser les filtres pour afficher uniquement les projets que vous a
 
 ## Créer un projet {#create-project}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_create_project_advertisername_amc"
+>title="Nom de l’annonceur (Amazon Marketing Cloud)"
+>abstract="Pour les connexions Amazon Marketing Cloud (AMC), ce champ représente l’instance AMC à laquelle votre identifiant Amazon Ads a accès. Il ne reflète pas le nom d’un annonceur. Si l’instance requise n’est pas répertoriée, contactez votre administrateur Amazon Marketing Cloud pour demander l’accès."
+
 Pour créer un projet, vous devez d’abord [établir une connexion](/help/guide/connect/establishing-connections.md) avec un collaborateur ou une collaboratrice. Une fois la connexion établie, vous pouvez créer un projet avec ce collaborateur.
 
 >[!CONTEXTUALHELP]
@@ -36,7 +41,7 @@ Pour créer un projet, vous devez d’abord [établir une connexion](/help/guide
 >title="Nom de d’annonceur"
 >abstract="Sélectionnez le nom de l’annonceur dans le menu déroulant. Les options sont préconfigurées par l’éditeur dans les paramètres de connexion afin d’assurer la compatibilité avec ses systèmes."
 
-Accédez à **[!UICONTROL Collaborer]** puis à **[!UICONTROL Mes projets]**. S’il s’agit de votre premier projet, vous pouvez sélectionner **[!UICONTROL Créer un projet]**. Sinon, vous pouvez sélectionner l’icône d’ajout (![&#x200B; Icône Ajouter .](/help/assets/icons/plus.png)) pour créer un projet à tout moment.
+Accédez à **[!UICONTROL Collaborer]** puis à **[!UICONTROL Mes projets]**. S’il s’agit de votre premier projet, vous pouvez sélectionner **[!UICONTROL Créer un projet]**. Sinon, vous pouvez sélectionner l’icône d’ajout (![ Icône Ajouter .](/help/assets/icons/plus.png)) pour créer un projet à tout moment.
 
 ![Sélectionnez le symbole plus ou Créez un projet pour configurer un nouveau projet.](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 

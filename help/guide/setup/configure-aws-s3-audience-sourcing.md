@@ -85,7 +85,7 @@ Les principales considérations sont les suivantes :
 * Chaque enregistrement d’audience doit inclure un `AUDIENCE_ID` et au moins une clé de correspondance, telle que `HASHED_EMAIL_SHA_256`, `HASHED_PHONE_SHA_256`, `HASHED_IPV4_SHA_256`, `CRM_ID`, `LOYALTY_ID` ou `ADFIXUS_ID`.
 * Les données sont actualisées tous les 1 à 6 jours en fonction de votre sélection lors de la configuration de l’approvisionnement dans Collaboration.
 
-![&#x200B; La boîte de dialogue Préparer vos données pour l’approvisionnement avec un lien vers les spécifications d’approvisionnement de l’audience.](../../assets/setup/aws-audience-sourcing/prepare-data-sourcing-dialog.png)
+![ La boîte de dialogue Préparer vos données pour l’approvisionnement avec un lien vers les spécifications d’approvisionnement de l’audience.](../../assets/setup/aws-audience-sourcing/prepare-data-sourcing-dialog.png)
 
 ### Authentification de votre connexion S3 {#authenticate-s3-connection}
 
@@ -197,7 +197,7 @@ En mode Grille ou Tableau, sélectionnez un élément de ligne ou **[!UICONTROL 
 
 Utilisez cette vue pour confirmer les paramètres de configuration et de visibilité de l’audience avant d’utiliser l’audience dans des projets de collaboration.
 
-Consultez la [documentation du tableau de bord Afficher les audiences](https://experienceleague.adobe.com/fr/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) pour en savoir plus.
+Consultez la [documentation du tableau de bord Afficher les audiences](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) pour en savoir plus.
 
 ## Affichage de la connexion aux données S3 {#view-s3-connection}
 

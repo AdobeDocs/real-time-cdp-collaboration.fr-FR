@@ -1,8 +1,8 @@
 ---
-source-git-commit: 8ab3cc35872f45b1337bac7b0fa453c9937d78da
+source-git-commit: 9e8371c36b58c2b3065e63396be43ebd2c52576f
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 2%
+source-wordcount: '48'
+ht-degree: 16%
 
 ---
 # Extraits
@@ -11,7 +11,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration est actuellement disponible pour les clients des États-Unis, du Canada, de l’Australie et de la Nouvelle-Zélande, et sera bientôt disponible partout dans le monde. Pour plus d’informations, contactez votre représentant Adobe. Découvrez comment [commencer](/help/guide/home.md#get-started).
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration est actuellement disponible aux États-Unis, au Canada, en Australie, en Nouvelle-Zélande ainsi qu’en Europe, au Moyen-Orient et en Afrique, et sera bientôt disponible dans le monde entier. Pour plus d’informations, contactez votre représentant ou représentante Adobe. Découvrez comment [commencer](/help/guide/home.md#get-started).
 
 
 

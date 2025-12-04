@@ -2,9 +2,9 @@
 title: Présentation du contrôle d’accès
 description: Découvrez comment accéder à Adobe Real-Time Customer Data Platform (CDP) Collaboration.
 audience: admin
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Pour configurer le contrôle d’accès sur Collaboration, vous **devez** dispos
 Ces guides décrivent la configuration de l’accès pour les administrateurs système, les administrateurs de produit et les utilisateurs finaux. Reportez-vous au tableau ci-dessous pour comprendre la différence clé entre les rôles.
 
 | Rôle | Description |
-| --- | --- | 
+| --- | --- |
 | Administrateur système | Super utilisateur ou super utilisatrice de l’organisation. Ils sont en mesure d’effectuer toutes les tâches administratives dans Admin Console et disposent des autorisations pour déléguer des fonctions administratives à d’autres utilisateurs. |
 | Administrateur de produit | Administre les produits qui leur sont affectés et toutes les fonctions administratives associées, telles que l’ajout d’utilisateurs à des organisations, l’ajout ou la suppression d’utilisateurs à des profils de produit, ainsi que l’ajout ou la suppression d’autres administrateurs de produit d’un produit. |
 | Utilisateur final | Utilisateurs de votre entreprise qui utilisent les produits. |
@@ -65,7 +65,7 @@ Reportez-vous au graphique ci-dessous pour déterminer qui est nécessaire pour 
 > Un super utilisateur fait référence au niveau d’accès le plus élevé que peut obtenir l’administrateur ou l’administratrice système. Un super utilisateur peut effectuer toutes les tâches administratives et exécuter toutes les fonctionnalités utilisateur. Un administrateur ou une administratrice système ne dispose pas de fonctionnalités de produit prêtes à l’emploi et doit se donner l’accès approprié, comme illustré dans le graphique ci-dessous.
 
 | Cas d’utilisation | Rôle requis | Par où commencer |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Super utilisateur sans accès existant au produit Experience Platform. | Un administrateur système. | [Configuration de l’accès administrateur de produit](./manage-user-access.md#admin-access) |
 | Super utilisateur pour un administrateur système Experience Platform existant **avec accès à**’interface utilisateur d’Experience Platform). | Un administrateur système. | [Configurer l’accès à Collaboration](./manage-user-access.md#RTCDP-collab-access) |
 | Super utilisateur pour un administrateur système Experience Platform existant **sans accès** à l’interface utilisateur d’Experience Platform. | Un administrateur système. | [Configuration de l’accès administrateur de produit](./manage-user-access.md#admin-access) |

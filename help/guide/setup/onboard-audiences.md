@@ -2,11 +2,11 @@
 title: Source et gestion des audiences
 description: Découvrez comment sourcer et gérer des audiences dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: f14b5d2f49f20f229c4f474c31e22c008827a09b
+source-git-commit: d554ce3921211bc0d726b88f410410cdccc1a937
 workflow-type: tm+mt
-source-wordcount: '3512'
+source-wordcount: '3523'
 ht-degree: 16%
 
 ---
@@ -59,7 +59,7 @@ Pour commencer à ajouter votre connexion de données, sélectionnez **[!UICONTR
 Vous allez ensuite choisir la source de votre connexion aux données. Les sources disponibles sont les suivantes :
 
 * **Adobe Experience Platform** : sélectionnez cette option pour importer vos audiences depuis Adobe Experience Platform.
-* **Fichier CSV** (version ultérieure) : chargez un fichier CSV contenant les données de votre audience pour une ingestion de données simple et rapide.
+* **Fichier CSV** : chargez un fichier CSV contenant les données de votre audience pour une ingestion de données simple et rapide. Pour commencer[ reportez-vous au guide ](./upload-csv-audience-sourcing.md)Chargement de fichier CSV pour l’approvisionnement de l’audience.
 * **Amazon Web Services** : connectez-vous à votre stockage Amazon S3 pour obtenir des données d’audience source directement à partir de vos compartiments S3. Consultez le guide [Configurer AWS S3 pour l’approvisionnement de l’audience](./configure-aws-s3-audience-sourcing.md) pour obtenir des instructions détaillées.
 * **Snowflake** (version ultérieure) : utilisez votre entrepôt de données Snowflake pour extraire facilement les données d’audience.
 * **Google Cloud Platform** (version future) : connectez-vous à votre espace de stockage dans le cloud Google pour obtenir des données d’audience directement à partir de vos compartiments GCS.
@@ -80,7 +80,7 @@ Ensuite, vous devez vous assurer que les actions marketing correctes sont défin
 
 Utilisez des actions marketing pour contrôler les données d’audience à importer dans Collaboration à partir d’Experience Platform. L’action marketing **[!UICONTROL Collaboration de données]** prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing **[!UICONTROL Science des données]** prend en charge le libellé d’utilisation des données C9.
 
-En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Lorsque la case à cocher est ***activée***, toutes les données libellées dans Experience Platform comme décrit ci-dessus sont exclues et **pas** importées dans Collaboration.
 * Lorsque la case à cocher ***désactivée***, il n’existe aucune restriction sur les données provenant d’Experience Platform.
@@ -92,7 +92,7 @@ Consultez la documentation d’Experience Platform pour en savoir plus sur les l
 
 En outre, vous souhaiterez sélectionner vos règles de consentement à appliquer aux données provenant de Collaboration.
 
-![Espace de travail Ajouter des audiences à la section Politique de gouvernance et application des actions &#x200B;](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}.
+![Espace de travail Ajouter des audiences à la section Politique de gouvernance et application des actions ](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}.
 
 Une fois que vous avez sélectionné les actions marketing et les règles de consentement, sélectionnez **[!UICONTROL Suivant]** pour passer à l’étape suivante. Une boîte de dialogue de confirmation s’affiche, vous demandant d’accepter les conditions. Cochez la case, puis sélectionnez **[!UICONTROL OK]** pour confirmer.
 
@@ -125,7 +125,7 @@ Indiquez ensuite un nom et une description pour votre connexion de données. Ces
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="Espaces de noms d’identité"
 >abstract="Sélectionnez un espace de noms d’identité dans les espaces de noms d’identité standard et personnalisés disponibles dans votre organisation Experience Platform."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard?lang=fr" text="Espaces de noms standard et d’identité dans Experience Platform"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard?lang=fr" text="Espaces de noms d’identité et standard et dans Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
@@ -147,7 +147,7 @@ Vous allez ensuite sélectionner les champs sources à mapper aux champs cibles 
 
 >[!BEGINSHADEBOX]
 
-Les **[!UICONTROL champs Source]** sont des espaces de noms d’identité et des attributs d’Experience Platform. Il s’agit des espaces de noms d’identité [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard?lang=fr){target="_blank"} et [personnalisés](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=fr#create-namespaces){target="_blank"}. Ils incluent également les attributs de profil présents dans le [schéma d’union](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=fr){target="_blank"} et appartenant à la classe XDM Individual Profile.
+Les **[!UICONTROL champs Source]** sont des espaces de noms d’identité et des attributs d’Experience Platform. Il s’agit des espaces de noms d’identité [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard?lang=fr){target="_blank"} et [personnalisés](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. Ils incluent également les attributs de profil présents dans le [schéma d’union](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=fr){target="_blank"} et appartenant à la classe XDM Individual Profile.
 
 Les champs Source sont mappés sur les champs cibles définis dans Collaboration.
 

@@ -20,7 +20,7 @@ Suivez ce workflow pour charger un fichier CSV contenant les données de votre a
 
 >[!IMPORTANT]
 >
->* Les audiences provenant du téléchargement d’un fichier CSV sont disponibles pendant 7 jours ****. Au-delà de cette période, l’audience expire et doit être rechargée pour être utilisée dans vos projets de collaboration.
+>* Les audiences provenant du téléchargement d’un fichier CSV sont disponibles pendant 7 jours **&#x200B;**. Au-delà de cette période, l’audience expire et doit être rechargée pour être utilisée dans vos projets de collaboration.
 >
 >* Vous pouvez charger un fichier CSV par session à ce stade. Pour ajouter des audiences supplémentaires, effectuez à nouveau le workflow de chargement pour chaque fichier que vous souhaitez approvisionner.
 
@@ -129,7 +129,7 @@ Utilisez cette vue pour confirmer les paramètres de configuration et de visibil
 Vous avez chargé votre fichier CSV dans Collaboration. Une fois l’approvisionnement terminé, vous pouvez :
 
 * Créez des projets de collaboration avec vos audiences sources. Voir [Découvrir les audiences](../../guide/collaborate/discover.md).
-* Activez les audiences vers des destinations connectées. Voir [ Activer les audiences](../../guide/collaborate/activate.md).
+* Activez les audiences vers des destinations connectées. Voir [&#x200B; Activer les audiences](../../guide/collaborate/activate.md).
 * Examinez les chevauchements et les informations sur les audiences. Voir [Mesure des performances de la campagne](../../guide/collaborate/measure.md).
 * Gérez les paramètres et la visibilité de votre audience. Voir [Source et gérer les audiences](./onboard-audiences.md).
 

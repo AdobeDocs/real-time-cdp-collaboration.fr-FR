@@ -2,12 +2,12 @@
 title: Configuration et gestion de votre compte
 description: Découvrez comment configurer et gérer divers aspects de votre compte dans Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: c9e2e8607dde87c4a36b131ed434195ef77730e6
+source-git-commit: 873af5b0ef5e4e0c937c540de4697ec314624669
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 14%
+source-wordcount: '1373'
+ht-degree: 11%
 
 ---
 
@@ -76,7 +76,7 @@ Pour commencer à configurer votre compte , vous devez d’abord configurer les 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="Identifiants d’appareils propriétaires"
->abstract="Les identifiants propriétaires d’appareil, tels que les adresses IP ou les ECID, sont directement liés aux appareils, lesquels peuvent être partagés entre plusieurs personnes. IPv4 est le seul identifiant d’appareil propriétaire actuellement pris en charge."
+>abstract="Les identifiants d’appareils propriétaires, tels que les adresses IP ou ECID, sont directement connectés aux appareils qui peuvent être partagés entre plusieurs personnes."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
@@ -117,6 +117,8 @@ Les identifiants de personnes propriétaires sont directement connectés à un p
 Les identifiants d’appareils propriétaires sont des identifiants connectés à un appareil spécifique. Les identifiants actuellement pris en charge sont les suivants :
 
 * **[!UICONTROL IPv4 haché]** : adresses IPv4 hachées
+* **[!UICONTROL IDFA]** : identifiant pour les annonceurs (IDFA) utilisé dans les appareils Apple iOS
+* **[!UICONTROL GAID]** : ID publicitaire Google utilisé dans les appareils Android
 
 ##### ID partenaires
 

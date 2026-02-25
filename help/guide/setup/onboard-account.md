@@ -2,11 +2,11 @@
 title: Configuration et gestion de votre compte
 description: Découvrez comment configurer et gérer divers aspects de votre compte dans Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 873af5b0ef5e4e0c937c540de4697ec314624669
+source-git-commit: be7078b16d8126a80cced0a3a8328b465b6ec245
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1359'
 ht-degree: 11%
 
 ---
@@ -156,23 +156,25 @@ Vous pouvez maintenant modifier les détails de votre compte. Mettez à jour les
 
 ### Modifier les clés correspondantes {#edit-match-keys}
 
->[!IMPORTANT]
->
->La modification des clés de correspondance n’affecte pas vos connexions existantes. Une fois la connexion établie, les clés de correspondance que vous sélectionnez lors de la configuration de la connexion sont corrigées. Il est important de sélectionner **toutes** les clés de correspondance que vous prévoyez d’utiliser dans les prochaines campagnes lors de la configuration du compte.
-
 Vous pouvez également mettre à jour les clés de correspondance que vous avez initialement sélectionnées lors de la création de votre compte. Ces clés de correspondance déterminent les clés de correspondance disponibles pour les connexions futures.
 
 Sélectionnez **[!UICONTROL Modifier]** dans la section **[!UICONTROL Clés de correspondance]**.
 
 ![Espace de travail de configuration avec l’option Modifier mise en surbrillance dans la section Clés de correspondance du compte.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-La boîte de dialogue **[!UICONTROL Correspondance des clés]** s’affiche. Activez et désactivez toutes les clés de correspondance ou mettez à jour votre **[!UICONTROL ID de compte]** pour vos [!UICONTROL ID AdFixus], puis sélectionnez **[!UICONTROL Enregistrer]** pour confirmer les modifications.
+La boîte de dialogue **[!UICONTROL Correspondance des clés]** s’affiche. Activez n’importe quelle clé de correspondance ou mettez à jour votre **[!UICONTROL ID de compte]** pour vos [!UICONTROL ID AdFixus], puis sélectionnez **[!UICONTROL Enregistrer]** pour confirmer les modifications.
 
 >[!IMPORTANT]
 >
 >La modification de votre [!UICONTROL ID AdFixus] ne déclenche pas d’actualisation de l’[esquisse de données](../glossary.md#sketches) pour vos connexions de données existantes à l’aide de la clé de correspondance. Une fois vos données esquissées, les modifications apportées à votre [!UICONTROL ID AdFixus] ne seront pas répercutées jusqu’à la prochaine actualisation de l’audience suivant les paramètres de votre [planning de connexion aux données](./manage-data-connection.md#scheduling). Si vous avez besoin de modifications avant votre prochaine actualisation, vous pouvez supprimer et recréer votre connexion de données.
+>
+>Actuellement, les clés de correspondance ne peuvent pas être supprimées une fois ajoutées à votre compte.
 
 ![Boîte de dialogue Correspondance des clés avec l’option Enregistrer mise en surbrillance.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
+
+Une boîte de dialogue de réussite confirme que les clés de correspondance de votre compte ont bien été mises à jour.
+
+![Une boîte de dialogue de réussite confirmant que les clés de correspondance de votre compte sont mises à jour avec succès.](/help/assets/setup/manage-account/match-key-updated-successfully.png){zoomable="yes"}
 
 ## Étapes suivantes
 

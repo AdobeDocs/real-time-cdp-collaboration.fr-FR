@@ -2,7 +2,7 @@
 title: Découvrir les chevauchements et comparer les audiences
 description: Découvrez les chevauchements entre vos audiences et celles de vos collaborateurs. Découvrez les meilleures audiences à utiliser dans vos campagnes.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
@@ -86,7 +86,7 @@ Dans la section Comparer les audiences , vous pouvez voir les mesures suivantes,
 | **[!UICONTROL Nombre d’identités]** (votre collaborateur) | Nombre d’identifiants uniques dans l’audience de votre collaborateur ou de vos collaboratrices. |
 | **[!UICONTROL Identités qui se chevauchent]** | Nombre d’identifiants uniques présents dans votre audience et dans celle de votre collaborateur ou collaboratrice. |
 | **[!UICONTROL Chevaucher %]** | Pourcentage de profils qui se chevauchent entre votre audience et l’audience sélectionnée de votre collaborateur ou collaboratrice. |
-| **[!UICONTROL Index d’audience]** | Un score qui indique l’importance de la relation d’une audience avec une autre en fonction du nombre d’audiences sous-jacentes et des chevauchements. Pour en savoir plus sur la signification des scores, lisez la section [score de l’index d’audience](#audience-index-score). Les scores de l’index d’audience ne sont pas disponibles lors de la comparaison avec la ligne de base de votre collaborateur (toutes les audiences). |
+| **[!UICONTROL Index d’audience]** | Score qui indique l’importance de la relation entre une audience et une autre en fonction des nombres de profils des audiences et des chevauchements sous-jacents. Pour en savoir plus sur la signification des scores, lisez la section [score de l’index d’audience](#audience-index-score). Les scores de l’index d’audience ne sont pas disponibles lors de la comparaison avec la ligne de base de votre collaborateur (toutes les audiences). |
 | **[!UICONTROL Répartition des identités par clé de correspondance]** | Répartition des identités correspondantes pour chaque clé de correspondance choisie dans le projet, en fonction des audiences sélectionnées pour chaque collaborateur. |
 
 {style="table-layout:auto"}
@@ -119,7 +119,7 @@ La section **[!UICONTROL Audiences pertinentes]** affiche les informations suiva
 | **[!UICONTROL Nombre d’identités]** | Nombre d’identifiants uniques dans l’audience. |
 | **[!UICONTROL Identités qui se chevauchent]** | Nombre d’identifiants uniques qui se chevauchent entre l’audience recommandée et toutes vos audiences. |
 | **[!UICONTROL Chevaucher %]** | Pourcentage d’identités qui se chevauchent entre l’audience recommandée et toutes vos audiences. |
-| **[!UICONTROL Index d’audience]** | Un score qui indique l’importance de la relation d’une audience avec une autre en fonction du nombre d’audiences sous-jacentes et des chevauchements. Pour en savoir plus sur la signification des scores, lisez la section [score de l’index d’audience](#audience-index-score). |
+| **[!UICONTROL Index d’audience]** | Score qui indique l’importance de la relation entre une audience et une autre en fonction des nombres de profils des audiences et des chevauchements sous-jacents. Pour en savoir plus sur la signification des scores, lisez la section [score de l’index d’audience](#audience-index-score). |
 | **[!UICONTROL Catégories d’audience]** | Les catégories que votre collaborateur a affectées à l’audience. |
 | **[!UICONTROL Clés de correspondance]** | Les clés de correspondance sélectionnées par votre collaborateur pour l’audience. |
 
@@ -159,7 +159,7 @@ Une fois les audiences sélectionnées, la section **[!UICONTROL Découvrir les 
 | **[!UICONTROL Nombre d’identités]** | Nombre d’identifiants uniques dans l’audience. |
 | **[!UICONTROL Identités qui se chevauchent]** | Nombre d’identifiants uniques qui se chevauchent entre l’audience recommandée et toutes vos audiences. |
 | **[!UICONTROL Chevaucher %]** | Pourcentage d’identités qui se chevauchent entre l’audience recommandée et toutes vos audiences. |
-| **[!UICONTROL Index d’audience]** | Un score qui indique l’importance de la relation d’une audience avec une autre en fonction du nombre d’audiences sous-jacentes et des chevauchements. Pour en savoir plus sur la signification des scores, lisez la section [score de l’index d’audience](#audience-index-score). |
+| **[!UICONTROL Index d’audience]** | Score qui indique l’importance de la relation entre une audience et une autre en fonction des nombres de profils des audiences et des chevauchements sous-jacents. Pour en savoir plus sur la signification des scores, lisez la section [score de l’index d’audience](#audience-index-score). |
 | **[!UICONTROL Catégories d’audience]** | Les catégories que votre collaborateur a affectées à l’audience. |
 | **[!UICONTROL Clés de correspondance]** | Les clés de correspondance sélectionnées par votre collaborateur pour l’audience. |
 

@@ -2,11 +2,11 @@
 title: Gérer les connexions de données
 description: Découvrez comment gérer les connexions de données, notamment les clés de correspondance, la planification, les cas d’utilisation et le filtrage d’audience dans Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: 46d2596bd0ccdc5da32067493968945c61f8acc4
+source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1149'
 ht-degree: 5%
 
 ---
@@ -60,6 +60,12 @@ Pour plus d’informations sur la planification, consultez la [section de planif
 Lisez les sections suivantes pour savoir comment mettre à jour les clés de correspondance et les paramètres de planification d’une connexion de données existante.
 
 ### Modifier les clés correspondantes {#edit-match-keys}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_edit_measurement_data_connection_enrichment"
+>title="Enrichissement"
+>abstract="Désactiver l’enrichissement n’est pas pris en charge. Vous pouvez modifier les clés de jointure d’enrichissement à la place."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections" text="Enrichissement"
 
 >[!IMPORTANT]
 >

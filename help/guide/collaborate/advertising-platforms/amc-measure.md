@@ -4,7 +4,7 @@ description: Découvrez comment créer et interpréter des rapports de mesure po
 audience: advertiser
 keywords: AMC, Amazon Marketing Cloud, rapports de mesure, résumé de la campagne, attribution, Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 source-git-commit: 9f1dc87ae312961244ee8f48553d367a977cc20d

@@ -17,7 +17,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->L’espace de travail **[!UICONTROL Découvrir]** n’est disponible que si le cas d’utilisation **Découverte d’audience** a été activé [ pendant le processus de connexion](../connect/establishing-connections.md#connection-settings). Pour plus d’informations sur les cas d’utilisation, consultez le guide de [gestion des projets](./manage-projects.md#project-use-cases).
+>L’espace de travail **[!UICONTROL Découvrir]** n’est disponible que si le cas d’utilisation **Découverte d’audience** a été activé [&#x200B; pendant le processus de connexion](../connect/establishing-connections.md#connection-settings). Pour plus d’informations sur les cas d’utilisation, consultez le guide de [gestion des projets](./manage-projects.md#project-use-cases).
 
 Après [la création d’un projet](/help/guide/collaborate/manage-projects.md), vous pouvez comparer vos audiences à vos collaborateurs. Vous pouvez ainsi identifier les audiences pertinentes pour les campagnes et décider lesquelles envoyer aux collaborateurs pour activation.
 

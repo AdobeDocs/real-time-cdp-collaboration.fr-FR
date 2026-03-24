@@ -2,11 +2,11 @@
 title: Gérer les connexions de données
 description: Découvrez comment gérer les connexions de données, notamment les clés de correspondance, la planification, les cas d’utilisation et le filtrage d’audience dans Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1168'
 ht-degree: 5%
 
 ---
@@ -76,7 +76,7 @@ Lisez les sections suivantes pour savoir comment mettre à jour les clés de cor
 
 Sélectionnez **[!UICONTROL Modifier]** dans la section **[!UICONTROL Clés de correspondance]**.
 
-![Section Correspondance des clés avec l’option Modifier mise en surbrillance.](/help/assets/setup/manage-data-connection/edit-match-keys.png){zoomable="yes"}
+![Section Clés de correspondance avec l&#39;option Modifier mise en surbrillance.](/help/assets/setup/manage-data-connection/edit-match-keys.png){zoomable="yes"}
 
 Une boîte de dialogue de confirmation s’affiche, expliquant que toute modification de la connexion aux données s’appliquera à toutes les audiences associées. Sélectionnez **[!UICONTROL OK]** pour confirmer. Vous pouvez choisir d’ignorer cette confirmation à l’avenir.
 
@@ -94,15 +94,15 @@ Sélectionnez **[!UICONTROL Ajouter un champ]** pour ajouter une nouvelle ligne 
 
 Sélectionnez ensuite le champ source vide. La boîte de dialogue **[!UICONTROL Sélectionner le champ source]** s’affiche avec les options **[!UICONTROL Espaces de noms d’identité]** et **[!UICONTROL Attributs de profil]**. Vous pouvez filtrer la liste et trouver le champ source de votre choix à l’aide de l’option de recherche.
 
-Choisissez le champ source de votre choix, puis **[!UICONTROL Sélectionner]**.
+Sélectionnez le champ source de votre choix, puis **[!UICONTROL Sélectionner]**.
 
 ![La boîte de dialogue Sélectionner le champ source avec l’option GAID sélectionnée.](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
 
-Dans la boîte de dialogue **[!UICONTROL Touches de correspondance]**, utilisez le menu déroulant pour mapper le nouveau champ source à un champ cible. Tous les champs cibles disponibles correspondent aux clés configurées pour votre compte collaborateur. Si vous ne voyez pas le champ cible dont vous avez besoin, [modifiez les clés de correspondance de votre compte](./onboard-account.md#edit-match-keys) pour l’ajouter.
+Dans la boîte de dialogue **[!UICONTROL Clés de correspondance]**, utilisez le menu déroulant pour mapper le nouveau champ source à un champ cible. Tous les champs cibles disponibles correspondent aux clés configurées pour votre compte collaborateur. Si vous ne voyez pas le champ cible dont vous avez besoin, [modifiez les clés de correspondance de votre compte](./onboard-account.md#edit-match-keys) pour l’ajouter.
 
-Utilisez l’option **[!UICONTROL Appliquer la transformation]** si vous souhaitez générer un champ non haché en champ cible haché, par exemple, lors du mappage d’un champ source d’e-mail en texte brut au champ cible **[!UICONTROL E-mail haché]**.
+Utilisez l’option **[!UICONTROL Appliquer la transformation]** si vous souhaitez générer un champ non haché en un champ cible haché, par exemple, lors du mappage d’un champ source d’e-mail en texte brut au champ cible **[!UICONTROL E-mail haché]**.
 
-![Menu déroulant affichant tous les champs cibles disponibles à mapper au nouveau champ source.](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
+![Le menu déroulant affichant tous les champs cibles disponibles à mapper avec le nouveau champ source.](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
 
 Une fois les champs de mappage terminés, passez en revue vos mises à jour et sélectionnez **[!UICONTROL Confirmer]** pour appliquer les modifications.
 
@@ -148,7 +148,7 @@ Une boîte de dialogue de confirmation s’affiche. Sélectionnez **[!UICONTROL 
 
 ## Gérer des audiences {#manage-audiences}
 
-Une liste des audiences associées à la connexion de données s’affiche au bas de l’espace de travail. La liste affiche un bref aperçu de chaque audience, y compris son statut, sa source et son accès à la connexion. Pour modifier les catégories d’une audience, l’accès à la connexion ou la visibilité des métadonnées, sélectionnez le nom de l’audience. Pour obtenir un guide complet sur la gestion d’une audience, reportez-vous au guide [Afficher des audiences individuelles](./onboard-audiences.md#view-individual-audiences) .
+Une liste des audiences associées à la connexion de données s’affiche au bas de l’espace de travail. La liste affiche un bref aperçu de chaque audience, y compris son statut, sa source et son accès à la connexion. Pour modifier les catégories d’une audience, l’accès à la connexion ou la visibilité des métadonnées, sélectionnez le nom de l’audience. Pour obtenir un guide complet sur la gestion d’une audience, reportez-vous au guide [afficher des audiences individuelles](./onboard-audiences.md#view-individual-audiences).
 
 ![Espace de travail des connexions de données avec les audiences en surbrillance.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 

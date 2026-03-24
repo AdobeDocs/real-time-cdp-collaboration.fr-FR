@@ -2,12 +2,12 @@
 title: Créer et gérer des projets
 description: Découvrez comment créer et gérer des projets dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 source-git-commit: 99443e1270a8a52a44dc7d0258c5bee7e4017db6
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 7%
+source-wordcount: '409'
+ht-degree: 19%
 
 ---
 
@@ -21,7 +21,7 @@ Les projets sont l’élément central de votre workflow dans Adobe Real-Time CD
 >
 >Les projets doivent généralement être associés à une seule campagne.
 
-![Tableau de bord Collaborer affichant tous les projets actuels.](/help/assets/collaborate/manage-view-projects/projects-overview-page.png){zoomable="yes"}
+![Tableau de bord de collaboration affichant tous les projets actuels.](/help/assets/collaborate/manage-view-projects/projects-overview-page.png){zoomable="yes"}
 
 Vous pouvez utiliser les filtres pour afficher uniquement les projets que vous avez démarrés avec certains collaborateurs, comme illustré ci-dessous :
 
@@ -32,20 +32,20 @@ Vous pouvez utiliser les filtres pour afficher uniquement les projets que vous a
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_create_project_advertisername_amc"
 >title="Nom de l’annonceur (Amazon Marketing Cloud)"
->abstract="Pour les connexions Amazon Marketing Cloud (AMC), ce champ représente l’instance AMC à laquelle votre identifiant Amazon Ads a accès. Il ne reflète pas le nom d’un annonceur. Si l’instance requise n’est pas répertoriée, contactez votre administrateur Amazon Marketing Cloud pour demander l’accès."
+>abstract="Pour les connexions Amazon Marketing Cloud (AMC), ce champ représente l’instance AMC à laquelle votre nom d’utilisateur ou d’utilisatrice Amazon Ads a accès. Il ne reflète pas le nom d’un annonceur. Si l’instance requise n’est pas répertoriée, contactez votre administrateur ou administratrice Amazon Marketing Cloud pour demander l’accès."
 
-Pour créer un projet, vous devez d’abord [établir une connexion](/help/guide/connect/establishing-connections.md) avec un collaborateur ou une collaboratrice. Une fois la connexion établie, vous pouvez créer un projet avec ce collaborateur.
+Pour créer un projet, vous devez d’abord [établir une connexion](/help/guide/connect/establishing-connections.md) avec un collaborateur. Une fois la connexion établie, vous pouvez créer un projet avec ce collaborateur.
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
 >title="Nom de d’annonceur"
 >abstract="Sélectionnez le nom de l’annonceur dans le menu déroulant. Les options sont préconfigurées par l’éditeur dans les paramètres de connexion afin d’assurer la compatibilité avec ses systèmes."
 
-Accédez à **[!UICONTROL Collaborer]** puis à **[!UICONTROL Mes projets]**. S’il s’agit de votre premier projet, vous pouvez sélectionner **[!UICONTROL Créer un projet]**. Sinon, vous pouvez sélectionner l’icône d’ajout (![&#x200B; Icône Ajouter .](/help/assets/icons/plus.png)) pour créer un projet à tout moment.
+Accédez à **[!UICONTROL Collaborer]**, puis à **[!UICONTROL Mes projets]**. S’il s’agit de votre premier projet, vous pouvez sélectionner **[!UICONTROL Créer un projet]**. Sinon, vous pouvez sélectionner l’icône d’ajout (![icône d’ajout.](/help/assets/icons/plus.png)) pour créer un projet à tout moment.
 
 ![Sélectionnez le symbole plus ou Créez un projet pour configurer un nouveau projet.](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
-La boîte de dialogue **[!UICONTROL Créer un projet]** s’affiche. Sélectionnez la **[!UICONTROL Collaborateur]** avec laquelle vous créez le projet dans la liste déroulante. Si vous êtes un éditeur et que vous définissez des noms d’annonceurs lors de la configuration de votre connexion, vous pouvez sélectionner le **[!UICONTROL Nom de l’annonceur]**.
+La boîte de dialogue **[!UICONTROL Créer un projet]** s’affiche. Sélectionnez l’**[!UICONTROL collaborateur]** avec lequel vous créez le projet dans la liste déroulante. Si vous êtes un éditeur et que vous définissez des noms d’annonceurs lors de la configuration de votre connexion, vous pouvez sélectionner le **[!UICONTROL nom de l’annonceur]**.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ La boîte de dialogue **[!UICONTROL Créer un projet]** s’affiche. Sélectionn
 
 ![Boîte de dialogue Créer un projet avec le collaborateur sélectionné et le nom de l’annonceur mis en surbrillance.](/help/assets/collaborate/manage-view-projects/create-project-advertiser-names.png){zoomable="yes"}
 
-Ajoutez ensuite un **[!UICONTROL Nom du projet]** et un **[!UICONTROL Description]** pour votre projet. Sélectionnez ensuite une image pour représenter le projet. Cette image permet de distinguer le projet sur la page de présentation du projet. Une fois que vous avez terminé, sélectionnez **[!UICONTROL Créer]** pour créer le projet.
+Ajoutez ensuite un **[!UICONTROL nom de projet]** et une **[!UICONTROL description]** pour votre projet. Sélectionnez ensuite une image pour représenter le projet. Cette image permet de distinguer le projet sur la page de présentation du projet. Une fois que vous avez terminé, sélectionnez **[!UICONTROL Créer]** pour créer le projet.
 
 ![Options requises pour configurer un nouveau projet](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 

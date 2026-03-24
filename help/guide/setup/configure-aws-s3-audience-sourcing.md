@@ -1,15 +1,15 @@
 ---
-title: Configuration  [!DNL Amazon S3]  pour l’approvisionnement auprès d’audiences
-description: Découvrez comment configurer et connecter votre stockage  [!DNL Amazon S3]  tant que source de données en libre-service pour ingérer les données d’audience dans Real-Time CDP Collaboration.
+title: Configurer [!DNL Amazon S3]  pour l’Audience Sourcing
+description: Découvrez comment configurer et connecter votre stockage  [!DNL Amazon S3]  en tant que source de données en libre-service pour ingérer les données d’audience dans Real-Time CDP Collaboration.
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
 source-git-commit: 43134d6f334ee500834a6451bdf1a8f7372f8d10
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 1%
+source-wordcount: '1613'
+ht-degree: 8%
 
 ---
 
-# Configuration des [!DNL Amazon S3] pour l’approvisionnement des audiences
+# Configurer [!DNL Amazon S3] pour le sourcing d’audience
 
 Découvrez comment configurer et connecter votre stockage [!DNL Amazon S3] dans l’interface utilisateur d’Adobe Real-Time CDP Collaboration aux données de l’audience source pour l’activation et l’analyse de chevauchement.
 
@@ -28,8 +28,8 @@ Les audiences provenant de S3 suivent les mêmes règles de gouvernance et de ge
 
 Avant de configurer votre connexion de données S3, vérifiez les points suivants :
 
-* Vous avez accès à un compartiment **[!DNL Amazon S3]actif** contenant des fichiers d’audience conformes à la **[Spécification d’approvisionnement de l’audience (v1.1)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.
-* Vous avez créé un **rôle IAM** dans AWS qui accorde à Adobe l’autorisation d’accéder à votre compartiment à l’aide de la méthode **rôle assumé** (et non des clés d’accès/secrètes). Consultez **[Configuration des autorisations AWS pour l’approvisionnement des audiences](./configure-aws-permissions-audience-sourcing.md)** pour des instructions détaillées. Le rôle IAM doit inclure les autorisations suivantes :
+* Vous avez accès à un compartiment **[!DNL Amazon S3]actif** contenant des fichiers d’audience conformes à la **[spécification d’approvisionnement d’audience (v1.1)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.
+* Vous avez créé un **rôle IAM** dans AWS qui accorde à Adobe l’autorisation d’accéder à votre compartiment à l’aide de la méthode **rôle par défaut** (et non des clés d’accès/secrètes). Consultez **[Configurer les autorisations AWS pour l’approvisionnement des audiences](./configure-aws-permissions-audience-sourcing.md)** pour obtenir des instructions détaillées. Le rôle IAM doit inclure les autorisations suivantes :
 
    * `ListBucket`
    * `GetBucketLocation`
@@ -37,8 +37,8 @@ Avant de configurer votre connexion de données S3, vérifiez les points suivant
 
 * Les valeurs suivantes sont prêtes :
 
-   * **Nom de la ressource Amazon (ARN) du rôle IAM**
-   * Nom du compartiment **S3**
+   * **Nom de la ressource Amazon du rôle IAM (ARN)**
+   * **Nom du compartiment S3**
    * **Chemin du dossier** (préfixe de répertoire contenant les fichiers de votre audience)
 
 >[!NOTE]
@@ -47,35 +47,35 @@ Avant de configurer votre connexion de données S3, vérifiez les points suivant
 
 ## Configurer votre connexion [!DNL Amazon S3] {#configure-aws-s3-connection}
 
-Dans l’onglet **[!UICONTROL Mes audiences]** de l’espace de travail **[!UICONTROL Configuration]**, sélectionnez l’icône d’ajout (![icône d’ajout).](/help/assets/icons/plus.png)), puis sélectionnez **[!UICONTROL Audience]**.
+Dans l’onglet **[!UICONTROL Mes audiences]** de l’espace de travail **[!UICONTROL Configurer]**, sélectionnez l’icône d’ajout (![icône d’ajout.](/help/assets/icons/plus.png)) puis sélectionnez **[!UICONTROL Audience]**.
 
 S’il s’agit de votre première audience, vous pouvez également sélectionner l’option **[!UICONTROL Ajouter]**.
 
 ![L’onglet Mes audiences dans l’espace de travail Configuration avec l’icône d’ajout et l’option Ajouter une audience affichées.](../../assets/setup/add-manage-audiences/add-audiences.png)
 
-Le workflow Ajouter une audience s’affiche. Sélectionnez **[!UICONTROL Ajouter une nouvelle connexion de données]** puis sélectionnez **[!UICONTROL Suivant]**.
+Le workflow Ajouter une audience s’affiche. Sélectionnez **[!UICONTROL Ajouter une nouvelle connexion de données]**, puis **[!UICONTROL Suivant]**.
 
 ![L’espace de travail Ajouter des audiences avec l’option Ajouter une nouvelle connexion de données mise en surbrillance.](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-### Sélectionnez [!DNL Amazon S3] comme connexion de données {#select-aws-s3}
+### Sélectionner [!DNL Amazon S3] comme connexion de données {#select-aws-s3}
 
 Sélectionnez **[!UICONTROL Amazon S3]** comme connexion de données, puis **[!UICONTROL Suivant]**.
 
-![Écran de sélection de la connexion aux données avec [!DNL Amazon S3] disponible sous la forme d’une option sélectionnable.](../../assets/setup/aws-audience-sourcing/select-s3-data-connection.png)
+![Écran de sélection de la connexion aux données avec [!DNL Amazon S3] disponible sous forme d’option sélectionnable.](../../assets/setup/aws-audience-sourcing/select-s3-data-connection.png)
 
 ### Vérifier les exigences relatives aux fichiers d’audience {#review-audience-requirements}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_specifications"
 >title="Préparer vos données pour l’intégration"
->abstract="Lisez le Guide de spécification d’approvisionnement d’audience pour savoir comment formater et structurer les données d’audience à partir d’Amazon S3 pour Collaboration."
+>abstract="Lisez le guide de spécification de l’approvisionnement d’audience pour savoir comment formater et structurer les données d’audience à partir d’Amazon S3 pour Collaboration."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Voir le guide"
 
 Une boîte de dialogue s’affiche pour expliquer comment les fichiers d’audience doivent être structurés. Utilisez le lien vers la **[[!UICONTROL Spécification d’approvisionnement d’audience]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)** pour savoir comment formater et structurer les données d’audience à partir de [!DNL Amazon S3] pour que Collaboration les lise correctement.
 
 >[!IMPORTANT]
 >
->Vous devez disposer de l’autorisation Adobe en tant qu’utilisateur [!DNL Amazon S3] afin qu’Adobe puisse récupérer les données de votre espace de stockage [!DNL Amazon S3] pour le traitement.
+>Vous devez disposer de l’autorisation Adobe en tant qu’utilisateur [!DNL Amazon S3] pour qu’Adobe puisse récupérer les données de votre espace de stockage [!DNL Amazon S3] en vue de leur traitement.
 
 Les fichiers d’audience doivent être conformes aux spécifications d’approvisionnement de l’audience. Les clés de correspondance sont automatiquement mappées en fonction du format requis.
 
@@ -86,23 +86,23 @@ Les principales considérations sont les suivantes :
 * Chaque enregistrement d’audience doit inclure un `AUDIENCE_ID` et au moins une clé de correspondance, telle que `HASHED_EMAIL_SHA_256`, `HASHED_PHONE_SHA_256`, `HASHED_IPV4_SHA_256`, `CRM_ID`, `LOYALTY_ID` ou `ADFIXUS_ID`.
 * Les données sont actualisées tous les 1 à 6 jours en fonction de votre sélection lors de la configuration de l’approvisionnement dans Collaboration.
 
-![&#x200B; La boîte de dialogue Préparer vos données pour l’approvisionnement avec un lien vers les spécifications d’approvisionnement de l’audience.](../../assets/setup/aws-audience-sourcing/prepare-data-sourcing-dialog.png)
+![La boîte de dialogue Préparer vos données pour l’approvisionnement avec un lien vers les spécifications d’approvisionnement de l’audience.](../../assets/setup/aws-audience-sourcing/prepare-data-sourcing-dialog.png)
 
-### Authentification de votre connexion S3 {#authenticate-s3-connection}
+### Authentifier votre connexion S3 {#authenticate-s3-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_sources_s3_folderpath"
->title="Format du chemin d’accès au dossier"
->abstract="Saisissez le chemin d’accès au dossier (préfixe) dans votre compartiment [!DNL Amazon S3] où vos fichiers d’audience sont stockés.<br><ul><li>Ne commencez pas les chemins par une barre oblique (/).</li><li>Insérez une barre oblique à la fin du chemin d’accès.</li><ul><br>Exemple valide : `base/path/`<br>Exemple non valide : `/base/path`"
+>title="Format du chemin du dossier"
+>abstract="Saisissez le chemin d’accès au dossier (préfixe) dans votre compartiment [!DNL Amazon S3] où vos fichiers d’audience sont stockés.<br><ul><li>Ne commencez pas les chemins par une barre oblique (/).</li><li>N’ajoutez pas de barre oblique à la fin du chemin.</li><ul><br>Exemple valide : `base/path/`<br>Exemple non valide : `/base/path`"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_amazon_s3"
->title="Ajout d’une audience pour Amazon S3"
->abstract="Pour connecter votre stockage Amazon S3, autorisez l’utilisateur du service Adobe à récupérer les données de votre audience pour traitement. Suivez les étapes décrites dans Experience League pour accorder à Adobe l’accès à votre stockage Amazon S3."
+>title="Ajouter une audience pour Amazon S3"
+>abstract="Pour connecter votre stockage Amazon S3, autorisez l’utilisateur ou l’utilisatrice du service Adobe à récupérer les données de votre audience pour traitement. Suivez les étapes décrites dans Experience League pour accorder à Adobe l’accès à votre stockage Amazon S3."
 
 Indiquez ensuite vos informations d’identification [!DNL Amazon S3] pour connecter votre compartiment S3 à Collaboration.
 
-Suivez les étapes décrites dans **[Configuration des autorisations AWS pour l’approvisionnement des audiences](./configure-aws-permissions-audience-sourcing.md)** pour accorder à Adobe l’accès à vos
+Suivez les étapes décrites dans la section **[Configurer les autorisations AWS pour l’approvisionnement des audiences](./configure-aws-permissions-audience-sourcing.md)** afin d’accorder à Adobe l’accès à vos
 Stockage [!DNL Amazon S3]. Une fois l’opération terminée, saisissez vos valeurs dans les champs suivants de l’interface utilisateur :
 
 * Rôle IAM
@@ -123,12 +123,12 @@ Une fois connecté, le système valide vos informations d’identification et af
 
 | Statut | Message | Description |
 |---| ---|---|
-| **Succès** | **[!UICONTROL Authentification réussie]** | Votre connexion à [!DNL Amazon S3] a été établie. |
-| **Échec** | **[!UICONTROL Échec de l’authentification]** | Vérifiez vos informations d’identification et réessayez. |
-| **Accès refusé** | **[!UICONTROL Accès refusé]** | Vos informations d’identification ne disposent pas des autorisations requises pour accéder à ce compartiment [!DNL Amazon S3]. Vérifiez les paramètres d’accès ou contactez votre administrateur. |
+| **Succès** | **[!UICONTROL Authentification réussie]** | Votre connexion à [!DNL Amazon S3] a été établie avec succès. |
+| **Échec** | **[!UICONTROL Échec de l&#39;authentification]** | Vérifiez vos informations d’identification et réessayez. |
+| **Accès refusé** | **[!UICONTROL Accès refusé]** | Vos identifiants ne disposent pas des autorisations requises pour accéder à ce compartiment [!DNL Amazon S3]. Vérifiez les paramètres d’accès ou contactez votre administrateur. |
 | **Format de fichier non valide** | **[!UICONTROL Format de fichier non valide]** | Les données de l’audience ne correspondent pas à la structure attendue. Veillez à ce que vos fichiers soient conformes aux spécifications d’approvisionnement de l’audience. |
 | **Aucun fichier d’audience trouvé** | **[!UICONTROL Aucun fichier d’audience trouvé]** | Veuillez confirmer que les fichiers de votre audience existent dans le chemin d’accès au dossier spécifié et que le chemin d’accès est accessible. |
-| **Erreur interne** | **[!UICONTROL Une erreur interne est survenue]** | Veuillez réessayer. Si le problème persiste, contactez le service clientèle. |
+| **Erreur interne** | **[!UICONTROL Une erreur interne s’est produite]** | Veuillez réessayer. Si le problème persiste, contactez le service clientèle. |
 
 
 ### Fournir les détails de la connexion {#provide-connection-details}
@@ -164,10 +164,10 @@ Enfin, passez en revue vos paramètres de configuration dans l’écran de résu
 
 * **[!UICONTROL Connexion aux données]** : affiche le rôle IAM, le nom du compartiment S3 et le chemin d’accès au dossier que vous avez configuré.
 * **[!UICONTROL Détails]** : affiche le nom et la description facultative de votre connexion de données pour vous aider à l’identifier ultérieurement.
-* **[!UICONTROL Mappage]** : répertorie la manière dont les champs sources de vos fichiers d’audience chargés (par exemple, `HASHED_EMAIL`) sont mappés aux champs cibles utilisés dans Collaboration (par exemple, e-mail haché).
+* **[!UICONTROL Mappage]** : répertorie la manière dont les champs sources des fichiers d’audience chargés (par exemple, `HASHED_EMAIL`) sont mappés aux champs cibles utilisés dans Collaboration (par exemple, e-mail haché).
 * **[!UICONTROL Planification]** : résume la fréquence à laquelle la connexion actualise les données d’audience et la période active pour l’approvisionnement.
 
-Sélectionnez l’icône en forme de crayon si vous devez modifier une section. Sélectionnez **[!UICONTROL Terminé]** pour confirmer toutes les sections.
+Sélectionnez l’icône en forme de crayon si vous devez modifier une section. Sélectionnez **[!UICONTROL Terminer]** pour confirmer toutes les sections.
 
 ![Écran de résumé de la révision affichant les sections de connexion aux données, de détails, de mappage et de planification.](../../assets/setup/aws-audience-sourcing/s3-connection-review-summary.png)
 
@@ -175,11 +175,11 @@ Une boîte de dialogue de confirmation s’affiche, indiquant que la connexion d
 
 ## Vérifier les audiences sources {#review-sourced-audiences}
 
-Une fois la configuration terminée, Collaboration commence à sourcer les audiences à partir de votre compartiment S3. Les audiences provenant d’un compartiment [!DNL Amazon S3] apparaissent dans l’onglet **[!UICONTROL Mes audiences]** et disposent des mêmes fonctionnalités et informations que les audiences provenant d’Experience Platform.
+Une fois la configuration terminée, Collaboration commence à sourcer les audiences à partir de votre compartiment S3. Les audiences provenant d’un compartiment [!DNL Amazon S3] apparaissent dans l’onglet **[!UICONTROL Mes audiences]** et ont les mêmes fonctionnalités et informations que les audiences provenant d’Experience Platform.
 
 Si le sourcing d’audience est en cours, une bannière s’affiche en haut de l’écran. Les audiences individuelles s’affichent uniquement une fois l’approvisionnement terminé.
 
-![Onglet Audiences indiquant que le sourcing est en cours pour les audiences [!DNL Amazon S3].](../../assets/setup/aws-audience-sourcing/s3-audiences-sourcing-in-progress.png)
+![Onglet Audiences indiquant que le sourcing est en cours pour [!DNL Amazon S3] audiences.](../../assets/setup/aws-audience-sourcing/s3-audiences-sourcing-in-progress.png)
 
 Une fois que les audiences S3 sont sourcées, votre liste d’audiences disponibles est fournie dans un affichage tabulé ou en mode Carte.
 
@@ -187,7 +187,7 @@ Une fois que les audiences S3 sont sourcées, votre liste d’audiences disponib
 >
 >Le temps d’approvisionnement de l’audience varie en fonction de la taille de vos données S3 et de la fréquence d’actualisation que vous avez configurée. L’affichage de jeux de données plus volumineux ou de plannings d’actualisation moins fréquents peut prendre plus de temps dans l’espace de travail **[!UICONTROL Mes audiences]**.
 
-![Onglet Audiences présentant une liste tabulée des audiences sources.](../../assets/setup/aws-audience-sourcing/s3-audiences-list-view.png)
+![L’onglet Audiences affiche une liste tabulée des audiences sources.](../../assets/setup/aws-audience-sourcing/s3-audiences-list-view.png)
 
 En mode Grille ou Tableau, sélectionnez un élément de ligne ou **[!UICONTROL Afficher l’audience]** pour afficher un aperçu d’une audience spécifique. Il affiche le statut, la source et le nom de connexion aux données de l’audience, ainsi que des panneaux détaillés pour :
 
@@ -202,7 +202,7 @@ Consultez la [documentation du tableau de bord Afficher les audiences](https://e
 
 ## Affichage de la connexion aux données S3 {#view-s3-connection}
 
-La nouvelle connexion [!DNL Amazon S3] est immédiatement disponible dans l’onglet **[!UICONTROL Mes connexions de données]**. La source de l’audience s’affiche sous la forme [!UICONTROL Amazon S3].
+Votre nouvelle connexion [!DNL Amazon S3] est immédiatement disponible dans l’onglet **[!UICONTROL Mes connexions de données]**. La source de l’audience s’affiche sous la forme [!UICONTROL Amazon S3].
 
 Votre connexion de données S3 inclut les mêmes fonctionnalités et détails que les autres connexions de données d’audience, sauf que vous ne pouvez pas ajouter ou modifier des audiences directement à partir de cette vue.
 
@@ -210,10 +210,10 @@ Votre connexion de données S3 inclut les mêmes fonctionnalités et détails qu
 >
 >Les connexions de données [!DNL Amazon S3] ne sont pas modifiables. Vous ne pouvez pas modifier des paramètres tels que la fréquence d’actualisation une fois la connexion créée. Pour mettre à jour la configuration, vous devez supprimer la connexion existante et en créer une nouvelle.
 
-![Onglet Mes connexions de données affichant la connexion de données [!DNL Amazon S3] avec les informations de statut de source.](../../assets/setup/aws-audience-sourcing/s3-data-connections-tab.png)
+![L’onglet Mes connexions de données affiche la connexion de données [!DNL Amazon S3] avec les informations de statut de source.](../../assets/setup/aws-audience-sourcing/s3-data-connections-tab.png)
 
 ## Étapes suivantes {#next-steps}
 
 Vous avez maintenant correctement configuré et connecté votre stockage [!DNL Amazon S3] en tant que source de données dans Collaboration. En exécutant ce workflow, vous avez activé l’approvisionnement sécurisé des données d’audience propriétaires pour l’activation et l’analyse de chevauchement.
 
-Une fois l’approvisionnement terminé, vos audiences apparaissent dans l’espace de travail **[!UICONTROL Mes audiences]**, prêtes pour la collaboration et l’activation. Pour obtenir des options de gestion détaillées, consultez la documentation [source et gestion des audiences](./onboard-audiences.md).
+Une fois l’approvisionnement terminé, vos audiences apparaissent dans l’espace de travail **[!UICONTROL Mes audiences]**, prêt pour la collaboration et l’activation. Pour obtenir des options de gestion détaillées, consultez la [documentation sur la source et la gestion des audiences](./onboard-audiences.md).

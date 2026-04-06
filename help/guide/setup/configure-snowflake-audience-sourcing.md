@@ -2,7 +2,7 @@
 title: Configuration  [!DNL Snowflake]  pour l’approvisionnement auprès d’audiences
 description: Découvrez comment configurer et connecter votre  [!DNL Snowflake Secure Data Share]  en tant que source de données en libre-service pour ingérer les données d’audience dans Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 517a28afc83b0e1b4a9e64fa53eb90e0ad5541e9
 workflow-type: tm+mt
 source-wordcount: '1195'

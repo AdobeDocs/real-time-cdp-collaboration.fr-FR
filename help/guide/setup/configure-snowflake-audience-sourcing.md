@@ -2,11 +2,12 @@
 title: Configuration  [!DNL Snowflake]  pour l’approvisionnement auprès d’audiences
 description: Découvrez comment configurer et connecter votre  [!DNL Snowflake Secure Data Share]  en tant que source de données en libre-service pour ingérer les données d’audience dans Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 517a28afc83b0e1b4a9e64fa53eb90e0ad5541e9
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
+source-git-commit: 19a516b472b1ddde68990f98b57667dd302f1fbc
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 1%
+source-wordcount: '1229'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +17,7 @@ Découvrez comment configurer et connecter vos [!DNL Snowflake Secure Data Share
 
 ## Vue d’ensemble {#overview}
 
-[!DNL Snowflake] est l’une des options prises en charge pour l’approvisionnement des données d’audience propriétaires dans Collaboration. D’autres méthodes disponibles incluent l’approvisionnement des audiences à partir de [&#128279;](./onboard-audiences.md), la connexion d’un [[!DNL AWS S3] compartiment](./configure-aws-s3-audience-sourcing.md) ou le chargement d’un fichier [CSV](./upload-csv-audience-sourcing.md).
+[!DNL Snowflake] est l’une des options prises en charge pour l’approvisionnement des données d’audience propriétaires dans Collaboration. D’autres méthodes disponibles incluent l’approvisionnement des audiences à partir de [](./onboard-audiences.md), la connexion d’un [[!DNL AWS S3] compartiment](./configure-aws-s3-audience-sourcing.md) ou le chargement d’un fichier [CSV](./upload-csv-audience-sourcing.md).
 
 Suivez les étapes ci-dessous pour connecter votre [!DNL Snowflake Secure Data Share] et générer les données de votre audience dans Collaboration. Une fois la configuration terminée, vous pouvez vérifier, activer et gérer vos audiences sources pour vos projets de collaboration.
 
@@ -49,11 +50,17 @@ Le workflow Ajouter une audience s’affiche. Sélectionnez **[!UICONTROL Ajoute
 
 ### Sélectionnez [!DNL Snowflake] comme connexion de données {#select-snowflake}
 
-Ensuite, sélectionnez **&#x200B;**&#x200B;comme connexion de données, puis **[!UICONTROL Suivant]**.
+Ensuite, sélectionnez **** comme connexion de données, puis **[!UICONTROL Suivant]**.
 
 ![Écran de sélection de la connexion aux données avec [!DNL Snowflake] disponible sous la forme d’une option sélectionnable.](../../assets/setup/snowflake-audience-sourcing/select-snowflake-data-connection.png)
 
 ### Vérifier le fichier d’audience {#review-audience-file}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications_snowflake"
+>title="Préparer vos données pour l’intégration"
+>abstract="Lisez le Guide de spécification d’approvisionnement d’audience pour savoir comment formater et structurer les données d’audience à partir de Snowflake pour Collaboration."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Voir le guide"
 
 Une boîte de dialogue s’affiche, expliquant les exigences du [!DNL Snowflake Share] et du fichier d’audience [!DNL Snowflake] avant de commencer le sourcing. Assurez-vous que votre [!DNL Snowflake Share] est créé avec le nom de partage, l’identifiant de compte, le schéma et la vue corrects. Pour vérifier que les données de votre audience sont formatées et structurées correctement pour une utilisation dans Collaboration, consultez le guide **[[!UICONTROL Spécification d’approvisionnement de l’audience]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.
 
@@ -144,7 +151,7 @@ Une fois le sourcing terminé, vos audiences sont disponibles dans l’onglet **
 
 ![L’onglet Mes audiences affiche une liste des audiences sources en vue tabulaire.](../../assets/setup/snowflake-audience-sourcing/snowflake-audience-list.png)
 
-En mode Grille ou Tableau, sélectionnez un élément de ligne ou **[!UICONTROL Afficher l’audience]** pour afficher un aperçu d’une audience spécifique. Elle affiche le statut, la source et le nom de la connexion de données de l’audience, ainsi que des panneaux détaillés pour **[!UICONTROL Identités]**, **[!UICONTROL Catégories]**, **[!UICONTROL Accès à la connexion]** et **[!UICONTROL Visibilité des métadonnées]**. Pour plus d’informations[&#128279;](./onboard-audiences.md#view-individual-audiences) consultez la section Comment afficher une audience individuelle) .
+En mode Grille ou Tableau, sélectionnez un élément de ligne ou **[!UICONTROL Afficher l’audience]** pour afficher un aperçu d’une audience spécifique. Elle affiche le statut, la source et le nom de la connexion de données de l’audience, ainsi que des panneaux détaillés pour **[!UICONTROL Identités]**, **[!UICONTROL Catégories]**, **[!UICONTROL Accès à la connexion]** et **[!UICONTROL Visibilité des métadonnées]**. Pour plus d’informations](./onboard-audiences.md#view-individual-audiences) consultez la section [Comment afficher une audience individuelle) .
 
 Utilisez cette vue pour confirmer les paramètres de configuration et de visibilité de l’audience avant d’utiliser l’audience dans des projets de collaboration.
 

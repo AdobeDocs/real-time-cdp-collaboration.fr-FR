@@ -2,12 +2,12 @@
 title: Ajouter et gérer des données de mesure
 description: Découvrez comment ajouter des données de mesure à Adobe Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
-source-git-commit: 42bbd17878701cfaf2cba170a9471cf5c7285796
+source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
 workflow-type: tm+mt
-source-wordcount: '1918'
-ht-degree: 5%
+source-wordcount: '2720'
+ht-degree: 4%
 
 ---
 
@@ -66,7 +66,7 @@ Le type de données de mesure définit le type d’événements que vous importe
 
 Sélectionnez **[!UICONTROL Données de conversion]** comme type de données de mesure, suivi de **[!UICONTROL Suivant]**.
 
-![L’étape Connexion aux données et détails mettant en surbrillance le type de données de mesure et l’option Suivant &#x200B;](../../assets/setup/add-manage-measurement-data/select-measurement-data-type.png){zoomable="yes"}.
+![L’étape Connexion aux données et détails mettant en surbrillance le type de données de mesure et l’option Suivant ](../../assets/setup/add-manage-measurement-data/select-measurement-data-type.png){zoomable="yes"}.
 
 #### Sélectionner la connexion de données {#select-data-connection}
 
@@ -74,7 +74,7 @@ Une connexion aux données est la source à partir de laquelle vous récupérez 
 
 Pour ajouter une connexion de données, sélectionnez **[!UICONTROL Ajouter une nouvelle connexion de données]**, puis sélectionnez **[!UICONTROL Suivant]**.
 
-![L’étape Connexion de données et détails mettant en surbrillance les options Ajouter une nouvelle connexion de données et Suivant &#x200B;](../../assets/setup/add-manage-measurement-data/select-measurement-data-connection.png){zoomable="yes"}.
+![L’étape Connexion de données et détails mettant en surbrillance les options Ajouter une nouvelle connexion de données et Suivant ](../../assets/setup/add-manage-measurement-data/select-measurement-data-connection.png){zoomable="yes"}.
 
 #### Sélectionner une source de données {#select-data-source}
 
@@ -82,7 +82,7 @@ Choisissez ensuite la source de votre connexion aux données. Actuellement, Adob
 
 Sélectionnez votre source de données, puis sélectionnez **[!UICONTROL Suivant]**.
 
-![L’étape Connexion aux données et détails mettant en surbrillance les options Adobe Experience Platform et Suivant &#x200B;](../../assets/setup/add-manage-measurement-data/select-measurement-data-source.png){zoomable="yes"}.
+![L’étape Connexion aux données et détails mettant en surbrillance les options Adobe Experience Platform et Suivant ](../../assets/setup/add-manage-measurement-data/select-measurement-data-source.png){zoomable="yes"}.
 
 #### Sélectionner un sandbox {#select-sandbox}
 
@@ -94,7 +94,7 @@ Sélectionnez le sandbox qui inclut les données de mesure que vous souhaitez ut
 
 Une liste de jeux de données dans le sandbox sélectionné s’affiche. Sélectionnez un jeu de données comme données de mesure, puis sélectionnez **[!UICONTROL Suivant]**. Vous pouvez utiliser l’option Rechercher pour filtrer et trouver le jeu de données préféré.
 
-![L’étape Connexion aux données et détails mettant en surbrillance l’option Rechercher , l’exemple de jeu de données d’événement et l’option Suivant &#x200B;](../../assets/setup/add-manage-measurement-data/select-measurement-dataset.png){zoomable="yes"}.
+![L’étape Connexion aux données et détails mettant en surbrillance l’option Rechercher , l’exemple de jeu de données d’événement et l’option Suivant ](../../assets/setup/add-manage-measurement-data/select-measurement-dataset.png){zoomable="yes"}.
 
 #### Indiquer le nom et les détails {#provide-name-and-details}
 
@@ -112,13 +112,13 @@ Pour enrichir vos données d’événement, sélectionnez l’option Clé de joi
 
 ![Écran Mappage avec l’option Clé de jointure de champ Source mise en surbrillance.](../../assets/setup/add-manage-measurement-data/select-source-field-join-key.png){zoomable="yes"}
 
-Dans la boîte de dialogue Clé de jointure de champ **&#x200B;**&#x200B;choisissez le champ source, puis **[!UICONTROL Sélectionner]**.
+Dans la boîte de dialogue Clé de jointure de champ **** choisissez le champ source, puis **[!UICONTROL Sélectionner]**.
 
 ![Boîte de dialogue de clé de jointure de champ Source mettant en surbrillance le champ Source et l’option Suivant.](../../assets/setup/add-manage-measurement-data/source-field-join-key-dialog.png){zoomable="yes"}
 
 Sélectionnez ensuite l’option **[!UICONTROL Clé de jointure du profil]**. Dans la boîte de dialogue **[!UICONTROL Clé de jointure du profil]**, sélectionnez le champ de profil dans la liste. Vous pouvez utiliser l’option Rechercher pour trouver le champ souhaité. Sélectionnez ensuite **[!UICONTROL Sélectionner]** pour confirmer.
 
-![&#x200B; Boîte de dialogue Clé de jointure du profil mettant en surbrillance la clé de recherche, le champ de profil sélectionné et l’option Suivant &#x200B;](../../assets/setup/add-manage-measurement-data/profile-join-key-dialog.png){zoomable="yes"}.
+![ Boîte de dialogue Clé de jointure du profil mettant en surbrillance la clé de recherche, le champ de profil sélectionné et l’option Suivant ](../../assets/setup/add-manage-measurement-data/profile-join-key-dialog.png){zoomable="yes"}.
 
 #### Champs de mappage {#mapping-fields}
 
@@ -130,7 +130,7 @@ La boîte de dialogue **[!UICONTROL Sélectionner le champ source]** s’affiche
 
 Choisissez le champ source de votre choix, puis **[!UICONTROL Sélectionner]**.
 
-![&#x200B; Boîte de dialogue Sélectionner le champ source mettant en surbrillance le champ source E-mails et l’option Sélectionner &#x200B;](../../assets/setup/add-manage-measurement-data/select-source-field-dialog.png){zoomable="yes"}.
+![ Boîte de dialogue Sélectionner le champ source mettant en surbrillance le champ source E-mails et l’option Sélectionner ](../../assets/setup/add-manage-measurement-data/select-source-field-dialog.png){zoomable="yes"}.
 
 Utilisez ensuite le menu déroulant pour mapper le champ source sélectionné à un champ cible approprié. Tous les champs cibles disponibles sont les clés [correspondance configurées pour votre compte collaborateur](./onboard-account.md#set-up-match-keys).
 
@@ -156,7 +156,6 @@ Si vous [activez l’enrichissement du profil lors de l’étape de mappage](#en
 * **Règles de consentement** : sélectionnez les règles de consentement à appliquer aux données provenant de Collaboration.
 * **Audience** : utilisez le filtre d’audience pour inclure ou exclure des profils d’audience pour le consentement.
 
-
 >[!NOTE]
 >
 >**[!UICONTROL Data Collaboration]** prend en charge les libellés d’utilisation des données C4, C5 et C9, tandis que **[!UICONTROL Data Science]** prend uniquement en charge C9. Consultez la documentation d’Experience Platform pour en savoir plus sur les libellés d’utilisation des données :
@@ -180,11 +179,11 @@ Pour inclure ou exclure certains profils d’audience pour le consentement, util
 
 La boîte de dialogue **[!UICONTROL Sélectionner des audiences]** s’affiche. Choisissez une audience dans la liste, puis **[!UICONTROL Sélectionner]**.
 
-![&#x200B; Boîte de dialogue Sélectionner des audiences mettant en surbrillance l’audience sélectionnée et l’option Sélectionner &#x200B;](../../assets/setup/add-manage-measurement-data/select-audiences-dialog.png){zoomable="yes"}.
+![ Boîte de dialogue Sélectionner des audiences mettant en surbrillance l’audience sélectionnée et l’option Sélectionner ](../../assets/setup/add-manage-measurement-data/select-audiences-dialog.png){zoomable="yes"}.
 
 L’audience choisie s’affiche maintenant et vous avez la possibilité de la supprimer si nécessaire. Vérifiez vos paramètres de consentement, puis sélectionnez **[!UICONTROL Suivant]**.
 
-![L’écran Gérer le consentement mettant en surbrillance l’audience sélectionnée pour le consentement et l’option Suivant &#x200B;](../../assets/setup/add-manage-measurement-data/audience-for-consent.png){zoomable="yes"}.
+![L’écran Gérer le consentement mettant en surbrillance l’audience sélectionnée pour le consentement et l’option Suivant ](../../assets/setup/add-manage-measurement-data/audience-for-consent.png){zoomable="yes"}.
 
 ### Ajouter un événement de conversion {#add-conversion-event}
 
@@ -200,7 +199,7 @@ Vous pouvez saisir une valeur pour la conversion ou la laisser vide si vous ne s
 
 Ensuite, vous devez spécifier la clé de duplication pour indiquer quelles lignes de votre jeu de données d’événement appartiennent au même événement de conversion sous-jacent (par exemple, le même horodatage pendant un processus d’inscription). Cela évite de compter la même conversion plusieurs fois dans les rapports de mesure. Pour ce faire, sélectionnez **[!UICONTROL Clé de duplication]**. Dans la boîte de dialogue **[!UICONTROL Clé de duplication]**, recherchez et choisissez la clé, puis **[!UICONTROL Sélectionner]**.
 
-![&#x200B; Boîte de dialogue Clé de duplication affichant la clé sélectionnée et l’option Sélectionner &#x200B;](../../assets/setup/add-manage-measurement-data/duplication-key-dialog.png){zoomable="yes"}
+![ Boîte de dialogue Clé de duplication affichant la clé sélectionnée et l’option Sélectionner ](../../assets/setup/add-manage-measurement-data/duplication-key-dialog.png){zoomable="yes"}
 
 Après avoir spécifié la clé de duplication, vous pouvez ajouter jusqu’à **5** conditions pour inclure uniquement les lignes pertinentes du jeu de données d’événement pour la conversion. Choisissez d’appliquer l’ensemble ou l’une de ces conditions.
 
@@ -216,7 +215,7 @@ Utilisez le menu déroulant pour sélectionner un opérateur logique, puis saisi
 
 ![Écran Ajouter un événement de conversion mettant en surbrillance la liste déroulante pour l’opérateur logique et l’option Valeur.](../../assets/setup/add-manage-measurement-data/logic-operator-dropdown.png){zoomable="yes"}
 
-Pour ajouter un autre événement de conversion, sélectionnez **[!UICONTROL Ajouter une conversion]**. Vous pouvez inclure jusqu’à 3 **&#x200B;**&#x200B;d’événements de conversion au total. Une fois l’opération terminée, passez en revue les configurations de conversion et sélectionnez **[!UICONTROL Suivant]**.
+Pour ajouter un autre événement de conversion, sélectionnez **[!UICONTROL Ajouter une conversion]**. Vous pouvez inclure jusqu’à 3 **** d’événements de conversion au total. Une fois l’opération terminée, passez en revue les configurations de conversion et sélectionnez **[!UICONTROL Suivant]**.
 
 ![Écran Ajouter un événement de conversion affichant les configurations d’événement de conversion et l’option Suivant mise en surbrillance.](../../assets/setup/add-manage-measurement-data/add-conversion-event.png){zoomable="yes"}
 
@@ -238,6 +237,100 @@ En mode Grille ou Tableau, sélectionnez un élément de ligne ou l’option **[
 * **[!UICONTROL Conditions]** : affiche les règles de condition appliquées à cet événement de conversion.
 
 ![Écran Aperçu affichant les détails d’un événement de conversion.](../../assets/setup/add-manage-measurement-data/conversion-event-overview.png){zoomable="yes"}
+
+## Modifier les données de mesure {#edit-measurement-data}
+
+Après avoir sourcé vos données de mesure, vous pouvez modifier les détails et les règles de condition d’un événement de conversion à tout moment.
+
+Dans l’onglet **[!UICONTROL Mes données de mesure]**, sélectionnez l’option représentant des points de suspension (![icône Plus](/help/assets/icons/more.png)) dans la vignette d’événement de conversion appropriée. Sélectionnez ensuite **[!UICONTROL Afficher la conversion]** dans le menu déroulant pour ouvrir la page détaillée de cet événement de conversion.
+
+![Onglet Mes données de mesure avec le menu représentant des points de suspension ouvert et l’option Afficher la conversion en surbrillance.](/help/assets/setup/add-manage-measurement-data/conversion-event-list.png){zoomable="yes"}
+
+### Modifier le nom et la description {#edit-name-and-description}
+
+Pour mettre à jour le nom et la description de l’événement, sélectionnez l’icône Modifier (![icône Modifier](/help/assets/icons/edit.png)) en haut à droite de la page.
+
+![Page de l’événement de visite du site avec l’icône Modifier en haut à droite mise en surbrillance.](/help/assets/setup/add-manage-measurement-data/edit-name-description.png){zoomable="yes"}
+
+Dans la boîte de dialogue **[!UICONTROL Modifier le nom et la description]**, mettez à jour les champs avec les valeurs souhaitées, puis sélectionnez **[!UICONTROL Enregistrer]** pour appliquer vos modifications.
+
+![Boîte de dialogue Modifier le nom et la description avec l’option Enregistrer mise en surbrillance.](/help/assets/setup/add-manage-measurement-data/edit-name-description-dialog.png){zoomable="yes"}
+
+Une boîte de dialogue de confirmation s’affiche pour confirmer que les détails ont bien été mis à jour.
+
+### Modifier les détails de la conversion {#edit-conversion-details}
+
+Vous pouvez mettre à jour les détails de conversion suivants de l’événement :
+
+| Champ | Description |
+|-------------------|-------------|
+| Type de conversion | La catégorie de l’événement de conversion, telle qu’une visite du site, un achat ou une inscription. |
+| Clé de duplication | Identifiant des lignes du jeu de données d’événement appartenant au même événement de conversion (par exemple, même date et heure). Empêche les doublons. |
+| Valeur de conversion | Valeur associée à chaque conversion. |
+
+{style="table-layout:auto"}
+
+Pour commencer la modification, sélectionnez **[!UICONTROL Modifier]** dans le panneau **[!UICONTROL Détails de la conversion]**.
+
+![Page d’événement de visite du site mettant en surbrillance l’option Modifier dans le panneau des détails de conversion.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details.png){zoomable="yes"}
+
+Dans la boîte de dialogue **[!UICONTROL Modifier les détails de conversion]**, utilisez le menu déroulant pour mettre à jour le type de conversion. Vous pouvez saisir une valeur pour la conversion ou la laisser vide si vous ne souhaitez pas lui attribuer de valeur. Pour modifier la clé de duplication, sélectionnez l’option Clé existante .
+
+![Boîte de dialogue Modifier les détails de la conversion avec l’option Exemple d’ID de personne mise en surbrillance.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-dialog.png){zoomable="yes"}
+
+La boîte de dialogue **[!UICONTROL Clé de duplication]** affiche une liste des champs disponibles regroupés sous des options telles que **[!UICONTROL Espace de noms d’identité]** et **[!UICONTROL Schéma d’événement]**. Recherchez et choisissez la touche souhaitée, puis **[!UICONTROL Sélectionner]**.
+
+![ Boîte de dialogue Clé de duplication affichant la clé choisie et l’option Sélectionner ](../../assets/setup/add-manage-measurement-data/edit-duplication-key-dialog.png){zoomable="yes"}
+
+Une fois l’opération terminée, passez en revue les mises à jour et sélectionnez **[!UICONTROL Enregistrer]** pour appliquer les modifications.
+
+![Boîte de dialogue Modifier les détails de la conversion avec l’option Enregistrer mise en surbrillance.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-save.png){zoomable="yes"}
+
+Une boîte de dialogue de confirmation s’affiche pour confirmer que les détails ont bien été mis à jour.
+
+### Modifier les conditions {#edit-conditions}
+
+Les règles de condition spécifient les lignes de données de votre jeu de données d’événement incluses en tant que conversions. Mettez à jour ces règles selon les besoins pour vous assurer que votre mesure reflète uniquement les données les plus pertinentes pour votre analyse.
+
+Pour modifier des conditions, sélectionnez **[!UICONTROL Modifier]** dans le panneau **[!UICONTROL Conditions]**.
+
+![Page d’événement de visite du site mettant en surbrillance l’option Modifier dans le panneau Conditions.](/help/assets/setup/add-manage-measurement-data/edit-conditions.png){zoomable="yes"}
+
+Dans la boîte de dialogue **[!UICONTROL Modifier les règles de conversion]**, vous pouvez afficher les détails actuels de toutes les conditions. Sélectionnez une option de condition existante pour mettre à jour ses détails, y compris le champ source, la règle logique et la valeur.
+
+![Boîte de dialogue Modifier les règles de conversion mettant en surbrillance les options permettant de modifier le champ source, la règle logique et la valeur d’une condition existante.](/help/assets/setup/add-manage-measurement-data/edit-exisiting-condition.png){zoomable="yes"}
+
+Pour inclure des règles de conversion supplémentaires, sélectionnez **[!UICONTROL Ajouter une condition]**. Sélectionnez ensuite l’option Nouvelle condition vide .
+
+![Boîte de dialogue Modifier les règles de conversion affichant la nouvelle option de condition vide après avoir sélectionné l’option Ajouter une condition.](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-add-condition.png){zoomable="yes"}
+
+Dans la boîte de dialogue **[!UICONTROL Sélectionner le champ source]**, vous pouvez voir les champs disponibles regroupés sous des options telles que **[!UICONTROL Espace de noms d’identité]** et **[!UICONTROL Schéma d’événement]**. Sélectionnez le champ approprié à utiliser pour votre condition, puis choisissez **[!UICONTROL Sélectionner]**. Vous pouvez utiliser l’option **[!UICONTROL Rechercher]** pour trouver rapidement le champ de votre choix.
+
+![ La boîte de dialogue Sélectionner le champ source affiche le champ sélectionné et l’option Sélectionner ](../../assets/setup/add-manage-measurement-data/edit-condition-source-key.png){zoomable="yes"}.
+
+Ensuite, utilisez le menu déroulant pour sélectionner un opérateur logique dans la liste disponible et saisissez une valeur pour la condition.
+
+![Boîte de dialogue Modifier les règles de conversion mettant en surbrillance le menu déroulant logique.](../../assets/setup/add-manage-measurement-data/edit-condition-logic-dropdown.png){zoomable="yes"}
+
+Utilisez **[!UICONTROL Inclure toutes les conditions]** si toutes les conditions spécifiées sont requises pour chaque conversion, ou utilisez **[!UICONTROL Inclure n’importe laquelle des conditions]** pour autoriser les conversions qui correspondent à au moins une condition. Une fois la mise à jour terminée, vérifiez et sélectionnez **[!UICONTROL Enregistrer]** pour appliquer les modifications.
+
+![Boîte de dialogue Modifier les règles de conversion avec l’option Enregistrer mise en surbrillance.](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-save.png){zoomable="yes"}
+
+Une boîte de dialogue de confirmation s’affiche pour confirmer que les détails ont bien été mis à jour.
+
+## Suppression des données de mesure {#delete-measurement-data}
+
+La suppression des données de mesure supprime définitivement de votre projet l’événement de conversion associé et tous les détails de mesure liés. Les rapports de mesure qui reposent sur cet événement perdront les mesures de conversion correspondantes et ne pourront plus être mis à jour. Cette action ne peut pas être annulée.
+
+Pour supprimer un événement de conversion existant, accédez à l’onglet **[!UICONTROL Mes données de mesure]** dans l’espace de travail **[!UICONTROL Configuration]**. En mode Grille, sélectionnez **[!UICONTROL Supprimer]** dans la vignette d’événement appropriée. En mode Tableau, sélectionnez l’icône de suppression (![icône de suppression](/help/assets/common/delete.svg)) à côté du nom de l’événement.
+
+![Onglet Mes données de mesure mettant en surbrillance l’option Supprimer dans une ligne d’événement de conversion.](/help/assets/setup/add-manage-measurement-data/delete-measurement-data.png){zoomable="yes"}
+
+La boîte de dialogue **[!UICONTROL Supprimer la mesure]** s’affiche et vous invite à confirmer la suppression de l’événement. Sélectionnez **[!UICONTROL Supprimer]**.
+
+![Boîte de dialogue Supprimer la mesure avec l’option Supprimer mise en surbrillance.](/help/assets/setup/add-manage-measurement-data/delete-measurement-dialog.png){zoomable="yes"}
+
+Une boîte de dialogue de confirmation s’affiche pour confirmer que l’événement de conversion a bien été supprimé.
 
 ## Étapes suivantes {#next-steps}
 

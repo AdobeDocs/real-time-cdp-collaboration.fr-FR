@@ -2,10 +2,10 @@
 user-guide-title: Collaboration Real-Time CDP
 breadcrumb-title: Collaboration Real-Time CDP
 user-guide-description: Adobe Real-Time CDP Collaboration permet un partage de données et une collaboration transparents et sécurisés entre les annonceurs et les éditeurs, ce qui facilite les informations sur les audiences en temps réel et les stratégies marketing personnalisées.
-source-git-commit: f4b82bba5221480ed642d95859bc018c6e450b98
+source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 31%
+source-wordcount: '204'
+ht-degree: 30%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 31%
    * [Suivre votre activité de consommation de crédit](/help/guide/setup/my-activity.md)
    * [Croisements d’identités](./setup/identity-crosswalk.md)
    * [Ajouter et gérer des données de mesure](./setup/onboard-measurement-data.md)
+   * [Gérer la connexion aux données de mesure](./setup/manage-measurement-data-connection.md)
    * [Journaux d’audit](./setup/audit-logs.md)
    * Configuration de Real-Time CDP Collaboration Starter {#starter-setup}
       * [Configuration de l’accès administrateur](./setup/starter-admin-access.md)

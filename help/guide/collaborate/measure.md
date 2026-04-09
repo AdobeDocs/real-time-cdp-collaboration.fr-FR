@@ -2,12 +2,12 @@
 title: Mesurer les performances
 description: Mesurez les performances de vos campagnes sur différents canaux. Découvrez comment utiliser et interpréter divers rapports.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: 0cf888e36ffc4730fc8de4d8adccae0e0fc2caa8
+source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
 workflow-type: tm+mt
-source-wordcount: '1949'
-ht-degree: 6%
+source-wordcount: '2612'
+ht-degree: 5%
 
 ---
 
@@ -26,7 +26,7 @@ Découvrez les rapports disponibles dans Adobe Real-Time CDP Collaboration et co
 Avant de pouvoir accéder aux rapports de mesure dans Collaboration, vous devez :
 
 * [Se connecter](/help/guide/connect/establishing-connections.md) avec un collaborateur avec le cas d’utilisation **Measurement** activé
-* Collaborez à au moins un projet avec votre collaborateur. Découvrez comment [&#x200B; créer un projet &#x200B;](/help/guide/collaborate/manage-projects.md#create-project).
+* Collaborez à au moins un projet avec votre collaborateur. Découvrez comment [ créer un projet ](/help/guide/collaborate/manage-projects.md#create-project).
 * Exécutez votre campagne et assurez-vous qu’un [identifiant de campagne est fourni pour la campagne](../collaborate/manage-projects.md#manage-campaign-id) :
    * Si vous êtes un éditeur, saisissez l’identifiant de campagne associé à la campagne de votre annonceur.
    * Si vous êtes un annonceur, demandez à votre collaborateur (éditeur) de fournir l’identifiant de la campagne. Cela est nécessaire pour [générer des rapports dans l’espace de travail Mesure](#create-measurement-report).
@@ -52,7 +52,7 @@ Pour visualiser les rapports disponibles dans l&#39;onglet Mesure :
 
 Sélectionnez **[!UICONTROL Afficher le rapport complet]** pour accéder aux différents rapports disponibles, détaillés ci-dessous.
 
-![Comment accéder à l’onglet Mesure dans un projet &#x200B;](/help/assets/collaborate/measure/measurement.gif).
+![Comment accéder à l’onglet Mesure dans un projet ](/help/assets/collaborate/measure/measurement.gif).
 
 ### Vue récapitulative
 
@@ -239,3 +239,81 @@ Enfin, passez en revue vos paramètres et sélectionnez **[!UICONTROL Créer]** 
 Une fois disponible, vous pouvez afficher votre rapport à tout moment dans l’onglet **[!UICONTROL Mesure]** de l’espace de travail du projet.
 
 ![Écran Créer un rapport de mesure affichant les informations et l’option Créer mise en surbrillance.](/help/assets/collaborate/measure/attribution-review.png)
+
+## Modifier le rapport de mesure {#edit-measurement-report}
+
+>[!IMPORTANT]
+>
+>Vous ne pouvez modifier les paramètres d&#39;un rapport de mesure que s&#39;il est planifié pour une exécution ultérieure. Pour les rapports qui ont déjà été exécutés, les paramètres ne peuvent pas être modifiés.
+
+Mettez à jour les paramètres d’un rapport de mesure pour vous assurer qu’il fournit une analyse correcte de votre campagne au cours d’une période spécifique et s’exécute à une date souhaitée.
+
+Pour commencer, accédez à l’espace de travail du rapport de mesure à mettre à jour. Sélectionnez l’icône Modifier (![icône Modifier](/help/assets/icons/edit.png)) à côté de l’icône Supprimer .
+
+![Espace de travail du rapport de mesure avec l’icône Modifier mise en surbrillance.](/help/assets/collaborate/measure/edit-report.png)
+
+>[!TIP]
+>
+>Dans l’onglet **[!UICONTROL Mesure]**, accédez à la section du rapport que vous souhaitez modifier. Sélectionnez l’icône Modifier (![icône Modifier](/help/assets/icons/edit.png)) à côté de **[!UICONTROL Afficher le rapport complet]** pour mettre à jour ses paramètres.
+>![Onglet Mesure mettant en surbrillance l’icône Modifier dans une section de rapport.](/help/assets/collaborate/measure/measure-tab-edit-report.png)
+
+La boîte de dialogue **[!UICONTROL Modifier le rapport de mesure]** s’affiche avec les paramètres actuels du rapport dans les sections suivantes :
+
+* [**Détails de facturation**](#billing-details) : affiche des informations sur les crédits lors de l’exécution des rapports de mesure. Aucune configuration n’est requise.
+* [**Détails de la campagne**](#campaign-details) : affiche les paramètres de l’annonceur, l’identifiant de campagne, la période de création de rapports et un nom de rapport convivial.
+* [**Détails du rapport**](#report-details) : affiche les paramètres du type de rapport, la date d’exécution du rapport et les options de configuration, en particulier pour les rapports d’attribution.
+
+![Boîte de dialogue Modifier le rapport de mesure affichant les paramètres actuels sous les sections Détails de facturation, Détails de la campagne et Détails du rapport.](/help/assets/collaborate/measure/edit-measurement-report-dialog.png)
+
+### Modifier les détails de la campagne {#edit-campaign-details}
+
+Dans la boîte de dialogue **[!UICONTROL Modifier le rapport de mesure]**, utilisez les menus déroulants **[!UICONTROL Identifiant de l’annonceur (nom)]** et **[!UICONTROL Identifiant de campagne]** pour modifier l’annonceur et l’identifiant de campagne de votre rapport.
+
+![La boîte de dialogue Modifier le rapport de mesure mettant en surbrillance le menu déroulant Identifiant de campagne s’ouvre.](/help/assets/collaborate/measure/edit-campaign-id.png)
+
+Sélectionnez ensuite **[!UICONTROL Période du rapport]** et utilisez le calendrier pour modifier les dates de début et de fin du rapport.
+
+![La boîte de dialogue Modifier le rapport de mesure mettant en surbrillance le calendrier Période du rapport ouvert.](/help/assets/collaborate/measure/edit-report-date-range.png)
+
+Saisissez un nom de rapport convivial mis à jour pour capturer vos modifications récentes. Cela vous aidera à reconnaître et à trouver ce rapport à l’avenir.
+
+![Boîte de dialogue Modifier le rapport de mesure mettant en surbrillance le nom convivial du rapport mis à jour.](/help/assets/collaborate/measure/edit-friendly-report-name.png)
+
+### Modifier les détails du rapport {#edit-report-details}
+
+Pour planifier le rapport à une autre date, accédez à la section **[!UICONTROL Détails du rapport]**. Sélectionnez l’option Date d’exécution actuelle , puis utilisez le calendrier pour choisir la date souhaitée.
+
+![Boîte de dialogue Modifier le rapport de mesure mettant en surbrillance le calendrier de date d’exécution du rapport.](/help/assets/collaborate/measure/edit-report-run-date.png)
+
+En tant qu’annonceur, vous avez la possibilité de sélectionner ou de supprimer le type de rapport **[!UICONTROL Attribution]** en plus du **[!UICONTROL Résumé de la campagne]**. Si vous choisissez **[!UICONTROL Attribution]**, votre rapport d’attribution comprend à la fois les mesures standard de résumé de la campagne et des informations détaillées sur l’attribution. Pour plus d&#39;informations sur les types de rapports **Synthèse de la campagne** et **Attribution**, consultez la section [Créer un rapport de mesure](#create-measurement-report).
+
+>[!IMPORTANT]
+>
+>Si vous êtes un **éditeur**, le type de rapport par défaut est **[!UICONTROL Résumé de la campagne]** et ne peut pas être modifié pour le moment.
+
+* Si vous choisissez **[!UICONTROL Attribution]** comme type de rapport, vous devez renseigner les champs obligatoires dans la section **[!UICONTROL Attribution]**. Pour obtenir des instructions de configuration, voir la section [détails du rapport d’attribution](#report-details-attribution).
+* Si vous avez précédemment configuré les paramètres d’attribution lors de la création du rapport, vous pouvez choisir de modifier l’intervalle de recherche en amont (exprimé en jours) et sélectionner les événements de conversion sur lesquels créer le rapport.
+
+Pour mettre à jour **[!UICONTROL Intervalle de recherche en amont en jours]**, saisissez une valeur numérique ou ajustez-la à l’aide des options d’incrémentation/décrémentation. Sélectionnez ensuite les événements de conversion sur lesquels vous souhaitez créer un rapport. Vous pouvez choisir jusqu’à **3** conversions dans la liste disponible.
+
+![Boîte de dialogue Modifier le rapport de mesure mettant en surbrillance les événements de conversion mis à jour.](/help/assets/collaborate/measure/edit-conversion-events.png)
+
+Une fois l’opération terminée, passez en revue les mises à jour et sélectionnez **[!UICONTROL Modifier]** pour appliquer les modifications.
+
+![Boîte de dialogue Modifier le rapport de mesure avec l’option Modifier mise en surbrillance.](/help/assets/collaborate/measure/edit-report-confirm.png)
+
+Une boîte de dialogue de confirmation confirme que votre rapport a bien été enregistré.
+
+## Supprimer le rapport de mesure {#delete-measurement-report}
+
+La suppression d’un rapport de mesure dans Collaboration le supprime définitivement du système. Cette action ne peut pas être annulée. Pour cela, sélectionnez le rapport que vous souhaitez supprimer dans l&#39;onglet **[!UICONTROL Mesure]** .
+
+Dans l’espace de travail du rapport de mesure, sélectionnez l’icône de suppression (![icône de suppression](/help/assets/common/delete.svg)).
+
+![Espace de travail du rapport de mesure avec l’icône Supprimer mise en surbrillance.](/help/assets/collaborate/measure/delete-report.png)
+
+La boîte de dialogue **[!UICONTROL Supprimer le rapport]** s’affiche et vous invite à confirmer la suppression. Sélectionnez **[!UICONTROL Supprimer]**.
+
+![Boîte de dialogue Supprimer le rapport avec l’option Supprimer mise en surbrillance.](/help/assets/collaborate/measure/delete-report-confirm.png)
+
+Une boîte de dialogue de confirmation confirme la suppression réussie du rapport.

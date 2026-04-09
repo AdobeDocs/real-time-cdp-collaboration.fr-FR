@@ -41,7 +41,7 @@ Les rôles d’accès de votre organisation déterminent ce que les utilisateurs
 
 Regardez cette vidéo pour savoir comment attribuer des accès et des autorisations de produit pour Collaboration à l’aide d’Admin Console et d’Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452232/?captions=fre_fr&learn=on&enablevpops)
 
 ## Étape 2 : configurer votre compte Collaboration {#set-up-your-account}
 

@@ -1,13 +1,13 @@
 ---
 title: Guide de démarrage rapide et de configuration de Real-Time CDP Collaboration
-description: Découvrez comment configurer Real-Time CDP Collaboration, les rôles et les comptes, les audiences sources, activer les données et communiquer avec des partenaires en toute sécurité.
+description: Découvrez comment paramétrer Real-Time CDP Collaboration, configurer des rôles et des comptes, des audiences sources, activer des données et communiquer avec des partenaires en toute sécurité.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: bd6c28c3d21ea98434c6cdf585a3e439f7d2ce70
+source-git-commit: a937773267f42f254b45c14a0fd2f5f1d3b32b8b
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 0%
+source-wordcount: '1406'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Avant de commencer, vérifiez que vous disposez des éléments suivants :
 - [Accès configuré pour les utilisateurs finaux](./permissions/manage-user-access.md).
 - [Rôles créés pour votre organisation et affectés aux utilisateurs](./permissions/manage-roles.md).
 - Accès aux ressources de marque, telles que le nom, le logo et la bannière de votre organisation.
-- Une stratégie de clé de correspondance [&#x200B; définie](./setup/onboard-account.md#set-up-match-keys)
+- Une stratégie de clé de correspondance [ définie](./setup/onboard-account.md#set-up-match-keys)
 - (Facultatif) Accès à une source cloud prise en charge (Amazon S3 ou Snowflake) si vous n’utilisez pas Experience Platform pour la gestion de l’audience.
 
 ## Étape 1 : terminer la configuration basée sur les rôles {#complete-role-based-setup}
@@ -41,7 +41,7 @@ Les rôles d’accès de votre organisation déterminent ce que les utilisateurs
 
 Regardez cette vidéo pour savoir comment attribuer des accès et des autorisations de produit pour Collaboration à l’aide d’Admin Console et d’Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452232/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Étape 2 : configurer votre compte Collaboration {#set-up-your-account}
 
@@ -107,7 +107,7 @@ Configurez la manière dont les audiences sont préparées, appariées et gouver
 >
 >**Respectez les principales exigences :**
 >
->Toutes les clés de correspondance doivent être **tronquées**, **en minuscules**
+>Toutes les clés de correspondance doivent être **rognées**, **en minuscules**
 >Les clés de correspondance hachées doivent être **SHA256-hachées**.\
 >Si vous fournissez des valeurs hachées qui utilisent des caractères majuscules, Collaboration les convertit automatiquement en minuscules.\
 >Si votre source contient des **identifiants en texte brut**, utilisez l’option **[!UICONTROL Appliquer la transformation]** pour appliquer le hachage. Cette option est disponible uniquement lors de l’approvisionnement d’audiences à partir d’Experience Platform et n’est pas prise en charge pour les sources cloud.
@@ -132,7 +132,7 @@ Si vous utilisez [!DNL Snowflake] ou un autre fournisseur de services cloud, con
 >
 >Les fichiers d’audience basés sur le cloud doivent suivre le schéma requis décrit dans le PDF de spécification d’audience. Les fichiers doivent inclure des identifiants hachés (SHA256 en minuscules), les champs de métadonnées requis tels que `segment_name` et `activation_id`, et utiliser des formats pris en charge tels que CSV ou Parquet. Adobe ne normalise pas les données avant l’activation. La durée de vie est appliquée en fonction de la durée de vie de l’audience.
 >
->Toutes les audiences du fichier chargé sont entièrement sourcées à ce stade. Le [&#x200B; paramètre de visibilité de l’audience &#x200B;](/help/guide/setup/onboard-audiences.md#metadata-visibility) détermine si vos collaborateurs peuvent afficher votre audience. Il est géré via l’interface utilisateur de Collaboration.
+>Toutes les audiences du fichier chargé sont entièrement sourcées à ce stade. Le [ paramètre de visibilité de l’audience ](/help/guide/setup/onboard-audiences.md#metadata-visibility) détermine si vos collaborateurs peuvent afficher votre audience. Il est géré via l’interface utilisateur de Collaboration.
 
 ## Étape 4 : activer les audiences (vers Experience Platform ou une destination cloud) {#activate-audiences}
 
@@ -154,10 +154,6 @@ Pour configurer une destination cloud (par exemple, [!DNL AWS S3] ou [!DNL Snowf
 Les données d’audience envoyées à une destination cloud suivent un schéma prédéfini. Pour une description détaillée des champs et du format requis, téléchargez le [Guide Collaboration Audience Activation](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf).
 
 ## Étape 5 : configurer la mesure (facultatif) {#set-up-measurement}
-
->[!AVAILABILITY]
->
->Cette fonctionnalité est en version **bêta** et disponible exclusivement pour les clients et clientes du programme à disponibilité limitée. Contactez votre représentant Adobe pour demander l’accès.
 
 >[!IMPORTANT]
 >

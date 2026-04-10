@@ -1,8 +1,8 @@
 ---
 source-git-commit: 8a83aad489d440c1ab6b102d64f3bc558263c7b7
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '521'
+ht-degree: 93%
 
 ---
 # Article sur les contributions
@@ -26,8 +26,8 @@ Ce projet a adopté le [code de conduite Adobe Open Source](code-of-conduct.md) 
 Si vous contribuez à une mise à jour mineure, procédez comme suit :
 
 1. Accédez à la rubrique que vous souhaitez modifier.
-1. Dans la bannière « Ce contenu a-t-il été utile ? » qui apparaît au bas de la fenêtre de votre navigateur, cliquez sur **Options de commentaires détaillées**.
-1. Cliquez sur **Suggérer une modification** et envoyez une requête de tirage (PR) avec vos modifications dans l’interface d’utilisation GitHub.
+1. Dans la bannière « Ce contenu a-t-il été utile ? » La bannière qui s’affiche en bas de la fenêtre du navigateur, cliquez sur **Options détaillées relatives aux commentaires**.
+1. Cliquez sur **Suggérer une modification** et envoyez une requête de tirage (PR) avec vos modifications dans l’interface utilisateur GitHub.
 
    Pour plus d’informations, consultez le [Guide du contributeur de documents Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=fr).
 
@@ -47,14 +47,14 @@ Consultez le [Guide du contributeur de documents Adobe](https://experienceleague
 
 ## Contributeurs et contributrices internes
 
-Si vous êtes une personne chargée de la rédaction technique, de la gestion de projets ou du développement au sein de l’équipe produit d’une solution Adobe Experience Cloud et qu’il vous incombe de contribuer à des articles techniques ou de les rédiger, utilisez le [référentiel privé](https://git.corp.adobe.com/AdobeDocs).
+Si vous êtes en charge de la rédaction technique, si vous êtes responsable de programme ou si vous occupez un poste de développement dans l’équipe produit pour une solution Adobe Experience Cloud et qu’il vous incombe de contribuer à des articles techniques ou de les rédiger, utilisez le [référentiel privé](https://git.corp.adobe.com/AdobeDocs).
 
 ## Formater votre rubrique
 
 Tous les articles de ce référentiel utilisent le markdown GitHub. Si vous ne connaissez pas Markdown, consultez ce qui suit :
 
 * [Concepts de base de Markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Markdown cheatsheet imprimable](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Aide-mémoire markdown imprimable](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Étiquettes
 

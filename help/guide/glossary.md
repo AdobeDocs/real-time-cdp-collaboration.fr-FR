@@ -3,12 +3,11 @@ title: Glossaire
 description: Comprendre la terminologie clé de Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-hidefromtoc: true
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
+source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '837'
 ht-degree: 3%
 
 ---
@@ -103,11 +102,11 @@ Un chevauchement (ou chevauchement d’audience) fait référence aux segments d
 
 Un projet dans Adobe Real-Time CDP Collaboration est un espace de travail dans lequel les utilisateurs peuvent collaborer sur des tâches spécifiques d’intégration de données et de segmentation d’audience. Les projets aident à organiser et à gérer les efforts de partage de données, rendant la collaboration plus efficace et rationalisée.
 
-### Public audience
+### Audience publique
 
 Dans le contexte des projets, il s’agit d’une audience que votre collaborateur peut découvrir. Les audiences peuvent être privées, personnalisées ou publiques. Les audiences privées ne sont détectables par aucun autre collaborateur. Les audiences personnalisées ne peuvent être découvertes que par certains collaborateurs, et les audiences publiques peuvent être découvertes par tous les collaborateurs.
 
-### Éditeur ou éditrice
+### Éditeur
 
 Un éditeur est propriétaire ou exploitant de contenu ou de services en ligne où des données personnelles sont collectées avec consentement et sont disponibles pour être utilisées par d&#39;autres entités pour la publicité numérique et la mesure d&#39;audience.
 

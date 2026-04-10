@@ -3,12 +3,11 @@ title: Croisements d’identités
 description: Découvrez les passerelles d’identité dans Real-Time CDP Collaboration, notamment comment les importer de différentes sources et comment les gérer.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
+source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '546'
 ht-degree: 22%
 
 ---
@@ -29,7 +28,7 @@ Dans un premier temps, vous devez importer les passages pour piétons d’identi
 
 ## Importer les passages croisés d’identités dans Real-Time CDP Collaboration {#import-crosswalk}
 
-Accédez à l’onglet **[!UICONTROL Configuration]** > **[!UICONTROL Passages pour identités]**, sélectionnez l’icône d’ajout (![icône d’ajout).](/help/assets/icons/plus.png)), puis sélectionnez **[!UICONTROL Passage d’identité]**
+Accédez à l’onglet **[!UICONTROL Configuration]** > **[!UICONTROL Passages d’identité]**, sélectionnez l’icône d’ajout (![Ajouter une icône.](/help/assets/icons/plus.png)), puis sélectionnez **[!UICONTROL Passage d’identité]**
 
 ![Enregistrement de la manière d’accéder à l’écran pour ajouter des passerelles d’identité](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 

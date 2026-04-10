@@ -2,7 +2,7 @@
 title: Configuration des contrôles des autorisations pour l’intégration de Collaboration Starter
 description: Découvrez comment configurer des autorisations pour Adobe Real-Time CDP Collaboration Starter à l’aide des autorisations dans Adobe Experience Cloud.
 audience: users invited to Real-Time CDP Collaboration Starter
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: 4e50b6cc-58f7-4a0c-8b6d-f5aa4f092e9f
 source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a

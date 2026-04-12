@@ -2,12 +2,12 @@
 title: Configuration de Adobe Experience Platform en tant que destination
 description: Découvrez comment configurer et gérer Adobe Experience Platform en tant que destination dans Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 11%
+source-wordcount: '1534'
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 11%
 
 {{limited-availability-release-note}}
 
-Configurez cette destination pour activer les audiences de votre projet vers Adobe Experience Platform. L’activation des audiences dans Adobe Experience Platform vous permet d’exploiter les fonctionnalités de la plateforme en matière de segmentation, d’analyse et d’activation des audiences sur divers canaux marketing. Pour en savoir plus sur Adobe Experience Platform, consultez la présentation d’[Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/home){target="_blank"}.
+Configurez cette destination pour activer les audiences de votre projet vers Adobe Experience Platform. L’activation des audiences dans Adobe Experience Platform vous permet d’exploiter les fonctionnalités de la plateforme en matière de segmentation, d’analyse et d’activation des audiences sur divers canaux marketing. Pour en savoir plus sur Adobe Experience Platform, consultez la présentation d’[Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
 
 >[!WARNING]
 >
@@ -98,7 +98,7 @@ Un retailer souhaite envoyer les données en cours d’activation à Experience 
 
 >[!NOTE]
 >
->Pour qu’un profil soit activé, il doit avoir des valeurs pour la clé de correspondance d’origine et la clé de correspondance liée. Par exemple, si l’ID haché est lié à un ID CRM, un profil doit posséder des valeurs pour que l’ID haché et l’ID CRM soient activés l’un et l’autre. Si l’une des valeurs est manquante, le profil ne sera pas activé.
+>Pour qu’un profil soit activé, il doit disposer de valeurs pour la clé correspondante d’origine et la clé correspondante liée. Par exemple, si l’ID haché est lié à un ID CRM, un profil doit posséder des valeurs pour que l’ID haché et l’ID CRM soient activés l’un et l’autre. Si l’une des valeurs est manquante, le profil ne sera pas activé.
 
 Pour utiliser une clé liée, activez/désactivez l’option **[!UICONTROL Clé liée]** en regard de la clé de correspondance que vous souhaitez utiliser à sa place. La section **[!UICONTROL Clé liée]** s’affiche et vous demande de créer le mappage.
 
@@ -150,4 +150,4 @@ Maintenant que vous avez configuré Adobe Experience Platform en tant que destin
 
 ![Audience Portal avec Real-Time CDP Collaboration comme origine dans les options de filtrage.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Pour en savoir plus sur Audience Portal, consultez le guide [Présentation d’Audience Portal](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.
+Pour en savoir plus sur Audience Portal, consultez le guide [Présentation d’Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.

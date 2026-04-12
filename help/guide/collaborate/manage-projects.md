@@ -2,7 +2,7 @@
 title: Créer et gérer des projets
 description: Découvrez comment créer et gérer des projets dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 source-git-commit: 0cf888e36ffc4730fc8de4d8adccae0e0fc2caa8
 workflow-type: tm+mt
@@ -41,7 +41,7 @@ Pour créer un projet, vous devez d’abord [établir une connexion](/help/guide
 >title="Nom de d’annonceur"
 >abstract="Sélectionnez le nom de l’annonceur dans le menu déroulant. Les options sont préconfigurées par l’éditeur dans les paramètres de connexion afin d’assurer la compatibilité avec ses systèmes."
 
-Accédez à **[!UICONTROL Collaborer]** puis à **[!UICONTROL Mes projets]**. S’il s’agit de votre premier projet, vous pouvez sélectionner **[!UICONTROL Créer un projet]**. Sinon, vous pouvez sélectionner l’icône d’ajout (![&#x200B; Ajouter une icône &#x200B;](/help/assets/icons/plus.png)) pour créer un projet à tout moment.
+Accédez à **[!UICONTROL Collaborer]** puis à **[!UICONTROL Mes projets]**. S’il s’agit de votre premier projet, vous pouvez sélectionner **[!UICONTROL Créer un projet]**. Sinon, vous pouvez sélectionner l’icône d’ajout (![ Ajouter une icône ](/help/assets/icons/plus.png)) pour créer un projet à tout moment.
 
 ![Sélectionnez le symbole plus ou Créez un projet pour configurer un nouveau projet.](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
@@ -78,7 +78,7 @@ L’espace de travail **[!UICONTROL Présentation du projet]** correspondant s�
 
 Dans la boîte de dialogue **[!UICONTROL Identifiant et nom de la campagne]**, sélectionnez **[!UICONTROL Ajouter un identifiant de campagne]** pour ajouter une nouvelle ligne dans laquelle vous pouvez saisir les détails de la campagne.
 
-![La boîte de dialogue Identifiant et nom de la campagne affiche la ligne de campagne vide après avoir sélectionné l’option Ajouter un identifiant de campagne &#x200B;](/help/assets/collaborate/manage-view-projects/add-campaign-row.png){zoomable="yes"}.
+![La boîte de dialogue Identifiant et nom de la campagne affiche la ligne de campagne vide après avoir sélectionné l’option Ajouter un identifiant de campagne ](/help/assets/collaborate/manage-view-projects/add-campaign-row.png){zoomable="yes"}.
 
 Indiquez les **[!UICONTROL Identifiant de campagne]** et **[!UICONTROL Nom de la campagne]**, puis sélectionnez **[!UICONTROL Enregistrer]**.
 

@@ -71,6 +71,6 @@ La colonne **[!UICONTROL Activité]** affiche différents types d’opérations 
 
 Pour gérer efficacement votre consommation de crédit :
 
-1. **comprendre** la consommation du crédit associée à chaque activité ; Consultez la description du produit [](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} pour obtenir un tableau des crédits utilisés par activité.
+1. **comprendre** la consommation du crédit associée à chaque activité ; Consultez la description du produit [&#128279;](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} pour obtenir un tableau des crédits utilisés par activité.
 2. **Surveiller régulièrement** : consultez fréquemment votre tableau de bord d’activité pour comprendre les schémas d’utilisation.
 3. **Suivi par connexion** : utilisez le nom de la connexion pour identifier les connexions qui consomment le plus de crédits.

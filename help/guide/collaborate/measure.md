@@ -26,7 +26,7 @@ Découvrez les rapports disponibles dans Adobe Real-Time CDP Collaboration et co
 Avant de pouvoir accéder aux rapports de mesure dans Collaboration, vous devez :
 
 * [Se connecter](/help/guide/connect/establishing-connections.md) avec un collaborateur avec le cas d’utilisation **Measurement** activé
-* Collaborez à au moins un projet avec votre collaborateur. Découvrez comment [ créer un projet ](/help/guide/collaborate/manage-projects.md#create-project).
+* Collaborez à au moins un projet avec votre collaborateur. Découvrez comment [&#x200B; créer un projet &#x200B;](/help/guide/collaborate/manage-projects.md#create-project).
 * Exécutez votre campagne et assurez-vous qu’un [identifiant de campagne est fourni pour la campagne](../collaborate/manage-projects.md#manage-campaign-id) :
    * Si vous êtes un éditeur, saisissez l’identifiant de campagne associé à la campagne de votre annonceur.
    * Si vous êtes un annonceur, demandez à votre collaborateur (éditeur) de fournir l’identifiant de la campagne. Cela est nécessaire pour [générer des rapports dans l’espace de travail Mesure](#create-measurement-report).
@@ -52,7 +52,7 @@ Pour visualiser les rapports disponibles dans l&#39;onglet Mesure :
 
 Sélectionnez **[!UICONTROL Afficher le rapport complet]** pour accéder aux différents rapports disponibles, détaillés ci-dessous.
 
-![Comment accéder à l’onglet Mesure dans un projet ](/help/assets/collaborate/measure/measurement.gif).
+![Comment accéder à l’onglet Mesure dans un projet &#x200B;](/help/assets/collaborate/measure/measurement.gif).
 
 ### Vue récapitulative
 

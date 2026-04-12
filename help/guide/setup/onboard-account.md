@@ -21,11 +21,11 @@ Découvrez comment configurer votre compte dans Real-Time CDP Collaboration pour
 
 ## Configurer votre compte {#set-up-account}
 
-Lorsque vous accédez à Collaboration pour la première fois, vous êtes invité à configurer votre compte. Il s’agit d’un processus unique qui vous permet de configurer les détails de votre compte et de faire correspondre les clés. S’il s’agit du premier compte de votre entreprise, vous serez immédiatement dirigé tout au long du processus d’intégration, en commençant par configurer les [détails de votre compte](#set-up-details).
+Lorsque vous accédez à Collaboration pour la première fois, vous êtes invité à configurer votre compte. Il s’agit d’un processus unique qui vous permet de configurer les détails de votre compte et de faire correspondre les clés. S’il s’agit du premier compte de votre entreprise, vous serez immédiatement dirigé tout au long du processus d’intégration, en commençant par la configuration de vos [détails de compte](#set-up-details).
 
-Pour ajouter d’autres organisations, accédez à **[!UICONTROL Configuration]** dans le rail de gauche et sélectionnez l’icône d’ajout (![Icône d’ajout.](/help/assets/icons/plus.png)) dans le coin supérieur droit. Sélectionnez ensuite **[!UICONTROL Compte]**.
+Pour ajouter d’autres organisations, accédez à **[!UICONTROL Configuration]** dans le rail de gauche et sélectionnez l’icône d’ajout (![icône d’ajout.](/help/assets/icons/plus.png)) dans le coin supérieur droit. Sélectionnez ensuite **[!UICONTROL Compte]**.
 
-![L’espace de travail de configuration avec l’onglet Mon compte et l’option Compte mis en surbrillance.](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
+![Espace de travail de configuration avec l’onglet Mon compte et l’option Compte mises en surbrillance.](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
 
 ### Configurer des détails {#set-up-details}
 
@@ -41,20 +41,20 @@ Pour ajouter d’autres organisations, accédez à **[!UICONTROL Configuration]*
 
 Pour commencer à configurer votre compte , vous devez d’abord configurer les détails du compte. Pour ce faire, vous devez ajouter les informations suivantes :
 
-* Ajoutez un **[!UICONTROL nom de compte]** qui représente clairement votre marque.
-* Ajoutez une **[!UICONTROL Description]** de votre marque. Cette option est facultative, mais elle aide les autres collaborateurs à mieux comprendre votre marque.
-* Sélectionnez votre **[!UICONTROL rôle]**. Vous pouvez choisir entre **[!UICONTROL Annonceur]** et **[!UICONTROL Éditeur]**. Lisez le guide des [rôles](/help/guide/overview/roles.md) pour voir les similitudes et les légères différences de workflow entre les deux types de rôles de compte.
-* Sélectionnez le **[!UICONTROL secteur]** pour votre compte. Voici quelques exemples : **[!UICONTROL Vente au détail]**, **[!UICONTROL Télécommunications]** ou **[!UICONTROL Services financiers]**.
+* Ajoutez un **[!UICONTROL Nom du compte]** qui représente clairement votre marque.
+* Ajoutez une **[!UICONTROL Description]** votre marque. Cette option est facultative, mais elle aide les autres collaborateurs à mieux comprendre votre marque.
+* Sélectionnez votre **[!UICONTROL rôle]**. Vous pouvez choisir entre **[!UICONTROL Annonceur]** et **[!UICONTROL Éditeur]**. Lisez le guide [roles](/help/guide/overview/roles.md) pour voir les similitudes et les légères différences de workflow entre les deux types de rôles de compte.
+* Sélectionnez le **[!UICONTROL Secteur]** pour votre compte. Par exemple, **[!UICONTROL Vente au détail]**, **[!UICONTROL Télécommunications]** ou **[!UICONTROL Services financiers]**.
 * La **[!UICONTROL Région]** est automatiquement définie en fonction de votre compte Adobe Experience Cloud. Cette valeur ne peut pas être modifiée à tout moment.
 * Ajoutez un **[!UICONTROL e-mail de contact]** pour votre compte. Il doit s’agir d’une adresse e-mail d’équipe ou basée sur les rôles. Les adresses e-mail personnelles ne doivent pas être fournies.
-* Chargez un **[!UICONTROL logo]** pour votre compte. Actuellement, les images de type SVG sont prises en charge. Cette opération est facultative, mais le chargement d’un logo permet de représenter visuellement votre marque dans l’interface de Collaboration
+* Chargez un **[!UICONTROL Logo]** pour votre compte. Actuellement, les images de type SVG sont prises en charge. Cette opération est facultative, mais le chargement d’un logo permet de représenter visuellement votre marque dans l’interface de Collaboration
 * Sélectionnez une image pour l’image d’en-tête de votre compte.
 
 >[!NOTE]
 >
->Bien que vous puissiez modifier la plupart de ces détails à tout moment, le **[!UICONTROL rôle]** n’est pas modifiable après la configuration initiale. Lorsque vous avez terminé, utilisez **[!UICONTROL Suivant]** pour passer à la page suivante afin de sélectionner les clés de correspondance que votre organisation utilisera.
+>Bien que vous puissiez modifier la plupart de ces détails à tout moment, le **[!UICONTROL rôle]** n’est pas modifiable après la configuration initiale. Lorsque vous avez terminé, utilisez **[!UICONTROL Suivant]** pour passer à la page suivante et sélectionner les clés de correspondance que votre organisation utilisera.
 
-![L’espace de travail Configurer le compte avec la section Détails affichée et l’option Suivant mise en surbrillance.](/help/assets/setup/manage-account/add-account-details.png){zoomable="yes"}
+![Espace de travail Configurer le compte avec la section Détails affichée et l’option Suivant mise en surbrillance.](/help/assets/setup/manage-account/add-account-details.png){zoomable="yes"}
 
 ### Configurer des clés correspondantes {#set-up-match-keys}
 
@@ -87,11 +87,11 @@ Pour commencer à configurer votre compte , vous devez d’abord configurer les 
 
 >[!IMPORTANT]
 >
->Les clés de correspondance que vous sélectionnez lors de la configuration du compte déterminent les clés de correspondance disponibles dans vos connexions. Bien que vous puissiez [supprimer les clés de correspondance indésirables](../connect/establishing-connections.md#connection-settings) pendant la configuration de la connexion, les clés de correspondance ne peuvent pas être ajoutées une fois la connexion établie. Il est important de sélectionner **toutes** les clés de correspondance que vous prévoyez d’utiliser dans les prochaines campagnes lors de la configuration du compte.
+>Les clés de correspondance que vous sélectionnez lors de la configuration du compte déterminent les clés de correspondance disponibles dans vos connexions. Bien que vous puissiez [supprimer les clés de correspondance indésirables](../connect/establishing-connections.md#connection-settings) lors de la configuration de la connexion, les clés de correspondance ne peuvent pas être ajoutées une fois la connexion établie. Il est important de sélectionner **toutes** les clés de correspondance que vous prévoyez d’utiliser dans les prochaines campagnes lors de la configuration du compte.
 
-Les clés de correspondance aident les collaborateurs à travailler ensemble en permettant une synchronisation des données précise et axée sur la confidentialité, ce qui permet un ciblage et une mesure d’audience plus précis. Les clés de correspondance sélectionnées lors de la configuration du compte détermineront quelles clés de correspondance sont disponibles dans les connexions futures. Ils sont également utilisés pour [mapper les champs](./onboard-audiences.md#map-fields) de votre connexion de données aux champs cibles dans Collaboration lors de l’approvisionnement des audiences.
+Les clés de correspondance aident les collaborateurs à travailler ensemble en permettant une synchronisation des données précise et axée sur la confidentialité, ce qui permet un ciblage et une mesure d’audience plus précis. Les clés de correspondance sélectionnées lors de la configuration du compte détermineront quelles clés de correspondance sont disponibles dans les connexions futures. Ils sont également utilisés pour [mapper des champs](./onboard-audiences.md#map-fields) de votre connexion de données aux champs cibles dans Collaboration lors de l’approvisionnement des audiences.
 
-Sélectionnez les clés de correspondance à utiliser lors de la réconciliation des profils d’audience. Planifiez l’avenir et incluez toutes les clés de correspondance que vous pouvez utiliser et anticiper en les utilisant dans les prochaines campagnes. Si vous devez sélectionner d’autres clés de correspondance pour votre compte ultérieurement, vous pouvez le faire dans le workflow de [modification du compte](#edit-account). Toutefois, les clés de correspondance ajoutées après la configuration initiale ne seront pas disponibles pour une utilisation dans les connexions existantes.
+Sélectionnez les clés de correspondance à utiliser lors de la réconciliation des profils d’audience. Planifiez l’avenir et incluez toutes les clés de correspondance que vous pouvez utiliser et anticiper en les utilisant dans les prochaines campagnes. Si vous devez sélectionner d’autres clés de correspondance pour votre compte ultérieurement, vous pouvez le faire dans le workflow [Modifier le compte](#edit-account). Toutefois, les clés de correspondance ajoutées après la configuration initiale ne seront pas disponibles pour une utilisation dans les connexions existantes.
 
 #### Clés correspondantes prises en charge {#supported-match-keys}
 
@@ -100,11 +100,11 @@ Collaboration prend en charge trois types de clés de correspondance : les ident
 * Les clés de correspondance doivent être **rognées**, **en minuscules**
 * Les clés de correspondance hachées doivent être **SHA256-hachées**.
 * Si vous fournissez des valeurs hachées qui utilisent des caractères majuscules, Collaboration les convertit automatiquement en minuscules.
-* Si votre source contient des **identifiants en texte brut**, utilisez l’option **[!UICONTROL Appliquer la transformation]** lors de la [configuration de la connexion aux données](./manage-data-connection.md#match-keys) pour appliquer le hachage. This option is only available when sourcing audiences from Experience Platform and is not supported for cloud-based sources.
+* Si votre source contient des **identifiants en texte brut**, utilisez l’option **[!UICONTROL Appliquer la transformation]** lors de la [configuration de la connexion aux données](./manage-data-connection.md#match-keys) pour appliquer le hachage. Cette option est disponible uniquement lors de l’approvisionnement d’audiences à partir d’Experience Platform et n’est pas prise en charge pour les sources cloud.
 
 ##### Identifiants propriétaires de personnes
 
-First-party people IDs are directly connected to an individual profile. Les identifiants actuellement pris en charge sont les suivants :
+Les identifiants de personnes propriétaires sont directement connectés à un profil individuel. Les identifiants actuellement pris en charge sont les suivants :
 
 * **[!UICONTROL E-mail haché]**
 * **[!UICONTROL Téléphone haché]**
@@ -114,9 +114,9 @@ First-party people IDs are directly connected to an individual profile. Les iden
 
 ##### Identifiants d’appareils propriétaires
 
-First-party device IDs are identifiers connected to a specific device. Les identifiants actuellement pris en charge sont les suivants :
+Les identifiants d’appareils propriétaires sont des identifiants connectés à un appareil spécifique. Les identifiants actuellement pris en charge sont les suivants :
 
-* **[!UICONTROL Hashed IPv4]**: Hashed IPv4 addresses
+* **[!UICONTROL IPv4 haché]** : adresses IPv4 hachées
 * **[!UICONTROL IDFA]** : identifiant pour les annonceurs (IDFA) utilisé dans les appareils Apple iOS
 * **[!UICONTROL GAID]** : ID publicitaire Google utilisé dans les appareils Android
 
@@ -128,11 +128,11 @@ Les identifiants de partenaire sont des identifiants fournis par des partenaires
 
 >[!NOTE]
 >
->Adobe&#39;s integration with [!DNL AdFixus] maps the unique [!UICONTROL AdFixus IDs] for each account to a common Adobe-encoded format. Ces mappages sont utilisés pour identifier les chevauchements entre les collaborateurs. Lors de l’activation d’audiences à l’aide de **[!UICONTROL AdFixus ID]**, les identifiants d’origine sont utilisés. Le format codé Adobe ne quitte jamais Collaboration.
+>L’intégration d’Adobe à [!DNL AdFixus] mappe les [!UICONTROL ID AdFixus] uniques pour chaque compte à un format codé Adobe commun. Ces mappages sont utilisés pour identifier les chevauchements entre les collaborateurs. Lors de l’activation d’audiences à l’aide de **[!UICONTROL AdFixus ID]**, les identifiants d’origine sont utilisés. Le format codé Adobe ne quitte jamais Collaboration.
 
 Lors de la sélection de **[!UICONTROL ID AdFixus]**, vous devez fournir l’identifiant correspondant de votre partenaire externe dans la section **[!UICONTROL Informations d’identification du compte]**. Cette option n’est disponible qu’*après* le basculement sur **[!UICONTROL ID AdFixus]**. Saisissez votre ID AdFixus dans le champ **[!UICONTROL ID de compte]**, en veillant à vérifier la précision de la valeur.
 
-![La boîte de dialogue Correspondance des clés avec l’ID AdFixus est activée et la section Informations d’identification du compte est mise en surbrillance.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
+![Activation de la boîte de dialogue Correspondance des clés avec l’ID AdFixus et mise en surbrillance de la section Informations d’identification du compte.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
 
 Après avoir sélectionné toutes les clés de correspondance souhaitées, sélectionnez **[!UICONTROL Terminer]** pour terminer le workflow de configuration du compte.
 
@@ -144,11 +144,11 @@ Après avoir configuré votre compte , vous pouvez modifier les détails et fair
 
 ### Modifier les détails {#edit-details}
 
-Vous pouvez modifier la plupart des détails de votre compte à tout moment, à l’exception du **[!UICONTROL rôle]**. La région est automatiquement définie en fonction de votre compte Adobe Experience Cloud et ne peut pas être modifiée.
+Vous pouvez modifier la plupart des détails de votre compte à tout moment, à l’exception du **[!UICONTROL Rôle]**. La région est automatiquement définie en fonction de votre compte Adobe Experience Cloud et ne peut pas être modifiée.
 
-Pour modifier votre compte, sélectionnez **[!UICONTROL Modifier]** dans la section **[!UICONTROL Mon compte]** de l’espace de travail **[!UICONTROL Configurer]**.
+Pour modifier votre compte, sélectionnez **[!UICONTROL Modifier]** dans la section **[!UICONTROL Mon compte]** de l’espace de travail **[!UICONTROL Configuration]**.
 
-![Espace de travail de configuration avec l&#39;onglet Mon compte et l&#39;option Modifier en surbrillance.](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
+![Espace de travail de configuration avec l’onglet Mon compte et l’option Modifier en surbrillance.](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 
 Vous pouvez maintenant modifier les détails de votre compte. Mettez à jour les champs à modifier, puis sélectionnez **[!UICONTROL Enregistrer]** pour confirmer les modifications.
 
@@ -162,11 +162,11 @@ Sélectionnez **[!UICONTROL Modifier]** dans la section **[!UICONTROL Clés de c
 
 ![Espace de travail de configuration avec l’option Modifier mise en surbrillance dans la section Clés de correspondance du compte.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-La boîte de dialogue **[!UICONTROL Clés de correspondance]** s’affiche. Activez une clé de correspondance ou mettez à jour votre **[!UICONTROL ID de compte]** pour vos [!UICONTROL ID AdFixus], puis sélectionnez **[!UICONTROL Enregistrer]** pour confirmer les modifications.
+La boîte de dialogue **[!UICONTROL Correspondance des clés]** s’affiche. Activez n’importe quelle clé de correspondance ou mettez à jour votre **[!UICONTROL ID de compte]** pour vos [!UICONTROL ID AdFixus], puis sélectionnez **[!UICONTROL Enregistrer]** pour confirmer les modifications.
 
 >[!IMPORTANT]
 >
->La modification de votre [!UICONTROL ID AdFixus] ne déclenchera pas d’actualisation de [esquisse de données](../glossary.md#sketches) pour vos connexions de données existantes à l’aide de la clé de correspondance. Une fois vos données schématisées, les modifications apportées à votre [!UICONTROL ID AdFixus] ne seront pas prises en compte jusqu’à la prochaine actualisation de l’audience suivant les paramètres de votre [planning de connexion aux données](./manage-data-connection.md#scheduling). Si vous avez besoin de modifications avant votre prochaine actualisation, vous pouvez supprimer et recréer votre connexion de données.
+>La modification de votre [!UICONTROL ID AdFixus] ne déclenche pas d’actualisation de l’[esquisse de données](../glossary.md#sketches) pour vos connexions de données existantes à l’aide de la clé de correspondance. Une fois vos données esquissées, les modifications apportées à votre [!UICONTROL ID AdFixus] ne seront pas répercutées jusqu’à la prochaine actualisation de l’audience suivant les paramètres de votre [planning de connexion aux données](./manage-data-connection.md#scheduling). Si vous avez besoin de modifications avant votre prochaine actualisation, vous pouvez supprimer et recréer votre connexion de données.
 >
 >Actuellement, les clés de correspondance ne peuvent pas être supprimées une fois ajoutées à votre compte.
 
@@ -174,8 +174,8 @@ La boîte de dialogue **[!UICONTROL Clés de correspondance]** s’affiche. Acti
 
 Une boîte de dialogue de réussite confirme que les clés de correspondance de votre compte ont bien été mises à jour.
 
-![Une boîte de dialogue de confirmation des clés de correspondance de votre compte a été mise à jour.](/help/assets/setup/manage-account/match-key-updated-successfully.png){zoomable="yes"}
+![Une boîte de dialogue de réussite confirmant que les clés de correspondance de votre compte sont mises à jour avec succès.](/help/assets/setup/manage-account/match-key-updated-successfully.png){zoomable="yes"}
 
 ## Étapes suivantes
 
-Une fois vos comptes configurés, vous êtes prêt à [créer des audiences](/help/guide/setup/onboard-audiences.md) dans Real-Time CDP Collaboration.
+Une fois vos comptes configurés, vous êtes prêt à [audiences source](/help/guide/setup/onboard-audiences.md) dans Real-Time CDP Collaboration.

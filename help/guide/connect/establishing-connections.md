@@ -6,8 +6,8 @@ badgelimitedavailability: label="Disponibilité limitée" type="Informative" url
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '2812'
-ht-degree: 8%
+source-wordcount: '2881'
+ht-degree: 9%
 
 ---
 
@@ -227,7 +227,7 @@ Pour personnaliser vos cas d’utilisation, sélectionnez **[!UICONTROL Modifier
 
 >[!IMPORTANT]
 >
->Lors de l’activation d’audiences où plusieurs clés de correspondance sont utilisées, si une ou plusieurs clés de correspondance ne se chevauchent pas, ne comptabilisent pas d’audiences ou sont inférieures au seuil, l’activation entière échoue. Assurez-vous que vos audiences disposent d’un chevauchement suffisant et respectent le seuil minimum de 1 000 identifiants sur toutes les clés de correspondance avant d’activer.
+>Lors de l’activation des audiences où plusieurs clés de correspondance sont utilisées, si une ou plusieurs clés de correspondance ne se chevauchent pas, ne génèrent aucun nombre de profils des audiences ou se situent sous le seuil, l’activation entière échoue. Assurez-vous que vos audiences disposent d’un chevauchement suffisant et respectent le seuil minimum de 1 000 identifiants sur toutes les clés de correspondance avant d’activer.
 
 Les clés de correspondance sont automatiquement renseignées avec les clés de correspondance communes que vous et votre collaborateur avez sélectionnées lors de la [configuration de vos comptes](/help/guide/setup/onboard-account.md#set-up-match-keys). Seules les clés de correspondance que vous et votre collaborateur avez sélectionnées **et** ont en commun s’affichent.
 

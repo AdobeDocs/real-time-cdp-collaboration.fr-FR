@@ -2,11 +2,11 @@
 title: Modèles de collaboration dans Adobe Real-Time CDP Collaboration.
 description: Comprendre les deux modèles de collaboration dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 31729675-cdd8-4569-9195-1d9a61d68d30
-source-git-commit: 9a4a7acf3f4e42667889b40c6a052aaf83c06758
+source-git-commit: 7efd33179b4f4e6751853f6c513bdded63c23ee7
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -46,3 +46,27 @@ Le modèle de collaboration d’annonceur à plateforme publicitaire permet aux 
 ![Exemple de collaboration entre annonceurs et plateformes publicitaires.](/help/assets/overview/advertiser-to-advertising-platform.png)
 
 Pour en savoir plus sur la façon dont les annonceurs collaborent avec les plateformes publicitaires selon ce modèle, lisez le guide [workflow de bout en bout](/help/guide/overview/end-to-end-workflow.md).
+
+## Publicitaire en partenaire de données {#advertiser-to-data-partner}
+
+Le modèle de partenaire publicitaire en données permet aux marques de collaborer directement avec des fournisseurs de données tiers pour enrichir les profils clients, créer des audiences plus précises et accéder aux populations de prospects en vue de leur acquisition. Ce modèle intègre des workflows de données externes dans un environnement unique et sûr pour la confidentialité, où les données propriétaires et tierces peuvent être combinées sans avoir à déplacer les données brutes.
+
+![Exemple de collaboration entre annonceur et partenaire de données.](/help/assets/overview/advertiser-to-data-partner.png)
+
+Pour en savoir plus sur la façon dont les annonceurs et les partenaires de données collaborent dans ce modèle, lisez le guide [workflow de bout en bout](/help/guide/overview/end-to-end-workflow.md#advertiser-to-data-partner-workflow).
+
+## Agence à éditeur {#agency-to-publisher}
+
+Le modèle d’agence à éditeur permet aux agences de médias de collaborer directement avec les éditeurs pour planifier, activer et mesurer les campagnes à l’aide d’informations d’audience partagées. Les agences agissent comme intermédiaires, exploitant les données des annonceurs (avec leur permission) pour identifier les chevauchements et exécuter des stratégies médiatiques avec les partenaires de l&#39;éditeur.
+
+![Exemple de collaboration entre agences et éditeurs.](/help/assets/overview/agency-to-publisher.png)
+
+Pour en savoir plus sur la façon dont les agences et les éditeurs collaborent dans ce modèle, lisez le guide [workflow de bout en bout](/help/guide/overview/end-to-end-workflow.md#agency-to-publisher-workflow).
+
+## Plateforme publicitaire-agence {#advertiser-to-agency-platform}
+
+Le modèle de plateforme d’annonceur à agence permet aux marques de collaborer avec leurs agences de médias dans un environnement sécurisé en matière de confidentialité, ce qui permet aux annonceurs d’envoyer et de recevoir des données avec leur agence sans nécessiter de transferts directs de données. Ce modèle prend en charge la planification de campagne, la création d’audience et l’activation tout en maintenant le contrôle des annonceurs sur l’utilisation des données.
+
+![Exemple de collaboration entre annonceurs et agences de plateformes.](/help/assets/overview/advertiser-to-agency-platform.png)
+
+Pour en savoir plus sur la façon dont les annonceurs et les plateformes d’agence collaborent dans ce modèle, lisez le guide [workflow de bout en bout](/help/guide/overview/end-to-end-workflow.md#advertiser-to-agency-platform-workflow).

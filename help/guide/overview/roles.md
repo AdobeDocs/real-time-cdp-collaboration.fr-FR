@@ -2,10 +2,11 @@
 title: Les rôles de collaborateur dans Adobe Real-Time CDP Collaboration.
 description: Comprendre les deux rôles de compte dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: f0b95f61-b798-400d-af52-a597d1cb66a5
+source-git-commit: 901b17c7493e76b17e780b6f7b05a69fa22303d2
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '423'
 ht-degree: 1%
 
 ---
@@ -20,9 +21,17 @@ Dans Adobe Real-Time CDP Collaboration, deux rôles sont associés aux comptes :
 
 Les annonceurs sont des marques qui cherchent à atteindre des audiences spécifiques par le biais de campagnes marketing ciblées. Ils investiront dans le marketing pour atteindre les publics aux côtés de leurs collaborateurs afin d&#39;améliorer la notoriété de la marque, la prospection, le réengagement et les conversions. Grâce à Collaboration, les annonceurs peuvent tirer parti des informations sur l’audience de leurs connexions pour améliorer leurs stratégies marketing et atteindre leurs objectifs.
 
-## Éditeur ou éditrice {#publisher}
+## Éditeur {#publisher}
 
 Les éditeurs sont des marques qui possèdent ou exploitent des contenus ou des services en ligne où des données personnelles sont collectées avec le consentement de l&#39;utilisateur. Ils fournissent ces données pour que les annonceurs les utilisent pour la publicité numérique et la mesure de l’audience. Grâce à Collaboration, les éditeurs peuvent envoyer les données relatives à leur audience à leurs collaborateurs afin de permettre la mise en place de campagnes marketing ciblées et d’améliorer l’efficacité de leurs efforts publicitaires.
+
+## Agence {#agency}
+
+Les agences sont des organisations qui planifient, gèrent et optimisent des campagnes marketing et multimédia pour une ou plusieurs marques. Ils exploitent des données propriétaires et tierces pour créer, activer et mesurer les audiences sur l’ensemble des canaux. Grâce à Collaboration, les agences peuvent accéder aux données avec l’autorisation de la marque dans un seul environnement régi, ce qui leur permet de coordonner des campagnes entre partenaires, d’activer des audiences et d’améliorer l’efficacité des médias.
+
+## Partenaire de données {#data-partner}
+
+Les partenaires de données sont des organisations qui fournissent des jeux de données et des segments tiers et régis que les collaborateurs peuvent utiliser pour enrichir leurs propres données à des fins de ciblage, de prospection et de mesure d’audience. Grâce à Collaboration, les partenaires de données peuvent mettre ces données à la disposition des collaborateurs en toute sécurité pour obtenir des informations sur les audiences et les campagnes, sans avoir à transférer de données propriétaires dans l’environnement du partenaire.
 
 ## Choisir le bon rôle {#choosing-the-right-role}
 

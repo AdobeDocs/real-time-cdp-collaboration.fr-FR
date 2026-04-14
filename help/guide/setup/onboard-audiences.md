@@ -2,11 +2,11 @@
 title: Source et gestion des audiences
 description: Découvrez comment sourcer et gérer des audiences dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: c535412589a5004cde6147e6800c05f3b5f7bb27
+source-git-commit: 1c00bacce3a612c9907fb6932ce9089ff29780e0
 workflow-type: tm+mt
-source-wordcount: '3636'
+source-wordcount: '3680'
 ht-degree: 18%
 
 ---
@@ -42,9 +42,11 @@ Dans l’onglet **[!UICONTROL Mes audiences]** de l’espace de travail **[!UICO
 >
 >Après avoir établi à votre première connexion de données et sourcé votre première audience, vous pouvez ensuite sourcer plusieurs audiences à partir de la connexion de données existante. Lors de l’ajout d’audiences supplémentaires, vous commencerez à partir de l’étape [sélectionner une audience](#select-audiences), puisque la connexion aux données a déjà été établie.
 
-Une connexion aux données est la source de données à partir de laquelle vous approvisionnez les audiences. Actuellement, la seule connexion de données prise en charge est Adobe Experience Platform.
+Une connexion aux données est la source à partir de laquelle vous ingérez des audiences dans Collaboration. Les sources prises en charge sont Adobe Experience Platform, le chargement de fichier CSV, [!DNL Amazon S3], [!DNL Snowflake] et [!DNL Google Cloud Storage], chacun ayant son propre workflow.
 
-Tous les paramètres que vous configurez pour votre connexion de données sont appliqués à toutes les audiences provenant de cette connexion de données.
+Les sections ci-dessous décrivent la sélection de **** et l’exécution des étapes spécifiques à Experience Platform (sandbox, gouvernance et consentement). Si vous choisissez CSV, [!DNL Amazon S3], [!DNL Snowflake] ou [!DNL Google Cloud Storage], utilisez le guide associé sous [Sélectionner la source de données](#select-data-source) pour cette option.
+
+Tous les paramètres que vous configurez pour une connexion de données Experience Platform sont appliqués à toutes les audiences provenant de cette connexion.
 
 >[!TIP]
 >
@@ -59,10 +61,10 @@ Pour commencer à ajouter votre connexion de données, sélectionnez **[!UICONTR
 Vous allez ensuite choisir la source de votre connexion aux données. Les sources disponibles sont les suivantes :
 
 * **Adobe Experience Platform** : sélectionnez cette option pour importer vos audiences depuis Adobe Experience Platform.
-* **Fichier CSV** : chargez un fichier CSV contenant les données de votre audience pour une ingestion de données simple et rapide. Pour commencer[&#128279;](./upload-csv-audience-sourcing.md) reportez-vous au guide Chargement de fichier CSV pour l’approvisionnement de l’audience.
-* **&#x200B;**&#x200B;: connectez-vous à votre stockage Amazon S3 pour obtenir des données d’audience source directement à partir de vos compartiments S3. Consultez le guide [Configurer AWS S3 pour l’approvisionnement de l’audience](./configure-aws-s3-audience-sourcing.md) pour obtenir des instructions détaillées.
-* **&#x200B;**&#x200B;: utilisez votre entrepôt de données Snowflake pour extraire facilement les données d’audience. Reportez-vous au guide [Configurer [!DNL Snowflake] pour l’approvisionnement des audiences](./configure-snowflake-audience-sourcing.md) .
-* **Google Cloud Platform** (version future) : connectez-vous à votre espace de stockage dans le cloud Google pour obtenir des données d’audience directement à partir de vos compartiments GCS.
+* **Fichier CSV** : chargez un fichier CSV contenant les données de votre audience pour une ingestion de données simple et rapide. Pour commencer](./upload-csv-audience-sourcing.md) reportez-vous au guide [Chargement de fichier CSV pour l’approvisionnement de l’audience.
+* **** : connectez-vous à votre stockage Amazon S3 pour obtenir des données d’audience source directement à partir de vos compartiments S3. Consultez le guide [Configurer AWS S3 pour l’approvisionnement de l’audience](./configure-aws-s3-audience-sourcing.md) pour obtenir des instructions détaillées.
+* **** : utilisez votre entrepôt de données Snowflake pour extraire facilement les données d’audience. Reportez-vous au guide [Configurer [!DNL Snowflake] pour l’approvisionnement des audiences](./configure-snowflake-audience-sourcing.md) .
+* **Google Cloud Storage** : connectez-vous à vos compartiments GCS pour obtenir les données d’audience source. Consultez le guide [Configurer GCS pour l’approvisionnement de l’audience](./configure-gcs-audience-sourcing.md) pour obtenir des instructions détaillées.
 
 Sélectionnez votre source de données, puis sélectionnez **[!UICONTROL Suivant]**.
 
@@ -80,7 +82,7 @@ Ensuite, vous devez vous assurer que les actions marketing correctes sont défin
 
 Utilisez des actions marketing pour contrôler les données d’audience à importer dans Collaboration à partir d’Experience Platform. L’action marketing **[!UICONTROL Collaboration de données]** prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing **[!UICONTROL Science des données]** prend en charge le libellé d’utilisation des données C9.
 
-En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Lorsque la case à cocher est ***activée***, toutes les données libellées dans Experience Platform comme décrit ci-dessus sont exclues et **pas** importées dans Collaboration.
 * Lorsque la case à cocher ***désactivée***, il n’existe aucune restriction sur les données provenant d’Experience Platform.
@@ -92,7 +94,7 @@ Consultez la documentation d’Experience Platform pour en savoir plus sur les l
 
 En outre, vous souhaiterez sélectionner vos règles de consentement à appliquer aux données provenant de Collaboration.
 
-![Espace de travail Ajouter des audiences à la section Politique de gouvernance et application des actions &#x200B;](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}.
+![Espace de travail Ajouter des audiences à la section Politique de gouvernance et application des actions ](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}.
 
 Une fois que vous avez sélectionné les actions marketing et les règles de consentement, sélectionnez **[!UICONTROL Suivant]** pour passer à l’étape suivante. Une boîte de dialogue de confirmation s’affiche, vous demandant d’accepter les conditions. Cochez la case, puis sélectionnez **[!UICONTROL OK]** pour confirmer.
 
@@ -147,7 +149,7 @@ Vous allez ensuite sélectionner les champs sources à mapper aux champs cibles 
 
 >[!BEGINSHADEBOX]
 
-Les **[!UICONTROL champs]** sont des espaces de noms d’identité et des attributs d’Experience Platform. Il s’agit des espaces de noms d’identité [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard?lang=fr){target="_blank"} et [personnalisés](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=fr#create-namespaces){target="_blank"}. Ils incluent également les attributs de profil présents dans le [schéma d’union](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=fr){target="_blank"} et appartenant à la classe XDM Individual Profile.
+Les **[!UICONTROL champs]** sont des espaces de noms d’identité et des attributs d’Experience Platform. Il s’agit des espaces de noms d’identité [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard?lang=fr){target="_blank"} et [personnalisés](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. Ils incluent également les attributs de profil présents dans le [schéma d’union](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=fr){target="_blank"} et appartenant à la classe XDM Individual Profile.
 
 Les champs Source sont mappés sur les champs cibles définis dans Collaboration.
 

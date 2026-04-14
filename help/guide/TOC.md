@@ -2,9 +2,9 @@
 user-guide-title: Collaboration Real-Time CDP
 breadcrumb-title: Collaboration Real-Time CDP
 user-guide-description: Adobe Real-Time CDP Collaboration permet un partage de données et une collaboration transparents et sécurisés entre les annonceurs et les éditeurs, ce qui facilite les informations sur les audiences en temps réel et les stratégies marketing personnalisées.
-source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
+source-git-commit: 156135fdad5f176cedb91c05c07d9bc0e1903557
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '209'
 ht-degree: 29%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 29%
    * [Rôles de compte](./overview/roles.md)
    * [Modèles Collaboration](./overview/collaboration-patterns.md)
    * [Workflow de bout en bout](./overview/end-to-end-workflow.md)
-   * {hide-from-toc}[Démarreur &#x200B;](./overview/starter-overview.md)
+   * {hide-from-toc}[Démarreur ](./overview/starter-overview.md)
 * Configuration {#setup}
    * [Présentation de la section de configuration](./setup/setup-overview.md)
    * [Intégration et gestion de votre compte](./setup/onboard-account.md)
@@ -27,6 +27,7 @@ ht-degree: 29%
       * [Configurer AEP pour le sourcing d’audience](./setup/onboard-audiences.md)
       * [Configuration des autorisations AWS pour le sourcing d’audience](./setup/configure-aws-permissions-audience-sourcing.md)
       * [Configuration d’Amazon S3 pour le sourcing d’audience](./setup/configure-aws-s3-audience-sourcing.md)
+      * [Configuration de GCS pour l’approvisionnement de l’audience](./setup/configure-gcs-audience-sourcing.md)
       * [Charger un fichier CSV pour l’audience](./setup/upload-csv-audience-sourcing.md)
       * [Configuration de Snowflake pour le sourcing d’audience](./setup/configure-snowflake-audience-sourcing.md)
    * [Gérer les connexions de données](./setup/manage-data-connection.md)

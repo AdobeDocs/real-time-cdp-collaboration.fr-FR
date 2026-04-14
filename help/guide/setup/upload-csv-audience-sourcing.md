@@ -1,9 +1,10 @@
 ---
 title: Charger un fichier CSV pour l’Audience Sourcing
 description: Découvrez comment charger votre fichier CSV en tant que source de données en libre-service pour ingérer les données d’audience dans Real-Time CDP Collaboration.
-source-git-commit: 96d3f87cedcfde73ce01c2b53c0b2ce4365fd277
+exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
+source-git-commit: 96f6ae6c4b0c4255da8b04456497edf5b4365363
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1100'
 ht-degree: 0%
 
 ---
@@ -14,13 +15,13 @@ Ce guide décrit les étapes à suivre pour charger un fichier CSV dans l’inte
 
 ## Vue d’ensemble {#overview}
 
-Le chargement de fichier CSV est une méthode permettant de générer des données d’audience propriétaires pour des projets de collaboration. Il s’agit d’une alternative à la [connexion de votre compartiment AWS S3](./configure-aws-s3-audience-sourcing.md) ou [approvisionnement des audiences à partir d’Experience Platform](./onboard-audiences.md).
+Le chargement de fichier CSV est une méthode permettant de générer des données d’audience propriétaires pour des projets de collaboration. Il s’agit d’une alternative à [connexion de votre compartiment AWS S3](./configure-aws-s3-audience-sourcing.md), [connexion de Google Cloud Storage](./configure-gcs-audience-sourcing.md) ou [approvisionnement des audiences à partir d’Experience Platform](./onboard-audiences.md).
 
 Suivez ce workflow pour charger un fichier CSV contenant les données de votre audience dans la source et gérez les audiences propriétaires dans Collaboration. Vous pouvez mapper des champs d’identité pour l’activation et l’analyse de chevauchement. Une fois votre fichier chargé et traité, l’audience source est disponible dans l’espace de travail **[!UICONTROL Mes audiences]**, où vous pouvez vérifier, activer et gérer vos projets de collaboration.
 
 >[!IMPORTANT]
 >
->* Les audiences provenant du téléchargement d’un fichier CSV sont disponibles pendant 7 jours **&#x200B;**. Au-delà de cette période, l’audience expire et doit être rechargée pour être utilisée dans vos projets de collaboration.
+>* Les audiences provenant du téléchargement d’un fichier CSV sont disponibles pendant 7 jours **.** Au-delà de cette période, l’audience expire et doit être rechargée pour être utilisée dans vos projets de collaboration.
 >
 >* Vous pouvez charger un fichier CSV par session à ce stade. Pour ajouter des audiences supplémentaires, effectuez à nouveau le workflow de chargement pour chaque fichier que vous souhaitez approvisionner.
 
@@ -34,7 +35,7 @@ Avant de pouvoir charger des fichiers CSV pour l’approvisionnement de l’audi
 
 ## Chargement d’un fichier CSV {#upload-csv-file}
 
-Dans l’onglet **[!UICONTROL Mes audiences]** de l’espace de travail **[!UICONTROL Configuration]**, sélectionnez l’icône d’ajout (![icône d’ajout).](/help/assets/icons/plus.png)), puis sélectionnez **[!UICONTROL Audience]**.
+Dans l’onglet **[!UICONTROL Mes audiences]** de l’espace de travail **[!UICONTROL Configuration]**, sélectionnez l’icône d’ajout (![icône d’ajout.](/help/assets/icons/plus.png)) puis sélectionnez **[!UICONTROL Audience]**.
 
 S’il s’agit de votre première audience, vous pouvez également sélectionner l’option **[!UICONTROL Ajouter]**.
 
@@ -129,7 +130,7 @@ Utilisez cette vue pour confirmer les paramètres de configuration et de visibil
 Vous avez chargé votre fichier CSV dans Collaboration. Une fois l’approvisionnement terminé, vous pouvez :
 
 * Créez des projets de collaboration avec vos audiences sources. Voir [Découvrir les audiences](../../guide/collaborate/discover.md).
-* Activez les audiences vers des destinations connectées. Voir [&#x200B; Activer les audiences](../../guide/collaborate/activate.md).
+* Activez les audiences vers des destinations connectées. Voir [ Activer les audiences](../../guide/collaborate/activate.md).
 * Examinez les chevauchements et les informations sur les audiences. Voir [Mesure des performances de la campagne](../../guide/collaborate/measure.md).
 * Gérez les paramètres et la visibilité de votre audience. Voir [Source et gérer les audiences](./onboard-audiences.md).
 

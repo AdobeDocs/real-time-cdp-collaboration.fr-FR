@@ -130,7 +130,7 @@ Utilisez cette vue pour confirmer les paramètres de configuration et de visibil
 Vous avez chargé votre fichier CSV dans Collaboration. Une fois l’approvisionnement terminé, vous pouvez :
 
 * Créez des projets de collaboration avec vos audiences sources. Voir [Découvrir les audiences](../../guide/collaborate/discover.md).
-* Activez les audiences vers des destinations connectées. Voir [ Activer les audiences](../../guide/collaborate/activate.md).
+* Activez les audiences vers des destinations connectées. Voir [&#x200B; Activer les audiences](../../guide/collaborate/activate.md).
 * Examinez les chevauchements et les informations sur les audiences. Voir [Mesure des performances de la campagne](../../guide/collaborate/measure.md).
 * Gérez les paramètres et la visibilité de votre audience. Voir [Source et gérer les audiences](./onboard-audiences.md).
 

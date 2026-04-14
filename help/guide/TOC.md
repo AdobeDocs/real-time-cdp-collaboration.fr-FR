@@ -19,7 +19,7 @@ ht-degree: 29%
    * [Rôles de compte](./overview/roles.md)
    * [Modèles Collaboration](./overview/collaboration-patterns.md)
    * [Workflow de bout en bout](./overview/end-to-end-workflow.md)
-   * {hide-from-toc}[Démarreur ](./overview/starter-overview.md)
+   * {hide-from-toc}[Démarreur &#x200B;](./overview/starter-overview.md)
 * Configuration {#setup}
    * [Présentation de la section de configuration](./setup/setup-overview.md)
    * [Intégration et gestion de votre compte](./setup/onboard-account.md)

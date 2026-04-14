@@ -3,9 +3,9 @@ title: Configuration  [!DNL Google Cloud Storage]  pour l’approvisionnement au
 description: Découvrez comment connecter un compartiment en tant que source d [!DNL Google Cloud Storage] audience en libre-service dans Real-Time CDP Collaboration, y compris les conditions préalables, l’authentification, le mappage des champs, la planification et la validation.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 1c00bacce3a612c9907fb6932ce9089ff29780e0
+source-git-commit: 37297042942a65573a6020bfe39549b26dfdd001
 workflow-type: tm+mt
-source-wordcount: '2465'
+source-wordcount: '2501'
 ht-degree: 1%
 
 ---
@@ -80,6 +80,12 @@ Le workflow Ajouter une audience s’affiche. Sélectionnez **[!UICONTROL Ajoute
 ![L’espace de travail Ajouter des audiences avec l’option Ajouter une nouvelle connexion de données mise en surbrillance.](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
 ### Sélectionnez [!DNL Google Cloud Storage] comme source de données {#select-gcs}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
+>title="Préparer vos données pour l’intégration"
+>abstract="Lisez le guide Spécification d’audience pour savoir comment formater et structurer les données d’audience à partir de Google Cloud Storage pour Collaboration."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Voir le guide"
 
 L’écran de sélection de la source de données répertorie tous les types de connexion disponibles. Sélectionnez **[!UICONTROL Google Cloud Storage]** puis sélectionnez **[!UICONTROL Suivant]**.
 

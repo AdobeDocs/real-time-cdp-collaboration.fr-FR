@@ -21,7 +21,7 @@ Ce guide couvre le workflow de configuration de bout en bout : préparation des 
 
 Les audiences provenant de [!DNL Google Cloud Storage] suivent les mêmes règles de gouvernance et de gestion des données que les audiences provenant de Adobe Experience Platform.
 
-D’autres méthodes de source disponibles incluent [](./onboard-audiences.md), [Amazon S3](./configure-aws-s3-audience-sourcing.md), [Snowflake](./configure-snowflake-audience-sourcing.md) et [le chargement de fichier CSV](./upload-csv-audience-sourcing.md).
+D’autres méthodes de source disponibles incluent [&#128279;](./onboard-audiences.md), [Amazon S3](./configure-aws-s3-audience-sourcing.md), [Snowflake](./configure-snowflake-audience-sourcing.md) et [le chargement de fichier CSV](./upload-csv-audience-sourcing.md).
 
 ## Conditions préalables {#prerequisites}
 
@@ -129,7 +129,7 @@ L’écran **[!UICONTROL Mappage]** est en lecture seule. Collaboration mappe au
 >
 >Sélectionnez **[!UICONTROL Prévisualiser les données sources]** pour passer en revue un échantillon des données de votre audience au format tabulaire, puis sélectionnez **[!UICONTROL Fermer]** pour revenir à l’écran de mappage.
 
-![ Boîte de dialogue « Aperçu des données GCS » présentant un exemple de tableau des données d’audience avec des colonnes telles que AUDIENCE_ID et HASHED_EMAIL_SHA_256, ainsi qu’un bouton Fermer dans le coin inférieur droit. ](../../assets/setup/gcs-audience-sourcing/gcs-data-preview.png){zoomable="yes"}
+![&#x200B; Boîte de dialogue « Aperçu des données GCS » présentant un exemple de tableau des données d’audience avec des colonnes telles que AUDIENCE_ID et HASHED_EMAIL_SHA_256, ainsi qu’un bouton Fermer dans le coin inférieur droit. &#x200B;](../../assets/setup/gcs-audience-sourcing/gcs-data-preview.png){zoomable="yes"}
 
 Vérifiez que les mappages affichés reflètent les champs de vos fichiers d’audience. Dans le cas contraire, arrêtez et corrigez vos fichiers pour qu’ils soient conformes à la [Spécification d’approvisionnement de l’audience](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf) avant de continuer. Sélectionnez **[!UICONTROL Suivant]** pour continuer.
 

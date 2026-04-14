@@ -4,9 +4,9 @@ description: Découvrez comment gérer les connexions de données, notamment les
 audience: administrator, data engineer
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
+source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1179'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 5%
 ## Vue d’ensemble
 
 Utilisez les connexions de données dans Real-Time CDP Collaboration pour approvisionner les audiences à partir de différentes plateformes. Découvrez comment gérer les clés de correspondance et planifier l’actualisation des données pour vos connexions de données existantes. De plus, vous pourrez filtrer les audiences en fonction de différents attributs pour obtenir des informations plus granulaires.
+
+>[!NOTE]
+>
+>Pour créer une connexion de données, voir [Ajouter et gérer des audiences](./onboard-audiences.md).
 
 ## Afficher les connexions de données
 

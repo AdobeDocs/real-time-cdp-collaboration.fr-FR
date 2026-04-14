@@ -4,10 +4,10 @@ description: En savoir plus sur les destinations dans Real-Time CDP Collaboratio
 audience: admin, publisher
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
-source-git-commit: 4ef7f8c7c27935f0e5b3620da63e7129f2714b37
+source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 7%
+source-wordcount: '360'
+ht-degree: 3%
 
 ---
 
@@ -44,10 +44,14 @@ Les destinations suivantes peuvent être configurées dans Collaboration. Pour a
 | Destination | Disponibilité |
 | --- | --- |
 | [Adobe Experience Platform](./experience-platform.md) | Disponible |
-| Amazon S3 | Bientôt disponible. |
-| Snowflake | Bientôt disponible. |
-| Google Cloud Storage | Bientôt disponible. |
-| Stockage Azure Blob | Bientôt disponible. |
+| [!DNL Amazon S3] | Bientôt disponible. |
+| [!DNL Snowflake] | Bientôt disponible. |
+| [!DNL Google Cloud Storage] | Bientôt disponible. |
+| [!DNL Azure Blob Storage] | Bientôt disponible. |
+
+>[!NOTE]
+>
+>**[!DNL Google Cloud Storage]** dans ce tableau fait référence aux **destinations** (où Collaboration envoie des audiences lors de l’activation). Pour **approvisionner les audiences à partir de** un compartiment GCS dans l’espace de travail **[!UICONTROL Configuration]**, consultez [Configurer GCS pour l’approvisionnement des audiences](../setup/configure-gcs-audience-sourcing.md).
 
 ## Étapes suivantes
 

@@ -2,7 +2,7 @@
 title: Utilisation et consommation du crédit dans  [!DNL Starter]
 description: Découvrez comment fonctionnent l’utilisation et la consommation du crédit dans  [!DNL Starter].
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d1c15141-56c4-48aa-aba8-8d6f77024f63
 source-git-commit: 1952ea15da6da320b5630307528fb2f9fdb17118
 workflow-type: tm+mt

@@ -41,19 +41,19 @@ Lisez cette section pour vous accorder des privilèges d’administrateur afin d
 
 #### Accès à Admin Console {#access-admin-console}
 
-Pour commencer, connectez-vous à [](https://experience.adobe.com/){target="_blank"} avec vos informations d&#39;identification. Vous pouvez voir une liste de vos produits disponibles dans la section **[!UICONTROL Accès rapide]**. Sélectionnez lʼ&#x200B;**[!UICONTROL Admin Console]**.
+Pour commencer, connectez-vous à [&#128279;](https://experience.adobe.com/){target="_blank"} avec vos informations d&#39;identification. Vous pouvez voir une liste de vos produits disponibles dans la section **[!UICONTROL Accès rapide]**. Sélectionnez lʼ&#x200B;**[!UICONTROL Admin Console]**.
 
 ![Page d’accueil de Adobe Experience Cloud avec Admin Console mis en surbrillance.](../../assets/setup/starter/admin-access/select-admin-console.png){zoomable="yes"}
 
 #### Accès au tableau de bord du produit Adobe Experience Platform {#access-adobe-experience-platform}
 
-L’espace de travail [](https://adminconsole.adobe.com/) s’ouvre dans un nouvel onglet. Sélectionnez **** dans la liste **[!UICONTROL Produits]** sous **[!UICONTROL Produits et services]**.
+L’espace de travail [&#128279;](https://adminconsole.adobe.com/) s’ouvre dans un nouvel onglet. Sélectionnez **&#x200B;**&#x200B;dans la liste **[!UICONTROL Produits]** sous **[!UICONTROL Produits et services]**.
 
 ![Espace de travail Admin Console avec le produit Adobe Experience Platform mis en surbrillance.](../../assets/setup/starter/admin-access/admin-console-workspace.png){zoomable="yes"}
 
 #### Ajouter un administrateur de produit {#add-product-admin}
 
-Dans le tableau de bord du produit ****, accédez à l’onglet **[!UICONTROL Admins]**. Sélectionnez ensuite **[!UICONTROL Ajouter un administrateur]**.
+Dans le tableau de bord du produit **&#x200B;**, accédez à l’onglet **[!UICONTROL Admins]**. Sélectionnez ensuite **[!UICONTROL Ajouter un administrateur]**.
 
 Tableau de bord du produit ![Adobe Experience Platform avec l’onglet Administrateurs et l’option Ajouter un administrateur mise en surbrillance.](../../assets/setup/starter/admin-access/add-admin.png){zoomable="yes"}
 
@@ -69,7 +69,7 @@ Pour gérer les autorisations Collaboration, vous devez disposer d’un **accès
 
 >[!TIP]
 >
->Si vous suivez la section précédente, vous devriez déjà être dans le tableau de bord du produit **** au sein d’Admin Console. Ensuite, passez à [ajoutez-vous en tant qu’utilisateur](#add-user).
+>Si vous suivez la section précédente, vous devriez déjà être dans le tableau de bord du produit **&#x200B;**&#x200B;au sein d’Admin Console. Ensuite, passez à [ajoutez-vous en tant qu’utilisateur](#add-user).
 
 Pour commencer à configurer votre accès utilisateur, procédez comme suit :
 
@@ -78,7 +78,7 @@ Pour commencer à configurer votre accès utilisateur, procédez comme suit :
 
 #### Ajouter un utilisateur au produit {#add-user}
 
-Vous êtes maintenant dans le tableau de bord du produit ****. Accédez à l’onglet **[!UICONTROL Utilisateurs]** puis sélectionnez **[!UICONTROL Ajouter des utilisateurs]**.
+Vous êtes maintenant dans le tableau de bord du produit **&#x200B;**. Accédez à l’onglet **[!UICONTROL Utilisateurs]** puis sélectionnez **[!UICONTROL Ajouter des utilisateurs]**.
 
 Tableau de bord du produit ![Adobe Experience Platform avec l’onglet Utilisateurs et l’option Ajouter des utilisateurs mise en surbrillance.](../../assets/setup/starter/admin-access/add-user.png){zoomable="yes"}
 
@@ -96,7 +96,7 @@ Enfin, sélectionnez **[!UICONTROL Enregistrer]** pour terminer l’ajout d’un
 
 ![Ajouter des utilisateurs à cette boîte de dialogue de produit avec l’option Enregistrer mise en surbrillance.](../../assets/setup/starter/admin-access/save-user.png){zoomable="yes"}
 
-Une fois que vous disposez d’un accès utilisateur, revenez à [](https://experience.adobe.com/){target="_blank"}. Vérifiez que **[!UICONTROL Autorisations]** et **[!UICONTROL Real-Time CDP Collaboration]** sont disponibles sous **[!UICONTROL Accès rapide]**.
+Une fois que vous disposez d’un accès utilisateur, revenez à [&#128279;](https://experience.adobe.com/){target="_blank"}. Vérifiez que **[!UICONTROL Autorisations]** et **[!UICONTROL Real-Time CDP Collaboration]** sont disponibles sous **[!UICONTROL Accès rapide]**.
 
 Écran d’accueil de ![Adobe Experience Cloud affichant les autorisations et le Real-Time CDP Collaboration répertoriés sous Accès rapide et mis en surbrillance.](../../assets/setup/starter/admin-access/permissions-collaboration-available.png){zoomable="yes"}
 

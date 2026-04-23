@@ -2,12 +2,12 @@
 title: Etablissement de connexions avec des collaborateurs
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
+source-git-commit: 27fdbdf7e70ba83b323e1057ab614585aa7d0045
 workflow-type: tm+mt
-source-wordcount: '2881'
-ht-degree: 9%
+source-wordcount: '3349'
+ht-degree: 8%
 
 ---
 
@@ -84,7 +84,7 @@ Une boîte de dialogue s’affiche, vous invitant à envoyer une invitation à l
 
 L’invitation en attente s’affiche dans l’onglet **[!UICONTROL Mes connexions]** de la section **[!UICONTROL Action requise]**. Le statut de la connexion apparaît comme **[!UICONTROL Invitation envoyée]**. Vous pouvez prévisualiser les paramètres de connexion en sélectionnant **[!UICONTROL Prévisualiser la connexion]**, mais vous ne pouvez pas les modifier tant que l’éditeur n’a pas accepté l’invitation.
 
-![&#x200B; La connexion en attente s’affiche dans l’espace de travail Mes connexions de la section Action requise &#x200B;](/help/assets/connect/establish-connection/preview-connection.png){zoomable="yes"}.
+![ La connexion en attente s’affiche dans l’espace de travail Mes connexions de la section Action requise ](/help/assets/connect/establish-connection/preview-connection.png){zoomable="yes"}.
 
 ### Invitation à une connexion privée {#private-connection-invite}
 
@@ -120,6 +120,8 @@ Pour actualiser votre **[!UICONTROL code de connexion]**, sélectionnez l’icô
 
 Une fois que vous disposez du **[!UICONTROL code Connect]** de votre collaborateur, vous pouvez envoyer une invitation à une connexion privée. Pour ce faire, accédez à l’espace de travail **[!UICONTROL Connect]** et sélectionnez l’icône plus (![icône plus](/help/assets/icons/plus.png)) dans le coin supérieur droit.
 
+Sélectionnez ensuite **[!UICONTROL Se connecter avec le code d’invitation]**.
+
 ![L’icône plus mise en surbrillance dans l’espace de travail Connect.](/help/assets/connect/establish-connection/private-connection-invite.png){zoomable="yes"}
 
 La boîte de dialogue **[!UICONTROL Connect]** s’affiche et vous invite à saisir le **[!UICONTROL code Connect]** du collaborateur avec lequel vous souhaitez vous connecter. Collez le code dans le champ de texte et sélectionnez **[!UICONTROL Continuer]** pour continuer.
@@ -152,7 +154,7 @@ Les paramètres de connexion définissent les termes entre deux collaborateurs. 
 
 Une fois que le destinataire a accepté l’invitation, le propriétaire peut configurer les paramètres de connexion. Pour ce faire, accédez à **[!UICONTROL Mes connexions]** et recherchez la connexion en attente dans la section **[!UICONTROL Action requise]**. Sélectionnez **[!UICONTROL Configurer la connexion]** pour configurer les paramètres de connexion.
 
-![Connecter l’espace de travail avec l’option Configurer la connexion mise en surbrillance dans la section Action requise &#x200B;](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}.
+![Connecter l’espace de travail avec l’option Configurer la connexion mise en surbrillance dans la section Action requise ](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}.
 
 L’espace de travail Paramètres de connexion s’affiche, vous permettant de configurer les différents paramètres de la connexion.
 
@@ -302,6 +304,70 @@ De plus, si vous êtes un éditeur qui se connecte à un annonceur, vous pouvez 
 > Une fois que vous avez accepté les paramètres de connexion, vous ne pouvez plus ajouter ni modifier les noms des annonceurs.
 
 Sélectionnez ensuite **[!UICONTROL Accepter]** pour poursuivre la connexion. Le statut de la connexion va passer à **[!UICONTROL Actif]** et vous pouvez maintenant commencer à collaborer sur des projets.
+
+## Inviter un collaborateur ou une collaboratrice {#invite-collaborator}
+
+Suivez les étapes ci-dessous pour inviter votre partenaire à rejoindre Real-Time CDP Collaboration [!DNL Starter]. Si vous souhaitez obtenir plus d’informations sur les [!DNL Starter] de Collaboration et une présentation détaillée du processus, reportez-vous à la [[!DNL Starter] documentation de présentation](../overview/starter-overview.md).
+
+Avant de lancer le processus d’invitation, collectez les informations suivantes auprès de votre collaborateur :
+
+| Champ | Description |
+|-------|-------------|
+| Société | Nom de la société du collaborateur. |
+| Nom | Nom complet de la personne que vous invitez. |
+| Adresse e-mail | Adresse e-mail utilisée par le collaborateur pour accéder aux [!DNL Starter] Real-Time CDP Collaboration. |
+| Titre | Fonction du contact principal. |
+
+{style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>En invitant un autre collaborateur, vous reconnaissez que vous êtes responsable de tous les frais engagés dans le cadre de ses activités. En savoir plus sur [utilisation et consommation du crédit dans Collaboration Starter](../setup/starter-credit-usage.md)
+
+### Envoyer une invitation {#send-invitation}
+
+Invitez votre organisation partenaire à rejoindre Collaboration [!DNL Starter] directement via l’interface utilisateur.
+
+Pour commencer, accédez à l’espace de travail **[!UICONTROL Connect]** et sélectionnez l’icône plus (![icône plus](/help/assets/icons/plus.png)) dans le coin supérieur droit. Sélectionnez ensuite **[!UICONTROL Inviter un collaborateur]**.
+
+![L’espace de travail Connect avec l’icône plus et l’option Inviter un collaborateur mise en surbrillance.](/help/assets/connect/establish-connection/invite-collaborator/invite-collaborator.png){zoomable="yes"}
+
+La boîte de dialogue **[!UICONTROL Inviter un collaborateur]** s’affiche, vous invitant à saisir les informations sur le collaborateur invité. Renseignez les champs obligatoires pour [!UICONTROL Nom de la société], [!UICONTROL Prénom], [!UICONTROL Nom] et [!UICONTROL E-mail].
+
+>[!IMPORTANT]
+>
+>Les invitations sont **liées à l’adresse e-mail fournie**. Assurez-vous que l’adresse e-mail est exacte, car l’utilisateur invité doit l’utiliser exactement pour accepter l’invitation et accéder au produit.
+
+Utilisez ensuite le menu déroulant pour choisir le rôle approprié pour votre partenaire. Voir la [documentation sur les rôles de compte](../overview/roles.md) pour plus d’informations sur les types de rôles disponibles dans Collaboration.
+
+![La boîte de dialogue Inviter un collaborateur avec le menu déroulant Rôle mis en surbrillance.](/help/assets/connect/establish-connection/invite-collaborator/role-dropdown.png){zoomable="yes"}
+
+Lorsque vous avez terminé, passez en revue les informations et sélectionnez **[!UICONTROL Envoyer une invitation]**.
+
+![Boîte de dialogue Inviter un collaborateur avec l’option Envoyer une invitation mise en surbrillance.](/help/assets/connect/establish-connection/invite-collaborator/send-invite.png){zoomable="yes"}
+
+Une boîte de dialogue de confirmation confirme que l’invitation a bien été envoyée à votre organisation partenaire.
+
+![La boîte de dialogue de confirmation confirme que l’invitation a bien été envoyée.](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
+
+### Accepter l&#39;invitation et signer les conditions {#accept-invitation-sign-terms}
+
+Après l’envoi de l’invitation, votre organisation partenaire reçoit un e-mail contenant des instructions pour examiner et accepter les conditions générales de Real-Time Collaboration. Ils peuvent également explorer les fonctionnalités de Collaboration avant d’accepter.
+
+![L’e-mail d’invitation à rejoindre Collaboration Starter.](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
+
+Une fois que votre organisation partenaire a accepté les conditions générales, Adobe commence à configurer Real-Time CDP Collaboration [!DNL Starter] pour son compte.
+
+### Confirmation d’approvisionnement {#provisioning-confirmation}
+
+Une fois le processus de configuration terminé, un e-mail de bienvenue est envoyé à l’organisation invitée, confirmant que Collaboration [!DNL Starter] est prêt à être utilisé. Cet e-mail fournit des instructions sur les éléments suivants :
+
+- [Configuration de l’accès administrateur et utilisateur](../setup/starter-admin-access.md)
+- [Configurer les autorisations d’accès à Collaboration](../setup/starter-permission-controls.md)
+
+![E-mail de bienvenue envoyé à l’organisation invitée avec des instructions pour configurer l’accès et les autorisations nécessaires.](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
+
+Une fois que votre partenaire a accès à Collaboration, vous et l’organisation invitée pouvez [établir une connexion](#connect) et [configurer les paramètres de connexion](#configure-connection-settings) commencer à collaborer sur des projets.
 
 ## Étapes suivantes
 

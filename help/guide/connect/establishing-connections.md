@@ -2,11 +2,11 @@
 title: Etablissement de connexions avec des collaborateurs
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 27fdbdf7e70ba83b323e1057ab614585aa7d0045
+source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
 workflow-type: tm+mt
-source-wordcount: '3349'
+source-wordcount: '3398'
 ht-degree: 8%
 
 ---
@@ -84,7 +84,7 @@ Une boîte de dialogue s’affiche, vous invitant à envoyer une invitation à l
 
 L’invitation en attente s’affiche dans l’onglet **[!UICONTROL Mes connexions]** de la section **[!UICONTROL Action requise]**. Le statut de la connexion apparaît comme **[!UICONTROL Invitation envoyée]**. Vous pouvez prévisualiser les paramètres de connexion en sélectionnant **[!UICONTROL Prévisualiser la connexion]**, mais vous ne pouvez pas les modifier tant que l’éditeur n’a pas accepté l’invitation.
 
-![&#x200B; La connexion en attente s’affiche dans l’espace de travail Mes connexions de la section Action requise &#x200B;](/help/assets/connect/establish-connection/preview-connection.png){zoomable="yes"}.
+![ La connexion en attente s’affiche dans l’espace de travail Mes connexions de la section Action requise ](/help/assets/connect/establish-connection/preview-connection.png){zoomable="yes"}.
 
 ### Invitation à une connexion privée {#private-connection-invite}
 
@@ -154,7 +154,7 @@ Les paramètres de connexion définissent les termes entre deux collaborateurs. 
 
 Une fois que le destinataire a accepté l’invitation, le propriétaire peut configurer les paramètres de connexion. Pour ce faire, accédez à **[!UICONTROL Mes connexions]** et recherchez la connexion en attente dans la section **[!UICONTROL Action requise]**. Sélectionnez **[!UICONTROL Configurer la connexion]** pour configurer les paramètres de connexion.
 
-![Connecter l’espace de travail avec l’option Configurer la connexion mise en surbrillance dans la section Action requise &#x200B;](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}.
+![Connecter l’espace de travail avec l’option Configurer la connexion mise en surbrillance dans la section Action requise ](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}.
 
 L’espace de travail Paramètres de connexion s’affiche, vous permettant de configurer les différents paramètres de la connexion.
 
@@ -325,6 +325,12 @@ Avant de lancer le processus d’invitation, collectez les informations suivante
 >En invitant un autre collaborateur, vous reconnaissez que vous êtes responsable de tous les frais engagés dans le cadre de ses activités. En savoir plus sur [utilisation et consommation du crédit dans Collaboration Starter](../setup/starter-credit-usage.md)
 
 ### Envoyer une invitation {#send-invitation}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_starter_invite_collaborator"
+>title="Inviter un collaborateur ou une collaboratrice"
+>abstract="Remplissez ce formulaire pour inviter votre organisation partenaire à rejoindre Collaboration Starter. L’invité recevra un e-mail d’invitation et doit utiliser l’adresse e-mail spécifiée pour terminer l’enregistrement."
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="En savoir plus sur Collaboration Starter"
 
 Invitez votre organisation partenaire à rejoindre Collaboration [!DNL Starter] directement via l’interface utilisateur.
 

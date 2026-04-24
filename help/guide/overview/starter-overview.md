@@ -1,96 +1,96 @@
 ---
-title: RTCDP Collaboration Starter Overview
-description: Learn how Adobe Real-Time CDP Collaboration Starter helps you to expand and enhance privacy-centric collaboration with a licensed partner without requiring your own full Real-Time CDP license.
+title: Présentation du démarrage de RTCDP Collaboration
+description: Découvrez comment Adobe Real-Time CDP Collaboration Starter vous permet d’étendre et d’améliorer la collaboration axée sur la confidentialité avec un partenaire sous licence sans avoir à obtenir votre propre licence Real-Time CDP complète.
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: 3d29985d88e6370b4a0e8cd3d56358e85bb91e06
+source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 3%
 
 ---
 
-# Adobe Real-Time CDP Collaboration [!DNL Starter] Overview
+# Présentation d’Adobe Real-Time CDP Collaboration [!DNL Starter]
 
-Use Adobe Real-Time CDP Collaboration [!DNL Starter] to collaborate with a licensed partner on privacy-centric data projects. You do not need your own Collaboration license to participate.
+Utilisez Adobe Real-Time CDP Collaboration [!DNL Starter] pour collaborer avec un partenaire sous licence sur des projets de données axés sur la confidentialité. Vous n’avez pas besoin de votre propre licence Collaboration pour participer.
 
-Your licensed partner invites you into Collaboration and uses their credits to fund your joint workflows, across both advertiser-to-publisher and brand-to-brand patterns. To learn more about these patterns and how they work, read the [collaboration patterns](./collaboration-patterns.md) and [end-to-end workflow](./end-to-end-workflow.md) guides.
+Votre partenaire sous licence vous invite dans Collaboration et utilise ses crédits pour financer vos workflows conjoints, à la fois entre annonceurs et éditeurs et entre marques. Pour en savoir plus sur ces modèles et leur fonctionnement, consultez les guides [modèles de collaboration](./collaboration-patterns.md) et [workflow de bout en bout](./end-to-end-workflow.md).
 
-As an invited [!DNL Starter] user, you can:
+En tant qu’utilisateur [!DNL Starter] invité, vous pouvez :
 
-* Onboard and manage collaboration data in a [!DNL Starter] account.
-* Source and maintain audiences for use in joint projects.
-* Gain insights into audience overlaps with your partner to support effective targeting and campaign measurement.
-* Activate audiences and share them back to your partner for joint campaign activation and engagement.
+* Intégrez et gérez les données de collaboration dans un compte [!DNL Starter].
+* Source et gestion des audiences à utiliser dans des projets conjoints.
+* Obtenez des informations sur les chevauchements d’audience avec votre partenaire afin de prendre en charge un ciblage et une mesure de campagne efficaces.
+* Activez les audiences et renvoyez-les à votre partenaire pour une activation et un engagement conjoints de la campagne.
 
 ## Conditions préalables {#prerequisites}
 
-To get started with Collaboration [!DNL Starter], ensure that both your organization and your licensed partner are located in the same region. You must be invited by a partner who holds a Real-Time CDP Prime, Ultimate, or Collaboration license.
+Pour commencer à utiliser Collaboration [!DNL Starter], assurez-vous que votre entreprise et votre partenaire sous licence se trouvent dans la même région. Vous devez être invité par un partenaire titulaire d’une licence Real-Time CDP Prime, Ultimate ou Collaboration.
 
-To initiate the invitation, provide the following information to your licensed partner:
+Pour lancer l’invitation, fournissez les informations suivantes à votre partenaire sous licence :
 
-* Contact name
+* Nom du contact
 * E-mail de contact
-* Company
-* Role (Advertiser/Publisher): Advertiser
+* Société
+* Rôle (Annonceur/Éditeur) : Annonceur
 * Secteur industriel
 
-After you receive and accept the invitation, your organization must review and sign a no-cost Sales Order with Adobe to access Collaboration [!DNL Starter]. For more details on the invitation process, see the [inviting a collaborator to Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator-to-starter) guide.
+Après avoir reçu et accepté l’invitation, votre entreprise doit vérifier et signer une commande client gratuite avec Adobe pour accéder à Collaboration [!DNL Starter]. Pour plus d’informations sur le processus d’invitation, consultez le guide [inviter un collaborateur à Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator).
 
 ## Mécanismes de sécurisation {#guardrails}
 
-Read the following table to understand the key guardrails that apply to your [!DNL Starter] account. These include limits on audience sourcing, data volume, refresh frequency, audience overlaps and activation capabilities.
+Lisez le tableau suivant pour comprendre les principaux mécanismes de sécurisation qui s’appliquent à votre compte [!DNL Starter]. Il s’agit notamment des limites sur l’approvisionnement des audiences, le volume des données, la fréquence d’actualisation, les chevauchements d’audiences et les fonctionnalités d’activation.
 
 | Mécanisme de sécurisation | Description |
 |----------| ------------|
-| Audience source | You can bring audience data into Collaboration with **[!DNL Amazon S3]** as your source. For step-by-step instructions, see [how to configure [!DNL Amazon S3] for audience sourcing](../setup/configure-aws-s3-audience-sourcing.md). |
-| Audience | Your [!DNL Starter] account is entitled to a maximum of:<ul><li>10 audiences sourced from an [!DNL AWS S3] bucket</li><li>50 million total identities (calculated by the number of rows in your audience data)</li><li>1 refresh per audience every 6 days</li></ul> |
-| Audience overlaps and insights | There is no usage limit on how often you can run audience overlaps and insights across your audiences. Learn how to [discover overlaps and compare audiences](../collaborate/discover.md). |
-| Activation | As a [!DNL Starter] user, you can activate and share audiences only with the partner who invited you. Configuration of destinations to external platforms is not available. Learn more about [activating your audiences](../collaborate/activate.md). |
+| Audience source | Vous pouvez importer des données d’audience dans Collaboration avec **[!DNL Amazon S3]** comme source. Pour obtenir des instructions détaillées, voir [comment configurer [!DNL Amazon S3] pour l’approvisionnement des audiences](../setup/configure-aws-s3-audience-sourcing.md). |
+| Audience | Votre compte [!DNL Starter] a droit à un maximum de :<ul><li>10 audiences provenant d’un compartiment [!DNL AWS S3]</li><li>50 millions d’identités totales (calculées par le nombre de lignes dans vos données d’audience)</li><li>1 actualisation par audience tous les 6 jours</li></ul> |
+| Chevauchements d’audience et informations | Il n’existe aucune limite d’utilisation sur la fréquence à laquelle vous pouvez exécuter des chevauchements d’audiences et des informations sur vos audiences. Découvrez comment [découvrir des chevauchements et comparer des audiences](../collaborate/discover.md). |
+| Activation | En tant qu’utilisateur [!DNL Starter], vous ne pouvez activer et partager des audiences qu’avec le partenaire qui vous a invité. La configuration des destinations vers des plateformes externes n’est pas disponible. En savoir plus sur l’[activation de vos audiences](../collaborate/activate.md). |
 
 {style="table-layout:auto"}
 
 ## Prise en main {#getting-started}
 
-After you [accept your invitation and agree to the terms](../connect/establishing-connections.md#accept-invitation-sign-terms), log in to [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} with your credentials. Before you can use Collaboration, your account must be granted the appropriate access and roles.
+Après avoir [accepté votre invitation et accepté les conditions](../connect/establishing-connections.md#accept-invitation-sign-terms), connectez-vous à [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} avec vos informations d’identification. Avant de pouvoir utiliser Collaboration, vous devez disposer des droits d’accès et des rôles appropriés sur votre compte.
 
-Use this workflow to set up your [!DNL Starter] account and begin collaborating with your partner.
+Utilisez ce workflow pour configurer votre compte [!DNL Starter] et commencer à collaborer avec votre partenaire.
 
-### Set up administrator access {#setup-admin-access}
+### Configurer l’accès administrateur {#setup-admin-access}
 
-First, use the **Admin Access** workspace to grant yourself the necessary access. This ensures you have both administrative rights and user access to Experience Platform products. For detailed steps on how to set up initial access, see the [admin access instructions](../setup/starter-admin-access.md).
+Tout d’abord, utilisez l’espace de travail **Accès administrateur** pour vous accorder l’accès nécessaire. Vous disposez ainsi à la fois de droits d’administration et d’un accès utilisateur aux produits Experience Platform. Pour obtenir des instructions détaillées sur la configuration de l’accès initial, reportez-vous aux [instructions d’accès administrateur](../setup/starter-admin-access.md).
 
-Once complete, you should see **[!UICONTROL Permissions]**, **[!UICONTROL Experience Platform]**, and **[!UICONTROL Real-Time CDP Collaboration]** within the **[!UICONTROL Quick access]** section on your [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} homepage.
+Une fois l’opération terminée, vous devriez voir **[!UICONTROL Autorisations]**, **[!UICONTROL Experience Platform]** et **[!UICONTROL Real-Time CDP Collaboration]** dans la section **[!UICONTROL Accès rapide]** de votre page d’accueil [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
 
-![The Adobe Experience Cloud workspace showing Permissions, Experience Platform, and Real-Time CDP Collaboration after product administrator access setup.](/help/assets/overview/starter/setup-admin-access.png){zoomable="yes"}
+![L’espace de travail Adobe Experience Cloud affichant les autorisations, Experience Platform et Real-Time CDP Collaboration après la configuration de l’accès administrateur de produit.](/help/assets/overview/starter/setup-admin-access.png){zoomable="yes"}
 
-For more details about access roles and different Adobe Experience Cloud products, read the [access control overview](../permissions/overview.md).
+Pour plus d’informations sur les rôles d’accès et les différents produits Adobe Experience Cloud, consultez la [présentation du contrôle d’accès](../permissions/overview.md).
 
 ### Configuration des autorisations {#configure-permissions}
 
-Now that you have administrator privileges, you can assign roles and permissions to yourself and other users in your organization. This step is required before you can access Real-Time CDP Collaboration or allow others to use it. For detailed instructions, see [how to configure permissions](../setup/starter-permission-controls.md). For more information about the different roles and permissions available in Collaboration, see the [manage roles](../permissions/manage-roles.md) documentation.
+Maintenant que vous disposez des privilèges d’administrateur, vous pouvez vous attribuer des rôles et des autorisations ainsi qu’aux autres utilisateurs de votre organisation. Cette étape est nécessaire avant de pouvoir accéder à Real-Time CDP Collaboration ou de permettre à d’autres personnes de l’utiliser. Pour obtenir des instructions détaillées, voir [comment configurer des autorisations](../setup/starter-permission-controls.md). Pour plus d’informations sur les différents rôles et autorisations disponibles dans Collaboration, consultez la documentation [gérer les rôles](../permissions/manage-roles.md).
 
-Once roles and permissions have been assigned, confirm that you can access Collaboration. Navigate to [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}, and select **[!UICONTROL Real-Time CDP Collaboration]** within the **[!UICONTROL Quick access]** section. This opens the **[!UICONTROL Adobe Real-Time CDP Collaboration]** workspace, where you can begin using Collaboration features.
+Une fois les rôles et les autorisations attribués, vérifiez que vous pouvez accéder à Collaboration. Accédez à [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}, puis sélectionnez **[!UICONTROL Real-Time CDP Collaboration]** dans la section **[!UICONTROL Accès rapide]**. L’espace de travail **[!UICONTROL Adobe Real-Time CDP Collaboration]** s’ouvre, où vous pouvez commencer à utiliser les fonctionnalités de Collaboration.
 
 ### Configurer des connexions {#set-up-connections}
 
-Next, follow steps in the following guides to set up connection and start collaborating with your partner:
+Suivez ensuite les étapes des guides suivants pour configurer une connexion et commencer à collaborer avec votre partenaire :
 
-* [Set up your Collaboration account](../setup/onboard-account.md)
-* [Establish a connection with your inviting collaborator](../connect/overview.md)
-* [Create a new project and begin collaborating with your partner](../collaborate/overview.md)
+* [Configuration de votre compte Collaboration](../setup/onboard-account.md)
+* [Établir un lien avec votre collaborateur invité](../connect/overview.md)
+* [Créez un projet et commencez à collaborer avec votre partenaire](../collaborate/overview.md)
 
-### Understand credit usage {#understand-credit-usage}
+### Comprendre l’utilisation du crédit {#understand-credit-usage}
 
-All Collaboration [!DNL Starter] activities use credits. However, as an invited user, you do not need to purchase or manage these credits. The collaborator who invited you covers all credit usage associated with your activities. To learn more, see the [credit usage and consumption in Collaboration [!DNL Starter]](../setup/starter-credit-usage.md) documentation.
+Toutes les activités Collaboration [!DNL Starter] utilisent des crédits. Cependant, en tant qu’utilisateur invité, vous n’avez pas besoin d’acheter ni de gérer ces crédits. Le collaborateur qui vous a invité couvre toutes les utilisations de crédit associées à vos activités. Pour en savoir plus, consultez la documentation [utilisation et consommation du crédit dans Collaboration [!DNL Starter]](../setup/starter-credit-usage.md).
 
 ## Étapes suivantes {#next-steps}
 
-You&#39;ve now completed initial setup and configured your organization for secure collaboration. Next, explore the following resources to learn about audience sourcing and different project use cases  within Collaboration:
+Vous avez maintenant terminé la configuration initiale et configuré votre organisation pour une collaboration sécurisée. Consultez ensuite les ressources suivantes pour en savoir plus sur l’approvisionnement des audiences et les différents cas d’utilisation de projets dans Collaboration :
 
 * [Source et gestion des audiences](../setup/onboard-audiences.md)
-* [Project use cases](../collaborate/overview.md#project-use-cases):
-   * [Discover overlaps and compare audiences](../collaborate/discover.md)
+* [Cas d’utilisation de projet](../collaborate/overview.md#project-use-cases) :
+   * [Découvrir les chevauchements et comparer les audiences](../collaborate/discover.md)
    * [Activer les audiences](../collaborate/activate.md)
-   * [Measure campaign performance](../collaborate/measure.md)
+   * [Mesurer les performances de la campagne](../collaborate/measure.md)

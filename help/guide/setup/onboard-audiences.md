@@ -4,9 +4,16 @@ description: Découvrez comment sourcer et gérer des audiences dans Adobe Real-
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 1c00bacce3a612c9907fb6932ce9089ff29780e0
+TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '3680'
+source-wordcount: 3680
 ht-degree: 18%
 
 ---
@@ -44,7 +51,7 @@ Dans l’onglet **[!UICONTROL Mes audiences]** de l’espace de travail **[!UICO
 
 Une connexion aux données est la source à partir de laquelle vous ingérez des audiences dans Collaboration. Les sources prises en charge sont Adobe Experience Platform, le chargement de fichier CSV, [!DNL Amazon S3], [!DNL Snowflake] et [!DNL Google Cloud Storage], chacun ayant son propre workflow.
 
-Les sections ci-dessous décrivent la sélection de **&#x200B;**&#x200B;et l’exécution des étapes spécifiques à Experience Platform (sandbox, gouvernance et consentement). Si vous choisissez CSV, [!DNL Amazon S3], [!DNL Snowflake] ou [!DNL Google Cloud Storage], utilisez le guide associé sous [Sélectionner la source de données](#select-data-source) pour cette option.
+Les sections ci-dessous décrivent la sélection de **Adobe Experience Platform** et l’exécution des étapes spécifiques à Experience Platform (sandbox, gouvernance et consentement). Si vous choisissez CSV, [!DNL Amazon S3], [!DNL Snowflake] ou [!DNL Google Cloud Storage], utilisez le guide associé sous [Sélectionner la source de données](#select-data-source) pour cette option.
 
 Tous les paramètres que vous configurez pour une connexion de données Experience Platform sont appliqués à toutes les audiences provenant de cette connexion.
 
@@ -62,8 +69,8 @@ Vous allez ensuite choisir la source de votre connexion aux données. Les source
 
 * **Adobe Experience Platform** : sélectionnez cette option pour importer vos audiences depuis Adobe Experience Platform.
 * **Fichier CSV** : chargez un fichier CSV contenant les données de votre audience pour une ingestion de données simple et rapide. Pour commencer[&#128279;](./upload-csv-audience-sourcing.md) reportez-vous au guide Chargement de fichier CSV pour l’approvisionnement de l’audience.
-* **&#x200B;**&#x200B;: connectez-vous à votre stockage Amazon S3 pour obtenir des données d’audience source directement à partir de vos compartiments S3. Consultez le guide [Configurer AWS S3 pour l’approvisionnement de l’audience](./configure-aws-s3-audience-sourcing.md) pour obtenir des instructions détaillées.
-* **&#x200B;**&#x200B;: utilisez votre entrepôt de données Snowflake pour extraire facilement les données d’audience. Reportez-vous au guide [Configurer [!DNL Snowflake] pour l’approvisionnement des audiences](./configure-snowflake-audience-sourcing.md) .
+* **Amazon Web Services** : connectez-vous à votre stockage Amazon S3 pour obtenir des données d’audience source directement à partir de vos compartiments S3. Consultez le guide [Configurer AWS S3 pour l’approvisionnement de l’audience](./configure-aws-s3-audience-sourcing.md) pour obtenir des instructions détaillées.
+* **Snowflake** : utilisez votre entrepôt de données Snowflake pour extraire facilement les données d’audience. Reportez-vous au guide [Configurer [!DNL Snowflake] pour l’approvisionnement des audiences](./configure-snowflake-audience-sourcing.md) .
 * **Google Cloud Storage** : connectez-vous à vos compartiments GCS pour obtenir les données d’audience source. Consultez le guide [Configurer GCS pour l’approvisionnement de l’audience](./configure-gcs-audience-sourcing.md) pour obtenir des instructions détaillées.
 
 Sélectionnez votre source de données, puis sélectionnez **[!UICONTROL Suivant]**.
@@ -149,47 +156,47 @@ Vous allez ensuite sélectionner les champs sources à mapper aux champs cibles 
 
 >[!BEGINSHADEBOX]
 
-Les **[!UICONTROL champs]** sont des espaces de noms d’identité et des attributs d’Experience Platform. Il s’agit des espaces de noms d’identité [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard?lang=fr){target="_blank"} et [personnalisés](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=fr#create-namespaces){target="_blank"}. Ils incluent également les attributs de profil présents dans le [schéma d’union](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=fr){target="_blank"} et appartenant à la classe XDM Individual Profile.
+Les **[!UICONTROL champs Source]** sont des espaces de noms d’identité et des attributs d’Experience Platform. Il s’agit des espaces de noms d’identité [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard?lang=fr){target="_blank"} et [personnalisés](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=fr#create-namespaces){target="_blank"}. Ils incluent également les attributs de profil présents dans le [schéma d’union](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=fr){target="_blank"} et appartenant à la classe XDM Individual Profile.
 
 Les champs Source sont mappés sur les champs cibles définis dans Collaboration.
 
 **[!UICONTROL Champs cibles]** indiquez comment les identités sont référencées dans Collaboration. Les champs cibles sont les clés correspondantes choisies lors de la configuration du compte. Par défaut, toutes les clés correspondantes sélectionnées sont disponibles.
 
-Utilisez l’option **[!UICONTROL Appliquer la transformation]** lorsque vous sourcez des champs *non hachés* vers des champs hachés. Collaboration appliquera le hachage et transformera les champs. L’algorithme de hachage utilisé par Adobe est SHA256.
+Utilisez l’option **[!UICONTROL Appliquer la transformation]** lorsque vous sourcez des champs *non hachés* vers des champs hachés. Collaboration will apply the hashing and transform the fields. The hashing algorithm used by Adobe is SHA256.
 
 >[!ENDSHADEBOX]
 
-Pour commencer à mapper des champs, sélectionnez le champ source vide en regard du champ cible. La boîte de dialogue **[!UICONTROL Sélectionner le champ source]** s’affiche. Sélectionnez entre les options **[!UICONTROL Espaces de noms d’identité]** et **[!UICONTROL Attributs de profil]** pour trouver le champ source souhaité, puis sélectionnez le champ dans la liste. Vous pouvez également utiliser l’option de recherche pour trouver le champ souhaité.
+To begin mapping fields, select the empty source field next to the target field. The **[!UICONTROL Select source field]** dialog will appear. Select between the **[!UICONTROL Identity namespaces]** and **[!UICONTROL Profile attributes]** options to find the desired source field and then select the field from the list. You can also make use of the search option to find the desired field.
 
-![La boîte de dialogue Sélectionner le champ source avec les options d’e-mail affichées.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
+![The Select source field dialog with the email options displayed.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-Pour gérer l’origine d’un champ non haché vers un champ cible haché, utilisez l’option **[!UICONTROL Appliquer la transformation]**. Par exemple, pour ajouter un deuxième champ d’e-mail, sélectionnez l’option **[!UICONTROL Ajouter un champ]** afin d’ajouter une nouvelle ligne, puis sélectionnez **[!UICONTROL E-mail haché]** pour le champ cible. Sélectionnez un champ source d’e-mail non haché, puis sélectionnez **[!UICONTROL Appliquer la transformation]**.
+To handle sourcing a non-hashed field to a hashed target field, use the **[!UICONTROL Apply transformation]** option. For example, to add a second email field, select the **[!UICONTROL Add field]** option to to add a new row, then select **[!UICONTROL Hashed email]** for the target field. Select a non-hashed email source field, and then select **[!UICONTROL Apply transformation]**.
 
-![L’espace de travail Ajouter des audiences avec les champs sources d’e-mail mappés au champ cible, avec l’option Appliquer la transformation activée pour l’un.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
+![The Add audiences workspace with the email source fields mapped to the target field, with Apply transformation toggled on for one.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 
-Continuez à ajouter des paires de mappage pour chaque champ cible. Si vous ne souhaitez pas utiliser de clé de correspondance, vous pouvez la supprimer à l’aide de l’icône de suppression (![icône Supprimer](/help/assets/icons/delete.png)) située en regard du champ. Si la clé de correspondance est supprimée, vous ne pourrez pas l’utiliser lors de l’approvisionnement d’audiences à partir de la connexion.
+Continue adding mapping pairs for each target field. If you don&#39;t wish to use a match key, you can remove it using the delete (![Delete icon](/help/assets/icons/delete.png)) icon next to the field. If match key is removed, you will not be able to use it when sourcing any audiences from the connection.
 
-![Espace de travail Ajouter des audiences avec l’option Supprimer en surbrillance à côté d’un champ cible.](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+![The Add audiences workspace with the Delete option beside a target field highlighted.](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
 
-Lorsque vous avez terminé de mapper les champs, sélectionnez **[!UICONTROL Suivant]** pour continuer.
+When you&#39;re finished mapping fields, select **[!UICONTROL Next]** to continue.
 
-![Espace de travail Ajouter des audiences avec les champs de mappage renseignés et l’option Suivant mise en surbrillance.](/help/assets/setup/add-manage-audiences/confirm-field-mapping.png){zoomable="yes"}
+![The Add audiences workspace with the map fields filled in and the Next option highlighted.](/help/assets/setup/add-manage-audiences/confirm-field-mapping.png){zoomable="yes"}
 
 ### Planning {#schedule}
 
-Ensuite, planifiez les dates de début et de fin du remplissage des audiences. L’audience sera actualisée selon ce planning.
+Next, schedule when to start and end populating the audiences. The audience will be refreshed according to this schedule.
 
-![L’espace de travail Ajouter une audience avec les options de planification affichées.](/help/assets/setup/add-manage-audiences/audience-scheduling.png){zoomable="yes"}
+![The Add audience workspace with the scheduling options displayed.](/help/assets/setup/add-manage-audiences/audience-scheduling.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->Le réglage de la fréquence des mises à jour de l’audience permet de gérer l’[activité de crédit Gestion de l’audience](/help/guide/setup/my-activity.md#types-of-activities), qui est calculée par actualisation de l’audience. La sélection d’une fréquence plus élevée peut avoir un impact sur l’actualisation des données disponibles pour les rapports de découverte d’audience et l’activation d’audience.
+>Adjusting the frequency of audience updates will help manage the [Audience Management credit activity](/help/guide/setup/my-activity.md#types-of-activities), which is calculated per audience refresh. Selecting a higher frequency can impact of the freshness of the data available for audience discover reports and audience activation.
 
-Sélectionnez la fréquence d’actualisation de l’audience dans le menu déroulant **[!UICONTROL Fréquence]**.
+Select the frequency of the audience refresh from the **[!UICONTROL Frequency]** dropdown.
 
-![L’espace de travail Ajouter des audiences de planification avec la liste déroulante Fréquence ouverte.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png){zoomable="yes"}
+![The Add audiences scheduling workspace with the Frequency dropdown open.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png){zoomable="yes"}
 
-Sélectionnez ensuite la **[!UICONTROL Période]**. La date de début est la date à laquelle l’audience commencera à remplir avec des profils, et la date de fin est la date à laquelle l’audience cessera de s’actualiser.
+Next, select the **[!UICONTROL Date range]**. La date de début est la date à laquelle l’audience commencera à remplir avec des profils, et la date de fin est la date à laquelle l’audience cessera de s’actualiser.
 
 ![L’espace de travail de planification Ajouter des audiences avec l’option Période affichée.](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png){zoomable="yes"}
 

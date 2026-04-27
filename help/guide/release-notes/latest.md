@@ -1,69 +1,80 @@
 ---
-title: Dernières notes de mise à jour de Real-Time CDP Collaboration
-description: Suivez les dernières versions de Real-Time CDP Collaboration
+title: Latest Real-Time CDP Collaboration Release Notes
+description: Follow the latest releases for Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: 8bda52a67f5a2bb733ecb6e28ae027e7092beba4
+TQID: https://experienceleague.adobe.com/re4oFblCLiZpspWIS7D4EEYNh36EDhULEOd2-ccXH28
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: 1461
 ht-degree: 2%
 
 ---
 
-# Dernières notes de mise à jour de Real-Time CDP Collaboration
+# Latest Real-Time CDP Collaboration Release Notes
 
 {{limited-availability-release-note}}
 
-**Dernière mise à jour** : janvier 2026.
+**Last update**: January 2026.
 
-Ces notes de mise à jour présentent les fonctionnalités disponibles dans Adobe Real-Time CDP Collaboration. Les versions de Collaboration fonctionnent sur un modèle de diffusion continu, ce qui permet une cadence de publication mensuelle approximative. Ces notes de mise à jour sont souvent mises à jour. Veillez donc à les consulter régulièrement.
+These release notes cover the functionality released in Adobe Real-Time CDP Collaboration. Collaboration releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. These release notes get updated often, so be sure to check them regularly.
 
 ## Janvier 2026 {#january-2026}
 
-Real-Time CDP Collaboration prend désormais en charge le chargement de fichiers CSV en tant que nouvelle méthode d’approvisionnement des audiences, ainsi que de nouvelles clés de correspondance mobile (IDFA et GAID) pour une correspondance et une mesure d’audience améliorées.
+Real-Time CDP Collaboration now supports CSV file upload as a new method for sourcing audiences, as well as new mobile match keys (IDFA and GAID) for enhanced audience matching and measurement.
 
 **Fonctionnalités nouvelles ou mises à jour**
 
 | Fonctionnalité | Description |
 | ------- | ----------- |
-| Chargement au format CSV pour l’audience | Chargez des fichiers CSV vers les audiences sources dans Collaboration directement à partir de l’interface utilisateur. Idéal pour l’intégration de données propriétaires à des projets de collaboration à court terme. Pour plus d’informations, consultez le guide [Télécharger un fichier CSV pour l’audience sourcing](../setup/upload-csv-audience-sourcing.md). |
-| Prise en charge des clés de correspondance mobile | Collaboration prend désormais en charge les clés de correspondance mobile, y compris IDFA et GAID, pour la correspondance et la mesure d’audience. Ces clés de correspondance sont sélectionnées lors de la configuration du compte et peuvent ensuite être utilisées lors de la configuration des paramètres de connexion pour les nouvelles connexions et dans les workflows de collaboration en aval. Pour plus d’informations, consultez le [Guide de configuration des clés de correspondance](../setup/onboard-account.md#set-up-match-keys). |
+| CSV upload for Audience Sourcing | Upload CSV files to source audiences into Collaboration directly from the UI. Ideal for onboarding first-party data for short-term collaboration projects. For more information, see the [upload CSV file for audience sourcing guide](../setup/upload-csv-audience-sourcing.md). |
+| Mobile Match Key Support | Collaboration now supports mobile match keys, including IDFA and GAID, for audience matching and measurement. These match keys are selected during account setup and can then be used when configuring connection settings for new connections and in downstream collaboration workflows. See the [Match keys setup guide](../setup/onboard-account.md#set-up-match-keys) for more details. |
 
 {style="table-layout:auto"}
 
 ## Décembre 2025 {#december-2025}
 
-Real-Time CDP Collaboration est désormais disponible pour les clients d’**Europe, du Moyen-Orient et d’Afrique (EMEA))**. Il est automatiquement disponible pour les clients Real-Time CDP Prime et Ultimate dans ces régions.
+Real-Time CDP Collaboration is now available to customers in **Europe, the Middle East, and Africa (EMEA))**. It is automatically available to Real-Time CDP Prime and Ultimate customers in these regions.
 
 ## Août 2025 {#august-2025}
 
-Real-Time CDP Collaboration est désormais disponible pour les clients au **Canada**. Il est automatiquement disponible pour les clients Real-Time CDP Prime et Ultimate dans ces régions.
+Real-Time CDP Collaboration is now available to customers in **Canada**. It is automatically available to Real-Time CDP Prime and Ultimate customers in these regions.
 
-* Collaboration prend désormais en charge les [clés de correspondance](../setup/onboard-account.md#supported-match-keys) suivantes :
+* Collaboration now supports the following [match keys](../setup/onboard-account.md#supported-match-keys):
    * E-mail haché
-   * Numéro de téléphone haché
+   * Hashed phone number
    * ID de CRM
    * ID de fidélité
    * IPv4 haché
    * ID AdFixus
-* Plusieurs clés de correspondance sont désormais disponibles dans Collaboration, ce qui vous permet d’étendre la taille de votre audience et d’améliorer les taux de correspondance. Plusieurs clés de correspondance peuvent être utilisées lors de l’approvisionnement des audiences, de l’établissement des connexions et de l’activation des audiences. Pour en savoir plus sur l’utilisation de plusieurs clés de correspondance, consultez les guides [Configurer des clés de correspondance](../setup/onboard-account.md) et [Audiences de source](../setup/onboard-audiences.md#map-fields).
+* Multiple match keys are now available across Collaboration, giving you the ability to expand your audience size and improve match rates. Multiple match keys can be used when sourcing audiences, establishing connections, and activating audiences. To learn more about using multiple match keys, read the [set up match keys](../setup/onboard-account.md) and [sourcing audiences](../setup/onboard-audiences.md#map-fields) guides.
 
 >[!IMPORTANT]
 >
 >Lors de l’activation des audiences où plusieurs clés de correspondance sont utilisées, si une ou plusieurs clés de correspondance ne se chevauchent pas, ne génèrent aucun nombre de profils des audiences ou se situent sous le seuil, l’activation entière échoue. Assurez-vous que vos audiences disposent d’un chevauchement suffisant et respectent le seuil minimum de 1 000 identifiants sur toutes les clés de correspondance avant d’activer.
 
-* La destination Adobe Experience Platform prend désormais en charge l’activation des audiences avec plusieurs clés de correspondance. En outre, vous pouvez désormais utiliser une clé liée lors de la configuration du mappage de destination pour spécifier la clé de correspondance envoyée lors de l’activation. Pour en savoir plus, consultez le guide de la destination [Experience Platform](../destinations/experience-platform.md#linked-keys).
-* Les collaborateurs peuvent désormais modifier plusieurs audiences à la fois. Vous pouvez désormais modifier les métadonnées d’audience, l’accès à la connexion, les noms, les descriptions et les catégories de plusieurs audiences à l’aide de l’outil de modification en bloc. Pour en savoir plus sur la modification des audiences, consultez le guide [gérer les audiences](../setup/onboard-audiences.md#edit-audiences).
+* The Adobe Experience Platform destination now supports activating audiences with multiple match keys. Additionally, you can now used a linked key when configuring your destination&#39;s mapping to specify which match key is sent during activation. To learn more, read the [Experience Platform destination](../destinations/experience-platform.md#linked-keys) guide.
+* Collaborators can now edit multiple audiences at once. You can now edit audience metadata, connection access, names, descriptions, and categories for multiple audiences using the bulk edit tool. To learn more about editing audiences, read the [manage audiences](../setup/onboard-audiences.md#edit-audiences) guide.
 
 ## Juillet 2025 {#july-2025}
 
-Real-Time CDP Collaboration prend désormais en charge la collaboration de marque à marque. Les collaborateurs peuvent désormais se connecter, qu’ils soient annonceurs ou éditeurs. Cela permet des opportunités de collaboration plus flexibles et permet aux marques d’exploiter les données et informations des unes et des autres. Pour en savoir plus sur les différences entre la collaboration de marque à marque et la collaboration d’annonceur à éditeur, consultez le guide [modèles de collaboration](../overview/collaboration-patterns.md).
+Real-time CDP Collaboration now supports brand-to-brand collaboration. Collaborators can now form connections, regardless of whether they are an advertiser or publisher. This allows for more flexible collaboration opportunities and enables brands to leverage each other&#39;s data and insights. To learn more about the differences between brand-to-brand collaboration and advertiser-to-publisher collaboration, read the [collaboration patterns](../overview/collaboration-patterns.md) guide.
 
-* Les collaborateurs peuvent désormais se connecter les uns aux autres à l’aide d’[invitations à une connexion privée](../connect/establishing-connections.md#private-connection-invites). Partagez le code de connexion unique de votre compte avec un collaborateur qui peut ensuite l’utiliser pour se connecter directement avec vous. Il s’agit d’une fonctionnalité clé de la collaboration de marque à marque, qui permet aux collaborateurs d’établir des connexions au-delà des annonceurs qui explorent le répertoire **[!UICONTROL Découvrir les collaborateurs]**.
-* [Destinations en libre-service](../setup/manage-destinations.md) sont désormais disponibles pour les annonceurs et les éditeurs.
-* L’activation de l’audience est désormais disponible pour les deux collaborateurs dans une connexion, quel que soit leur rôle [&#x200B; compte](../overview/roles.md). Les paramètres d’activation des audiences sont configurés lors de l’[établissement de connexions](../connect/establishing-connections.md#configure-connection-settings), ce qui vous permet de spécifier quel collaborateur peut activer les audiences. Pour en savoir plus sur l’activation des audiences, consultez le guide [&#x200B; Activer les audiences &#x200B;](../collaborate/activate.md).
-* Le cas d’utilisation **[!UICONTROL Activer]** a été reconfiguré pour prendre en charge la collaboration de marque à marque. L’onglet **[!UICONTROL Activer]** d’un projet affiche désormais les audiences qui ont été envoyées à votre collaborateur et les audiences activées vers votre destination par votre collaborateur. Pour en savoir plus, consultez le guide [Activer les audiences](../collaborate/activate.md). <br> ![Tableau de bord d’activation avec les sections Audiences envoyées à et Audiences activées.](/help/assets/release-notes/2025/activate-dashboard.png){zoomable="yes"}
+* Collaborators can now connect to each other using [private connection invites](../connect/establishing-connections.md#private-connection-invites). Share your account&#39;s unique connect code with a collaborator who can then use it to connect with you directly. This is a core feature of brand-to-brand collaboration, allowing collaborators to establish connections beyond advertisers exploring the **[!UICONTROL Discover collaborators]** directory.
+* [Self-serve destinations](../setup/manage-destinations.md) are now available to both advertisers and publishers.
+* Audience activation is now available for both collaborators in a connection, regardless of their [account role](../overview/roles.md). Audience activation settings are configured while [establishing connections](../connect/establishing-connections.md#configure-connection-settings), allowing you to specify which collaborator can activate audiences. To learn more about audience activation, read the [activate audiences](../collaborate/activate.md) guide.
+* The **[!UICONTROL Activate]** use case has been reconfigured to support brand-to-brand collaboration. The **[!UICONTROL Activate]** tab within a project now displays the audiences that have been sent to your collaborator, and the audiences activated to your destination by your collaborator. To learn more, read the [activate audiences](../collaborate/activate.md) guide. <br> ![Tableau de bord d’activation avec les sections Audiences envoyées à et Audiences activées.](/help/assets/release-notes/2025/activate-dashboard.png){zoomable="yes"}
 * Les scores d’index d’audience sont désormais disponibles dans l’onglet **[!UICONTROL Découvrir]** d’un projet. Le score de l’index d’audience est une mesure de la façon dont une audience correspond à l’audience de votre collaborateur. Ce score est calculé en fonction des nombres de profils des audiences et des chevauchements sous-jacents. Pour en savoir plus sur les scores d’index d’audience, consultez le guide [score d’index d’audience](../collaborate/discover.md#audience-index-score) .
 
 ## Mai 2025 {#may-2025}

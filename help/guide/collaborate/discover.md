@@ -4,9 +4,17 @@ description: Découvrez les chevauchements entre vos audiences et celles de vos 
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
+TQID: https://experienceleague.adobe.com/ny3FgyvKMu4caNcmNTLrPRHXjBOKa6lDvPQ3C9YG9vo
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: 2120
 ht-degree: 17%
 
 ---
@@ -178,27 +186,27 @@ Le score de l&#39;index est calculé au moyen de la formule suivante :
 
 ![Formule de calcul du score de l’index.](/help/assets/collaborate/discover/index-score-formula.png)
 
-Imaginez qu&#39;un constructeur automobile veuille faire une campagne publicitaire auprès d&#39;un grand éditeur de CTV pour un nouveau modèle de SUV. Le constructeur automobile dispose de données sur les propriétaires actuels d&#39;un modèle similaire et souhaite les utiliser pour trouver d&#39;autres prospects pour les convertir en clients. Le constructeur automobile examine les auditoires de l&#39;éditeur de CTV pour trouver un auditoire pertinent qui correspond étroitement aux propriétaires actuels de VUS.
+Imagine a car manufacturer wants to run an advertising campaign with a large CTV publisher for a new SUV model. The car manufacturer has data on who currently owns a similar model and wants to use that to find additional prospects to convert them to customers. The car manufacturer looks at the CTV publisher&#39;s audiences to find a relevant audience that closely matches the current SUV owners.
 
-![L&#39;annonceur automobile contre les audiences de l&#39;éditeur de CTV.](/help/assets/collaborate/discover/audience-index-score-example.png)
+![The car advertiser versus the CTV publisher audiences.](/help/assets/collaborate/discover/audience-index-score-example.png)
 
-Les calculs de score d’index sont effectués et peuvent être utilisés pour déterminer le succès probable de la campagne :
+Index score calculations are made and can be used to determine the likely success of the campaign:
 
-| Audience de l’éditeur de CTV | Formule | Score de l’index (i) | Interprétation |
+| CTV Publisher Audience | Formule | Index Score (i) | Interprétation |
 |------------------------|-------------|----------------|----------------|
-| Ligne de base (toutes les audiences) | ((1,3 M / 1,3 M) / (50 M / 50 M)) * 100 | 100 | Il s’agit de la référence par rapport à laquelle les autres audiences de votre collaborateur sont comparées. |
-| Binge Watchers | ((500 000 / 1,3 M) / (20 M / 50 M)) * 100 | 96 | En ciblant cette audience, vous êtes 4 % moins susceptible d’atteindre les propriétaires de SUV par rapport à la base. |
-| Amateurs De Comédie | ((200 000 / 1,3 M) / (6 M / 50 M)) * 100 | 128 | En ciblant cette audience, vous êtes 28 % plus susceptible d’atteindre les propriétaires de SUV par rapport à la base. |
-| Hommes 25-34 ans | ((700 000 / 1,3 M) / (12 M / 50 M)) * 100 | 224 | En ciblant cette audience, vous êtes 124 % plus susceptible d’atteindre les propriétaires de SUV par rapport à la base. |
-| Amateurs de technologie | ((500 000 / 1,3 M) / (8 M / 50 M)) * 100 | 240 | En ciblant cette audience, vous êtes 140 % plus susceptible d’atteindre les propriétaires de SUV par rapport à la base. |
+| Baseline (all audiences) | ((1.3M / 1.3M) / (50M / 50M)) * 100 | 100 | This serves as the baseline against which your collaborator&#39;s other audiences are compared to. |
+| Binge Watchers | ((500k / 1.3M) / (20M / 50M)) * 100 | 96 | By targeting this audience, you are 4% less likely to reach SUV owners compared to the baseline. |
+| Comedy Lovers | ((200k / 1.3M) / (6M / 50M)) * 100 | 128 | By targeting this audience, you are 28% more likely to reach SUV owners compared to the baseline. |
+| Males 25-34 | ((700k / 1.3M) / (12M / 50M)) * 100 | 224 | By targeting this audience, you are 124% more likely to reach SUV owners compared to the baseline. |
+| Tech Enthusiasts | ((500k / 1.3M) / (8M / 50M)) * 100 | 240 | By targeting this audience, you are 140% more likely to reach SUV owners compared to the baseline. |
 
 {style="table-layout:auto"}
 
-Pour mieux comprendre l’impact des scores d’index sur votre campagne, des bandes de pertinence sont fournies avec les scores.
+To better understand how the index scores will impact your campaign, relevance bands are provided alongside the scores.
 
-### Bandes de pertinence {#audience-index-relevance-bands}
+### Relevance bands {#audience-index-relevance-bands}
 
-Pour faciliter la comparaison entre les différentes audiences et campagnes, Collaboration convertit les scores d’index en bandes de pertinence (très faible à très élevé). Cela vous permet d’évaluer rapidement la force de la relation entre votre audience et l’audience de votre collaborateur ou collaboratrice.
+To enable easy comparison across different audiences and campaigns, Collaboration translates the index scores into relevance bands (very low to very high). Cela vous permet d’évaluer rapidement la force de la relation entre votre audience et l’audience de votre collaborateur ou collaboratrice.
 
 | Score de l’index (i) | Bande de pertinence | Description |
 |---------------|----------|-----------|

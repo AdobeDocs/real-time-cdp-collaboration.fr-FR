@@ -4,9 +4,17 @@ description: Découvrez comment activer des audiences dans Adobe Real-Time CDP C
 audience: admin, publisher
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
-source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
+TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: 1016
 ht-degree: 2%
 
 ---
@@ -31,7 +39,7 @@ Pour commencer à activer les audiences, accédez à l’onglet **[!UICONTROL Ac
 >
 >![Activer l’espace de travail lorsque aucune destination n’est configurée pour le collaborateur.](/help/assets/collaborate/activate/no-destination-configured.png)
 
-Sélectionnez l’icône d’ajout (![&#x200B; Icône Ajouter .](/help/assets/icons/plus.png)) ou l’option **[!UICONTROL Activer l’audience]** si aucune audience précédente n’a été envoyée pour activation.
+Sélectionnez l’option Ajouter une icône (![Ajouter une icône.](/help/assets/icons/plus.png)) ou **[!UICONTROL Activer l’audience]** si aucune audience précédente n’a été envoyée pour activation.
 
 ![Activer l’espace de travail dans un projet sans audience ajoutée.](/help/assets/collaborate/activate/activate-new-audiences.png)
 
@@ -45,7 +53,7 @@ Dans le **[!UICONTROL Parcourir les audiences]**, vous pouvez voir le **[!UICONT
 
 >[!IMPORTANT]
 >
->Lors de l’activation d’audiences où plusieurs clés de correspondance sont utilisées, si une ou plusieurs clés de correspondance ne se chevauchent pas, ne comptabilisent pas d’audiences ou sont inférieures au seuil, l’activation entière échoue. Assurez-vous que vos audiences disposent d’un chevauchement suffisant et respectent le seuil minimum de 1 000 identifiants sur toutes les clés de correspondance avant d’activer.
+>Lors de l’activation des audiences où plusieurs clés de correspondance sont utilisées, si une ou plusieurs clés de correspondance ne se chevauchent pas, ne génèrent aucun nombre de profils des audiences ou se situent sous le seuil, l’activation entière échoue. Assurez-vous que vos audiences disposent d’un chevauchement suffisant et respectent le seuil minimum de 1 000 identifiants sur toutes les clés de correspondance avant d’activer.
 
 Sélectionnez l’audience à activer dans les campagnes, puis sélectionnez **[!UICONTROL Enregistrer]**. L’audience est maintenant affichée et vous pouvez voir le **[!UICONTROL nombre d’identités]**, le **[!UICONTROL chevauchement d’identités]** et le **[!UICONTROL chevauchement %]** pour l’audience sélectionnée.
 
@@ -115,7 +123,7 @@ Dans chaque audience activée, vous pouvez voir les mesures suivantes :
 
 Vous pouvez supprimer les audiences envoyées que vous ne souhaitez plus activer. Lorsque vous supprimez une audience envoyée, elle est supprimée de la section **[!UICONTROL Audiences envoyées à]** et elle ne sera plus activée vers la destination de votre collaborateur ou de votre collaboratrice.
 
-Pour supprimer une audience envoyée, sélectionnez l’icône **[!UICONTROL Supprimer]** (![Icône Supprimer).](/help/assets/icons/delete.png)) à côté de l’audience dans la section **[!UICONTROL A envoyé des audiences à]**.
+Pour supprimer une audience envoyée, sélectionnez l’icône **[!UICONTROL Supprimer]** (![icône Supprimer.](/help/assets/icons/delete.png)) en regard de l’audience dans la section **[!UICONTROL Audiences envoyées à]**.
 
 ![Option Supprimer dans la section Audiences envoyées à &#x200B;](/help/assets/collaborate/activate/delete-sent-audiences.png).
 

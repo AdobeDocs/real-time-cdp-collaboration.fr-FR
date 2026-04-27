@@ -5,8 +5,12 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 3680
@@ -64,7 +68,7 @@ Pour commencer à ajouter votre connexion de données, sélectionnez **[!UICONTR
 Vous allez ensuite choisir la source de votre connexion aux données. Les sources disponibles sont les suivantes :
 
 * **Adobe Experience Platform** : sélectionnez cette option pour importer vos audiences depuis Adobe Experience Platform.
-* **Fichier CSV** : chargez un fichier CSV contenant les données de votre audience pour une ingestion de données simple et rapide. Pour commencer](./upload-csv-audience-sourcing.md) reportez-vous au guide [Chargement de fichier CSV pour l’approvisionnement de l’audience.
+* **Fichier CSV** : chargez un fichier CSV contenant les données de votre audience pour une ingestion de données simple et rapide. Pour commencer[&#128279;](./upload-csv-audience-sourcing.md) reportez-vous au guide Chargement de fichier CSV pour l’approvisionnement de l’audience.
 * **Amazon Web Services** : connectez-vous à votre stockage Amazon S3 pour obtenir des données d’audience source directement à partir de vos compartiments S3. Consultez le guide [Configurer AWS S3 pour l’approvisionnement de l’audience](./configure-aws-s3-audience-sourcing.md) pour obtenir des instructions détaillées.
 * **Snowflake** : utilisez votre entrepôt de données Snowflake pour extraire facilement les données d’audience. Reportez-vous au guide [Configurer [!DNL Snowflake] pour l’approvisionnement des audiences](./configure-snowflake-audience-sourcing.md) .
 * **Google Cloud Storage** : connectez-vous à vos compartiments GCS pour obtenir les données d’audience source. Consultez le guide [Configurer GCS pour l’approvisionnement de l’audience](./configure-gcs-audience-sourcing.md) pour obtenir des instructions détaillées.
@@ -97,7 +101,7 @@ Consultez la documentation d’Experience Platform pour en savoir plus sur les l
 
 En outre, vous souhaiterez sélectionner vos règles de consentement à appliquer aux données provenant de Collaboration.
 
-![Espace de travail Ajouter des audiences à la section Politique de gouvernance et application des actions ](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}.
+![Espace de travail Ajouter des audiences à la section Politique de gouvernance et application des actions &#x200B;](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}.
 
 Une fois que vous avez sélectionné les actions marketing et les règles de consentement, sélectionnez **[!UICONTROL Suivant]** pour passer à l’étape suivante. Une boîte de dialogue de confirmation s’affiche, vous demandant d’accepter les conditions. Cochez la case, puis sélectionnez **[!UICONTROL OK]** pour confirmer.
 

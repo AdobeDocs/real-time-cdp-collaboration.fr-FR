@@ -3,8 +3,11 @@ title: Charger un fichier CSV pour l’Audience Sourcing
 description: Découvrez comment charger votre fichier CSV en tant que source de données en libre-service pour ingérer les données d’audience dans Real-Time CDP Collaboration.
 exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
 TQID: https://experienceleague.adobe.com/sqgS0g8PUnLOyc02fJ1yiFkInVN5MlxoCbMn8lvY1-Y
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 1100
@@ -24,7 +27,7 @@ Suivez ce workflow pour charger un fichier CSV contenant les données de votre a
 
 >[!IMPORTANT]
 >
->* Les audiences provenant du téléchargement d’un fichier CSV sont disponibles pendant 7 jours ****. Au-delà de cette période, l’audience expire et doit être rechargée pour être utilisée dans vos projets de collaboration.
+>* Les audiences provenant du téléchargement d’un fichier CSV sont disponibles pendant 7 jours **&#x200B;**. Au-delà de cette période, l’audience expire et doit être rechargée pour être utilisée dans vos projets de collaboration.
 >
 >* Vous pouvez charger un fichier CSV par session à ce stade. Pour ajouter des audiences supplémentaires, effectuez à nouveau le workflow de chargement pour chaque fichier que vous souhaitez approvisionner.
 
@@ -133,7 +136,7 @@ Utilisez cette vue pour confirmer les paramètres de configuration et de visibil
 Vous avez chargé votre fichier CSV dans Collaboration. Une fois l’approvisionnement terminé, vous pouvez :
 
 * Créez des projets de collaboration avec vos audiences sources. Voir [Découvrir les audiences](../../guide/collaborate/discover.md).
-* Activez les audiences vers des destinations connectées. Voir [ Activer les audiences](../../guide/collaborate/activate.md).
+* Activez les audiences vers des destinations connectées. Voir [&#x200B; Activer les audiences](../../guide/collaborate/activate.md).
 * Examinez les chevauchements et les informations sur les audiences. Voir [Mesure des performances de la campagne](../../guide/collaborate/measure.md).
 * Gérez les paramètres et la visibilité de votre audience. Voir [Source et gérer les audiences](./onboard-audiences.md).
 

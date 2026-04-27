@@ -5,8 +5,10 @@ audience: publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 419dde94-fee2-4dc1-b25d-cf79b7e57ec0
 TQID: https://experienceleague.adobe.com/ZF3bqoR0XRv2G7abRULz1ElRgk5xLCZySHylrqzPqg0
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 803
@@ -54,7 +56,7 @@ Une fois les paramètres de connexion acceptés, la connexion est établie et le
 >
 >Le terme **marque** est utilisé pour désigner une société ou une marque en dehors de Collaboration. Le terme **collaborateur** fait référence à tout compte pouvant former une connexion dans Collaboration, qu’il s’agisse d’un annonceur ou d’un éditeur.
 
-Dans le modèle de marque à marque, deux marques qui ont communiqué en dehors du produit peuvent se connecter directement dans Collaboration à l’aide d’une [ invitation à une connexion privée ](#private-connection-invite). Une marque peut être soit un annonceur, soit un éditeur. Ce modèle est particulièrement utile pour les marques qui peuvent ne pas correspondre au modèle publicitaire-éditeur traditionnel, telles que deux annonceurs ou deux éditeurs.
+Dans le modèle de marque à marque, deux marques qui ont communiqué en dehors du produit peuvent se connecter directement dans Collaboration à l’aide d’une [&#x200B; invitation à une connexion privée &#x200B;](#private-connection-invite). Une marque peut être soit un annonceur, soit un éditeur. Ce modèle est particulièrement utile pour les marques qui peuvent ne pas correspondre au modèle publicitaire-éditeur traditionnel, telles que deux annonceurs ou deux éditeurs.
 
 Pour commencer, un collaborateur envoie une invitation à une connexion privée à un autre collaborateur. Le destinataire examine l’invitation et l’accepte, ce qui permet au propriétaire de proposer des paramètres de connexion. Une fois que le destinataire accepte les paramètres de connexion, la connexion est établie et les deux collaborateurs peuvent commencer à travailler ensemble sur des projets.
 

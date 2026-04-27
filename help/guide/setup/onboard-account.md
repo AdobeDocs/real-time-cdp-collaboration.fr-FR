@@ -1,12 +1,15 @@
 ---
 title: Configuration et gestion de votre compte
-description: Découvrez comment configurer et gérer divers aspects de votre compte dans Real-Time CDP Collaboration
+description: Learn how to configure and manage various aspects of your account in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: be7078b16d8126a80cced0a3a8328b465b6ec245
+TQID: https://experienceleague.adobe.com/PRmSkRSE2tQ-5t5hHKzDAGrkF6-irmZid2Akq6-PQv8
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: 1393
 ht-degree: 13%
 
 ---
@@ -15,17 +18,17 @@ ht-degree: 13%
 
 {{limited-availability-release-note}}
 
-Découvrez comment configurer votre compte dans Real-Time CDP Collaboration pour préparer les connexions avec d’autres collaborateurs. Ce guide couvre la configuration initiale de votre compte, y compris l’ajout des détails du compte, la sélection des clés de correspondance et la gestion des paramètres de votre compte.
+Learn how to set up your account in Real-Time CDP Collaboration to prepare for connections with other collaborators. This guide covers the initial setup of your account, including adding account details, selecting match keys, and managing your account&#39;s settings.
 
-![Espace de travail de configuration affichant un compte configuré.](/help/assets/setup/manage-account/my-account.png){zoomable="yes"}
+![The setup workspace showing a configured account.](/help/assets/setup/manage-account/my-account.png){zoomable="yes"}
 
-## Configurer votre compte {#set-up-account}
+## Set up your account {#set-up-account}
 
-Lorsque vous accédez à Collaboration pour la première fois, vous êtes invité à configurer votre compte. Il s’agit d’un processus unique qui vous permet de configurer les détails de votre compte et de faire correspondre les clés. S’il s’agit du premier compte de votre entreprise, vous serez immédiatement dirigé tout au long du processus d’intégration, en commençant par la configuration de vos [détails de compte](#set-up-details).
+When you first access Collaboration, you are prompted to set up your account. This is a one-time process that allows you to configure your account details and match keys. If this is your organization&#39;s first account, you&#39;ll be directed through the onboarding process immediately, starting with setting up your [account details](#set-up-details).
 
-Pour ajouter d’autres organisations, accédez à **[!UICONTROL Configuration]** dans le rail de gauche et sélectionnez l’icône d’ajout (![icône d’ajout.](/help/assets/icons/plus.png)) dans le coin supérieur droit. Sélectionnez ensuite **[!UICONTROL Compte]**.
+To add additional organizations, navigate to **[!UICONTROL Setup]** in the left rail and select the add icon (![Add icon.](/help/assets/icons/plus.png)) in the upper right corner. Next, select **[!UICONTROL Account]**.
 
-![Espace de travail de configuration avec l’onglet Mon compte et l’option Compte mises en surbrillance.](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
+![The setup workspace with the My account tab and Account option highlighted.](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
 
 ### Configurer des détails {#set-up-details}
 
@@ -39,12 +42,12 @@ Pour ajouter d’autres organisations, accédez à **[!UICONTROL Configuration]*
 >title="Code de connexion"
 >abstract="Le code de connexion est un identifiant unique de votre compte. Il est utilisé pour établir des connexions avec d’autres collaborateurs et collaboratrice dans Real-Time CDP Collaboration."
 
-Pour commencer à configurer votre compte , vous devez d’abord configurer les détails du compte. Pour ce faire, vous devez ajouter les informations suivantes :
+To begin configuring your account, you must first set up the account details. This requires you to add the following information:
 
-* Ajoutez un **[!UICONTROL Nom du compte]** qui représente clairement votre marque.
-* Ajoutez une **[!UICONTROL Description]** votre marque. Cette option est facultative, mais elle aide les autres collaborateurs à mieux comprendre votre marque.
-* Sélectionnez votre **[!UICONTROL rôle]**. Vous pouvez choisir entre **[!UICONTROL Annonceur]** et **[!UICONTROL Éditeur]**. Lisez le guide [roles](/help/guide/overview/roles.md) pour voir les similitudes et les légères différences de workflow entre les deux types de rôles de compte.
-* Sélectionnez le **[!UICONTROL Secteur]** pour votre compte. Par exemple, **[!UICONTROL Vente au détail]**, **[!UICONTROL Télécommunications]** ou **[!UICONTROL Services financiers]**.
+* Add an **[!UICONTROL Account name]** that clearly represents your brand.
+* Add a **[!UICONTROL Description]** about your brand. This is optional, but it helps other collaborators understand your brand better.
+* Select your **[!UICONTROL Role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [roles](/help/guide/overview/roles.md) guide to see similarities and slight differences in workflow between the two account role types.
+* Select the **[!UICONTROL Industry]** for your account. Some examples include **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]**, or **[!UICONTROL Financial services]**.
 * La **[!UICONTROL Région]** est automatiquement définie en fonction de votre compte Adobe Experience Cloud. Cette valeur ne peut pas être modifiée à tout moment.
 * Ajoutez un **[!UICONTROL e-mail de contact]** pour votre compte. Il doit s’agir d’une adresse e-mail d’équipe ou basée sur les rôles. Les adresses e-mail personnelles ne doivent pas être fournies.
 * Chargez un **[!UICONTROL Logo]** pour votre compte. Actuellement, les images de type SVG sont prises en charge. Cette opération est facultative, mais le chargement d’un logo permet de représenter visuellement votre marque dans l’interface de Collaboration

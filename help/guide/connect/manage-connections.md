@@ -2,11 +2,14 @@
 title: Gérer des connexions
 description: Découvrez comment gérer vos connexions dans Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
-source-git-commit: 46d2596bd0ccdc5da32067493968945c61f8acc4
+TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: 1092
 ht-degree: 1%
 
 ---
@@ -62,7 +65,7 @@ En tant que propriétaire d’une connexion de collaboration, vous pouvez modifi
 >
 >Le **propriétaire** est le collaborateur qui établit la connexion en envoyant l’invitation au **destinataire**. Pour plus d’informations, voir la documentation [établissement de connexions avec des collaborateurs](./establishing-connections.md).
 
-Pour modifier les paramètres de connexion, accédez à l’espace de travail Paramètres de connexion . Sélectionnez l’icône des trois points (![&#x200B; Icône des trois points.](/help/assets/icons/more.png)) pour afficher les actions disponibles, puis sélectionnez **[!UICONTROL Modifier]**.
+Pour modifier les paramètres de connexion, accédez à l’espace de travail Paramètres de connexion . Sélectionnez l’icône des trois points (![icône des trois points.](/help/assets/icons/more.png)) pour afficher les actions disponibles, puis sélectionnez **[!UICONTROL Modifier]**.
 
 ![Espace de travail des paramètres de connexion avec l’option Modifier mise en surbrillance.](/help/assets/connect/manage-connections/edit-connection.png){zoomable="yes"}
 
@@ -74,7 +77,7 @@ Une boîte de dialogue s’affiche, vous invitant à modifier et à envoyer les 
 
 Les paramètres d’activation de l’audience déterminent quel collaborateur dans la connexion peut activer les audiences vers les destinations. Pour modifier ces paramètres, sélectionnez **[!UICONTROL Modifier]** dans la section **[!UICONTROL Activation de l’audience]**.
 
-![Écran de modification des paramètres de connexion affichant la section Activation de l’audience et l’option Modifier &#x200B;](/help/assets/connect/manage-connections/edit-audience-activation.png){zoomable="yes"}.
+![Écran de modification des paramètres de connexion affichant la section Activation de l’audience et l’option Modifier ](/help/assets/connect/manage-connections/edit-audience-activation.png){zoomable="yes"}.
 
 Dans la boîte de dialogue **[!UICONTROL Activation de l’audience]**, utilisez le menu déroulant pour mettre à jour les autorisations d’activation de l’audience. Vous pouvez choisir un seul collaborateur ou permettre aux deux collaborateurs d’activer les audiences.
 
@@ -82,7 +85,7 @@ Dans la boîte de dialogue **[!UICONTROL Activation de l’audience]**, utilisez
 
 Lorsque vous avez terminé, sélectionnez **[!UICONTROL Enregistrer]**.
 
-![&#x200B; Boîte de dialogue d’activation de l’audience affichant les nouvelles autorisations d’activation de l’audience et l’option Enregistrer &#x200B;](/help/assets/connect/manage-connections/audience-activation-dialog.png){zoomable="yes"}.
+![ Boîte de dialogue d’activation de l’audience affichant les nouvelles autorisations d’activation de l’audience et l’option Enregistrer ](/help/assets/connect/manage-connections/audience-activation-dialog.png){zoomable="yes"}.
 
 ### Ajouter des cas d’utilisation {#add-use-cases}
 

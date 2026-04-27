@@ -2,9 +2,12 @@
 title: Charger un fichier CSV pour l’Audience Sourcing
 description: Découvrez comment charger votre fichier CSV en tant que source de données en libre-service pour ingérer les données d’audience dans Real-Time CDP Collaboration.
 exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
-source-git-commit: 96f6ae6c4b0c4255da8b04456497edf5b4365363
+TQID: https://experienceleague.adobe.com/sqgS0g8PUnLOyc02fJ1yiFkInVN5MlxoCbMn8lvY1-Y
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: 1100
 ht-degree: 0%
 
 ---
@@ -21,7 +24,7 @@ Suivez ce workflow pour charger un fichier CSV contenant les données de votre a
 
 >[!IMPORTANT]
 >
->* Les audiences provenant du téléchargement d’un fichier CSV sont disponibles pendant 7 jours **.** Au-delà de cette période, l’audience expire et doit être rechargée pour être utilisée dans vos projets de collaboration.
+>* Les audiences provenant du téléchargement d’un fichier CSV sont disponibles pendant 7 jours ****. Au-delà de cette période, l’audience expire et doit être rechargée pour être utilisée dans vos projets de collaboration.
 >
 >* Vous pouvez charger un fichier CSV par session à ce stade. Pour ajouter des audiences supplémentaires, effectuez à nouveau le workflow de chargement pour chaque fichier que vous souhaitez approvisionner.
 
@@ -87,40 +90,40 @@ Cochez la case de confirmation suivie de **[!UICONTROL OK]** pour confirmer. La 
 
 Le mappage des champs détermine la manière dont Collaboration utilise les données d’audience pour l’activation et l’analyse de chevauchement. Sur l’écran **[!UICONTROL Mapper les champs]**, utilisez les menus déroulants pour mapper chaque champ d’identité source de votre fichier CSV au champ cible approprié dans Collaboration.
 
-Si vous avez besoin d’informations supplémentaires sur un champ cible, y compris le type de données ou la description, sélectionnez **[!UICONTROL Détails des champs cibles]** pour plus d’informations.
+If you need additional details about a target field including the data type or description, select **[!UICONTROL Target fields details]** for more information.
 
-![Liste déroulante pour mapper un champ d’identité source de vos données d’audience CSV au champ cible dans Collaboration.](../../assets/setup/csv-audience-sourcing/map-fields.png)
+![The dropdown to map a source identity field from your CSV audience data to the target field in Collaboration.](../../assets/setup/csv-audience-sourcing/map-fields.png)
 
-Examinez ensuite les champs mappés, puis sélectionnez **[!UICONTROL Suivant]**.
+Next, review the mapped fields, and then select **[!UICONTROL Next]**.
 
-![Écran de mappage des champs affichant les champs d’identité source et cible mappés.](../../assets/setup/csv-audience-sourcing/confirm-mapped-fields.png)
+![The field mapping screen showing the mapped source and target identity fields.](../../assets/setup/csv-audience-sourcing/confirm-mapped-fields.png)
 
-### Vérifier et terminer le chargement {#review-and-complete}
+### Review and complete the upload {#review-and-complete}
 
-L’écran **[!UICONTROL Révision]** s’affiche avec un résumé des paramètres d’audience de votre fichier CSV. Consultez les informations dans les sections suivantes :
+The **[!UICONTROL Review]** screen appears with a summary of the audience settings from your CSV file. Review the information in the following sections:
 
-* **[!UICONTROL Informations sur le fichier]** : affiche le nom du fichier, le nombre de colonnes et le nombre estimé de lignes.
-* **[!UICONTROL Mappage]** : répertorie la manière dont les champs sources du fichier d’audience chargé (par exemple, `email`) sont mappés aux champs cibles utilisés dans Collaboration (par exemple, e-mail haché).
+* **[!UICONTROL File Information]**: Displays the file name, the number of columns, and the estimated row count.
+* **[!UICONTROL Mapping]**: Lists how the source fields from your uploaded audience file (for example, `email`) map to target fields used in Collaboration (for example, Hashed email).
 
-Sélectionnez l’icône en forme de crayon si vous devez modifier une section. Sélectionnez **[!UICONTROL Terminé]** pour confirmer toutes les sections.
+Select the pencil icon if you need to edit a section. Select **[!UICONTROL Complete]** to confirm all sections.
 
-![Consultez le résumé des paramètres de chargement, y compris les informations sur le fichier CSV et les détails du mappage des champs.](../../assets/setup/csv-audience-sourcing/review-upload-summary.png)
+![Review the summary of upload settings including CSV file information and field mapping details.](../../assets/setup/csv-audience-sourcing/review-upload-summary.png)
 
-Une barre de progression s’affiche sous les sections de résumé pour indiquer la progression du chargement. Une fois le chargement terminé, une boîte de dialogue de confirmation confirme que votre audience CSV a été créée et que le sourcing de l’audience est en cours.
+A progress bar appears below the summary sections to indicate upload progress. Once the upload completes, a confirmation dialog confirms that your CSV audience was created and audience sourcing is in progress.
 
-![Après le chargement du fichier, une boîte de dialogue de confirmation s’affiche indiquant que l’audience CSV a été créée et que le sourcing de l’audience est en cours.](../../assets/setup/csv-audience-sourcing/upload-success-sourcing-in-progress.png)
+![After uploading file, a confirmation dialog appears stating that CSV audience was created and audience sourcing in progress.](../../assets/setup/csv-audience-sourcing/upload-success-sourcing-in-progress.png)
 
-## Vérifier les audiences sources {#review-sourced-audiences}
+## Review sourced audiences {#review-sourced-audiences}
 
-Après avoir chargé votre fichier CSV, Collaboration commence à sourcer les audiences à partir du fichier . Ce processus peut prendre plusieurs minutes. Une fois le sourcing terminé, vos audiences sont disponibles dans l’onglet **[!UICONTROL Mes audiences]** avec les mêmes fonctionnalités et informations que les audiences provenant d’Experience Platform.
+After uploading your CSV file, Collaboration begins sourcing audiences from the file. This process may take several minutes. When the sourcing finishes, your audiences are available in the **[!UICONTROL My Audiences]** tab with the same features and information as audiences sourced from Experience Platform.
 
-![L’onglet Audiences affichant une liste des audiences sources dans la vue Grille.](../../assets/setup/csv-audience-sourcing/csv-audiences-list.png)
+![The Audiences tab showing a list of sourced audiences in grid view.](../../assets/setup/csv-audience-sourcing/csv-audiences-list.png)
 
-En mode Grille ou Tableau, sélectionnez un élément de ligne ou **[!UICONTROL Afficher l’audience]** pour afficher un aperçu d’une audience spécifique. Il affiche le statut, la source et le nom de connexion aux données de l’audience, ainsi que des panneaux détaillés pour :
+When in grid view or table view, select a row item or **[!UICONTROL View audience]** to see an overview of a specific audience. It displays the audience&#39;s status, source, and data connection name, along with detailed panels for:
 
-**[!UICONTROL Identités]** : affiche le nombre total d’identités et leur répartition une fois que les données sont disponibles.
-**[!UICONTROL Catégories]** : affiche toutes les balises utilisées pour organiser ou filtrer l’audience.
-**[!UICONTROL Accès de connexion]** : indique si l’audience est privée, publique ou partagée avec des collaborateurs spécifiques.
+**[!UICONTROL Identities]**: Displays the total identity count and breakdown once data becomes available.
+**[!UICONTROL Categories]**: Displays any tags used for organizing or filtering the audience.
+**[!UICONTROL Connection access]**: Displays whether the audience is private, public, or shared with specific collaborators.
 **[!UICONTROL Visibilité des métadonnées]** : affiche les informations d’audience (telles que le nombre d’identités, le pourcentage de chevauchement et l’index) visibles par les collaborateurs.
 
 Utilisez cette vue pour confirmer les paramètres de configuration et de visibilité de l’audience avant d’utiliser l’audience dans des projets de collaboration. Pour plus d’informations, voir [Comment afficher une audience individuelle](./onboard-audiences.md#view-individual-audiences).
@@ -130,7 +133,7 @@ Utilisez cette vue pour confirmer les paramètres de configuration et de visibil
 Vous avez chargé votre fichier CSV dans Collaboration. Une fois l’approvisionnement terminé, vous pouvez :
 
 * Créez des projets de collaboration avec vos audiences sources. Voir [Découvrir les audiences](../../guide/collaborate/discover.md).
-* Activez les audiences vers des destinations connectées. Voir [&#x200B; Activer les audiences](../../guide/collaborate/activate.md).
+* Activez les audiences vers des destinations connectées. Voir [ Activer les audiences](../../guide/collaborate/activate.md).
 * Examinez les chevauchements et les informations sur les audiences. Voir [Mesure des performances de la campagne](../../guide/collaborate/measure.md).
 * Gérez les paramètres et la visibilité de votre audience. Voir [Source et gérer les audiences](./onboard-audiences.md).
 

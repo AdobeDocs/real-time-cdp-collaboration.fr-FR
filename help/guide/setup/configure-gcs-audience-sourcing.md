@@ -3,10 +3,10 @@ title: Configuration  [!DNL Google Cloud Storage]  pour l’approvisionnement au
 description: Découvrez comment connecter un compartiment en tant que source d [!DNL Google Cloud Storage] audience en libre-service dans Real-Time CDP Collaboration, y compris les conditions préalables, l’authentification, le mappage des champs, la planification et la validation.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 2f1a40f60d244bda70d6e36a653cb46885c424ac
+source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
-source-wordcount: '2855'
-ht-degree: 2%
+source-wordcount: '2858'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Ce guide couvre le workflow de configuration de bout en bout : préparation des 
 
 Les audiences provenant de [!DNL Google Cloud Storage] suivent les mêmes règles de gouvernance et de gestion des données que les audiences provenant de Adobe Experience Platform.
 
-D’autres méthodes de source disponibles incluent [&#128279;](./onboard-audiences.md), [Amazon S3](./configure-aws-s3-audience-sourcing.md), [Snowflake](./configure-snowflake-audience-sourcing.md) et [le chargement de fichier CSV](./upload-csv-audience-sourcing.md).
+D’autres méthodes de source disponibles incluent [Experience Platform](./onboard-audiences.md), [Amazon S3](./configure-aws-s3-audience-sourcing.md), [Snowflake](./configure-snowflake-audience-sourcing.md) et [le chargement de fichier CSV](./upload-csv-audience-sourcing.md).
 
 ## Conditions préalables {#prerequisites}
 
@@ -79,7 +79,7 @@ Le workflow Ajouter une audience s’affiche. Sélectionnez **[!UICONTROL Ajoute
 >id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
 >title="Préparer vos données pour l’intégration"
 >abstract="Lisez le guide Spécification d’audience pour savoir comment formater et structurer les données d’audience à partir de Google Cloud Storage pour Collaboration."
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Voir le guide"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Voir le guide Spécification d’approvisionnement de l’audience ."
 
 L’écran de sélection de la source de données répertorie tous les types de connexion disponibles. Sélectionnez **[!UICONTROL Google Cloud Storage]** puis sélectionnez **[!UICONTROL Suivant]**.
 
@@ -275,7 +275,7 @@ Pour plus d’informations sur les autorisations, voir [&#x200B; Autorisations G
 
 #### Affectation d’un rôle IAM à Adobe {#assign-role}
 
-Ouvrez ensuite la page de [&#128279;](https://console.cloud.google.com/storage/browser) dans le [!DNL Google Cloud Console] et sélectionnez le compartiment qui contient les données de votre audience.**[!DNL Buckets]**
+Ouvrez ensuite la page de [**[!DNL Buckets]**](https://console.cloud.google.com/storage/browser) dans le [!DNL Google Cloud Console] et sélectionnez le compartiment qui contient les données de votre audience.
 
 Accédez à l’onglet **[!DNL Permissions]**, choisissez **[!DNL View by principals]**, puis sélectionnez **[!DNL Grant access]**.
 

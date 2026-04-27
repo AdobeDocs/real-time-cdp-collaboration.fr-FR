@@ -2,7 +2,7 @@
 title: Découvrir les collaborateurs et collaboratrices
 description: En tant qu’annonceur, découvrez comment trouver des collaborateurs potentiels avec lesquels travailler à l’aide d’Adobe Real-Time CDP Collaboration
 audience: admin, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
 TQID: https://experienceleague.adobe.com/ac9-jiDgLNaXcO49M9DB9xHHWExYf9ocdwTMddU5CQs
 product_v2:

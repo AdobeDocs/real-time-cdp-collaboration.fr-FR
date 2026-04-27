@@ -2,7 +2,7 @@
 title: Journaux d’audit
 description: Découvrez comment utiliser la fonctionnalité Journaux d’audit dans Real-Time CDP Collaboration pour effectuer le suivi des activités et des modifications des utilisateurs et utilisatrices.
 audience: admin
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
 TQID: https://experienceleague.adobe.com/zb09-bUpxJ2VPDknETHeayMuLpNRCaQ2VTnV9QnTRgE
 product_v2:
@@ -33,7 +33,7 @@ Utilisez la fonctionnalité de journaux d’audit de Collaboration pour effectue
 
 ![Écran de présentation de haut niveau de la fonctionnalité des journaux d’audit.](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-Pour obtenir des informations plus complètes sur les journaux d’audit, consultez la documentation sur les journaux d’audit d’[Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
+Pour obtenir des informations plus complètes sur les journaux d’audit, consultez la documentation sur les journaux d’audit d’[Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Accéder aux journaux d’audit
 
@@ -72,7 +72,7 @@ Audit logs capture detailed information about user activities, including:
 * **Action**: The specific action performed, such as create or delete.
 * **User**: The email address of the user who performed the action.
 
-These logs create a comprehensive trail of all activities within your Collaboration instance, which is useful for data governance and regulatory compliance. Read more about [managing audit logs in the UI](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
+These logs create a comprehensive trail of all activities within your Collaboration instance, which is useful for data governance and regulatory compliance. Read more about [managing audit logs in the UI](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
 
 ### Filter audit logs {#filter-audit-logs}
 
@@ -85,7 +85,7 @@ The audit logs UI provides several filters to help you search for specific logs:
 * **Status**: The status of the action, such as allow or deny.
 * **Date Range**: The range of dates for which you want to view logs.
 
-Read more about [filtering audit logs](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
+Read more about [filtering audit logs](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
 
 ## Avantages
 

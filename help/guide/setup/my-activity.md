@@ -2,7 +2,7 @@
 title: Suivre votre activité de consommation de crédit
 description: Learn how to track your organization's credit consumption activity in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
 TQID: https://experienceleague.adobe.com/hDvkKFUCBYvsX8wntcYFrL6qZTxOo5CZOWAbxNwk7mw
 product_v2:
@@ -78,6 +78,6 @@ The **[!UICONTROL Activity]** column shows different types of credit-consuming o
 
 To effectively manage your credit consumption:
 
-1. **Understand** the credit consumption associated with each activity. Check the [Collaboration product description](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} for a table of credits used per activity.
+1. **Understand** the credit consumption associated with each activity. Check the [Collaboration product description](https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} for a table of credits used per activity.
 2. **Monitor regularly**: Check your activity dashboard frequently to understand usage patterns.
 3. **Track by connection**: Use the connection name to identify which connections are consuming the most credits.

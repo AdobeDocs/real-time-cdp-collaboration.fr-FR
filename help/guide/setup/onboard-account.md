@@ -1,6 +1,6 @@
 ---
 title: Configuration et gestion de votre compte
-description: Learn how to configure and manage various aspects of your account in Real-Time CDP Collaboration
+description: Découvrez comment configurer et gérer divers aspects de votre compte dans Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
@@ -11,10 +11,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1393
-ht-degree: 13%
+source-wordcount: 1410
+ht-degree: 9%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 13%
 
 {{limited-availability-release-note}}
 
-Learn how to set up your account in Real-Time CDP Collaboration to prepare for connections with other collaborators. This guide covers the initial setup of your account, including adding account details, selecting match keys, and managing your account&#39;s settings.
+Découvrez comment configurer votre compte dans Real-Time CDP Collaboration pour préparer les connexions avec d’autres collaborateurs. Ce guide couvre la configuration initiale de votre compte, y compris l’ajout des détails du compte, la sélection des clés de correspondance et la gestion des paramètres de votre compte.
 
-![The setup workspace showing a configured account.](/help/assets/setup/manage-account/my-account.png){zoomable="yes"}
+![Espace de travail de configuration affichant un compte configuré.](/help/assets/setup/manage-account/my-account.png){zoomable="yes"}
 
-## Set up your account {#set-up-account}
+## Configurer votre compte {#set-up-account}
 
-When you first access Collaboration, you are prompted to set up your account. This is a one-time process that allows you to configure your account details and match keys. If this is your organization&#39;s first account, you&#39;ll be directed through the onboarding process immediately, starting with setting up your [account details](#set-up-details).
+Lorsque vous accédez à Collaboration pour la première fois, vous êtes invité à configurer votre compte. Il s’agit d’un processus unique qui vous permet de configurer les détails de votre compte et de faire correspondre les clés. S’il s’agit du premier compte de votre entreprise, vous serez immédiatement dirigé tout au long du processus d’intégration, en commençant par la configuration de vos [détails de compte](#set-up-details).
 
-To add additional organizations, navigate to **[!UICONTROL Setup]** in the left rail and select the add icon (![Add icon.](/help/assets/icons/plus.png)) in the upper right corner. Next, select **[!UICONTROL Account]**.
+Pour ajouter d’autres organisations, accédez à **[!UICONTROL Configuration]** dans le rail de gauche et sélectionnez l’icône d’ajout (![icône d’ajout.](/help/assets/icons/plus.png)) dans le coin supérieur droit. Sélectionnez ensuite **[!UICONTROL Compte]**.
 
-![The setup workspace with the My account tab and Account option highlighted.](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
+![Espace de travail de configuration avec l’onglet Mon compte et l’option Compte mises en surbrillance.](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
 
 ### Configurer des détails {#set-up-details}
 
@@ -46,12 +46,12 @@ To add additional organizations, navigate to **[!UICONTROL Setup]** in the left 
 >title="Code de connexion"
 >abstract="Le code de connexion est un identifiant unique de votre compte. Il est utilisé pour établir des connexions avec d’autres collaborateurs et collaboratrice dans Real-Time CDP Collaboration."
 
-To begin configuring your account, you must first set up the account details. This requires you to add the following information:
+Pour commencer à configurer votre compte , vous devez d’abord configurer les détails du compte. Pour ce faire, vous devez ajouter les informations suivantes :
 
-* Add an **[!UICONTROL Account name]** that clearly represents your brand.
-* Add a **[!UICONTROL Description]** about your brand. This is optional, but it helps other collaborators understand your brand better.
-* Select your **[!UICONTROL Role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [roles](/help/guide/overview/roles.md) guide to see similarities and slight differences in workflow between the two account role types.
-* Select the **[!UICONTROL Industry]** for your account. Some examples include **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]**, or **[!UICONTROL Financial services]**.
+* Ajoutez un **[!UICONTROL Nom du compte]** qui représente clairement votre marque.
+* Ajoutez une **[!UICONTROL Description]** votre marque. Cette option est facultative, mais elle aide les autres collaborateurs à mieux comprendre votre marque.
+* Sélectionnez votre **[!UICONTROL rôle]**. Vous pouvez choisir entre **[!UICONTROL Annonceur]** et **[!UICONTROL Éditeur]**. Lisez le guide [roles](/help/guide/overview/roles.md) pour voir les similitudes et les légères différences de workflow entre les deux types de rôles de compte.
+* Sélectionnez le **[!UICONTROL Secteur]** pour votre compte. Par exemple, **[!UICONTROL Vente au détail]**, **[!UICONTROL Télécommunications]** ou **[!UICONTROL Services financiers]**.
 * La **[!UICONTROL Région]** est automatiquement définie en fonction de votre compte Adobe Experience Cloud. Cette valeur ne peut pas être modifiée à tout moment.
 * Ajoutez un **[!UICONTROL e-mail de contact]** pour votre compte. Il doit s’agir d’une adresse e-mail d’équipe ou basée sur les rôles. Les adresses e-mail personnelles ne doivent pas être fournies.
 * Chargez un **[!UICONTROL Logo]** pour votre compte. Actuellement, les images de type SVG sont prises en charge. Cette opération est facultative, mais le chargement d’un logo permet de représenter visuellement votre marque dans l’interface de Collaboration
@@ -77,20 +77,29 @@ To begin configuring your account, you must first set up the account details. Th
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="Identifiants propriétaires de personnes"
->abstract="Les identifiants propriétaires de personnes, tels que les adresses e-mail, les numéros de téléphone hachés ou les ID de CRM, sont directement liés à un profil individuel."
+>title="ID de personnes"
+>abstract="Les identifiants de personne, tels que les adresses e-mail, les numéros de téléphone ou les identifiants CRM hachés, sont directement connectés à un profil individuel."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
->title="Identifiants d’appareils propriétaires"
->abstract="Les identifiants d’appareils propriétaires, tels que les adresses IP ou les ECID, sont directement connectés aux appareils qui peuvent être partagés entre plusieurs personnes."
+>title="ID d’appareils"
+>abstract="Les identifiants d’appareil, tels que les adresses IP ou ECID, sont directement connectés aux appareils qui peuvent être partagés par plusieurs personnes."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="ID de partenaire pris en charge"
 >abstract="Les identifiants de partenaire sont des identifiants fournis par des partenaires externes pour la réconciliation des audiences. Les identifiants de partenaire ne sont pas directement liés à un profil individuel."
 
-![Clés de correspondance prises en charge.](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
+Le tableau suivant affiche les clés de correspondance prises en charge dans Collaboration :
+
+| ID de personnes | ID d’appareils | ID partenaires |
+| ------------- | ------------- | ------------- |
+| [!DNL Hashed email] | [!DNL Hashed IPv4] | [!DNL Adfixus ID] |
+| [!DNL Hashed phone] | [!DNL IDFA] | |
+| [!DNL CRM ID] | [!DNL GAID] | |
+| [!DNL Loyalty ID] | [!DNL Demdex ID (ECID)] | |
+
+{style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
@@ -102,16 +111,16 @@ Sélectionnez les clés de correspondance à utiliser lors de la réconciliation
 
 #### Clés correspondantes prises en charge {#supported-match-keys}
 
-Collaboration prend en charge trois types de clés de correspondance : les identifiants de personnes propriétaires, les identifiants d’appareils propriétaires et les identifiants de partenaires. Toutes les clés de correspondance doivent répondre aux exigences suivantes :
+Collaboration prend en charge trois types de clés de correspondance : les ID de personne, d’appareil et de partenaire. Toutes les clés de correspondance doivent répondre aux exigences suivantes :
 
 * Les clés de correspondance doivent être **rognées**, **en minuscules**
 * Les clés de correspondance hachées doivent être **SHA256-hachées**.
 * Si vous fournissez des valeurs hachées qui utilisent des caractères majuscules, Collaboration les convertit automatiquement en minuscules.
 * Si votre source contient des **identifiants en texte brut**, utilisez l’option **[!UICONTROL Appliquer la transformation]** lors de la [configuration de la connexion aux données](./manage-data-connection.md#match-keys) pour appliquer le hachage. Cette option est disponible uniquement lors de l’approvisionnement d’audiences à partir d’Experience Platform et n’est pas prise en charge pour les sources cloud.
 
-##### Identifiants propriétaires de personnes
+##### ID de personnes
 
-Les identifiants de personnes propriétaires sont directement connectés à un profil individuel. Les identifiants actuellement pris en charge sont les suivants :
+Les identifiants de personne sont directement connectés à un profil individuel. Les identifiants actuellement pris en charge sont les suivants :
 
 * **[!UICONTROL E-mail haché]**
 * **[!UICONTROL Téléphone haché]**
@@ -119,13 +128,14 @@ Les identifiants de personnes propriétaires sont directement connectés à un p
 * **[!UICONTROL Identifiants de fidélité]**
 <!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
-##### Identifiants d’appareils propriétaires
+##### ID d’appareils
 
-Les identifiants d’appareils propriétaires sont des identifiants connectés à un appareil spécifique. Les identifiants actuellement pris en charge sont les suivants :
+Les identifiants d’appareil sont des identifiants connectés à un appareil spécifique. Les identifiants actuellement pris en charge sont les suivants :
 
-* **[!UICONTROL IPv4 haché]** : adresses IPv4 hachées
-* **[!UICONTROL IDFA]** : identifiant pour les annonceurs (IDFA) utilisé dans les appareils Apple iOS
-* **[!UICONTROL GAID]** : ID publicitaire Google utilisé dans les appareils Android
+* **[!UICONTROL IPv4 haché]**
+* **[!UICONTROL IDFA]** : identifiant pour les annonceurs (IDFA) utilisé dans les appareils Apple iOS.
+* **[!UICONTROL GAID]** : ID publicitaire Google utilisé dans les appareils Android.
+* **[!UICONTROL Identifiant Demdex (ECID)]** : lorsque les cookies tiers sont activés, l’ECID inclut le cookie tiers d’Adobe, [!DNL Demdex ID]. Le [!DNL Demdex ID] peut être utilisé pour faire correspondre des visiteurs non authentifiés basés sur des cookies.
 
 ##### ID partenaires
 

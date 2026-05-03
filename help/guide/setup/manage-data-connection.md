@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1179
-ht-degree: 5%
+source-wordcount: 1253
+ht-degree: 7%
 
 ---
 
@@ -76,8 +76,8 @@ Lisez les sections suivantes pour savoir comment mettre à jour les clés de cor
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_edit_measurement_data_connection_enrichment"
 >title="Enrichissement"
->abstract="Désactiver l’enrichissement n’est pas pris en charge. Vous pouvez modifier les clés de jointure d’enrichissement à la place."
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections" text="Enrichissement"
+>abstract="La désactivation de l’enrichissement n’est pas prise en charge. À la place, vous pouvez modifier les clés de jointure de l’enrichissement."
+>additional-url="https://experienceleague.adobe.com/fr/docs/real-time-cdp-collaboration/using/setup/manage-data-connection" text="Enrichissement"
 
 >[!IMPORTANT]
 >
@@ -115,6 +115,14 @@ Dans la boîte de dialogue **[!UICONTROL Touches de correspondance]**, utilisez 
 Utilisez l’option **[!UICONTROL Appliquer la transformation]** si vous souhaitez générer un champ non haché en champ cible haché, par exemple, lors du mappage d’un champ source d’e-mail en texte brut au champ cible **[!UICONTROL E-mail haché]**.
 
 ![Menu déroulant affichant tous les champs cibles disponibles à mapper au nouveau champ source.](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
+
+##### Ajouter un [!DNL Demdex ID (ECID)] {#add-demdex-id-ecid}
+
+Si vous souhaitez ajouter [!DNL Demdex ID (ECID)] comme clé de correspondance, assurez-vous d’abord qu’elle est [&#x200B; activée dans les paramètres de votre compte](../setup/onboard-account.md#set-up-match-keys). Pour plus d’informations sur la [!DNL Demdex ID (ECID)], consultez la section [clés de correspondance prises en charge](../setup/onboard-account.md#supported-match-keys).
+
+Dans la boîte de dialogue **[!UICONTROL Correspondance des clés]**, ajoutez une nouvelle ligne de champ de mappage. Sélectionnez ensuite **[!UICONTROL ECID]** comme champ source et **[!UICONTROL ID Demdex (ECID)]** comme champ cible dans la liste déroulante.
+
+![La boîte de dialogue Correspondance des clés avec le champ de mappage pour la clé de correspondance de l’identifiant Demdex (ECID) mis en surbrillance.](/help/assets/setup/manage-data-connection/demdex-id-ecid-match-key.png){zoomable="yes"}
 
 Une fois les champs de mappage terminés, passez en revue vos mises à jour et sélectionnez **[!UICONTROL Confirmer]** pour appliquer les modifications.
 

@@ -5,9 +5,13 @@ audience: administrator, data engineer
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 TQID: https://experienceleague.adobe.com/QvkEpR1fJMZ5BXrucAzEtxFNSfSMS-2hIZvMSg63ySE
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
 source-wordcount: 1253
@@ -114,7 +118,7 @@ Utilisez l’option **[!UICONTROL Appliquer la transformation]** si vous souhait
 
 ##### Ajouter un [!DNL Demdex ID (ECID)] {#add-demdex-id-ecid}
 
-Si vous souhaitez ajouter [!DNL Demdex ID (ECID)] comme clé de correspondance, assurez-vous d’abord qu’elle est [ activée dans les paramètres de votre compte](../setup/onboard-account.md#set-up-match-keys). Pour plus d’informations sur la [!DNL Demdex ID (ECID)], consultez la section [clés de correspondance prises en charge](../setup/onboard-account.md#supported-match-keys).
+Si vous souhaitez ajouter [!DNL Demdex ID (ECID)] comme clé de correspondance, assurez-vous d’abord qu’elle est [&#x200B; activée dans les paramètres de votre compte](../setup/onboard-account.md#set-up-match-keys). Pour plus d’informations sur la [!DNL Demdex ID (ECID)], consultez la section [clés de correspondance prises en charge](../setup/onboard-account.md#supported-match-keys).
 
 Dans la boîte de dialogue **[!UICONTROL Correspondance des clés]**, ajoutez une nouvelle ligne de champ de mappage. Sélectionnez ensuite **[!UICONTROL ECID]** comme champ source et **[!UICONTROL ID Demdex (ECID)]** comme champ cible dans la liste déroulante.
 

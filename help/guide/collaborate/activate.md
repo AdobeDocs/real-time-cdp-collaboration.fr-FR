@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1016
+source-wordcount: 997
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ La boîte de dialogue **[!UICONTROL Modifier les clés de correspondance]** s’
 
 >[!NOTE]
 >
->Au moins une clé de correspondance doit être sélectionnée. Dans la version actuelle, la seule clé de correspondance disponible est **[!UICONTROL e-mail haché]**. Vous ne pouvez donc pas supprimer cette clé de correspondance.
+>Au moins une clé de correspondance doit être sélectionnée.
 
 ![Boîte de dialogue Modifier les clés de correspondance dans le workflow d’activation de l’audience.](/help/assets/collaborate/activate/edit-match-keys-selection.png)
 

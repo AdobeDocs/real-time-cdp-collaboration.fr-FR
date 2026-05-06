@@ -4,9 +4,9 @@ description: Découvrez comment configurer et connecter votre  [!DNL Snowflake S
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 72ad1e401fc595ddeace715af5befe9701402c8e
+source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1586'
 ht-degree: 2%
 
 ---
@@ -153,6 +153,11 @@ Une fois l’intégration terminée, sélectionnez **[!UICONTROL Commencer]**.
 ![Préparez votre [!DNL Snowflake Share] pour la boîte de dialogue d’intégration avec un lien vers les spécifications d’approvisionnement des audiences.](../../assets/setup/snowflake-audience-sourcing/prepare-snowflake-share-onboarding-dialog.png)
 
 ### Authentifier la connexion [!DNL Snowflake Share] {#authenticate-snowflake-share-connection}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sharing_snowflake"
+>title="Ajout d’une audience depuis Snowflake"
+>abstract="Pour connecter votre partage Snowflake, autorisez l’utilisateur du service Adobe à récupérer les données de votre audience pour traitement. Suivez les étapes décrites dans Experience League pour accorder à Adobe l’accès à votre partage Snowflake."
 
 Au cours de cette étape, vous devez fournir les informations d’identification [!DNL Snowflake Share] requises pour connecter votre [!DNL Snowflake Share] à Collaboration :
 

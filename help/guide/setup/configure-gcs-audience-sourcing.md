@@ -3,9 +3,9 @@ title: Configuration  [!DNL Google Cloud Storage]  pour l’approvisionnement au
 description: Découvrez comment connecter un compartiment en tant que source d [!DNL Google Cloud Storage] audience en libre-service dans Real-Time CDP Collaboration, y compris les conditions préalables, l’authentification, le mappage des champs, la planification et la validation.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
+source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2898'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Ce guide couvre le workflow de configuration de bout en bout : préparation des 
 
 Les audiences provenant de [!DNL Google Cloud Storage] suivent les mêmes règles de gouvernance et de gestion des données que les audiences provenant de Adobe Experience Platform.
 
-D’autres méthodes de source disponibles incluent [Experience Platform](./onboard-audiences.md), [Amazon S3](./configure-aws-s3-audience-sourcing.md), [Snowflake](./configure-snowflake-audience-sourcing.md) et [le chargement de fichier CSV](./upload-csv-audience-sourcing.md).
+D’autres méthodes de source disponibles incluent [&#128279;](./onboard-audiences.md), [Amazon S3](./configure-aws-s3-audience-sourcing.md), [Snowflake](./configure-snowflake-audience-sourcing.md) et [le chargement de fichier CSV](./upload-csv-audience-sourcing.md).
 
 ## Conditions préalables {#prerequisites}
 
@@ -90,6 +90,11 @@ Une boîte de dialogue prérequise décrivant les étapes de configuration requi
 ![La boîte de dialogue modale « Préparer votre compartiment GCS pour l’intégration » répertorie les conditions préalables, notamment la création d’un compartiment GCS, la configuration de l’accès IAM pour Adobe et la conformité à la spécification d’approvisionnement d’audience, avec les options Annuler et « Démarrer l’intégration ».](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
 ### Saisissez les détails de votre connexion [!DNL Google Cloud Storage] {#authenticate-gcs-connection}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_gcs"
+>title="Ajout d’une audience depuis Google Cloud Storage"
+>abstract="Pour connecter votre espace de stockage dans le cloud Google, autorisez l’utilisateur du service Adobe à récupérer les données de votre audience pour traitement. Suivez les étapes décrites dans Experience League pour accorder à Adobe l’accès à votre espace de stockage dans le cloud Google."
 
 Fournissez les détails requis pour permettre à Collaboration d’accéder à votre compartiment [!DNL Google Cloud Storage]. Après avoir saisi les informations requises, sélectionnez **[!UICONTROL Suivant]**.
 
@@ -275,7 +280,7 @@ Pour plus d’informations sur les autorisations, voir [&#x200B; Autorisations G
 
 #### Affectation d’un rôle IAM à Adobe {#assign-role}
 
-Ouvrez ensuite la page de [**[!DNL Buckets]**](https://console.cloud.google.com/storage/browser) dans le [!DNL Google Cloud Console] et sélectionnez le compartiment qui contient les données de votre audience.
+Ouvrez ensuite la page de [&#128279;](https://console.cloud.google.com/storage/browser) dans le [!DNL Google Cloud Console] et sélectionnez le compartiment qui contient les données de votre audience.**[!DNL Buckets]**
 
 Accédez à l’onglet **[!DNL Permissions]**, choisissez **[!DNL View by principals]**, puis sélectionnez **[!DNL Grant access]**.
 

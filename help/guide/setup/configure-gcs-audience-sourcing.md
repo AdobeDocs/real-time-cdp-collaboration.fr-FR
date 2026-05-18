@@ -6,7 +6,7 @@ badgelimitedavailability: label="Disponibilité limitée" type="Informative" url
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -73,13 +73,13 @@ Le workflow Ajouter une audience s’affiche. Sélectionnez **[!UICONTROL Ajoute
 
 ![L’espace de travail Ajouter des audiences avec l’option Ajouter une nouvelle connexion de données mise en surbrillance.](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-### Sélectionnez [!DNL Google Cloud Storage] comme source de données {#select-gcs}
+### Sélectionner [!DNL Google Cloud Storage] comme source de données {#select-gcs}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
 >title="Préparer vos données pour l’intégration"
->abstract="Lisez le guide Spécification d’audience pour savoir comment formater et structurer les données d’audience à partir de Google Cloud Storage pour Collaboration."
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Voir le guide Spécification d’approvisionnement de l’audience ."
+>abstract="Lisez le guide de spécification de l’approvisionnement d’audience pour savoir comment formater et structurer les données d’audience à partir de Google Cloud Storage pour Collaboration."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Voir le guide Spécification d’approvisionnement de l’audience"
 
 L’écran de sélection de la source de données répertorie tous les types de connexion disponibles. Sélectionnez **[!UICONTROL Google Cloud Storage]** puis sélectionnez **[!UICONTROL Suivant]**.
 

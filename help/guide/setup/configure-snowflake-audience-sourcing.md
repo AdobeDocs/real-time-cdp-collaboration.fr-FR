@@ -7,7 +7,7 @@ exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
 source-wordcount: '1586'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -143,7 +143,7 @@ Ensuite, sélectionnez **&#x200B;**&#x200B;comme connexion de données, puis **[
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_specifications_snowflake"
 >title="Préparer vos données pour l’intégration"
->abstract="Lisez le Guide de spécification d’approvisionnement d’audience pour savoir comment formater et structurer les données d’audience à partir de Snowflake pour Collaboration."
+>abstract="Lisez le guide de spécification de l’approvisionnement d’audience pour savoir comment formater et structurer les données d’audience à partir de Snowflake pour Collaboration."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Voir le guide"
 
 Une boîte de dialogue s’affiche, expliquant les exigences du [!DNL Snowflake Share] et du fichier d’audience [!DNL Snowflake] avant de commencer le sourcing. Assurez-vous que votre [!DNL Snowflake Share] est créé avec le nom de partage, l’identifiant de compte, le schéma et la vue corrects. Pour vérifier que les données de votre audience sont formatées et structurées correctement pour une utilisation dans Collaboration, consultez le guide **[[!UICONTROL Spécification d’approvisionnement de l’audience]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.

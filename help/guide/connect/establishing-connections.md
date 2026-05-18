@@ -15,8 +15,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
-source-wordcount: 3375
-ht-degree: 8%
+source-wordcount: 3398
+ht-degree: 9%
 
 ---
 
@@ -282,7 +282,7 @@ Pour ajouter des noms d’annonceurs, sélectionnez **[!UICONTROL Modifier]** da
 
 Lorsque vous avez terminé, sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer vos modifications.
 
-Lors de la création d’un projet, le nom de l’annonceur est prérempli en fonction des paramètres suivants établis lors de la connexion    :
+Lors de la création d’un projet, le nom de l’annonceur est prérempli en fonction des paramètres suivants établis lors de la connexion :
 
 1. **Aucun nom d’annonceur défini** : si aucun nom d’annonceur n’est ajouté, Collaboration utilise par défaut le nom de l’annonceur comme nom d’annonceur.
 2. **Un nom d’annonceur défini** : si un seul nom d’annonceur est ajouté, Collaboration utilise automatiquement ce nom comme nom d’annonceur pour le projet.
@@ -338,8 +338,8 @@ Avant de lancer le processus d’invitation, collectez les informations suivante
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_starter_invite_collaborator"
 >title="Inviter un collaborateur ou une collaboratrice"
->abstract="Remplissez ce formulaire pour inviter votre organisation partenaire à rejoindre Collaboration Starter. L’invité recevra un e-mail d’invitation et doit utiliser l’adresse e-mail spécifiée pour terminer l’enregistrement."
->additional-url="https://experienceleague.adobe.com/fr/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="En savoir plus sur Collaboration Starter"
+>abstract="Remplissez ce formulaire pour inviter votre organisation partenaire à Collaboration Starter. La personne invitée recevra un e-mail d’invitation et doit utiliser l’adresse e-mail spécifiée pour terminer l’enregistrement."
+>additional-url="https://experienceleague.adobe.com/fr/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="En savoir plus sur Collaboration Starter"
 
 Invitez votre organisation partenaire à rejoindre Collaboration [!DNL Starter] directement via l’interface utilisateur.
 

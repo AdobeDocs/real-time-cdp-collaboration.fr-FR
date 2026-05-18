@@ -14,7 +14,7 @@ topic_v2:
 source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
 source-wordcount: 1410
-ht-degree: 9%
+ht-degree: 13%
 
 ---
 
@@ -78,12 +78,12 @@ Pour commencer à configurer votre compte , vous devez d’abord configurer les 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="ID de personnes"
->abstract="Les identifiants de personne, tels que les adresses e-mail, les numéros de téléphone ou les identifiants CRM hachés, sont directement connectés à un profil individuel."
+>abstract="Les ID de personnes, tels que les adresses e-mail, les numéros de téléphone hachés ou les ID de CRM, sont directement liés à un profil individuel."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="ID d’appareils"
->abstract="Les identifiants d’appareil, tels que les adresses IP ou ECID, sont directement connectés aux appareils qui peuvent être partagés par plusieurs personnes."
+>abstract="Les ID d’appareils, tels que les adresses IP ou les ECID, sont directement connectés aux appareils qui peuvent être partagés entre plusieurs personnes."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"

@@ -2,7 +2,7 @@
 title: Configuration  [!DNL Google Cloud Storage]  pour l’approvisionnement auprès d’audiences
 description: Découvrez comment connecter un compartiment en tant que source d [!DNL Google Cloud Storage] audience en libre-service dans Real-Time CDP Collaboration, y compris les conditions préalables, l’authentification, le mappage des champs, la planification et la validation.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
 workflow-type: tm+mt
 source-wordcount: '2898'

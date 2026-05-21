@@ -4,7 +4,7 @@ description: Découvrez comment configurer et connecter votre  [!DNL Snowflake S
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 3e8c39de61dc9560b038b994d178e4cc486cf6c7
+source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 4%
@@ -33,7 +33,7 @@ Avant de configurer votre connexion [!DNL Snowflake], veillez à respecter les c
    * **Schéma**
    * **Vue**
 
-* Les données d’audience de votre [!DNL Snowflake Secure Data Share] doivent respecter les exigences de format décrites dans le guide [Spécification d’approvisionnement de l’audience (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf) .
+* Les données d’audience de votre [!DNL Snowflake Secure Data Share] doivent respecter les exigences de format décrites dans le guide [Spécification d’approvisionnement de l’audience (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf) .
 * Toutes les clés de correspondance de votre fichier d’audience [!DNL Snowflake] doivent également être activées pour votre compte Collaboration. Découvrez comment [activer les clés de correspondance](./onboard-account.md#set-up-match-keys) ou [ajouter de nouvelles clés de correspondance](./onboard-account.md#edit-match-keys) à votre compte.
 
 ## Configurer les autorisations [!DNL Snowflake] {#setup-snowflake-permissions}
@@ -146,7 +146,7 @@ Ensuite, sélectionnez **&#x200B;**&#x200B;comme connexion de données, puis **[
 >abstract="Lisez le guide de spécification de l’approvisionnement d’audience pour savoir comment formater et structurer les données d’audience à partir de Snowflake pour Collaboration."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Voir le guide"
 
-Une boîte de dialogue s’affiche, expliquant les exigences du [!DNL Snowflake Share] et du fichier d’audience [!DNL Snowflake] avant de commencer le sourcing. Assurez-vous que votre [!DNL Snowflake Share] est créé avec le nom de partage, l’identifiant de compte, le schéma et la vue corrects. Pour vérifier que les données de votre audience sont formatées et structurées correctement pour une utilisation dans Collaboration, consultez le guide **[[!UICONTROL Spécification d’approvisionnement de l’audience]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**.
+Une boîte de dialogue s’affiche, expliquant les exigences du [!DNL Snowflake Share] et du fichier d’audience [!DNL Snowflake] avant de commencer le sourcing. Assurez-vous que votre [!DNL Snowflake Share] est créé avec le nom de partage, l’identifiant de compte, le schéma et la vue corrects. Pour vérifier que les données de votre audience sont formatées et structurées correctement pour une utilisation dans Collaboration, consultez le guide **[[!UICONTROL Spécification d’approvisionnement de l’audience]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**.
 
 Une fois l’intégration terminée, sélectionnez **[!UICONTROL Commencer]**.
 
@@ -186,7 +186,7 @@ Dans la vue **[!UICONTROL Fournir des détails]**, saisissez un nom explicite et
 
 ### Champs de mappage {#map-fields}
 
-L’écran **[!UICONTROL Mappage]** est en lecture seule pour le moment. Vous ne pouvez pas ajouter, supprimer ou appliquer de transformations. Collaboration mappe automatiquement les champs d’identité source de vos données [!DNL Snowflake Share] aux champs cibles en fonction de la **[Spécification d’approvisionnement d’audience (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**.
+L’écran **[!UICONTROL Mappage]** est en lecture seule pour le moment. Vous ne pouvez pas ajouter, supprimer ou appliquer de transformations. Collaboration mappe automatiquement les champs d’identité source de vos données [!DNL Snowflake Share] aux champs cibles en fonction de la **[Spécification d’approvisionnement d’audience (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**.
 
 Confirmez visuellement les champs mappés et sélectionnez **[!UICONTROL Suivant]** pour continuer. Vous pouvez également prévisualiser un exemple de données à partir de votre [!DNL Snowflake Share] à l’aide de l’option **[!UICONTROL Prévisualiser les données sources]**.
 

@@ -11,7 +11,7 @@ topic_v2:
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
 source-wordcount: 1121
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -57,7 +57,7 @@ Sélectionnez **[!UICONTROL Fichier CSV]** comme connexion de données, puis **[
 
 ![Écran de sélection de la connexion aux données avec le fichier CSV disponible sous forme d’option sélectionnable.](../../assets/setup/csv-audience-sourcing/select-csv-data-connection.png)
 
-### Sélectionner un fichier {#select-file}
+### Sélectionner le fichier {#select-file}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_csv"

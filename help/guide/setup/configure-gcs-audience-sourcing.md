@@ -6,7 +6,7 @@ badgelimitedavailability: label="Disponibilité limitée" type="Informative" url
 source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -89,12 +89,12 @@ Une boîte de dialogue prérequise décrivant les étapes de configuration requi
 
 ![La boîte de dialogue modale « Préparer votre compartiment GCS pour l’intégration » répertorie les conditions préalables, notamment la création d’un compartiment GCS, la configuration de l’accès IAM pour Adobe et la conformité à la spécification d’approvisionnement d’audience, avec les options Annuler et « Démarrer l’intégration ».](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
-### Saisissez les détails de votre connexion [!DNL Google Cloud Storage] {#authenticate-gcs-connection}
+### Saisir les détails de votre connexion [!DNL Google Cloud Storage] {#authenticate-gcs-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_gcs"
->title="Ajout d’une audience depuis Google Cloud Storage"
->abstract="Pour connecter votre espace de stockage dans le cloud Google, autorisez l’utilisateur du service Adobe à récupérer les données de votre audience pour traitement. Suivez les étapes décrites dans Experience League pour accorder à Adobe l’accès à votre espace de stockage dans le cloud Google."
+>title="Ajouter une audience depuis Google Cloud Storage"
+>abstract="Pour connecter votre Google Cloud Storage, autorisez l’utilisateur ou l’utilisatrice du service Adobe à récupérer les données de votre audience pour traitement. Suivez les étapes décrites dans Experience League pour accorder à Adobe l’accès à votre Google Cloud Storage."
 
 Fournissez les détails requis pour permettre à Collaboration d’accéder à votre compartiment [!DNL Google Cloud Storage]. Après avoir saisi les informations requises, sélectionnez **[!UICONTROL Suivant]**.
 

@@ -7,7 +7,7 @@ exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
 source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: '1586'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -156,8 +156,8 @@ Une fois l’intégration terminée, sélectionnez **[!UICONTROL Commencer]**.
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_snowflake"
->title="Ajout d’une audience depuis Snowflake"
->abstract="Pour connecter votre partage Snowflake, autorisez l’utilisateur du service Adobe à récupérer les données de votre audience pour traitement. Suivez les étapes décrites dans Experience League pour accorder à Adobe l’accès à votre partage Snowflake."
+>title="Ajouter une audience depuis Snowflake"
+>abstract="Pour connecter votre Snowflake Share, autorisez l’utilisateur ou l’utilisatrice du service Adobe à récupérer les données de votre audience pour traitement. Suivez les étapes décrites dans Experience League pour accorder à Adobe l’accès à votre Snowflake Share."
 
 Au cours de cette étape, vous devez fournir les informations d’identification [!DNL Snowflake Share] requises pour connecter votre [!DNL Snowflake Share] à Collaboration :
 

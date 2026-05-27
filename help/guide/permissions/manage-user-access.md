@@ -5,8 +5,10 @@ audience: admin
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0155f6a6-5e67-4415-af96-1848345842e4
 TQID: https://experienceleague.adobe.com/uPFss3qIstJmeVFF1YpQQJ0V848SiDEfy6BYyEcgPZw
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 1406
@@ -36,11 +38,11 @@ Accordez à un utilisateur ou une utilisatrice l’accès administrateur de prod
 >
 >En tant qu’administrateur système, vous disposez d’un accès prêt à l’emploi à des produits Experience Cloud spécifiques, tels que Adobe Admin Console. Toutefois, pour utiliser les autorisations, vous devez vous accorder un accès administrateur de produit et utilisateur au produit Experience Platform. Suivez le guide détaillé ci-dessous pour vous accorder l’accès en tant qu’administrateur système.
 
-Connectez-vous à [](https://experience.adobe.com/){target="_blank"} à l&#39;aide de vos identifiants. La vue d’accueil s’affiche avec une liste de vos produits disponibles dans la section **[!UICONTROL Accès rapide]**. Sélectionnez lʼ&#x200B;**[!UICONTROL Admin Console]**.
+Connectez-vous à [&#128279;](https://experience.adobe.com/){target="_blank"} à l&#39;aide de vos identifiants. La vue d’accueil s’affiche avec une liste de vos produits disponibles dans la section **[!UICONTROL Accès rapide]**. Sélectionnez lʼ&#x200B;**[!UICONTROL Admin Console]**.
 
 ![Vue d’accueil d’Experience Cloud avec Admin Console mis en surbrillance.](../../assets/permissions/experience-cloud.png){zoomable="yes"}
 
-Le tableau de bord de présentation de [](https://adminconsole.adobe.com/) s&#39;affiche. Sélectionnez **** dans la liste **[!UICONTROL Produits]** sous **[!UICONTROL Produits et services]**.
+Le tableau de bord de présentation de [&#128279;](https://adminconsole.adobe.com/) s&#39;affiche. Sélectionnez **&#x200B;**&#x200B;dans la liste **[!UICONTROL Produits]** sous **[!UICONTROL Produits et services]**.
 
 ![Tableau de bord de présentation d’Admin Console avec le produit Adobe Experience Platform mis en surbrillance.](../../assets/permissions/admin-console.png){zoomable="yes"}
 
@@ -62,7 +64,7 @@ Maintenant que vous avez accordé à l’utilisateur ou à l’utilisatrice un a
 >
 >Si vous procédez comme indiqué dans la section précédente, vous vous trouvez déjà dans la catégorie Adobe Experience Platform et vous pouvez ignorer la première étape.
 
-Accédez à [](https://adminconsole.adobe.com/){target="_blank"} et sélectionnez **[!UICONTROL Adobe Experience Platform]** dans la liste **[!UICONTROL Produits]** sous **[!UICONTROL Produits et services]**.
+Accédez à [&#128279;](https://adminconsole.adobe.com/){target="_blank"} et sélectionnez **[!UICONTROL Adobe Experience Platform]** dans la liste **[!UICONTROL Produits]** sous **[!UICONTROL Produits et services]**.
 
 ![Vue d’accueil d’Experience Cloud avec Admin Console mis en surbrillance.](../../assets/permissions/experience-cloud.png){zoomable="yes"}
 
@@ -88,7 +90,7 @@ L’utilisateur doit maintenant disposer d’un accès administrateur de produit
 
 Dans Real-Time CDP Collaboration, les administrateurs et les utilisateurs finaux utiliseront les données d’Experience Platform, telles que les audiences et les journaux d’audit. Ces données sont conservées dans des instances d’Experience Platform appelées sandbox. Pour que les utilisateurs puissent interagir avec ces données, vous devez affecter des [rôles par défaut](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#default-roles){target="_blank"} à l’utilisateur.
 
-Pour commencer, accédez à [](https://experience.adobe.com/). Vous devriez maintenant voir **** et **[!UICONTROL Autorisations]** dans **[!UICONTROL Accès rapide]**.
+Pour commencer, accédez à [&#128279;](https://experience.adobe.com/). Vous devriez maintenant voir **&#x200B;**&#x200B;et **[!UICONTROL Autorisations]** dans **[!UICONTROL Accès rapide]**.
 
 ![Vue d’accueil d’Experience Cloud avec Experience Platform et autorisations mises en surbrillance.](../../assets/permissions/experience-cloud-products.png){zoomable="yes"}
 
@@ -96,7 +98,7 @@ Pour commencer, accédez à [](https://experience.adobe.com/). Vous devriez main
 >
 > L’accès aux produits peut prendre plusieurs minutes et vous recevrez un e-mail vous informant que vous y avez accès. Si vous ne voyez pas Experience Platform ou Autorisations dans Adobe Experience Cloud après avoir reçu l’e-mail, déconnectez-vous, puis reconnectez-vous à votre compte.
 
-À ce stade, vous pouvez désormais accéder à **[!UICONTROL Autorisations]**. Si vous tentez d’accéder à ****, un avertissement s’affiche indiquant qu’aucun sandbox n’est activé, comme illustré ci-dessous. Pour résoudre ce problème, vous devez affecter les rôles par défaut à votre utilisateur. Pour commencer, sélectionnez **[!UICONTROL Autorisations]**.
+À ce stade, vous pouvez désormais accéder à **[!UICONTROL Autorisations]**. Si vous tentez d’accéder à **&#x200B;**, un avertissement s’affiche indiquant qu’aucun sandbox n’est activé, comme illustré ci-dessous. Pour résoudre ce problème, vous devez affecter les rôles par défaut à votre utilisateur. Pour commencer, sélectionnez **[!UICONTROL Autorisations]**.
 
 ![Affichage de l’accueil d’Experience Cloud avec un avertissement affiché et les autorisations mises en surbrillance.](../../assets/permissions/experience-cloud-warning.png){zoomable="yes"}
 

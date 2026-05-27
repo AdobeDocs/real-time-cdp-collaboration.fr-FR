@@ -1,6 +1,6 @@
 ---
-title: Use cases in Adobe Real-Time CDP Collaboration
-description: Understand the main benefits of each use case of Adobe Real-Time CDP Collaboration.
+title: Cas d’utilisation dans Adobe Real-Time CDP Collaboration
+description: Découvrez les principaux avantages de chaque cas d’utilisation d’Adobe Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser, decision-maker
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
@@ -22,30 +22,30 @@ ht-degree: 1%
 
 ---
 
-# Collaboration use cases
+# Cas d’utilisation de Collaboration
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time CDP Collaboration enables collaboration with advertisers and publishers, unlocking new opportunities for audience discovery, activation, and measurement. These connections enhance marketing strategies by leveraging shared data while maintaining privacy and security.
+Adobe Real-Time CDP Collaboration permet de collaborer avec les annonceurs et les éditeurs, et ouvre de nouvelles opportunités de découverte, d’activation et de mesure d’audience. Ces connexions améliorent les stratégies marketing en exploitant les données partagées tout en préservant la confidentialité et la sécurité.
 
-Collaboration provides three main use cases in your connections with other collaborators: Discover, Activate, and Measure. Each use case offers unique benefits and capabilities to enhance your marketing efforts. These uses cases are [selected when you create a project](../collaborate/manage-projects.md#project-use-cases) with a collaborator to kick off a campaign, and will determine the features and functionalities available in that project.
+Collaboration propose trois principaux cas d’utilisation pour vos connexions avec d’autres collaborateurs : Découvrir, Activer et Mesurer. Chaque cas d’utilisation offre des avantages et des fonctionnalités uniques pour améliorer vos efforts marketing. Ces cas pratiques sont [sélectionnés lorsque vous créez un projet](../collaborate/manage-projects.md#project-use-cases) avec un collaborateur pour lancer une campagne et déterminent les fonctionnalités et caractéristiques disponibles dans ce projet.
 
 ## Découvrir {#discover}
 
-![Discover audience insights dashboard modules.](/help/assets/use-cases/discover.png)
+![Découvrez les modules du tableau de bord Informations sur l’audience.](/help/assets/use-cases/discover.png)
 
-Discover target audiences for campaigns by leveraging the **[!UICONTROL Audience insights]** dashboard within your projects. Get insight into overlap percentages and the number of overlapping identities between your audiences and those of your collaborators. This helps you identify potential new audiences for your campaigns. To learn more about the power of the discover use case, refer to the [discover](../collaborate/discover.md) guide.
+Découvrez les audiences cibles des campagnes en utilisant le tableau de bord **[!UICONTROL Informations sur les audiences]** dans vos projets. Amenez insight à des pourcentages de chevauchement et au nombre d’identités qui se chevauchent entre vos audiences et celles de vos collaborateurs. Cela vous permet d’identifier de nouvelles audiences potentielles pour vos campagnes. Pour en savoir plus sur la puissance du cas d’utilisation Discover, consultez le guide [discover](../collaborate/discover.md).
 
 ## Activer {#activate}
 
-![Activate audiences dashboard modules.](/help/assets/use-cases/activate.png)
+![Activer les modules du tableau de bord des audiences.](/help/assets/use-cases/activate.png)
 
-Collaborators can activate audiences to Experience Platform using self-serve [destinations](/help/guide/destinations/experience-platform.md) or cloud data warehouses (such as [!DNL Amazon S3] or [!DNL Snowflake]) for use in campaigns. To learn more about activating audiences, refer to the [activate](../collaborate/activate.md) guide.
+Les collaborateurs peuvent activer des audiences dans Experience Platform à l’aide de [destinations](/help/guide/destinations/experience-platform.md) en libre-service ou d’entrepôts de données cloud (tels que [!DNL Amazon S3] ou [!DNL Snowflake]) à utiliser dans des campagnes. Pour en savoir plus sur l’activation des audiences, consultez le guide [activer](../collaborate/activate.md).
 
 >[!NOTE]
 >
-> To set up a cloud data warehouse destination, please contact your Adobe representative.
+> Pour configurer une destination d’entrepôt de données cloud, contactez votre représentant Adobe.
 
 ## Mesure {#measure}
 
-Combine and explore known customer engagement from various sources such as web impressions and more. View campaign performance in simplified and customizable reports.
+Combinez et explorez l’engagement connu des clients à partir de diverses sources telles que les impressions web, etc. Affichez les performances des campagnes dans des rapports simplifiés et personnalisables.

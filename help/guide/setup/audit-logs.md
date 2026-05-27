@@ -5,8 +5,15 @@ audience: admin
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
 TQID: https://experienceleague.adobe.com/zb09-bUpxJ2VPDknETHeayMuLpNRCaQ2VTnV9QnTRgE
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 950
@@ -26,7 +33,7 @@ Utilisez la fonctionnalité de journaux d’audit de Collaboration pour effectue
 
 ![Écran de présentation de haut niveau de la fonctionnalité des journaux d’audit.](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-Pour obtenir des informations plus complètes sur les journaux d’audit, consultez la documentation sur les journaux d’audit d’[](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
+Pour obtenir des informations plus complètes sur les journaux d’audit, consultez la documentation sur les journaux d’audit d’[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Accéder aux journaux d’audit
 
@@ -41,7 +48,7 @@ Vous pouvez accéder aux journaux d’audit de deux manières, comme décrit dan
 
 ### Accès aux journaux d’audit directement dans l’interface utilisateur d’Experience Platform
 
-1. Accédez à [](https://platform.adobe.com/) et sélectionnez la section **[!UICONTROL Audits]** dans le menu de gauche. Contactez les administrateurs système de votre entreprise pour obtenir les autorisations nécessaires si vous ne pouvez pas afficher les journaux d’audit.
+1. Accédez à [&#128279;](https://platform.adobe.com/) et sélectionnez la section **[!UICONTROL Audits]** dans le menu de gauche. Contactez les administrateurs système de votre entreprise pour obtenir les autorisations nécessaires si vous ne pouvez pas afficher les journaux d’audit.
 
 ![Accéder aux journaux d’audit à partir d’Experience Platform.](/help/assets/setup/audit-logs/access-from-experience-platform-ui.png)
 
@@ -78,7 +85,7 @@ L’interface utilisateur des journaux d’audit fournit plusieurs filtres pour 
 * **Statut** : le statut de l’action, tel qu’autoriser ou refuser.
 * **Période** : période pour laquelle vous souhaitez afficher les journaux.
 
-En savoir plus sur le [ filtrage des journaux d’audit ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
+En savoir plus sur le [&#x200B; filtrage des journaux d’audit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
 
 ## Avantages
 

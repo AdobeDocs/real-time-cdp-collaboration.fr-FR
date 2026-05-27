@@ -2,18 +2,11 @@
 title: Journaux d’audit
 description: Découvrez comment utiliser la fonctionnalité Journaux d’audit dans Real-Time CDP Collaboration pour effectuer le suivi des activités et des modifications des utilisateurs et utilisatrices.
 audience: admin
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
 TQID: https://experienceleague.adobe.com/zb09-bUpxJ2VPDknETHeayMuLpNRCaQ2VTnV9QnTRgE
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 950
@@ -33,7 +26,7 @@ Utilisez la fonctionnalité de journaux d’audit de Collaboration pour effectue
 
 ![Écran de présentation de haut niveau de la fonctionnalité des journaux d’audit.](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-Pour obtenir des informations plus complètes sur les journaux d’audit, consultez la documentation sur les journaux d’audit d’[Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
+Pour obtenir des informations plus complètes sur les journaux d’audit, consultez la documentation sur les journaux d’audit d’[](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Accéder aux journaux d’audit
 
@@ -48,7 +41,7 @@ Vous pouvez accéder aux journaux d’audit de deux manières, comme décrit dan
 
 ### Accès aux journaux d’audit directement dans l’interface utilisateur d’Experience Platform
 
-1. Accédez à [Experience Platform](https://platform.adobe.com/) et sélectionnez la section **[!UICONTROL Audits]** dans le menu de gauche. Contactez les administrateurs système de votre entreprise pour obtenir les autorisations nécessaires si vous ne pouvez pas afficher les journaux d’audit.
+1. Accédez à [](https://platform.adobe.com/) et sélectionnez la section **[!UICONTROL Audits]** dans le menu de gauche. Contactez les administrateurs système de votre entreprise pour obtenir les autorisations nécessaires si vous ne pouvez pas afficher les journaux d’audit.
 
 ![Accéder aux journaux d’audit à partir d’Experience Platform.](/help/assets/setup/audit-logs/access-from-experience-platform-ui.png)
 
@@ -56,40 +49,40 @@ Vous pouvez accéder aux journaux d’audit de deux manières, comme décrit dan
 
 Pour afficher les journaux d’audit :
 
-1. Navigate to the **[!UICONTROL Audits]** section in Experience Platform.
-2. Use the [filters](#filter-audit-logs) to narrow down the logs based on your criteria.
-3. Select a log entry to view detailed information, including the timestamp, request ID, resource details, and action status.
+1. Accédez à la section **[!UICONTROL Audits]** dans Experience Platform.
+2. Utilisez les [filtres](#filter-audit-logs) pour réduire les journaux en fonction de vos critères.
+3. Sélectionnez une entrée de journal pour afficher des informations détaillées, notamment la date et l’heure, l’identifiant de requête, les détails de la ressource et le statut de l’action.
 
-![Detailed Audit Log](/help/assets/setup/audit-logs/filters-and-detailed-view.png)
+![Journal d’audit détaillé](/help/assets/setup/audit-logs/filters-and-detailed-view.png)
 
-### Captured activities
+### Activités capturées
 
-Audit logs capture detailed information about user activities, including:
+Les journaux d’audit capturent des informations détaillées sur les activités des utilisateurs, notamment :
 
-* **Timestamp**: The exact date and time of the action performed in a month/day/year hour:minute AM/PM format.
-* **Asset name**: The name of the resource on which the action was performed.
-* **Category**: The type of resource the action was performed on.
-* **Action**: The specific action performed, such as create or delete.
-* **User**: The email address of the user who performed the action.
+* **Horodatage** : date et heure exactes de l’action effectuée au format mois/jour/année:minute heure du matin/après-midi.
+* **Nom de la ressource** : nom de la ressource sur laquelle l’action a été effectuée.
+* **Catégorie** : type de ressource sur laquelle l’action a été effectuée.
+* **Action** : action spécifique effectuée, telle que la création ou la suppression.
+* **Utilisateur** : adresse e-mail de l’utilisateur qui a exécuté l’action.
 
-These logs create a comprehensive trail of all activities within your Collaboration instance, which is useful for data governance and regulatory compliance. Read more about [managing audit logs in the UI](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
+Ces journaux créent un journal complet de toutes les activités au sein de votre instance Collaboration, ce qui est utile pour la gouvernance des données et la conformité à la réglementation. En savoir plus sur la [gestion des journaux d’audit dans l’interface utilisateur](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
 
-### Filter audit logs {#filter-audit-logs}
+### Filtrer les journaux d’audit {#filter-audit-logs}
 
-The audit logs UI provides several filters to help you search for specific logs:
+L’interface utilisateur des journaux d’audit fournit plusieurs filtres pour vous aider à rechercher des journaux spécifiques :
 
-* **Category**: The type of resource the action was performed on, such as Collaboration Instance or Collaboration Connection Invite.
-* **Action**: The type of action performed. Available actions depend on the category selected. For example, actions for Collaboration Instance include create, update, and delete.
-* **Request ID**: A unique identifier for the request.
-* **User**: The email address of the user who performed the action.
-* **Status**: The status of the action, such as allow or deny.
-* **Date Range**: The range of dates for which you want to view logs.
+* **Catégorie** : type de ressource sur laquelle l’action a été effectuée, telle que l’instance Collaboration ou l’invitation à une connexion Collaboration.
+* **Action** : type d’action effectuée. Les actions disponibles dépendent de la catégorie sélectionnée. Par exemple, les actions pour l’instance Collaboration incluent la création, la mise à jour et la suppression.
+* **ID de la demande** : identifiant unique de la demande.
+* **Utilisateur** : adresse e-mail de l’utilisateur qui a exécuté l’action.
+* **Statut** : le statut de l’action, tel qu’autoriser ou refuser.
+* **Période** : période pour laquelle vous souhaitez afficher les journaux.
 
-Read more about [filtering audit logs](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
+En savoir plus sur le [ filtrage des journaux d’audit ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
 
 ## Avantages
 
-Audit logs provide several benefits for organizations using Collaboration:
+Les journaux d’audit offrent plusieurs avantages aux organisations qui utilisent Collaboration :
 
 * **Gouvernance des données** : utilisez les journaux d’audit pour vous assurer que toutes les activités au sein de la plateforme sont suivies et auditables.
 * **Conformité à la réglementation** : cette fonctionnalité fournit un journal des activités des utilisateurs pour répondre aux exigences réglementaires.
@@ -103,14 +96,14 @@ Le tableau ci-dessous fournit une référence de toutes les catégories et actio
 
 | Catégorie | Actions | Description |
 |-------------------------------|------------------------------------------|-------------|
-| **[!UICONTROL Instance Collaboration]** | créer, mettre à jour, supprimer | Gérez les comptes, notamment la création, la mise à jour et la suppression de comptes. Pour en savoir plus sur le modèle, consultez le guide [Configurer vos comptes](/help/guide/setup/onboard-account.md). |
-| **[!UICONTROL Invitation À Une Connexion Collaboration]** | créer, mettre à jour, supprimer, approuver, rejeter | Gérer les invitations à la connexion, notamment la création, la mise à jour, la suppression, l’approbation et le rejet des invitations. Pour plus d’informations, consultez le guide [établissement de connexions](/help/guide/connect/establishing-connections.md). |
-| **[!UICONTROL Connexion Collaboration]** | créer, mettre à jour, supprimer, approuver, rejeter, demander l’approbation | Gérer les connexions, notamment la création, la mise à jour, la suppression, l’approbation, le rejet et la demande d’approbation des connexions. |
-| **[!UICONTROL Connexion aux données Collaboration]** | créer, mettre à jour, supprimer | Gérez les connexions de données à partir desquelles vous créez et gérez les audiences, notamment en créant, mettant à jour et supprimant des connexions de données. Pour plus d’informations, consultez le guide [gestion des connexions aux données](/help/guide/setup/manage-data-connection.md). |
-| **[!UICONTROL Entité De Données Collaboration]** | créer, mettre à jour, supprimer | Gérez les entités de données pour Collaboration, notamment la création, la mise à jour et la suppression d’entités de données. Dans ce contexte, les entités de données font référence aux audiences. For more information, read the [sourcing and managing audiences](/help/guide/setup/onboard-audiences.md) guide. |
-| **[!UICONTROL Collaboration Project]** | créer, mettre à jour, supprimer | Manage projects within Collaboration, including creating, updating, and deleting projects. For more information, read the [managing projects](/help/guide/collaborate/manage-projects.md) guide. |
-| **[!UICONTROL Collaboration Module]** | créer, mettre à jour, supprimer | Manage different modules within projects, including creating, updating, and deleting various modules in the UI. For example, the ability to [activate audiences](/help/guide/collaborate/activate.md). |
+| **[!UICONTROL Instance]** | créer, mettre à jour, supprimer | Gérez les comptes, notamment la création, la mise à jour et la suppression de comptes. Pour en savoir plus sur le modèle, consultez le guide [Configurer vos comptes](/help/guide/setup/onboard-account.md). |
+| **[!UICONTROL Invitation À Une Connexion]** | créer, mettre à jour, supprimer, approuver, rejeter | Gérer les invitations à la connexion, notamment la création, la mise à jour, la suppression, l’approbation et le rejet des invitations. Pour plus d’informations, consultez le guide [établissement de connexions](/help/guide/connect/establishing-connections.md). |
+| **[!UICONTROL Connexion]** | créer, mettre à jour, supprimer, approuver, rejeter, demander l’approbation | Gérer les connexions, notamment la création, la mise à jour, la suppression, l’approbation, le rejet et la demande d’approbation des connexions. |
+| **[!UICONTROL Connexion aux données]** | créer, mettre à jour, supprimer | Gérez les connexions de données à partir desquelles vous créez et gérez les audiences, notamment en créant, mettant à jour et supprimant des connexions de données. Pour plus d’informations, consultez le guide [gestion des connexions aux données](/help/guide/setup/manage-data-connection.md). |
+| **[!UICONTROL Entité De Données]** | créer, mettre à jour, supprimer | Gérez les entités de données pour Collaboration, notamment la création, la mise à jour et la suppression d’entités de données. Dans ce contexte, les entités de données font référence aux audiences. Pour plus d’informations, consultez le guide [sourcing et gestion des audiences](/help/guide/setup/onboard-audiences.md) . |
+| **[!UICONTROL Projet]** | créer, mettre à jour, supprimer | Gérez les projets dans Collaboration, notamment la création, la mise à jour et la suppression de projets. Pour plus d’informations, consultez le guide [gestion des projets](/help/guide/collaborate/manage-projects.md). |
+| **[!UICONTROL Module]** | créer, mettre à jour, supprimer | Gérez différents modules dans les projets, notamment la création, la mise à jour et la suppression de divers modules dans l’interface utilisateur. Par exemple, la possibilité d’[activer des audiences](/help/guide/collaborate/activate.md). |
 
 {style="table-layout:auto"}
 
-By leveraging the audit logs functionality, you can maintain a clear and detailed record of all activities within Collaboration, ensuring transparency and accountability.
+En utilisant la fonctionnalité des journaux d’audit, vous pouvez conserver un enregistrement clair et détaillé de toutes les activités dans Collaboration, ce qui garantit la transparence et la responsabilité.

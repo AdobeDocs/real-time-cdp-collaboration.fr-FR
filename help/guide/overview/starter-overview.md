@@ -71,7 +71,7 @@ Pour plus d’informations sur les rôles d’accès et les différents produits
 
 Maintenant que vous disposez des privilèges d’administrateur, vous pouvez vous attribuer des rôles et des autorisations ainsi qu’aux autres utilisateurs de votre organisation. Cette étape est nécessaire avant de pouvoir accéder à Real-Time CDP Collaboration ou de permettre à d’autres personnes de l’utiliser. Pour obtenir des instructions détaillées, voir [comment configurer des autorisations](../setup/starter-permission-controls.md). Pour plus d’informations sur les différents rôles et autorisations disponibles dans Collaboration, consultez la documentation [gérer les rôles](../permissions/manage-roles.md).
 
-Une fois les rôles et les autorisations attribués, vérifiez que vous pouvez accéder à Collaboration. Accédez à [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}, puis sélectionnez **[!UICONTROL Real-Time CDP Collaboration]** dans la section **[!UICONTROL Accès rapide]**. L’espace de travail **[!UICONTROL Adobe Real-Time CDP Collaboration]** s’ouvre, où vous pouvez commencer à utiliser les fonctionnalités de Collaboration.
+Une fois les rôles et les autorisations attribués, vérifiez que vous pouvez accéder à Collaboration. Accédez à [&#128279;](https://experience.adobe.com/){target="_blank"}, puis sélectionnez **[!UICONTROL Real-Time CDP Collaboration]** dans la section **[!UICONTROL Accès rapide]**. L’espace de travail **&#x200B;**&#x200B;s’ouvre, où vous pouvez commencer à utiliser les fonctionnalités de Collaboration.
 
 ### Configurer des connexions {#set-up-connections}
 

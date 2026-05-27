@@ -2,7 +2,7 @@
 title: Journaux d’audit
 description: Découvrez comment utiliser la fonctionnalité Journaux d’audit dans Real-Time CDP Collaboration pour effectuer le suivi des activités et des modifications des utilisateurs et utilisatrices.
 audience: admin
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
 TQID: https://experienceleague.adobe.com/zb09-bUpxJ2VPDknETHeayMuLpNRCaQ2VTnV9QnTRgE
 product_v2:
@@ -33,7 +33,7 @@ Utilisez la fonctionnalité de journaux d’audit de Collaboration pour effectue
 
 ![Écran de présentation de haut niveau de la fonctionnalité des journaux d’audit.](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-Pour obtenir des informations plus complètes sur les journaux d’audit, consultez la documentation sur les journaux d’audit d’[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
+Pour obtenir des informations plus complètes sur les journaux d’audit, consultez la documentation sur les journaux d’audit d’[&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Accéder aux journaux d’audit
 
@@ -72,7 +72,7 @@ Les journaux d’audit capturent des informations détaillées sur les activité
 * **Action** : action spécifique effectuée, telle que la création ou la suppression.
 * **Utilisateur** : adresse e-mail de l’utilisateur qui a exécuté l’action.
 
-Ces journaux créent un journal complet de toutes les activités au sein de votre instance Collaboration, ce qui est utile pour la gouvernance des données et la conformité à la réglementation. En savoir plus sur la [gestion des journaux d’audit dans l’interface utilisateur](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
+Ces journaux créent un journal complet de toutes les activités au sein de votre instance Collaboration, ce qui est utile pour la gouvernance des données et la conformité à la réglementation. En savoir plus sur la [gestion des journaux d’audit dans l’interface utilisateur](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
 
 ### Filtrer les journaux d’audit {#filter-audit-logs}
 
@@ -85,7 +85,7 @@ L’interface utilisateur des journaux d’audit fournit plusieurs filtres pour 
 * **Statut** : le statut de l’action, tel qu’autoriser ou refuser.
 * **Période** : période pour laquelle vous souhaitez afficher les journaux.
 
-En savoir plus sur le [&#x200B; filtrage des journaux d’audit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
+En savoir plus sur le [&#x200B; filtrage des journaux d’audit &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
 
 ## Avantages
 

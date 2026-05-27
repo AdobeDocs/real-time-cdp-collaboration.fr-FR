@@ -1,6 +1,6 @@
 ---
 title: Ajouter et gérer des données de mesure
-description: Learn how to add measurement data to Adobe Real-Time CDP Collaboration.
+description: Découvrez comment ajouter des données de mesure à Adobe Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
@@ -46,41 +46,41 @@ ht-degree: 4%
 
 {{limited-availability-release-note}}
 
-This document outlines the steps to add campaign measurement data to Adobe Real-Time CDP Collaboration. Publishers can work with Adobe teams to upload campaign measurement data. After that data is uploaded and processed, both publisher and advertiser will be able to view extensive [campaign measurement reports](/help/guide/collaborate/measure.md).
+Ce document décrit les étapes à suivre pour ajouter des données de mesure de campagne à Adobe Real-Time CDP Collaboration. Les éditeurs peuvent collaborer avec les équipes d’Adobe pour charger les données de mesure des campagnes. Une fois les données chargées et traitées, l’éditeur et l’annonceur pourront afficher des rapports de mesure de campagne [campaign](/help/guide/collaborate/measure.md) complets.
 
 ## Ajouter des données de mesure {#add-measurement-data}
 
-As an advertiser, you can upload your measurement data containing conversion events to Collaboration for use in campaign measurement reports. Conversion data typically includes fields such as user identifiers (for example, hashed email or device IDs), timestamp of the conversion event, and specific conversion event details such as purchase or sign-up.
+En tant qu’annonceur, vous pouvez charger vos données de mesure contenant des événements de conversion vers Collaboration pour les utiliser dans des rapports de mesure de campagne. Les données de conversion comprennent généralement des champs tels que les identifiants d’utilisateur (par exemple, des e-mails ou des identifiants d’appareil hachés), l’horodatage de l’événement de conversion et des détails spécifiques à l’événement de conversion, tels que l’achat ou l’inscription.
 
-To source measurement data, navigate to the **[!UICONTROL My measurement data]** tab within the **[!UICONTROL Setup]** workspace. Select the add icon (![Add icon.](/help/assets/icons/plus.png)) and then select **[!UICONTROL Measurement data]**.
+Pour générer des données de mesure, accédez à l’onglet **[!UICONTROL Mes données de mesure]** dans l’espace de travail **[!UICONTROL Configuration]**. Sélectionnez l’icône d’ajout (![Ajouter une icône.](/help/assets/icons/plus.png)) puis sélectionnez **[!UICONTROL Données de mesure]**.
 
-If this is your first measurement data, you may also select the **[!UICONTROL Add]** option.
+S&#39;il s&#39;agit de vos premières données de mesure, vous pouvez également sélectionner l&#39;option **[!UICONTROL Ajouter]**.
 
-![My Measurement data tab with the Add option and Measurement data option highlighted.](../../assets/setup/add-manage-measurement-data/add-measurement-data.png){zoomable="yes"}
+![Onglet Mes données de mesure avec l’option Ajouter et l’option Données de mesure en surbrillance.](../../assets/setup/add-manage-measurement-data/add-measurement-data.png){zoomable="yes"}
 
-The **[!UICONTROL Add measurement data]** screen appears, displaying a summary of steps to source measurement data. Select **[!UICONTROL Start onboarding]**.
+L’écran **[!UICONTROL Ajouter des données de mesure]** s’affiche, affichant un résumé des étapes pour générer les données de mesure. Sélectionnez **[!UICONTROL Démarrer l’intégration]**.
 
-![The Add measurement data screen displaying a summary of steps to source measurement data and the Start onboarding option highlighted.](../../assets/setup/add-manage-measurement-data/add-measurement-data-screen.png){zoomable="yes"}
+![L’écran Ajouter des données de mesure affiche un résumé des étapes permettant de générer les données de mesure et l’option d’intégration Démarrer mise en surbrillance.](../../assets/setup/add-manage-measurement-data/add-measurement-data-screen.png){zoomable="yes"}
 
 ### Détails et connexion de données {#data-connection-and-details}
 
-In this step, you need to configure your data connection and specify the details for your measurement data.
+Au cours de cette étape, vous devez configurer votre connexion de données et spécifier les détails de vos données de mesure.
 
-#### Select measurement data type {#select-measurement-data-type}
+#### Sélectionner le type de données de mesure {#select-measurement-data-type}
 
-The measurement data type defines the kind of events you bring in for campaign measurement. Currently, Conversion Data is the supported type.
+Le type de données de mesure définit le type d’événements que vous importez pour la mesure de la campagne. Actuellement, le type de données de conversion est pris en charge.
 
-Select **[!UICONTROL Conversion Data]** as your measurement data type, followed by **[!UICONTROL Next]**.
+Sélectionnez **[!UICONTROL Données de conversion]** comme type de données de mesure, suivi de **[!UICONTROL Suivant]**.
 
-![The Data connection and details step highlighting the measurement data type and the Next option.](../../assets/setup/add-manage-measurement-data/select-measurement-data-type.png){zoomable="yes"}
+![L’étape Connexion aux données et détails mettant en surbrillance le type de données de mesure et l’option Suivant &#x200B;](../../assets/setup/add-manage-measurement-data/select-measurement-data-type.png){zoomable="yes"}.
 
 #### Sélectionner la connexion de données {#select-data-connection}
 
-A data connection is the source from where you source measurement data into Collaboration. Once you have established your initial data connection and sourced your first set of measurement data, you can continue sourcing additional measurement data using the same data connection.
+Une connexion aux données est la source à partir de laquelle vous récupérez les données de mesure dans Collaboration. Une fois que vous avez établi votre connexion de données initiale et sourcé votre premier jeu de données de mesure, vous pouvez continuer à sourcer des données de mesure supplémentaires en utilisant la même connexion de données.
 
-To add a data connection, select **[!UICONTROL Add a new data connection]**, then select **[!UICONTROL Next]**.
+Pour ajouter une connexion de données, sélectionnez **[!UICONTROL Ajouter une nouvelle connexion de données]**, puis sélectionnez **[!UICONTROL Suivant]**.
 
-![The Data connection and details step highlighting the Add a new data connection option and the Next option.](../../assets/setup/add-manage-measurement-data/select-measurement-data-connection.png){zoomable="yes"}
+![L’étape Connexion de données et détails mettant en surbrillance les options Ajouter une nouvelle connexion de données et Suivant &#x200B;](../../assets/setup/add-manage-measurement-data/select-measurement-data-connection.png){zoomable="yes"}.
 
 #### Sélectionner une source de données {#select-data-source}
 
@@ -118,7 +118,7 @@ Pour enrichir vos données d’événement, sélectionnez l’option Clé de joi
 
 ![Écran Mappage avec l’option Clé de jointure de champ Source mise en surbrillance.](../../assets/setup/add-manage-measurement-data/select-source-field-join-key.png){zoomable="yes"}
 
-Dans la boîte de dialogue Clé de jointure de champ **[!UICONTROL Source]** choisissez le champ source, puis **[!UICONTROL Sélectionner]**.
+Dans la boîte de dialogue Clé de jointure de champ **&#x200B;**&#x200B;choisissez le champ source, puis **[!UICONTROL Sélectionner]**.
 
 ![Boîte de dialogue de clé de jointure de champ Source mettant en surbrillance le champ Source et l’option Suivant.](../../assets/setup/add-manage-measurement-data/source-field-join-key-dialog.png){zoomable="yes"}
 

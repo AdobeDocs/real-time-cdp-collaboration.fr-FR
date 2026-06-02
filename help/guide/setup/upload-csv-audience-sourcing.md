@@ -8,10 +8,10 @@ product_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
+source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
 workflow-type: tm+mt
-source-wordcount: 1121
-ht-degree: 2%
+source-wordcount: 1070
+ht-degree: 3%
 
 ---
 
@@ -145,4 +145,4 @@ Vous avez chargé votre fichier CSV dans Collaboration. Une fois l’approvision
 * Examinez les chevauchements et les informations sur les audiences. Voir [Mesure des performances de la campagne](../../guide/collaborate/measure.md).
 * Gérez les paramètres et la visibilité de votre audience. Voir [Source et gérer les audiences](./onboard-audiences.md).
 
-Pour plus d’informations sur les autres méthodes de sourcing d’audience, consultez [Configuration d’AWS S3 pour le sourcing d’audience](./configure-aws-s3-audience-sourcing.md) ou [Audiences Source à partir d’Experience Platform](./onboard-audiences.md).
+Pour en savoir plus sur toutes les sources disponibles dans Collaboration, voir [Présentation des sources](./source-overview.md).

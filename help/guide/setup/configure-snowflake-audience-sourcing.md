@@ -4,9 +4,9 @@ description: Découvrez comment configurer et connecter votre  [!DNL Snowflake S
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
+source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1598'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ Découvrez comment configurer et connecter vos [!DNL Snowflake Secure Data Share
 
 ## Vue d’ensemble {#overview}
 
-[!DNL Snowflake] est l’une des options prises en charge pour l’approvisionnement des données d’audience propriétaires dans Collaboration. D’autres méthodes disponibles incluent l’approvisionnement des audiences à partir de [&#128279;](./onboard-audiences.md), la connexion d’un [[!DNL AWS S3] compartiment](./configure-aws-s3-audience-sourcing.md) ou le chargement d’un fichier [CSV](./upload-csv-audience-sourcing.md).
+[!DNL Snowflake] est l’une des options prises en charge pour l’approvisionnement des données d’audience propriétaires dans Collaboration. D’autres méthodes disponibles incluent l’approvisionnement des audiences à partir de [&#128279;](./onboard-audiences.md), la connexion d’un [[!DNL AWS S3] compartiment](./configure-aws-s3-audience-sourcing.md) ou le chargement d’un fichier [CSV](./upload-csv-audience-sourcing.md). Pour en savoir plus sur toutes les sources disponibles dans Collaboration, voir [Présentation des sources](./source-overview.md).
 
 Suivez les étapes ci-dessous pour connecter votre [!DNL Snowflake Secure Data Share] et générer les données de votre audience dans Collaboration. Une fois la configuration terminée, vous pouvez vérifier, activer et gérer vos audiences sources pour vos projets de collaboration.
 

@@ -2,18 +2,14 @@
 title: Source et gestion des audiences
 description: Découvrez comment sourcer et gérer des audiences dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
 workflow-type: tm+mt
-source-wordcount: 3753
+source-wordcount: 3741
 ht-degree: 17%
 
 ---
@@ -41,7 +37,7 @@ Dans l’onglet **[!UICONTROL Mes audiences]** de l’espace de travail **[!UICO
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Actions marketing"
->abstract="<p>Utilisez des actions marketing pour contrôler les données d’audience à importer dans Real-Time CDP Collaboration à partir d’Experience Platform. L’action marketing <strong>Collaboration de données</strong> prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing <strong>Science des données</strong> prend en charge le libellé d’utilisation des données C9.</p> <p> <ul><li> Lorsque la case à cocher est <em>activée</em>, toutes les données marquées avec les libellés mentionnés ci-dessus dans Experience Platform sont exclues et ne sont <strong>pas</strong> importées dans Real-Time CDP Collaboration.</li><li> Lorsque la case à cocher est <em>désactivée</em>, il n’existe aucune restriction sur les données d’Experience Platform qui peuvent être importées dans Real-Time CDP Collaboration.</li></ul></p>"
+>abstract="<p>Utilisez des actions marketing pour contrôler les données d’audience à importer dans Real-Time CDP Collaboration à partir d’Experience Platform. L’action marketing <strong>Collaboration de données</strong> prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing <strong>Science des données</strong> prend en charge le libellé d’utilisation des données C9.</p> <p> <ul><li> Lorsque la case à cocher est <em>activée</em>, toutes les données marquées avec les libellés mentionnés ci-dessus dans Experience Platform sont exclues et ne sont <strong> pas</strong> importées dans Real-Time CDP Collaboration.</li><li> Lorsque la case à cocher est <em>désactivée</em>, il n’existe aucune restriction sur les données d’Experience Platform qui peuvent être importées dans Real-Time CDP Collaboration.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=fr" text="Présentation des libellés d’utilisation des données"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=fr" text="Glossaire des libellés dʼutilisation des données"
 
@@ -49,9 +45,9 @@ Dans l’onglet **[!UICONTROL Mes audiences]** de l’espace de travail **[!UICO
 >
 >Après avoir établi à votre première connexion de données et sourcé votre première audience, vous pouvez ensuite sourcer plusieurs audiences à partir de la connexion de données existante. Lors de l’ajout d’audiences supplémentaires, vous commencerez à partir de l’étape [sélectionner une audience](#select-audiences), puisque la connexion aux données a déjà été établie.
 
-Une connexion aux données est la source à partir de laquelle vous ingérez des audiences dans Collaboration. Les sources prises en charge sont Adobe Experience Platform, le chargement de fichier CSV, [!DNL Amazon S3], [!DNL Snowflake] et [!DNL Google Cloud Storage], chacun ayant son propre workflow. Adobe Audience Manager sera bientôt disponible.
+Une connexion aux données est la source à partir de laquelle vous ingérez des audiences dans Collaboration. Pour en savoir plus sur toutes les sources disponibles, voir [Présentation des sources](./source-overview.md).
 
-Les sections ci-dessous décrivent la sélection de **&#x200B;**&#x200B;et l’exécution des étapes spécifiques à Experience Platform (sandbox, gouvernance et consentement). Si vous choisissez CSV, [!DNL Amazon S3], [!DNL Snowflake] ou [!DNL Google Cloud Storage], utilisez le guide associé sous [Sélectionner la source de données](#select-data-source) pour cette option.
+Les sections ci-dessous décrivent la sélection de **** et l’exécution des étapes spécifiques à Experience Platform (sandbox, gouvernance et consentement). Si vous choisissez CSV, [!DNL Amazon S3], [!DNL Snowflake] ou [!DNL Google Cloud Storage], utilisez le guide associé sous [Sélectionner la source de données](#select-data-source) pour cette option.
 
 Tous les paramètres que vous configurez pour une connexion de données Experience Platform sont appliqués à toutes les audiences provenant de cette connexion.
 
@@ -68,11 +64,11 @@ Pour commencer à ajouter votre connexion de données, sélectionnez **[!UICONTR
 Vous allez ensuite choisir la source de votre connexion aux données. Les sources disponibles sont les suivantes :
 
 * **Adobe Experience Platform** : sélectionnez cette option pour importer vos audiences depuis Adobe Experience Platform.
-* **Fichier CSV** : chargez un fichier CSV contenant les données de votre audience pour une ingestion de données simple et rapide. Pour commencer[&#128279;](./upload-csv-audience-sourcing.md) reportez-vous au guide Chargement de fichier CSV pour l’approvisionnement de l’audience.
-* **&#x200B;**&#x200B;: connectez-vous à votre stockage Amazon S3 pour obtenir des données d’audience source directement à partir de vos compartiments S3. Consultez le guide [Configurer AWS S3 pour l’approvisionnement de l’audience](./configure-aws-s3-audience-sourcing.md) pour obtenir des instructions détaillées.
-* **&#x200B;**&#x200B;: utilisez votre entrepôt de données Snowflake pour extraire facilement les données d’audience. Reportez-vous au guide [Configurer [!DNL Snowflake] pour l’approvisionnement des audiences](./configure-snowflake-audience-sourcing.md) .
+* **Fichier CSV** : chargez un fichier CSV contenant les données de votre audience pour une ingestion de données simple et rapide. Pour commencer](./upload-csv-audience-sourcing.md) reportez-vous au guide [Chargement de fichier CSV pour l’approvisionnement de l’audience.
+* **** : connectez-vous à votre stockage Amazon S3 pour obtenir des données d’audience source directement à partir de vos compartiments S3. Consultez le guide [Configurer AWS S3 pour l’approvisionnement de l’audience](./configure-aws-s3-audience-sourcing.md) pour obtenir des instructions détaillées.
+* **** : utilisez votre entrepôt de données Snowflake pour extraire facilement les données d’audience. Reportez-vous au guide [Configurer [!DNL Snowflake] pour l’approvisionnement des audiences](./configure-snowflake-audience-sourcing.md) .
 * **Google Cloud Storage** : connectez-vous à vos compartiments GCS pour obtenir les données d’audience source. Consultez le guide [Configurer GCS pour l’approvisionnement de l’audience](./configure-gcs-audience-sourcing.md) pour obtenir des instructions détaillées.
-* **&#x200B;**&#x200B;(_bientôt disponible_) : Source vos segments d’audience depuis Adobe Audience Manager.
+* **** (_bientôt disponible_) : Source vos segments d’audience depuis Adobe Audience Manager.
 
 Sélectionnez votre source de données, puis sélectionnez **[!UICONTROL Suivant]**.
 
@@ -90,7 +86,7 @@ Ensuite, vous devez vous assurer que les actions marketing correctes sont défin
 
 Utilisez des actions marketing pour contrôler les données d’audience à importer dans Collaboration à partir d’Experience Platform. L’action marketing **[!UICONTROL Collaboration de données]** prend en charge les libellés d’utilisation des données C4, C5 et C9. L’action marketing **[!UICONTROL Science des données]** prend en charge le libellé d’utilisation des données C9.
 
-En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+En savoir plus sur les libellés d’utilisation des données [C4, C5 et C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Lorsque la case à cocher est ***activée***, toutes les données libellées dans Experience Platform comme décrit ci-dessus sont exclues et **pas** importées dans Collaboration.
 * Lorsque la case à cocher ***désactivée***, il n’existe aucune restriction sur les données provenant d’Experience Platform.
@@ -102,7 +98,7 @@ Consultez la documentation d’Experience Platform pour en savoir plus sur les l
 
 En outre, vous souhaiterez sélectionner vos règles de consentement à appliquer aux données provenant de Collaboration.
 
-![Espace de travail Ajouter des audiences à la section Politique de gouvernance et application des actions &#x200B;](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}.
+![Espace de travail Ajouter des audiences à la section Politique de gouvernance et application des actions ](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}.
 
 Une fois que vous avez sélectionné les actions marketing et les règles de consentement, sélectionnez **[!UICONTROL Suivant]** pour passer à l’étape suivante. Une boîte de dialogue de confirmation s’affiche, vous demandant d’accepter les conditions. Cochez la case, puis sélectionnez **[!UICONTROL OK]** pour confirmer.
 
@@ -145,7 +141,7 @@ Indiquez ensuite un nom et une description pour votre connexion de données. Ces
 
 Vous allez ensuite sélectionner les champs sources à mapper aux champs cibles dans Collaboration. Les champs cibles disponibles seront basés sur les clés de correspondance que vous avez sélectionnées lors de la [configuration du compte](./onboard-account.md#set-up-match-keys).
 
-Si vous avez sélectionné [!DNL Demdex ID (ECID)] comme clé de correspondance lors de la configuration du compte, la [!DNL Demdex ID] est automatiquement extraite et mappée à partir de l’ECID et vous n’avez aucune action à effectuer. Pour en savoir plus sur [!DNL Demdex IDs], consultez le guide [[!DNL Demdex ID]](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/identity/unified-identity-support).
+Si vous avez sélectionné [!DNL Demdex ID (ECID)] comme clé de correspondance lors de la configuration du compte, la [!DNL Demdex ID] est automatiquement extraite et mappée à partir de l’ECID et vous n’avez aucune action à effectuer. Pour en savoir plus sur [!DNL Demdex IDs], consultez le guide [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support).
 
 ![Espace de travail Ajouter des audiences avec la possibilité de mapper les champs sources aux champs cibles.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -155,7 +151,7 @@ Si vous avez sélectionné [!DNL Demdex ID (ECID)] comme clé de correspondance 
 
 >[!BEGINSHADEBOX]
 
-Les **[!UICONTROL champs]** sont des espaces de noms d’identité et des attributs d’Experience Platform. Il s’agit des espaces de noms d’identité [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard?lang=fr){target="_blank"} et [personnalisés](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=fr#create-namespaces){target="_blank"}. Ils incluent également les attributs de profil présents dans le [schéma d’union](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=fr){target="_blank"} et appartenant à la classe XDM Individual Profile.
+Les **[!UICONTROL champs]** sont des espaces de noms d’identité et des attributs d’Experience Platform. Il s’agit des espaces de noms d’identité [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard?lang=fr){target="_blank"} et [personnalisés](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. Ils incluent également les attributs de profil présents dans le [schéma d’union](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=fr){target="_blank"} et appartenant à la classe XDM Individual Profile.
 
 Les champs Source sont mappés sur les champs cibles définis dans Collaboration.
 
@@ -309,7 +305,7 @@ La boîte de dialogue **[!UICONTROL Catégories]** s’affiche, vous permettant 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Accès à la connexion"
->abstract="<p>Les audiences peuvent être de trois types : publiques, privées et personnalisées.</p><p> La possibilité de les utiliser dans des projets avec des collaborateurs et collaboratrices dépend du paramètre d’accès à la connexion.</p>"
+>abstract="<p>Les audiences peuvent être de trois types : publiques, privées et personnalisées.</p><p> La possibilité de les utiliser dans des projets avec des collaborateurs et collaboratrices dépend du paramètre d’accès à la connexion.</p>"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_access"
@@ -343,7 +339,7 @@ La disponibilité de l’audience à utiliser dans les projets avec des collabor
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilité des métadonnées"
->abstract="<p>Précise les métadonnées d’audience qui sont visibles pour d’autres collaborateurs et collaboratrices avant qu’ils ne se connectent à vous ou dans les vues du projet.</p> <p> Le **Nombre d’identités** vérifie si vos collaborateurs et collaboratrices peuvent afficher le nombre d’identités de vos audiences lors de l’affichage des rapports de chevauchement dans l’onglet de découverte.</p><p> Le **% de chevauchement d’audiences** vérifie si les collaborateurs et collaboratrices sont en mesure de découvrir des pourcentages de chevauchement entre leurs audiences et les vôtres.</p><p> L’**[!UICONTROL Index d’audience]** contrôle si les collaborateurs et les collaboratrices peuvent afficher l’index d’audience dans un projet. Cette fonctionnalité n’est disponible que lorsque vous avez trois audiences actives ou plus.</p> <br> Pour que les paramètres de visibilité des métadonnées prennent effet, l’audience doit être définie sur publique ou personnalisée."
+>abstract="<p>Précise les métadonnées d’audience qui sont visibles pour d’autres collaborateurs et collaboratrices avant qu’ils ne se connectent à vous ou dans les vues du projet.</p> <p> Le **Nombre d’identités** vérifie si vos collaborateurs ou collaboratrices peuvent afficher le nombre d’identités de vos audiences lors de l’affichage des rapports de chevauchement dans l’onglet de découverte.</p><p> Le **% de chevauchement d’audiences** vérifie si les collaborateurs et collaboratrices sont en mesure de découvrir des pourcentages de chevauchement entre leurs audiences et les vôtres.</p><p> L’**[!UICONTROL Index d’audience]** contrôle si les collaborateurs et les collaboratrices peuvent afficher l’index d’audience dans un projet. Cette fonctionnalité n’est disponible que lorsque vous avez trois audiences actives ou plus.</p> <br> Pour que les paramètres de visibilité des métadonnées prennent effet, l’audience doit être définie sur publique ou personnalisée."
 
 >[!NOTE]
 >

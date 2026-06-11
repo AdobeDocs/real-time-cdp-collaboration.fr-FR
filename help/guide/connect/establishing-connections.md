@@ -2,20 +2,15 @@
 title: Etablissement de connexions avec des collaborateurs
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 06d4477f3254e9811f410340c934ec5682a92cb0
 workflow-type: tm+mt
-source-wordcount: 3398
+source-wordcount: 3420
 ht-degree: 9%
 
 ---
@@ -25,6 +20,13 @@ ht-degree: 9%
 {{limited-availability-release-note}}
 
 Avant de pouvoir travailler ensemble sur des campagnes, les collaborateurs doivent établir une connexion. Cette connexion leur permet d’activer des audiences, de créer des projets et d’exécuter des rapports sur les performances des campagnes.
+
+Collaboration prend en charge les méthodes d’invitation suivantes :
+
+- [Invitation à une connexion publique](#discover-collaborators) : entrez en contact avec un autre client sous licence via l’espace de travail **[!UICONTROL Découvrir les collaborateurs]**.
+- [Invitation à une connexion privée](#private-connection-invite) : connectez-vous directement à un autre client sous licence à l’aide d’un code de connexion.
+- [Invitation de démarrage](#invite-non-licensed-collaborator) : connectez-vous à une organisation qui ne dispose pas d’une licence.
+- [Authentification](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection) : vous connecter à une plateforme publicitaire tierce prise en charge.
 
 Les connexions sont établies en fonction du modèle de collaboration de votre choix. Collaboration prend en charge deux schémas de collaboration principaux : publicitaire-éditeur et marque-à-marque. Pour en savoir plus sur ces modèles, consultez le guide [cas d’utilisation](/help/guide/overview/use-cases.md).
 
@@ -55,9 +57,6 @@ Une fois les paramètres de connexion acceptés, la connexion est établie et le
 
 ![Diagramme de haut niveau du processus de connexion de marque à marque.](/help/assets/connect/establish-connection/brand-to-brand-flow.png){zoomable="yes"}
 
->[!TIP]
->
->Ce guide couvre le processus de connexion pour les modèles de collaboration entre annonceurs et éditeurs et entre marques. Pour en savoir plus sur la connexion aux plateformes publicitaires, consultez la section [connexion d’annonceur à plateforme publicitaire](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection) du guide [présentation des connexions](/help/guide/connect/overview.md).
 
 ## Connexion {#connect}
 
@@ -93,7 +92,7 @@ Une boîte de dialogue s’affiche, vous invitant à envoyer une invitation à l
 
 L’invitation en attente s’affiche dans l’onglet **[!UICONTROL Mes connexions]** de la section **[!UICONTROL Action requise]**. Le statut de la connexion apparaît comme **[!UICONTROL Invitation envoyée]**. Vous pouvez prévisualiser les paramètres de connexion en sélectionnant **[!UICONTROL Prévisualiser la connexion]**, mais vous ne pouvez pas les modifier tant que l’éditeur n’a pas accepté l’invitation.
 
-![&#x200B; La connexion en attente s’affiche dans l’espace de travail Mes connexions de la section Action requise &#x200B;](/help/assets/connect/establish-connection/preview-connection.png){zoomable="yes"}.
+![ La connexion en attente s’affiche dans l’espace de travail Mes connexions de la section Action requise ](/help/assets/connect/establish-connection/preview-connection.png){zoomable="yes"}.
 
 ### Invitation à une connexion privée {#private-connection-invite}
 
@@ -163,7 +162,7 @@ Les paramètres de connexion définissent les termes entre deux collaborateurs. 
 
 Une fois que le destinataire a accepté l’invitation, le propriétaire peut configurer les paramètres de connexion. Pour ce faire, accédez à **[!UICONTROL Mes connexions]** et recherchez la connexion en attente dans la section **[!UICONTROL Action requise]**. Sélectionnez **[!UICONTROL Configurer la connexion]** pour configurer les paramètres de connexion.
 
-![Connecter l’espace de travail avec l’option Configurer la connexion mise en surbrillance dans la section Action requise &#x200B;](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}.
+![Connecter l’espace de travail avec l’option Configurer la connexion mise en surbrillance dans la section Action requise ](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}.
 
 L’espace de travail Paramètres de connexion s’affiche, vous permettant de configurer les différents paramètres de la connexion.
 
@@ -314,9 +313,9 @@ De plus, si vous êtes un éditeur qui se connecte à un annonceur, vous pouvez 
 
 Sélectionnez ensuite **[!UICONTROL Accepter]** pour poursuivre la connexion. Le statut de la connexion va passer à **[!UICONTROL Actif]** et vous pouvez maintenant commencer à collaborer sur des projets.
 
-## Inviter un collaborateur ou une collaboratrice {#invite-collaborator}
+## Inviter un collaborateur non sous licence (Starter) {#invite-non-licensed-collaborator}
 
-Suivez les étapes ci-dessous pour inviter votre partenaire à rejoindre Real-Time CDP Collaboration [!DNL Starter]. Si vous souhaitez obtenir plus d’informations sur les [!DNL Starter] de Collaboration et une présentation détaillée du processus, reportez-vous à la [[!DNL Starter] documentation de présentation](../overview/starter-overview.md).
+Suivez les étapes ci-dessous pour inviter votre partenaire non sous licence à rejoindre Real-Time CDP Collaboration [!DNL Starter]. Si vous souhaitez obtenir plus d’informations sur les [!DNL Starter] de Collaboration et une présentation détaillée du processus, reportez-vous à la [[!DNL Starter] documentation de présentation](../overview/starter-overview.md).
 
 Avant de lancer le processus d’invitation, collectez les informations suivantes auprès de votre collaborateur :
 

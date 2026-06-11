@@ -2,9 +2,9 @@
 title: Présentation du démarrage de RTCDP Collaboration
 description: Découvrez comment Adobe Real-Time CDP Collaboration Starter vous permet d’étendre et d’améliorer la collaboration axée sur la confidentialité avec un partenaire sous licence sans avoir à obtenir votre propre licence Real-Time CDP complète.
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
+source-git-commit: d0d854f73fa835984e5cff5207ce3e01297c8deb
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 3%
@@ -36,7 +36,7 @@ Pour lancer l’invitation, fournissez les informations suivantes à votre parte
 * Rôle (Annonceur/Éditeur) : Annonceur
 * Secteur industriel
 
-Après avoir reçu et accepté l’invitation, votre entreprise doit vérifier et signer une commande client gratuite avec Adobe pour accéder à Collaboration [!DNL Starter]. Pour plus d’informations sur le processus d’invitation, consultez le guide [inviter un collaborateur à Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator).
+Après avoir reçu et accepté l’invitation, votre entreprise doit vérifier et signer une commande client gratuite avec Adobe pour accéder à Collaboration [!DNL Starter]. Pour plus d’informations sur le processus d’invitation, consultez le guide [inviter un collaborateur à Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-non-licensed-collaborator).
 
 ## Mécanismes de sécurisation {#guardrails}
 
@@ -71,7 +71,7 @@ Pour plus d’informations sur les rôles d’accès et les différents produits
 
 Maintenant que vous disposez des privilèges d’administrateur, vous pouvez vous attribuer des rôles et des autorisations ainsi qu’aux autres utilisateurs de votre organisation. Cette étape est nécessaire avant de pouvoir accéder à Real-Time CDP Collaboration ou de permettre à d’autres personnes de l’utiliser. Pour obtenir des instructions détaillées, voir [comment configurer des autorisations](../setup/starter-permission-controls.md). Pour plus d’informations sur les différents rôles et autorisations disponibles dans Collaboration, consultez la documentation [gérer les rôles](../permissions/manage-roles.md).
 
-Une fois les rôles et les autorisations attribués, vérifiez que vous pouvez accéder à Collaboration. Accédez à [&#128279;](https://experience.adobe.com/){target="_blank"}, puis sélectionnez **[!UICONTROL Real-Time CDP Collaboration]** dans la section **[!UICONTROL Accès rapide]**. L’espace de travail **&#x200B;**&#x200B;s’ouvre, où vous pouvez commencer à utiliser les fonctionnalités de Collaboration.
+Une fois les rôles et les autorisations attribués, vérifiez que vous pouvez accéder à Collaboration. Accédez à [](https://experience.adobe.com/){target="_blank"}, puis sélectionnez **[!UICONTROL Real-Time CDP Collaboration]** dans la section **[!UICONTROL Accès rapide]**. L’espace de travail **** s’ouvre, où vous pouvez commencer à utiliser les fonctionnalités de Collaboration.
 
 ### Configurer des connexions {#set-up-connections}
 

@@ -2,19 +2,15 @@
 title: Activer les audiences
 description: Découvrez comment activer des audiences dans Adobe Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5c0fd0c7a7914f5c7828b76150b266d4625b6266
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 1063
 ht-degree: 2%
 
 ---
@@ -75,9 +71,11 @@ La boîte de dialogue **[!UICONTROL Modifier les clés de correspondance]** s’
 
 ### Définir la fréquence d’actualisation de l’audience {#set-audience-refresh-frequency}
 
-Enfin, définissez la fréquence et la période souhaitées pour l’actualisation de l’audience. Dans la version actuelle, la seule option de fréquence prise en charge est **[!UICONTROL Une fois]**. La fréquence **[!UICONTROL Une fois]** signifie que les audiences sont activées une seule fois et ne sont pas actualisées. L’option **[!UICONTROL Date]** est automatiquement renseignée avec la date actuelle.
+Enfin, définissez la fréquence et la période souhaitées pour l’activation de l’audience. Utilisez le menu déroulant **[!UICONTROL Fréquence]** pour choisir si l’audience doit être activée une fois ou actualisée selon un planning récurrent. Sélectionnez **[!UICONTROL Une fois]** pour activer l’audience une seule fois, ou sélectionnez une fréquence récurrente telle que **[!UICONTROL Quotidienne]**, **[!UICONTROL Tous les 2 jours]**, **[!UICONTROL Tous les 3 jours]**, **[!UICONTROL Tous les 4 jours]**, **[!UICONTROL Tous les 5 jours]**, **[!UICONTROL Tous les 6 jours]**, **[!UICONTROL Toutes les 2 semaines]**, **[!UICONTROL Toutes les 3 semaines]** ou **[!UICONTROL Mensuel]**.
 
-![Workflow d’activation de l’audience avec la section Fréquence mise en surbrillance.](/help/assets/collaborate/activate/audience-frequency.png)
+![Le menu déroulant Fréquence du workflow d’activation de l’audience affichant les options disponibles, notamment Une fois, Tous les jours, tous les 2 à 6 jours, toutes les 2 à 3 semaines et Tous les mois.](/help/assets/collaborate/activate/activation-frequency.png)
+
+Utilisez le champ **[!UICONTROL Période]** pour définir les dates de début et de fin du planning d’activation.
 
 Une fois vos sélections effectuées, sélectionnez **[!UICONTROL Activer]** pour terminer le workflow.
 
@@ -100,7 +98,7 @@ Dans chaque audience envoyée, vous pouvez voir les mesures suivantes :
 | **[!UICONTROL Nombre d’identités]** | Nombre d’identités dans l’audience. |
 | **[!UICONTROL Identités qui se chevauchent]** | Nombre d’identités qui se chevauchent entre cette audience et la population totale des profils de l’inventaire du collaborateur. |
 | **[!UICONTROL Créé]** | Date d’envoi initiale de l’audience. |
-| **[!UICONTROL Dernier envoi]** | Date à laquelle l’audience a été envoyée pour la dernière fois à votre collaborateur. |
+| **[!UICONTROL Dernier envoi]** | Date à laquelle l’audience a été mise à la disposition de votre collaborateur pour la dernière fois par le biais du workflow d’activation, soit à partir d’une activation unique, soit selon un planning récurrent. |
 | **[!UICONTROL Clés de correspondance]** | Indique la clé de correspondance utilisée pour l’audience. |
 
 ## Afficher les audiences activées {#view-activated-audiences}
@@ -115,7 +113,7 @@ Dans chaque audience activée, vous pouvez voir les mesures suivantes :
 | **[!UICONTROL Statut]** | Statut de l’audience activée. |
 | **[!UICONTROL Nombre d’identités]** | Le nombre d’identités activées, en fonction des identités qui se chevauchent lorsque votre collaborateur a envoyé l’audience. |
 | **[!UICONTROL Créé]** | Date d’activation de l’audience. |
-| **[!UICONTROL Dernière actualisation]** | Date de la dernière actualisation de l’audience, en fonction du planning d’actualisation choisi lors de l’activation. |
+| **[!UICONTROL Dernière actualisation]** | Date de la dernière actualisation de l’audience, en fonction de la fréquence sélectionnée lors de l’activation. |
 | **[!UICONTROL Destination]** | Destination vers laquelle l’audience a été activée. |
 | **[!UICONTROL Clés de correspondance]** | Indique la clé de correspondance utilisée pour l’audience. |
 
@@ -125,7 +123,7 @@ Vous pouvez supprimer les audiences envoyées que vous ne souhaitez plus activer
 
 Pour supprimer une audience envoyée, sélectionnez l’icône **[!UICONTROL Supprimer]** (![icône Supprimer.](/help/assets/icons/delete.png)) en regard de l’audience dans la section **[!UICONTROL Audiences envoyées à]**.
 
-![Option Supprimer dans la section Audiences envoyées à &#x200B;](/help/assets/collaborate/activate/delete-sent-audiences.png).
+![Option Supprimer dans la section Audiences envoyées à ](/help/assets/collaborate/activate/delete-sent-audiences.png).
 
 Une boîte de dialogue de confirmation s’ouvre, vous demandant de confirmer la suppression. Sélectionnez **[!UICONTROL Supprimer]** pour confirmer.
 

@@ -2,20 +2,15 @@
 title: Etablissement de connexions avec des collaborateurs
 description: Après avoir découvert des collaborateurs potentiels, apprenez à établir des connexions et à commencer à collaborer sur des projets.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: fb824ee8d84cb8dc125da82a4afd6f50e3ce80cf
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5e722bc0077495561181519121bab9bb267dc7e1
 workflow-type: tm+mt
-source-wordcount: 3420
+source-wordcount: 3459
 ht-degree: 9%
 
 ---
@@ -97,7 +92,7 @@ Une boîte de dialogue s’affiche, vous invitant à envoyer une invitation à l
 
 L’invitation en attente s’affiche dans l’onglet **[!UICONTROL Mes connexions]** de la section **[!UICONTROL Action requise]**. Le statut de la connexion apparaît comme **[!UICONTROL Invitation envoyée]**. Vous pouvez prévisualiser les paramètres de connexion en sélectionnant **[!UICONTROL Prévisualiser la connexion]**, mais vous ne pouvez pas les modifier tant que l’éditeur n’a pas accepté l’invitation.
 
-![&#x200B; La connexion en attente s’affiche dans l’espace de travail Mes connexions de la section Action requise &#x200B;](/help/assets/connect/establish-connection/preview-connection.png){zoomable="yes"}.
+![ La connexion en attente s’affiche dans l’espace de travail Mes connexions de la section Action requise ](/help/assets/connect/establish-connection/preview-connection.png){zoomable="yes"}.
 
 ### Invitation à une connexion privée {#private-connection-invite}
 
@@ -167,7 +162,7 @@ Les paramètres de connexion définissent les termes entre deux collaborateurs. 
 
 Une fois que le destinataire a accepté l’invitation, le propriétaire peut configurer les paramètres de connexion. Pour ce faire, accédez à **[!UICONTROL Mes connexions]** et recherchez la connexion en attente dans la section **[!UICONTROL Action requise]**. Sélectionnez **[!UICONTROL Configurer la connexion]** pour configurer les paramètres de connexion.
 
-![Connecter l’espace de travail avec l’option Configurer la connexion mise en surbrillance dans la section Action requise &#x200B;](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}.
+![Connecter l’espace de travail avec l’option Configurer la connexion mise en surbrillance dans la section Action requise ](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}.
 
 L’espace de travail Paramètres de connexion s’affiche, vous permettant de configurer les différents paramètres de la connexion.
 
@@ -320,7 +315,7 @@ Sélectionnez ensuite **[!UICONTROL Accepter]** pour poursuivre la connexion. Le
 
 ## Inviter un collaborateur non sous licence (Starter) {#invite-non-licensed-collaborator}
 
-Suivez les étapes ci-dessous pour inviter votre partenaire non sous licence à rejoindre Real-Time CDP Collaboration [!DNL Starter]. Si vous souhaitez obtenir plus d’informations sur les [!DNL Starter] de Collaboration et une présentation détaillée du processus, reportez-vous à la [[!DNL Starter] documentation de présentation](../overview/starter-overview.md).
+Suivez les étapes ci-dessous pour inviter votre partenaire non sous licence à rejoindre Real-Time CDP Collaboration [!DNL Starter]. Les invitations sont envoyées directement à l’adresse e-mail du collaborateur et doivent être acceptées avant qu’une connexion puisse être établie. Si vous souhaitez obtenir plus d’informations sur les [!DNL Starter] de Collaboration et une présentation détaillée du processus, reportez-vous à la [[!DNL Starter] documentation de présentation](../overview/starter-overview.md).
 
 Avant de lancer le processus d’invitation, collectez les informations suivantes auprès de votre collaborateur :
 
@@ -369,9 +364,14 @@ Une boîte de dialogue de confirmation confirme que l’invitation a bien été 
 
 ![La boîte de dialogue de confirmation confirme que l’invitation a bien été envoyée.](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
 
+Après l’envoi de l’invitation, votre organisation partenaire reçoit un e-mail contenant des instructions pour examiner et signer les conditions générales de Real-Time Collaboration.
+
 ### Accepter l&#39;invitation et signer les conditions {#accept-invitation-sign-terms}
 
-Après l’envoi de l’invitation, votre organisation partenaire reçoit un e-mail contenant des instructions pour examiner et accepter les conditions générales de Real-Time Collaboration. Ils peuvent également explorer les fonctionnalités de Collaboration avant d’accepter.
+Pour continuer, votre organisation partenaire invitée doit :
+
+- Ouvrez l’e-mail d’invitation.
+- Suivez le lien pour consulter et signer les conditions générales de Real-Time CDP Collaboration.
 
 ![L’e-mail d’invitation à rejoindre Collaboration Starter.](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
 
@@ -379,10 +379,11 @@ Une fois que votre organisation partenaire a accepté les conditions générales
 
 ### Confirmation d’approvisionnement {#provisioning-confirmation}
 
-Une fois le processus de configuration terminé, un e-mail de bienvenue est envoyé à l’organisation invitée, confirmant que Collaboration [!DNL Starter] est prêt à être utilisé. Cet e-mail fournit des instructions sur les éléments suivants :
+Une fois le processus de configuration terminé, un second e-mail est envoyé à l’organisation invitée, confirmant que Collaboration [!DNL Starter] est prêt à être utilisé. Cet e-mail de bienvenue fournit des instructions sur les éléments suivants :
 
 - [Configuration de l’accès administrateur et utilisateur](../setup/starter-admin-access.md)
 - [Configurer les autorisations d’accès à Collaboration](../setup/starter-permission-controls.md)
+- [Établir une connexion avec le collaborateur invité](#connect)
 
 ![E-mail de bienvenue envoyé à l’organisation invitée avec des instructions pour configurer l’accès et les autorisations nécessaires.](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
 
@@ -390,4 +391,4 @@ Une fois que votre partenaire a accès à Collaboration, vous et l’organisatio
 
 ## Étapes suivantes
 
-Après avoir établi une connexion avec votre collaborateur, vous pouvez maintenant [créer des projets](/help/guide/collaborate/manage-projects.md#create-project).
+Après avoir établi une connexion, vous pouvez [créer des projets](/help/guide/collaborate/manage-projects.md#create-project) avec votre collaborateur.

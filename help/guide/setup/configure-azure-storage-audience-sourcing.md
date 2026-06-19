@@ -2,7 +2,7 @@
 title: Audiences Source  [!DNL Azure]  stockage dans Real-Time CDP Collaboration
 description: les données d’audience propriétaires Source issues d’Azure Blob Storage ou d’Azure Data Lake Storage Gen2 dans Real-Time CDP Collaboration.
 keywords: Real-Time CDP Collaboration; approvisionnement des audiences; [!DNL Azure Blob Storage]; [!DNL Azure Data Lake Storage] Gen2
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 3b62837cecf6cf7c288ce1633d43312ff6a92664
 workflow-type: tm+mt
 source-wordcount: '2050'

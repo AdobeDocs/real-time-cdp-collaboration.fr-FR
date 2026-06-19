@@ -31,7 +31,7 @@ Vous ne pouvez configurer **un seul type de source par connexion de données**. 
 
 ## Conditions préalables {#prerequisites}
 
-Avant de suivre ce guide, terminez [ intégration et configuration du compte ](./onboard-account.md). Renseignez ensuite les prérequis de cette section avant de démarrer le workflow de configuration.
+Avant de suivre ce guide, terminez [&#x200B; intégration et configuration du compte &#x200B;](./onboard-account.md). Renseignez ensuite les prérequis de cette section avant de démarrer le workflow de configuration.
 
 Certaines étapes nécessitent l’intervention d’un **[!DNL Azure]administrateur**. Si vous n’êtes pas l’administrateur [!DNL Azure] de votre organisation, identifiez la personne appropriée avant de commencer.
 
@@ -101,7 +101,7 @@ Avant d’attribuer des autorisations, vérifiez que le compte de stockage a **e
 4. Attribuez le rôle **[!DNL Storage Blob Data Reader]** au principal de sécurité Adobe au niveau du système de fichiers ou de la portée du répertoire.
 5. Sélectionnez **[!UICONTROL Enregistrer]**.
 
-Une fois que vous avez terminé la configuration des autorisations pour votre type de source, passez à [ Configurer votre  [!DNL Azure]  connexion ](#configure-your-azure-connection).
+Une fois que vous avez terminé la configuration des autorisations pour votre type de source, passez à [&#x200B; Configurer votre  [!DNL Azure]  connexion &#x200B;](#configure-your-azure-connection).
 
 ## Configurer votre connexion [!DNL Azure] {#configure-your-azure-connection}
 
@@ -140,7 +140,7 @@ Après avoir saisi les valeurs requises, sélectionnez **[!UICONTROL Se connecte
 
 Un message de confirmation indique que la connexion a bien été établie. Sélectionnez **[!UICONTROL Suivant]** pour continuer.
 
-![l’étape Informations d’identification affichant les champs de compte de stockage, de conteneur, de chemin d’accès et d’ID client terminés avec un message de confirmation Connecté à [!DNL Azure] . ](../../assets/setup/azure-sourcing/azure-credentials-step.png){zoomable="yes"}
+![l’étape Informations d’identification affichant les champs de compte de stockage, de conteneur, de chemin d’accès et d’ID client terminés avec un message de confirmation Connecté à [!DNL Azure] . &#x200B;](../../assets/setup/azure-sourcing/azure-credentials-step.png){zoomable="yes"}
 
 ### Octroi d’un accès Adobe à votre stockage [!DNL Azure] {#grant-adobe-access}
 

@@ -21,11 +21,11 @@ Ce guide explique comment préparer les conditions préalables, connecter votre 
 
 Les audiences provenant de [!DNL Databricks] suivent les mêmes règles de gouvernance et de gestion des données que les audiences provenant de Adobe Experience Platform et d’autres sources cloud prises en charge.
 
-Les autres méthodes de source disponibles sont les suivantes : [](./onboard-audiences.md), [Amazon S3](./configure-aws-s3-audience-sourcing.md), [Google Cloud Storage](./configure-gcs-audience-sourcing.md), [Snowflake](./configure-snowflake-audience-sourcing.md), [Azure storage](./configure-azure-storage-audience-sourcing.md) et [téléchargement de fichier CSV](./upload-csv-audience-sourcing.md). Pour en savoir plus sur toutes les sources disponibles dans Collaboration, voir [Présentation des sources](./source-overview.md).
+Les autres méthodes de source disponibles sont les suivantes : [&#128279;](./onboard-audiences.md), [Amazon S3](./configure-aws-s3-audience-sourcing.md), [Google Cloud Storage](./configure-gcs-audience-sourcing.md), [Snowflake](./configure-snowflake-audience-sourcing.md), [Azure storage](./configure-azure-storage-audience-sourcing.md) et [téléchargement de fichier CSV](./upload-csv-audience-sourcing.md). Pour en savoir plus sur toutes les sources disponibles dans Collaboration, voir [Présentation des sources](./source-overview.md).
 
 ## Conditions préalables {#prerequisites}
 
-Remplissez les conditions préalables décrites dans cette section avant de démarrer le workflow de configuration. Les conditions préalables manquantes sont une raison courante pour laquelle la configuration échoue ou les audiences n’apparaissent pas après le sourcing. Avant de suivre ce guide, terminez [ intégration et configuration du compte ](./onboard-account.md).
+Remplissez les conditions préalables décrites dans cette section avant de démarrer le workflow de configuration. Les conditions préalables manquantes sont une raison courante pour laquelle la configuration échoue ou les audiences n’apparaissent pas après le sourcing. Avant de suivre ce guide, terminez [&#x200B; intégration et configuration du compte &#x200B;](./onboard-account.md).
 
 Certaines tâches de ce guide nécessitent l’aide d’un administrateur [!DNL Databricks]. Si vous n’administrez pas [!DNL Databricks] pour votre organisation, contactez l’administrateur ou administratrice approprié(e) avant de commencer.
 
@@ -138,7 +138,7 @@ L’écran **[!UICONTROL Mappage]** montre comment Collaboration mappe les colon
 >
 >Sélectionnez **[!UICONTROL Prévisualiser les données sources]** pour consulter un exemple de votre table d’abonnement au format tabulaire, puis sélectionnez **[!UICONTROL Fermer]** pour revenir à l’écran de mappage.
 
-![ Boîte de dialogue « Aperçu des données des briques de données » présentant un exemple de tableau de données d’audience avec des colonnes telles que AUDIENCE_ID et HASHED_EMAIL_SHA_256, ainsi qu’un bouton Fermer dans le coin inférieur droit. ](../../assets/setup/databricks-audience-sourcing/databricks-source-data-preview.png)
+![&#x200B; Boîte de dialogue « Aperçu des données des briques de données » présentant un exemple de tableau de données d’audience avec des colonnes telles que AUDIENCE_ID et HASHED_EMAIL_SHA_256, ainsi qu’un bouton Fermer dans le coin inférieur droit. &#x200B;](../../assets/setup/databricks-audience-sourcing/databricks-source-data-preview.png)
 
 Vérifiez que les mappages affichés reflètent les colonnes de votre tableau d’appartenance. Sélectionnez **[!UICONTROL Suivant]** pour continuer.
 

@@ -69,7 +69,7 @@ Le workflow Ajouter une audience s’affiche. Sélectionnez **[!UICONTROL Ajoute
 
 ### Sélectionnez Adobe Audience Manager comme connexion aux données {#select-aam}
 
-L’écran de sélection de la source de données répertorie tous les types de connexion disponibles. Sélectionnez **** comme connexion de données, puis sélectionnez **[!UICONTROL Suivant]**.
+L’écran de sélection de la source de données répertorie tous les types de connexion disponibles. Sélectionnez **&#x200B;**&#x200B;comme connexion de données, puis sélectionnez **[!UICONTROL Suivant]**.
 
 ![Écran de sélection de la connexion aux données avec Adobe Audience Manager disponible sous la forme d’une option sélectionnable.](../../assets/setup/aam-audience-sourcing/audience-manager-data-source-selection.png)
 
@@ -104,7 +104,7 @@ L’écran **[!UICONTROL Mappage]** est en lecture seule. Collaboration mappe au
 
 Vous pouvez vérifier le mappage, mais vous ne pouvez pas le modifier à ce stade. Sélectionnez **[!UICONTROL Suivant]** pour continuer.
 
-![ Workflow Ajouter une audience à l’étape « Mapper les champs » qui affiche les champs sources mappés aux champs d’identité cibles ](../../assets/setup/aam-audience-sourcing/audience-manager-map-fields.png)
+![&#x200B; Workflow Ajouter une audience à l’étape « Mapper les champs » qui affiche les champs sources mappés aux champs d’identité cibles &#x200B;](../../assets/setup/aam-audience-sourcing/audience-manager-map-fields.png)
 
 ### Planifier l’actualisation des données {#schedule-data-refresh}
 
@@ -159,9 +159,9 @@ Pendant que Collaboration récupère vos données de segment AAM, une bannière 
 
 ### Afficher les détails de l’audience source {#view-sourced-audience-details}
 
-Une fois l’approvisionnement terminé, vos segments AAM apparaissent dans l’onglet **[!UICONTROL Mes audiences]**. La colonne **** les identifie comme **[!UICONTROL Adobe Audience Manager]**.
+Une fois l’approvisionnement terminé, vos segments AAM apparaissent dans l’onglet **[!UICONTROL Mes audiences]**. La colonne **&#x200B;**&#x200B;les identifie comme **[!UICONTROL Adobe Audience Manager]**.
 
-![ L’onglet « Mes audiences » dans l’espace de travail Configuration affiche un tableau des audiences, y compris celles provenant de Adobe Audience Manager, avec des cases à cocher sélectionnables et des actions de ligne disponibles](../../assets/setup/aam-audience-sourcing/audience-manager-sourced-audience.png)
+![&#x200B; L’onglet « Mes audiences » dans l’espace de travail Configuration affiche un tableau des audiences, y compris celles provenant de Adobe Audience Manager, avec des cases à cocher sélectionnables et des actions de ligne disponibles](../../assets/setup/aam-audience-sourcing/audience-manager-sourced-audience.png)
 
 Sélectionnez une ligne ou l’option **[!UICONTROL Afficher l’audience]** pour ouvrir la vue détaillée d’une audience spécifique.
 

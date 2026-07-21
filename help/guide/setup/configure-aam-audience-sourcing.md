@@ -2,7 +2,7 @@
 title: Configuration de Adobe Audience Manager pour l’approvisionnement auprès d’une audience
 description: Découvrez comment connecter Adobe Audience Manager en tant que source de données afin de créer des audiences propriétaires éligibles dans Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: be12b4c3b1d3d40fa9ceb43b319f55254b05e4df
 workflow-type: tm+mt
 source-wordcount: '1901'

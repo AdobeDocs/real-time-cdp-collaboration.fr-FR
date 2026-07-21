@@ -2,10 +2,10 @@
 title: Présentation des sources
 description: En savoir plus sur les connecteurs source dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-source-git-commit: b30d1b01e929e586404faac34650c7fd479d071b
+source-git-commit: 23f7d91d37d0d9c9b352716caa4827dcc87093d8
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 6%
+source-wordcount: '412'
+ht-degree: 7%
 
 ---
 
@@ -38,7 +38,8 @@ Les sources ci-dessous sont disponibles dans Collaboration. Pour afficher le gui
 | [[!DNL Snowflake]](./configure-snowflake-audience-sourcing.md) | Connectez votre [!DNL Snowflake Secure Data Share] pour importer des jeux de données d’audience à grande échelle. | Disponible |
 | [[!DNL Google Cloud Storage]](./configure-gcs-audience-sourcing.md) | Connectez vos compartiments GCS pour importer les données d’audience stockées dans votre environnement [!DNL Google Cloud]. | Disponible |
 | [Chargement de fichier CSV](./upload-csv-audience-sourcing.md) | Chargez un fichier CSV formaté directement depuis votre système local. | Disponible |
-| Adobe Audience Manager | Insérez des segments Audience Manager existants dans vos projets Collaboration. | *Bientôt disponible* |
+| [Adobe Audience Manager](./configure-aam-audience-sourcing.md) | Insérez des segments Audience Manager existants dans vos projets Collaboration. | Disponible |
+| [[!DNL Databricks Delta Share]](./configure-databricks-audience-sourcing.md) | Connectez votre [!DNL Databricks Delta Share] pour importer des jeux de données d’audience à grande échelle à partir de votre environnement [!DNL Databricks]. | Disponible |
 | [[!DNL Azure Blob Storage]](./configure-azure-storage-audience-sourcing.md) | Connectez vos conteneurs [!DNL Azure Blob Storage] aux jeux de données propriétaires sources de votre environnement [!DNL Microsoft Azure]. | Disponible |
 | [[!DNL Azure Data Lake Storage]](./configure-azure-storage-audience-sourcing.md) | Connectez votre compte [!DNL Azure Data Lake Storage Gen 2] pour importer les données d’audience stockées dans votre lac de données [!DNL Azure]. | Disponible |
 

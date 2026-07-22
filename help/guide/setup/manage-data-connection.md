@@ -12,7 +12,7 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
 workflow-type: tm+mt
 source-wordcount: 1253
 ht-degree: 7%
@@ -154,7 +154,7 @@ Lorsque vous avez terminé, passez en revue les mises à jour et sélectionnez *
 
 ![Boîte de dialogue Planification mettant en surbrillance les options Mises à jour et Enregistrer.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
-## Supprimer la connexion de données
+## Supprimer la connexion de données {#delete-data-connection}
 
 La suppression d’une connexion aux données supprimera toutes les audiences sous-jacentes, les paramètres associés et l’utilisation dans Collaboration. Cette action ne peut pas être annulée.
 

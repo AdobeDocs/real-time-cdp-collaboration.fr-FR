@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 7affd3abf7a10019503825cb20d9be1ad4000603
+source-git-commit: e6156a39107edb0e15e2115db0762f6a86801ed6
 workflow-type: tm+mt
-source-wordcount: 1903
+source-wordcount: 1968
 ht-degree: 3%
 
 ---
@@ -26,9 +26,21 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-**Dernière mise à jour** : avril 2026.
+**Dernière mise à jour** : juillet 2026.
 
 Ces notes de mise à jour présentent les fonctionnalités disponibles dans Adobe Real-Time CDP Collaboration. Les versions de Collaboration fonctionnent sur un modèle de diffusion continu, ce qui permet une cadence de publication mensuelle approximative. Ces notes de mise à jour sont souvent mises à jour. Veillez donc à les consulter régulièrement.
+
+## Juillet 2026 {#july-2026}
+
+Real-Time CDP Collaboration prend désormais en charge d’autres options d’approvisionnement d’audience en libre-service.
+
+**Fonctionnalités nouvelles ou mises à jour**
+
+| Fonctionnalité | Description |
+| ------- | ----------- |
+| Audience en libre-service provenant de [!DNL Databricks Delta Share] et Adobe Audience Manager | Vous pouvez désormais approvisionner des audiences propriétaires directement à partir de vos [!DNL Databricks Delta Share] ou importer des segments Adobe Audience Manager éligibles dans Collaboration. Pour obtenir des instructions de configuration, consultez les guides suivants : <ul><li>[Configurer [!DNL Databricks Delta Share] pour le sourcing d’audience](../setup/configure-databricks-audience-sourcing.md)</li><li>[Configurer Adobe Audience Manager pour le sourcing d’audience](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+
+{style="table-layout:auto"}
 
 ## Avril 2026 {#april-2026}
 
@@ -91,12 +103,12 @@ Real-Time CDP Collaboration est désormais disponible pour les clients d’**Eur
 Real-Time CDP Collaboration est désormais disponible pour les clients au **Canada**. Il est automatiquement disponible pour les clients Real-Time CDP Prime et Ultimate dans ces régions.
 
 * Collaboration prend désormais en charge les [clés de correspondance](../setup/onboard-account.md#supported-match-keys) suivantes :
-   * E-mail haché
-   * Numéro de téléphone haché
-   * ID de CRM
-   * ID de fidélité
-   * IPv4 haché
-   * ID AdFixus
+  * E-mail haché
+  * Numéro de téléphone haché
+  * ID de CRM
+  * ID de fidélité
+  * IPv4 haché
+  * ID AdFixus
 * Plusieurs clés de correspondance sont désormais disponibles dans Collaboration, ce qui vous permet d’étendre la taille de votre audience et d’améliorer les taux de correspondance. Plusieurs clés de correspondance peuvent être utilisées lors de l’approvisionnement des audiences, de l’établissement des connexions et de l’activation des audiences. Pour en savoir plus sur l’utilisation de plusieurs clés de correspondance, consultez les guides [Configurer des clés de correspondance](../setup/onboard-account.md) et [Audiences de source](../setup/onboard-audiences.md#map-fields).
 
 >[!IMPORTANT]
@@ -120,7 +132,7 @@ Real-Time CDP Collaboration prend désormais en charge la collaboration de marqu
 
 * Real-Time CDP Collaboration est désormais disponible pour les clients en **Australie** et **Nouvelle-Zélande**. Il est automatiquement disponible pour les clients Real-Time CDP Prime et Ultimate dans ces régions.
 * Real-Time CDP Collaboration propose désormais des [destinations en libre-service](../setup/manage-destinations.md) par le biais de l’onglet **[!UICONTROL Mes destinations]** dans la section **[!UICONTROL Configuration]**. Les destinations vous permettent d’activer des audiences dans des plateformes tierces, telles que des réseaux publicitaires ou des plateformes de gestion de données, afin d’atteindre vos clients sur divers canaux. Actuellement, seules les destinations Adobe Experience Platform sont prises en charge. Si vous souhaitez configurer une autre destination, contactez votre représentant ou représentante Adobe. Pour en savoir plus sur les destinations, consultez le guide [présentation des destinations](../destinations/overview.md).
-   * Les destinations prennent également en charge l’affichage des audiences Collaboration dans le portail d’audiences [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences).
+  * Les destinations prennent également en charge l’affichage des audiences Collaboration dans le portail d’audiences [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences).
 * Vous pouvez désormais modifier la fréquence d’actualisation de l’audience pour les connexions de données existantes dans Collaboration. Actuellement, vous pouvez choisir d’actualiser vos audiences tous les jours ou tous les deux à six jours. Pour en savoir plus sur la modification de la fréquence d’actualisation de l’audience, consultez le guide [gérer les connexions de données](../setup/manage-data-connection.md#scheduling).
 * Les répartitions de crédit entre collaborateurs sont désormais définies pour chaque cas d’utilisation sélectionné dans la connexion. Vous pouvez définir différentes règles de consommation de crédit pour chaque cas d’utilisation afin de mieux contrôler l’utilisation de vos crédits. Pour en savoir plus sur la fonctionnalité de partage du crédit, consultez le guide [Paramètres de connexion](../connect/establishing-connections.md#connection-settings). Pour en savoir plus sur la manière dont les crédits sont consommés, lisez le guide [types d’activité de crédit](../setup/my-activity.md#types-of-activities). <br> ![Écran des paramètres de connexion affichant la fonctionnalité de répartition du crédit.](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
 * Les éditeurs peuvent désormais définir les noms et identifiants des annonceurs avant d’accepter les paramètres de connexion d’un annonceur. Les éditeurs peuvent définir des noms et des identifiants qui s’alignent sur leurs systèmes internes, qui peuvent être différents des noms et des identifiants de l’annonceur. Pour en savoir plus sur l’ajout de noms et d’identifiants d’annonceurs, consultez le guide [Paramètres de connexion](../connect/establishing-connections.md#connection-settings.md). <br> ![Écran des paramètres de connexion affichant le paramètre de l’éditeur, les noms et identifiants des annonceurs.](/help/assets/release-notes/2025/add-advertiser-names-modal.png){zoomable="yes"}
@@ -134,9 +146,9 @@ Real-Time CDP Collaboration prend désormais en charge la collaboration de marqu
 
 * Lorsque vous [approvisionnez des audiences](/help/guide/setup/onboard-audiences.md) dans Collaboration, vous pouvez désormais définir une fréquence d’actualisation de l’audience comprise entre **tous les un et six jours** afin de mieux gérer l’activité de crédit [Gestion de l’audience](/help/guide/setup/my-activity.md#types-of-activities). Pour plus d’informations, consultez le guide [gérer les audiences](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences). <br> ![Écran de planification affichant différents intervalles de fréquence pour la mise à jour de l’appartenance à l’audience.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "Écran de planification affichant différents intervalles de fréquence pour la mise à jour de l’appartenance à l’audience."){width="250" align="center" zoomable="yes"}
 * Lors de l’établissement d’une connexion avec un collaborateur, vous pouvez désormais effectuer une sélection parmi des **cas d’utilisation** prédéfinis. Le cas d’utilisation sélectionné détermine les sections de projet et les fonctionnalités de produit qui deviennent disponibles. Pour plus d’informations, consultez le guide [gérer les projets](/help/guide/collaborate/manage-projects.md#project-use-cases).
-   * *Mesure* active la section de projet **Mesure**.
-   * *Découverte d’audiences* active la section de projet **Découverte**.
-   * *Activation de l’audience* active les sections de projet **Activer** <br>
+  * *Mesure* active la section de projet **Mesure**.
+  * *Découverte d’audiences* active la section de projet **Découverte**.
+  * *Activation de l’audience* active les sections de projet **Activer** <br>
 * Vous pouvez désormais supprimer des connexions avec des collaborateurs avec lesquels vous ne souhaitez plus travailler. Pour savoir comment supprimer des connexions, consultez le guide [suppression de connexions](/help/guide/connect/establishing-connections.md#delete-connections).
 
 ## Février 2025 {#february-2025}

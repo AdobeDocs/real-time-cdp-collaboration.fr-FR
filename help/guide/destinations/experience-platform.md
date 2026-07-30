@@ -2,28 +2,23 @@
 title: Configuration de Adobe Experience Platform en tant que destination
 description: Découvrez comment configurer et gérer Adobe Experience Platform en tant que destination dans Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 TQID: https://experienceleague.adobe.com/vOAlNzIaEKC6cZC-zMxShPTn77kmV3WbUuvZU8Svzh4
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: c84582bb81289ce761c664af7db177535ff00a00
 workflow-type: tm+mt
-source-wordcount: 1534
+source-wordcount: 1548
 ht-degree: 14%
 
 ---
 
 # Configuration de Adobe Experience Platform en tant que destination
 
-{{limited-availability-release-note}}
-
 Configurez cette destination pour activer les audiences de votre projet vers Adobe Experience Platform. L’activation des audiences dans Adobe Experience Platform vous permet d’exploiter les fonctionnalités de la plateforme en matière de segmentation, d’analyse et d’activation des audiences sur divers canaux marketing. Pour en savoir plus sur Adobe Experience Platform, consultez la présentation d’[Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/home){target="_blank"}.
+
+Adobe Experience Platform utilise un workflow de configuration spécifique à la destination qui diffère du workflow de destination de l’espace de stockage décrit dans la section [Configurer et gérer les destinations de l’espace de stockage](./manage-destinations.md).
 
 >[!WARNING]
 >
@@ -31,13 +26,11 @@ Configurez cette destination pour activer les audiences de votre projet vers Ado
 
 ## Configurer la destination {#configure-destination}
 
-Pour configurer Adobe Experience Platform en tant que destination, accédez à **[!UICONTROL Configuration]** puis sélectionnez l’onglet **[!UICONTROL Mes destinations]**. Sélectionnez **[!UICONTROL Configurer]** pour Adobe Experience Platform.
+Pour configurer Adobe Experience Platform en tant que destination, accédez à l’espace de travail **[!UICONTROL Activation]**, sélectionnez l’onglet **[!UICONTROL Catalogue]** et sélectionnez **[!UICONTROL Configurer]** pour Adobe Experience Platform.
 
-![L’espace de travail Mes destinations avec l’option Configurer mise en surbrillance pour la destination Adobe Experience Platform.](/help/assets/destinations/adobe-experience-platform/setup-aep.png)
+![L’onglet Catalogue affiche les cartes des fournisseurs de destination avec la carte Adobe Experience Platform en surbrillance.](../../assets/destinations/adobe-experience-platform/setup-experience-platform.png)
 
 Le workflow **[!UICONTROL Créer une destination]** s’affiche.
-
-![Workflow Créer une destination pour Adobe Experience Platform.](/help/assets/destinations/adobe-experience-platform/create-destination.png)
 
 ### Configurer le sandbox {#configure-sandbox}
 
@@ -102,7 +95,7 @@ Répétez ce processus pour chaque clé de correspondance que vous souhaitez inc
 
 Les clés liées vous permettent de préciser qu’une autre clé correspondante doit être utilisée à la place de la clé correspondante d’origine lors de l’activation. Pour mieux comprendre le fonctionnement des clés liées, prenons l’exemple suivant :
 
-Un retailer souhaite envoyer les données en cours d’activation à Experience Platform vers son système CRM. Le retailer a activé l’adresse IP hachée comme clé de correspondance pour le compte afin d’augmenter le taux de correspondance lors de l’activation des audiences. Cependant, le système CRM de retailer ne prend pas en charge l’adresse IP hachée comme espace de noms d’identité. Ils souhaitent donc utiliser la clé de correspondance d’identifiant CRM à la place lors de l’activation des audiences dans Experience Platform. Le retailer peut utiliser l’option de clé liée pour activer des audiences vers Experience Platform à l’aide de l’identifiant CRM au lieu de l’adresse IP hachée.
+Un retailer souhaite envoyer les données en cours d’activation à Experience Platform vers son système CRM. Le retailer a activé l’adresse IP hachée comme clé de correspondance pour le compte afin d’augmenter le taux de correspondance lors de l’activation des audiences. Cependant, le système CRM retailer ne prenant pas en charge l’adresse IP hachée comme espace de noms d’identité, ils souhaitent utiliser la clé de correspondance d’identifiant CRM à la place lors de l’activation des audiences dans Experience Platform. Le retailer peut utiliser l’option de clé liée pour activer des audiences vers Experience Platform à l’aide de l’identifiant CRM au lieu de l’adresse IP hachée.
 
 >[!NOTE]
 >
@@ -144,9 +137,9 @@ Une fois que vous avez configuré Experience Platform en tant que destination, v
 
 >[!IMPORTANT]
 >
->Vous **devez** configurer Experience Platform en tant que destination *avant* que votre collaborateur active une audience. Si la destination n’est pas configurée, l’audience vous sera envoyée et visible dans l’onglet **[!UICONTROL Activer]** au sein d’un projet, mais elle ne sera pas activée dans Experience Platform.
+>Vous **devez** configurer Experience Platform en tant que destination *avant* que votre collaborateur active une audience. Si la destination n’est pas configurée, l’audience vous sera envoyée et visible dans l’onglet **[!UICONTROL Activer]** au niveau du projet, mais elle ne sera pas activée dans Experience Platform.
 
-Une fois l’audience activée, elle est disponible dans [Audience Portal](#audience-portal) dans Experience Platform avec Real-Time CDP Collaboration comme origine.  Ces audiences peuvent ensuite être utilisées dans les campagnes et l’engagement des clients.
+Une fois l’audience activée, elle est disponible dans [Audience Portal](#audience-portal) dans Experience Platform avec Real-Time CDP Collaboration comme origine. Ces audiences peuvent ensuite être utilisées dans les campagnes et l’engagement des clients.
 
 ### Audience Portal {#audience-portal}
 
@@ -158,4 +151,4 @@ Maintenant que vous avez configuré Adobe Experience Platform en tant que destin
 
 ![Audience Portal avec Real-Time CDP Collaboration comme origine dans les options de filtrage.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Pour en savoir plus sur Audience Portal, consultez le guide [Présentation d’Audience Portal](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.
+Pour en savoir plus sur Audience Portal, consultez le guide [Présentation d’Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.

@@ -2,25 +2,16 @@
 title: Glossaire
 description: Comprendre la terminologie clé de Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
 TQID: https://experienceleague.adobe.com/aamkkPQbkaATqzByHmnTU2QGiUXLOn1yhz1jPA8LgGc
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 934
 ht-degree: 3%
 
 ---
@@ -32,6 +23,14 @@ ht-degree: 3%
 Ce glossaire fournit des définitions des termes clés identifiés dans la documentation et les produits Adobe Real-Time CDP Collaboration. La compréhension de ces termes vous aidera à mieux utiliser le produit et ses fonctionnalités.
 
 ## A
+
+### Activer (vers un collaborateur)
+
+Fait référence à l’action d’envoyer une audience à un autre collaborateur ou une autre collaboratrice au sein d’un projet partagé. Lorsque vous activez une audience pour un collaborateur ou une collaboratrice, elle est envoyée à sa destination préconfigurée, où elle peut être utilisée dans des campagnes. Pour obtenir des instructions, voir [Activer les audiences](/help/guide/collaborate/activate.md). À ne pas confondre avec **Activer (vers une destination)**.
+
+### Activer (vers une destination)
+
+Fait référence à la destination dans laquelle arrive une audience activée, telle qu’une plateforme de stockage dans le cloud ou Adobe Experience Platform, et à l’espace de travail où les destinations sont configurées, parcourues et surveillées. Les audiences atteignent toujours une destination par le biais de l’action [ Activer les audiences ](/help/guide/collaborate/activate.md) au sein d’un projet. Cet espace de travail régit les destinations disponibles et leur configuration. Pour obtenir des instructions, voir [Présentation des destinations](/help/guide/destinations/overview.md). À ne pas confondre avec **Activer (pour un collaborateur)**.
 
 ### Société d’annonceurs
 

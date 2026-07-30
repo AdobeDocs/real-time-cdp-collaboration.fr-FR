@@ -2,19 +2,15 @@
 title: Activer les audiences
 description: Découvrez comment activer des audiences dans Adobe Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5c0fd0c7a7914f5c7828b76150b266d4625b6266
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4b38559f30c55f4cb1607d373fb1318416382c32
 workflow-type: tm+mt
-source-wordcount: 1063
+source-wordcount: 1078
 ht-degree: 2%
 
 ---
@@ -27,7 +23,9 @@ ht-degree: 2%
 >
 >L’espace de travail **[!UICONTROL Activer]** n’est disponible que si le cas d’utilisation **Activation de l’audience** a été activé [pendant le processus de connexion](../connect/establishing-connections.md#connection-settings). Pour plus d’informations sur les cas d’utilisation, consultez le guide [gestion des projets](./manage-projects.md#project-use-cases).
 
-L’activation des audiences vous permet d’activer des audiences à utiliser dans des campagnes. L’activation peut être effectuée par l’un des collaborateurs en fonction des paramètres d’activation de l’audience [configurés dans la connexion](/help/guide/connect/establishing-connections.md#configure-connection-settings). Après avoir [découvert les meilleures audiences pour votre campagne](./discover.md), activez les audiences pour les rendre disponibles. Lorsque vous activez une audience, elle est envoyée à la destination préconfigurée de votre collaborateur, telle que Adobe Experience Platform, où elle peut être utilisée dans les campagnes. Pour plus d’informations sur la configuration des destinations, consultez le guide [présentation des destinations](../destinations/overview.md).
+Vous pouvez utiliser l’activation des audiences pour activer l’audience à des fins de campagne. L’activation peut être effectuée par l’un des collaborateurs en fonction des paramètres d’activation de l’audience [configurés dans la connexion](/help/guide/connect/establishing-connections.md#configure-connection-settings). Après avoir [découvert les meilleures audiences pour votre campagne](./discover.md), activez les audiences pour les rendre disponibles. Lorsque vous activez une audience, elle est envoyée à la destination préconfigurée de votre collaborateur, telle que Adobe Experience Platform, où elle peut être utilisée dans les campagnes. Pour plus d’informations sur la configuration des destinations, consultez le guide [présentation des destinations](../destinations/overview.md).
+
+Pour une explication conceptuelle de la place de l’activation dans les workflows pris en charge, voir [Présentation des audiences](../setup/audiences-overview.md).
 
 ## Activer de nouvelles audiences {#activate-new-audiences}
 
@@ -127,7 +125,7 @@ Vous pouvez supprimer les audiences envoyées que vous ne souhaitez plus activer
 
 Pour supprimer une audience envoyée, sélectionnez l’icône **[!UICONTROL Supprimer]** (![icône Supprimer.](/help/assets/icons/delete.png)) en regard de l’audience dans la section **[!UICONTROL Audiences envoyées à]**.
 
-![Option Supprimer dans la section Audiences envoyées à &#x200B;](/help/assets/collaborate/activate/delete-sent-audiences.png).
+![Option Supprimer dans la section Audiences envoyées à ](/help/assets/collaborate/activate/delete-sent-audiences.png).
 
 Une boîte de dialogue de confirmation s’ouvre, vous demandant de confirmer la suppression. Sélectionnez **[!UICONTROL Supprimer]** pour confirmer.
 

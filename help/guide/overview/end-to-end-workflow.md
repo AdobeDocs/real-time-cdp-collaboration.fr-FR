@@ -5,9 +5,12 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
 TQID: https://experienceleague.adobe.com/9edtg5tMbnB3BrdLrDkcHQ-AjBNOqMFGojAja3NCwCs
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 4dba099a1bf484d9e2dfa71d5ad21a1ac076d794
 workflow-type: tm+mt
 source-wordcount: 1738
@@ -49,7 +52,7 @@ Ce guide utilise trois collaborateurs simulés pour illustrer le workflow de bou
 
 Pour commencer, [!UICONTROL Luma] doit [créer un compte](../setup/onboard-account.md) avec le rôle d’annonceur, tandis que [!UICONTROL TV Tube] crée un compte avec le rôle d’éditeur.
 
-Après avoir établi leurs comptes, [!UICONTROL Luma] et [!UICONTROL TV Tube] doivent [ créer une connexion de données et des audiences sources](../setup/onboard-audiences.md). Seule [!UICONTROL TV Tube] active les audiences pour les campagnes marketing. Elles doivent donc [configurer une destination](../destinations/manage-destinations.md).
+Après avoir établi leurs comptes, [!UICONTROL Luma] et [!UICONTROL TV Tube] doivent [&#x200B; créer une connexion de données et des audiences sources](../setup/onboard-audiences.md). Seule [!UICONTROL TV Tube] active les audiences pour les campagnes marketing. Elles doivent donc [configurer une destination](../destinations/manage-destinations.md).
 
 Une fois que les comptes des deux collaborateurs sont configurés, ils sont prêts à [former une connexion](../connect/establishing-connections.md) au sein de la plateforme. [!UICONTROL Luma] utilise la fonctionnalité [découvrir les collaborateurs](../connect/discover-collaborators.md) pour rechercher [!UICONTROL TV Tube] et lancer une demande de connexion. Une fois que [!UICONTROL TV Tube] a accepté la demande de connexion, [!UICONTROL Luma] configure les paramètres de connexion pour définir comment ils vont collaborer. [!UICONTROL TV Tube] accepte la demande de connexion pour établir un lien sécurisé entre les deux marques.
 
@@ -107,7 +110,7 @@ Une fois la connexion établie, [!UICONTROL Luma] [crée un projet](../collabora
 
 Pour commencer, [!UICONTROL Agency99] doit [créer un compte](../setup/onboard-account.md) avec le rôle d’agence, tandis que [!UICONTROL TV Tube] crée un compte avec le rôle d’éditeur.
 
-Après avoir établi leurs comptes, [!UICONTROL Agency99] et [!UICONTROL TV Tube] doivent [ créer une connexion de données et des audiences sources](../setup/onboard-audiences.md). [!UICONTROL Agency99] configurera les sous-comptes clients et les données client sources dans son espace de travail. Seule [!UICONTROL TV Tube] active les audiences pour les campagnes marketing. Elles doivent donc [configurer une destination](../destinations/manage-destinations.md).
+Après avoir établi leurs comptes, [!UICONTROL Agency99] et [!UICONTROL TV Tube] doivent [&#x200B; créer une connexion de données et des audiences sources](../setup/onboard-audiences.md). [!UICONTROL Agency99] configurera les sous-comptes clients et les données client sources dans son espace de travail. Seule [!UICONTROL TV Tube] active les audiences pour les campagnes marketing. Elles doivent donc [configurer une destination](../destinations/manage-destinations.md).
 
 Une fois que les comptes des deux collaborateurs sont configurés, ils sont prêts à [former une connexion](../connect/establishing-connections.md) au sein de la plateforme. [!UICONTROL Agency99] utilise la fonction [découvrir les collaborateurs](../collaborate/discover.md) pour rechercher [!UICONTROL TV Tube] et lancer une demande de connexion. [!UICONTROL Agency99] le fera pour un ou plusieurs clients qui souhaitent collaborer avec [!UICONTROL TV Tube]. Une fois que [!UICONTROL TV Tube] a accepté la ou les demandes de connexion, [!UICONTROL Agency99] configure les paramètres de connexion pour définir comment chaque collaboration doit se dérouler. [!UICONTROL TV Tube] accepte la ou les demandes de connexion pour établir une liaison sécurisée entre les deux marques.
 

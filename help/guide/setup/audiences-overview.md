@@ -3,8 +3,11 @@ title: Présentation des audiences
 description: Découvrez les audiences dans Real-Time CDP Collaboration, y compris leur emplacement d’origine.
 audience: admin, publisher
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: f7cd44177d60bfd3d3db384f7b1a250ace4c3633
 workflow-type: tm+mt
 source-wordcount: 707
@@ -108,7 +111,7 @@ Pour en savoir plus, consultez [Configuration des clés de correspondance](../se
 Les projets fournissent le contexte nécessaire à la collaboration avec une autre organisation. Dans un projet, vous pouvez utiliser des audiences pour les cas d’utilisation de collaboration pris en charge :
 
 * **Découvrir** : comparez les audiences et examinez les informations de chevauchement. Voir [Découvrir le chevauchement des audiences](../collaborate/discover.md).
-* **Activer** : activez les audiences sélectionnées pour une utilisation de campagne. L’activation est lancée à partir de l’onglet [!UICONTROL  Activer ] dans l’espace de travail du projet et envoie des audiences vers la destination configurée de la connexion. Voir [ Activer les audiences](../collaborate/activate.md).
+* **Activer** : activez les audiences sélectionnées pour une utilisation de campagne. L’activation est lancée à partir de l’onglet [!UICONTROL &#x200B; Activer &#x200B;] dans l’espace de travail du projet et envoie des audiences vers la destination configurée de la connexion. Voir [&#x200B; Activer les audiences](../collaborate/activate.md).
 * **Mesure** : consultez les rapports de conversion et de diffusion de la campagne associés au projet. Voir [Mesure des performances](../collaborate/measure.md).
 
 Pour plus d’informations sur la création et la gestion de projets, voir [Créer et gérer des projets](../collaborate/manage-projects.md). Pour plus d’informations sur la configuration des destinations, voir [Présentation des destinations](../destinations/overview.md).

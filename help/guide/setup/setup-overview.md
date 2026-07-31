@@ -9,10 +9,10 @@ product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
 workflow-type: tm+mt
-source-wordcount: 126
-ht-degree: 20%
+source-wordcount: 119
+ht-degree: 21%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 20%
 
 {{limited-availability-release-note}}
 
-La section Configuration d’Adobe Real-Time CDP Collaboration fournit un espace de travail centralisé pour gérer les paramètres et configurations de votre compte. Utilisez les guides ci-dessous pour savoir comment configurer votre compte, les audiences sources, gérer les connexions de données, configurer des destinations et suivre votre activité de consommation de crédit.
+La section Configuration d’Adobe Real-Time CDP Collaboration fournit un espace de travail centralisé pour gérer les paramètres et configurations de votre compte. Utilisez les guides ci-dessous pour savoir comment configurer votre compte, les audiences sources, gérer les connexions de données et suivre votre activité de consommation de crédit.
 
 ![Espace de travail de configuration d’un compte, donnant un aperçu de ses paramètres actuels.](/help/assets/setup/overview.png){zoomable="yes"}
 
@@ -29,6 +29,5 @@ Utilisez la fonctionnalité de la section Configuration pour :
 * [Configuration et gestion de votre compte](/help/guide/setup/onboard-account.md)
 * [Source et gestion des audiences](/help/guide/setup/onboard-audiences.md)
 * [Gérer les connexions de données](/help/guide/setup/manage-data-connection.md)
-* [Configuration et gestion des destinations](/help/guide/setup/manage-destinations.md)
 * [Suivre votre activité de consommation de crédit](/help/guide/setup/my-activity.md)
 * [Afficher les journaux d’audit](/help/guide/setup/audit-logs.md)

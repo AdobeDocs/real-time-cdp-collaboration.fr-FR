@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: 3773
+source-wordcount: 3758
 ht-degree: 17%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 17%
 {{limited-availability-release-note}}
 
 Les audiences sont des groupes spécifiques d’utilisateurs ou de clients segmentés en fonction de divers attributs. Ils permettent aux collaborateurs de travailler ensemble sur des expériences marketing ciblées et personnalisées pour des campagnes publicitaires plus efficaces. Ce guide explique comment sourcer des audiences dans Real-Time CDP Collaboration, afficher le tableau de bord des audiences et gérer des audiences individuelles.
+
+Pour une explication conceptuelle des audiences dans Collaboration, voir [Présentation des audiences](../setup/audiences-overview.md).
 
 ## Audiences Source dans Collaboration {#source-audiences}
 
@@ -239,7 +241,7 @@ Chaque audience contient un aperçu des informations suivantes :
 | **[!UICONTROL Nom]** | Nom de l’audience. |
 | **[!UICONTROL Identités]** | Indique le nombre d’identités présentes dans cette audience. Notez que si le même profil possède plusieurs identités et que ces identités sont utilisées comme clés de correspondance dans le projet, le profil s’affichera deux fois dans le décompte. |
 | **[!UICONTROL Statut]** | Indique si l’audience est active et peut être utilisée dans des projets. Un statut **[!UICONTROL En attente]** indique que l’audience vient d’être sourcée et que les identités doivent encore être renseignées. Les audiences sources sont renseignées avec des profils après l’actualisation initiale, qui se produit généralement dans les 24 heures suivant la configuration de la connexion aux données. |
-| **[!UICONTROL Source]** | Indique l’origine de l’audience. Dans la version actuelle de Collaboration, Experience Platform est la seule source prise en charge. |
+| **[!UICONTROL Source]** | Indique l’origine de l’audience. |
 | **[!UICONTROL Connexion aux données]** | Connexion de données à partir de laquelle l’audience est sourcée. Vous pouvez sélectionner le nom pour afficher la connexion de données. |
 | **[!UICONTROL Accès à la connexion]** | Définit si l’audience est privée ou publique. Les audiences publiques sont détectables dans les rapports de chevauchement et peuvent être activées dans un projet. |
 | **[!UICONTROL Créé]** | Indique la date à laquelle l’audience a été initialement sourcée dans Collaboration. |
@@ -265,7 +267,7 @@ Les informations suivantes s’affichent pour chaque audience :
 | Élément | Description |
 |----------|---------|
 | **[!UICONTROL Statut]** | Indique si l’audience est active et peut être utilisée dans des projets. |
-| **[!UICONTROL Source]** | Indique l’origine de l’audience. Dans la version actuelle de Collaboration, Experience Platform est la seule source prise en charge. |
+| **[!UICONTROL Source]** | Indique l’origine de l’audience. |
 | **[!UICONTROL Connexion aux données]** | Connexion de données à partir de laquelle l’audience est sourcée. |
 | **[!UICONTROL Dernière mise à jour]** | Indique la date et l’heure de la dernière mise à jour de l’audience dans Collaboration. Il ne s’agit pas de la date de la dernière actualisation de l’audience, mais plutôt de la date de la dernière modification de sa configuration ou de ses métadonnées |
 | **[!UICONTROL Dernière mise à jour par]** | Indique le dernier utilisateur à avoir mis à jour l’audience. |

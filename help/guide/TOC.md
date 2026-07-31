@@ -2,10 +2,10 @@
 user-guide-title: Collaboration Real-Time CDP
 breadcrumb-title: Collaboration Real-Time CDP
 user-guide-description: Adobe Real-Time CDP Collaboration met à disposition un partage de données et une collaboration transparents et sécurisés entre les annonceurs et les éditeurs, ce qui permet l’obtention d’informations en temps réel sur les audiences et la mise en place de stratégies marketing personnalisées.
-source-git-commit: 884e5d87448de554ba258a0d24f023979fc4768c
+source-git-commit: 3e31c6bc68a516698ee9b4e24ab4773afae5551b
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 37%
+source-wordcount: '243'
+ht-degree: 35%
 
 ---
 
@@ -36,7 +36,6 @@ ht-degree: 37%
     * [Configuration du partage Delta des briques de données pour l’audience](./setup/configure-databricks-audience-sourcing.md)
     * [Configuration de Adobe Audience Manager pour le sourcing d’audience](./setup/configure-aam-audience-sourcing.md)
   * [Gérer les connexions de données](./setup/manage-data-connection.md)
-  * [Configuration et gestion des destinations](./setup/manage-destinations.md)
   * [Suivre votre activité de consommation de crédit](/help/guide/setup/my-activity.md)
   * {hide-from-toc}[Passages pour piétons d’identité](./setup/identity-crosswalk.md)
   * [Ajouter et gérer des données de mesure](./setup/onboard-measurement-data.md)
@@ -66,8 +65,9 @@ ht-degree: 37%
     * {hide-from-toc}[Créer des rapports de mesure AMC](./collaborate/advertising-platforms/amc-measure.md)
 * Destinations {#destinations}
   * [Vue d’ensemble](/help/guide/destinations/overview.md)
-  * {hide-from-toc}[Configuration et gestion d’une destination](./destinations/manage-destinations.md)
-  * [Adobe Experience Platform](./destinations/experience-platform.md)
+  * [Configuration et gestion des destinations de stockage dans le cloud](./destinations/manage-destinations.md)
+  * [Exigences de destination du stockage dans le cloud](./destinations/cloud-storage-destination-requirements.md)
+  * [Configuration de Adobe Experience Platform en tant que destination](./destinations/experience-platform.md)
 * Autorisations {#permissions}
   * [Vue d’ensemble](/help/guide/permissions/overview.md)
   * [Gérer l’accès utilisateur](./permissions/manage-user-access.md)

@@ -18,9 +18,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 934
 ht-degree: 3%
 
 ---
@@ -32,6 +32,14 @@ ht-degree: 3%
 Ce glossaire fournit des définitions des termes clés identifiés dans la documentation et les produits Adobe Real-Time CDP Collaboration. La compréhension de ces termes vous aidera à mieux utiliser le produit et ses fonctionnalités.
 
 ## A
+
+### Activer (vers un collaborateur)
+
+Fait référence à l’action d’envoyer une audience à un autre collaborateur ou une autre collaboratrice au sein d’un projet partagé. Lorsque vous activez une audience pour un collaborateur ou une collaboratrice, elle est envoyée à sa destination préconfigurée, où elle peut être utilisée dans des campagnes. Pour obtenir des instructions, voir [Activer les audiences](/help/guide/collaborate/activate.md). À ne pas confondre avec **Activer (vers une destination)**.
+
+### Activer (vers une destination)
+
+Fait référence à la destination dans laquelle arrive une audience activée, telle qu’une plateforme de stockage dans le cloud ou Adobe Experience Platform, et à l’espace de travail où les destinations sont configurées, parcourues et surveillées. Les audiences atteignent toujours une destination par le biais de l’action [&#x200B; Activer les audiences &#x200B;](/help/guide/collaborate/activate.md) au sein d’un projet. Cet espace de travail régit les destinations disponibles et leur configuration. Pour obtenir des instructions, voir [Présentation des destinations](/help/guide/destinations/overview.md). À ne pas confondre avec **Activer (pour un collaborateur)**.
 
 ### Société d’annonceurs
 

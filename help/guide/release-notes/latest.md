@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ec15512bc5c6579ade907fc238cfe5394862dc7e
+source-git-commit: c74300c6d38a33dfdc7c7d50306b26ef61a7494b
 workflow-type: tm+mt
-source-wordcount: 1968
+source-wordcount: 2054
 ht-degree: 3%
 
 ---
@@ -32,13 +32,15 @@ Ces notes de mise à jour présentent les fonctionnalités disponibles dans Adob
 
 ## Juillet 2026 {#july-2026}
 
-Real-Time CDP Collaboration prend désormais en charge d’autres options d’approvisionnement d’audience en libre-service.
+Real-Time CDP Collaboration prend désormais en charge des options d’approvisionnement d’audience en libre-service supplémentaires, ainsi que des workflows d’activation et de configuration de destination plus simples.
 
 **Fonctionnalités nouvelles ou mises à jour**
 
 | Fonctionnalité | Description |
 | ------- | ----------- |
 | Audience en libre-service provenant de [!DNL Databricks Delta Share] et Adobe Audience Manager | Vous pouvez désormais approvisionner des audiences propriétaires directement à partir de vos [!DNL Databricks Delta Share] ou importer des segments Adobe Audience Manager éligibles dans Collaboration. Pour obtenir des instructions de configuration, consultez les guides suivants : <ul><li>[Configurer [!DNL Databricks Delta Share] pour le sourcing d’audience](../setup/configure-databricks-audience-sourcing.md)</li><li>[Configurer Adobe Audience Manager pour le sourcing d’audience](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+| Activation manuelle des audiences reçues | Vous pouvez désormais activer manuellement les audiences reçues d’un collaborateur vers une destination configurée et choisir le moment où l’activation s’exécute. Cela permet aux destinataires de mieux contrôler la diffusion de l’audience. Consultez [&#x200B; Activer les audiences &#x200B;](../collaborate/activate.md) pour obtenir des instructions détaillées. |
+| Destinations de stockage cloud en libre-service | Vous pouvez désormais configurer et gérer les destinations d’espace de stockage prises en charge directement à partir de l’espace de travail Activation et les utiliser pour activer les audiences reçues. Voir [Configurer et gérer les destinations de stockage dans le cloud](../destinations/manage-destinations.md) pour obtenir des instructions de configuration. |
 
 {style="table-layout:auto"}
 

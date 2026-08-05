@@ -4,9 +4,13 @@ description: Découvrez comment envoyer des audiences à des collaborateurs et a
 audience: admin, publisher, advertiser
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 87a7ddb5b6ef1661e347a3dd7842523639d54859
 workflow-type: tm+mt
 source-wordcount: 1589
@@ -51,7 +55,7 @@ Accédez à **[!UICONTROL Collaborer]**, ouvrez un projet, puis sélectionnez l�
 
 Dans la section **[!UICONTROL Audiences envoyées à [collaborateur]]**, sélectionnez l’icône d’ajout (![Ajouter une icône.](/help/assets/icons/plus.png)). Si aucune audience n’a été envoyée, sélectionnez **[!UICONTROL Envoyer l’audience]** dans l’affichage vide à la place.
 
-![Onglet Activer au niveau du projet lorsqu’aucune audience n’a été envoyée. Le message d’affichage vide explique que vous n’avez pas envoyé d’audience et affiche un bouton Envoyer une audience ](/help/assets/collaborate/activate/activate-new-audiences.png).
+![Onglet Activer au niveau du projet lorsqu’aucune audience n’a été envoyée. Le message d’affichage vide explique que vous n’avez pas envoyé d’audience et affiche un bouton Envoyer une audience &#x200B;](/help/assets/collaborate/activate/activate-new-audiences.png).
 
 Le workflow **[!UICONTROL Envoyer des audiences]** s’ouvre. Utilisez le sélecteur d’audiences pour trouver une audience ou sélectionnez **[!UICONTROL Parcourir les audiences]** pour comparer les audiences disponibles.
 
@@ -167,7 +171,7 @@ Utilisez **[!UICONTROL Destination]** pour sélectionner la destination qui reç
 
 Utilisez **[!UICONTROL Date]** pour sélectionner la date d’exécution de l’activation, puis sélectionnez **[!UICONTROL Activer]**.
 
-![La boîte de dialogue Activer l’audience s’est ouverte à partir d’une audience reçue. La boîte de dialogue contient une liste déroulante Destination permettant de sélectionner une destination configurée, un champ Date avec un contrôle Calendrier, ainsi que des boutons Annuler et Activer ](/help/assets/collaborate/activate/activate-received-audience.png).
+![La boîte de dialogue Activer l’audience s’est ouverte à partir d’une audience reçue. La boîte de dialogue contient une liste déroulante Destination permettant de sélectionner une destination configurée, un champ Date avec un contrôle Calendrier, ainsi que des boutons Annuler et Activer &#x200B;](/help/assets/collaborate/activate/activate-received-audience.png).
 
 La boîte de dialogue se ferme et l’activation s’affiche dans la section **[!UICONTROL Audiences activées]**. L’audience reçue reste disponible dans la section **[!UICONTROL Audiences reçues]** tandis que son accès reste actif.
 
@@ -198,7 +202,7 @@ Sélectionnez l’icône de suppression (![icône de suppression.](/help/assets/
 
 Une boîte de dialogue de confirmation s’affiche. Sélectionnez **[!UICONTROL Supprimer]** pour confirmer.
 
-![ Boîte de dialogue de confirmation de suppression de l’audience activée expliquant que l’audience sera supprimée de la liste des audiences activées et peut être activée à nouveau plus tard, avec les boutons Annuler et Supprimer ](/help/assets/collaborate/activate/delete-activated-audience-confirmation.png).
+![&#x200B; Boîte de dialogue de confirmation de suppression de l’audience activée expliquant que l’audience sera supprimée de la liste des audiences activées et peut être activée à nouveau plus tard, avec les boutons Annuler et Supprimer &#x200B;](/help/assets/collaborate/activate/delete-activated-audience-confirmation.png).
 
 L’activation est supprimée de la liste. Vous pouvez activer à nouveau l’audience reçue tant que son accès reste actif.
 

@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: dc86508b6327694a612625d427e3165a5e34e800
 workflow-type: tm+mt
-source-wordcount: 2120
-ht-degree: 17%
+source-wordcount: 2132
+ht-degree: 16%
 
 ---
 
@@ -51,6 +51,10 @@ Pour commencer à utiliser l’onglet **[!UICONTROL Découvrir]** dans votre pro
 
 Une fois ces conditions préalables remplies, vous pouvez commencer à explorer et à comparer les chevauchements entre vous et les audiences de votre collaborateur.
 
+>[!IMPORTANT]
+>
+>Les comparaisons d’audiences avec moins de 1 000 identités qui se chevauchent ne renvoient pas de résultats.
+
 >[!NOTE]
 >
 >Cet espace de travail **[!UICONTROL Discover]** n’est pas pertinent pour les collaborations avec des plateformes publicitaires. Actuellement, Amazon Marketing Cloud est la seule plateforme publicitaire disponible dans Real-Time CDP Collaboration. Pour plus d’informations sur l’espace de travail [!DNL AMC] **[!UICONTROL Discover]**, consultez le guide [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md).
@@ -85,6 +89,8 @@ Une fois ces conditions préalables remplies, vous pouvez commencer à explorer 
 Utilisez la section Comparer les audiences pour obtenir de riches informations sur le chevauchement entre vos audiences et celles de votre collaborateur. Pour modifier la sélection de l’audience, utilisez le sélecteur de liste déroulante en haut de la section **[!UICONTROL Comparer les audiences]**. Vous pouvez sélectionner une ou toutes vos audiences et une ou toutes les audiences de votre collaborateur pour les comparer.
 
 ![L’espace de travail Discover avec le sélecteur d’audience mis en surbrillance dans la section Comparer les audiences.](/help/assets/collaborate/discover/compare-audiences-selector.png)
+
+
 
 Dans la section Comparer les audiences , vous pouvez voir les mesures suivantes, qui sont basées sur les clés de correspondance convenues entre vous et votre collaborateur pour le projet :
 

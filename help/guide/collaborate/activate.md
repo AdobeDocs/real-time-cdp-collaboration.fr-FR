@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d12a5004a6854392c130fd6b93a841fb22cf6ab
+source-git-commit: 87a7ddb5b6ef1661e347a3dd7842523639d54859
 workflow-type: tm+mt
-source-wordcount: 1565
+source-wordcount: 1589
 ht-degree: 2%
 
 ---
@@ -58,6 +58,10 @@ Dans la section **[!UICONTROL Audiences envoyées à [collaborateur]]**, sélect
 ![Onglet Activer au niveau du projet lorsqu’aucune audience n’a été envoyée. Le message d’affichage vide explique que vous n’avez pas envoyé d’audience et affiche un bouton Envoyer une audience &#x200B;](/help/assets/collaborate/activate/activate-new-audiences.png).
 
 Le workflow **[!UICONTROL Envoyer des audiences]** s’ouvre. Utilisez le sélecteur d’audiences pour trouver une audience ou sélectionnez **[!UICONTROL Parcourir les audiences]** pour comparer les audiences disponibles.
+
+>[!IMPORTANT]
+>
+>Seules les audiences avec plus de 1 000 identités qui se chevauchent sont disponibles pour l’activation. Si les chevauchements d’audiences sont proches du seuil d’identité de 1 000, l’activation peut échouer.
 
 ![Workflow Envoyer des audiences avec un sélecteur d’audience et un bouton Parcourir les audiences. Le workflow permet à l’expéditeur de choisir une audience avant de configurer les clés de correspondance et les paramètres d’accès.](/help/assets/collaborate/activate/audience-activation.png)
 

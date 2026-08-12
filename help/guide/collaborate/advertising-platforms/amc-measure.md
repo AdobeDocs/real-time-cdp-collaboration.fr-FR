@@ -4,7 +4,7 @@ description: Découvrez comment créer et interpréter des rapports de mesure po
 audience: advertiser
 keywords: AMC, Amazon Marketing Cloud, rapports de mesure, résumé de la campagne, attribution, Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 944914557c10b43abbe4915e061c219aca9f783f
 workflow-type: tm+mt
 source-wordcount: '1574'
@@ -69,7 +69,7 @@ Tous les rapports [!DNL AMC] incluent un **[!UICONTROL résumé de la campagne]*
 | Type de rapport | Description |
 | --- | --- |
 | **[!UICONTROL Résumé de la campagne]** | Fournit des mesures de portée, de fréquence et d’impression pour la campagne sélectionnée. Toujours inclus. |
-| **[!UICONTROL Attribution]** | Ajoute les données de conversion au rapport. Disponible uniquement s’il existe des événements de conversion dans votre instance [!DNL AMC]. Voir [&#x200B; Événements de conversion &#x200B;](#conversion-events). |
+| **[!UICONTROL Attribution]** | Ajoute les données de conversion au rapport. Disponible uniquement s’il existe des événements de conversion dans votre instance [!DNL AMC]. Voir [ Événements de conversion ](#conversion-events). |
 
 #### Événements de conversion (attribution uniquement) {#conversion-events}
 

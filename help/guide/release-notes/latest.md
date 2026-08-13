@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: c74300c6d38a33dfdc7c7d50306b26ef61a7494b
+source-git-commit: 21f15134c9319aacf332a9f430b51d84f69498b0
 workflow-type: tm+mt
-source-wordcount: 2054
+source-wordcount: 2131
 ht-degree: 3%
 
 ---
@@ -26,9 +26,21 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-**Dernière mise à jour** : juillet 2026.
+**Dernière mise à jour** : août 2026.
 
 Ces notes de mise à jour présentent les fonctionnalités disponibles dans Adobe Real-Time CDP Collaboration. Les versions de Collaboration fonctionnent sur un modèle de diffusion continu, ce qui permet une cadence de publication mensuelle approximative. Ces notes de mise à jour sont souvent mises à jour. Veillez donc à les consulter régulièrement.
+
+## Août 2026 {#august-2026}
+
+Real-Time CDP Collaboration prend désormais en charge les rapports de mesure [!DNL Amazon Marketing Cloud] (AMC), ce qui vous permet de mesurer les performances des campagnes Amazon Ads depuis un projet [!DNL AMC].
+
+**Fonctionnalités nouvelles ou mises à jour**
+
+| Fonctionnalité | Description |
+| ------- | ----------- |
+| [!DNL AMC] des rapports de mesure | Mesurez les performances de vos campagnes Amazon Ads à l’aide des données [!DNL AMC] directement dans Collaboration. Dans l’onglet [!UICONTROL Mesure] d’un projet [!DNL AMC], vous pouvez créer des rapports **Résumé de la campagne** et **Attribution** pour évaluer les performances de la campagne et comprendre l’attribution des conversions. Pour plus d’informations, voir [&#x200B; Création de rapports de mesure Amazon Marketing Cloud &#x200B;](../collaborate/advertising-platforms/amc-measure.md). |
+
+{style="table-layout:auto"}
 
 ## Juillet 2026 {#july-2026}
 

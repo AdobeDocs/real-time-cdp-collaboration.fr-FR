@@ -2,19 +2,15 @@
 title: Gérer les connexions de données
 description: Découvrez comment gérer les connexions de données, notamment les clés de correspondance, la planification, les cas d’utilisation et le filtrage d’audience dans Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 TQID: https://experienceleague.adobe.com/QvkEpR1fJMZ5BXrucAzEtxFNSfSMS-2hIZvMSg63ySE
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 07471fb3690c3ff57d21231da3d126cf9545677a
 workflow-type: tm+mt
-source-wordcount: 1253
+source-wordcount: 1299
 ht-degree: 7%
 
 ---
@@ -110,6 +106,8 @@ Choisissez le champ source de votre choix, puis **[!UICONTROL Sélectionner]**.
 
 ![La boîte de dialogue Sélectionner le champ source avec l’option GAID sélectionnée.](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
 
+Sous l’option **[!UICONTROL Attributs de profil]**, certains champs sources sont modélisés dans une liste, qui est un tableau d’objets. Vous pouvez développer ces champs de liste et sélectionner un champ imbriqué à l’intérieur pour mapper vers une clé de correspondance. Pour plus d’informations, consultez le guide [mappage des champs](./onboard-audiences.md#map-fields).
+
 Dans la boîte de dialogue **[!UICONTROL Touches de correspondance]**, utilisez le menu déroulant pour mapper le nouveau champ source à un champ cible. Tous les champs cibles disponibles correspondent aux clés configurées pour votre compte collaborateur. Si vous ne voyez pas le champ cible dont vous avez besoin, [modifiez les clés de correspondance de votre compte](./onboard-account.md#edit-match-keys) pour l’ajouter.
 
 Utilisez l’option **[!UICONTROL Appliquer la transformation]** si vous souhaitez générer un champ non haché en champ cible haché, par exemple, lors du mappage d’un champ source d’e-mail en texte brut au champ cible **[!UICONTROL E-mail haché]**.
@@ -118,7 +116,7 @@ Utilisez l’option **[!UICONTROL Appliquer la transformation]** si vous souhait
 
 ##### Ajouter un [!DNL Demdex ID (ECID)] {#add-demdex-id-ecid}
 
-Si vous souhaitez ajouter [!DNL Demdex ID (ECID)] comme clé de correspondance, assurez-vous d’abord qu’elle est [&#x200B; activée dans les paramètres de votre compte](../setup/onboard-account.md#set-up-match-keys). Pour plus d’informations sur la [!DNL Demdex ID (ECID)], consultez la section [clés de correspondance prises en charge](../setup/onboard-account.md#supported-match-keys).
+Si vous souhaitez ajouter [!DNL Demdex ID (ECID)] comme clé de correspondance, assurez-vous d’abord qu’elle est [ activée dans les paramètres de votre compte](../setup/onboard-account.md#set-up-match-keys). Pour plus d’informations sur la [!DNL Demdex ID (ECID)], consultez la section [clés de correspondance prises en charge](../setup/onboard-account.md#supported-match-keys).
 
 Dans la boîte de dialogue **[!UICONTROL Correspondance des clés]**, ajoutez une nouvelle ligne de champ de mappage. Sélectionnez ensuite **[!UICONTROL ECID]** comme champ source et **[!UICONTROL ID Demdex (ECID)]** comme champ cible dans la liste déroulante.
 

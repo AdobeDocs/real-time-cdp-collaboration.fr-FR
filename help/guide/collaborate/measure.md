@@ -2,19 +2,15 @@
 title: Mesurer les performances
 description: Mesurez les performances de vos campagnes sur différents canaux. Découvrez comment utiliser et interpréter divers rapports.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 TQID: https://experienceleague.adobe.com/pr-qF4sd-NHd55kxh1dCstHRnVCUEhIvtv-47-ljiu4
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ab26b139fe8ea3d22e38b234b55862c4d83b5c54
 workflow-type: tm+mt
-source-wordcount: 2612
+source-wordcount: 2776
 ht-degree: 5%
 
 ---
@@ -34,10 +30,10 @@ Découvrez les rapports disponibles dans Adobe Real-Time CDP Collaboration et co
 Avant de pouvoir accéder aux rapports de mesure dans Collaboration, vous devez :
 
 * [Se connecter](/help/guide/connect/establishing-connections.md) avec un collaborateur avec le cas d’utilisation **Measurement** activé
-* Collaborez à au moins un projet avec votre collaborateur. Découvrez comment [&#x200B; créer un projet &#x200B;](/help/guide/collaborate/manage-projects.md#create-project).
+* Collaborez à au moins un projet avec votre collaborateur. Découvrez comment [ créer un projet ](/help/guide/collaborate/manage-projects.md#create-project).
 * Exécutez votre campagne et assurez-vous qu’un [identifiant de campagne est fourni pour la campagne](../collaborate/manage-projects.md#manage-campaign-id) :
-   * Si vous êtes un éditeur, saisissez l’identifiant de campagne associé à la campagne de votre annonceur.
-   * Si vous êtes un annonceur, demandez à votre collaborateur (éditeur) de fournir l’identifiant de la campagne. Cela est nécessaire pour [générer des rapports dans l’espace de travail Mesure](#create-measurement-report).
+  * Si vous êtes un éditeur, saisissez l’identifiant de campagne associé à la campagne de votre annonceur.
+  * Si vous êtes un annonceur, demandez à votre collaborateur (éditeur) de fournir l’identifiant de la campagne. Cela est nécessaire pour [générer des rapports dans l’espace de travail Mesure](#create-measurement-report).
 * [Chargez les données de mesure](/help/guide/setup/onboard-measurement-data.md) dans Collaboration pour [créer des rapports d’attribution](#create-attribution-report).
 
 ## Afficher les rapports {#view-reports}
@@ -60,7 +56,7 @@ Pour visualiser les rapports disponibles dans l&#39;onglet Mesure :
 
 Sélectionnez **[!UICONTROL Afficher le rapport complet]** pour accéder aux différents rapports disponibles, détaillés ci-dessous.
 
-![Comment accéder à l’onglet Mesure dans un projet &#x200B;](/help/assets/collaborate/measure/measurement.gif).
+![Comment accéder à l’onglet Mesure dans un projet ](/help/assets/collaborate/measure/measurement.gif).
 
 ### Vue récapitulative
 
@@ -109,11 +105,11 @@ Identifiez le support qui génère des impressions pour votre contenu créatif. 
 
 ### Conversions cumulées {#cumulative-conversions}
 
-Cette vue fournit une répartition détaillée des événements de conversion que vous choisissez de mesurer sous la forme d’un tableau. Le tableau comprend :
+Cette vue fournit une répartition détaillée des événements de conversion que vous choisissez de mesurer sous la forme d’un tableau. Les résultats sont calculés au niveau de l’**identifiant de campagne**. Le tableau comprend :
 
 * **Événement de conversion** : nom de chaque événement de conversion dont vous effectuez le suivi.
-* **Nombre de conversions** : nombre total de conversions qui se sont produites pour chaque événement.
-* **Revenu estimé** : valeur estimée attribuée à chaque événement de conversion.
+* **Nombre de conversions** : nombre total de conversions qui se sont produites pour chaque événement, pour l’identifiant de campagne.
+* **Valeur(s) de conversion** : valeur attribuée à chaque événement de conversion, pour l’identifiant de campagne.
 
 Consultez ce tableau pour évaluer l’efficacité de votre campagne à générer les actions souhaitées.
 
@@ -124,6 +120,16 @@ Consultez ce tableau pour évaluer l’efficacité de votre campagne à génére
 Ce graphique fournit une répartition quotidienne des conversions pour chaque événement configuré lors de la création d’un rapport d’attribution. Utilisez cette vue pour découvrir des modèles quotidiens, identifier les périodes d’activité de conversion élevée ou faible, et comparer l’exécution de différents événements de conversion sur la chronologie de votre campagne.
 
 ![Conversions par jour.](/help/assets/collaborate/measure/conversions-by-day.gif)
+
+### Conversions par emplacement {#conversions-by-placement}
+
+Ce tableau fournit une **répartition au niveau de l’identifiant d’emplacement** des événements de conversion sélectionnés pour le rapport Attribution. Un seul identifiant de campagne peut inclure plusieurs identifiants d’emplacement. Utilisez donc cette vue pour voir la répartition des conversions au sein d’une campagne. Pour chaque événement de conversion sélectionné, le tableau affiche les conversions attribuées à chaque emplacement et la valeur de conversion correspondante. Le tableau comprend :
+
+* **Nom ou ID de l’emplacement** : identifiant de l’emplacement où le contenu créatif s’est exécuté.
+* **Nombre de conversions** : nombre de conversions attribuées à cet emplacement, pour chaque événement de conversion sélectionné lors de la création du rapport. Un emplacement peut afficher jusqu’à trois événements de conversion, correspondant au nombre maximal d’événements de conversion autorisé par rapport.
+* **Valeur de conversion** : valeur attribuée à chaque événement de conversion, pour cet emplacement spécifique.
+
+![Conversions par emplacement.](/help/assets/collaborate/measure/conversions-by-placement.png)
 
 ## Créer un rapport de mesure {#create-measurement-report}
 

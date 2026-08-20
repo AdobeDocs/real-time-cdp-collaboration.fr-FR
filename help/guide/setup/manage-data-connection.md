@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
+source-git-commit: 07471fb3690c3ff57d21231da3d126cf9545677a
 workflow-type: tm+mt
-source-wordcount: 1253
+source-wordcount: 1299
 ht-degree: 7%
 
 ---
@@ -109,6 +109,8 @@ Sélectionnez ensuite le champ source vide. La boîte de dialogue **[!UICONTROL 
 Choisissez le champ source de votre choix, puis **[!UICONTROL Sélectionner]**.
 
 ![La boîte de dialogue Sélectionner le champ source avec l’option GAID sélectionnée.](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
+
+Sous l’option **[!UICONTROL Attributs de profil]**, certains champs sources sont modélisés dans une liste, qui est un tableau d’objets. Vous pouvez développer ces champs de liste et sélectionner un champ imbriqué à l’intérieur pour mapper vers une clé de correspondance. Pour plus d’informations, consultez le guide [mappage des champs](./onboard-audiences.md#map-fields).
 
 Dans la boîte de dialogue **[!UICONTROL Touches de correspondance]**, utilisez le menu déroulant pour mapper le nouveau champ source à un champ cible. Tous les champs cibles disponibles correspondent aux clés configurées pour votre compte collaborateur. Si vous ne voyez pas le champ cible dont vous avez besoin, [modifiez les clés de correspondance de votre compte](./onboard-account.md#edit-match-keys) pour l’ajouter.
 

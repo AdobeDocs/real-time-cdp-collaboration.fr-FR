@@ -11,10 +11,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
+source-git-commit: c524b54ce4ff9f5a37c2c064ad5304e011c61652
 workflow-type: tm+mt
-source-wordcount: 3758
-ht-degree: 17%
+source-wordcount: 3958
+ht-degree: 16%
 
 ---
 
@@ -172,7 +172,23 @@ Pour commencer à mapper des champs, sélectionnez le champ source vide en regar
 
 ![La boîte de dialogue Sélectionner le champ source avec les options d’e-mail affichées.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-Pour gérer l’origine d’un champ non haché vers un champ cible haché, utilisez l’option **[!UICONTROL Appliquer la transformation]**. Par exemple, pour ajouter un deuxième champ d’e-mail, sélectionnez l’option **[!UICONTROL Ajouter un champ]** afin d’ajouter une nouvelle ligne, puis sélectionnez **[!UICONTROL E-mail haché]** pour le champ cible. Sélectionnez un champ source d’e-mail non haché, puis sélectionnez **[!UICONTROL Appliquer la transformation]**.
+Certains attributs de profil sont modélisés dans une liste, qui est un tableau d’objets (indiqués comme `Object[]` dans la boîte de dialogue). Les identifiants ou attributs clés résident souvent à l’intérieur de ces enregistrements répétés, tels qu’un numéro de compte ou un identifiant de véhicule.
+
+Sous l’option **[!UICONTROL Attributs de profil]**, développez le champ de liste dans la boîte de dialogue **[!UICONTROL Sélectionner le champ source]**, puis sélectionnez le champ imbriqué que vous souhaitez mapper à une clé de correspondance. Par exemple, développez `devices` et sélectionnez `Device ID`. Le champ imbriqué renseigne ensuite le champ source de cette ligne de mappage et vous la mappez à un champ cible de la même manière que n’importe quel autre champ source.
+
+Si un profil comporte plusieurs valeurs dans le champ imbriqué, Collaboration fait correspondre et compte chaque valeur individuellement. Vous n’avez pas besoin d’aplatir ou de restructurer vos données au préalable.
+
+![La boîte de dialogue Sélectionner le champ source avec la liste des appareils développée et le champ Identifiant de l’appareil sélectionné pour le mappage.](/help/assets/setup/add-manage-audiences/select-source-field-nested.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>La sélection d&#39;un champ imbriqué dans une liste présente les limitations suivantes :
+>
+>* Vous pouvez sélectionner des champs imbriqués pour les clés de correspondance uniquement. La sélection d’un champ imbriqué comme attribut n’est pas prise en charge.
+>* Vous pouvez sélectionner un champ imbriqué par liste à la fois.
+>* Des listes de valeurs simples, plutôt que des listes d’objets, s’affichent dans la boîte de dialogue, mais vous ne pouvez pas les sélectionner.
+
+Pour gérer l’origine d’un champ non haché vers un champ cible haché, utilisez l’option **[!UICONTROL Appliquer la transformation]**. Par exemple, pour ajouter un deuxième champ d’e-mail, sélectionnez l’option **[!UICONTROL Ajouter un champ]** pour ajouter une nouvelle ligne, puis sélectionnez **[!UICONTROL E-mail haché]** pour le champ cible. Sélectionnez un champ source d’e-mail non haché, puis sélectionnez **[!UICONTROL Appliquer la transformation]**.
 
 ![L’espace de travail Ajouter des audiences avec les champs sources d’e-mail mappés au champ cible, avec l’option Appliquer la transformation activée pour l’un.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 

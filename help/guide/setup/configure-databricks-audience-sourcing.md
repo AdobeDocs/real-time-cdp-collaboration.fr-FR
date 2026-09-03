@@ -6,7 +6,7 @@ badgelimitedavailability: label="Disponibilité limitée" type="Informative" url
 source-git-commit: 876b7d2996d3027f81159252f714c2305d6d23b4
 workflow-type: tm+mt
 source-wordcount: '2816'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -93,7 +93,7 @@ L’écran de sélection de la source de données répertorie tous les types de 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_databricks"
 >title="Experience League"
->abstract="Pour obtenir des instructions sur la configuration de votre partage pour le sourcing d’audience, consultez le guide de sourcing [!DNL Databricks Delta Share] ."
+>abstract="Pour obtenir des instructions sur la configuration de votre partage pour le sourcing d’audience, consultez le guide de sourcing [!DNL Databricks Delta Share]."
 
 Fournissez les détails requis pour permettre à Collaboration d’accéder à votre [!DNL Delta Share]. Saisissez les détails du fournisseur, du partage, du schéma et de la table à partir de votre [!DNL Databricks Delta Share]. La table d’appartenance requise doit être disponible dans le schéma partagé. Si vous utilisez une table de métadonnées, elle doit également être disponible dans le même schéma partagé.
 Après avoir saisi les informations requises, sélectionnez **[!UICONTROL Connexion]**.

@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 21f15134c9319aacf332a9f430b51d84f69498b0
+source-git-commit: 0e46c6f1bc2a0ce5752c7c08700429c97a8b0d45
 workflow-type: tm+mt
-source-wordcount: 2131
+source-wordcount: 2255
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 Ces notes de mise à jour présentent les fonctionnalités disponibles dans Adobe Real-Time CDP Collaboration. Les versions de Collaboration fonctionnent sur un modèle de diffusion continu, ce qui permet une cadence de publication mensuelle approximative. Ces notes de mise à jour sont souvent mises à jour. Veillez donc à les consulter régulièrement.
 
-## Août 2026 {#august-2026}
+## Août 2026 {#august-2026}
 
 Real-Time CDP Collaboration prend désormais en charge les rapports de mesure [!DNL Amazon Marketing Cloud] (AMC), ce qui vous permet de mesurer les performances des campagnes Amazon Ads depuis un projet [!DNL AMC].
 
@@ -38,11 +38,13 @@ Real-Time CDP Collaboration prend désormais en charge les rapports de mesure [!
 
 | Fonctionnalité | Description |
 | ------- | ----------- |
-| [!DNL AMC] des rapports de mesure | Mesurez les performances de vos campagnes Amazon Ads à l’aide des données [!DNL AMC] directement dans Collaboration. Dans l’onglet [!UICONTROL Mesure] d’un projet [!DNL AMC], vous pouvez créer des rapports **Résumé de la campagne** et **Attribution** pour évaluer les performances de la campagne et comprendre l’attribution des conversions. Pour plus d’informations, voir [&#x200B; Création de rapports de mesure Amazon Marketing Cloud &#x200B;](../collaborate/advertising-platforms/amc-measure.md). |
+| [!DNL AMC] des rapports de mesure | Mesurez les performances de vos campagnes Amazon Ads à l’aide des données [!DNL AMC] directement dans Collaboration. Dans l’onglet **[!UICONTROL Mesure]** d’un projet [!DNL AMC], vous pouvez créer des rapports **Résumé de la campagne** et **Attribution** pour évaluer les performances de la campagne et comprendre l’attribution des conversions. Pour plus d’informations, voir [&#x200B; Création de rapports de mesure Amazon Marketing Cloud &#x200B;](../collaborate/advertising-platforms/amc-measure.md). |
+| Correspondance du mappage des clés pour les attributs de profil imbriqués | Vous pouvez désormais mapper des clés de correspondance à des champs imbriqués dans des champs de profil basés sur une liste, tels qu’un identifiant d’appareil dans un tableau de `devices`, sans aplatir ou restructurer vos données au préalable. Collaboration fait correspondre et compte chaque valeur du champ imbriqué individuellement. Les champs imbriqués sont actuellement pris en charge pour les clés de correspondance uniquement, et non en tant qu’attributs de profil. Pour plus d’informations, voir [Mapper des champs](../setup/onboard-audiences.md#map-fields). |
+| Rapports de conversion au niveau des emplacements | Les rapports d’attribution incluent désormais un tableau **conversions par emplacement**, indiquant le nombre de conversions et la valeur de conversion pour chaque identifiant d’emplacement dans un identifiant de campagne. Vous obtenez ainsi des résultats distincts pour les campagnes comportant plusieurs emplacements. Pour plus de clarté&#x200B;**l’ancien libellé de mesure** Revenu estimé a été remplacé par **[!UICONTROL Valeur de conversion]**. Pour plus d’informations, voir [conversions par emplacement](../collaborate/measure.md#conversions-by-placement). |
 
 {style="table-layout:auto"}
 
-## Juillet 2026 {#july-2026}
+## Juillet 2026 {#july-2026}
 
 Real-Time CDP Collaboration prend désormais en charge des options d’approvisionnement d’audience en libre-service supplémentaires, ainsi que des workflows d’activation et de configuration de destination plus simples.
 

@@ -67,7 +67,7 @@ Tous les rapports [!DNL AMC] incluent un **[!UICONTROL résumé de la campagne]*
 | Type de rapport | Description |
 | --- | --- |
 | **[!UICONTROL Résumé de la campagne]** | Fournit des mesures de portée, de fréquence et d’impression pour la campagne sélectionnée. Toujours inclus. |
-| **[!UICONTROL Attribution]** | Ajoute les données de conversion au rapport. Disponible uniquement s’il existe des événements de conversion dans votre instance [!DNL AMC]. Voir [ Événements de conversion ](#conversion-events). |
+| **[!UICONTROL Attribution]** | Ajoute les données de conversion au rapport. Disponible uniquement s’il existe des événements de conversion dans votre instance [!DNL AMC]. Voir [&#x200B; Événements de conversion &#x200B;](#conversion-events). |
 
 #### Événements de conversion (attribution uniquement) {#conversion-events}
 

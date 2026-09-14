@@ -55,7 +55,7 @@ Dans l’onglet **[!UICONTROL Mes audiences]** de l’espace de travail **[!UICO
 
 Une connexion aux données est la source à partir de laquelle vous ingérez des audiences dans Collaboration. Pour en savoir plus sur toutes les sources disponibles, voir [Présentation des sources](./source-overview.md).
 
-Les sections ci-dessous décrivent la sélection de **** et l’exécution des étapes spécifiques à Experience Platform (sandbox, gouvernance et consentement). Si vous choisissez CSV, [!DNL Amazon S3], [!DNL Snowflake], [!DNL Google Cloud Storage], Adobe Audience Manager ou [!DNL Databricks Delta Share], utilisez le guide associé sous [Sélectionner la source de données](#select-data-source) pour cette option.
+Les sections ci-dessous décrivent la sélection de **&#x200B;**&#x200B;et l’exécution des étapes spécifiques à Experience Platform (sandbox, gouvernance et consentement). Si vous choisissez CSV, [!DNL Amazon S3], [!DNL Snowflake], [!DNL Google Cloud Storage], Adobe Audience Manager ou [!DNL Databricks Delta Share], utilisez le guide associé sous [Sélectionner la source de données](#select-data-source) pour cette option.
 
 Tous les paramètres que vous configurez pour une connexion de données Experience Platform sont appliqués à toutes les audiences provenant de cette connexion.
 
@@ -72,12 +72,12 @@ Pour commencer à ajouter votre connexion de données, sélectionnez **[!UICONTR
 Vous allez ensuite choisir la source de votre connexion aux données. Les sources disponibles sont les suivantes :
 
 * **Adobe Experience Platform** : sélectionnez cette option pour importer vos audiences depuis Adobe Experience Platform.
-* **Fichier CSV** : chargez un fichier CSV contenant les données de votre audience pour une ingestion de données simple et rapide. Pour commencer](./upload-csv-audience-sourcing.md) reportez-vous au guide [Chargement de fichier CSV pour l’approvisionnement de l’audience.
-* **** : connectez-vous à votre stockage Amazon S3 pour obtenir des données d’audience source directement à partir de vos compartiments S3. Consultez le guide [Configurer AWS S3 pour l’approvisionnement de l’audience](./configure-aws-s3-audience-sourcing.md) pour obtenir des instructions détaillées.
-* **** : utilisez votre entrepôt de données Snowflake pour extraire facilement les données d’audience. Reportez-vous au guide [Configurer [!DNL Snowflake] pour l’approvisionnement des audiences](./configure-snowflake-audience-sourcing.md) .
+* **Fichier CSV** : chargez un fichier CSV contenant les données de votre audience pour une ingestion de données simple et rapide. Pour commencer[&#128279;](./upload-csv-audience-sourcing.md) reportez-vous au guide Chargement de fichier CSV pour l’approvisionnement de l’audience.
+* **&#x200B;**&#x200B;: connectez-vous à votre stockage Amazon S3 pour obtenir des données d’audience source directement à partir de vos compartiments S3. Consultez le guide [Configurer AWS S3 pour l’approvisionnement de l’audience](./configure-aws-s3-audience-sourcing.md) pour obtenir des instructions détaillées.
+* **&#x200B;**&#x200B;: utilisez votre entrepôt de données Snowflake pour extraire facilement les données d’audience. Reportez-vous au guide [Configurer [!DNL Snowflake] pour l’approvisionnement des audiences](./configure-snowflake-audience-sourcing.md) .
 * **Google Cloud Storage** : connectez-vous à vos compartiments GCS pour obtenir les données d’audience source. Consultez le guide [Configurer GCS pour l’approvisionnement de l’audience](./configure-gcs-audience-sourcing.md) pour obtenir des instructions détaillées.
 * **[!DNL Databricks Delta Share]** : connectez-vous à votre [!DNL Databricks Delta Share] pour générer des données d’audience propriétaires à partir de votre environnement [!DNL Databricks]. Voir le guide [Configurer [!DNL Databricks Delta Share] pour l’approvisionnement des audiences](./configure-databricks-audience-sourcing.md) .
-* **** : Source vos segments d’audience depuis Adobe Audience Manager. Consultez le guide [Configurer Adobe Audience Manager pour l’approvisionnement des audiences](./configure-aam-audience-sourcing.md) pour commencer.
+* **&#x200B;**&#x200B;: Source vos segments d’audience depuis Adobe Audience Manager. Consultez le guide [Configurer Adobe Audience Manager pour l’approvisionnement des audiences](./configure-aam-audience-sourcing.md) pour commencer.
 
 Sélectionnez votre source de données, puis sélectionnez **[!UICONTROL Suivant]**.
 
@@ -107,7 +107,7 @@ Consultez la documentation d’Experience Platform pour en savoir plus sur les l
 
 En outre, vous souhaiterez sélectionner vos règles de consentement à appliquer aux données provenant de Collaboration.
 
-![Espace de travail Ajouter des audiences à la section Politique de gouvernance et application des actions ](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}.
+![Espace de travail Ajouter des audiences à la section Politique de gouvernance et application des actions &#x200B;](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}.
 
 Une fois que vous avez sélectionné les actions marketing et les règles de consentement, sélectionnez **[!UICONTROL Suivant]** pour passer à l’étape suivante. Une boîte de dialogue de confirmation s’affiche, vous demandant d’accepter les conditions. Cochez la case, puis sélectionnez **[!UICONTROL OK]** pour confirmer.
 

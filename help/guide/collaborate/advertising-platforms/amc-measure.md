@@ -4,14 +4,12 @@ description: Découvrez comment créer et interpréter des rapports de mesure po
 audience: advertiser
 keywords: AMC, Amazon Marketing Cloud, rapports de mesure, résumé de la campagne, attribution, Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 944914557c10b43abbe4915e061c219aca9f783f
 workflow-type: tm+mt
 source-wordcount: '1574'
-ht-degree: 5%
-
+ht-degree: 12%
 ---
-
 
 # Création de rapports de mesure [!DNL Amazon Marketing Cloud] {#amc-measurement-reports}
 
@@ -43,12 +41,12 @@ Si la campagne dont vous avez besoin n’est pas répertoriée, vérifiez qu’e
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_date_range"
 >title="Période"
->abstract="Définissez les dates de début et de fin des données de la campagne à inclure dans le rapport. La période est limitée à un intervalle de recherche en amont de 365 jours, avec une durée maximale de 90 jours. Vous pouvez uniquement créer des rapports sur les campagnes précédentes."
+>abstract="Définissez les dates de début et de fin des données de campagne à inclure dans le rapport. La période est limitée à un intervalle de recherche en amont de 365 jours, avec une durée maximale de 90 jours. Vous pouvez uniquement créer des rapports sur les campagnes précédentes."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_run_date"
 >title="Date d’exécution"
->abstract="Date d&#39;exécution du rapport. Doit être au moins un jour après la date de fin du rapport et peut être jusqu&#39;à 46 jours à l&#39;avenir."
+>abstract="Date d’exécution du rapport. Doit être au moins un jour après la date de fin du rapport et peut être fixée jusqu’à 46 jours à l’avance."
 
 >[!NOTE]
 >
@@ -69,7 +67,7 @@ Tous les rapports [!DNL AMC] incluent un **[!UICONTROL résumé de la campagne]*
 | Type de rapport | Description |
 | --- | --- |
 | **[!UICONTROL Résumé de la campagne]** | Fournit des mesures de portée, de fréquence et d’impression pour la campagne sélectionnée. Toujours inclus. |
-| **[!UICONTROL Attribution]** | Ajoute les données de conversion au rapport. Disponible uniquement s’il existe des événements de conversion dans votre instance [!DNL AMC]. Voir [&#x200B; Événements de conversion &#x200B;](#conversion-events). |
+| **[!UICONTROL Attribution]** | Ajoute les données de conversion au rapport. Disponible uniquement s’il existe des événements de conversion dans votre instance [!DNL AMC]. Voir [ Événements de conversion ](#conversion-events). |
 
 #### Événements de conversion (attribution uniquement) {#conversion-events}
 

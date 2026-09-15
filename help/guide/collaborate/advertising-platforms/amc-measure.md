@@ -8,10 +8,8 @@ badgelimitedavailability: label="Disponibilité limitée" type="Informative" url
 source-git-commit: 944914557c10b43abbe4915e061c219aca9f783f
 workflow-type: tm+mt
 source-wordcount: '1574'
-ht-degree: 5%
-
+ht-degree: 12%
 ---
-
 
 # Création de rapports de mesure [!DNL Amazon Marketing Cloud] {#amc-measurement-reports}
 
@@ -43,12 +41,12 @@ Si la campagne dont vous avez besoin n’est pas répertoriée, vérifiez qu’e
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_date_range"
 >title="Période"
->abstract="Définissez les dates de début et de fin des données de la campagne à inclure dans le rapport. La période est limitée à un intervalle de recherche en amont de 365 jours, avec une durée maximale de 90 jours. Vous pouvez uniquement créer des rapports sur les campagnes précédentes."
+>abstract="Définissez les dates de début et de fin des données de campagne à inclure dans le rapport. La période est limitée à un intervalle de recherche en amont de 365 jours, avec une durée maximale de 90 jours. Vous pouvez uniquement créer des rapports sur les campagnes précédentes."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_run_date"
 >title="Date d’exécution"
->abstract="Date d&#39;exécution du rapport. Doit être au moins un jour après la date de fin du rapport et peut être jusqu&#39;à 46 jours à l&#39;avenir."
+>abstract="Date d’exécution du rapport. Doit être au moins un jour après la date de fin du rapport et peut être fixée jusqu’à 46 jours à l’avance."
 
 >[!NOTE]
 >

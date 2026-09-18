@@ -2,14 +2,13 @@
 title: Gestion des connexions aux données de mesure
 description: Découvrez comment gérer les connexions de données de mesure, y compris les détails et les clés de correspondance dans Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 494277f421606eda62b74c254f1fdd29b22e3473
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: dfe72315-6fcc-4ad7-b100-fc992ba9abbc
+source-git-commit: 874005b191d002e14aa134264f6678ec38a0d6a7
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 3%
-
 ---
-
 # Gestion des connexions aux données de mesure
 
 {{limited-availability-release-note}}
@@ -45,7 +44,7 @@ Dans cette section, vous pouvez voir les détails suivants de la connexion de do
 
 ### Clés correspondantes {#match-keys}
 
-Les clés de correspondance sont les champs cibles auxquels vous avez mappé vos champs sources lorsque vous [&#x200B; les données de mesure](./onboard-measurement-data.md). Pour en savoir plus sur le fonctionnement des clés de correspondance, consultez le guide [match keys](./onboard-account.md#set-up-match-keys).
+Les clés de correspondance sont les champs cibles auxquels vous avez mappé vos champs sources lorsque vous [ les données de mesure](./onboard-measurement-data.md). Pour en savoir plus sur le fonctionnement des clés de correspondance, consultez le guide [match keys](./onboard-account.md#set-up-match-keys).
 
 ![Espace de travail de connexion aux données de mesure avec la section Touches de correspondance mise en surbrillance.](/help/assets/setup/manage-measurement-data-connection/view-match-keys.png){zoomable="yes"}
 
@@ -102,9 +101,9 @@ Sélectionnez l’option Clé de jointure de champ **[!UICONTROL Source]** .
 
 ![La boîte de dialogue Correspondance des clés avec l’option Clé de jointure de champ Source mise en surbrillance.](../../assets/setup/manage-measurement-data-connection/enrich-event-data.png){zoomable="yes"}
 
-Dans la boîte de dialogue Clé de jointure de champ **&#x200B;**&#x200B;choisissez le champ source, puis **[!UICONTROL Sélectionner]**.
+Dans la boîte de dialogue Clé de jointure de champ **** choisissez le champ source, puis **[!UICONTROL Sélectionner]**.
 
-![&#x200B; Boîte de dialogue Clé de jointure de champ Source mettant en surbrillance le champ source sélectionné et l’option Suivant &#x200B;](../../assets/setup/manage-measurement-data-connection/source-field-join-key-dialog.png){zoomable="yes"}.
+![ Boîte de dialogue Clé de jointure de champ Source mettant en surbrillance le champ source sélectionné et l’option Suivant ](../../assets/setup/manage-measurement-data-connection/source-field-join-key-dialog.png){zoomable="yes"}.
 
 Sélectionnez ensuite l’option **[!UICONTROL Clé de jointure du profil]**. Dans la boîte de dialogue **[!UICONTROL Clé de jointure du profil]**, sélectionnez le champ de profil dans la liste. Vous pouvez utiliser l’option Rechercher pour trouver le champ souhaité. Sélectionnez ensuite **[!UICONTROL Sélectionner]** pour confirmer.
 
@@ -120,7 +119,7 @@ Sélectionnez ensuite le champ source vide. La boîte de dialogue **[!UICONTROL 
 
 Choisissez le champ source de votre choix, puis **[!UICONTROL Sélectionner]**.
 
-![&#x200B; La boîte de dialogue Sélectionner le champ source mettant en surbrillance l’option Rechercher , le champ Source téléphonique et l’option Sélectionner &#x200B;](/help/assets/setup/manage-measurement-data-connection/select-source-field.png){zoomable="yes"}.
+![ La boîte de dialogue Sélectionner le champ source mettant en surbrillance l’option Rechercher , le champ Source téléphonique et l’option Sélectionner ](/help/assets/setup/manage-measurement-data-connection/select-source-field.png){zoomable="yes"}.
 
 Dans la boîte de dialogue **[!UICONTROL Touches de correspondance]**, utilisez le menu déroulant pour mapper le nouveau champ source à un champ cible. Tous les champs cibles disponibles correspondent aux clés configurées pour votre compte collaborateur. Si vous ne voyez pas le champ cible dont vous avez besoin, [modifiez les clés de correspondance de votre compte](./onboard-account.md#edit-match-keys) pour l’ajouter.
 

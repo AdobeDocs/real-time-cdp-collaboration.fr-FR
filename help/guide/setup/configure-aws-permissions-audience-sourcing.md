@@ -39,7 +39,7 @@ Au fur et à mesure que vous passez en revue les étapes ci-dessous, notez les i
 
 Pour commencer la configuration, créez d’abord une politique IAM qui accorde **accès en lecture seule** à votre compartiment S3. Cette politique permet à Adobe de lire les fichiers nécessaires au sourcing d’audience, mais n’accorde pas d’autorisations d’écriture ou de suppression.
 
-Ouvrez la [console de gestion ](https://aws.amazon.com/console/) puis accédez à **[!DNL IAM]** > **[!DNL Policies]** > **[!DNL Create policy]**.
+Ouvrez la [console de gestion &#x200B;](https://aws.amazon.com/console/) puis accédez à **[!DNL IAM]** > **[!DNL Policies]** > **[!DNL Create policy]**.
 
 Dans l’espace de travail Créer une politique d’AWS, sélectionnez l’onglet **JSON** et collez l’exemple de politique ci-après.
 

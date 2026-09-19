@@ -3,13 +3,12 @@ title: Gestion des connexions aux données de mesure
 description: Découvrez comment gérer les connexions de données de mesure, y compris les détails et les clés de correspondance dans Real-Time CDP Collaboration
 audience: administrator, data engineer
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 494277f421606eda62b74c254f1fdd29b22e3473
+exl-id: dfe72315-6fcc-4ad7-b100-fc992ba9abbc
+source-git-commit: 874005b191d002e14aa134264f6678ec38a0d6a7
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 3%
-
 ---
-
 # Gestion des connexions aux données de mesure
 
 {{limited-availability-release-note}}

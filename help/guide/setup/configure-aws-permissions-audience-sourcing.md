@@ -1,13 +1,12 @@
 ---
 title: Configuration des autorisations AWS pour l’approvisionnement auprès d’une audience
-description: Découvrez comment configurer les autorisations de gestion des identités et des accès (IAM) d’AWS pour accorder à Adobe un accès sécurisé en lecture seule à votre compartiment pour l [!DNL Amazon S3] approvisionnement des audiences dans Real-Time CDP Collaboration.
-source-git-commit: 73f11b7341cf94540dc01f8803291f6dc3cd5038
+description: Découvrez comment configurer les autorisations de gestion des identités et des accès (IAM) d’AWS pour accorder à Adobe un accès sécurisé en lecture seule à votre compartiment [!DNL Amazon S3] pour l’approvisionnement des audiences dans Real-Time CDP Collaboration.
+exl-id: a48b800f-4bb3-4be6-af8e-b42a65a25c5b
+source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '659'
 ht-degree: 1%
-
 ---
-
 # Configuration des autorisations AWS pour le sourcing d’audience
 
 Utilisez ce guide pour configurer les politiques et rôles de gestion des identités et des accès (IAM) d’AWS qui accordent à Adobe un accès sécurisé en lecture seule à votre compartiment Amazon S3. Cet accès permet à Real-Time CDP Collaboration de s’approvisionner en audiences à partir de votre compartiment S3.
@@ -40,7 +39,7 @@ Au fur et à mesure que vous passez en revue les étapes ci-dessous, notez les i
 
 Pour commencer la configuration, créez d’abord une politique IAM qui accorde **accès en lecture seule** à votre compartiment S3. Cette politique permet à Adobe de lire les fichiers nécessaires au sourcing d’audience, mais n’accorde pas d’autorisations d’écriture ou de suppression.
 
-Ouvrez la [console de gestion AWS](https://aws.amazon.com/console/) puis accédez à **[!DNL IAM]** > **[!DNL Policies]** > **[!DNL Create policy]**.
+Ouvrez la [console de gestion &#x200B;](https://aws.amazon.com/console/) puis accédez à **[!DNL IAM]** > **[!DNL Policies]** > **[!DNL Create policy]**.
 
 Dans l’espace de travail Créer une politique d’AWS, sélectionnez l’onglet **JSON** et collez l’exemple de politique ci-après.
 

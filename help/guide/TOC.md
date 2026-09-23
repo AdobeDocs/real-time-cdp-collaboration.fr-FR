@@ -2,9 +2,9 @@
 user-guide-title: Collaboration Real-Time CDP
 breadcrumb-title: Collaboration Real-Time CDP
 user-guide-description: Adobe Real-Time CDP Collaboration met à disposition un partage de données et une collaboration transparents et sécurisés entre les annonceurs et les éditeurs, ce qui permet l’obtention d’informations en temps réel sur les audiences et la mise en place de stratégies marketing personnalisées.
-source-git-commit: a0b7e303857d5706974c1ec428c04c8bd86b4faa
+source-git-commit: d2585628407acf10ad8388231259c77991a9a0b0
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '245'
 ht-degree: 35%
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 35%
   * [Gestion des projets](./collaborate/manage-projects.md)
   * Connexions de collaborateurs {#collaborator-connections}
     * [Découvrir](./collaborate/discover.md)
-    * {hide-from-toc}[Développer](./collaborate/expand.md)
+    * {hide-from-toc}[ (Beta) Développer](./collaborate/expand.md)
     * [Activer](./collaborate/activate.md)
     * [Mesure](./collaborate/measure.md)
   * Connexions à la plateforme Advertising {#ad-platform-connections}

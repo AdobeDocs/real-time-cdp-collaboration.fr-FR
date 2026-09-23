@@ -56,7 +56,7 @@ ht-degree: 35%
   * [Gestion des projets](./collaborate/manage-projects.md)
   * Connexions de collaborateurs {#collaborator-connections}
     * [Découvrir](./collaborate/discover.md)
-    * {hide-from-toc}[ (Beta) Développer](./collaborate/expand.md)
+    * {hide-from-toc}[&#x200B; (Beta) Développer](./collaborate/expand.md)
     * [Activer](./collaborate/activate.md)
     * [Mesure](./collaborate/measure.md)
   * Connexions à la plateforme Advertising {#ad-platform-connections}

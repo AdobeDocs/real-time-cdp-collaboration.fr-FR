@@ -14,7 +14,7 @@ Utilisez l’onglet **[!UICONTROL Développer]** dans un projet pour créer une 
 
 Avant de pouvoir utiliser l’onglet **[!UICONTROL Développer]**, vous devez disposer des éléments suivants :
 
-* [Source ](/help/guide/setup/onboard-audiences.md) au moins une audience à utiliser comme audience source
+* [Source &#x200B;](/help/guide/setup/onboard-audiences.md) au moins une audience à utiliser comme audience source
 * [Connecté](/help/guide/connect/establishing-connections.md) avec un collaborateur
 * [A créé un projet](/help/guide/collaborate/manage-projects.md) avec ce collaborateur
 * Si vous recevez une audience d’extension, une [destination](/help/guide/destinations/overview.md) configurée pour recevoir des audiences activées
@@ -62,7 +62,7 @@ Pour créer une audience d’extension, sélectionnez l’icône d’ajout (![Aj
 
 La boîte de dialogue **[!UICONTROL Générer une audience d’extension]** s’affiche. Renseignez chaque champ pour générer l’audience d’extension.
 
-![La boîte de dialogue Générer l’extension d’audience avec les champs Audience de départ, Portée de l’audience, Clé de correspondance et Membres de l’audience de départ ](/help/assets/collaborate/expand/generate-expansion-audience-dialog.png){zoomable="yes"}.
+![La boîte de dialogue Générer l’extension d’audience avec les champs Audience de départ, Portée de l’audience, Clé de correspondance et Membres de l’audience de départ &#x200B;](/help/assets/collaborate/expand/generate-expansion-audience-dialog.png){zoomable="yes"}.
 
 ### Sélectionner l’audience source {#select-seed-audience}
 

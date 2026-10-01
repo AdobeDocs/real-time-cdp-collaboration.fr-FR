@@ -32,7 +32,7 @@ Utilisez l’onglet [Découvrir](./discover.md) pour identifier les audiences qu
 
 Si le destinataire configure une destination d’activation automatique dans les paramètres de connexion, l’expéditeur sélectionne un planning d’activation lors de l’envoi de l’audience. La destination est en lecture seule pour l’expéditeur. Lorsque l’audience est reçue, elle est automatiquement activée vers la destination configurée du destinataire selon le planning d’activation de l’expéditeur. Pour obtenir des instructions de configuration de la connexion, voir [Configurer une destination d’activation automatique](../connect/manage-connections.md#configure-auto-activation-destination).
 
-Si le destinataire n’a pas configuré de destination d’activation automatique, l’envoi et l’activation restent des actions distinctes. L’envoi donne au destinataire l’accès à une audience, et celui-ci sélectionne une destination et un planning lors de son activation manuelle. Seules les destinations préconfigurées peuvent être sélectionnées pour l’activation dans un projet. Pour obtenir des instructions sur la configuration des destinations, voir [ Gérer les destinations ](../destinations/manage-destinations.md).
+Si le destinataire n’a pas configuré de destination d’activation automatique, l’envoi et l’activation restent des actions distinctes. L’envoi donne au destinataire l’accès à une audience, et celui-ci sélectionne une destination et un planning lors de son activation manuelle. Seules les destinations préconfigurées peuvent être sélectionnées pour l’activation dans un projet. Pour obtenir des instructions sur la configuration des destinations, voir [&#x200B; Gérer les destinations &#x200B;](../destinations/manage-destinations.md).
 
 Les sections et actions disponibles varient selon que votre organisation envoie ou reçoit des audiences dans le projet. L&#39;onglet **[!UICONTROL Activer]** contient les sections suivantes :
 
@@ -62,7 +62,7 @@ Accédez à **[!UICONTROL Collaborer]**, ouvrez un projet, puis sélectionnez l�
 
 Dans la section **[!UICONTROL Audiences envoyées à [collaborateur]]**, sélectionnez l’icône d’ajout (![Ajouter une icône.](/help/assets/icons/plus.png)). Si aucune audience n’a été envoyée, sélectionnez **[!UICONTROL Envoyer l’audience]** dans l’affichage vide à la place.
 
-![Onglet Activer au niveau du projet lorsqu’aucune audience n’a été envoyée. Le message d’affichage vide explique que vous n’avez pas envoyé d’audience et affiche un bouton Envoyer une audience ](/help/assets/collaborate/activate/activate-new-audiences.png){zoomable="yes"}.
+![Onglet Activer au niveau du projet lorsqu’aucune audience n’a été envoyée. Le message d’affichage vide explique que vous n’avez pas envoyé d’audience et affiche un bouton Envoyer une audience &#x200B;](/help/assets/collaborate/activate/activate-new-audiences.png){zoomable="yes"}.
 
 Le workflow **[!UICONTROL Envoyer des audiences]** s’ouvre. Utilisez le sélecteur d’audiences pour trouver une audience ou sélectionnez **[!UICONTROL Parcourir les audiences]** pour comparer les audiences disponibles.
 
@@ -164,7 +164,7 @@ L’audience est supprimée de la section et votre collaborateur n’y a plus ac
 
 ## Afficher les audiences reçues {#received-audiences}
 
-Utilisez la section **[!UICONTROL Audiences reçues]** pour passer en revue les audiences que votre collaborateur vous a envoyées. Si une destination d’activation automatique a été configurée avant l’envoi de l’audience, Collaboration crée automatiquement une activation à la réception de l’audience. Pour les activations automatiques récurrentes, vous pouvez également créer une activation manuelle supplémentaire vers une autre destination. Voir [ Activer manuellement une audience reçue ](#activate-received-audience) pour plus d’informations. Si aucune destination d’activation automatique n’a été configurée, activez l’audience manuellement.
+Utilisez la section **[!UICONTROL Audiences reçues]** pour passer en revue les audiences que votre collaborateur vous a envoyées. Si une destination d’activation automatique a été configurée avant l’envoi de l’audience, Collaboration crée automatiquement une activation à la réception de l’audience. Pour les activations automatiques récurrentes, vous pouvez également créer une activation manuelle supplémentaire vers une autre destination. Voir [&#x200B; Activer manuellement une audience reçue &#x200B;](#activate-received-audience) pour plus d’informations. Si aucune destination d’activation automatique n’a été configurée, activez l’audience manuellement.
 
 Chaque audience reçue affiche les informations suivantes :
 
@@ -231,7 +231,7 @@ Sélectionnez l’icône de suppression (![icône de suppression.](/help/assets/
 
 Une boîte de dialogue de confirmation s’affiche. Sélectionnez **[!UICONTROL Supprimer]** pour confirmer.
 
-![ Boîte de dialogue de confirmation de suppression de l’audience activée expliquant que l’audience sera supprimée de la liste des audiences activées et peut être activée à nouveau plus tard, avec les boutons Annuler et Supprimer ](/help/assets/collaborate/activate/delete-activated-audience-confirmation.png).
+![&#x200B; Boîte de dialogue de confirmation de suppression de l’audience activée expliquant que l’audience sera supprimée de la liste des audiences activées et peut être activée à nouveau plus tard, avec les boutons Annuler et Supprimer &#x200B;](/help/assets/collaborate/activate/delete-activated-audience-confirmation.png).
 
 L’activation est supprimée de la liste. Vous pouvez activer à nouveau l’audience reçue tant que son accès reste actif.
 

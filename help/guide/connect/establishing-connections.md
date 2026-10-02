@@ -7,19 +7,22 @@ exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 feature_v2:
   - id: ba929a52-9339-4154-9487-317dc875a3c7
+    internal-label: Use cases
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5e722bc0077495561181519121bab9bb267dc7e1
+    internal-label: Insights
+source-git-commit: a2fb1c4e32556881f4300989c9890ae7dbefad8b
 workflow-type: tm+mt
-source-wordcount: 3459
+source-wordcount: '3459'
 ht-degree: 9%
-
 ---
-
 # Etablissement de connexions avec des collaborateurs {#establishing-connections}
 
 {{limited-availability-release-note}}
@@ -320,7 +323,7 @@ Sélectionnez ensuite **[!UICONTROL Accepter]** pour poursuivre la connexion. Le
 
 ## Inviter un collaborateur non sous licence (Starter) {#invite-non-licensed-collaborator}
 
-Suivez les étapes ci-dessous pour inviter votre partenaire non sous licence à rejoindre Real-Time CDP Collaboration [!DNL Starter]. Les invitations sont envoyées directement à l’adresse e-mail du collaborateur et doivent être acceptées avant qu’une connexion puisse être établie. Si vous souhaitez obtenir plus d’informations sur les [!DNL Starter] de Collaboration et une présentation détaillée du processus, reportez-vous à la [[!DNL Starter] documentation de présentation](../overview/starter-overview.md).
+Suivez les étapes ci-dessous pour inviter votre partenaire non sous licence à rejoindre Real-Time CDP Collaboration [!DNL Starter]. Les invitations sont envoyées directement à l&#39;adresse e-mail du collaborateur et doivent être acceptées avant qu&#39;une connexion puisse être établie. Si vous souhaitez obtenir plus d’informations sur les [!DNL Starter] de Collaboration et une présentation détaillée du processus, reportez-vous à la [[!DNL Starter] documentation de présentation](../overview/starter-overview.md).
 
 Avant de lancer le processus d’invitation, collectez les informations suivantes auprès de votre collaborateur :
 

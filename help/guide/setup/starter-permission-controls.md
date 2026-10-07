@@ -2,7 +2,7 @@
 title: Configuration des contrôles d’autorisation pour l’intégration à Collaboration [!DNL Starter]
 description: Découvrez comment configurer des autorisations pour Adobe Real-Time CDP Collaboration [!DNL Starter] à l’aide des autorisations dans Adobe Experience Cloud.
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 4e50b6cc-58f7-4a0c-8b6d-f5aa4f092e9f
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
@@ -59,7 +59,7 @@ La boîte de dialogue **[!UICONTROL Ajouter des rôles]** s’affiche avec un ta
 
 {style="table-layout:auto"}
 
-Pour obtenir un aperçu détaillé d’un rôle spécifique et de ses autorisations, consultez le guide [Gérer les autorisations pour un rôle](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions).
+Pour obtenir un aperçu détaillé d’un rôle spécifique et de ses autorisations, consultez le guide [Gérer les autorisations pour un rôle](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/permissions).
 
 Passez en revue les informations et sélectionnez les rôles à affecter à votre compte. Lorsque vous avez terminé, sélectionnez **[!UICONTROL Enregistrer]**.
 

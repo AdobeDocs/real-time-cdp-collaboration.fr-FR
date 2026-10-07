@@ -1,19 +1,20 @@
 ---
-title: Configuration des contrôles d’autorisation pour l’intégration  [!DNL Starter]  Collaboration
-description: Découvrez comment configurer des autorisations pour Adobe Real-Time CDP Collaboration à l [!DNL Starter] aide des autorisations dans Adobe Experience Cloud.
+title: Configuration des contrôles d’autorisation pour l’intégration à Collaboration [!DNL Starter]
+description: Découvrez comment configurer des autorisations pour Adobe Real-Time CDP Collaboration [!DNL Starter] à l’aide des autorisations dans Adobe Experience Cloud.
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 4e50b6cc-58f7-4a0c-8b6d-f5aa4f092e9f
-source-git-commit: 147fd5847bc5074e4b4f8a05a9a1c3afc089be56
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '578'
 ht-degree: 2%
-
 ---
-
 # Configuration des contrôles d’autorisation pour l’intégration à Collaboration [!DNL Starter]
 
-Après avoir configuré l’accès administrateur et utilisateur aux produits Adobe Experience Platform, vous devez vous attribuer des rôles avec les autorisations appropriées pour Real-Time CDP Collaboration. Lisez ce guide pour savoir comment ajouter les rôles appropriés à votre compte via l’interface Autorisations d’Experience Cloud, afin que vous puissiez accéder aux fonctionnalités de Collaboration et les gérer.
+Après avoir configuré l’accès administrateur et utilisateur aux produits Adobe Experience Platform, vous devez vous attribuer des rôles avec les autorisations appropriées pour Real-Time CDP Collaboration. Lisez ce guide pour savoir comment ajouter les rôles appropriés à votre compte via l’interface des autorisations Experience Cloud, afin que vous puissiez accéder aux fonctionnalités de Collaboration et les gérer.
 
 Pour plus d’informations sur les rôles standard et les autorisations disponibles inclus dans la ressource Collaboration, consultez le [guide de gestion des rôles](../permissions/manage-roles.md).
 
@@ -23,7 +24,7 @@ Assurez-vous de disposer à la fois des **privilèges d’administrateur** et d�
 
 ## Configuration des autorisations {#setup-permissions}
 
-Suivez les étapes ci-dessous pour configurer les autorisations dont vous avez besoin pour Collaboration. Tout d&#39;abord, connectez-vous à [&#128279;](https://experience.adobe.com/) avec vos informations d&#39;identification.
+Suivez les étapes ci-dessous pour configurer les autorisations dont vous avez besoin pour Collaboration. Tout d’abord, connectez-vous à [Adobe Experience Cloud](https://experience.adobe.com/) avec vos informations d’identification.
 
 ### Autorisations d’accès {#access-permissions}
 
@@ -58,7 +59,7 @@ La boîte de dialogue **[!UICONTROL Ajouter des rôles]** s’affiche avec un ta
 
 {style="table-layout:auto"}
 
-Pour obtenir un aperçu détaillé d’un rôle spécifique et de ses autorisations, consultez le guide [Gérer les autorisations pour un rôle](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/permissions).
+Pour obtenir un aperçu détaillé d’un rôle spécifique et de ses autorisations, consultez le guide [Gérer les autorisations pour un rôle](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions).
 
 Passez en revue les informations et sélectionnez les rôles à affecter à votre compte. Lorsque vous avez terminé, sélectionnez **[!UICONTROL Enregistrer]**.
 
@@ -66,7 +67,7 @@ Passez en revue les informations et sélectionnez les rôles à affecter à votr
 
 Une boîte de dialogue de confirmation confirme que les nouveaux rôles ont bien été ajoutés.
 
-Pour vous assurer que vos autorisations sont correctement configurées, revenez à la page d’accueil [&#128279;](https://experience.adobe.com/). Sélectionnez **&#x200B;**&#x200B;dans **[!UICONTROL Accès rapide]**. Vous devriez être en mesure d’accéder à l’espace de travail Collaboration et de commencer à utiliser les fonctionnalités disponibles pour votre compte [!DNL Starter].
+Pour vous assurer que vos autorisations sont correctement configurées, revenez à la page d’accueil [Experience Cloud](https://experience.adobe.com/). Sélectionnez **** dans **[!UICONTROL Accès rapide]**. Vous devriez être en mesure d’accéder à l’espace de travail Collaboration et de commencer à utiliser les fonctionnalités disponibles pour votre compte [!DNL Starter].
 
 ## Étapes suivantes {#next-steps}
 

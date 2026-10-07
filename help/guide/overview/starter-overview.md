@@ -2,15 +2,16 @@
 title: Présentation du démarrage de RTCDP Collaboration
 description: Découvrez comment Adobe Real-Time CDP Collaboration Starter vous permet d’étendre et d’améliorer la collaboration axée sur la confidentialité avec un partenaire sous licence sans avoir à obtenir votre propre licence Real-Time CDP complète.
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: d0d854f73fa835984e5cff5207ce3e01297c8deb
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 3%
-
 ---
-
 # Présentation d’Adobe Real-Time CDP Collaboration [!DNL Starter]
 
 Utilisez Adobe Real-Time CDP Collaboration [!DNL Starter] pour collaborer avec un partenaire sous licence sur des projets de données axés sur la confidentialité. Vous n’avez pas besoin de votre propre licence Collaboration pour participer.
@@ -71,7 +72,7 @@ Pour plus d’informations sur les rôles d’accès et les différents produits
 
 Maintenant que vous disposez des privilèges d’administrateur, vous pouvez vous attribuer des rôles et des autorisations ainsi qu’aux autres utilisateurs de votre organisation. Cette étape est nécessaire avant de pouvoir accéder à Real-Time CDP Collaboration ou de permettre à d’autres personnes de l’utiliser. Pour obtenir des instructions détaillées, voir [comment configurer des autorisations](../setup/starter-permission-controls.md). Pour plus d’informations sur les différents rôles et autorisations disponibles dans Collaboration, consultez la documentation [gérer les rôles](../permissions/manage-roles.md).
 
-Une fois les rôles et les autorisations attribués, vérifiez que vous pouvez accéder à Collaboration. Accédez à [&#128279;](https://experience.adobe.com/){target="_blank"}, puis sélectionnez **[!UICONTROL Real-Time CDP Collaboration]** dans la section **[!UICONTROL Accès rapide]**. L’espace de travail **&#x200B;**&#x200B;s’ouvre, où vous pouvez commencer à utiliser les fonctionnalités de Collaboration.
+Une fois les rôles et les autorisations attribués, vérifiez que vous pouvez accéder à Collaboration. Accédez à [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}, puis sélectionnez **[!UICONTROL Real-Time CDP Collaboration]** dans la section **[!UICONTROL Accès rapide]**. L’espace de travail **** s’ouvre, où vous pouvez commencer à utiliser les fonctionnalités de Collaboration.
 
 ### Configurer des connexions {#set-up-connections}
 
@@ -91,6 +92,6 @@ Vous avez maintenant terminé la configuration initiale et configuré votre orga
 
 * [Source et gestion des audiences](../setup/onboard-audiences.md)
 * [Cas d’utilisation de projet](../collaborate/overview.md#project-use-cases) :
-   * [Découvrir les chevauchements et comparer les audiences](../collaborate/discover.md)
-   * [Activer les audiences](../collaborate/activate.md)
-   * [Mesurer les performances de la campagne](../collaborate/measure.md)
+  * [Découvrir les chevauchements et comparer les audiences](../collaborate/discover.md)
+  * [Activer les audiences](../collaborate/activate.md)
+  * [Mesurer les performances de la campagne](../collaborate/measure.md)

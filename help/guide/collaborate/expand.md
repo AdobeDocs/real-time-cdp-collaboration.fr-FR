@@ -1,7 +1,10 @@
 ---
 title: Créez des audiences d’extension dans Développer .
 description: Découvrez comment créer des audiences d’extension à partir d’une audience source à l’aide de la population d’audiences d’un collaborateur dans Adobe Real-Time CDP Collaboration.
-source-git-commit: d2585628407acf10ad8388231259c77991a9a0b0
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 2%
@@ -14,7 +17,7 @@ Utilisez l’onglet **[!UICONTROL Développer]** dans un projet pour créer une 
 
 Avant de pouvoir utiliser l’onglet **[!UICONTROL Développer]**, vous devez disposer des éléments suivants :
 
-* [Source &#x200B;](/help/guide/setup/onboard-audiences.md) au moins une audience à utiliser comme audience source
+* [Source ](/help/guide/setup/onboard-audiences.md) au moins une audience à utiliser comme audience source
 * [Connecté](/help/guide/connect/establishing-connections.md) avec un collaborateur
 * [A créé un projet](/help/guide/collaborate/manage-projects.md) avec ce collaborateur
 * Si vous recevez une audience d’extension, une [destination](/help/guide/destinations/overview.md) configurée pour recevoir des audiences activées
@@ -43,7 +46,7 @@ Le tableau **[!UICONTROL Audiences d’extension]** répertorie toutes les audie
 
 Une audience d’extension passe par les statuts suivants :
 
-| État | Description |
+| Statut | Description |
 |---|---|
 | **[!UICONTROL En cours de traitement]** | Le modèle d’extension génère toujours l’audience d’extension. |
 | **[!UICONTROL Brouillon]** | Le modèle est terminé et l’audience d’extension est prête à être examinée et envoyée à votre collaborateur ou votre collaboratrice. |
@@ -62,7 +65,7 @@ Pour créer une audience d’extension, sélectionnez l’icône d’ajout (![Aj
 
 La boîte de dialogue **[!UICONTROL Générer une audience d’extension]** s’affiche. Renseignez chaque champ pour générer l’audience d’extension.
 
-![La boîte de dialogue Générer l’extension d’audience avec les champs Audience de départ, Portée de l’audience, Clé de correspondance et Membres de l’audience de départ &#x200B;](/help/assets/collaborate/expand/generate-expansion-audience-dialog.png){zoomable="yes"}.
+![La boîte de dialogue Générer l’extension d’audience avec les champs Audience de départ, Portée de l’audience, Clé de correspondance et Membres de l’audience de départ ](/help/assets/collaborate/expand/generate-expansion-audience-dialog.png){zoomable="yes"}.
 
 ### Sélectionner l’audience source {#select-seed-audience}
 

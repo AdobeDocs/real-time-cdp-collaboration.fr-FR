@@ -1,15 +1,16 @@
 ---
-title: Audiences Source  [!DNL Azure]  stockage dans Real-Time CDP Collaboration
+title: Audiences Source issues du stockage [!DNL Azure] dans Real-Time CDP Collaboration
 description: les données d’audience propriétaires Source issues d’Azure Blob Storage ou d’Azure Data Lake Storage Gen2 dans Real-Time CDP Collaboration.
-keywords: Real-Time CDP Collaboration; approvisionnement des audiences; [!DNL Azure Blob Storage]; [!DNL Azure Data Lake Storage] Gen2
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 3b62837cecf6cf7c288ce1633d43312ff6a92664
+keywords: Real-Time CDP Collaboration; audience sourcing; [!DNL Azure Blob Storage]; [!DNL Azure Data Lake Storage] Gen2
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '2050'
+source-wordcount: '2051'
 ht-degree: 3%
-
 ---
-
 # Audiences Source à partir du stockage Azure
 
 Connectez [!DNL Azure Blob Storage] ou [!DNL Azure Data Lake Storage] (ADLS) Gen2 à Adobe Real-Time CDP Collaboration pour obtenir des données d’audience propriétaires à des fins d’activation et d’analyse de chevauchement.
@@ -31,7 +32,7 @@ Vous ne pouvez configurer **un seul type de source par connexion de données**. 
 
 ## Conditions préalables {#prerequisites}
 
-Avant de suivre ce guide, terminez [&#x200B; intégration et configuration du compte &#x200B;](./onboard-account.md). Renseignez ensuite les prérequis de cette section avant de démarrer le workflow de configuration.
+Avant de suivre ce guide, terminez [ intégration et configuration du compte ](./onboard-account.md). Renseignez ensuite les prérequis de cette section avant de démarrer le workflow de configuration.
 
 Certaines étapes nécessitent l’intervention d’un **[!DNL Azure]administrateur**. Si vous n’êtes pas l’administrateur [!DNL Azure] de votre organisation, identifiez la personne appropriée avant de commencer.
 
@@ -101,7 +102,7 @@ Avant d’attribuer des autorisations, vérifiez que le compte de stockage a **e
 4. Attribuez le rôle **[!DNL Storage Blob Data Reader]** au principal de sécurité Adobe au niveau du système de fichiers ou de la portée du répertoire.
 5. Sélectionnez **[!UICONTROL Enregistrer]**.
 
-Une fois que vous avez terminé la configuration des autorisations pour votre type de source, passez à [&#x200B; Configurer votre  [!DNL Azure]  connexion &#x200B;](#configure-your-azure-connection).
+Une fois que vous avez terminé la configuration des autorisations pour votre type de source, passez à [ Configurer votre  [!DNL Azure]  connexion ](#configure-your-azure-connection).
 
 ## Configurer votre connexion [!DNL Azure] {#configure-your-azure-connection}
 
@@ -140,7 +141,7 @@ Après avoir saisi les valeurs requises, sélectionnez **[!UICONTROL Se connecte
 
 Un message de confirmation indique que la connexion a bien été établie. Sélectionnez **[!UICONTROL Suivant]** pour continuer.
 
-![l’étape Informations d’identification affichant les champs de compte de stockage, de conteneur, de chemin d’accès et d’ID client terminés avec un message de confirmation Connecté à [!DNL Azure] . &#x200B;](../../assets/setup/azure-sourcing/azure-credentials-step.png){zoomable="yes"}
+![l’étape Informations d’identification affichant les champs de compte de stockage, de conteneur, de chemin d’accès et d’ID client terminés avec un message de confirmation Connecté à [!DNL Azure] . ](../../assets/setup/azure-sourcing/azure-credentials-step.png){zoomable="yes"}
 
 ### Octroi d’un accès Adobe à votre stockage [!DNL Azure] {#grant-adobe-access}
 

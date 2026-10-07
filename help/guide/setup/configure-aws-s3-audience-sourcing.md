@@ -1,14 +1,15 @@
 ---
-title: Configuration  [!DNL Amazon S3]  pour l’approvisionnement auprès d’audiences
-description: Découvrez comment configurer et connecter votre stockage  [!DNL Amazon S3]  tant que source de données en libre-service pour ingérer les données d’audience dans Real-Time CDP Collaboration.
+title: Configuration de [!DNL Amazon S3] pour l’approvisionnement auprès d’une audience
+description: Découvrez comment configurer et connecter votre stockage [!DNL Amazon S3] en tant que source de données en libre-service pour ingérer les données d’audience dans Real-Time CDP Collaboration.
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1626'
 ht-degree: 8%
-
 ---
-
 # Configuration des [!DNL Amazon S3] pour l’approvisionnement des audiences
 
 Découvrez comment configurer et connecter votre stockage [!DNL Amazon S3] dans l’interface utilisateur d’Adobe Real-Time CDP Collaboration aux données de l’audience source pour l’activation et l’analyse de chevauchement.
@@ -31,15 +32,15 @@ Avant de configurer votre connexion de données S3, vérifiez les points suivant
 * Vous avez accès à un compartiment **[!DNL Amazon S3]actif** contenant des fichiers d’audience conformes à la **[Spécification d’approvisionnement de l’audience (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**.
 * Vous avez créé un **rôle IAM** dans AWS qui accorde à Adobe l’autorisation d’accéder à votre compartiment à l’aide de la méthode **rôle assumé** (et non des clés d’accès/secrètes). Consultez **[Configuration des autorisations AWS pour l’approvisionnement des audiences](./configure-aws-permissions-audience-sourcing.md)** pour des instructions détaillées. Le rôle IAM doit inclure les autorisations suivantes :
 
-   * `ListBucket`
-   * `GetBucketLocation`
-   * `GetObject`
+  * `ListBucket`
+  * `GetBucketLocation`
+  * `GetObject`
 
 * Les valeurs suivantes sont prêtes :
 
-   * **Nom de la ressource Amazon (ARN) du rôle IAM**
-   * Nom du compartiment **S3**
-   * **Chemin du dossier** (préfixe de répertoire contenant les fichiers de votre audience)
+  * **Nom de la ressource Amazon (ARN) du rôle IAM**
+  * Nom du compartiment **S3**
+  * **Chemin du dossier** (préfixe de répertoire contenant les fichiers de votre audience)
 
 >[!NOTE]
 >
@@ -86,7 +87,7 @@ Les principales considérations sont les suivantes :
 * Chaque enregistrement d’audience doit inclure un `AUDIENCE_ID` et au moins une clé de correspondance, telle que `HASHED_EMAIL_SHA_256`, `HASHED_PHONE_SHA_256`, `HASHED_IPV4_SHA_256`, `CRM_ID`, `LOYALTY_ID` ou `ADFIXUS_ID`.
 * Les données sont actualisées tous les 1 à 6 jours en fonction de votre sélection lors de la configuration de l’approvisionnement dans Collaboration.
 
-![&#x200B; La boîte de dialogue Préparer vos données pour l’approvisionnement avec un lien vers les spécifications d’approvisionnement de l’audience.](../../assets/setup/aws-audience-sourcing/prepare-data-sourcing-dialog.png)
+![ La boîte de dialogue Préparer vos données pour l’approvisionnement avec un lien vers les spécifications d’approvisionnement de l’audience.](../../assets/setup/aws-audience-sourcing/prepare-data-sourcing-dialog.png)
 
 ### Authentifier votre connexion S3 {#authenticate-s3-connection}
 

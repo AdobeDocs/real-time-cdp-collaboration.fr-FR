@@ -2,14 +2,15 @@
 title: Calcul des nombres et des pourcentages de chevauchement
 description: Comprendre comment les nombres et pourcentages de chevauchement sont calculés dans les différentes zones d’Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 23dc33af83366806f7d99161b4b713a33daeec76
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 1%
-
 ---
-
 
 # Calcul des nombres et des pourcentages de chevauchement
 

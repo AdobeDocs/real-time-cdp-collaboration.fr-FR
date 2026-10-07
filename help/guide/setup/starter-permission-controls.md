@@ -67,7 +67,7 @@ Passez en revue les informations et sélectionnez les rôles à affecter à votr
 
 Une boîte de dialogue de confirmation confirme que les nouveaux rôles ont bien été ajoutés.
 
-Pour vous assurer que vos autorisations sont correctement configurées, revenez à la page d’accueil [Experience Cloud](https://experience.adobe.com/). Sélectionnez **** dans **[!UICONTROL Accès rapide]**. Vous devriez être en mesure d’accéder à l’espace de travail Collaboration et de commencer à utiliser les fonctionnalités disponibles pour votre compte [!DNL Starter].
+Pour vous assurer que vos autorisations sont correctement configurées, revenez à la page d’accueil [Experience Cloud](https://experience.adobe.com/). Sélectionnez **&#x200B;**&#x200B;dans **[!UICONTROL Accès rapide]**. Vous devriez être en mesure d’accéder à l’espace de travail Collaboration et de commencer à utiliser les fonctionnalités disponibles pour votre compte [!DNL Starter].
 
 ## Étapes suivantes {#next-steps}
 

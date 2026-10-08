@@ -1,15 +1,16 @@
 ---
-title: Configuration  [!DNL Google Cloud Storage]  pour l’approvisionnement auprès d’audiences
-description: Découvrez comment connecter un compartiment en tant que source d [!DNL Google Cloud Storage] audience en libre-service dans Real-Time CDP Collaboration, y compris les conditions préalables, l’authentification, le mappage des champs, la planification et la validation.
+title: Configuration de [!DNL Google Cloud Storage] pour l’approvisionnement auprès d’une audience
+description: Découvrez comment connecter un compartiment [!DNL Google Cloud Storage] en tant que source d’audience en libre-service dans Real-Time CDP Collaboration, y compris les conditions préalables, l’authentification, le mappage des champs, la planification et la validation.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '2910'
+source-wordcount: '2912'
 ht-degree: 4%
-
 ---
-
 
 # Configuration des [!DNL Google Cloud Storage] pour l’approvisionnement des audiences
 
@@ -244,7 +245,7 @@ Utilisez cette section pour résoudre les problèmes qui se produisent après l�
 
 Pour commencer, notez les [!DNL Google Service Account] d’Adobe correspondant à votre région. Vous aurez besoin de ces informations pour accorder l’accès à Adobe aux étapes suivantes.
 
-| Région | [!DNL Google Service Account] |
+| Zone géographique | [!DNL Google Service Account] |
 | ------------- | --------------- |
 | Amérique du Nord | `kk9930000@va3-22da.iam.gserviceaccount.com` |
 | EMEA | `kze830000@sfc-eufrankfurt-1-g4a.iam.gserviceaccount.com` |

@@ -1,16 +1,17 @@
 ---
-title: Configuration de l’accès administrateur pour l’intégration  [!DNL Starter]  Collaboration
-description: Découvrez comment configurer l’accès administrateur pour  [!DNL Starter] à l’aide d’Admin Console dans Adobe Experience Cloud.
+title: Configuration de l’accès administrateur pour l’intégration à Collaboration [!DNL Starter]
+description: Découvrez comment configurer l’accès administrateur pour Adobe Real-Time CDP Collaboration [!DNL Starter] à l’aide d’Admin Console dans Adobe Experience Cloud.
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7b5aa5e2-1238-4a0b-be20-becfe6c9e0b7
-source-git-commit: db4cc34592e49254163d7db54f93238146ce72a4
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '830'
 ht-degree: 2%
-
 ---
-
 # Configuration de l’accès administrateur pour l’intégration à Collaboration [!DNL Starter]
 
 En tant que premier utilisateur de votre entreprise à accéder à Adobe Experience Platform via Collaboration [!DNL Starter], vous êtes responsable de la configuration et de la gestion de l’accès pour votre équipe. Vous devez vous accorder les autorisations administrateur et utilisateur nécessaires pour commencer à travailler dans Real-Time CDP Collaboration. Lisez ce guide pour savoir comment configurer l’accès requis dans Admin Console afin de pouvoir gérer les autorisations pour les collaborations dans l’interface Autorisations .
@@ -41,9 +42,9 @@ Lisez cette section pour vous accorder des privilèges d’administrateur afin d
 
 #### Accès à Admin Console {#access-admin-console}
 
-Pour commencer, connectez-vous à [&#128279;](https://experience.adobe.com/){target="_blank"} avec vos informations d&#39;identification. Vous pouvez voir une liste de vos produits disponibles dans la section **[!UICONTROL Accès rapide]**. Sélectionnez lʼ&#x200B;**[!UICONTROL Admin Console]**.
+Pour commencer, connectez-vous à [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} avec vos informations d’identification. Vous pouvez voir une liste de vos produits disponibles dans la section **[!UICONTROL Accès rapide]**. Sélectionnez lʼ&#x200B;**[!UICONTROL Admin Console]**.
 
-![Page d’accueil de Adobe Experience Cloud avec Admin Console mis en surbrillance.](../../assets/setup/starter/admin-access/select-admin-console.png){zoomable="yes"}
+![Page d’accueil d’Adobe Experience Cloud avec Admin Console mise en surbrillance.](../../assets/setup/starter/admin-access/select-admin-console.png){zoomable="yes"}
 
 #### Accès au tableau de bord du produit Adobe Experience Platform {#access-adobe-experience-platform}
 
@@ -73,7 +74,7 @@ Pour gérer les autorisations Collaboration, vous devez disposer d’un **accès
 
 Pour commencer à configurer votre accès utilisateur, procédez comme suit :
 
-1. [Accédez à Admin Console depuis la page d’accueil de Adobe Experience Cloud](#access-admin-console).
+1. [Accédez à Admin Console à partir de la page d’accueil d’Adobe Experience Cloud](#access-admin-console).
 2. [Accédez au tableau de bord du produit Adobe Experience Platform](#access-adobe-experience-platform).
 
 #### Ajouter un utilisateur au produit {#add-user}
@@ -96,9 +97,9 @@ Enfin, sélectionnez **[!UICONTROL Enregistrer]** pour terminer l’ajout d’un
 
 ![Ajouter des utilisateurs à cette boîte de dialogue de produit avec l’option Enregistrer mise en surbrillance.](../../assets/setup/starter/admin-access/save-user.png){zoomable="yes"}
 
-Une fois que vous disposez d’un accès utilisateur, revenez à [&#128279;](https://experience.adobe.com/){target="_blank"}. Vérifiez que **[!UICONTROL Autorisations]** et **[!UICONTROL Real-Time CDP Collaboration]** sont disponibles sous **[!UICONTROL Accès rapide]**.
+Une fois que vous disposez d’un accès utilisateur, revenez à [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}. Vérifiez que **[!UICONTROL Autorisations]** et **[!UICONTROL Real-Time CDP Collaboration]** sont disponibles sous **[!UICONTROL Accès rapide]**.
 
-Écran d’accueil de ![Adobe Experience Cloud affichant les autorisations et le Real-Time CDP Collaboration répertoriés sous Accès rapide et mis en surbrillance.](../../assets/setup/starter/admin-access/permissions-collaboration-available.png){zoomable="yes"}
+![Écran d’accueil d’Adobe Experience Cloud affichant les autorisations et Real-Time CDP Collaboration répertoriées sous Accès rapide et mises en surbrillance.](../../assets/setup/starter/admin-access/permissions-collaboration-available.png){zoomable="yes"}
 
 >[!TIP]
 >

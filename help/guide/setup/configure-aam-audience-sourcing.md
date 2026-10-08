@@ -3,13 +3,14 @@ title: Configuration de Adobe Audience Manager pour l’approvisionnement auprè
 description: Découvrez comment connecter Adobe Audience Manager en tant que source de données afin de créer des audiences propriétaires éligibles dans Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: be12b4c3b1d3d40fa9ceb43b319f55254b05e4df
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 0%
-
 ---
-
 
 # Configuration de Adobe Audience Manager pour le sourcing d’audience
 
@@ -94,7 +95,7 @@ Lorsque vous avez terminé, sélectionnez **[!UICONTROL Suivant]**.
 
 L’écran **[!UICONTROL Mappage]** est en lecture seule. Collaboration mappe automatiquement les sorties d’identité prises en charge à partir de vos segments AAM vers les champs d’identité Collaboration. Pour plus d’informations, consultez le tableau suivant.
 
-| Sortie d’identité AAM | Champ d’identité Collaboration | Notes |
+| Sortie d’identité AAM | Champ d’identité Collaboration | Remarques |
 | ------------------- | ---------------------------- | ----- |
 | `Demdex ID` | `DEMDEX_ID` | Sortie d’identité prise en charge pour cette intégration. Collaboration ne traduit pas l’identifiant Demdex en ECID pendant l’approvisionnement. |
 | `GAID` | `GAID` | Sortie d’identité prise en charge pour cette intégration. |

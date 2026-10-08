@@ -2,13 +2,14 @@
 title: Présentation des sources
 description: En savoir plus sur les connecteurs source dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 6%
-
 ---
-
 # Présentation des sources
 
 Dans Adobe Real-Time CDP Collaboration, les données d’audience proviennent d’une source (ou d’une connexion aux données). Vous pouvez vous connecter à différents types de sources tels que des applications Adobe, des stockages dans le cloud ou des fichiers à partir de votre système local pour [sourcer et gérer des audiences](./onboard-audiences.md) pour vos projets Collaboration. Au cours du workflow d’approvisionnement des audiences, vous pouvez choisir et configurer votre source préférée en fonction des besoins de votre entreprise.

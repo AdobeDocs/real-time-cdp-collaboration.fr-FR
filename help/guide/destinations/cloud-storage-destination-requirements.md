@@ -2,13 +2,14 @@
 title: Exigences de connexion de destination
 description: Passez en revue les informations de connexion requises pour configurer les destinations prises en charge dans Real-Time CDP Collaboration.
 audience: admin, publisher
-source-git-commit: c84582bb81289ce761c664af7db177535ff00a00
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 1%
-
 ---
-
 # Exigences de connexion de destination
 
 Avant de configurer une destination dans Real-Time CDP Collaboration, obtenez les informations d’identification et de connexion requises par le fournisseur de destination.

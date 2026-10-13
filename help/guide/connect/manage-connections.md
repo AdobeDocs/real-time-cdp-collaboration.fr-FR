@@ -2,7 +2,7 @@
 title: Gérer des connexions
 description: Découvrez comment gérer les connexions et configurer l’activation automatique dans Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
 TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
 product_v2:
@@ -11,9 +11,9 @@ product_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 991ea79aa90841bee833a04a304a52a407d377c7
+source-git-commit: 3c781fcb761c0d74241d66a7e75e3206fc1bc1da
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1311'
 ht-degree: 1%
 ---
 # Gérer des connexions {#manage-connections}
@@ -38,7 +38,9 @@ L’espace de travail des paramètres de connexion s’affiche, affichant les d�
 
 ### Configuration d’une destination d’activation automatique {#configure-auto-activation-destination}
 
-En tant que collaborateur récepteur, vous pouvez sélectionner une destination que Collaboration utilise pour activer automatiquement les audiences qui vous sont envoyées via la connexion. Avant de commencer, assurez-vous de posséder au moins une destination active. Pour obtenir des instructions sur la configuration des destinations, voir la [présentation des destinations](../destinations/overview.md).
+En tant que collaborateur récepteur, vous pouvez sélectionner une destination que Collaboration utilise pour activer automatiquement les audiences qui vous sont envoyées via la connexion. Si vous ne configurez pas de destination d’activation automatique, vous devez activer manuellement les audiences reçues.
+
+Avant de commencer, assurez-vous de posséder au moins une destination active. Pour obtenir des instructions sur la configuration des destinations, voir la [présentation des destinations](../destinations/overview.md).
 
 Dans l’espace de travail des paramètres de connexion, accédez à **[!UICONTROL Contrôle d’activation]** et sélectionnez **[!UICONTROL MODIFIER]**. Sélectionnez ensuite une **[!UICONTROL destination d’activation automatique]** dans la liste déroulante, puis sélectionnez **[!UICONTROL Enregistrer]** pour confirmer.
 
@@ -95,7 +97,7 @@ Une boîte de dialogue s’affiche, vous invitant à modifier et à envoyer les 
 
 Les paramètres d’activation de l’audience déterminent quel collaborateur dans la connexion peut activer les audiences vers les destinations. Pour modifier ces paramètres, sélectionnez **[!UICONTROL Modifier]** dans la section **[!UICONTROL Activation de l’audience]**.
 
-![Écran de modification des paramètres de connexion affichant la section Activation de l’audience et l’option Modifier &#x200B;](/help/assets/connect/manage-connections/edit-audience-activation.png){zoomable="yes"}.
+![Écran de modification des paramètres de connexion affichant la section Activation de l’audience et l’option Modifier ](/help/assets/connect/manage-connections/edit-audience-activation.png){zoomable="yes"}.
 
 Dans la boîte de dialogue **[!UICONTROL Activation de l’audience]**, utilisez le menu déroulant pour mettre à jour les autorisations d’activation de l’audience. Vous pouvez choisir un seul collaborateur ou permettre aux deux collaborateurs d’activer les audiences.
 
@@ -103,7 +105,7 @@ Dans la boîte de dialogue **[!UICONTROL Activation de l’audience]**, utilisez
 
 Lorsque vous avez terminé, sélectionnez **[!UICONTROL Enregistrer]**.
 
-![&#x200B; Boîte de dialogue d’activation de l’audience affichant les nouvelles autorisations d’activation de l’audience et l’option Enregistrer &#x200B;](/help/assets/connect/manage-connections/audience-activation-dialog.png){zoomable="yes"}.
+![ Boîte de dialogue d’activation de l’audience affichant les nouvelles autorisations d’activation de l’audience et l’option Enregistrer ](/help/assets/connect/manage-connections/audience-activation-dialog.png){zoomable="yes"}.
 
 ### Ajouter des cas d’utilisation {#add-use-cases}
 

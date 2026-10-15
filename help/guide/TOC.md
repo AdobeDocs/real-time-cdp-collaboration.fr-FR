@@ -2,10 +2,10 @@
 user-guide-title: Collaboration Real-Time CDP
 breadcrumb-title: Collaboration Real-Time CDP
 user-guide-description: Adobe Real-Time CDP Collaboration met à disposition un partage de données et une collaboration transparents et sécurisés entre les annonceurs et les éditeurs, ce qui permet l’obtention d’informations en temps réel sur les audiences et la mise en place de stratégies marketing personnalisées.
-source-git-commit: d2585628407acf10ad8388231259c77991a9a0b0
+source-git-commit: f9fe55ec41c41d94c5acef6ef611a6f645a7e0ea
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 35%
+source-wordcount: '263'
+ht-degree: 33%
 ---
 
 # Collaboration Real-Time CDP {#using}
@@ -37,6 +37,9 @@ ht-degree: 35%
   * [Suivre votre activité de consommation de crédit](/help/guide/setup/my-activity.md)
   * {hide-from-toc}[Passages pour piétons d’identité](./setup/identity-crosswalk.md)
   * [Ajouter et gérer des données de mesure](./setup/onboard-measurement-data.md)
+  * Expositions Source advertising (journaux des publicités) {#source-adlogs}
+    * [Configurer GCS pour l’approvisionnement de l’exposition publicitaire](./setup/configure-gcs-adlog-sourcing.md)
+    * [Configurer le stockage Azure pour le sourcing d’exposition publicitaire](./setup/configure-azure-adlog-sourcing.md)
   * [Gérer la connexion aux données de mesure](./setup/manage-measurement-data-connection.md)
   * [Journaux d’audit](./setup/audit-logs.md)
   * Configuration de Real-Time CDP Collaboration Starter {#starter-setup}
@@ -56,7 +59,7 @@ ht-degree: 35%
   * [Gestion des projets](./collaborate/manage-projects.md)
   * Connexions de collaborateurs {#collaborator-connections}
     * [Découvrir](./collaborate/discover.md)
-    * {hide-from-toc}[&#x200B; (Beta) Développer](./collaborate/expand.md)
+    * {hide-from-toc}[ (Beta) Développer](./collaborate/expand.md)
     * [Activer](./collaborate/activate.md)
     * [Mesure](./collaborate/measure.md)
   * Connexions à la plateforme Advertising {#ad-platform-connections}

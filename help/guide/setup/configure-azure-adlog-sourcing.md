@@ -2,7 +2,7 @@
 title: Configurer le stockage [!DNL Azure] pour le sourcing d’exposition publicitaire
 description: Données d’exposition publicitaire de Source (journal des publicités) provenant d’Azure Data Lake Storage ou de Blob Storage dans Real-Time CDP Collaboration pour une mesure axée sur la confidentialité.
 keywords: Real-Time CDP Collaboration; approvisionnement des journaux des publicités; [!DNL Azure Data Lake Storage]; [!DNL Azure Blob Storage]
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 02f344c9fcfff20c84c2e92b5aa4647829dd5d2f
 workflow-type: tm+mt
 source-wordcount: '1779'

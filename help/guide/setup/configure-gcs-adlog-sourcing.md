@@ -2,7 +2,7 @@
 title: Configurer des [!DNL Google Cloud Storage] pour le sourcing d’exposition publicitaire
 description: Découvrez comment connecter un compartiment [!DNL Google Cloud Storage] en tant que source de journal des publicités en libre-service pour les expositions publicitaires dans la mesure Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 02f344c9fcfff20c84c2e92b5aa4647829dd5d2f
 workflow-type: tm+mt
 source-wordcount: '1712'

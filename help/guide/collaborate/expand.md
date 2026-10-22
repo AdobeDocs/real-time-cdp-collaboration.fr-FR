@@ -22,7 +22,7 @@ Avant d’utiliser l’onglet **[!UICONTROL Développer]**, remplissez les condi
 * [Créez un projet](/help/guide/collaborate/manage-projects.md) avec ce collaborateur.
 * Si vous recevez des audiences d’extension, [configurez une destination d’activation automatique](/help/guide/connect/manage-connections.md#configure-auto-activation-destination) pour la connexion. Vous devez posséder une destination active avant de configurer l’activation automatique.
 
-Pour plus d’informations sur l’envoi des audiences et l’activation des audiences reçues, voir [ Activer les audiences](/help/guide/collaborate/activate.md).
+Pour plus d’informations sur l’envoi des audiences et l’activation des audiences reçues, voir [&#x200B; Activer les audiences](/help/guide/collaborate/activate.md).
 
 ## Développer la vue d’ensemble {#expand-overview}
 
@@ -67,7 +67,7 @@ Pour créer une audience d’extension, sélectionnez l’icône d’ajout (![Aj
 
 La boîte de dialogue **[!UICONTROL Générer une audience d’extension]** s’affiche. Renseignez chaque champ pour générer l’audience d’extension.
 
-![La boîte de dialogue Générer l’extension d’audience avec les champs Audience de départ, Portée de l’audience, Clé de correspondance et Membres de l’audience de départ ](/help/assets/collaborate/expand/generate-expansion-audience-dialog.png){zoomable="yes"}.
+![La boîte de dialogue Générer l’extension d’audience avec les champs Audience de départ, Portée de l’audience, Clé de correspondance et Membres de l’audience de départ &#x200B;](/help/assets/collaborate/expand/generate-expansion-audience-dialog.png){zoomable="yes"}.
 
 ### Sélectionner l’audience source {#select-seed-audience}
 

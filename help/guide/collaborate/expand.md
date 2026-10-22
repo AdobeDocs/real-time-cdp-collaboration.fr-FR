@@ -4,9 +4,9 @@ description: Découvrez comment créer des audiences d’extension à partir d�
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
+source-git-commit: 3fa87a65d9f231fe717df3dd5f63f1e6720c90e9
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '892'
 ht-degree: 2%
 ---
 # (Beta) Création d’audiences d’extension dans l’onglet Développer
@@ -15,12 +15,14 @@ Utilisez l’onglet **[!UICONTROL Développer]** dans un projet pour créer une 
 
 ## Conditions préalables {#prerequisites}
 
-Avant de pouvoir utiliser l’onglet **[!UICONTROL Développer]**, vous devez disposer des éléments suivants :
+Avant d’utiliser l’onglet **[!UICONTROL Développer]**, remplissez les conditions préalables suivantes :
 
-* [Source &#x200B;](/help/guide/setup/onboard-audiences.md) au moins une audience à utiliser comme audience source
-* [Connecté](/help/guide/connect/establishing-connections.md) avec un collaborateur
-* [A créé un projet](/help/guide/collaborate/manage-projects.md) avec ce collaborateur
-* Si vous recevez une audience d’extension, une [destination](/help/guide/destinations/overview.md) configurée pour recevoir des audiences activées
+* [Source au moins une audience](/help/guide/setup/onboard-audiences.md) à utiliser comme audience source.
+* [Se connecter avec un collaborateur](/help/guide/connect/establishing-connections.md).
+* [Créez un projet](/help/guide/collaborate/manage-projects.md) avec ce collaborateur.
+* Si vous recevez des audiences d’extension, [configurez une destination d’activation automatique](/help/guide/connect/manage-connections.md#configure-auto-activation-destination) pour la connexion. Vous devez posséder une destination active avant de configurer l’activation automatique.
+
+Pour plus d’informations sur l’envoi des audiences et l’activation des audiences reçues, voir [ Activer les audiences](/help/guide/collaborate/activate.md).
 
 ## Développer la vue d’ensemble {#expand-overview}
 
@@ -65,7 +67,7 @@ Pour créer une audience d’extension, sélectionnez l’icône d’ajout (![Aj
 
 La boîte de dialogue **[!UICONTROL Générer une audience d’extension]** s’affiche. Renseignez chaque champ pour générer l’audience d’extension.
 
-![La boîte de dialogue Générer l’extension d’audience avec les champs Audience de départ, Portée de l’audience, Clé de correspondance et Membres de l’audience de départ &#x200B;](/help/assets/collaborate/expand/generate-expansion-audience-dialog.png){zoomable="yes"}.
+![La boîte de dialogue Générer l’extension d’audience avec les champs Audience de départ, Portée de l’audience, Clé de correspondance et Membres de l’audience de départ ](/help/assets/collaborate/expand/generate-expansion-audience-dialog.png){zoomable="yes"}.
 
 ### Sélectionner l’audience source {#select-seed-audience}
 

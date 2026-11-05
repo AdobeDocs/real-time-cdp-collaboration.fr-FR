@@ -15,13 +15,11 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: b40ca0030b48f01a4f27716fbf39e587d858e3f4
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: '1432'
 ht-degree: 13%
-
 ---
-
 # Configuration et gestion de votre compte
 
 {{limited-availability-release-note}}
@@ -38,7 +36,7 @@ Pour ajouter d’autres organisations, accédez à **[!UICONTROL Configuration]*
 
 ![Espace de travail de configuration avec l’onglet Mon compte et l’option Compte mises en surbrillance.](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
 
-### Configurer des détails {#set-up-details}
+### Configurer les détails {#set-up-details}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
@@ -59,7 +57,7 @@ Pour commencer à configurer votre compte , vous devez d’abord configurer les 
 * La **[!UICONTROL Région]** est automatiquement définie en fonction de votre compte Adobe Experience Cloud. Cette valeur ne peut pas être modifiée à tout moment.
 * Ajoutez un **[!UICONTROL e-mail de contact]** pour votre compte. Il doit s’agir d’une adresse e-mail d’équipe ou basée sur les rôles. Les adresses e-mail personnelles ne doivent pas être fournies.
 * Chargez un **[!UICONTROL Logo]** pour votre compte. Actuellement, les images de type SVG sont prises en charge. Cette opération est facultative, mais le chargement d’un logo permet de représenter visuellement votre marque dans l’interface de Collaboration
-* Sélectionnez une image pour l’image d’en-tête de votre compte.
+* Sélectionnez une image d’en-tête de votre compte.
 
 >[!NOTE]
 >
@@ -67,7 +65,7 @@ Pour commencer à configurer votre compte , vous devez d’abord configurer les 
 
 ![Espace de travail Configurer le compte avec la section Détails affichée et l’option Suivant mise en surbrillance.](/help/assets/setup/manage-account/add-account-details.png){zoomable="yes"}
 
-### Configurer des clés correspondantes {#set-up-match-keys}
+### Configurer les clés de correspondance {#set-up-match-keys}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
@@ -105,6 +103,10 @@ Le tableau suivant affiche les clés de correspondance prises en charge dans Col
 
 {style="table-layout:auto"}
 
+>[!NOTE]
+>
+>Les champs Nom et Adresse postale utilisés pour la résolution d’identité [!DNL Epsilon Core ID] ne sont pas configurés comme des clés de correspondance au niveau du compte. Mappez ces champs lors de la configuration d’une connexion aux données d’audience. Pour plus d’informations, voir [Mapper les champs](./onboard-audiences.md#map-fields).
+
 >[!IMPORTANT]
 >
 >Les clés de correspondance que vous sélectionnez lors de la configuration du compte déterminent les clés de correspondance disponibles dans vos connexions. Bien que vous puissiez [supprimer les clés de correspondance indésirables](../connect/establishing-connections.md#connection-settings) lors de la configuration de la connexion, les clés de correspondance ne peuvent pas être ajoutées une fois la connexion établie. Il est important de sélectionner **toutes** les clés de correspondance que vous prévoyez d’utiliser dans les prochaines campagnes lors de la configuration du compte.
@@ -113,7 +115,7 @@ Les clés de correspondance aident les collaborateurs à travailler ensemble en 
 
 Sélectionnez les clés de correspondance à utiliser lors de la réconciliation des profils d’audience. Planifiez l’avenir et incluez toutes les clés de correspondance que vous pouvez utiliser et anticiper en les utilisant dans les prochaines campagnes. Si vous devez sélectionner d’autres clés de correspondance pour votre compte ultérieurement, vous pouvez le faire dans le workflow [Modifier le compte](#edit-account). Toutefois, les clés de correspondance ajoutées après la configuration initiale ne seront pas disponibles pour une utilisation dans les connexions existantes.
 
-#### Clés correspondantes prises en charge {#supported-match-keys}
+#### Clés de correspondance prises en charge {#supported-match-keys}
 
 Collaboration prend en charge trois types de clés de correspondance : les ID de personne, d’appareil et de partenaire. Toutes les clés de correspondance doivent répondre aux exigences suivantes :
 
@@ -130,7 +132,6 @@ Les identifiants de personne sont directement connectés à un profil individuel
 * **[!UICONTROL Téléphone haché]**
 * **[!UICONTROL Identifiants CRM]**
 * **[!UICONTROL Identifiants de fidélité]**
-<!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
 ##### ID d’appareils
 
@@ -151,13 +152,9 @@ Les identifiants de partenaire sont des identifiants fournis par des partenaires
 >
 >L’intégration d’Adobe à [!DNL AdFixus] mappe les [!UICONTROL ID AdFixus] uniques pour chaque compte à un format codé Adobe commun. Ces mappages sont utilisés pour identifier les chevauchements entre les collaborateurs. Lors de l’activation d’audiences à l’aide de **[!UICONTROL AdFixus ID]**, les identifiants d’origine sont utilisés. Le format codé Adobe ne quitte jamais Collaboration.
 
-Lors de la sélection de **[!UICONTROL ID AdFixus]**, vous devez fournir l’identifiant correspondant de votre partenaire externe dans la section **[!UICONTROL Informations d’identification du compte]**. Cette option n’est disponible qu’*après* le basculement sur **[!UICONTROL ID AdFixus]**. Saisissez votre ID AdFixus dans le champ **[!UICONTROL ID de compte]**, en veillant à vérifier la précision de la valeur.
+Lors de la sélection de **[!UICONTROL ID AdFixus]**, vous devez fournir l’identifiant correspondant de votre partenaire externe dans la section **[!UICONTROL Informations d’identification du compte]**. Cette option n’est disponible qu’*après* le basculement sur **[!UICONTROL ID AdFixus]**. Saisissez votre ID AdFixus dans le champ **[!UICONTROL ID de compte]**, en veillant à vérifier la précision de la valeur. Après avoir sélectionné toutes les clés de correspondance souhaitées, sélectionnez **[!UICONTROL Terminer]** pour terminer le workflow de configuration du compte.
 
 ![Activation de la boîte de dialogue Correspondance des clés avec l’ID AdFixus et mise en surbrillance de la section Informations d’identification du compte.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
-
-Après avoir sélectionné toutes les clés de correspondance souhaitées, sélectionnez **[!UICONTROL Terminer]** pour terminer le workflow de configuration du compte.
-
-![L’espace de travail Configurer le compte avec la section Clés de correspondance affichée.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
 ## Modifier le compte {#edit-account}
 
@@ -175,7 +172,7 @@ Vous pouvez maintenant modifier les détails de votre compte. Mettez à jour les
 
 ![Boîte de dialogue Modifier les détails du compte.](/help/assets/setup/manage-account/editable-options.png){zoomable="yes"}
 
-### Modifier les clés correspondantes {#edit-match-keys}
+### Modifier les clés de correspondance {#edit-match-keys}
 
 Vous pouvez également mettre à jour les clés de correspondance que vous avez initialement sélectionnées lors de la création de votre compte. Ces clés de correspondance déterminent les clés de correspondance disponibles pour les connexions futures.
 

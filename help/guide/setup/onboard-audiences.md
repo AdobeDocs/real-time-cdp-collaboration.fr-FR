@@ -15,10 +15,10 @@ topic_v2:
     internal-label: Governance
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: e4951569c5f5190b7f1b7f9b85cf4397ffdeef6d
+source-git-commit: b381d126dfdf1a6377f93c4f24905492de0bdb73
 workflow-type: tm+mt
-source-wordcount: '3970'
-ht-degree: 16%
+source-wordcount: '4152'
+ht-degree: 15%
 ---
 # Source et gestion des audiences
 
@@ -47,7 +47,7 @@ Dans l’onglet **[!UICONTROL Mes audiences]** de l’espace de travail **[!UICO
 >title="Actions marketing"
 >abstract="<p>Utilisez des actions marketing pour contrôler les données d’audience à importer dans Real-Time CDP Collaboration à partir d’Experience Platform. L’action marketing <strong>Collaboration sur les données</strong> prend en charge les libellés d’utilisation des données C4, C5, C9, S1, S2, PSPD et RHD. L’action marketing <strong>Science des données</strong> prend en charge le libellé d’utilisation des données C9.</p> <p> <ul><li> Lorsque la case à cocher est <em>activée</em>, toutes les données marquées avec les libellés mentionnés ci-dessus dans Experience Platform sont exclues et ne sont <strong> pas</strong> importées dans Real-Time CDP Collaboration.</li><li> Lorsque la case à cocher est <em>désactivée</em>, il n’existe aucune restriction sur les données d’Experience Platform qui peuvent être importées dans Real-Time CDP Collaboration.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=fr" text="Présentation des libellés d’utilisation des données"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=fr" text="Glossaire des libellés dʼutilisation des données"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=fr" text="Glossaire des libellés d’utilisation des données"
 
 >[!IMPORTANT]
 >
@@ -129,7 +129,7 @@ Indiquez ensuite un nom et une description pour votre connexion de données. Ces
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Champs cibles"
->abstract="Les champs cibles sont les clés correspondantes choisies lors de la configuration du compte. Par défaut, toutes les clés correspondantes sélectionnées sont disponibles."
+>abstract="Les champs cibles identifient la manière dont les données sources mappées sont utilisées dans Collaboration. Les clés de correspondance au niveau du compte sont disponibles par défaut. Les champs Nom et Adresse postale utilisés pour la résolution d’identité sont disponibles lors de la configuration de la connexion aux données et ne nécessitent pas d’activation au niveau du compte."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -148,7 +148,20 @@ Indiquez ensuite un nom et une description pour votre connexion de données. Ces
 >abstract="Sélectionnez des attributs dans le schéma d’union pour la classe Profil dans Experience Platform. Cette vue affiche les attributs présents dans le schéma d’union et appartenant à la classe XDM Profil individuel."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=fr" text="Schéma d’union dans Experience Platform"
 
-Vous allez ensuite sélectionner les champs sources à mapper aux champs cibles dans Collaboration. Les champs cibles disponibles seront basés sur les clés de correspondance que vous avez sélectionnées lors de la [configuration du compte](./onboard-account.md#set-up-match-keys).
+Vous allez ensuite sélectionner les champs sources à mapper aux champs cibles dans Collaboration. Les champs cibles disponibles sont basés sur les clés de correspondance que vous avez sélectionnées lors de la [configuration du compte](./onboard-account.md#set-up-match-keys). Les champs [!UICONTROL Nom] et [!UICONTROL Adresse postale] utilisés pour la résolution d’identité sont disponibles lors de la configuration de la connexion aux données et ne doivent pas être activés au niveau du compte.
+
+#### Mappez les champs Nom et Adresse postale pour l’ID principal Epsilon. {#map-name-postal-address}
+
+Pour utiliser **[!UICONTROL Nom]** et **[!UICONTROL Adresse postale]** pour la résolution d’identité, mappez au moins un sous-composant sous les deux champs :
+
+* **[!UICONTROL Nom]:** [!UICONTROL Prénom], [!UICONTROL Nom] ou [!UICONTROL Nom complet].
+* **[!UICONTROL Adresse postale]:** [!UICONTROL Adresse postale], [!UICONTROL Ville], [!UICONTROL État], [!UICONTROL Code postal] ou [!UICONTROL Pays].
+
+Lorsque Adobe Experience Platform est la source de données, Collaboration mappe automatiquement les attributs de profil disponibles du sandbox sélectionné aux sous-composants [!UICONTROL Nom] et [!UICONTROL Adresse postale]. Passez en revue les mappages suggérés et corrigez les champs manquants ou incorrectement mappés.
+
+Il n’est pas nécessaire de mapper chaque sous-composant. Pour exclure un sous-composant pour lequel vous ne disposez pas de données, supprimez sa ligne de mappage. Les valeurs [!UICONTROL Nom] et [!UICONTROL Adresse postale] ne sont pas hachées.
+
+Pour plus d’informations sur l’utilisation de ces champs, voir [Configurer et gérer la résolution d’identité](./identity-resolution.md).
 
 Si vous avez sélectionné [!DNL Demdex ID (ECID)] comme clé de correspondance lors de la configuration du compte, la [!DNL Demdex ID] est automatiquement extraite et mappée à partir de l’ECID et vous n’avez aucune action à effectuer. Pour en savoir plus sur [!DNL Demdex IDs], consultez le guide [[!DNL Demdex ID]](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/identity/unified-identity-support).
 
@@ -164,9 +177,9 @@ Les **[!UICONTROL champs]** sont des espaces de noms d’identité et des attrib
 
 Les champs Source sont mappés sur les champs cibles définis dans Collaboration.
 
-**[!UICONTROL Champs cibles]** indiquez comment les identités sont référencées dans Collaboration. Les champs cibles sont les clés correspondantes choisies lors de la configuration du compte. Par défaut, toutes les clés correspondantes sélectionnées sont disponibles.
+**[!UICONTROL Champs cibles]** indiquez comment les données source mappées sont utilisées dans Collaboration. La plupart des champs cibles sont des clés de correspondance sélectionnées lors de la configuration du compte. Les champs **[!UICONTROL Nom]** et **[!UICONTROL Adresse postale]** pour la résolution d’identité sont fournis lors de la configuration de la connexion aux données et ne nécessitent pas d’activation au niveau du compte.
 
-Utilisez l’option **[!UICONTROL Appliquer la transformation]** lorsque vous sourcez des champs *non hachés* vers des champs hachés. Collaboration appliquera le hachage et transformera les champs. L’algorithme de hachage utilisé par Adobe est SHA256.
+Utilisez l’option **[!UICONTROL Appliquer la transformation]** lorsque vous sourcissez des champs non hachés vers des champs hachés. Collaboration applique un hachage SHA256 pour transformer les champs. Les valeurs [!UICONTROL Nom] et [!UICONTROL Adresse postale] ne sont pas hachées.
 
 >[!ENDSHADEBOX]
 

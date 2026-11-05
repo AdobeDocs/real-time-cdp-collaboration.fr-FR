@@ -11,13 +11,11 @@ product_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
+source-git-commit: 6a7fb27f1b657e9053025207cf571b918509a4f8
 workflow-type: tm+mt
-source-wordcount: 119
-ht-degree: 21%
-
+source-wordcount: '125'
+ht-degree: 20%
 ---
-
 # Présentation de la section de configuration
 
 {{limited-availability-release-note}}
@@ -31,5 +29,6 @@ Utilisez la fonctionnalité de la section Configuration pour :
 * [Configuration et gestion de votre compte](/help/guide/setup/onboard-account.md)
 * [Source et gestion des audiences](/help/guide/setup/onboard-audiences.md)
 * [Gérer les connexions de données](/help/guide/setup/manage-data-connection.md)
+* [Configurer et gérer la résolution d’identité](/help/guide/setup/identity-resolution.md)
 * [Suivre votre activité de consommation de crédit](/help/guide/setup/my-activity.md)
 * [Afficher les journaux d’audit](/help/guide/setup/audit-logs.md)

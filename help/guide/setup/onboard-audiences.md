@@ -2,7 +2,7 @@
 title: Source et gestion des audiences
 description: Découvrez comment sourcer et gérer des audiences dans Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilité limitée" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
 product_v2:
@@ -15,10 +15,10 @@ topic_v2:
     internal-label: Governance
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: e4951569c5f5190b7f1b7f9b85cf4397ffdeef6d
+source-git-commit: b381d126dfdf1a6377f93c4f24905492de0bdb73
 workflow-type: tm+mt
-source-wordcount: '3970'
-ht-degree: 16%
+source-wordcount: '4152'
+ht-degree: 15%
 ---
 # Source et gestion des audiences
 
@@ -47,7 +47,7 @@ Dans l’onglet **[!UICONTROL Mes audiences]** de l’espace de travail **[!UICO
 >title="Actions marketing"
 >abstract="<p>Utilisez des actions marketing pour contrôler les données d’audience à importer dans Real-Time CDP Collaboration à partir d’Experience Platform. L’action marketing <strong>Collaboration sur les données</strong> prend en charge les libellés d’utilisation des données C4, C5, C9, S1, S2, PSPD et RHD. L’action marketing <strong>Science des données</strong> prend en charge le libellé d’utilisation des données C9.</p> <p> <ul><li> Lorsque la case à cocher est <em>activée</em>, toutes les données marquées avec les libellés mentionnés ci-dessus dans Experience Platform sont exclues et ne sont <strong> pas</strong> importées dans Real-Time CDP Collaboration.</li><li> Lorsque la case à cocher est <em>désactivée</em>, il n’existe aucune restriction sur les données d’Experience Platform qui peuvent être importées dans Real-Time CDP Collaboration.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=fr" text="Présentation des libellés d’utilisation des données"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=fr" text="Glossaire des libellés dʼutilisation des données"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=fr" text="Glossaire des libellés d’utilisation des données"
 
 >[!IMPORTANT]
 >
@@ -55,7 +55,7 @@ Dans l’onglet **[!UICONTROL Mes audiences]** de l’espace de travail **[!UICO
 
 Une connexion aux données est la source à partir de laquelle vous ingérez des audiences dans Collaboration. Pour en savoir plus sur toutes les sources disponibles, voir [Présentation des sources](./source-overview.md).
 
-Les sections ci-dessous décrivent la sélection de **&#x200B;**&#x200B;et l’exécution des étapes spécifiques à Experience Platform (sandbox, gouvernance et consentement). Si vous choisissez CSV, [!DNL Amazon S3], [!DNL Snowflake], [!DNL Google Cloud Storage], Adobe Audience Manager ou [!DNL Databricks Delta Share], utilisez le guide associé sous [Sélectionner la source de données](#select-data-source) pour cette option.
+Les sections ci-dessous décrivent la sélection de **** et l’exécution des étapes spécifiques à Experience Platform (sandbox, gouvernance et consentement). Si vous choisissez CSV, [!DNL Amazon S3], [!DNL Snowflake], [!DNL Google Cloud Storage], Adobe Audience Manager ou [!DNL Databricks Delta Share], utilisez le guide associé sous [Sélectionner la source de données](#select-data-source) pour cette option.
 
 Tous les paramètres que vous configurez pour une connexion de données Experience Platform sont appliqués à toutes les audiences provenant de cette connexion.
 
@@ -72,12 +72,12 @@ Pour commencer à ajouter votre connexion de données, sélectionnez **[!UICONTR
 Vous allez ensuite choisir la source de votre connexion aux données. Les sources disponibles sont les suivantes :
 
 * **Adobe Experience Platform** : sélectionnez cette option pour importer vos audiences depuis Adobe Experience Platform.
-* **Fichier CSV** : chargez un fichier CSV contenant les données de votre audience pour une ingestion de données simple et rapide. Pour commencer[&#128279;](./upload-csv-audience-sourcing.md) reportez-vous au guide Chargement de fichier CSV pour l’approvisionnement de l’audience.
-* **&#x200B;**&#x200B;: connectez-vous à votre stockage Amazon S3 pour obtenir des données d’audience source directement à partir de vos compartiments S3. Consultez le guide [Configurer AWS S3 pour l’approvisionnement de l’audience](./configure-aws-s3-audience-sourcing.md) pour obtenir des instructions détaillées.
-* **&#x200B;**&#x200B;: utilisez votre entrepôt de données Snowflake pour extraire facilement les données d’audience. Reportez-vous au guide [Configurer [!DNL Snowflake] pour l’approvisionnement des audiences](./configure-snowflake-audience-sourcing.md) .
+* **Fichier CSV** : chargez un fichier CSV contenant les données de votre audience pour une ingestion de données simple et rapide. Pour commencer](./upload-csv-audience-sourcing.md) reportez-vous au guide [Chargement de fichier CSV pour l’approvisionnement de l’audience.
+* **** : connectez-vous à votre stockage Amazon S3 pour obtenir des données d’audience source directement à partir de vos compartiments S3. Consultez le guide [Configurer AWS S3 pour l’approvisionnement de l’audience](./configure-aws-s3-audience-sourcing.md) pour obtenir des instructions détaillées.
+* **** : utilisez votre entrepôt de données Snowflake pour extraire facilement les données d’audience. Reportez-vous au guide [Configurer [!DNL Snowflake] pour l’approvisionnement des audiences](./configure-snowflake-audience-sourcing.md) .
 * **Google Cloud Storage** : connectez-vous à vos compartiments GCS pour obtenir les données d’audience source. Consultez le guide [Configurer GCS pour l’approvisionnement de l’audience](./configure-gcs-audience-sourcing.md) pour obtenir des instructions détaillées.
 * **[!DNL Databricks Delta Share]** : connectez-vous à votre [!DNL Databricks Delta Share] pour générer des données d’audience propriétaires à partir de votre environnement [!DNL Databricks]. Voir le guide [Configurer [!DNL Databricks Delta Share] pour l’approvisionnement des audiences](./configure-databricks-audience-sourcing.md) .
-* **&#x200B;**&#x200B;: Source vos segments d’audience depuis Adobe Audience Manager. Consultez le guide [Configurer Adobe Audience Manager pour l’approvisionnement des audiences](./configure-aam-audience-sourcing.md) pour commencer.
+* **** : Source vos segments d’audience depuis Adobe Audience Manager. Consultez le guide [Configurer Adobe Audience Manager pour l’approvisionnement des audiences](./configure-aam-audience-sourcing.md) pour commencer.
 
 Sélectionnez votre source de données, puis sélectionnez **[!UICONTROL Suivant]**.
 
@@ -95,7 +95,7 @@ Ensuite, vous devez vous assurer que les actions marketing correctes sont défin
 
 Utilisez des actions marketing pour contrôler les données d’audience à importer dans Collaboration à partir d’Experience Platform. L’action marketing **[!UICONTROL Collaboration sur les données]** prend en charge les libellés d’utilisation des données C4, C5, C9, S1, S2, PSPD et RHD. L’action marketing **[!UICONTROL Science des données]** prend en charge le libellé d’utilisation des données C9.
 
-En savoir plus sur les libellés d’utilisation des données [C4, C5, C9, S1, S2, PSPD et RHD](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+En savoir plus sur les libellés d’utilisation des données [C4, C5, C9, S1, S2, PSPD et RHD](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Lorsque la case à cocher est ***activée***, toutes les données libellées dans Experience Platform comme décrit ci-dessus sont exclues et **pas** importées dans Collaboration.
 * Lorsque la case à cocher ***désactivée***, il n’existe aucune restriction sur les données provenant d’Experience Platform.
@@ -107,7 +107,7 @@ Consultez la documentation d’Experience Platform pour en savoir plus sur les l
 
 En outre, vous souhaiterez sélectionner vos règles de consentement à appliquer aux données provenant de Collaboration.
 
-![Espace de travail Ajouter des audiences à la section Politique de gouvernance et application des actions &#x200B;](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}.
+![Espace de travail Ajouter des audiences à la section Politique de gouvernance et application des actions ](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}.
 
 Une fois que vous avez sélectionné les actions marketing et les règles de consentement, sélectionnez **[!UICONTROL Suivant]** pour passer à l’étape suivante. Une boîte de dialogue de confirmation s’affiche, vous demandant d’accepter les conditions. Cochez la case, puis sélectionnez **[!UICONTROL OK]** pour confirmer.
 
@@ -129,7 +129,7 @@ Indiquez ensuite un nom et une description pour votre connexion de données. Ces
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Champs cibles"
->abstract="Les champs cibles sont les clés correspondantes choisies lors de la configuration du compte. Par défaut, toutes les clés correspondantes sélectionnées sont disponibles."
+>abstract="Les champs cibles identifient la manière dont les données sources mappées sont utilisées dans Collaboration. Les clés de correspondance au niveau du compte sont disponibles par défaut. Les champs Nom et Adresse postale utilisés pour la résolution d’identité sont disponibles lors de la configuration de la connexion aux données et ne nécessitent pas d’activation au niveau du compte."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -148,9 +148,22 @@ Indiquez ensuite un nom et une description pour votre connexion de données. Ces
 >abstract="Sélectionnez des attributs dans le schéma d’union pour la classe Profil dans Experience Platform. Cette vue affiche les attributs présents dans le schéma d’union et appartenant à la classe XDM Profil individuel."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=fr" text="Schéma d’union dans Experience Platform"
 
-Vous allez ensuite sélectionner les champs sources à mapper aux champs cibles dans Collaboration. Les champs cibles disponibles seront basés sur les clés de correspondance que vous avez sélectionnées lors de la [configuration du compte](./onboard-account.md#set-up-match-keys).
+Vous allez ensuite sélectionner les champs sources à mapper aux champs cibles dans Collaboration. Les champs cibles disponibles sont basés sur les clés de correspondance que vous avez sélectionnées lors de la [configuration du compte](./onboard-account.md#set-up-match-keys). Les champs [!UICONTROL Nom] et [!UICONTROL Adresse postale] utilisés pour la résolution d’identité sont disponibles lors de la configuration de la connexion aux données et ne doivent pas être activés au niveau du compte.
 
-Si vous avez sélectionné [!DNL Demdex ID (ECID)] comme clé de correspondance lors de la configuration du compte, la [!DNL Demdex ID] est automatiquement extraite et mappée à partir de l’ECID et vous n’avez aucune action à effectuer. Pour en savoir plus sur [!DNL Demdex IDs], consultez le guide [[!DNL Demdex ID]](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/identity/unified-identity-support).
+#### Mappez les champs Nom et Adresse postale pour l’ID principal Epsilon. {#map-name-postal-address}
+
+Pour utiliser **[!UICONTROL Nom]** et **[!UICONTROL Adresse postale]** pour la résolution d’identité, mappez au moins un sous-composant sous les deux champs :
+
+* **[!UICONTROL Nom]:** [!UICONTROL Prénom], [!UICONTROL Nom] ou [!UICONTROL Nom complet].
+* **[!UICONTROL Adresse postale]:** [!UICONTROL Adresse postale], [!UICONTROL Ville], [!UICONTROL État], [!UICONTROL Code postal] ou [!UICONTROL Pays].
+
+Lorsque Adobe Experience Platform est la source de données, Collaboration mappe automatiquement les attributs de profil disponibles du sandbox sélectionné aux sous-composants [!UICONTROL Nom] et [!UICONTROL Adresse postale]. Passez en revue les mappages suggérés et corrigez les champs manquants ou incorrectement mappés.
+
+Il n’est pas nécessaire de mapper chaque sous-composant. Pour exclure un sous-composant pour lequel vous ne disposez pas de données, supprimez sa ligne de mappage. Les valeurs [!UICONTROL Nom] et [!UICONTROL Adresse postale] ne sont pas hachées.
+
+Pour plus d’informations sur l’utilisation de ces champs, voir [Configurer et gérer la résolution d’identité](./identity-resolution.md).
+
+Si vous avez sélectionné [!DNL Demdex ID (ECID)] comme clé de correspondance lors de la configuration du compte, la [!DNL Demdex ID] est automatiquement extraite et mappée à partir de l’ECID et vous n’avez aucune action à effectuer. Pour en savoir plus sur [!DNL Demdex IDs], consultez le guide [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support).
 
 ![Espace de travail Ajouter des audiences avec la possibilité de mapper les champs sources aux champs cibles.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -160,13 +173,13 @@ Si vous avez sélectionné [!DNL Demdex ID (ECID)] comme clé de correspondance 
 
 >[!BEGINSHADEBOX]
 
-Les **[!UICONTROL champs]** sont des espaces de noms d’identité et des attributs d’Experience Platform. Il s’agit des espaces de noms d’identité [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard?lang=fr){target="_blank"} et [personnalisés](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=fr#create-namespaces){target="_blank"}. Ils incluent également les attributs de profil présents dans le [schéma d’union](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=fr){target="_blank"} et appartenant à la classe XDM Individual Profile.
+Les **[!UICONTROL champs]** sont des espaces de noms d’identité et des attributs d’Experience Platform. Il s’agit des espaces de noms d’identité [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard?lang=fr){target="_blank"} et [personnalisés](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. Ils incluent également les attributs de profil présents dans le [schéma d’union](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=fr){target="_blank"} et appartenant à la classe XDM Individual Profile.
 
 Les champs Source sont mappés sur les champs cibles définis dans Collaboration.
 
-**[!UICONTROL Champs cibles]** indiquez comment les identités sont référencées dans Collaboration. Les champs cibles sont les clés correspondantes choisies lors de la configuration du compte. Par défaut, toutes les clés correspondantes sélectionnées sont disponibles.
+**[!UICONTROL Champs cibles]** indiquez comment les données source mappées sont utilisées dans Collaboration. La plupart des champs cibles sont des clés de correspondance sélectionnées lors de la configuration du compte. Les champs **[!UICONTROL Nom]** et **[!UICONTROL Adresse postale]** pour la résolution d’identité sont fournis lors de la configuration de la connexion aux données et ne nécessitent pas d’activation au niveau du compte.
 
-Utilisez l’option **[!UICONTROL Appliquer la transformation]** lorsque vous sourcez des champs *non hachés* vers des champs hachés. Collaboration appliquera le hachage et transformera les champs. L’algorithme de hachage utilisé par Adobe est SHA256.
+Utilisez l’option **[!UICONTROL Appliquer la transformation]** lorsque vous sourcissez des champs non hachés vers des champs hachés. Collaboration applique un hachage SHA256 pour transformer les champs. Les valeurs [!UICONTROL Nom] et [!UICONTROL Adresse postale] ne sont pas hachées.
 
 >[!ENDSHADEBOX]
 

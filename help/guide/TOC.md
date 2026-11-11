@@ -2,10 +2,10 @@
 user-guide-title: Collaboration Real-Time CDP
 breadcrumb-title: Collaboration Real-Time CDP
 user-guide-description: Adobe Real-Time CDP Collaboration met à disposition un partage de données et une collaboration transparents et sécurisés entre les annonceurs et les éditeurs, ce qui permet l’obtention d’informations en temps réel sur les audiences et la mise en place de stratégies marketing personnalisées.
-source-git-commit: 0d2e58e26f83a12faf077026bd0748efb5982b8d
+source-git-commit: 93deabac566aef3a0231cc8872c9348d7e62d3a2
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 32%
+source-wordcount: '274'
+ht-degree: 31%
 ---
 
 # Collaboration Real-Time CDP {#using}
@@ -36,7 +36,7 @@ ht-degree: 32%
   * [Gérer les connexions de données](./setup/manage-data-connection.md)
   * [Configurer et gérer la résolution d’identité](./setup/identity-resolution.md)
   * [Suivre votre activité de consommation de crédit](/help/guide/setup/my-activity.md)
-  * {hide-from-toc}[Passages pour piétons d’identité](./setup/identity-crosswalk.md)
+  * {hide-from-toc}[Passages piétons des identités](./setup/identity-crosswalk.md)
   * [Ajouter et gérer des données de mesure](./setup/onboard-measurement-data.md)
   * Expositions Source advertising (journaux des publicités) {#source-adlogs}
     * [Configurer GCS pour l’approvisionnement de l’exposition publicitaire](./setup/configure-gcs-adlog-sourcing.md)
@@ -60,12 +60,13 @@ ht-degree: 32%
   * [Gestion des projets](./collaborate/manage-projects.md)
   * Connexions de collaborateurs {#collaborator-connections}
     * [Découvrir](./collaborate/discover.md)
-    * {hide-from-toc}[&#x200B; (Beta) Développer](./collaborate/expand.md)
+    * {hide-from-toc}[(Beta) Développer](./collaborate/expand.md)
     * [Activer](./collaborate/activate.md)
     * [Mesure](./collaborate/measure.md)
   * Connexions à la plateforme Advertising {#ad-platform-connections}
     * [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)
     * [Créer des rapports de mesure AMC](./collaborate/advertising-platforms/amc-measure.md)
+    * {hide-from-toc}[Enrichissement payé à l’propriétaire (Beta)](./collaborate/advertising-platforms/paid-to-owned-enrichment.md)
 * Destinations {#destinations}
   * [Vue d’ensemble](/help/guide/destinations/overview.md)
   * [Configuration et gestion des destinations de stockage dans le cloud](./destinations/manage-destinations.md)

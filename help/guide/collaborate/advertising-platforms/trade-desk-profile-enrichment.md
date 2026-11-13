@@ -4,9 +4,9 @@ description: Découvrez comment exporter des attributs d’enrichissement de mé
 audience: advertiser
 hide: true
 badge: Alpha
-source-git-commit: d090aff6ea091f60c9b3bbaf2ca72fcf8017d7d1
+source-git-commit: 303d7185169962ad7398adfffcc732bf86336a74
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1512'
 ht-degree: 1%
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Utilisez le flux de données des journaux d’impressions de flux de données d’événement brut (REDS) de [!DNL The Trade Desk] pour exporter des attributs d’enrichissement et un contexte de média payant vers vos profils propriétaires.
 
-Une fois le fichier CSV arrivé dans votre destination d’exportation [!DNL Amazon S3], ingérez-le dans [!DNL Adobe Real-Time CDP]. Dans cette version, l’exportation du fichier ne met pas automatiquement à jour les profils ni n’active les expériences. L’enrichissement automatisé du profil sur [!DNL Adobe Real-Time CDP] sera une fonctionnalité dans une version ultérieure.
+Une fois le fichier CSV arrivé dans votre destination d’exportation [!DNL Amazon S3], ingérez-le dans [!DNL Adobe Real-Time CDP]. Dans cette version, l’exportation du fichier ne met pas automatiquement à jour les profils ni n’active les expériences. L’enrichissement du profil automatisé dans [!DNL Adobe Real-Time CDP] est prévu pour une version ultérieure.
 
 L’exposition aux annonces ajoute du contexte aux profils des clients. Elle ne confirme pas l’engagement, l’intention d’achat ou les intérêts à long terme.
 
@@ -30,7 +30,7 @@ Avant de commencer, collaborez avec votre administrateur, votre équipe des méd
 
 ### Autoriser le flux source {#authorize-source-feed}
 
-Remplissez la lettre d’accès fournie par [!DNL The Trade Desk] pour autoriser [!DNL The Trade Desk] à envoyer directement les journaux REDS à Adobe.
+Pour autoriser la diffusion directe des logs REDS vers Adobe, remplissez la lettre d&#39;accès fournie par [!DNL The Trade Desk].
 
 [!DNL The Trade Desk] approvisionne le flux source et Adobe configure l’accès et l’ingestion. Avant de créer un projet, vérifiez que la connexion est active et que le flux est prêt.
 
@@ -46,49 +46,53 @@ Renseignez la lettre d’accès dans la boîte de dialogue de connexion et enreg
 
 ### Se connecter avec le partenaire {#connect-partner}
 
-Connectez-vous à [!DNL The Trade Desk] et ajoutez les informations de votre annonceur :
+Pour vous connecter à [!DNL The Trade Desk], ouvrez **[!UICONTROL Découvrir les collaborateurs]** dans **[!UICONTROL Se connecter]** et recherchez le partenaire.
 
-1. Dans **[!UICONTROL Connexion]**, ouvrez **[!UICONTROL Découvrir les collaborateurs]**.
-1. Recherchez [!DNL The Trade Desk].
-   ![Le catalogue des collaborateurs répertorie [!DNL The Trade Desk] et son option [!UICONTROL Connexion].](../../../assets/collaborate/advertising-platforms/discover-collaborators-trade-desk.png){zoomable="yes"}
-1. Sélectionnez **[!UICONTROL Connexion]** pour [!DNL The Trade Desk] et suivez les instructions de la boîte de dialogue de connexion.
-   ![La boîte de dialogue de connexion explique l’autorisation REDS et la configuration de l’ID de partenaire pour [!DNL The Trade Desk].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}
-1. Une fois la connexion active, ouvrez **[!UICONTROL Paramètres de connexion]**. Dans **[!UICONTROL Informations sur l’annonceur]**, sélectionnez **[!UICONTROL Modifier]** pour mettre à jour les informations existantes ou **[!UICONTROL Ajouter]** pour saisir de nouvelles informations.
-   ![Les paramètres de connexion actifs affichent [!UICONTROL Informations sur l’annonceur] et la commande [!UICONTROL Modifier].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
-1. Saisissez votre ID de partenaire et votre nom de partenaire dans **[!UICONTROL ID de partenaire]** et **[!UICONTROL Nom de partenaire]**, puis sélectionnez **[!UICONTROL Enregistrer]**. Recherchez votre ID de partenaire dans votre compte [!DNL The Trade Desk] sous **[!UICONTROL Identifiants de places]**.
-   ![La boîte de dialogue Informations sur l’annonceur comporte des champs d’ID de partenaire et de nom de partenaire obligatoires, ainsi qu’un contrôle [!UICONTROL Enregistrer].](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
+![Le catalogue des collaborateurs répertorie [!DNL The Trade Desk] et son option [!UICONTROL Connexion].](../../../assets/collaborate/advertising-platforms/discover-collaborators-trade-desk.png){zoomable="yes"}
 
-Une fois la connexion établie et les informations de l’annonceur enregistrées, attendez la confirmation qu’Adobe a bien reçu vos journaux REDS. Créez ensuite un projet.
+Sélectionnez **[!UICONTROL Connexion]** pour [!DNL The Trade Desk] et suivez les instructions de la boîte de dialogue de connexion.
+
+![La boîte de dialogue de connexion explique l’autorisation REDS et la configuration de l’ID de partenaire pour [!DNL The Trade Desk].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}
+
+Une fois la connexion active, ouvrez **[!UICONTROL Paramètres de connexion]** et accédez à **[!UICONTROL Informations sur l’annonceur]**. Pour mettre à jour les informations existantes, sélectionnez **[!UICONTROL Modifier]**. Pour entrer de nouvelles informations, sélectionnez **[!UICONTROL Ajouter]**.
+
+![Les paramètres de connexion actifs affichent [!UICONTROL Informations sur l’annonceur] et la commande [!UICONTROL Modifier].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
+
+Pour enregistrer les informations sur votre annonceur, saisissez l’ID et le nom du partenaire dans **[!UICONTROL ID de partenaire]** et **[!UICONTROL Nom de partenaire]**, puis sélectionnez **[!UICONTROL Enregistrer]**. Votre ID de partenaire apparaît sous **[!UICONTROL Identifiants de places]** dans votre compte [!DNL The Trade Desk].
+
+![La boîte de dialogue Informations sur l’annonceur comporte des champs d’ID de partenaire et de nom de partenaire obligatoires, ainsi qu’un contrôle [!UICONTROL Enregistrer].](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
+
+Après avoir enregistré les informations sur l’annonceur, attendez qu’Adobe confirme la réception de vos journaux REDS avant de créer un projet.
 
 ### Créer un projet {#create-project}
 
-Créez un projet pour la connexion :
+Pour créer un projet, accédez à **[!UICONTROL Collaborer]** et sélectionnez **[!UICONTROL Mes projets]**, puis **[!UICONTROL Créer un projet]** ou l’icône Ajouter (![Ajouter un projet.](/help/assets/icons/plus.png)).
 
-1. Dans **[!UICONTROL Collaborer]**, sélectionnez **[!UICONTROL Mes projets]**.
-1. Sélectionnez **[!UICONTROL Créer un projet]** ou l’icône Ajouter (![Ajouter un projet.](/help/assets/icons/plus.png)).
-1. Dans **[!UICONTROL Créer un projet]**, sélectionnez [!DNL The Trade Desk] dans **[!UICONTROL Collaborateur]**.
-   ![Le formulaire [!UICONTROL Créer un projet] répertorie [!DNL The Trade Desk] et inclut le nom, la description et les champs d’image du projet.](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
-1. Saisissez un **[!UICONTROL nom de projet]** et une **[!UICONTROL description]**, puis choisissez une image pour identifier le projet.
-1. Sélectionnez **[!UICONTROL Créer]**.
+Dans **[!UICONTROL Créer un projet]**, sélectionnez [!DNL The Trade Desk] dans **[!UICONTROL Collaborateur]**.
+
+![Le formulaire [!UICONTROL Créer un projet] répertorie [!DNL The Trade Desk] et inclut le nom, la description et les champs d’image du projet.](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
+
+Pour identifier le projet, saisissez un **[!UICONTROL nom du projet]** et une **[!UICONTROL description]**, puis sélectionnez une image. Une fois les détails du projet terminés, sélectionnez **[!UICONTROL Créer]**.
 
 Pour la gestion générale des projets, consultez le [guide Créer et gérer des projets](/help/guide/collaborate/manage-projects.md).
 
 ## Sélectionner et exporter des attributs {#select-export-attributes}
 
-Exportez les attributs d’enrichissement de votre projet :
+Pour sélectionner des attributs d’enrichissement à exporter, ouvrez le projet et sélectionnez **[!UICONTROL Enrichir]**. Pour comprendre la disponibilité du signal, passez en revue les valeurs de couverture de chaque attribut avant de sélectionner les attributs à utiliser.
+
+![La page [!UICONTROL Enrichir] regroupe les signaux sélectionnables par catégorie et affiche les valeurs de couverture.](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
 
 <!-- TODO: Replace the destination screenshot with one showing the [!UICONTROL Export Attributes] action. -->
 
-1. Ouvrez le projet et sélectionnez **[!UICONTROL Enrichir]**.
-1. Examinez les valeurs de couverture pour chaque attribut afin de comprendre la disponibilité du signal.
-1. Sélectionnez les attributs à utiliser pour l’enrichissement.
-   ![La page [!UICONTROL Enrichir] regroupe les signaux sélectionnables par catégorie et affiche les valeurs de couverture.](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
-1. Sélectionnez la destination d&#39;exportation [!DNL Amazon S3] configurée pour la sortie d&#39;enrichissement. Pour configurer une destination, consultez [Configurer et gérer des destinations d’espace de stockage](/help/guide/destinations/manage-destinations.md).
-   <!-- ![The [!UICONTROL Choose a destination] screen lists a destination and the [!UICONTROL Export Attributes] action.](../../../assets/collaborate/advertising-platforms/enrich-choose-destination.png){zoomable="yes"} -->
-1. Vérifiez les attributs et la destination sélectionnés, puis sélectionnez **[!UICONTROL Exporter les attributs]**.
-   <!-- ![The destination screen confirms that enrichment has started.](../../../assets/collaborate/advertising-platforms/enrich-request-confirmation.png){zoomable="yes"} -->
+Sélectionnez la destination d&#39;exportation [!DNL Amazon S3] configurée pour la sortie d&#39;enrichissement. Si vous devez configurer une destination, consultez [Configurer et gérer des destinations d’espace de stockage](/help/guide/destinations/manage-destinations.md).
 
-L’envoi d’une exportation démarre la diffusion si la destination est correctement configurée. Vérifiez la réussite de la diffusion des fichiers en dehors de [!DNL Adobe Real-Time CDP Collaboration].
+<!-- ![The [!UICONTROL Choose a destination] screen lists a destination and the [!UICONTROL Export Attributes] action.](../../../assets/collaborate/advertising-platforms/enrich-choose-destination.png){zoomable="yes"} -->
+
+Vérifiez les attributs et la destination sélectionnés, puis sélectionnez **[!UICONTROL Exporter les attributs]**.
+
+<!-- ![The destination screen confirms that enrichment has started.](../../../assets/collaborate/advertising-platforms/enrich-request-confirmation.png){zoomable="yes"} -->
+
+L’envoi d’une exportation démarre la diffusion si la destination est correctement configurée. Après avoir envoyé l’exportation, vérifiez la réussite de la diffusion des fichiers en dehors de [!DNL Adobe Real-Time CDP Collaboration].
 
 Adobe traite les attributs d’enrichissement lors de la création d’un projet, puis une fois par semaine. Chaque exécution utilise les 90 derniers jours de données [!DNL The Trade Desk] disponibles. Chaque exportation inclut les attributs sélectionnés de l’exécution terminée la plus récente. Pour exporter des attributs actualisés, demandez une autre exportation une fois une exécution ultérieure terminée.
 
@@ -121,13 +125,13 @@ Les signaux géographiques décrivent le contexte publicitaire plutôt qu&#39;un
 
 ### Couverture des attributs {#attribute-coverage}
 
-La couverture décrit la fréquence à laquelle les enregistrements traités incluent une valeur d’attribut. Pour les signaux oui/non, tels que **[!UICONTROL CTV exposé]**, la couverture comptabilise les enregistrements avec une valeur vraie. La couverture n’indique pas les taux de correspondance d’identité ou la proportion de profils propriétaires qui recevront un attribut.
+La couverture décrit la fréquence à laquelle les enregistrements traités incluent une valeur d’attribut. Pour les signaux oui/non, tels que **[!UICONTROL CTV exposé]**, la couverture comptabilise les enregistrements avec une valeur vraie. La couverture n’indique pas les taux de correspondance d’identité ou la proportion de profils propriétaires qui reçoivent un attribut.
 
 La correspondance des identités, la disponibilité du signal source et l’ingestion affectent les mises à jour des profils. La couverture ne confirme pas la fin de l’exportation ou les mises à jour du profil.
 
 ### Portée du workflow {#workflow-scope}
 
-Utilisez le catalogue traité pour enrichir les données de [!DNL The Trade Desk]. Vous ne pouvez pas exporter de journaux bruts ni créer d’expressions d’attribut personnalisées. Les autres intégrations de plateforme côté demande (DSP) et de plateforme côté offre (SSP) ne sont pas prises en charge.
+Pour enrichir les données de [!DNL The Trade Desk], utilisez le catalogue traité. Vous ne pouvez pas exporter de journaux bruts ni créer d’expressions d’attribut personnalisées. Les autres intégrations de plateforme côté demande (DSP) et de plateforme côté offre (SSP) ne sont pas prises en charge.
 
 Ce workflow ne prend pas en charge la découverte d’opportunité d’enrichissement, l’analyse de chevauchement des audiences ou la mesure d’attribution et d’incrémentalité.
 
@@ -154,11 +158,11 @@ Vérifiez l’exportation séparément des mises à jour de profil :
 1. Ingérez le fichier à l’aide des mappages d’identité et de schéma confirmés pour le sandbox et le jeu de données cibles.
 1. Passez en revue les résultats de l’ingestion et vérifiez qu’un échantillon des profils attendus contient les attributs d’enrichissement.
 
-L’exportation d’un fichier ne confirme pas la mise à jour des profils par ingestion. Ingérez chaque exportation ultérieure séparément pour mettre à jour les profils.
+L’exportation d’un fichier ne confirme pas la mise à jour des profils par ingestion. Pour mettre à jour les profils, ingérez séparément chaque exportation ultérieure.
 
 ## Résolution des problèmes d’enrichissement {#troubleshoot-enrichment}
 
-Utilisez ces vérifications pour résoudre les problèmes liés aux données sources, à l’exportation et à l’ingestion :
+Pour résoudre les problèmes liés aux données sources, à l’exportation et à l’ingestion, effectuez les vérifications suivantes :
 
 | Problème | Éléments à vérifier |
 | --- | --- |
@@ -174,6 +178,6 @@ Utilisez ces vérifications pour résoudre les problèmes liés aux données sou
 
 ## Étapes suivantes {#next-steps}
 
-Après avoir ingéré et validé les attributs, créez des audiences dans [!DNL Adobe Real-Time CDP] en combinant des signaux d’enrichissement avec des données propriétaires. Pour plus d’informations, consultez le [guide du créateur d’audiences](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}.
+Après avoir ingéré et validé les attributs, créez des audiences dans [!DNL Adobe Real-Time CDP] en combinant des signaux d’enrichissement avec des données propriétaires. Pour plus d’informations, consultez le [guide du créateur d’audiences](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}.
 
-Pour activer des audiences pour des destinations, de la personnalisation ou des parcours client, consultez le [guide d’activation des audiences](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}.
+Pour activer des audiences pour des destinations, de la personnalisation ou des parcours client, consultez le [guide d’activation des audiences](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}.

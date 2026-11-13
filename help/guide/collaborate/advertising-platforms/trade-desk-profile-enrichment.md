@@ -178,6 +178,6 @@ Pour résoudre les problèmes liés aux données sources, à l’exportation et 
 
 ## Étapes suivantes {#next-steps}
 
-Après avoir ingéré et validé les attributs, créez des audiences dans [!DNL Adobe Real-Time CDP] en combinant des signaux d’enrichissement avec des données propriétaires. Pour plus d’informations, consultez le [guide du créateur d’audiences](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}.
+Après avoir ingéré et validé les attributs, créez des audiences dans [!DNL Adobe Real-Time CDP] en combinant des signaux d’enrichissement avec des données propriétaires. Pour plus d’informations, consultez le [guide du créateur d’audiences](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}.
 
-Pour activer des audiences pour des destinations, de la personnalisation ou des parcours client, consultez le [guide d’activation des audiences](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}.
+Pour activer des audiences pour des destinations, de la personnalisation ou des parcours client, consultez le [guide d’activation des audiences](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}.

@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: b381d126dfdf1a6377f93c4f24905492de0bdb73
 workflow-type: tm+mt
 source-wordcount: '4152'
-ht-degree: 15%
+ht-degree: 16%
 ---
 # Source et gestion des audiences
 
@@ -26,17 +26,17 @@ ht-degree: 15%
 
 Les audiences sont des groupes spécifiques d’utilisateurs ou de clients segmentés en fonction de divers attributs. Ils permettent aux collaborateurs de travailler ensemble sur des expériences marketing ciblées et personnalisées pour des campagnes publicitaires plus efficaces. Ce guide explique comment sourcer des audiences dans Real-Time CDP Collaboration, afficher le tableau de bord des audiences et gérer des audiences individuelles.
 
-Pour une explication conceptuelle des audiences dans Collaboration, voir [Présentation des audiences](../setup/audiences-overview.md).
+Pour une explication conceptuelle des audiences dans Collaboration, consultez [Présentation des audiences](../setup/audiences-overview.md).
 
 ## Audiences Source dans Collaboration {#source-audiences}
 
 >[!IMPORTANT]
 >
->Pour approvisionner les audiences, votre utilisateur doit être affecté à un rôle contenant deux autorisations de gestion des profils - **[!UICONTROL Afficher les profils]** et **[!UICONTROL Afficher les segments]**. Pour plus d’informations sur l’attribution des autorisations nécessaires, consultez le guide [Audience sourcing](../permissions/overview.md#audience-sourcing) dans la section autorisations.
+>Pour approvisionner les audiences, votre utilisateur doit être affecté à un rôle contenant deux autorisations de gestion des profils - **[!UICONTROL Afficher les profils]** et **[!UICONTROL Afficher les segments]**. Pour plus d’informations sur l’attribution des autorisations nécessaires, consultez le guide [sourcing d’audience](../permissions/overview.md#audience-sourcing) dans autorisations.
 
 Avant de pouvoir activer des audiences avec des collaborateurs et exécuter des calculs de chevauchement, les audiences doivent être sourcées dans Collaboration. Pour approvisionner les audiences, suivez les étapes du workflow dans la section ci-dessous.
 
-Dans l’onglet **[!UICONTROL Mes audiences]** de l’espace de travail **[!UICONTROL Configuration]**, sélectionnez l’icône d’ajout (![icône d’ajout.](/help/assets/icons/plus.png)) puis sélectionnez **[!UICONTROL Audience]**. S’il s’agit de votre première audience, vous pouvez également sélectionner l’option **[!UICONTROL Ajouter]**.
+Dans l’onglet **[!UICONTROL Mes audiences]** de l’espace de travail **[!UICONTROL Configuration]**, sélectionnez l’icône d’ajout (![Icône d’ajout.](/help/assets/icons/plus.png)) puis sélectionnez **[!UICONTROL Audience]**. S’il s’agit de votre première audience, vous pouvez également sélectionner l’option **[!UICONTROL Ajouter]**.
 
 ![Espace de travail Mes audiences avec l’option Ajouter et les options Audiences mises en surbrillance.](/help/assets/setup/add-manage-audiences/add-audiences.png){zoomable="yes"}
 
@@ -51,19 +51,19 @@ Dans l’onglet **[!UICONTROL Mes audiences]** de l’espace de travail **[!UICO
 
 >[!IMPORTANT]
 >
->Après avoir établi à votre première connexion de données et sourcé votre première audience, vous pouvez ensuite sourcer plusieurs audiences à partir de la connexion de données existante. Lors de l’ajout d’audiences supplémentaires, vous commencerez à partir de l’étape [sélectionner une audience](#select-audiences), puisque la connexion aux données a déjà été établie.
+>Après avoir établi à votre première connexion de données et sourcé votre première audience, vous pouvez ensuite sourcer plusieurs audiences à partir de la connexion de données existante. Lors de l’ajout d’audiences supplémentaires, vous commencerez à l’étape [sélectionner une audience](#select-audiences), puisque la connexion aux données a déjà été établie.
 
-Une connexion aux données est la source à partir de laquelle vous ingérez des audiences dans Collaboration. Pour en savoir plus sur toutes les sources disponibles, voir [Présentation des sources](./source-overview.md).
+Une connexion aux données est la source à partir de laquelle vous ingérez des audiences dans Collaboration. Pour en savoir plus sur toutes les sources disponibles, consultez [Présentation des sources](./source-overview.md).
 
-Les sections ci-dessous décrivent la sélection de **&#x200B;**&#x200B;et l’exécution des étapes spécifiques à Experience Platform (sandbox, gouvernance et consentement). Si vous choisissez CSV, [!DNL Amazon S3], [!DNL Snowflake], [!DNL Google Cloud Storage], Adobe Audience Manager ou [!DNL Databricks Delta Share], utilisez le guide associé sous [Sélectionner la source de données](#select-data-source) pour cette option.
+Les sections ci-dessous décrivent la sélection de **Adobe Experience Platform** et l’exécution des étapes spécifiques à Experience Platform (sandbox, gouvernance et consentement). Si vous choisissez CSV, [!DNL Amazon S3], [!DNL Snowflake], [!DNL Google Cloud Storage], Adobe Audience Manager ou [!DNL Databricks Delta Share], utilisez le guide associé sous [Sélectionner la source de données](#select-data-source) pour cette option.
 
 Tous les paramètres que vous configurez pour une connexion de données Experience Platform sont appliqués à toutes les audiences provenant de cette connexion.
 
 >[!TIP]
 >
->Il existe un workflow distinct où vous pouvez afficher et modifier vos connexions de données. Pour plus d’informations, consultez le guide [gestion des connexions aux données](/help/guide/setup/manage-data-connection.md).
+>Il existe un workflow distinct où vous pouvez afficher et modifier vos connexions de données. Pour plus d&#39;informations, consultez le guide [gestion des connexions de données](/help/guide/setup/manage-data-connection.md).
 
-Pour commencer à ajouter votre connexion de données, sélectionnez **[!UICONTROL Ajouter une nouvelle connexion de données]** puis sélectionnez **[!UICONTROL Suivant]**.
+Pour commencer à ajouter votre connexion de données, sélectionnez **[!UICONTROL Ajouter une nouvelle connexion de données]** puis **[!UICONTROL Suivant]**.
 
 ![L’espace de travail Ajouter des audiences avec l’option Ajouter une nouvelle connexion de données mise en surbrillance.](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
@@ -72,22 +72,22 @@ Pour commencer à ajouter votre connexion de données, sélectionnez **[!UICONTR
 Vous allez ensuite choisir la source de votre connexion aux données. Les sources disponibles sont les suivantes :
 
 * **Adobe Experience Platform** : sélectionnez cette option pour importer vos audiences depuis Adobe Experience Platform.
-* **Fichier CSV** : chargez un fichier CSV contenant les données de votre audience pour une ingestion de données simple et rapide. Pour commencer[&#128279;](./upload-csv-audience-sourcing.md) reportez-vous au guide Chargement de fichier CSV pour l’approvisionnement de l’audience.
-* **&#x200B;**&#x200B;: connectez-vous à votre stockage Amazon S3 pour obtenir des données d’audience source directement à partir de vos compartiments S3. Consultez le guide [Configurer AWS S3 pour l’approvisionnement de l’audience](./configure-aws-s3-audience-sourcing.md) pour obtenir des instructions détaillées.
-* **&#x200B;**&#x200B;: utilisez votre entrepôt de données Snowflake pour extraire facilement les données d’audience. Reportez-vous au guide [Configurer [!DNL Snowflake] pour l’approvisionnement des audiences](./configure-snowflake-audience-sourcing.md) .
+* **Fichier CSV** : chargez un fichier CSV contenant les données de votre audience pour une ingestion de données simple et rapide. Pour commencer, reportez-vous au guide [Charger un fichier CSV pour l’approvisionnement de l’audience](./upload-csv-audience-sourcing.md).
+* **Amazon Web Services** : connectez-vous à votre stockage Amazon S3 pour obtenir des données d’audience source directement à partir de vos compartiments S3. Consultez le guide [Configurer AWS S3 pour l’approvisionnement de l’audience](./configure-aws-s3-audience-sourcing.md) pour obtenir des instructions détaillées.
+* **Snowflake** : utilisez votre entrepôt de données Snowflake pour extraire facilement les données d’audience. Consultez le guide [Configurer [!DNL Snowflake] pour l’approvisionnement de l’audience](./configure-snowflake-audience-sourcing.md).
 * **Google Cloud Storage** : connectez-vous à vos compartiments GCS pour obtenir les données d’audience source. Consultez le guide [Configurer GCS pour l’approvisionnement de l’audience](./configure-gcs-audience-sourcing.md) pour obtenir des instructions détaillées.
-* **[!DNL Databricks Delta Share]** : connectez-vous à votre [!DNL Databricks Delta Share] pour générer des données d’audience propriétaires à partir de votre environnement [!DNL Databricks]. Voir le guide [Configurer [!DNL Databricks Delta Share] pour l’approvisionnement des audiences](./configure-databricks-audience-sourcing.md) .
-* **&#x200B;**&#x200B;: Source vos segments d’audience depuis Adobe Audience Manager. Consultez le guide [Configurer Adobe Audience Manager pour l’approvisionnement des audiences](./configure-aam-audience-sourcing.md) pour commencer.
+* **[!DNL Databricks Delta Share]** : connectez-vous à votre [!DNL Databricks Delta Share] pour obtenir des données d’audience propriétaires sources à partir de votre environnement [!DNL Databricks]. Voir le guide [Configurer [!DNL Databricks Delta Share] pour l’approvisionnement des audiences](./configure-databricks-audience-sourcing.md).
+* **Adobe Audience Manager** : Source vos segments d’audience depuis Adobe Audience Manager. Consultez le guide [Configurer Adobe Audience Manager pour l’approvisionnement de l’audience](./configure-aam-audience-sourcing.md) pour commencer.
 
 Sélectionnez votre source de données, puis sélectionnez **[!UICONTROL Suivant]**.
 
-![Espace de travail Ajouter des audiences avec l’option Adobe Experience Platform mise en surbrillance.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
+![L’espace de travail Ajouter des audiences avec l’option Adobe Experience Platform mise en surbrillance.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
 #### Sélectionner un sandbox {#select-sandbox}
 
 Après avoir sélectionné votre source de données, vous devez sélectionner le sandbox qui inclut les audiences que vous souhaitez utiliser pour Collaboration. Sélectionnez le sandbox dans la liste des sandbox disponibles, puis sélectionnez **[!UICONTROL Suivant]**
 
-![Espace de travail Ajouter des audiences avec un sandbox sélectionné.](/help/assets/setup/add-manage-audiences/select-sandbox.png){zoomable="yes"}
+![L’espace de travail Ajouter des audiences avec un sandbox sélectionné.](/help/assets/setup/add-manage-audiences/select-sandbox.png){zoomable="yes"}
 
 #### Politique de gouvernance et mesures d’application {#governance-policy-and-enforcement-actions}
 
@@ -95,10 +95,10 @@ Ensuite, vous devez vous assurer que les actions marketing correctes sont défin
 
 Utilisez des actions marketing pour contrôler les données d’audience à importer dans Collaboration à partir d’Experience Platform. L’action marketing **[!UICONTROL Collaboration sur les données]** prend en charge les libellés d’utilisation des données C4, C5, C9, S1, S2, PSPD et RHD. L’action marketing **[!UICONTROL Science des données]** prend en charge le libellé d’utilisation des données C9.
 
-En savoir plus sur les libellés d’utilisation des données [C4, C5, C9, S1, S2, PSPD et RHD](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+En savoir plus sur les [libellés d&#39;utilisation des données C4, C5, C9, S1, S2, PSPD et RHD](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
-* Lorsque la case à cocher est ***activée***, toutes les données libellées dans Experience Platform comme décrit ci-dessus sont exclues et **pas** importées dans Collaboration.
-* Lorsque la case à cocher ***désactivée***, il n’existe aucune restriction sur les données provenant d’Experience Platform.
+* Lorsque la case à cocher est ***activée***, toutes les données libellées dans Experience Platform comme décrit ci-dessus sont exclues et **non** importées dans Collaboration.
+* Lorsque la case à cocher ***est désactivée***, il n’existe aucune restriction sur les données provenant d’Experience Platform.
 
 Consultez la documentation d’Experience Platform pour en savoir plus sur les libellés d’utilisation des données :
 
@@ -107,17 +107,17 @@ Consultez la documentation d’Experience Platform pour en savoir plus sur les l
 
 En outre, vous souhaiterez sélectionner vos règles de consentement à appliquer aux données provenant de Collaboration.
 
-![Espace de travail Ajouter des audiences à la section Politique de gouvernance et application des actions &#x200B;](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}.
+![L’espace de travail Ajouter des audiences dans la section Politique de gouvernance et appliquer des actions.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}
 
 Une fois que vous avez sélectionné les actions marketing et les règles de consentement, sélectionnez **[!UICONTROL Suivant]** pour passer à l’étape suivante. Une boîte de dialogue de confirmation s’affiche, vous demandant d’accepter les conditions. Cochez la case, puis sélectionnez **[!UICONTROL OK]** pour confirmer.
 
-![La boîte de dialogue Politique de gouvernance et appliquer des actions avec la case à cocher et l’option OK mises en surbrillance.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
+![La boîte de dialogue Politique de gouvernance et appliquer des actions avec la case à cocher et l&#39;option OK mises en surbrillance.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
 ### Fournir des détails {#provide-details}
 
 Indiquez ensuite un nom et une description pour votre connexion de données. Ces informations vous aideront à identifier la connexion de données ultérieurement.
 
-![Espace de travail Ajouter des audiences avec la possibilité de fournir un nom et une description.](/help/assets/setup/add-manage-audiences/data-connection-details.png){zoomable="yes"}
+![L’espace de travail Ajouter des audiences avec la possibilité de fournir un nom et une description.](/help/assets/setup/add-manage-audiences/data-connection-details.png){zoomable="yes"}
 
 ### Champs de mappage {#map-fields}
 
@@ -129,7 +129,7 @@ Indiquez ensuite un nom et une description pour votre connexion de données. Ces
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Champs cibles"
->abstract="Les champs cibles identifient la manière dont les données sources mappées sont utilisées dans Collaboration. Les clés de correspondance au niveau du compte sont disponibles par défaut. Les champs Nom et Adresse postale utilisés pour la résolution d’identité sont disponibles lors de la configuration de la connexion aux données et ne nécessitent pas d’activation au niveau du compte."
+>abstract="Les champs cibles identifient la manière dont les données sources mappées sont utilisées dans Collaboration. Les clés de correspondance au niveau du compte sont disponibles par défaut. Les champs Nom et Adresse postale utilisés pour la résolution des identités sont disponibles lors de la configuration de la connexion aux données et ne nécessitent pas d’activation au niveau du compte."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -152,34 +152,34 @@ Vous allez ensuite sélectionner les champs sources à mapper aux champs cibles 
 
 #### Mappez les champs Nom et Adresse postale pour l’ID principal Epsilon. {#map-name-postal-address}
 
-Pour utiliser **[!UICONTROL Nom]** et **[!UICONTROL Adresse postale]** pour la résolution d’identité, mappez au moins un sous-composant sous les deux champs :
+Pour utiliser **[!UICONTROL Name]** et **[!UICONTROL Adresse postale]** pour la résolution d’identité, mappez au moins un sous-composant sous les deux champs :
 
-* **[!UICONTROL Nom]:** [!UICONTROL Prénom], [!UICONTROL Nom] ou [!UICONTROL Nom complet].
-* **[!UICONTROL Adresse postale]:** [!UICONTROL Adresse postale], [!UICONTROL Ville], [!UICONTROL État], [!UICONTROL Code postal] ou [!UICONTROL Pays].
+* **[!UICONTROL Nom] :** [!UICONTROL Prénom], [!UICONTROL Nom] ou [!UICONTROL Nom complet].
+* **[!UICONTROL Adresse postale] :** [!UICONTROL Adresse postale], [!UICONTROL Ville], [!UICONTROL État], [!UICONTROL Code postal] ou [!UICONTROL Pays].
 
 Lorsque Adobe Experience Platform est la source de données, Collaboration mappe automatiquement les attributs de profil disponibles du sandbox sélectionné aux sous-composants [!UICONTROL Nom] et [!UICONTROL Adresse postale]. Passez en revue les mappages suggérés et corrigez les champs manquants ou incorrectement mappés.
 
 Il n’est pas nécessaire de mapper chaque sous-composant. Pour exclure un sous-composant pour lequel vous ne disposez pas de données, supprimez sa ligne de mappage. Les valeurs [!UICONTROL Nom] et [!UICONTROL Adresse postale] ne sont pas hachées.
 
-Pour plus d’informations sur l’utilisation de ces champs, voir [Configurer et gérer la résolution d’identité](./identity-resolution.md).
+Pour plus d&#39;informations sur l&#39;utilisation de ces champs, voir [Configurer et gérer la résolution d&#39;identité](./identity-resolution.md).
 
-Si vous avez sélectionné [!DNL Demdex ID (ECID)] comme clé de correspondance lors de la configuration du compte, la [!DNL Demdex ID] est automatiquement extraite et mappée à partir de l’ECID et vous n’avez aucune action à effectuer. Pour en savoir plus sur [!DNL Demdex IDs], consultez le guide [[!DNL Demdex ID]](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/identity/unified-identity-support).
+Si vous avez sélectionné [!DNL Demdex ID (ECID)] comme clé de correspondance lors de la configuration du compte, le [!DNL Demdex ID] est automatiquement extrait et mappé à partir de l’ECID et vous n’avez aucune action à effectuer. Pour en savoir plus sur [!DNL Demdex IDs], consultez le guide [[!DNL Demdex ID]](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/identity/unified-identity-support).
 
-![Espace de travail Ajouter des audiences avec la possibilité de mapper les champs sources aux champs cibles.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
+![L’espace de travail Ajouter des audiences avec la possibilité de mapper les champs sources aux champs cibles.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
 >[!TIP]
 >
->Vous pouvez mapper plusieurs champs sources au même champ cible. Par exemple, si des adresses e-mail se trouvent dans deux champs distincts d’Experience Platform, vous pouvez les mapper au champ cible **[!UICONTROL E-mail haché]** sous la forme de deux lignes distinctes. Utilisez l’option **[!UICONTROL Ajouter un champ]** pour ajouter des lignes de mappage supplémentaires.
+>Vous pouvez mapper plusieurs champs sources au même champ cible. Par exemple, si vous avez des adresses e-mail dans deux champs distincts dans Experience Platform, vous pouvez mapper chacune de ces adresses au champ cible **[!UICONTROL E-mail haché]** sous la forme de deux lignes distinctes. Utilisez l’option **[!UICONTROL Ajouter un champ]** pour ajouter des lignes de mappage supplémentaires.
 
 >[!BEGINSHADEBOX]
 
-Les **[!UICONTROL champs]** sont des espaces de noms d’identité et des attributs d’Experience Platform. Il s’agit des espaces de noms d’identité [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard?lang=fr){target="_blank"} et [personnalisés](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=fr#create-namespaces){target="_blank"}. Ils incluent également les attributs de profil présents dans le [schéma d’union](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=fr){target="_blank"} et appartenant à la classe XDM Individual Profile.
+**[!UICONTROL Les champs Source]** sont des espaces de noms d’identité et des attributs Experience Platform. Il s’agit des espaces de noms d’identité [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard?lang=fr){target="_blank"} et [personnalisés](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=fr#create-namespaces){target="_blank"}. Ils incluent également les attributs de profil présents dans le [schéma d’union](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=fr){target="_blank"} et appartenant à la classe XDM Individual Profile.
 
 Les champs Source sont mappés sur les champs cibles définis dans Collaboration.
 
-**[!UICONTROL Champs cibles]** indiquez comment les données source mappées sont utilisées dans Collaboration. La plupart des champs cibles sont des clés de correspondance sélectionnées lors de la configuration du compte. Les champs **[!UICONTROL Nom]** et **[!UICONTROL Adresse postale]** pour la résolution d’identité sont fournis lors de la configuration de la connexion aux données et ne nécessitent pas d’activation au niveau du compte.
+**[!UICONTROL Les champs cibles]** indiquent la manière dont les données source mappées sont utilisées dans Collaboration. La plupart des champs cibles sont des clés de correspondance sélectionnées lors de la configuration du compte. Les champs **[!UICONTROL Nom]** et **[!UICONTROL Adresse postale]** pour la résolution d’identité sont fournis lors de la configuration de la connexion aux données et ne nécessitent pas d’activation au niveau du compte.
 
-Utilisez l’option **[!UICONTROL Appliquer la transformation]** lorsque vous sourcissez des champs non hachés vers des champs hachés. Collaboration applique un hachage SHA256 pour transformer les champs. Les valeurs [!UICONTROL Nom] et [!UICONTROL Adresse postale] ne sont pas hachées.
+Utilisez l’option **[!UICONTROL Appliquer la transformation]** lorsque vous sourcez des champs non hachés vers des champs hachés. Collaboration applique un hachage SHA256 pour transformer les champs. Les valeurs [!UICONTROL Nom] et [!UICONTROL Adresse postale] ne sont pas hachées.
 
 >[!ENDSHADEBOX]
 
@@ -187,7 +187,7 @@ Pour commencer à mapper des champs, sélectionnez le champ source vide en regar
 
 ![La boîte de dialogue Sélectionner le champ source avec les options d’e-mail affichées.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-Certains attributs de profil sont modélisés dans une liste, qui est un tableau d’objets (indiqués comme `Object[]` dans la boîte de dialogue). Les identifiants ou attributs clés résident souvent à l’intérieur de ces enregistrements répétés, tels qu’un numéro de compte ou un identifiant de véhicule.
+Certains attributs de profil sont modélisés dans une liste, qui est un tableau d’objets (indiqué par `Object[]` dans la boîte de dialogue). Les identifiants ou attributs clés résident souvent à l’intérieur de ces enregistrements répétés, tels qu’un numéro de compte ou un identifiant de véhicule.
 
 Sous l’option **[!UICONTROL Attributs de profil]**, développez le champ de liste dans la boîte de dialogue **[!UICONTROL Sélectionner le champ source]**, puis sélectionnez le champ imbriqué que vous souhaitez mapper à une clé de correspondance. Par exemple, développez `devices` et sélectionnez `Device ID`. Le champ imbriqué renseigne ensuite le champ source de cette ligne de mappage et vous la mappez à un champ cible de la même manière que n’importe quel autre champ source.
 
@@ -205,20 +205,20 @@ Si un profil comporte plusieurs valeurs dans le champ imbriqué, Collaboration f
 
 Pour gérer l’origine d’un champ non haché vers un champ cible haché, utilisez l’option **[!UICONTROL Appliquer la transformation]**. Par exemple, pour ajouter un deuxième champ d’e-mail, sélectionnez l’option **[!UICONTROL Ajouter un champ]** pour ajouter une nouvelle ligne, puis sélectionnez **[!UICONTROL E-mail haché]** pour le champ cible. Sélectionnez un champ source d’e-mail non haché, puis sélectionnez **[!UICONTROL Appliquer la transformation]**.
 
-![L’espace de travail Ajouter des audiences avec les champs sources d’e-mail mappés au champ cible, avec l’option Appliquer la transformation activée pour l’un.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
+![L’espace de travail Ajouter des audiences avec les champs source d’e-mail mappés au champ cible, avec l’option Appliquer la transformation activée pour un.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 
-Continuez à ajouter des paires de mappage pour chaque champ cible. Si vous ne souhaitez pas utiliser de clé de correspondance, vous pouvez la supprimer à l’aide de l’icône de suppression (![icône Supprimer](/help/assets/icons/delete.png)) située en regard du champ. Si la clé de correspondance est supprimée, vous ne pourrez pas l’utiliser lors de l’approvisionnement d’audiences à partir de la connexion.
+Continuez à ajouter des paires de mappage pour chaque champ cible. Si vous ne souhaitez pas utiliser de clé de correspondance, vous pouvez la supprimer à l’aide de l’icône Supprimer (![Icône Supprimer](/help/assets/icons/delete.png)) en regard du champ. Si la clé de correspondance est supprimée, vous ne pourrez pas l’utiliser lors de l’approvisionnement d’audiences à partir de la connexion.
 
-![Espace de travail Ajouter des audiences avec l’option Supprimer en surbrillance à côté d’un champ cible.](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+![L’espace de travail Ajouter des audiences avec l’option Supprimer en surbrillance à côté d’un champ cible.](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
 
-Si vous ajoutez un nouveau champ et sélectionnez **[!UICONTROL ID Demdex (ECID)]** comme champ cible, **[!UICONTROL ECID]** est automatiquement sélectionné comme champ source correspondant. Aucune autre action n’est requise.
+Si vous ajoutez un nouveau champ et sélectionnez **[!UICONTROL ID Demdex (ECID)]** comme champ cible, **[!UICONTROL ECID]** sera automatiquement sélectionné comme champ source correspondant. Aucune autre action n’est requise.
 
 <!-- The current screenshot does not show the text under the mapping dropdown as in design. Update this when it's available in the UI. -->
 ![L’espace de travail Ajouter des audiences avec le champ source ECID mappé automatiquement au champ cible ID Demdex (ECID).](/help/assets/setup/add-manage-audiences/ECID-automapped-field.png){zoomable="yes"}
 
 Lorsque vous avez terminé de mapper les champs, sélectionnez **[!UICONTROL Suivant]** pour continuer.
 
-![Espace de travail Ajouter des audiences avec les champs de mappage renseignés et l’option Suivant mise en surbrillance.](/help/assets/setup/add-manage-audiences/confirm-field-mapping.png){zoomable="yes"}
+![L’espace de travail Ajouter des audiences avec les champs de mappage renseignés et l’option Suivant mise en surbrillance.](/help/assets/setup/add-manage-audiences/confirm-field-mapping.png){zoomable="yes"}
 
 ### Planning {#schedule}
 
@@ -228,11 +228,11 @@ Ensuite, planifiez les dates de début et de fin du remplissage des audiences. L
 
 >[!IMPORTANT]
 >
->Le réglage de la fréquence des mises à jour de l’audience permet de gérer l’[activité de crédit Gestion de l’audience](/help/guide/setup/my-activity.md#types-of-activities), qui est calculée par actualisation de l’audience. La sélection d’une fréquence plus élevée peut avoir un impact sur l’actualisation des données disponibles pour les rapports de découverte d’audience et l’activation d’audience.
+>Le réglage de la fréquence des mises à jour de l’audience aidera à gérer l’[activité de crédit Audience Management](/help/guide/setup/my-activity.md#types-of-activities), qui est calculée par actualisation de l’audience. La sélection d’une fréquence plus élevée peut avoir un impact sur l’actualisation des données disponibles pour les rapports de découverte d’audience et l’activation d’audience.
 
-Sélectionnez la fréquence d’actualisation de l’audience dans le menu déroulant **[!UICONTROL Fréquence]**.
+Sélectionnez la fréquence d’actualisation de l’audience dans la liste déroulante **[!UICONTROL Fréquence]**.
 
-![L’espace de travail Ajouter des audiences de planification avec la liste déroulante Fréquence ouverte.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png){zoomable="yes"}
+![L’espace de travail de planification Ajouter des audiences avec la liste déroulante Fréquence ouverte.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png){zoomable="yes"}
 
 Sélectionnez ensuite la **[!UICONTROL Période]**. La date de début est la date à laquelle l’audience commencera à remplir avec des profils, et la date de fin est la date à laquelle l’audience cessera de s’actualiser.
 
@@ -240,17 +240,17 @@ Sélectionnez ensuite la **[!UICONTROL Période]**. La date de début est la dat
 
 >[!IMPORTANT]
 >
->Après la date de fin dans la période, toutes les audiences provenant de cette connexion de données cesseront de s’actualiser. Pour renouveler la connexion, suivez le guide [Gérer la connexion aux données](/help/guide/setup/manage-data-connection.md).
+>Après la date de fin dans la période, toutes les audiences provenant de cette connexion de données cesseront de s’actualiser. Pour renouveler la connexion, suivez le guide [gérer la connexion aux données](/help/guide/setup/manage-data-connection.md).
 
 ### Sélectionner des audiences {#select-audiences}
 
 Après avoir sélectionné la source de l’audience, vous choisirez des audiences spécifiques à inclure. Utilisez les options de recherche et de filtrage pour trouver les audiences appropriées à partir de votre connexion de données. Sélectionnez les audiences souhaitées, puis sélectionnez **[!UICONTROL Suivant]**.
 
-![Espace de travail Ajouter des audiences avec une liste des audiences disponibles.](/help/assets/setup/add-manage-audiences/select-audience.png){zoomable="yes"}
+![L’espace de travail Ajouter des audiences avec une liste des audiences disponibles.](/help/assets/setup/add-manage-audiences/select-audience.png){zoomable="yes"}
 
 ### Réviser
 
-Passez en revue toutes les configurations et tous les paramètres avant de finaliser l’ajout de l’audience. Assurez-vous que tous les détails sont corrects, puis sélectionnez **[!UICONTROL Terminé]** pour terminer la création de votre connexion aux données.
+Passez en revue toutes les configurations et tous les paramètres avant de finaliser l’ajout de l’audience. Assurez-vous que tous les détails sont corrects, puis sélectionnez **[!UICONTROL Terminer]** pour terminer la création de votre connexion aux données.
 
 ![L’espace de travail Ajouter des audiences avec toutes les configurations sélectionnées affichées.](/help/assets/setup/add-manage-audiences/review-connection.png){zoomable="yes"}
 
@@ -282,8 +282,8 @@ Chaque audience contient un aperçu des informations suivantes :
 
 Pour effectuer des actions rapides sur une audience, sélectionnez les points de suspension **...** en regard du nom de l’audience. Les options disponibles sont les suivantes :
 
-* **[!UICONTROL Modifier les catégories]** vous permet d’ajouter différentes balises de catégorie à l’audience. Pour plus d’informations, reportez-vous à la section [catégories](#categories) ci-dessous.
-* **[!UICONTROL Supprimer]** supprimera l’audience de la connexion aux données.
+* **[!UICONTROL Modifier les catégories]** vous permet d’ajouter différentes balises de catégorie à l’audience. Pour plus d&#39;informations, reportez-vous à la section [categories](#categories) ci-dessous.
+* **[!UICONTROL Supprimer]** supprimera l&#39;audience de la connexion aux données.
 
 ![L’espace de travail Mes audiences avec le menu représentant des points de suspension ouvert et les options Modifier les catégories et Supprimer mises en surbrillance.](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png){zoomable="yes"}
 
@@ -320,7 +320,7 @@ La section **[!UICONTROL Identités]** indique le nombre d’identités présent
 
 Placer le pointeur de la souris sur les sections individuelles de la répartition de la clé de correspondance fournit un nombre d’identités précis pour la clé correspondante.
 
-![Section Identités de l’espace de travail d’une audience individuelle avec une répartition de clé de correspondance affichée.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
+![La section Identités de l&#39;espace de travail d&#39;une audience individuelle avec une répartition de clé de correspondance affichée.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
 
 #### Catégories {#categories}
 
@@ -329,11 +329,11 @@ Placer le pointeur de la souris sur les sections individuelles de la répartitio
 >title="Catégories"
 >abstract="Balisez vos audiences pour une organisation, un filtrage et une récupération faciles. Vous pouvez baliser une audience avec plusieurs catégories, puis utiliser ces balises de catégorie pour filtrer les audiences de votre choix dans d’autres zones du produit."
 
-Pour une organisation, un filtrage et une récupération faciles des audiences, vous pouvez baliser vos audiences. Vous pouvez baliser une audience avec plusieurs catégories, puis utiliser ces balises de catégorie pour filtrer les audiences souhaitées dans la zone de produit [Discover](/help/guide/collaborate/discover.md) lors de l’exécution de rapports de chevauchement d’audiences.
+Pour une organisation, un filtrage et une récupération faciles des audiences, vous pouvez baliser vos audiences. Vous pouvez baliser une audience avec plusieurs catégories, puis utiliser ces balises de catégorie pour filtrer les audiences souhaitées dans la zone de produit [discover](/help/guide/collaborate/discover.md), lors de l’exécution de rapports de chevauchement d’audience.
 
 Pour ajouter des catégories, sélectionnez l’option **[!UICONTROL Modifier]** dans la section **[!UICONTROL Catégories]**.
 
-![Section Catégories de l’espace de travail d’une audience individuelle.](/help/assets/setup/add-manage-audiences/audience-details-categories.png){zoomable="yes"}
+![La section Catégories de l&#39;espace de travail d&#39;une audience individuelle.](/help/assets/setup/add-manage-audiences/audience-details-categories.png){zoomable="yes"}
 
 La boîte de dialogue **[!UICONTROL Catégories]** s’affiche, vous permettant de sélectionner les catégories que vous souhaitez ajouter à l’audience. Pour sélectionner une catégorie individuelle, cochez la case en regard du nom de la catégorie.
 
@@ -350,21 +350,21 @@ La boîte de dialogue **[!UICONTROL Catégories]** s’affiche, vous permettant 
 >title="En savoir plus"
 >abstract=""
 
-La disponibilité d’une audience à utiliser dans des projets avec des collaborateurs diffère en fonction du paramètre d’accès à la connexion. Dans la section **[!UICONTROL Accès à la connexion]** , vous pouvez choisir si l’audience doit être privée, publique ou disponible uniquement pour des connexions spécifiques. Les audiences publiques sont utilisables et détectables dans les connexions.
+La disponibilité d’une audience à utiliser dans des projets avec des collaborateurs diffère en fonction du paramètre d’accès à la connexion. Dans la section **[!UICONTROL Accès à la connexion]**, vous pouvez choisir si l’audience doit être privée, publique ou disponible uniquement pour des connexions spécifiques. Les audiences publiques sont utilisables et détectables dans les connexions.
 
 Pour mettre à jour l’accès à la connexion de l’audience, sélectionnez l’option **[!UICONTROL Modifier]** dans la section **[!UICONTROL Accès à la connexion]**.
 
-![Section Accès à la connexion de l’espace de travail d’une audience individuelle.](/help/assets/setup/add-manage-audiences/audience-details-connection-access.png){zoomable="yes"}
+![Section Accès à la connexion de l&#39;espace de travail d&#39;une audience individuelle.](/help/assets/setup/add-manage-audiences/audience-details-connection-access.png){zoomable="yes"}
 
-La boîte de dialogue **[!UICONTROL Accès de connexion]** s’affiche, avec trois options d’accès de connexion disponibles :
+La boîte de dialogue **[!UICONTROL Accès à la connexion]** apparaît, avec trois options d’accès à la connexion disponibles :
 
-* **[!UICONTROL Audience privée]**. Ces audiences ne sont *pas* disponibles pour une utilisation dans les rapports de chevauchement ou pour une activation dans les connexions avec des collaborateurs. Bien que les audiences ne soient pas disponibles pour les collaborateurs, la population des audiences contribue toujours à la population totale dans la vue **[!UICONTROL Toutes les audiences]** dans la section [Comparer les audiences](/help/guide/collaborate/discover.md#compare-audiences). Définissez le paramètre sur public ou personnalisé pour utiliser les audiences dans les connexions avec les collaborateurs.
-* **[!UICONTROL Public audience]**. Ces audiences peuvent être utilisées dans les rapports de chevauchement et pour l’activation dans les connexions avec des collaborateurs.
-* **[!UICONTROL Audience personnalisée]**. Ces audiences peuvent uniquement être utilisées dans les rapports de chevauchement et pour l’activation dans des connexions spécifiées. Bien que les audiences ne soient pas disponibles pour les collaborateurs, la population des audiences contribue toujours à la population totale dans la vue **[!UICONTROL Toutes les audiences]** dans la section [Comparer les audiences](/help/guide/collaborate/discover.md#compare-audiences).
+* **[!UICONTROL Audience privée]**. Ces audiences *ne* sont pas disponibles pour une utilisation dans des rapports de chevauchement ou pour activation dans des connexions avec des collaborateurs. Bien que les audiences ne soient pas disponibles pour les collaborateurs, la population des audiences contribue toujours à la population totale dans la vue **[!UICONTROL Toutes les audiences]** dans la section [comparer des audiences](/help/guide/collaborate/discover.md#compare-audiences). Définissez le paramètre sur public ou personnalisé pour utiliser les audiences dans les connexions avec les collaborateurs.
+* **[!UICONTROL Public]**. Ces audiences peuvent être utilisées dans les rapports de chevauchement et pour l’activation dans les connexions avec des collaborateurs.
+* **[!UICONTROL Audience personnalisée]**. Ces audiences peuvent uniquement être utilisées dans les rapports de chevauchement et pour l’activation dans des connexions spécifiées. Bien que les audiences ne soient pas disponibles pour les collaborateurs, la population des audiences contribue toujours à la population totale dans la vue **[!UICONTROL Toutes les audiences]** dans la section [comparer des audiences](/help/guide/collaborate/discover.md#compare-audiences).
 
 Sélectionnez l’option d’accès à la connexion souhaitée, puis sélectionnez **[!UICONTROL Enregistrer]** pour appliquer les modifications.
 
-![La boîte de dialogue Accès à la connexion avec les options disponibles s’affiche.](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png){zoomable="yes"}
+![La boîte de dialogue Accès à la connexion avec les options disponibles s&#39;affiche.](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -381,15 +381,15 @@ La disponibilité de l’audience à utiliser dans les projets avec des collabor
 
 >[!NOTE]
 >
->Si toutes les audiences de votre collaborateur sont définies sur privées, la section **[!UICONTROL Audiences pertinentes]** d’un projet dans l’espace de travail **[!UICONTROL Découvrir]** sera vide. Pour plus d’informations, consultez le guide [discover](/help/guide/collaborate/discover.md#relevant-audiences).
+>Si toutes les audiences de votre collaborateur sont définies comme privées, la section **[!UICONTROL Audiences pertinentes]** d&#39;un projet dans l&#39;espace de travail **[!UICONTROL Découvrir]** sera vide. Pour plus d’informations, consultez le guide [discover](/help/guide/collaborate/discover.md#relevant-audiences).
 
 La visibilité des métadonnées indique la visibilité des métadonnées d’une audience sur d’autres collaborateurs avant qu’ils ne se connectent avec vous ou dans différentes vues de projet. Pour mettre à jour la visibilité des métadonnées de l’audience, sélectionnez l’option **[!UICONTROL Modifier]** dans la section **[!UICONTROL Visibilité des métadonnées]**.
 
-![Section Visibilité des métadonnées de l’espace de travail d’une audience individuelle.](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png){zoomable="yes"}
+![La section Visibilité des métadonnées de l&#39;espace de travail d&#39;une audience individuelle.](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png){zoomable="yes"}
 
 La boîte de dialogue **[!UICONTROL Visibilité des métadonnées]** s’affiche, vous permettant de configurer les paramètres de visibilité de l’audience. Vous pouvez configurer deux paramètres de visibilité des métadonnées pour chaque audience :
 
-**[!UICONTROL Afficher le nombre d’identités]** : ce paramètre contrôle si votre collaborateur peut afficher le nombre d’identités de vos audiences lors de l’[affichage de rapports de chevauchement dans l’onglet Détection](/help/guide/collaborate/discover.md#discover-overlaps) au sein d’un projet.
+**[!UICONTROL Afficher le nombre d’identités]** : ce paramètre contrôle si votre collaborateur peut afficher le nombre d’identités de vos audiences lors de l’[affichage de rapports de chevauchement dans l’onglet de découverte](/help/guide/collaborate/discover.md#discover-overlaps) d’un projet.
 
 **[!UICONTROL Afficher le chevauchement des audiences %]** : ce paramètre contrôle si les collaborateurs sont en mesure de [découvrir des pourcentages de chevauchement](/help/guide/collaborate/discover.md#compare-audiences) entre leurs audiences et vos audiences.
 
@@ -399,53 +399,53 @@ La boîte de dialogue **[!UICONTROL Visibilité des métadonnées]** s’affiche
 >
 >Pour que les paramètres de visibilité des métadonnées prennent effet, l’audience doit être définie sur publique ou personnalisée.
 
-![La boîte de dialogue Visibilité des métadonnées avec les options disponibles s’affiche.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png){zoomable="yes"}
+![Boîte de dialogue de visibilité des métadonnées avec les options disponibles affichées.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png){zoomable="yes"}
 
 ## Modification de plusieurs audiences {#edit-audiences}
 
 Dans le tableau de bord des audiences, vous pouvez modifier plusieurs audiences à la fois. Pour ce faire, sélectionnez les audiences que vous souhaitez modifier en cochant les cases en regard de leur nom. Une fois les audiences sélectionnées, vous pouvez effectuer des actions à l’aide des options disponibles dans le menu d’édition.
 
-![Espace de travail Mes audiences avec deux audiences sélectionnées et le menu Modifier mis en surbrillance.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit.png)
+![L’espace de travail Mes audiences avec deux audiences sélectionnées et le menu Modifier mis en surbrillance.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit.png)
 
 ### Modification en masse de la visibilité des métadonnées {#bulk-edit-metadata-visibility}
 
-Une fois vos audiences sélectionnées dans le tableau de bord d’audience, sélectionnez **[!UICONTROL Modifier la visibilité des métadonnées]** dans le menu de modification.
+Une fois vos audiences sélectionnées dans le tableau de bord des audiences, sélectionnez **[!UICONTROL Modifier la visibilité des métadonnées]** dans le menu de modification.
 
-![Espace de travail Mes audiences avec l’option Modifier la visibilité des métadonnées mise en surbrillance.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
+![L’espace de travail Mes audiences avec l’option Modifier la visibilité des métadonnées mise en surbrillance.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
 
 La boîte de dialogue **[!UICONTROL Visibilité des métadonnées]** s’affiche, vous permettant de configurer les paramètres de visibilité des audiences sélectionnées. Par défaut, aucune option n’est sélectionnée. Choisissez les options à appliquer à toutes les audiences sélectionnées, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-![La boîte de dialogue Visibilité des métadonnées avec les options disponibles s’affiche.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+![Boîte de dialogue de visibilité des métadonnées avec les options disponibles affichées.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
 
 ### Modifier en bloc l’accès à la connexion {#bulk-edit-connection-access}
 
-Une fois vos audiences sélectionnées dans le tableau de bord des audiences, sélectionnez **[!UICONTROL Modifier l’accès à la connexion]** dans le menu de modification.
+Une fois vos audiences sélectionnées dans le tableau de bord d’audience, sélectionnez **[!UICONTROL Modifier l’accès à la connexion]** dans le menu de modification.
 
-![Espace de travail Mes audiences avec l’option Modifier l’accès à la connexion mise en surbrillance.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
+![L’espace de travail Mes audiences avec l’option Modifier l’accès à la connexion mise en surbrillance.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
 
 La boîte de dialogue **[!UICONTROL Accès à la connexion]** s’affiche, vous permettant de configurer les paramètres d’accès pour les audiences sélectionnées. Par défaut, l’option **[!UICONTROL Audience privée]** est sélectionnée. Choisissez les options à appliquer à toutes les audiences sélectionnées, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-![La boîte de dialogue Accès à la connexion avec les options disponibles s’affiche.](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
+![La boîte de dialogue Accès à la connexion avec les options disponibles s&#39;affiche.](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
 
 ### Modifier en masse les noms et les descriptions des audiences {#bulk-edit-audience-names-descriptions}
 
 Une fois vos audiences sélectionnées dans le tableau de bord d’audience, sélectionnez **[!UICONTROL Modifier le nom et la description]** dans le menu de modification.
 
-![Espace de travail Mes audiences avec l’option Modifier le nom et la description mise en surbrillance.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
+![L’espace de travail Mes audiences avec l’option Modifier le nom et la description mise en surbrillance.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
 
-La boîte de dialogue **[!UICONTROL Nom et description]** s’affiche, vous permettant de configurer le nom et la description de chaque audience sélectionnée. Par défaut, les noms et descriptions actuels s’affichent pour chaque audience. Apportez vos modifications, puis sélectionnez **[!UICONTROL Enregistrer]**.
+La boîte de dialogue **[!UICONTROL Nom et description]** apparaît, vous permettant de configurer le nom et la description de chaque audience sélectionnée. Par défaut, les noms et descriptions actuels s’affichent pour chaque audience. Apportez vos modifications, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-![La boîte de dialogue Nom et description avec les options disponibles affichées.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
+![La boîte de dialogue Nom et description avec les options disponibles s&#39;affiche.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
 
 ### Modification en masse de catégories {#bulk-edit-categories}
 
 Une fois vos audiences sélectionnées dans le tableau de bord d’audience, sélectionnez **[!UICONTROL Modifier les catégories]** dans le menu de modification.
 
-![Espace de travail Mes audiences avec l’option Modifier les catégories mise en surbrillance.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
+![L’espace de travail Mes audiences avec l’option Modifier les catégories mise en surbrillance.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
 
 La boîte de dialogue **[!UICONTROL Catégories]** s’affiche, vous permettant de configurer les catégories pour chaque audience sélectionnée. Par défaut, aucune catégorie ne sera sélectionnée. Pour sélectionner une catégorie, sélectionnez d’abord la catégorie principale, puis sélectionnez les sous-catégories à inclure. Apportez vos modifications, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-![La boîte de dialogue Catégories avec les options disponibles s’affiche.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
+![La boîte de dialogue Catégories avec les options disponibles s&#39;affiche.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 
 ## Étapes suivantes
 

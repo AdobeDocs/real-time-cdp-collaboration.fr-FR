@@ -2,10 +2,10 @@
 user-guide-title: Collaboration Real-Time CDP
 breadcrumb-title: Collaboration Real-Time CDP
 user-guide-description: Adobe Real-Time CDP Collaboration met à disposition un partage de données et une collaboration transparents et sécurisés entre les annonceurs et les éditeurs, ce qui permet l’obtention d’informations en temps réel sur les audiences et la mise en place de stratégies marketing personnalisées.
-source-git-commit: 7d357938bfa89b8ce9a8633c6d09589c0c5762e5
+source-git-commit: 5ad6bc22bc2070de9adc9ce6256113aaeeac8fce
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 30%
+source-wordcount: '283'
+ht-degree: 32%
 ---
 
 # Collaboration Real-Time CDP {#using}
@@ -33,6 +33,7 @@ ht-degree: 30%
     * [Configuration de Snowflake pour le sourcing d’audience](./setup/configure-snowflake-audience-sourcing.md)
     * [Configuration du partage Delta des briques de données pour l’audience](./setup/configure-databricks-audience-sourcing.md)
     * [Configuration de Adobe Audience Manager pour le sourcing d’audience](./setup/configure-aam-audience-sourcing.md)
+  * {hide-from-toc}[Accès à l’audience et autorisations](./setup/virtual-audience-access.md)
   * [Gérer les connexions de données](./setup/manage-data-connection.md)
   * [Configurer et gérer la résolution d’identité](./setup/identity-resolution.md)
   * [Suivre votre activité de consommation de crédit](/help/guide/setup/my-activity.md)
@@ -54,7 +55,7 @@ ht-degree: 30%
   * [Gérer des connexions](./connect/manage-connections.md)
   * Connexions à la plateforme Advertising {#ad-platform-connections}
     * [Vue d’ensemble](/help/guide/connect/advertising-platforms/overview.md)
-    * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
+    * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * Collaborer {#collaborate}
   * [Vue d’ensemble](/help/guide/collaborate/overview.md)
   * [Gestion des projets](./collaborate/manage-projects.md)
@@ -64,7 +65,7 @@ ht-degree: 30%
     * [Activer](./collaborate/activate.md)
     * [Mesure](./collaborate/measure.md)
   * Connexions à la plateforme Advertising {#ad-platform-connections}
-    * [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)
+    * [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)
     * [Créer des rapports de mesure AMC](./collaborate/advertising-platforms/amc-measure.md)
     * {hide-from-toc}[Enrichissement du profil Trade Desk (Alpha)](./collaborate/advertising-platforms/trade-desk-profile-enrichment.md)
 * Destinations {#destinations}
@@ -72,6 +73,7 @@ ht-degree: 30%
   * [Configuration et gestion des destinations de stockage dans le cloud](./destinations/manage-destinations.md)
   * [Exigences de destination du stockage dans le cloud](./destinations/cloud-storage-destination-requirements.md)
   * [Configuration de Adobe Experience Platform en tant que destination](./destinations/experience-platform.md)
+  * {hide-from-toc}[Activer les audiences directement (1P)](./destinations/direct-audience-activation.md)
 * Autorisations {#permissions}
   * [Vue d’ensemble](/help/guide/permissions/overview.md)
   * [Gérer l’accès utilisateur](./permissions/manage-user-access.md)
